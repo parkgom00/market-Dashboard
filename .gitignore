@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+scanner/out/
+scanner/.cache/
+.env
+*.zip
