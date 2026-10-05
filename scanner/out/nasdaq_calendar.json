@@ -218,8 +218,8 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "58.7",
-  "actual": "",
-  "previous": "56.5"
+  "actual": "58.8",
+  "previous": "58.7"
  },
  {
   "date": "2026-10-05",
@@ -228,7 +228,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "55.1",
-  "actual": "",
+  "actual": "54.9",
   "previous": "55.4"
  },
  {
@@ -557,7 +557,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "56.5"
+  "previous": "58.8"
  },
  {
   "date": "2026-10-23",
