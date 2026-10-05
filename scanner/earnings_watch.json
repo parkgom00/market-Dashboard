@@ -1,14 +1,190 @@
 {
-  "US": [
-    {"ticker": "NVDA", "name": "엔비디아"}, {"ticker": "AVGO", "name": "브로드컴"}, {"ticker": "MU", "name": "마이크론"},
-    {"ticker": "AAPL", "name": "애플"}, {"ticker": "MSFT", "name": "마이크로소프트"}, {"ticker": "GOOGL", "name": "알파벳"},
-    {"ticker": "AMZN", "name": "아마존"}, {"ticker": "META", "name": "메타"}, {"ticker": "TSLA", "name": "테슬라"},
-    {"ticker": "TSM", "name": "TSMC"}, {"ticker": "AMD", "name": "AMD"}, {"ticker": "ORCL", "name": "오라클"}
-  ],
-  "KR": [
-    {"ticker": "005930.KS", "name": "삼성전자"}, {"ticker": "000660.KS", "name": "SK하이닉스"},
-    {"ticker": "373220.KS", "name": "LG에너지솔루션"}, {"ticker": "005380.KS", "name": "현대차"},
-    {"ticker": "035420.KS", "name": "NAVER"}, {"ticker": "207940.KS", "name": "삼성바이오로직스"},
-    {"ticker": "012450.KS", "name": "한화에어로스페이스"}, {"ticker": "005490.KS", "name": "POSCO홀딩스"}
-  ]
+ "US": [
+  {
+   "ticker": "NVDA",
+   "name": "엔비디아"
+  },
+  {
+   "ticker": "AVGO",
+   "name": "브로드컴"
+  },
+  {
+   "ticker": "MU",
+   "name": "마이크론"
+  },
+  {
+   "ticker": "AAPL",
+   "name": "애플"
+  },
+  {
+   "ticker": "MSFT",
+   "name": "마이크로소프트"
+  },
+  {
+   "ticker": "GOOGL",
+   "name": "알파벳"
+  },
+  {
+   "ticker": "AMZN",
+   "name": "아마존"
+  },
+  {
+   "ticker": "META",
+   "name": "메타"
+  },
+  {
+   "ticker": "TSLA",
+   "name": "테슬라"
+  },
+  {
+   "ticker": "TSM",
+   "name": "TSMC"
+  },
+  {
+   "ticker": "AMD",
+   "name": "AMD"
+  },
+  {
+   "ticker": "ORCL",
+   "name": "오라클"
+  },
+  {
+   "ticker": "INTC",
+   "name": "인텔"
+  },
+  {
+   "ticker": "QCOM",
+   "name": "퀄컴"
+  },
+  {
+   "ticker": "ARM",
+   "name": "ARM"
+  },
+  {
+   "ticker": "MRVL",
+   "name": "마벨"
+  },
+  {
+   "ticker": "AMAT",
+   "name": "어플라이드머티리얼즈"
+  },
+  {
+   "ticker": "LRCX",
+   "name": "램리서치"
+  },
+  {
+   "ticker": "KLAC",
+   "name": "KLA"
+  },
+  {
+   "ticker": "ASML",
+   "name": "ASML"
+  },
+  {
+   "ticker": "SMCI",
+   "name": "슈퍼마이크로"
+  },
+  {
+   "ticker": "DELL",
+   "name": "델"
+  },
+  {
+   "ticker": "NFLX",
+   "name": "넷플릭스"
+  },
+  {
+   "ticker": "CRM",
+   "name": "세일즈포스"
+  },
+  {
+   "ticker": "ADBE",
+   "name": "어도비"
+  },
+  {
+   "ticker": "NOW",
+   "name": "서비스나우"
+  },
+  {
+   "ticker": "PLTR",
+   "name": "팔란티어"
+  },
+  {
+   "ticker": "JPM",
+   "name": "JP모건"
+  },
+  {
+   "ticker": "GS",
+   "name": "골드만삭스"
+  },
+  {
+   "ticker": "V",
+   "name": "비자"
+  },
+  {
+   "ticker": "MA",
+   "name": "마스터카드"
+  },
+  {
+   "ticker": "WMT",
+   "name": "월마트"
+  },
+  {
+   "ticker": "COST",
+   "name": "코스트코"
+  },
+  {
+   "ticker": "NKE",
+   "name": "나이키"
+  },
+  {
+   "ticker": "XOM",
+   "name": "엑슨모빌"
+  },
+  {
+   "ticker": "BA",
+   "name": "보잉"
+  },
+  {
+   "ticker": "LLY",
+   "name": "일라이릴리"
+  },
+  {
+   "ticker": "UNH",
+   "name": "유나이티드헬스"
+  }
+ ],
+ "KR": [
+  {
+   "ticker": "005930.KS",
+   "name": "삼성전자"
+  },
+  {
+   "ticker": "000660.KS",
+   "name": "SK하이닉스"
+  },
+  {
+   "ticker": "373220.KS",
+   "name": "LG에너지솔루션"
+  },
+  {
+   "ticker": "005380.KS",
+   "name": "현대차"
+  },
+  {
+   "ticker": "035420.KS",
+   "name": "NAVER"
+  },
+  {
+   "ticker": "207940.KS",
+   "name": "삼성바이오로직스"
+  },
+  {
+   "ticker": "012450.KS",
+   "name": "한화에어로스페이스"
+  },
+  {
+   "ticker": "005490.KS",
+   "name": "POSCO홀딩스"
+  }
+ ]
 }

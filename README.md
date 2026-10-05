@@ -42,7 +42,8 @@ GitHub 의 정기 실행은 몇 분씩 늦어질 수 있습니다. 직접 돌리
 ## 비밀 키 등록 (GitHub Secrets)
 
 저장소 Settings → Secrets and variables → Actions → New repository secret 에 등록합니다. 파일에는 절대 적지 마세요.
-현재 필요한 비밀 키는 없습니다.
+등록해 둔 비밀 키: `GEMINI_API_KEY` (유튜브 AI 요약, 미국장 AI 브리핑). 없으면 AI 요약만 건너뛰고 나머지는 그대로 동작합니다.
+제미나이 키는 https://aistudio.google.com/apikey 에서 무료로 발급하며, GitHub 저장소 Settings → Secrets and variables → Actions → New repository secret 에 등록합니다.
 
 ## 테마 연결표 (`scanner/theme_map.json`)
 

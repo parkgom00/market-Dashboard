@@ -173,5 +173,26 @@ def gen_fail_then_ok(prompt, system, search):
 r = us_brief.generate_brief("2026-10-02", collect_us.build_indices(chg), collect_us.build_sectors(chg), [], gen_fail_then_ok)
 check("검색 실패 시 검색 없이 재시도하고 grounded=False 표시", calls == [True, False] and r["grounded"] is False)
 
+# ── 나스닥 캘린더·만기일 ─────────────────────────────────
+import collect_nasdaq_calendar as nc
+check("나스닥 시각 변환: CPI(api 10/15, 08:30) → 한국 10/14 21:30", nc.to_kst(date(2026, 10, 15), "08:30") == ("2026-10-14", "21:30"))
+check("FOMC(api 10/29, 14:00) → 한국 10/29 03:00 (공식 일정과 일치)", nc.to_kst(date(2026, 10, 29), "14:00") == ("2026-10-29", "03:00"))
+rows = [{"country": "United States", "eventName": "Core CPI MoM", "gmt": "08:30", "consensus": "0.3%", "actual": "", "previous": "0.2%"},
+        {"country": "United States", "eventName": "Cleveland CPI", "gmt": "08:30"}, {"country": "Brazil", "eventName": "CPI"}]
+pe = nc.parse_econ(rows, date(2026, 10, 15))
+check("지표 필터: 화이트리스트만, 제외어·타국 제외, 전월비 꼬리표", len(pe) == 1 and pe[0]["title"] == "미국 근원 CPI (전월비)" and pe[0]["level"] == "major")
+er = nc.parse_earnings([{"symbol": "NVDA", "time": "time-after-hours", "epsForecast": "$1.0", "eps": "$1.1", "surprise": "10"},
+                        {"symbol": "ZZZZ", "time": ""}], date(2026, 11, 19), {"NVDA": "엔비디아"})
+check("실적: 관심 종목만, 장마감 후는 한국 다음 날, 서프라이즈 문구", len(er) == 1 and er[0]["date"] == "2026-11-20" and "서프라이즈 10%" in nc.lines_for(er[0])[0])
+host = [{"date": "2026-10-14", "type": "econ", "market": "US", "title": "CPI 발표", "ind": "CPI", "ref": "2026-09"}]
+nas = [dict(pe[0], date="2026-10-14", time="21:30"), {"date": "2026-10-15", "time": "21:30", "title": "미국 소매판매", "level": "macro", "kind": "econ", "consensus": "0.4%", "actual": "", "previous": "0.1%"}]
+mg = build_calendar.attach_results(build_calendar.attach_nasdaq(host, nas), {}, date(2026, 10, 6))
+check("공식 일정에는 예상/이전 줄을 붙이고, 그 밖의 지표는 독립 일정으로 추가",
+      len(mg) == 2 and "예상 0.3%" in mg[0]["result"][0] and mg[0]["time"] == "21:30" and mg[1]["title"] == "미국 소매판매" and mg[1]["market"] == "US")
+ex = build_calendar.expiry_events([2026], {"2026-10-08"})
+exd = {(e["market"], e["date"]): e["title"] for e in ex}
+check("옵션 만기: 한국 둘째 목요일(9/10 동시만기), 휴장이면 앞 영업일(10/8→10/7), 미국 셋째 금요일(9/18 쿼드러플)",
+      "동시만기" in exd[("KR", "2026-09-10")] and ("KR", "2026-10-07") in exd and "쿼드러플" in exd[("US", "2026-09-18")])
+
 print(f"\n{sum(ok)}/{len(ok)} 통과")
 raise SystemExit(0 if all(ok) else 1)

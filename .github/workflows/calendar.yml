@@ -11,7 +11,7 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -25,6 +25,7 @@ jobs:
         continue-on-error: true
         run: |
           python collect_econ.py
+          python collect_nasdaq_calendar.py
           python collect_earnings.py
       - name: 캘린더 생성
         working-directory: scanner

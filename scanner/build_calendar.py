@@ -71,7 +71,7 @@ def merge(fixed, extra_lists, manual):
                 continue
             seen_holiday.add(key)
         ev = {"date": e["date"], "type": e["type"], "market": e.get("market", ""), "title": e["title"]}
-        for k in ("ind", "ref"):
+        for k in ("ind", "ref", "time", "major"):
             if e.get(k):
                 ev[k] = e[k]
         events.append(ev)
@@ -90,16 +90,72 @@ def _load_out(name):
     return None
 
 
+def _market_of(title):
+    for pre, m in (("한국", "KR"), ("BOJ", "JP"), ("중국", "CN")):
+        if title.startswith(pre):
+            return m
+    return "US"
+
+
+def attach_nasdaq(events, nas):
+    """나스닥 캘린더를 합침. 공식 일정(ind)이 있는 지표 계열은 그 일정에 예상/실제/이전 줄(extra)로 붙이고,
+    그 밖의 지표·실적은 독립 일정으로 추가."""
+    import collect_nasdaq_calendar as nc
+    by = {(e["ind"], e["date"]): e for e in events if e.get("ind")}
+    out = list(events)
+    for n in nas:
+        lines = nc.lines_for(n)
+        fam = nc.family_of(n["title"]) if n["kind"] == "econ" else None
+        host = by.get((fam, n["date"])) if fam else None
+        if host is not None:
+            if lines:
+                host.setdefault("extra", []).append(f"{n['title']}: {lines[0]}")
+            if n.get("time") and not host.get("time"):
+                host["time"] = n["time"]
+            continue
+        ev = {"date": n["date"], "type": "earnings" if n["kind"] == "earnings" else "econ", "market": _market_of(n["title"]) if n["kind"] == "econ" else "US",
+              "title": n["title"]}
+        if n.get("time"):
+            ev["time"] = n["time"]
+        if n.get("level") == "major":
+            ev["major"] = True
+        if lines:
+            ev["extra"] = lines
+        out.append(ev)
+    return out
+
+
 def attach_results(events, results, today):
-    """발표일이 지난 지표에 결과 줄(result)을 붙이고, 내부용 ind/ref 는 제거."""
+    """발표일이 지난 지표에 FRED 결과를, 모든 일정에 나스닥 예상/실제 줄(extra)을 result 로 합쳐 붙임. 내부용 ind/ref 는 제거."""
     for e in events:
         ind, ref = e.pop("ind", None), e.pop("ref", None)
-        if not ind or e["date"] > today.isoformat():
-            continue
-        key = f"FOMC|{e['date']}" if ind == "FOMC" else f"{ind}|{ref}"
-        if results.get(key):
-            e["result"] = results[key]
+        lines = []
+        if ind and e["date"] <= today.isoformat():
+            key = f"FOMC|{e['date']}" if ind == "FOMC" else f"{ind}|{ref}"
+            lines += results.get(key, [])
+        lines += e.pop("extra", [])
+        if lines:
+            e["result"] = lines
     return events
+
+
+def expiry_events(years, closed_kr):
+    """규칙으로 정해지는 만기일. 한국 옵션 만기=매월 둘째 목요일(휴장이면 앞 영업일, 3·6·9·12월은 선물옵션 동시만기),
+    미국 옵션 만기=매월 셋째 금요일(3·6·9·12월은 쿼드러플 위칭)."""
+    out = []
+    for y in years:
+        for m in range(1, 13):
+            d = date(y, m, 1)
+            thu = [d + timedelta(days=i) for i in range(31) if (d + timedelta(days=i)).month == m and (d + timedelta(days=i)).weekday() == 3][1]
+            while thu.weekday() >= 5 or thu.isoformat() in closed_kr:
+                thu -= timedelta(days=1)
+            quad = m in (3, 6, 9, 12)
+            out.append({"date": thu.isoformat(), "type": "event", "market": "KR",
+                        "title": "선물옵션 동시만기일 (변동성 주의)" if quad else "옵션 만기일"})
+            fri = [d + timedelta(days=i) for i in range(31) if (d + timedelta(days=i)).month == m and (d + timedelta(days=i)).weekday() == 4][2]
+            out.append({"date": fri.isoformat(), "type": "event", "market": "US",
+                        "title": "미국 쿼드러플 위칭 (한국시간 토요일 새벽 마감)" if quad else "미국 옵션 만기일"})
+    return out
 
 
 def dedupe_earnings(events):
@@ -126,6 +182,9 @@ def build(target=TARGET, today=None):
     events = merge(_read("calendar_fixed.json")["events"],
                    [library_holidays(years), krx_extra_closures(years)],
                    _read("calendar_manual.json") + (_load_out("earnings.json") or []))
+    closed_kr = {e["date"] for e in events if e["type"] == "holiday" and e.get("market") == "KR"}
+    events += [x for x in expiry_events(years, closed_kr) if date.fromisoformat(x["date"]).weekday() < 6]
+    events = attach_nasdaq(events, _load_out("nasdaq_calendar.json") or [])
     events = dedupe_earnings(events)
     events = attach_results(events, _load_out("econ_results.json") or {}, today)
     payload = {"generatedAt": datetime.now(KST).strftime("%Y-%m-%d %H:%M"), "events": events}

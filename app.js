@@ -99,7 +99,7 @@
       return '<div class="ev">' +
         (withDate ? '<span class="d">' + esc(e.date.slice(5).replace("-", "/")) + "</span>" : "") +
         '<span class="tag ' + esc(e.type) + '">' + esc(TYPE[e.type] || e.type) + "</span>" +
-        "<span>" + (e.market ? '<span class="muted">' + esc(e.market) + " · </span>" : "") + esc(e.title) +
+        "<span>" + (e.market ? '<span class="muted">' + esc(e.market) + " · </span>" : "") + (e.time ? '<span class="muted">' + esc(e.time) + " </span>" : "") + (e.major ? "<b>" + esc(e.title) + "</b>" : esc(e.title)) +
         ((e.result || []).length ? '<div class="evres">' + e.result.map(function (r) { return "<div>" + esc(r) + "</div>"; }).join("") + "</div>" : "") +
         "</span></div>";
     }
