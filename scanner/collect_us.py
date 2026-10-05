@@ -154,6 +154,7 @@ def ensure_brief(payload, themes):
     import us_brief
     if not gemini.api_key():
         print("GEMINI_API_KEY 없음: AI 브리핑 건너뜀")
+        payload["briefStatus"] = "제미나이 키를 못 찾음 (Settings → Secrets and variables → Actions 의 Repository secrets 확인)"
         return
     def gen(prompt, system, search):
         return gemini.generate(prompt, system=system, search=search, want_json=True, max_tokens=16384)
@@ -161,6 +162,8 @@ def ensure_brief(payload, themes):
         brief = us_brief.generate_brief(payload["forDate"], payload["indices"], payload["sectors"], kr_hint_lines(themes), gen)
     except Exception as e:
         print("경고: AI 브리핑 실패 (다음 실행에 재시도):", e)
+        import re
+        payload["briefStatus"] = re.sub(r"AIza[\w-]{10,}", "[키]", f"AI 브리핑 생성 실패(다음 실행에 재시도): {e}")[:400]
         return
     tickers = sorted({c["usTicker"] for c in brief["connections"]})
     pct = {}

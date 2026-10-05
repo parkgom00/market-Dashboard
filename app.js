@@ -164,6 +164,8 @@
         }).join("") + "</div>";
       };
       h += chk("오늘 국장 체크 · 조심할 점", br.caution, "caution") + chk("오늘 국장 체크 · 눈여겨볼 곳", br.watch, "watch");
+    } else if (u.briefStatus) {
+      h += '<div class="card"><h3>간밤 미국장 이슈 · 국장 대응</h3><div class="muted">아직 AI 브리핑이 만들어지지 않았습니다. ' + esc(u.briefStatus) + "</div></div>";
     } else if ((u.summary || []).length) {
       h += '<div class="card"><h3>어제 미국장 이슈</h3><ul class="plain">' + u.summary.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ul></div>";
     }

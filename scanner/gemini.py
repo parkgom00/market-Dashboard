@@ -153,6 +153,7 @@ def generate(prompt, system=None, video_url=None, want_json=False, search=False,
     elif want_json:
         body["generationConfig"]["responseMimeType"] = "application/json"
     last = None
+    errs = []
     for rnd in range(retries + 1):
         for model in get_models():
             url = f"{BASE}/models/{model}:generateContent"
@@ -162,11 +163,22 @@ def generate(prompt, system=None, video_url=None, want_json=False, search=False,
                 return extract_json(text) if want_json else text
             except GeminiBusy as e:    # 이 모델이 혼잡/한도 → 다음 모델로
                 last = e
+                errs.append(f"{model}: {_short(e)}")
             except ValueError as e:    # JSON 파싱 실패 → 다음 모델로
                 last = GeminiError(str(e))
+                errs.append(f"{model}: JSON 형식 오류")
         if rnd < retries:
             time.sleep(20 * (rnd + 1))
-    raise last
+    detail = " | ".join(errs[-4:])
+    raise (GeminiBusy if isinstance(last, GeminiBusy) else GeminiError)(detail or str(last))
+
+
+def _short(e):
+    """오류 문구를 짧게: 'HTTP 503 ... high demand' 정도만."""
+    t = " ".join(str(e).split())
+    m = re.search(r'"message":\s*"([^"]{0,90})', t)
+    code = re.match(r"HTTP (\d+)", t)
+    return ((code.group(0) + " ") if code else "") + (m.group(1) if m else t[:90])
 
 
 def used_model():
