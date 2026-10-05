@@ -1,32 +1,69 @@
-// 2장: 전날 미국장 정리 + 특징주 + 국내 연관주
-// 숫자와 설명은 모두 화면 확인용 샘플입니다.
-// krStocks 는 '테마 연결표(data/theme_map.js, 추후 추가)'를 근거로 채우는 것을 권장합니다.
+// 자동 생성 파일 (scanner/collect_us.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.usmarket = {
-  sample: true,   // 실제 수집이 연결되면 이 줄은 자동으로 사라집니다
-  asOf: "2026-10-02 (금) 미국 정규장 기준",
-  indices: [
-    { name: "나스닥",   close: 0, changePct: 0.0 },
-    { name: "S&P 500", close: 0, changePct: 0.0 },
-    { name: "다우",     close: 0, changePct: 0.0 }
-  ],
-  summary: [
-    "[샘플] 여기에 전날 미국장 핵심 이슈 3~5줄이 들어갑니다.",
-    "[샘플] 금리·환율·주요 경제지표 등 시장 분위기를 한눈에 보여줍니다."
-  ],
-  themes: [
+ "asOf": "2026-10-05 (월) 미국 정규장 기준",
+ "indices": [
+  {
+   "name": "나스닥",
+   "close": 27391.54,
+   "changePct": 0.74
+  },
+  {
+   "name": "S&P 500",
+   "close": 7756.02,
+   "changePct": 0.43
+  },
+  {
+   "name": "다우",
+   "close": 51094.79,
+   "changePct": -0.16
+  }
+ ],
+ "summary": [],
+ "themes": [
+  {
+   "name": "전력 인프라·원전",
+   "changePct": 2.25,
+   "why": "",
+   "usStocks": [
     {
-      name: "[샘플] 반도체 / AI 인프라",
-      changePct: 0.0,
-      why: "[샘플] 해당 테마가 오른 이유를 한두 문장으로 설명합니다.",
-      usStocks: [
-        { ticker: "NVDA", name: "엔비디아", changePct: 0.0 },
-        { ticker: "AVGO", name: "브로드컴", changePct: 0.0 }
-      ],
-      krStocks: [
-        { code: "000000", name: "[샘플] 국내 연관주 A", link: "미국 대표주와 같은 공급망에 속한 이유를 간략히 설명합니다." },
-        { code: "000001", name: "[샘플] 국내 연관주 B", link: "연결 근거(납품 관계, 동일 업황 등)를 적습니다." }
-      ]
+     "ticker": "CEG",
+     "name": "컨스텔레이션에너지",
+     "changePct": 4.45
+    },
+    {
+     "ticker": "VST",
+     "name": "비스트라",
+     "changePct": 4.22
+    },
+    {
+     "ticker": "ETN",
+     "name": "이튼",
+     "changePct": 0.35
+    },
+    {
+     "ticker": "GEV",
+     "name": "GE베르노바",
+     "changePct": -0.01
     }
-  ]
+   ],
+   "krStocks": [
+    {
+     "code": "034020",
+     "name": "두산에너빌리티",
+     "link": "원전·가스터빈 주기기를 제조"
+    },
+    {
+     "code": "052690",
+     "name": "한전기술",
+     "link": "원전 설계 전문, 원전 투자 확대와 연동"
+    },
+    {
+     "code": "010120",
+     "name": "LS ELECTRIC",
+     "link": "배전반 등 전력기기, 데이터센터 전력 수요와 연동"
+    }
+   ]
+  }
+ ]
 };
