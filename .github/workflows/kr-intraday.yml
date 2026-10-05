@@ -23,14 +23,6 @@ jobs:
       - name: 국내 시세 수집
         working-directory: scanner
         run: python collect_kr.py
-      - name: "[특징주] 뉴스 (네이버 키가 등록된 경우만)"
-        continue-on-error: true
-        working-directory: scanner
-        env:
-          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
-          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
-        run: |
-          if [ -n "$NAVER_CLIENT_ID" ]; then python fetch_news.py; else echo "네이버 키가 없어 뉴스는 건너뜁니다"; fi
       - name: 변경된 데이터 저장
         if: ${{ !cancelled() }}
         run: bash scanner/commit_data.sh

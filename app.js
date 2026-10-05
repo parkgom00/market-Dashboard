@@ -181,6 +181,11 @@
     h += '<div class="muted" style="margin-bottom:8px">데이터 기준 ' + esc(L.asOf || "-") + (liveStatus ? " · " + esc(liveStatus) : "") + "</div>";
     h += seg([{ id: "kr", label: "국내" }, { id: "us", label: "미국" }], liveMarket, "data-lm");
 
+    if (!m.news && liveMarket === "kr") {
+      h += '<div class="card"><h3>[특징주] 뉴스</h3><div class="muted" style="margin-bottom:8px">제목만 모아 보여주는 대신, 최신순 검색 결과로 바로 연결합니다.</div>' +
+        '<a class="btnlink" href="https://search.naver.com/search.naver?where=news&query=%5B%ED%8A%B9%EC%A7%95%EC%A3%BC%5D&sort=1" target="_blank" rel="noopener noreferrer">네이버 뉴스 · [특징주] 최신순 ›</a>' +
+        '<a class="btnlink" href="https://news.google.com/search?q=%5B%ED%8A%B9%EC%A7%95%EC%A3%BC%5D%20when%3A1d&hl=ko&gl=KR&ceid=KR%3Ako" target="_blank" rel="noopener noreferrer">구글 뉴스 · [특징주] 최근 24시간 ›</a></div>';
+    }
     if (m.news) {
       h += '<div class="card"><h3>[특징주] 뉴스</h3>' +
         (m.news.length ? m.news.map(function (n) {

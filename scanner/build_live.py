@@ -1,7 +1,7 @@
 """scanner/out/ 의 조각 파일들을 합쳐 data/live.js 를 만듭니다.
 
 조각 파일 (있는 것만 사용, 없으면 그 항목은 화면에서 숨겨짐):
-  live_news.json        {"asOf", "items"}            국내 [특징주] 뉴스      ← fetch_news.py
+  live_news.json        {"asOf", "items"}            국내 [특징주] 뉴스      (현재 수집기 없음, 화면은 바로가기 링크 표시)
   live_kr_rank.json     {"asOf", "gainers", "value"} 국내 등락률·거래대금 상위 ← collect_kr.py
   live_themes_kr.json   {"asOf", "themes"}           국내 테마 강약          ← collect_kr.py
   live_themes_us.json   {"asOf", "themes"}           미국 테마 강약          ← collect_us.py
