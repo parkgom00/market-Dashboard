@@ -194,5 +194,18 @@ exd = {(e["market"], e["date"]): e["title"] for e in ex}
 check("옵션 만기: 한국 둘째 목요일(9/10 동시만기), 휴장이면 앞 영업일(10/8→10/7), 미국 셋째 금요일(9/18 쿼드러플)",
       "동시만기" in exd[("KR", "2026-09-10")] and ("KR", "2026-10-07") in exd and "쿼드러플" in exd[("US", "2026-09-18")])
 
+# ── 네이버 테마 ─────────────────────────────────────────
+import naver_themes
+groups = [{"no": 1, "name": "A", "changeRate": 5.0, "totalCount": 10, "riseCount": 8},
+          {"no": 2, "name": "B", "changeRate": 9.0, "totalCount": 3, "riseCount": 3},
+          {"no": 3, "name": "C", "changeRate": -4.0, "totalCount": 12, "riseCount": 1},
+          {"no": 4, "name": "D", "changeRate": 1.0, "totalCount": 8, "riseCount": 5}]
+pg = naver_themes.pick_groups(groups, strong=1, weak=1)
+check("테마 선택: 종목 5개 미만 제외, 상위 + 하위(음수만)", [g["no"] for g in pg] == [1, 3])
+check("구성종목 코드 추출", naver_themes.members_codes({"stocks": [{"itemCode": "005930"}, {}]}) == ["005930"])
+bt = naver_themes.build_themes(pg, {1: ["005930", "000660", "999999"], 3: ["111111"]}, df)
+check("테마 구성: 시세표에 있는 종목만, 거래대금 큰 순, 종목 2개 미만 테마 숨김, 테마 등락률·상승종목 수 유지",
+      len(bt) == 1 and bt[0]["name"] == "A" and [s["name"] for s in bt[0]["stocks"]] == ["삼성전자", "SK하이닉스"] and bt[0]["rise"] == 8 and bt[0]["rate"] == 5.0)
+
 print(f"\n{sum(ok)}/{len(ok)} 통과")
 raise SystemExit(0 if all(ok) else 1)

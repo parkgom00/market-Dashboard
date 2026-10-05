@@ -94,6 +94,18 @@ def load_themes():
         return json.load(f)["themes"]
 
 
+def themes_for(df):
+    """네이버 테마(세분화)를 우선 쓰고, 실패하면 scanner/theme_map.json 기반 테마로 대체."""
+    try:
+        import naver_themes
+        themes = naver_themes.collect(df)
+        print(f"네이버 테마 {len(themes)}개")
+        return themes
+    except Exception as e:
+        print("경고: 네이버 테마 실패, 기본 테마표로 대체:", e)
+        return theme_strength(df, load_themes())
+
+
 def main():
     import FinanceDataReader as fdr
     import build_live
@@ -104,7 +116,7 @@ def main():
     with open(os.path.join(OUT, "live_kr_rank.json"), "w", encoding="utf-8") as f:
         json.dump({"asOf": stamp, "gainers": top_gainers(df), "value": top_value(df)}, f, ensure_ascii=False)
     with open(os.path.join(OUT, "live_themes_kr.json"), "w", encoding="utf-8") as f:
-        json.dump({"asOf": stamp, "themes": theme_strength(df, load_themes())}, f, ensure_ascii=False)
+        json.dump({"asOf": stamp, "themes": themes_for(df)}, f, ensure_ascii=False)
     build_live.build()
     print(f"[국내] {len(df)}개 종목 처리, {stamp}")
 

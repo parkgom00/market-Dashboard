@@ -284,9 +284,9 @@
       m.themes.map(function (t) {
         var st = (t.stocks || []).slice().sort(function (a, b) { return b.changePct - a.changePct; });
         var avg = st.length ? st.reduce(function (a, s) { return a + (Number(s.changePct) || 0); }, 0) / st.length : 0;
-        return { t: t, st: st, avg: avg };
+        return { t: t, st: st, avg: t.rate != null ? Number(t.rate) : avg };
       }).sort(function (a, b) { return b.avg - a.avg; }).forEach(function (o) {
-        h += '<div style="margin-bottom:12px"><div class="theme-head"><b>' + esc(o.t.name) + "</b>" + pctText(o.avg) + "</div>" +
+        h += '<div style="margin-bottom:12px"><div class="theme-head"><b>' + esc(o.t.name) + "</b>" + (o.t.total ? '<span class="meta"> 상승 ' + o.t.rise + "/" + o.t.total + "</span>" : "") + pctText(o.avg) + "</div>" +
           o.st.map(function (s) {
             return '<span class="sc ' + strengthClass(s.changePct) + '"><b>' + esc(s.name) + "</b> " + (Number(s.changePct) > 0 ? "+" : "") + (Number(s.changePct) || 0).toFixed(1) + "%</span>";
           }).join("") + "</div>";
