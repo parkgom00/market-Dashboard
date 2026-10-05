@@ -1619,21 +1619,21 @@ window.DASH.longterm = {
   {
    "code": "PTC",
    "name": "PTC Inc.",
-   "close": 192.61,
-   "ma240": 151.4,
-   "ma480": 167.25,
+   "close": 192.26,
+   "ma240": 151.39,
+   "ma480": 167.24,
    "matched": [
     "L3a",
     "L3b"
    ],
-   "note": "240일선 돌파(오늘), 거래량 평균의 11.5배 / 480일선 돌파(오늘), 거래량 평균의 11.5배"
+   "note": "240일선 돌파(오늘), 거래량 평균의 16.9배 / 480일선 돌파(오늘), 거래량 평균의 16.9배"
   },
   {
    "code": "SNPS",
    "name": "Synopsys",
-   "close": 483.76,
-   "ma240": 442.74,
-   "ma480": 475.25,
+   "close": 488.47,
+   "ma240": 442.75,
+   "ma480": 475.26,
    "matched": [
     "L3a",
     "L3b"
@@ -1652,22 +1652,11 @@ window.DASH.longterm = {
    "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
   },
   {
-   "code": "ABNB",
-   "name": "Airbnb",
-   "close": 164.19,
-   "ma240": 140.15,
-   "ma480": 135.27,
-   "matched": [
-    "L2"
-   ],
-   "note": "급등 +35.5% 후 고점 대비 -13.8% 조정, 60일선 대비 -1.0%"
-  },
-  {
    "code": "AME",
    "name": "Ametek",
-   "close": 253.73,
-   "ma240": 223.97,
-   "ma480": 201.79,
+   "close": 251.92,
+   "ma240": 223.96,
+   "ma480": 201.78,
    "matched": [
     "L1"
    ],
@@ -1676,7 +1665,7 @@ window.DASH.longterm = {
   {
    "code": "APH",
    "name": "Amphenol",
-   "close": 87.21,
+   "close": 87.27,
    "ma240": 73.01,
    "ma480": 57.98,
    "matched": [
@@ -1687,20 +1676,20 @@ window.DASH.longterm = {
   {
    "code": "CTSH",
    "name": "Cognizant",
-   "close": 58.13,
+   "close": 58.17,
    "ma240": 62.45,
    "ma480": 68.42,
    "matched": [
     "L2"
    ],
-   "note": "급등 +44.5% 후 고점 대비 -10.1% 조정, 60일선 대비 +2.9%"
+   "note": "급등 +44.5% 후 고점 대비 -10.0% 조정, 60일선 대비 +3.0%"
   },
   {
    "code": "CRWD",
    "name": "CrowdStrike",
-   "close": 271.56,
+   "close": 272.67,
    "ma240": 150.33,
-   "ma480": 127.16,
+   "ma480": 127.17,
    "matched": [
     "L1"
    ],
@@ -1709,9 +1698,9 @@ window.DASH.longterm = {
   {
    "code": "DDOG",
    "name": "Datadog",
-   "close": 278.7,
-   "ma240": 181.8,
-   "ma480": 156.0,
+   "close": 276.42,
+   "ma240": 181.79,
+   "ma480": 155.99,
    "matched": [
     "L1"
    ],
@@ -1720,7 +1709,7 @@ window.DASH.longterm = {
   {
    "code": "EMR",
    "name": "Emerson Electric",
-   "close": 163.25,
+   "close": 162.33,
    "ma240": 141.84,
    "ma480": 132.09,
    "matched": [
@@ -1731,8 +1720,8 @@ window.DASH.longterm = {
   {
    "code": "P",
    "name": "Everpure",
-   "close": 140.76,
-   "ma240": 79.98,
+   "close": 143.88,
+   "ma240": 80.0,
    "ma480": 70.25,
    "matched": [
     "L1"
@@ -1742,7 +1731,7 @@ window.DASH.longterm = {
   {
    "code": "FFIV",
    "name": "F5, Inc.",
-   "close": 457.46,
+   "close": 458.53,
    "ma240": 330.32,
    "ma480": 307.85,
    "matched": [
@@ -1753,20 +1742,20 @@ window.DASH.longterm = {
   {
    "code": "FDS",
    "name": "FactSet",
-   "close": 267.69,
-   "ma240": 251.54,
-   "ma480": 333.98,
+   "close": 276.44,
+   "ma240": 251.58,
+   "ma480": 334.0,
    "matched": [
     "L2"
    ],
-   "note": "급등 +36.2% 후 고점 대비 -14.6% 조정, 60일선 대비 -3.5%"
+   "note": "급등 +36.2% 후 고점 대비 -11.8% 조정, 60일선 대비 -0.4%"
   },
   {
    "code": "FTNT",
    "name": "Fortinet",
-   "close": 182.86,
+   "close": 184.13,
    "ma240": 113.05,
-   "ma480": 104.45,
+   "ma480": 104.46,
    "matched": [
     "L1"
    ],
@@ -1775,7 +1764,7 @@ window.DASH.longterm = {
   {
    "code": "HPE",
    "name": "Hewlett Packard Enterprise",
-   "close": 68.31,
+   "close": 68.36,
    "ma240": 34.56,
    "ma480": 27.09,
    "matched": [
@@ -1786,9 +1775,9 @@ window.DASH.longterm = {
   {
    "code": "ILMN",
    "name": "Illumina, Inc.",
-   "close": 284.8,
-   "ma240": 156.29,
-   "ma480": 130.05,
+   "close": 293.69,
+   "ma240": 156.33,
+   "ma480": 130.07,
    "matched": [
     "L1"
    ],
@@ -1797,7 +1786,7 @@ window.DASH.longterm = {
   {
    "code": "JCI",
    "name": "Johnson Controls",
-   "close": 156.56,
+   "close": 156.85,
    "ma240": 133.38,
    "ma480": 112.54,
    "matched": [
@@ -1808,7 +1797,7 @@ window.DASH.longterm = {
   {
    "code": "MRVL",
    "name": "Marvell Technology",
-   "close": 271.23,
+   "close": 271.25,
    "ma240": 154.49,
    "ma480": 118.13,
    "matched": [
@@ -1819,9 +1808,9 @@ window.DASH.longterm = {
   {
    "code": "MRNA",
    "name": "Moderna",
-   "close": 199.55,
-   "ma240": 62.02,
-   "ma480": 46.9,
+   "close": 203.21,
+   "ma240": 62.04,
+   "ma480": 46.91,
    "matched": [
     "L1"
    ],
@@ -1830,9 +1819,9 @@ window.DASH.longterm = {
   {
    "code": "NTAP",
    "name": "NetApp",
-   "close": 220.26,
-   "ma240": 134.37,
-   "ma480": 120.49,
+   "close": 223.77,
+   "ma240": 134.38,
+   "ma480": 120.5,
    "matched": [
     "L1"
    ],
@@ -1841,7 +1830,7 @@ window.DASH.longterm = {
   {
    "code": "NEM",
    "name": "Newmont",
-   "close": 115.83,
+   "close": 115.82,
    "ma240": 107.16,
    "ma480": 80.86,
    "matched": [
@@ -1852,7 +1841,7 @@ window.DASH.longterm = {
   {
    "code": "NDSN",
    "name": "Nordson Corporation",
-   "close": 334.45,
+   "close": 334.43,
    "ma240": 277.0,
    "ma480": 244.94,
    "matched": [
@@ -1863,8 +1852,8 @@ window.DASH.longterm = {
   {
    "code": "NVDA",
    "name": "Nvidia",
-   "close": 237.07,
-   "ma240": 198.31,
+   "close": 238.9,
+   "ma240": 198.32,
    "ma480": 171.38,
    "matched": [
     "L1"
@@ -1874,8 +1863,8 @@ window.DASH.longterm = {
   {
    "code": "PANW",
    "name": "Palo Alto Networks",
-   "close": 404.18,
-   "ma240": 243.28,
+   "close": 406.76,
+   "ma240": 243.3,
    "ma480": 216.56,
    "matched": [
     "L1"
@@ -1885,20 +1874,20 @@ window.DASH.longterm = {
   {
    "code": "PSKY",
    "name": "Paramount Skydance Corporation",
-   "close": 9.66,
+   "close": 9.77,
    "ma240": 11.22,
    "ma480": 11.74,
    "matched": [
     "L2"
    ],
-   "note": "급등 +38.3% 후 고점 대비 -13.2% 조정, 60일선 대비 -0.5%"
+   "note": "급등 +38.3% 후 고점 대비 -12.3% 조정, 60일선 대비 +0.6%"
   },
   {
    "code": "RVTY",
    "name": "Revvity",
-   "close": 153.98,
-   "ma240": 104.87,
-   "ma480": 103.26,
+   "close": 157.36,
+   "ma240": 104.89,
+   "ma480": 103.27,
    "matched": [
     "L1"
    ],
@@ -1907,18 +1896,18 @@ window.DASH.longterm = {
   {
    "code": "STX",
    "name": "Seagate Technology",
-   "close": 891.33,
-   "ma240": 587.71,
+   "close": 887.09,
+   "ma240": 587.7,
    "ma480": 355.65,
    "matched": [
     "L2"
    ],
-   "note": "급등 +45.4% 후 고점 대비 -18.4% 조정, 60일선 대비 +4.4%"
+   "note": "급등 +45.4% 후 고점 대비 -18.8% 조정, 60일선 대비 +3.9%"
   },
   {
    "code": "VTRS",
    "name": "Viatris",
-   "close": 17.68,
+   "close": 17.62,
    "ma240": 14.37,
    "ma480": 11.96,
    "matched": [
@@ -1929,7 +1918,7 @@ window.DASH.longterm = {
   {
    "code": "WBD",
    "name": "Warner Bros. Discovery",
-   "close": 30.96,
+   "close": 30.95,
    "ma240": 27.04,
    "ma480": 19.24,
    "matched": [
@@ -1940,9 +1929,9 @@ window.DASH.longterm = {
   {
    "code": "WAT",
    "name": "Waters Corporation",
-   "close": 435.24,
-   "ma240": 366.15,
-   "ma480": 357.18,
+   "close": 440.12,
+   "ma240": 366.17,
+   "ma480": 357.19,
    "matched": [
     "L1"
    ],
