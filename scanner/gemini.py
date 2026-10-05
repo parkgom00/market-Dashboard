@@ -60,7 +60,36 @@ def choose_model(names):
     return None
 
 
+def rank_models(names):
+    """일반 flash 모델을 최신순으로(같은 버전이면 일반판이 lite 보다 먼저). 혼잡할 때 순서대로 갈아타는 용도."""
+    scored = []
+    for n in names:
+        n = n.replace("models/", "")
+        m = re.fullmatch(r"gemini-(\d+(?:\.\d+)?)-flash(-lite)?", n)
+        if m:
+            scored.append(((float(m.group(1)), 0 if m.group(2) else 1), n))
+    scored.sort(reverse=True)
+    return [n for _, n in scored]
+
+
 _model_cache = {}
+
+
+def get_models(limit=4):
+    env = os.environ.get("GEMINI_MODEL", "").strip()
+    if env:
+        return [env]
+    if "list" not in _model_cache:
+        res = _request(f"{BASE}/models?pageSize=200")
+        names = [m["name"] for m in res.get("models", []) if "generateContent" in m.get("supportedGenerationMethods", [])]
+        ranked = rank_models(names)
+        if not ranked:
+            one = choose_model(names)
+            ranked = [one] if one else []
+        if not ranked:
+            raise GeminiError("사용 가능한 flash 모델을 찾지 못했습니다")
+        _model_cache["list"] = ranked
+    return _model_cache["list"][:limit]
 
 
 def get_model():
@@ -123,16 +152,22 @@ def generate(prompt, system=None, video_url=None, want_json=False, search=False,
         body["tools"] = [{"google_search": {}}]
     elif want_json:
         body["generationConfig"]["responseMimeType"] = "application/json"
-    url = f"{BASE}/models/{get_model()}:generateContent"
     last = None
-    for i in range(retries + 1):
-        try:
-            text = _text_of(_request(url, body))
-            return extract_json(text) if want_json else text
-        except GeminiBusy as e:
-            last = e
-            if i < retries:
-                time.sleep(20 * (i + 1))
-        except ValueError as e:   # JSON 파싱 실패는 한 번 더 시도
-            last = GeminiError(str(e))
+    for rnd in range(retries + 1):
+        for model in get_models():
+            url = f"{BASE}/models/{model}:generateContent"
+            try:
+                text = _text_of(_request(url, body))
+                _model_cache["used"] = model
+                return extract_json(text) if want_json else text
+            except GeminiBusy as e:    # 이 모델이 혼잡/한도 → 다음 모델로
+                last = e
+            except ValueError as e:    # JSON 파싱 실패 → 다음 모델로
+                last = GeminiError(str(e))
+        if rnd < retries:
+            time.sleep(20 * (rnd + 1))
     raise last
+
+
+def used_model():
+    return _model_cache.get("used") or (_model_cache.get("list") or ["?"])[0]

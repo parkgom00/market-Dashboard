@@ -186,7 +186,7 @@ def main():
             print(f"AI 요약 {n}건 생성")
             errors += notes
             try:
-                model = gemini.get_model()
+                model = gemini.used_model()
             except Exception as e:
                 model = f"모델 조회 실패 {e}"
             status = [f"모델 {model} · 이번 실행에서 {n}건 요약"] + notes
