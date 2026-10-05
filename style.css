@@ -158,3 +158,4 @@ details{margin-top:6px;font-size:13px} details summary{cursor:pointer;color:var(
 .logic{margin:6px 0;padding:6px 8px;background:rgba(127,127,127,.1);border-radius:6px;font-size:13px}
 .str{font-size:11px;letter-spacing:1px;color:#e5484d}
 .stock.caution{border-left:3px solid #2f9e44;padding-left:8px} .stock.watch{border-left:3px solid #e5484d;padding-left:8px}
+.conn-sector{margin-bottom:4px;font-size:14px}

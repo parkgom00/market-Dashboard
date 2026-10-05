@@ -113,6 +113,8 @@ def main():
     df = normalize(fdr.StockListing("KRX"))
     os.makedirs(OUT, exist_ok=True)
     stamp = now_kst()
+    with open(os.path.join(OUT, "kr_names.json"), "w", encoding="utf-8") as f:   # 미국 브리핑의 국내 종목명 검증용
+        json.dump({r["name"]: r["code"] for _, r in df.iterrows()}, f, ensure_ascii=False)
     with open(os.path.join(OUT, "live_kr_rank.json"), "w", encoding="utf-8") as f:
         json.dump({"asOf": stamp, "gainers": top_gainers(df), "value": top_value(df)}, f, ensure_ascii=False)
     with open(os.path.join(OUT, "live_themes_kr.json"), "w", encoding="utf-8") as f:

@@ -174,6 +174,15 @@ def ensure_brief(payload, themes):
         except Exception as e:
             print("경고: 연결 종목 시세 조회 실패:", e)
     us_brief.fill_changes(brief, pct)
+    us_brief.fill_sector_changes(brief, payload["sectors"])
+    names_path = os.path.join(OUT, "kr_names.json")
+    if os.path.exists(names_path):
+        try:
+            n_before = len(brief["connections"])
+            us_brief.validate_picks(brief, json.load(open(names_path, encoding="utf-8")))
+            print(f"국내 종목명 검증: 연결 {n_before}개 → {len(brief['connections'])}개")
+        except Exception as e:
+            print("경고: 국내 종목명 검증 건너뜀:", e)
     stored = dict(brief, forDate=payload["forDate"], generatedAt=datetime.now(KST).strftime("%Y-%m-%d %H:%M"))
     os.makedirs(OUT, exist_ok=True)
     with open(os.path.join(OUT, "us_brief.json"), "w", encoding="utf-8") as f:

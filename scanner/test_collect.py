@@ -207,5 +207,13 @@ bt = naver_themes.build_themes(pg, {1: ["005930", "000660", "999999"], 3: ["1111
 check("테마 구성: 시세표에 있는 종목만, 거래대금 큰 순, 종목 2개 미만 테마 숨김, 테마 등락률·상승종목 수 유지",
       len(bt) == 1 and bt[0]["name"] == "A" and [s["name"] for s in bt[0]["stocks"]] == ["삼성전자", "SK하이닉스"] and bt[0]["rise"] == 8 and bt[0]["rate"] == 5.0)
 
+b2 = us_brief.clean_brief({"us_market": "m", "connections": [
+    {"us_ticker": "MU", "us_name": "마이크론", "sector": "반도체", "sector_symbol": "soxx", "korea_picks": [{"name": "SK 하이닉스"}, {"name": "없는회사"}]},
+    {"us_ticker": "X", "us_name": "엑스", "korea_picks": [{"name": "가짜전자"}]}]})
+us_brief.validate_picks(b2, {"SK하이닉스": "000660", "삼성전자": "005930"})
+us_brief.fill_sector_changes(b2, [{"symbol": "SOXX", "name": "반도체", "changePct": 2.1}])
+check("국내 종목명 검증: 실제 상장사만 남기고 코드 부여(공백 차이 허용), 종목이 하나도 없는 연결 제거, 업종 등락률 채움",
+      len(b2["connections"]) == 1 and b2["connections"][0]["koreaPicks"] == [{"name": "SK하이닉스", "strength": 1, "reason": "", "code": "000660"}] and b2["connections"][0]["sectorChange"] == 2.1)
+
 print(f"\n{sum(ok)}/{len(ok)} 통과")
 raise SystemExit(0 if all(ok) else 1)

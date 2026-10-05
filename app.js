@@ -194,12 +194,16 @@
     if (br && (br.connections || []).length) {
       h += "<h2>미국 특징주 ↔ 국내 연관주</h2>";
       br.connections.forEach(function (c) {
-        h += '<div class="card"><div class="row"><div><span class="nm">' + esc(c.usName) + '</span> <span class="meta">' + esc(c.usTicker) + " · " + esc(c.sector) + "</span></div>" +
+        h += '<div class="card"><div class="conn-sector"><b>' + esc(c.sector) + "</b>" +
+          (c.sectorChange != null ? ' <span class="meta">업종</span> ' + pctText(c.sectorChange) : "") + "</div>" +
+          '<div class="row"><div><span class="nm">' + esc(c.usName) + '</span> <span class="meta">' + esc(c.usTicker) + "</span></div>" +
           (c.usChange != null ? pctText(c.usChange) : '<span class="meta">' + (c.direction === "down" ? "약세" : "강세") + "</span>") + "</div>" +
           (c.cause ? '<div class="para">' + esc(c.cause) + "</div>" : "") +
           (c.logic ? '<div class="logic">연결 로직: ' + esc(c.logic) + "</div>" : "") +
+          '<div class="sub-title">국내 연관주</div>' +
           (c.koreaPicks || []).map(function (p) {
-            return '<div class="stock"><span class="nm">' + esc(p.name) + '</span> <span class="str s' + p.strength + '">' + ["", "●○○", "●●○", "●●●"][p.strength] + "</span>" +
+            var nm = p.code ? '<a href="https://m.stock.naver.com/domestic/stock/' + encodeURIComponent(p.code) + '/total" target="_blank" rel="noopener noreferrer">' + esc(p.name) + "</a>" : esc(p.name);
+            return '<div class="stock"><span class="nm">' + nm + '</span> <span class="str s' + p.strength + '">' + ["", "●○○", "●●○", "●●●"][p.strength] + "</span>" +
               (p.reason ? '<div class="meta">' + esc(p.reason) + "</div>" : "") + "</div>";
           }).join("") + "</div>";
       });

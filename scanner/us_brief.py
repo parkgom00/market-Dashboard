@@ -15,13 +15,16 @@ SCHEMA_TEXT = """다음 JSON 하나로만 답해라 (설명·코드블록 금지
  "sector_flow": "강했던/약했던 업종과 이유 2~3문장",
  "korea_impact": "금리·환율·유가·반도체 등을 근거로 오늘 국내 증시에 미칠 영향 2~4문장",
  "news": [{"title": "", "fact": "핵심 사실 2문장", "korea_impact": "국내 파급"}],
- "connections": [{"sector": "업종/테마", "direction": "up|down", "us_name": "미국 종목명", "us_ticker": "티커",
+ "connections": [{"sector": "업종/테마", "sector_symbol": "위 업종 ETF 목록의 심볼 (예: SOXX)", "direction": "up|down", "us_name": "미국 종목명", "us_ticker": "티커",
    "cause": "주가가 움직인 구체적 원인", "logic": "미국 기업 이벤트 -> 산업 영향 -> 국내 기업 연결 고리",
-   "korea_picks": [{"name": "한국 종목명", "strength": 3, "reason": "연결 이유 한 줄"}]}],
+   "korea_picks": [{"name": "한국 종목명(상장사 정식 약칭)", "strength": 3, "reason": "이 종목이 왜 연결되는지 한 줄 (사업 구조·공급 관계 근거)"}]}],
  "caution": [{"theme": "", "us": "근거가 된 미국 종목/지표", "cause": "", "action": "오늘 점검할 포인트"}],
  "watch": [{"theme": "", "us": "", "cause": "", "action": ""}]
 }
-strength: 3=직접 수혜/피해, 2=간접, 1=동조 가능성. connections 는 4~8개, news 는 3~6개, caution 은 1~3개, watch 는 2~4개."""
+strength: 3=직접 수혜/피해, 2=간접, 1=동조 가능성.
+connections 는 정확히 5개: 위 업종 등락률에서 가장 강하게 오른(급등) 업종 위주로 업종마다 대표 미국 종목 1개를 골라라
+(그 종목이 그날 실제로 크게 움직인 이유를 검색으로 확인할 것. 약세 업종은 꼭 필요할 때만 1개). 각 connections 의 korea_picks 는 정확히 2개이며
+직접 연관이 큰 순서로 써라. news 는 3~6개, caution 은 1~3개, watch 는 2~4개."""
 
 
 def build_prompt(for_date, indices, sectors, kr_hints):
@@ -68,7 +71,7 @@ def clean_brief(obj):
                 except (TypeError, ValueError):
                     st = 1
                 picks.append({"name": _s(p["name"]), "strength": st, "reason": _s(p.get("reason"))})
-        conns.append({"sector": _s(c.get("sector")), "direction": "down" if _s(c.get("direction")) == "down" else "up",
+        conns.append({"sector": _s(c.get("sector")), "sectorSymbol": _s(c.get("sector_symbol")).upper(), "sectorChange": None, "direction": "down" if _s(c.get("direction")) == "down" else "up",
                       "usName": _s(c["us_name"]), "usTicker": _s(c["us_ticker"]).upper(), "usChange": None,
                       "cause": _s(c.get("cause")), "logic": _s(c.get("logic")), "koreaPicks": picks})
     return {
@@ -85,6 +88,41 @@ def fill_changes(brief, pct_by_ticker):
     for c in brief["connections"]:
         v = pct_by_ticker.get(c["usTicker"])
         c["usChange"] = None if v is None else round(float(v), 2)
+    return brief
+
+
+def _norm(name):
+    return "".join(str(name).split()).lower()
+
+
+def validate_picks(brief, kr_names):
+    """한국 종목명이 실제 상장사 목록(kr_names: {이름: 코드})에 있는 것만 남기고 코드를 붙임. 하나도 안 남는 연결은 제거.
+    kr_names 가 비어 있으면(목록이 아직 없음) 검증하지 않음."""
+    if not kr_names:
+        return brief
+    table = {_norm(n): (n, c) for n, c in kr_names.items()}
+    keep = []
+    for c in brief["connections"]:
+        picks = []
+        for p in c["koreaPicks"]:
+            hit = table.get(_norm(p["name"]))
+            if hit:
+                picks.append(dict(p, name=hit[0], code=hit[1]))
+        if picks:
+            c["koreaPicks"] = picks[:2]
+            keep.append(c)
+    brief["connections"] = keep
+    return brief
+
+
+def fill_sector_changes(brief, sectors):
+    """업종 ETF 심볼로 업종 등락률을 실제 시세에서 채움."""
+    by = {s["symbol"]: s for s in sectors}
+    for c in brief["connections"]:
+        s = by.get(c.get("sectorSymbol"))
+        c["sectorChange"] = s["changePct"] if s else None
+        if s and not c["sector"]:
+            c["sector"] = s["name"]
     return brief
 
 
