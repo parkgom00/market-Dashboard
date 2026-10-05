@@ -26,7 +26,7 @@ def api_key():
     return os.environ.get("GEMINI_API_KEY", "").strip()
 
 
-def _request(url, body=None, key=None, timeout=300):
+def _request(url, body=None, key=None, timeout=240):
     data = None if body is None else json.dumps(body).encode()
     req = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json", "x-goog-api-key": key or api_key()})
     try:
