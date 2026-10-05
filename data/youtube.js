@@ -131,9 +131,5 @@ window.DASH.youtube = {
     }
    ]
   }
- ],
- "aiStatus": [
-  "모델 gemini-3.8-flash · 이번 실행에서 0건 요약",
-  "제미나이 혼잡/한도(다음 실행에 재시도): HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a"
  ]
 };

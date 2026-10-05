@@ -334,10 +334,11 @@
   function renderYouTube() {
     var root = $("#tab-youtube");
     var y = D.youtube || {};
+    var hasAI = (y.channels || []).some(function (c) { return (c.videos || []).some(function (v) { return v.ai && v.ai.keySummary; }); });
     var h = sampleNote(y) + "<h2>유튜브 최신 영상</h2>" +
-      '<div class="muted">AI(제미나이)가 영상을 보고 정리한 요약입니다. 참고용이니 중요한 내용은 원본 영상으로 확인하세요.</div>' +
+      '<div class="muted">' + (hasAI ? "AI(제미나이)가 영상을 보고 정리한 요약입니다. 참고용이니 중요한 내용은 원본 영상으로 확인하세요." : "채널별 최신 영상 목록입니다. ‘재미나이로 요약’을 누르면 요청문이 복사되고 재미나이가 열립니다. 입력창에 붙여넣기만 하세요.") + "</div>" +
       (y.asOf ? '<div class="muted">목록 기준 ' + esc(y.asOf) + "</div>" : "") +
-      ((y.aiStatus || []).length ? '<div class="muted">AI 요약 상태: ' + y.aiStatus.map(esc).join(" / ") + "</div>" : "");
+      (hasAI && (y.aiStatus || []).length ? '<div class="muted">AI 요약 상태: ' + y.aiStatus.map(esc).join(" / ") + "</div>" : "");
 
     // 여러 채널이 같이 언급한 종목 (최근 요약 기준)
     var mention = {};

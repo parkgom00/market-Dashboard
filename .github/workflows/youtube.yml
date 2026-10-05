@@ -21,6 +21,7 @@ jobs:
         working-directory: scanner
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          YOUTUBE_AI: "0"   # 1 로 바꾸면 채널별 최신 영상 AI 요약을 다시 켭니다 (토큰 사용)
         run: python collect_youtube.py
       - name: 변경된 데이터 저장
         if: ${{ !cancelled() }}
