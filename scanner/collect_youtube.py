@@ -138,7 +138,7 @@ def summarize_new(channels, summarize, max_new=6, max_fail=2):
             res = clean_summary(summarize(v["url"]))
         except Exception as e:
             if e.__class__.__name__ == "GeminiBusy":
-                notes.append("제미나이 혼잡/한도: 다음 실행에 재시도")
+                notes.append(f"제미나이 혼잡/한도(다음 실행에 재시도): {str(e)[:160]}")
                 break
             v["aiFail"] = v.get("aiFail", 0) + 1
             notes.append(f"{name} 요약 실패: {e}")
@@ -185,7 +185,11 @@ def main():
             n, notes = summarize_new(result, lambda url: gemini.generate(PROMPT, system=SYSTEM, video_url=url, want_json=True, max_tokens=8192))
             print(f"AI 요약 {n}건 생성")
             errors += notes
-            status = [f"이번 실행에서 {n}건 요약"] + notes
+            try:
+                model = gemini.get_model()
+            except Exception as e:
+                model = f"모델 조회 실패 {e}"
+            status = [f"모델 {model} · 이번 실행에서 {n}건 요약"] + notes
         else:
             print("GEMINI_API_KEY 없음: 요약 건너뜀")
             status = ["제미나이 키를 못 찾음: GitHub Settings → Secrets and variables → Actions 의 'Repository secrets' 에 GEMINI_API_KEY 로 등록했는지 확인"]
