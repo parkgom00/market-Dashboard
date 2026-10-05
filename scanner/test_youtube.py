@@ -44,7 +44,11 @@ def fake_sum(url):
     if url == "a2": raise GeminiBusy("busy")
     return {"key_summary": "ok"}
 n, notes = cy.summarize_new(chs2, fake_sum)
-check("혼잡이면 중단하고 다음에 재시도 (실패 횟수 올리지 않음)", n == 1 and "ai" in chs2[0]["videos"][0] and "ai" not in chs2[0]["videos"][1] and "aiFail" not in chs2[0]["videos"][1])
+check("채널별 최신 영상 1개만 요약 (두 번째 영상은 호출조차 안 함)", n == 1 and calls == ["a1"] and "ai" in chs2[0]["videos"][0] and "ai" not in chs2[0]["videos"][1])
+calls.clear()
+chs4 = [{"name": "A", "videos": [{"url": "a2", "publishedAt": "2026-10-05"}]}]
+n4, notes4 = cy.summarize_new(chs4, fake_sum)
+check("혼잡이면 중단하고 다음에 재시도 (실패 횟수 올리지 않음)", n4 == 0 and "aiFail" not in chs4[0]["videos"][0] and "ai" not in chs4[0]["videos"][0])
 def bad(url): raise ValueError("파싱")
 chs3 = [{"name": "A", "videos": [{"url": "a1", "publishedAt": "2026-10-05"}]}]
 cy.summarize_new(chs3, bad); cy.summarize_new(chs3, bad); n3, _ = cy.summarize_new(chs3, bad)

@@ -126,12 +126,12 @@ def carry_summaries(videos, old_videos):
     return videos
 
 
-def summarize_new(channels, summarize, max_new=6, max_fail=2, budget_sec=840):
-    """요약이 없는 최신 영상부터 최대 max_new 개 요약. summarize(url)->obj. 혼잡이면 중단(다음 실행에 재시도)."""
+def summarize_new(channels, summarize, max_new=4, max_fail=2, budget_sec=840):
+    """채널별 가장 최신 영상 1개만(요약이 없을 때) 요약. summarize(url)->obj. 혼잡이면 중단(다음 실행에 재시도)."""
     import time as _t
     t0 = _t.time()
     done, notes = 0, []
-    pending = [(c["name"], v) for c in channels for v in c["videos"][:2] if "ai" not in v and v.get("aiFail", 0) < max_fail]
+    pending = [(c["name"], v) for c in channels for v in c["videos"][:1] if "ai" not in v and v.get("aiFail", 0) < max_fail]
     pending.sort(key=lambda x: x[1]["publishedAt"], reverse=True)
     for name, v in pending:
         if done >= max_new:
