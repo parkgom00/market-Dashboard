@@ -1,7 +1,7 @@
 name: 캘린더 갱신
 on:
   schedule:
-    - cron: "0 21 * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 concurrency:
   group: data-commit
@@ -20,6 +20,12 @@ jobs:
           cache: pip
           cache-dependency-path: scanner/requirements.txt
       - run: pip install -r scanner/requirements.txt
+      - name: 지표 결과·실적 예정일 수집 (실패해도 계속)
+        working-directory: scanner
+        continue-on-error: true
+        run: |
+          python collect_econ.py
+          python collect_earnings.py
       - name: 캘린더 생성
         working-directory: scanner
         run: python build_calendar.py

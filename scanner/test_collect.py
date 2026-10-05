@@ -129,5 +129,26 @@ with tempfile.TemporaryDirectory() as d:
     txt = open(os.path.join(d, "calendar.js"), encoding="utf-8").read()
     check("calendar.js 생성 (window.DASH.calendar)", "window.DASH.calendar = " in txt and len(out["events"]) > 50)
 
+# ── 지표 결과·실적 합치기 ────────────────────────────────
+evs = [{"date": "2026-09-11", "type": "econ", "market": "US", "title": "CPI", "ind": "CPI", "ref": "2026-08"},
+       {"date": "2026-10-14", "type": "econ", "market": "US", "title": "CPI2", "ind": "CPI", "ref": "2026-09"}]
+r = build_calendar.attach_results(evs, {"CPI|2026-08": ["전체 +0.3%"], "CPI|2026-09": ["x"]}, date(2026, 10, 6))
+check("발표일이 지난 지표에만 결과 첨부, 내부 필드 제거", r[0].get("result") == ["전체 +0.3%"] and "result" not in r[1] and "ind" not in r[0])
+d = build_calendar.dedupe_earnings([
+    {"date": "2026-11-20", "type": "earnings", "market": "US", "title": "엔비디아 실적 발표 (예정)"},
+    {"date": "2026-11-19", "type": "earnings", "market": "US", "title": "엔비디아 실적 발표"}])
+check("실적 중복 시 수동 입력(확정) 우선", len(d) == 1 and d[0]["date"] == "2026-11-19")
+check("PCE 발표일 포함 (10/29)", any(e["date"] == "2026-10-29" and "PCE" in e["title"] for e in fx))
+
+import collect_econ
+import collect_earnings
+from datetime import date as _d
+idx = pd.date_range("2025-08-01", periods=14, freq="MS")
+ser = pd.Series([100 + i * 0.3 for i in range(14)], index=idx)
+res = collect_econ.build_results({"CPIAUCSL": ser, "CPILFESL": ser}, [{"ind": "CPI", "ref": "2026-09"}, {"ind": "CPI", "ref": "2027-05"}])
+check("CPI 결과: 전월 대비 계산, 데이터 없는 기준월은 건너뜀", list(res) == ["CPI|2026-09"] and "+0.29%" in res["CPI|2026-09"][0])
+check("실적 날짜: 미국 장 마감 후(16:20 ET) → 한국 다음 날", collect_earnings.to_kst_date("2026-11-19 16:20:00-05:00") == "2026-11-20")
+check("실적: 지난 분기·너무 먼 날짜 제외", collect_earnings.upcoming(["2026-08-27", "2026-11-20", "2027-08-01"], _d(2026, 10, 6)) == ["2026-11-20"])
+
 print(f"\n{sum(ok)}/{len(ok)} 통과")
 raise SystemExit(0 if all(ok) else 1)

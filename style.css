@@ -148,3 +148,5 @@ a { color: var(--accent); }
 
 .btnlink { display: block; padding: 12px 14px; margin-top: 8px; border: 1px solid var(--line); border-radius: 12px; background: var(--bg); color: var(--text); text-decoration: none; font-size: 14px; }
 .btnlink:active { background: var(--line); }
+
+.evres{margin-top:4px;padding:6px 8px;background:var(--card2,rgba(127,127,127,.12));border-radius:6px;font-size:13px}

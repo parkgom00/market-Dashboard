@@ -94,7 +94,9 @@
       return '<div class="ev">' +
         (withDate ? '<span class="d">' + esc(e.date.slice(5).replace("-", "/")) + "</span>" : "") +
         '<span class="tag ' + esc(e.type) + '">' + esc(TYPE[e.type] || e.type) + "</span>" +
-        "<span>" + (e.market ? '<span class="muted">' + esc(e.market) + " · </span>" : "") + esc(e.title) + "</span></div>";
+        "<span>" + (e.market ? '<span class="muted">' + esc(e.market) + " · </span>" : "") + esc(e.title) +
+        ((e.result || []).length ? '<div class="evres">' + e.result.map(function (r) { return "<div>" + esc(r) + "</div>"; }).join("") + "</div>" : "") +
+        "</span></div>";
     }
 
     root.addEventListener("click", function (ev) {
