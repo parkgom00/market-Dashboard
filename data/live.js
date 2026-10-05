@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_live.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.live = {
- "asOf": "2026-10-06 02:21",
+ "asOf": "2026-10-06 02:23",
  "kr": {
   "gainers": [
    {
@@ -1481,23 +1481,23 @@ window.DASH.live = {
     "stocks": [
      {
       "name": "엔비디아",
-      "changePct": 1.32
+      "changePct": 1.44
      },
      {
       "name": "브로드컴",
-      "changePct": 2.2
+      "changePct": 2.29
      },
      {
       "name": "AMD",
-      "changePct": -0.41
+      "changePct": -0.36
      },
      {
       "name": "TSMC",
-      "changePct": 2.55
+      "changePct": 2.68
      },
      {
       "name": "마이크론",
-      "changePct": -0.77
+      "changePct": -0.73
      }
     ]
    },
@@ -1506,19 +1506,19 @@ window.DASH.live = {
     "stocks": [
      {
       "name": "어플라이드머티리얼즈",
-      "changePct": -0.89
+      "changePct": -0.91
      },
      {
       "name": "램리서치",
-      "changePct": -0.86
+      "changePct": -0.87
      },
      {
       "name": "KLA",
-      "changePct": -1.44
+      "changePct": -1.42
      },
      {
       "name": "ASML",
-      "changePct": -0.6
+      "changePct": -0.46
      }
     ]
    },
@@ -1527,15 +1527,15 @@ window.DASH.live = {
     "stocks": [
      {
       "name": "테슬라",
-      "changePct": 2.31
+      "changePct": 2.37
      },
      {
       "name": "앨버말",
-      "changePct": 0.1
+      "changePct": 0.07
      },
      {
       "name": "리비안",
-      "changePct": 0.17
+      "changePct": -0.05
      }
     ]
    },
@@ -1544,19 +1544,19 @@ window.DASH.live = {
     "stocks": [
      {
       "name": "컨스텔레이션에너지",
-      "changePct": 4.19
+      "changePct": 4.21
      },
      {
       "name": "비스트라",
-      "changePct": 3.52
+      "changePct": 3.55
      },
      {
       "name": "GE베르노바",
-      "changePct": 0.29
+      "changePct": 0.34
      },
      {
       "name": "이튼",
-      "changePct": 0.33
+      "changePct": 0.26
      }
     ]
    },
@@ -1565,19 +1565,19 @@ window.DASH.live = {
     "stocks": [
      {
       "name": "록히드마틴",
-      "changePct": -0.1
+      "changePct": -0.14
      },
      {
       "name": "RTX",
-      "changePct": -0.2
+      "changePct": -0.22
      },
      {
       "name": "노스럽그루먼",
-      "changePct": -0.21
+      "changePct": -0.23
      },
      {
       "name": "제너럴다이내믹스",
-      "changePct": 0.56
+      "changePct": 0.52
      }
     ]
    }
