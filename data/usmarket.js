@@ -7,41 +7,41 @@ window.DASH.usmarket = {
    "group": "주가지수",
    "name": "나스닥",
    "kind": "index",
-   "close": 27383.67,
-   "changePct": 0.71,
-   "changeText": "27,383.67 (+0.71%)"
+   "close": 27387.4,
+   "changePct": 0.72,
+   "changeText": "27,387.40 (+0.72%)"
   },
   {
    "group": "주가지수",
    "name": "S&P 500",
    "kind": "index",
-   "close": 7758.7,
+   "close": 7759.24,
    "changePct": 0.47,
-   "changeText": "7,758.70 (+0.47%)"
+   "changeText": "7,759.24 (+0.47%)"
   },
   {
    "group": "주가지수",
    "name": "다우",
    "kind": "index",
-   "close": 51154.31,
+   "close": 51157.27,
    "changePct": -0.04,
-   "changeText": "51,154.31 (-0.04%)"
+   "changeText": "51,157.27 (-0.04%)"
   },
   {
    "group": "주가지수",
    "name": "러셀 2000",
    "kind": "index",
-   "close": 2843.41,
-   "changePct": 0.37,
-   "changeText": "2,843.41 (+0.37%)"
+   "close": 2844.29,
+   "changePct": 0.4,
+   "changeText": "2,844.29 (+0.40%)"
   },
   {
    "group": "주가지수",
    "name": "필라델피아 반도체",
    "kind": "index",
-   "close": 13114.79,
-   "changePct": -0.17,
-   "changeText": "13,114.79 (-0.17%)"
+   "close": 13120.38,
+   "changePct": -0.12,
+   "changeText": "13,120.38 (-0.12%)"
   },
   {
    "group": "주가지수",
@@ -55,91 +55,91 @@ window.DASH.usmarket = {
    "group": "주가지수",
    "name": "한국 ETF (EWY)",
    "kind": "usd",
-   "close": 191.33,
-   "changePct": -0.29,
-   "changeText": "191.33 (-0.29%)"
+   "close": 191.48,
+   "changePct": -0.21,
+   "changeText": "191.48 (-0.21%)"
   },
   {
    "group": "금리·환율",
    "name": "미국 10년물 금리",
    "kind": "yield",
    "close": 5.33,
-   "changePct": 0.93,
-   "changeText": "5.33% (+4.9bp)",
-   "changeBp": 4.9
+   "changePct": 0.97,
+   "changeText": "5.33% (+5.1bp)",
+   "changeBp": 5.1
   },
   {
    "group": "금리·환율",
    "name": "미국 5년물 금리",
    "kind": "yield",
-   "close": 5.08,
-   "changePct": 0.57,
-   "changeText": "5.08% (+2.9bp)",
-   "changeBp": 2.9
+   "close": 5.09,
+   "changePct": 0.61,
+   "changeText": "5.09% (+3.1bp)",
+   "changeBp": 3.1
   },
   {
    "group": "금리·환율",
    "name": "달러 인덱스",
    "kind": "plain",
-   "close": 102.18,
-   "changePct": 0.25,
-   "changeText": "102.18 (+0.25%)"
+   "close": 102.19,
+   "changePct": 0.26,
+   "changeText": "102.19 (+0.26%)"
   },
   {
    "group": "금리·환율",
    "name": "원/달러",
    "kind": "plain",
-   "close": 1342.1,
-   "changePct": -1.36,
-   "changeText": "1,342.10 (-1.36%)"
+   "close": 1342.23,
+   "changePct": -1.35,
+   "changeText": "1,342.23 (-1.35%)"
   },
   {
    "group": "금리·환율",
    "name": "엔/달러",
    "kind": "plain",
-   "close": 158.01,
-   "changePct": 0.05,
-   "changeText": "158.01 (+0.05%)"
+   "close": 158.02,
+   "changePct": 0.06,
+   "changeText": "158.02 (+0.06%)"
   },
   {
    "group": "원자재·기타",
    "name": "WTI 유가",
    "kind": "usd",
-   "close": 90.35,
-   "changePct": -0.83,
-   "changeText": "90.35 (-0.83%)"
+   "close": 90.09,
+   "changePct": -1.12,
+   "changeText": "90.09 (-1.12%)"
   },
   {
    "group": "원자재·기타",
    "name": "브렌트유",
    "kind": "usd",
-   "close": 101.27,
-   "changePct": -0.96,
-   "changeText": "101.27 (-0.96%)"
+   "close": 101.01,
+   "changePct": -1.21,
+   "changeText": "101.01 (-1.21%)"
   },
   {
    "group": "원자재·기타",
    "name": "금",
    "kind": "usd",
-   "close": 4165.8,
-   "changePct": 0.08,
-   "changeText": "4,165.80 (+0.08%)"
+   "close": 4165.2,
+   "changePct": 0.07,
+   "changeText": "4,165.20 (+0.07%)"
   },
   {
    "group": "원자재·기타",
    "name": "구리",
    "kind": "usd",
    "close": 6.64,
-   "changePct": 2.35,
-   "changeText": "6.64 (+2.35%)"
+   "changePct": 2.33,
+   "changeText": "6.64 (+2.33%)"
   },
   {
    "group": "원자재·기타",
    "name": "비트코인",
    "kind": "usd",
-   "close": 85205.1,
-   "changePct": -1.47,
-   "changeText": "85,205.10 (-1.47%)"
+   "close": 85223.9,
+   "changePct": -1.45,
+   "changeText": "85,223.90 (-1.45%)"
   }
  ],
  "sectors": [
@@ -148,21 +148,21 @@ window.DASH.usmarket = {
    "name": "기술",
    "symbol": "XLK",
    "kr": "IT·반도체",
-   "changePct": 0.34
+   "changePct": 0.37
   },
   {
    "group": "S&P 11개 섹터",
    "name": "금융",
    "symbol": "XLF",
    "kr": "은행·증권·보험",
-   "changePct": 0.47
+   "changePct": 0.43
   },
   {
    "group": "S&P 11개 섹터",
    "name": "에너지",
    "symbol": "XLE",
    "kr": "정유·가스",
-   "changePct": 1.19
+   "changePct": 1.15
   },
   {
    "group": "S&P 11개 섹터",
@@ -176,35 +176,35 @@ window.DASH.usmarket = {
    "name": "경기소비재",
    "symbol": "XLY",
    "kr": "자동차·유통·여행",
-   "changePct": 0.07
+   "changePct": 0.1
   },
   {
    "group": "S&P 11개 섹터",
    "name": "필수소비재",
    "symbol": "XLP",
    "kr": "음식료·화장품",
-   "changePct": 0.2
+   "changePct": 0.28
   },
   {
    "group": "S&P 11개 섹터",
    "name": "산업재",
    "symbol": "XLI",
    "kr": "기계·조선·방산",
-   "changePct": 0.16
+   "changePct": 0.18
   },
   {
    "group": "S&P 11개 섹터",
    "name": "소재",
    "symbol": "XLB",
    "kr": "화학·철강",
-   "changePct": 0.79
+   "changePct": 0.8
   },
   {
    "group": "S&P 11개 섹터",
    "name": "유틸리티",
    "symbol": "XLU",
    "kr": "전력·가스",
-   "changePct": 0.69
+   "changePct": 0.65
   },
   {
    "group": "S&P 11개 섹터",
@@ -218,21 +218,21 @@ window.DASH.usmarket = {
    "name": "커뮤니케이션",
    "symbol": "XLC",
    "kr": "플랫폼·미디어·게임",
-   "changePct": 0.93
+   "changePct": 0.91
   },
   {
    "group": "반도체·IT",
    "name": "반도체",
    "symbol": "SOXX",
    "kr": "반도체 대형주·HBM",
-   "changePct": -0.31
+   "changePct": -0.27
   },
   {
    "group": "반도체·IT",
    "name": "소프트웨어",
    "symbol": "IGV",
    "kr": "소프트웨어·AI 서비스",
-   "changePct": 1.02
+   "changePct": 1.07
   },
   {
    "group": "반도체·IT",
@@ -246,7 +246,7 @@ window.DASH.usmarket = {
    "name": "사이버보안",
    "symbol": "CIBR",
    "kr": "정보보안",
-   "changePct": 0.95
+   "changePct": 0.94
   },
   {
    "group": "반도체·IT",
@@ -274,7 +274,7 @@ window.DASH.usmarket = {
    "name": "양자컴퓨팅",
    "symbol": "QTUM",
    "kr": "양자 테마",
-   "changePct": -0.01
+   "changePct": 0.05
   },
   {
    "group": "반도체·IT",
@@ -288,21 +288,21 @@ window.DASH.usmarket = {
    "name": "전력망·전력기기",
    "symbol": "GRID",
    "kr": "변압기·전선·전력 인프라",
-   "changePct": -0.33
+   "changePct": -0.38
   },
   {
    "group": "에너지·산업",
    "name": "원자력",
    "symbol": "URA",
    "kr": "원전",
-   "changePct": 1.23
+   "changePct": 1.17
   },
   {
    "group": "에너지·산업",
    "name": "태양광",
    "symbol": "TAN",
    "kr": "태양광",
-   "changePct": -1.34
+   "changePct": -1.35
   },
   {
    "group": "에너지·산업",
@@ -323,28 +323,28 @@ window.DASH.usmarket = {
    "name": "방산·우주항공",
    "symbol": "ITA",
    "kr": "방산·우주",
-   "changePct": -0.15
+   "changePct": -0.16
   },
   {
    "group": "에너지·산업",
    "name": "운송",
    "symbol": "IYT",
    "kr": "해운·항공·물류",
-   "changePct": -0.42
+   "changePct": -0.34
   },
   {
    "group": "에너지·산업",
    "name": "항공",
    "symbol": "JETS",
    "kr": "항공·여행",
-   "changePct": -0.11
+   "changePct": -0.04
   },
   {
    "group": "에너지·산업",
    "name": "주택건설",
    "symbol": "XHB",
    "kr": "건설",
-   "changePct": -0.34
+   "changePct": -0.37
   },
   {
    "group": "자동차·배터리",
@@ -365,14 +365,14 @@ window.DASH.usmarket = {
    "name": "구리",
    "symbol": "COPX",
    "kr": "비철금속",
-   "changePct": 0.27
+   "changePct": 0.29
   },
   {
    "group": "소재",
    "name": "금광",
    "symbol": "GDX",
    "kr": "금·귀금속",
-   "changePct": -0.57
+   "changePct": -0.59
   },
   {
    "group": "소재",
@@ -414,7 +414,7 @@ window.DASH.usmarket = {
    "name": "지역은행",
    "symbol": "KRE",
    "kr": "은행",
-   "changePct": -0.4
+   "changePct": -0.42
   },
   {
    "group": "금융·소비",
@@ -428,21 +428,21 @@ window.DASH.usmarket = {
    "name": "핀테크",
    "symbol": "FINX",
    "kr": "핀테크·결제",
-   "changePct": 1.64
+   "changePct": 1.66
   },
   {
    "group": "금융·소비",
    "name": "소매",
    "symbol": "XRT",
    "kr": "유통",
-   "changePct": -0.13
+   "changePct": -0.07
   },
   {
    "group": "금융·소비",
    "name": "중국 인터넷",
    "symbol": "KWEB",
    "kr": "중국 관련주",
-   "changePct": 2.51
+   "changePct": 2.45
   }
  ],
  "summary": [],
@@ -450,28 +450,28 @@ window.DASH.usmarket = {
  "themes": [
   {
    "name": "전력 인프라·원전",
-   "changePct": 2.36,
+   "changePct": 2.33,
    "why": "",
    "usStocks": [
     {
      "ticker": "CEG",
      "name": "컨스텔레이션에너지",
-     "changePct": 4.6
+     "changePct": 4.44
     },
     {
      "ticker": "VST",
      "name": "비스트라",
-     "changePct": 4.3
+     "changePct": 4.28
     },
     {
      "ticker": "ETN",
      "name": "이튼",
-     "changePct": 0.39
+     "changePct": 0.47
     },
     {
      "ticker": "GEV",
      "name": "GE베르노바",
-     "changePct": 0.15
+     "changePct": 0.14
     }
    ],
    "krStocks": [
