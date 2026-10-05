@@ -248,23 +248,33 @@
   function renderYouTube() {
     var root = $("#tab-youtube");
     var y = D.youtube || {};
-    var h = sampleNote(y) + "<h2>유튜브 최신 영상 요약</h2>";
-    (y.channels || []).forEach(function (c) {
+    var h = sampleNote(y) + "<h2>유튜브 최신 영상</h2>" +
+      '<div class="muted">제목과 링크만 모아 보여줍니다. 요약은 ‘재미나이로 요약’을 누르면 요청문이 복사되고 재미나이가 열립니다. 입력창에 붙여넣기만 하세요.</div>' +
+      (y.asOf ? '<div class="muted">목록 기준 ' + esc(y.asOf) + "</div>" : "");
+    (y.channels || []).forEach(function (c, ci) {
+      var vs = c.videos || [];
       h += '<div class="card"><h3>' + esc(c.name) + "</h3>";
-      if (!(c.videos || []).length) h += '<div class="muted">아직 수집된 영상이 없습니다.</div>';
-      (c.videos || []).forEach(function (v) {
+      if (!vs.length) h += '<div class="muted">아직 수집된 영상이 없습니다. 자동 갱신 후 표시됩니다.</div>';
+      vs.forEach(function (v, vi) {
         h += '<div class="stock"><div class="nm">' + esc(v.title) + "</div>" +
-          '<div class="meta">' + esc(v.publishedAt) + ' · <a href="' + esc(safeUrl(v.url)) + '" target="_blank" rel="noopener noreferrer">원본 영상 보기</a></div>' +
-          '<ul class="plain">' + (v.summary || []).map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ul></div>";
+          '<div class="meta">' + esc(v.publishedAt) + ' · <a href="' + esc(safeUrl(v.url)) + '" target="_blank" rel="noopener noreferrer">영상 보기</a>' +
+          ' · <a href="#" class="gem" data-c="' + ci + '" data-v="' + vi + '">재미나이로 요약</a></div></div>';
       });
+      if (c.handle) h += '<a class="btnlink" href="https://www.youtube.com/' + encodeURI(c.handle) + '/videos" target="_blank" rel="noopener noreferrer">채널 영상 전체 보기 ›</a>';
       h += "</div>";
     });
-    if ((y.divergences || []).length) {
-      h += '<div class="card"><h3>채널 간 의견이 엇갈리는 지점</h3><ul class="plain">' +
-        y.divergences.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ul></div>";
-    }
-    h += '<div class="muted">요약은 자동 생성된 참고용이며, 정확한 내용은 원본 영상을 확인하세요.</div>';
+    h += '<div class="muted">재미나이는 로그인한 구글 계정으로 무료 사용 범위 안에서 동작합니다.</div>';
     root.innerHTML = h;
+    root.onclick = function (ev) {
+      var a = ev.target.closest("a.gem");
+      if (!a) return;
+      ev.preventDefault();
+      var v = y.channels[+a.getAttribute("data-c")].videos[+a.getAttribute("data-v")];
+      var text = "다음 유튜브 영상을 한국어로 요약해줘. 핵심 3~5줄, 언급된 종목·수치·전망 위주로.\n" + v.url;
+      var done = function () { window.open("https://gemini.google.com/app", "_blank", "noopener"); };
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, function () { window.prompt("복사해서 재미나이에 붙여넣으세요", text); done(); });
+      else { window.prompt("복사해서 재미나이에 붙여넣으세요", text); done(); }
+    };
   }
 
   /* ---------- 4장: 중장기 ---------- */
