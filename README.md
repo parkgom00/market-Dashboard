@@ -13,6 +13,10 @@
 
 현재 모든 데이터는 **화면 확인용 샘플**입니다. 실제 시세와 일정이 아닙니다.
 
+## 주소
+
+https://parkgom00.github.io/market-Dashboard/ (GitHub Pages, main 브랜치에 푸시하면 1~2분 뒤 반영)
+
 ## 지금 확인하는 방법
 
 `index.html` 을 더블클릭하면 브라우저에서 열립니다. 서버가 필요 없습니다.
