@@ -251,21 +251,52 @@
     var root = $("#tab-youtube");
     var y = D.youtube || {};
     var h = sampleNote(y) + "<h2>유튜브 최신 영상</h2>" +
-      '<div class="muted">제목과 링크만 모아 보여줍니다. 요약은 ‘재미나이로 요약’을 누르면 요청문이 복사되고 재미나이가 열립니다. 입력창에 붙여넣기만 하세요.</div>' +
+      '<div class="muted">AI(제미나이)가 영상을 보고 정리한 요약입니다. 참고용이니 중요한 내용은 원본 영상으로 확인하세요.</div>' +
       (y.asOf ? '<div class="muted">목록 기준 ' + esc(y.asOf) + "</div>" : "");
+
+    // 여러 채널이 같이 언급한 종목 (최근 요약 기준)
+    var mention = {};
+    (y.channels || []).forEach(function (c) {
+      (c.videos || []).forEach(function (v) {
+        if (!v.ai || !v.ai.sectors) return;
+        v.ai.sectors.forEach(function (s) { (s.stocks || []).forEach(function (st) {
+          mention[st.name] = mention[st.name] || {};
+          mention[st.name][c.name] = true;
+        }); });
+      });
+    });
+    var multi = Object.keys(mention).filter(function (k) { return Object.keys(mention[k]).length >= 2; });
+    if (multi.length) {
+      h += '<div class="card"><h3>여러 채널이 함께 언급한 종목</h3>' + multi.map(function (k) {
+        return '<div class="stock"><span class="nm">' + esc(k) + '</span> <span class="muted">' + esc(Object.keys(mention[k]).join(" · ")) + "</span></div>";
+      }).join("") + "</div>";
+    }
+
     (y.channels || []).forEach(function (c, ci) {
       var vs = c.videos || [];
       h += '<div class="card"><h3>' + esc(c.name) + "</h3>";
       if (!vs.length) h += '<div class="muted">아직 수집된 영상이 없습니다. 자동 갱신 후 표시됩니다.</div>';
       vs.forEach(function (v, vi) {
+        var ai = v.ai && v.ai.keySummary ? v.ai : null;
         h += '<div class="stock"><div class="nm">' + esc(v.title) + "</div>" +
           '<div class="meta">' + esc(v.publishedAt) + ' · <a href="' + esc(safeUrl(v.url)) + '" target="_blank" rel="noopener noreferrer">영상 보기</a>' +
-          ' · <a href="#" class="gem" data-c="' + ci + '" data-v="' + vi + '">재미나이로 요약</a></div></div>';
+          (ai ? "" : ' · <a href="#" class="gem" data-c="' + ci + '" data-v="' + vi + '">재미나이로 요약</a>') + "</div>";
+        if (ai) {
+          h += '<div class="keysum">' + esc(ai.keySummary) + "</div>";
+          var det = "";
+          if ((ai.market || []).length) det += "<h4>시장·거시</h4><ul class='plain'>" + ai.market.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ul>";
+          (ai.sectors || []).forEach(function (s) {
+            det += "<h4>" + esc(s.name) + "</h4>" + (s.point ? "<div>" + esc(s.point) + "</div>" : "") +
+              (s.stocks || []).map(function (st) { return '<div class="muted">· <b>' + esc(st.name) + "</b> " + esc(st.note) + "</div>"; }).join("");
+          });
+          if ((ai.checkpoints || []).length) det += "<h4>체크포인트</h4><ul class='plain'>" + ai.checkpoints.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ul>";
+          if (det) h += "<details><summary>상세 리포트 펼치기</summary>" + det + "</details>";
+        }
+        h += "</div>";
       });
       if (c.handle) h += '<a class="btnlink" href="https://www.youtube.com/' + encodeURI(c.handle) + '/videos" target="_blank" rel="noopener noreferrer">채널 영상 전체 보기 ›</a>';
       h += "</div>";
     });
-    h += '<div class="muted">재미나이는 로그인한 구글 계정으로 무료 사용 범위 안에서 동작합니다.</div>';
     root.innerHTML = h;
     root.onclick = function (ev) {
       var a = ev.target.closest("a.gem");

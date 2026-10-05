@@ -150,3 +150,6 @@ a { color: var(--accent); }
 .btnlink:active { background: var(--line); }
 
 .evres{margin-top:4px;padding:6px 8px;background:var(--card2,rgba(127,127,127,.12));border-radius:6px;font-size:13px}
+
+.keysum{margin:6px 0;padding:8px 10px;border-left:3px solid var(--accent,#3b82f6);background:rgba(127,127,127,.08);border-radius:4px;font-size:14px;line-height:1.5}
+details{margin-top:6px;font-size:13px} details summary{cursor:pointer;color:var(--muted,#888)} details h4{margin:10px 0 4px;font-size:13px}

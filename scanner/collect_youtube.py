@@ -77,11 +77,78 @@ def build(channels, prev, fetch=_get):
             videos = parse_feed(fetch(f"https://www.youtube.com/feeds/videos.xml?channel_id={cid}"))
             if not videos:
                 raise ValueError("영상 목록이 비어 있음")
-            result.append({"name": ch["name"], "channelId": cid, "handle": ch["handle"], "videos": videos})
+            result.append({"name": ch["name"], "channelId": cid, "handle": ch["handle"],
+                           "videos": carry_summaries(videos, old.get("videos", []))})
         except Exception as e:  # 한 채널 실패가 전체를 막지 않게
             errors.append(f"{ch['name']}: {e}")
             result.append({"name": ch["name"], "channelId": cid, "handle": ch["handle"], "videos": old.get("videos", [])})
     return result, errors
+
+
+SYSTEM = ("너는 한국 개인투자자를 위한 증시 리서치 요약가다. 영상에서 실제로 말한 내용만 정리하고, 영상에 없는 종목·수치·전망을 지어내지 않는다. "
+          "종목명은 영상에서 부른 이름 그대로 쓴다. 투자 권유가 아니라 영상 내용 요약임을 유지한다.")
+PROMPT = """이 유튜브 영상을 한국어로 요약해 JSON 으로만 답해라. 형식:
+{"skip": false,
+ "key_summary": "영상 전체를 한두 문장으로 (결론 중심)",
+ "market": ["시장·거시 진단 요점 (수치·발언 포함)", ...],
+ "sectors": [{"name": "섹터/테마명", "point": "영상이 말한 핵심 논리 1~2문장", "stocks": [{"name": "종목명", "note": "언급된 이유·전망 한 줄"}]}],
+ "checkpoints": ["영상이 짚은 앞으로의 체크포인트·리스크", ...]}
+영상이 투자·시황과 무관하면 {"skip": true} 만 답해라. 항목이 없으면 빈 배열로 둬라."""
+
+
+def clean_summary(obj):
+    """모델 응답을 화면용 구조로 정리 (이상한 타입은 버림). skip/빈 응답이면 None."""
+    if not isinstance(obj, dict) or obj.get("skip") or not str(obj.get("key_summary", "")).strip():
+        return None
+    def strs(v):
+        return [str(x).strip() for x in v if str(x).strip()] if isinstance(v, list) else []
+    sectors = []
+    for sec in obj.get("sectors") if isinstance(obj.get("sectors"), list) else []:
+        if not isinstance(sec, dict) or not str(sec.get("name", "")).strip():
+            continue
+        stocks = [{"name": str(s.get("name", "")).strip(), "note": str(s.get("note", "")).strip()}
+                  for s in (sec.get("stocks") if isinstance(sec.get("stocks"), list) else [])
+                  if isinstance(s, dict) and str(s.get("name", "")).strip()]
+        sectors.append({"name": str(sec["name"]).strip(), "point": str(sec.get("point", "")).strip(), "stocks": stocks})
+    return {"keySummary": str(obj["key_summary"]).strip(), "market": strs(obj.get("market")),
+            "sectors": sectors, "checkpoints": strs(obj.get("checkpoints"))}
+
+
+def carry_summaries(videos, old_videos):
+    """이전에 만든 요약·실패 횟수를 같은 영상(url)에 이어 붙임."""
+    old = {v.get("url"): v for v in old_videos}
+    for v in videos:
+        o = old.get(v["url"])
+        if o:
+            for k in ("ai", "aiFail"):
+                if k in o:
+                    v[k] = o[k]
+    return videos
+
+
+def summarize_new(channels, summarize, max_new=6, max_fail=2):
+    """요약이 없는 최신 영상부터 최대 max_new 개 요약. summarize(url)->obj. 혼잡이면 중단(다음 실행에 재시도)."""
+    done, notes = 0, []
+    pending = [(c["name"], v) for c in channels for v in c["videos"][:2] if "ai" not in v and v.get("aiFail", 0) < max_fail]
+    pending.sort(key=lambda x: x[1]["publishedAt"], reverse=True)
+    for name, v in pending:
+        if done >= max_new:
+            break
+        try:
+            res = clean_summary(summarize(v["url"]))
+        except Exception as e:
+            if e.__class__.__name__ == "GeminiBusy":
+                notes.append("제미나이 혼잡/한도: 다음 실행에 재시도")
+                break
+            v["aiFail"] = v.get("aiFail", 0) + 1
+            notes.append(f"{name} 요약 실패: {e}")
+            continue
+        if res is None:
+            v["ai"] = {"skip": True}
+        else:
+            v["ai"] = res
+        done += 1
+    return done, notes
 
 
 def write(channels, path=TARGET):
@@ -99,6 +166,16 @@ def main():
     result, errors = build(channels, load_previous())
     if not any(c["videos"] for c in result):
         raise SystemExit("영상을 하나도 받지 못했습니다: " + "; ".join(errors))
+    try:
+        import gemini
+        if gemini.api_key():
+            n, notes = summarize_new(result, lambda url: gemini.generate(PROMPT, system=SYSTEM, video_url=url, want_json=True, max_tokens=8192))
+            print(f"AI 요약 {n}건 생성")
+            errors += notes
+        else:
+            print("GEMINI_API_KEY 없음: 요약 건너뜀")
+    except Exception as e:
+        errors.append(f"AI 요약 단계 오류: {e}")
     write(result)
     for e in errors:
         print("경고:", e)
