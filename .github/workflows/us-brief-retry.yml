@@ -1,7 +1,11 @@
-name: 미국 장마감 (지수·테마 + 중장기 스캔)
+name: 미국장 AI 브리핑 재시도
+# 제미나이가 혼잡하거나 한도에 걸려 실패했을 때, 한국 개장 전까지 몇 번 더 시도합니다.
+# 이미 그날 브리핑이 만들어졌으면 AI 호출 없이 지나갑니다.
 on:
   schedule:
-    - cron: "30 22 * * 1-5"
+    - cron: "55 22 * * 1-5"
+    - cron: "20 23 * * 1-5"
+    - cron: "45 23 * * 1-5"
   workflow_dispatch:
 concurrency:
   group: data-commit
@@ -11,7 +15,7 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -20,14 +24,11 @@ jobs:
           cache: pip
           cache-dependency-path: scanner/requirements.txt
       - run: pip install -r scanner/requirements.txt
-      - name: 미국 지수·테마 수집
+      - name: 미국 지수·업종 + AI 브리핑
         working-directory: scanner
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python collect_us.py
-      - name: 중장기 스캔 (미국 S&P 500)
-        working-directory: scanner
-        run: python run_scan.py --market us
       - name: 변경된 데이터 저장
         if: ${{ !cancelled() }}
         run: bash scanner/commit_data.sh

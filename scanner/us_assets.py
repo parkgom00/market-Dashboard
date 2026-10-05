@@ -1,0 +1,73 @@
+"""미국장 탭에서 보여줄 지수·원자재·환율, 업종(ETF) 목록. 이름/심볼만 고치면 화면과 수집이 따라갑니다.
+kind: index(포인트) | yield(금리, 변화는 bp) | usd(달러 가격) | plain(소수 둘째자리)
+kr: 한국 증시에서 같이 볼 테마 키워드 (종목 추천이 아니라 연결 힌트)."""
+
+MAIN_INDICES = ["^IXIC", "^GSPC", "^DJI"]   # 기준일 판단용
+
+INDICES = [
+    {"group": "주가지수", "name": "나스닥", "symbol": "^IXIC", "kind": "index"},
+    {"group": "주가지수", "name": "S&P 500", "symbol": "^GSPC", "kind": "index"},
+    {"group": "주가지수", "name": "다우", "symbol": "^DJI", "kind": "index"},
+    {"group": "주가지수", "name": "러셀 2000", "symbol": "^RUT", "kind": "index"},
+    {"group": "주가지수", "name": "필라델피아 반도체", "symbol": "^SOX", "kind": "index"},
+    {"group": "주가지수", "name": "VIX 공포지수", "symbol": "^VIX", "kind": "plain"},
+    {"group": "주가지수", "name": "한국 ETF (EWY)", "symbol": "EWY", "kind": "usd"},
+    {"group": "금리·환율", "name": "미국 10년물 금리", "symbol": "^TNX", "kind": "yield"},
+    {"group": "금리·환율", "name": "미국 5년물 금리", "symbol": "^FVX", "kind": "yield"},
+    {"group": "금리·환율", "name": "달러 인덱스", "symbol": "DX-Y.NYB", "kind": "plain"},
+    {"group": "금리·환율", "name": "원/달러", "symbol": "KRW=X", "kind": "plain"},
+    {"group": "금리·환율", "name": "엔/달러", "symbol": "JPY=X", "kind": "plain"},
+    {"group": "원자재·기타", "name": "WTI 유가", "symbol": "CL=F", "kind": "usd"},
+    {"group": "원자재·기타", "name": "브렌트유", "symbol": "BZ=F", "kind": "usd"},
+    {"group": "원자재·기타", "name": "금", "symbol": "GC=F", "kind": "usd"},
+    {"group": "원자재·기타", "name": "구리", "symbol": "HG=F", "kind": "usd"},
+    {"group": "원자재·기타", "name": "비트코인", "symbol": "BTC-USD", "kind": "usd"},
+]
+
+SECTORS = [
+    # S&P 500 대분류 11개
+    {"group": "S&P 11개 섹터", "name": "기술", "symbol": "XLK", "kr": "IT·반도체"},
+    {"group": "S&P 11개 섹터", "name": "금융", "symbol": "XLF", "kr": "은행·증권·보험"},
+    {"group": "S&P 11개 섹터", "name": "에너지", "symbol": "XLE", "kr": "정유·가스"},
+    {"group": "S&P 11개 섹터", "name": "헬스케어", "symbol": "XLV", "kr": "제약·바이오"},
+    {"group": "S&P 11개 섹터", "name": "경기소비재", "symbol": "XLY", "kr": "자동차·유통·여행"},
+    {"group": "S&P 11개 섹터", "name": "필수소비재", "symbol": "XLP", "kr": "음식료·화장품"},
+    {"group": "S&P 11개 섹터", "name": "산업재", "symbol": "XLI", "kr": "기계·조선·방산"},
+    {"group": "S&P 11개 섹터", "name": "소재", "symbol": "XLB", "kr": "화학·철강"},
+    {"group": "S&P 11개 섹터", "name": "유틸리티", "symbol": "XLU", "kr": "전력·가스"},
+    {"group": "S&P 11개 섹터", "name": "부동산", "symbol": "XLRE", "kr": "리츠"},
+    {"group": "S&P 11개 섹터", "name": "커뮤니케이션", "symbol": "XLC", "kr": "플랫폼·미디어·게임"},
+    # 세부 업종
+    {"group": "반도체·IT", "name": "반도체", "symbol": "SOXX", "kr": "반도체 대형주·HBM"},
+    {"group": "반도체·IT", "name": "소프트웨어", "symbol": "IGV", "kr": "소프트웨어·AI 서비스"},
+    {"group": "반도체·IT", "name": "클라우드", "symbol": "SKYY", "kr": "클라우드·데이터센터"},
+    {"group": "반도체·IT", "name": "사이버보안", "symbol": "CIBR", "kr": "정보보안"},
+    {"group": "반도체·IT", "name": "AI·로봇", "symbol": "BOTZ", "kr": "로봇·AI"},
+    {"group": "반도체·IT", "name": "통신장비", "symbol": "XTL", "kr": "광통신·통신장비"},
+    {"group": "반도체·IT", "name": "인터넷 플랫폼", "symbol": "FDN", "kr": "플랫폼"},
+    {"group": "반도체·IT", "name": "양자컴퓨팅", "symbol": "QTUM", "kr": "양자 테마"},
+    {"group": "반도체·IT", "name": "게임", "symbol": "ESPO", "kr": "게임"},
+    {"group": "에너지·산업", "name": "전력망·전력기기", "symbol": "GRID", "kr": "변압기·전선·전력 인프라"},
+    {"group": "에너지·산업", "name": "원자력", "symbol": "URA", "kr": "원전"},
+    {"group": "에너지·산업", "name": "태양광", "symbol": "TAN", "kr": "태양광"},
+    {"group": "에너지·산업", "name": "클린에너지", "symbol": "ICLN", "kr": "신재생"},
+    {"group": "에너지·산업", "name": "원유·가스 개발", "symbol": "XOP", "kr": "정유·화학"},
+    {"group": "에너지·산업", "name": "방산·우주항공", "symbol": "ITA", "kr": "방산·우주"},
+    {"group": "에너지·산업", "name": "운송", "symbol": "IYT", "kr": "해운·항공·물류"},
+    {"group": "에너지·산업", "name": "항공", "symbol": "JETS", "kr": "항공·여행"},
+    {"group": "에너지·산업", "name": "주택건설", "symbol": "XHB", "kr": "건설"},
+    {"group": "자동차·배터리", "name": "2차전지(리튬)", "symbol": "LIT", "kr": "2차전지"},
+    {"group": "자동차·배터리", "name": "전기차·자율주행", "symbol": "IDRV", "kr": "전기차·부품"},
+    {"group": "소재", "name": "구리", "symbol": "COPX", "kr": "비철금속"},
+    {"group": "소재", "name": "금광", "symbol": "GDX", "kr": "금·귀금속"},
+    {"group": "소재", "name": "철강", "symbol": "SLX", "kr": "철강"},
+    {"group": "소재", "name": "희토류·전략광물", "symbol": "REMX", "kr": "희토류·소재"},
+    {"group": "헬스케어", "name": "바이오", "symbol": "XBI", "kr": "바이오"},
+    {"group": "헬스케어", "name": "제약", "symbol": "XPH", "kr": "제약"},
+    {"group": "헬스케어", "name": "의료기기", "symbol": "IHI", "kr": "의료기기"},
+    {"group": "금융·소비", "name": "지역은행", "symbol": "KRE", "kr": "은행"},
+    {"group": "금융·소비", "name": "증권·자산운용", "symbol": "IAI", "kr": "증권"},
+    {"group": "금융·소비", "name": "핀테크", "symbol": "FINX", "kr": "핀테크·결제"},
+    {"group": "금융·소비", "name": "소매", "symbol": "XRT", "kr": "유통"},
+    {"group": "금융·소비", "name": "중국 인터넷", "symbol": "KWEB", "kr": "중국 관련주"},
+]

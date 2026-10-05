@@ -19,6 +19,11 @@
     var sign = n > 0 ? "▲ +" : n < 0 ? "▼ " : "";
     return '<span class="' + cls + '">' + sign + n.toFixed(2) + "%</span>";
   }
+  function bpText(v) {
+    var n = Number(v) || 0;
+    var cls = n > 0 ? "up" : n < 0 ? "down" : "flat";
+    return '<span class="' + cls + '">' + (n > 0 ? "▲ +" : n < 0 ? "▼ " : "") + n.toFixed(1) + "bp</span>";
+  }
   function num(v) { return Number(v || 0).toLocaleString("ko-KR"); }
   function sampleNote(o) {
     return o && o.sample ? '<div class="banner" style="margin:0 0 10px">이 탭은 아직 샘플 데이터입니다. 실제 시세·분석이 아닙니다.</div>' : "";
@@ -120,36 +125,106 @@
   function renderUS() {
     var root = $("#tab-us");
     var u = D.usmarket || {};
-    var h = sampleNote(u) + "<h2>전날 미국장 &amp; 특징주</h2>";
+    var br = u.brief || null;
+    var h = sampleNote(u) + "<h2>미국장 마감 &amp; 국장 대응</h2>";
     h += '<div class="muted" style="margin:-6px 0 10px">' + esc(u.asOf || "") + "</div>";
 
-    h += '<div class="idx">' + (u.indices || []).map(function (i) {
-      return '<div class="card"><div class="nm">' + esc(i.name) + '</div><div class="pc">' + pctText(i.changePct) + "</div>" +
-        (i.close ? '<div class="nm">' + num(i.close) + "</div>" : "") + "</div>";
-    }).join("") + "</div>";
+    // 1) 지수·금리·환율·원자재
+    var groups = [];
+    (u.indices || []).forEach(function (i) {
+      var g = groups.filter(function (x) { return x.name === (i.group || "지수"); })[0];
+      if (!g) { g = { name: i.group || "지수", items: [] }; groups.push(g); }
+      g.items.push(i);
+    });
+    groups.forEach(function (g) {
+      h += '<div class="sub-title">' + esc(g.name) + '</div><div class="idx">' + g.items.map(function (i) {
+        var chg = i.changeBp != null ? '<div class="pc">' + bpText(i.changeBp) + "</div>" : '<div class="pc">' + pctText(i.changePct) + "</div>";
+        return '<div class="card"><div class="nm">' + esc(i.name) + "</div>" + chg + (i.close ? '<div class="nm">' + num(i.close) + (i.kind === "yield" ? "%" : "") + "</div>" : "") + "</div>";
+      }).join("") + "</div>";
+    });
 
-    if ((u.summary || []).length) {
-      h += '<div class="card"><h3>어제 미국장 이슈</h3><ul class="plain">' +
-        u.summary.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ul></div>";
+    // 2) AI 브리핑
+    if (br) {
+      h += '<div class="card"><h3>간밤 미국장 이슈</h3><p class="para">' + esc(br.usMarket) + "</p>" +
+        (br.sectorFlow ? '<div class="sub-title">업종 흐름</div><p class="para">' + esc(br.sectorFlow) + "</p>" : "") +
+        (br.koreaImpact ? '<div class="sub-title">오늘 국장에 미칠 영향</div><p class="para">' + esc(br.koreaImpact) + "</p>" : "") +
+        '<div class="muted">' + (br.grounded ? "AI가 구글 검색 근거로 정리한 내용입니다." : "검색 근거 없이 시세만 보고 해석한 내용입니다(원인은 확인되지 않았을 수 있음).") +
+        " 참고용이며 투자 권유가 아닙니다.</div></div>";
+      if ((br.news || []).length) {
+        h += '<div class="card"><h3>주요 뉴스와 국내 파급</h3>' + br.news.map(function (n) {
+          return '<div class="stock"><div class="nm">' + esc(n.title) + "</div><div>" + esc(n.fact) + "</div>" +
+            (n.korea_impact ? '<div class="muted">국내 파급: ' + esc(n.korea_impact) + "</div>" : "") + "</div>";
+        }).join("") + "</div>";
+      }
+      var chk = function (title, arr, cls) {
+        if (!(arr || []).length) return "";
+        return '<div class="card"><h3>' + title + "</h3>" + arr.map(function (c) {
+          return '<div class="stock ' + cls + '"><div class="nm">' + esc(c.theme) + (c.us ? ' <span class="meta">' + esc(c.us) + "</span>" : "") + "</div>" +
+            (c.cause ? "<div>" + esc(c.cause) + "</div>" : "") + (c.action ? '<div class="muted">점검 포인트: ' + esc(c.action) + "</div>" : "") + "</div>";
+        }).join("") + "</div>";
+      };
+      h += chk("오늘 국장 체크 · 조심할 점", br.caution, "caution") + chk("오늘 국장 체크 · 눈여겨볼 곳", br.watch, "watch");
+    } else if ((u.summary || []).length) {
+      h += '<div class="card"><h3>어제 미국장 이슈</h3><ul class="plain">' + u.summary.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ul></div>";
     }
 
-    (u.themes || []).forEach(function (t) {
-      h += '<div class="card"><div class="row"><h3>' + esc(t.name) + "</h3>" + pctText(t.changePct) + "</div>";
-      if (t.why) h += '<div class="muted">' + esc(t.why) + "</div>";
-      h += '<div class="sub-title">미국 특징주</div>';
-      h += (t.usStocks || []).map(function (s) {
-        return '<div class="stock row"><div><span class="nm">' + esc(s.name) + '</span> <span class="meta">' + esc(s.ticker) + "</span></div>" + pctText(s.changePct) + "</div>";
-      }).join("");
-      if ((t.krStocks || []).length) {
-        h += '<div class="sub-title">국내 연관주</div>';
-        h += t.krStocks.map(function (s) {
-          return '<div class="stock"><div><span class="nm">' + esc(s.name) + '</span> <span class="meta">' + esc(s.code) + "</span></div>" +
-            (s.link ? '<div class="meta">연결 로직: ' + esc(s.link) + "</div>" : "") + "</div>";
+    // 3) 업종별 성과
+    var sec = u.sectors || [];
+    if (sec.length) {
+      var sorted = sec.slice().sort(function (a, b) { return b.changePct - a.changePct; });
+      var top = sorted.slice(0, 5), bot = sorted.slice(-5).reverse();
+      var line = function (s) {
+        return '<div class="stock row"><div><span class="nm">' + esc(s.name) + '</span> <span class="meta">' + esc(s.symbol) + (s.kr ? " · 국내: " + esc(s.kr) : "") + "</span></div>" + pctText(s.changePct) + "</div>";
+      };
+      h += '<div class="card"><h3>업종별 성과</h3><div class="sub-title">강한 업종 TOP 5</div>' + top.map(line).join("") +
+        '<div class="sub-title">약한 업종 TOP 5</div>' + bot.map(line).join("") + "</div>";
+      var gs = [];
+      sec.forEach(function (s) {
+        var g = gs.filter(function (x) { return x.name === s.group; })[0];
+        if (!g) { g = { name: s.group, items: [] }; gs.push(g); }
+        g.items.push(s);
+      });
+      h += '<div class="card"><h3>업종 전체 보기</h3>' + gs.map(function (g) {
+        return "<details><summary>" + esc(g.name) + " (" + g.items.length + ")</summary>" +
+          g.items.slice().sort(function (a, b) { return b.changePct - a.changePct; }).map(line).join("") + "</details>";
+      }).join("") + '<div class="muted">업종은 대표 ETF 등락률 기준입니다.</div></div>';
+    }
+
+    // 4) 미국 특징주 ↔ 국내 연관주 (AI 연결)
+    if (br && (br.connections || []).length) {
+      h += "<h2>미국 특징주 ↔ 국내 연관주</h2>";
+      br.connections.forEach(function (c) {
+        h += '<div class="card"><div class="row"><div><span class="nm">' + esc(c.usName) + '</span> <span class="meta">' + esc(c.usTicker) + " · " + esc(c.sector) + "</span></div>" +
+          (c.usChange != null ? pctText(c.usChange) : '<span class="meta">' + (c.direction === "down" ? "약세" : "강세") + "</span>") + "</div>" +
+          (c.cause ? '<div class="para">' + esc(c.cause) + "</div>" : "") +
+          (c.logic ? '<div class="logic">연결 로직: ' + esc(c.logic) + "</div>" : "") +
+          (c.koreaPicks || []).map(function (p) {
+            return '<div class="stock"><span class="nm">' + esc(p.name) + '</span> <span class="str s' + p.strength + '">' + ["", "●○○", "●●○", "●●●"][p.strength] + "</span>" +
+              (p.reason ? '<div class="meta">' + esc(p.reason) + "</div>" : "") + "</div>";
+          }).join("") + "</div>";
+      });
+      h += '<div class="muted">●●● 직접 연관 · ●●○ 간접 · ●○○ 동조 가능성. AI가 검색으로 추정한 연결이라 실제 투자 전 확인이 필요합니다.</div>';
+    }
+
+    // 5) 고정 테마표 기반 (등락률은 실제 시세)
+    if ((u.themes || []).length) {
+      h += "<h2>테마별 미국 주도주</h2>";
+      u.themes.forEach(function (t) {
+        h += '<div class="card"><div class="row"><h3>' + esc(t.name) + "</h3>" + pctText(t.changePct) + "</div>";
+        if (t.why) h += '<div class="muted">' + esc(t.why) + "</div>";
+        h += (t.usStocks || []).map(function (s) {
+          return '<div class="stock row"><div><span class="nm">' + esc(s.name) + '</span> <span class="meta">' + esc(s.ticker) + "</span></div>" + pctText(s.changePct) + "</div>";
         }).join("");
-      }
-      h += "</div>";
-    });
-    if (!(u.themes || []).length && !(u.indices || []).length) h += '<div class="card empty">아직 수집된 데이터가 없습니다.</div>';
+        if ((t.krStocks || []).length) {
+          h += '<div class="sub-title">국내 연관주</div>' + t.krStocks.map(function (s) {
+            return '<div class="stock"><span class="nm">' + esc(s.name) + '</span> <span class="meta">' + esc(s.code) + "</span>" +
+              (s.link ? '<div class="meta">연결 로직: ' + esc(s.link) + "</div>" : "") + "</div>";
+          }).join("");
+        }
+        h += "</div>";
+      });
+    }
+    if (!(u.indices || []).length) h += '<div class="card empty">아직 수집된 데이터가 없습니다.</div>';
     root.innerHTML = h;
   }
 

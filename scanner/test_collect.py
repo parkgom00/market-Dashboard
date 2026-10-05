@@ -150,5 +150,28 @@ check("CPI 결과: 전월 대비 계산, 데이터 없는 기준월은 건너뜀
 check("실적 날짜: 미국 장 마감 후(16:20 ET) → 한국 다음 날", collect_earnings.to_kst_date("2026-11-19 16:20:00-05:00") == "2026-11-20")
 check("실적: 지난 분기·너무 먼 날짜 제외", collect_earnings.upcoming(["2026-08-27", "2026-11-20", "2027-08-01"], _d(2026, 10, 6)) == ["2026-11-20"])
 
+# ── 미국장 확장 ─────────────────────────────────────────
+import us_brief
+chg = {"^IXIC": {"close": 20000.0, "pct": 1.2, "date": "2026-10-02", "diff": 240.0},
+       "^TNX": {"close": 4.25, "pct": -1.3, "date": "2026-10-02", "diff": -0.056},
+       "XLK": {"close": 200.0, "pct": 1.5, "date": "2026-10-02", "diff": 3.0}}
+ix = collect_us.build_indices(chg)
+check("금리는 bp 로 표시, 없는 심볼은 건너뜀", [i["name"] for i in ix] == ["나스닥", "미국 10년물 금리"] and ix[1]["changeText"] == "4.25% (-5.6bp)" and ix[1]["changeBp"] == -5.6)
+sc = collect_us.build_sectors(chg)
+check("업종 목록: 시세 있는 것만, 한국 연결 키워드 포함", len(sc) == 1 and sc[0]["name"] == "기술" and sc[0]["kr"])
+b = us_brief.clean_brief({"us_market": "m", "connections": [{"us_ticker": "mu", "us_name": "마이크론", "korea_picks": [{"name": "SK하이닉스", "strength": "9"}]}, {"us_name": "티커없음"}]})
+us_brief.fill_changes(b, {"MU": 3.004})
+check("브리핑 정리: 티커 없는 연결 제거, strength 1~3 보정, 등락률은 실제 시세로 채움",
+      len(b["connections"]) == 1 and b["connections"][0]["koreaPicks"][0]["strength"] == 3 and b["connections"][0]["usChange"] == 3.0)
+check("필수 항목이 없으면 브리핑 폐기", us_brief.clean_brief({"news": []}) is None)
+calls = []
+def gen_fail_then_ok(prompt, system, search):
+    calls.append(search)
+    if search:
+        raise RuntimeError("tools unsupported")
+    return {"us_market": "ok"}
+r = us_brief.generate_brief("2026-10-02", collect_us.build_indices(chg), collect_us.build_sectors(chg), [], gen_fail_then_ok)
+check("검색 실패 시 검색 없이 재시도하고 grounded=False 표시", calls == [True, False] and r["grounded"] is False)
+
 print(f"\n{sum(ok)}/{len(ok)} 통과")
 raise SystemExit(0 if all(ok) else 1)

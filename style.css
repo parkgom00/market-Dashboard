@@ -153,3 +153,8 @@ a { color: var(--accent); }
 
 .keysum{margin:6px 0;padding:8px 10px;border-left:3px solid var(--accent,#3b82f6);background:rgba(127,127,127,.08);border-radius:4px;font-size:14px;line-height:1.5}
 details{margin-top:6px;font-size:13px} details summary{cursor:pointer;color:var(--muted,#888)} details h4{margin:10px 0 4px;font-size:13px}
+
+.para{margin:4px 0;line-height:1.55;font-size:14px}
+.logic{margin:6px 0;padding:6px 8px;background:rgba(127,127,127,.1);border-radius:6px;font-size:13px}
+.str{font-size:11px;letter-spacing:1px;color:#e5484d}
+.stock.caution{border-left:3px solid #2f9e44;padding-left:8px} .stock.watch{border-left:3px solid #e5484d;padding-left:8px}
