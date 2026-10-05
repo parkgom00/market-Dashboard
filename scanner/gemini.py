@@ -33,7 +33,7 @@ def _request(url, body=None, key=None, timeout=240):
         with urllib.request.urlopen(req, timeout=timeout) as r:
             return json.loads(r.read().decode())
     except urllib.error.HTTPError as e:
-        msg = e.read().decode("utf-8", "replace")[:1500]
+        msg = e.read().decode("utf-8", "replace")[:6000]
         if e.code in (429, 500, 502, 503, 504):
             raise GeminiBusy(f"HTTP {e.code}: {msg}")
         raise GeminiError(f"HTTP {e.code}: {msg}")
@@ -192,7 +192,8 @@ def _short(e):
     t = " ".join(str(e).split())
     m = re.search(r'"message":\s*"([^"]{0,90})', t)
     code = re.match(r"HTTP (\d+)", t)
-    q = re.findall(r'"quotaId":\s*"([^"]+)"', t)
+    q = re.findall(r'"quotaId":\s*"([^"]+)"', t) + [("limit0" if re.search(r'limit:\s*0\b', t) else "")]
+    q = [x for x in q if x]
     retry = re.search(r'retry in ([\d.]+)s', t)
     extra = (" [" + ",".join(sorted(set(q))[:2]) + "]" if q else "") + (f" 재시도 {retry.group(1)}초 후" if retry else "")
     return ((code.group(0) + " ") if code else "") + (m.group(1)[:60] if m else t[:60]) + extra
