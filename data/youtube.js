@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-06 01:29",
+ "asOf": "2026-10-06 01:33",
  "channels": [
   {
    "name": "815머니톡",
@@ -133,7 +133,7 @@ window.DASH.youtube = {
   }
  ],
  "aiStatus": [
-  "이번 실행에서 0건 요약",
-  "제미나이 혼잡/한도: 다음 실행에 재시도"
+  "모델 gemini-3.8-flash · 이번 실행에서 0건 요약",
+  "제미나이 혼잡/한도(다음 실행에 재시도): HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a"
  ]
 };
