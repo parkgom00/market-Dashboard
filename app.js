@@ -252,6 +252,19 @@
     }).join("");
   }
 
+  var RANK_SHOW = 10;      // 처음에는 10위까지, '더보기'를 누르면 20위까지
+  var liveMore = {};
+  function rankBlock(key, items, extra) {
+    if (!items || !items.length) return rankList(items);
+    var open = !!liveMore[key + liveMarket];
+    var shown = open ? items : items.slice(0, RANK_SHOW);
+    var html = rankList(shown, extra);
+    if (items.length > RANK_SHOW) {
+      html += '<button type="button" class="morebtn" data-more="' + key + '">' + (open ? "접기 ▲" : (RANK_SHOW + 1) + "~" + items.length + "위 더보기 ▼") + "</button>";
+    }
+    return html;
+  }
+
   function renderLive() {
     var root = $("#tab-live");
     var L = D.live || {};
@@ -262,21 +275,9 @@
     h += '<div class="muted" style="margin-bottom:8px">데이터 기준 ' + esc(L.asOf || "-") + (liveStatus ? " · " + esc(liveStatus) : "") + "</div>";
     h += seg([{ id: "kr", label: "국내" }, { id: "us", label: "미국" }], liveMarket, "data-lm");
 
-    if (!m.news && liveMarket === "kr") {
-      h += '<div class="card"><h3>[특징주] 뉴스</h3><div class="muted" style="margin-bottom:8px">제목만 모아 보여주는 대신, 최신순 검색 결과로 바로 연결합니다.</div>' +
-        '<a class="btnlink" href="https://search.naver.com/search.naver?where=news&query=%5B%ED%8A%B9%EC%A7%95%EC%A3%BC%5D&sort=1" target="_blank" rel="noopener noreferrer">네이버 뉴스 · [특징주] 최신순 ›</a>' +
-        '<a class="btnlink" href="https://news.google.com/search?q=%5B%ED%8A%B9%EC%A7%95%EC%A3%BC%5D%20when%3A1d&hl=ko&gl=KR&ceid=KR%3Ako" target="_blank" rel="noopener noreferrer">구글 뉴스 · [특징주] 최근 24시간 ›</a></div>';
-    }
-    if (m.news) {
-      h += '<div class="card"><h3>[특징주] 뉴스</h3>' +
-        (m.news.length ? m.news.map(function (n) {
-          return '<div class="news"><a href="' + esc(safeUrl(n.url)) + '" target="_blank" rel="noopener noreferrer">' + esc(n.title) + "</a>" +
-            '<div class="meta">' + esc(n.time) + " · " + esc(n.source) + "</div></div>";
-        }).join("") : '<div class="muted">뉴스가 없습니다.</div>') + "</div>";
-    }
-    if (m.gainers) h += '<div class="card"><h3>등락률 상위</h3>' + rankList(m.gainers) + "</div>";
+    if (m.gainers) h += '<div class="card"><h3>등락률 상위</h3>' + rankBlock("gainers", m.gainers) + "</div>";
     if (m.value) {
-      h += '<div class="card"><h3>거래대금 상위</h3>' + rankList(m.value, function (s) {
+      h += '<div class="card"><h3>거래대금 상위</h3>' + rankBlock("value", m.value, function (s) {
         return s.valueEok != null ? num(s.valueEok) + "억" : "";
       }) + "</div>";
     }
@@ -298,7 +299,7 @@
       if (!m.themes.length) h += '<div class="muted">테마 데이터가 없습니다.</div>';
       h += "</div>";
     }
-    if (!m.news && !m.gainers && !m.value && !m.themes) h += '<div class="card empty">이 시장은 아직 표시할 데이터가 없습니다.</div>';
+    if (!m.gainers && !m.value && !m.themes) h += '<div class="card empty">이 시장은 아직 표시할 데이터가 없습니다.</div>';
     h += '<div class="note">새로고침은 서버에 저장된 최신 데이터를 다시 불러옵니다. 데이터 자체는 수집 주기마다 갱신되므로 위의 "데이터 기준" 시각을 확인하세요.</div>';
     root.innerHTML = h;
   }
@@ -320,6 +321,8 @@
     renderLive();
     $("#tab-live").addEventListener("click", function (ev) {
       if (ev.target.closest("#live-refresh")) { reloadLive(); return; }
+      var mb = ev.target.closest("[data-more]");
+      if (mb) { var k = mb.getAttribute("data-more") + liveMarket; liveMore[k] = !liveMore[k]; renderLive(); return; }
       var b = ev.target.closest("[data-lm]");
       if (b) { liveMarket = b.getAttribute("data-lm"); renderLive(); }
     });
