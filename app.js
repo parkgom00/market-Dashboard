@@ -334,7 +334,8 @@
     var y = D.youtube || {};
     var h = sampleNote(y) + "<h2>유튜브 최신 영상</h2>" +
       '<div class="muted">AI(제미나이)가 영상을 보고 정리한 요약입니다. 참고용이니 중요한 내용은 원본 영상으로 확인하세요.</div>' +
-      (y.asOf ? '<div class="muted">목록 기준 ' + esc(y.asOf) + "</div>" : "");
+      (y.asOf ? '<div class="muted">목록 기준 ' + esc(y.asOf) + "</div>" : "") +
+      ((y.aiStatus || []).length ? '<div class="muted">AI 요약 상태: ' + y.aiStatus.map(esc).join(" / ") + "</div>" : "");
 
     // 여러 채널이 같이 언급한 종목 (최근 요약 기준)
     var mention = {};

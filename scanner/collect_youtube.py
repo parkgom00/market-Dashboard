@@ -151,8 +151,20 @@ def summarize_new(channels, summarize, max_new=6, max_fail=2):
     return done, notes
 
 
-def write(channels, path=TARGET):
+def safe_status(lines):
+    """화면에 보일 AI 상태 메시지. 키처럼 보이는 문자열은 가리고 길이를 제한."""
+    import re
+    out = []
+    for l in lines:
+        l = re.sub(r"AIza[\w-]{10,}", "[키]", str(l))
+        out.append(l[:220])
+    return out[:6]
+
+
+def write(channels, path=TARGET, status=None):
     payload = {"asOf": datetime.now(KST).strftime("%Y-%m-%d %H:%M"), "channels": channels}
+    if status:
+        payload["aiStatus"] = safe_status(status)
     with open(path, "w", encoding="utf-8") as f:
         f.write("// 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.\n")
         f.write("window.DASH = window.DASH || {};\nwindow.DASH.youtube = ")
@@ -166,17 +178,21 @@ def main():
     result, errors = build(channels, load_previous())
     if not any(c["videos"] for c in result):
         raise SystemExit("영상을 하나도 받지 못했습니다: " + "; ".join(errors))
+    status = []
     try:
         import gemini
         if gemini.api_key():
             n, notes = summarize_new(result, lambda url: gemini.generate(PROMPT, system=SYSTEM, video_url=url, want_json=True, max_tokens=8192))
             print(f"AI 요약 {n}건 생성")
             errors += notes
+            status = [f"이번 실행에서 {n}건 요약"] + notes
         else:
             print("GEMINI_API_KEY 없음: 요약 건너뜀")
+            status = ["제미나이 키를 못 찾음: GitHub Settings → Secrets and variables → Actions 의 'Repository secrets' 에 GEMINI_API_KEY 로 등록했는지 확인"]
     except Exception as e:
         errors.append(f"AI 요약 단계 오류: {e}")
-    write(result)
+        status = [f"AI 요약 단계 오류: {e}"]
+    write(result, status=status)
     for e in errors:
         print("경고:", e)
     print("유튜브 갱신:", ", ".join(f"{c['name']} {len(c['videos'])}개" for c in result))
