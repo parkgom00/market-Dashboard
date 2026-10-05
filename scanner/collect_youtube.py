@@ -187,7 +187,8 @@ def main():
     try:
         import gemini
         if gemini.api_key():
-            n, notes = summarize_new(result, lambda url: gemini.generate(PROMPT, system=SYSTEM, video_url=url, want_json=True, max_tokens=8192))
+            gemini.set_deadline(780)   # 13분 안에 끝냄 (워크플로 제한 30분 대비 여유)
+            n, notes = summarize_new(result, lambda url: gemini.generate(PROMPT, system=SYSTEM, video_url=url, want_json=True, max_tokens=8192, retries=1))
             print(f"AI 요약 {n}건 생성")
             errors += notes
             try:

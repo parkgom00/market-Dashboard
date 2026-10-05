@@ -156,6 +156,7 @@ def ensure_brief(payload, themes):
         print("GEMINI_API_KEY 없음: AI 브리핑 건너뜀")
         payload["briefStatus"] = "제미나이 키를 못 찾음 (Settings → Secrets and variables → Actions 의 Repository secrets 확인)"
         return
+    gemini.set_deadline(600)
     def gen(prompt, system, search):
         return gemini.generate(prompt, system=system, search=search, want_json=True, max_tokens=16384)
     try:

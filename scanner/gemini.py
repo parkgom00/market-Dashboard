@@ -73,6 +73,16 @@ def rank_models(names):
 
 
 _model_cache = {}
+_deadline = {"t": None}
+
+
+def set_deadline(seconds):
+    """이 시각 이후에는 새 요청을 보내지 않음 (워크플로 시간 제한에 걸려 결과가 사라지는 것을 방지)."""
+    _deadline["t"] = time.time() + seconds
+
+
+def _remaining():
+    return None if _deadline["t"] is None else _deadline["t"] - time.time()
 
 
 def get_models(limit=4):
@@ -157,8 +167,11 @@ def generate(prompt, system=None, video_url=None, want_json=False, search=False,
     for rnd in range(retries + 1):
         for model in get_models():
             url = f"{BASE}/models/{model}:generateContent"
+            rem = _remaining()
+            if rem is not None and rem < 20:
+                raise GeminiBusy("시간 예산 소진: " + " | ".join(errs[-3:]))
             try:
-                text = _text_of(_request(url, body))
+                text = _text_of(_request(url, body, timeout=120 if rem is None else max(20, min(120, rem))))
                 _model_cache["used"] = model
                 return extract_json(text) if want_json else text
             except GeminiBusy as e:    # 이 모델이 혼잡/한도 → 다음 모델로
@@ -167,8 +180,9 @@ def generate(prompt, system=None, video_url=None, want_json=False, search=False,
             except ValueError as e:    # JSON 파싱 실패 → 다음 모델로
                 last = GeminiError(str(e))
                 errs.append(f"{model}: JSON 형식 오류")
-        if rnd < retries:
-            time.sleep(20 * (rnd + 1))
+        rem = _remaining()
+        if rnd < retries and (rem is None or rem > 60):
+            time.sleep(15 * (rnd + 1))
     detail = " | ".join(errs[-4:])
     raise (GeminiBusy if isinstance(last, GeminiBusy) else GeminiError)(detail or str(last))
 
