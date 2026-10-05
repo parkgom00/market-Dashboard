@@ -1619,21 +1619,21 @@ window.DASH.longterm = {
   {
    "code": "PTC",
    "name": "PTC Inc.",
-   "close": 192.74,
+   "close": 192.61,
    "ma240": 151.4,
    "ma480": 167.25,
    "matched": [
     "L3a",
     "L3b"
    ],
-   "note": "240일선 돌파(오늘), 거래량 평균의 9.6배 / 480일선 돌파(오늘), 거래량 평균의 9.6배"
+   "note": "240일선 돌파(오늘), 거래량 평균의 11.5배 / 480일선 돌파(오늘), 거래량 평균의 11.5배"
   },
   {
    "code": "SNPS",
    "name": "Synopsys",
-   "close": 488.97,
-   "ma240": 442.76,
-   "ma480": 475.26,
+   "close": 483.76,
+   "ma240": 442.74,
+   "ma480": 475.25,
    "matched": [
     "L3a",
     "L3b"
@@ -1652,9 +1652,20 @@ window.DASH.longterm = {
    "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
   },
   {
+   "code": "ABNB",
+   "name": "Airbnb",
+   "close": 164.19,
+   "ma240": 140.15,
+   "ma480": 135.27,
+   "matched": [
+    "L2"
+   ],
+   "note": "급등 +35.5% 후 고점 대비 -13.8% 조정, 60일선 대비 -1.0%"
+  },
+  {
    "code": "AME",
    "name": "Ametek",
-   "close": 253.49,
+   "close": 253.73,
    "ma240": 223.97,
    "ma480": 201.79,
    "matched": [
@@ -1665,7 +1676,7 @@ window.DASH.longterm = {
   {
    "code": "APH",
    "name": "Amphenol",
-   "close": 87.41,
+   "close": 87.21,
    "ma240": 73.01,
    "ma480": 57.98,
    "matched": [
@@ -1674,22 +1685,22 @@ window.DASH.longterm = {
    "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
   },
   {
-   "code": "ANET",
-   "name": "Arista Networks",
-   "close": 208.38,
-   "ma240": 155.44,
-   "ma480": 131.78,
+   "code": "CTSH",
+   "name": "Cognizant",
+   "close": 58.13,
+   "ma240": 62.45,
+   "ma480": 68.42,
    "matched": [
-    "L1"
+    "L2"
    ],
-   "note": "정배열 상승 중, 최근 20일선 지지 확인"
+   "note": "급등 +44.5% 후 고점 대비 -10.1% 조정, 60일선 대비 +2.9%"
   },
   {
    "code": "CRWD",
    "name": "CrowdStrike",
-   "close": 271.9,
+   "close": 271.56,
    "ma240": 150.33,
-   "ma480": 127.17,
+   "ma480": 127.16,
    "matched": [
     "L1"
    ],
@@ -1698,7 +1709,7 @@ window.DASH.longterm = {
   {
    "code": "DDOG",
    "name": "Datadog",
-   "close": 279.1,
+   "close": 278.7,
    "ma240": 181.8,
    "ma480": 156.0,
    "matched": [
@@ -1709,7 +1720,7 @@ window.DASH.longterm = {
   {
    "code": "EMR",
    "name": "Emerson Electric",
-   "close": 162.97,
+   "close": 163.25,
    "ma240": 141.84,
    "ma480": 132.09,
    "matched": [
@@ -1720,7 +1731,7 @@ window.DASH.longterm = {
   {
    "code": "P",
    "name": "Everpure",
-   "close": 141.01,
+   "close": 140.76,
    "ma240": 79.98,
    "ma480": 70.25,
    "matched": [
@@ -1731,7 +1742,7 @@ window.DASH.longterm = {
   {
    "code": "FFIV",
    "name": "F5, Inc.",
-   "close": 457.39,
+   "close": 457.46,
    "ma240": 330.32,
    "ma480": 307.85,
    "matched": [
@@ -1742,7 +1753,7 @@ window.DASH.longterm = {
   {
    "code": "FDS",
    "name": "FactSet",
-   "close": 267.7,
+   "close": 267.69,
    "ma240": 251.54,
    "ma480": 333.98,
    "matched": [
@@ -1753,9 +1764,9 @@ window.DASH.longterm = {
   {
    "code": "FTNT",
    "name": "Fortinet",
-   "close": 183.43,
+   "close": 182.86,
    "ma240": 113.05,
-   "ma480": 104.46,
+   "ma480": 104.45,
    "matched": [
     "L1"
    ],
@@ -1764,7 +1775,7 @@ window.DASH.longterm = {
   {
    "code": "HPE",
    "name": "Hewlett Packard Enterprise",
-   "close": 68.53,
+   "close": 68.31,
    "ma240": 34.56,
    "ma480": 27.09,
    "matched": [
@@ -1775,7 +1786,7 @@ window.DASH.longterm = {
   {
    "code": "ILMN",
    "name": "Illumina, Inc.",
-   "close": 283.17,
+   "close": 284.8,
    "ma240": 156.29,
    "ma480": 130.05,
    "matched": [
@@ -1786,7 +1797,7 @@ window.DASH.longterm = {
   {
    "code": "JCI",
    "name": "Johnson Controls",
-   "close": 157.12,
+   "close": 156.56,
    "ma240": 133.38,
    "ma480": 112.54,
    "matched": [
@@ -1797,7 +1808,7 @@ window.DASH.longterm = {
   {
    "code": "MRVL",
    "name": "Marvell Technology",
-   "close": 272.48,
+   "close": 271.23,
    "ma240": 154.49,
    "ma480": 118.13,
    "matched": [
@@ -1808,8 +1819,8 @@ window.DASH.longterm = {
   {
    "code": "MRNA",
    "name": "Moderna",
-   "close": 196.09,
-   "ma240": 62.01,
+   "close": 199.55,
+   "ma240": 62.02,
    "ma480": 46.9,
    "matched": [
     "L1"
@@ -1819,9 +1830,9 @@ window.DASH.longterm = {
   {
    "code": "NTAP",
    "name": "NetApp",
-   "close": 220.82,
+   "close": 220.26,
    "ma240": 134.37,
-   "ma480": 120.5,
+   "ma480": 120.49,
    "matched": [
     "L1"
    ],
@@ -1830,18 +1841,18 @@ window.DASH.longterm = {
   {
    "code": "NEM",
    "name": "Newmont",
-   "close": 115.72,
+   "close": 115.83,
    "ma240": 107.16,
    "ma480": 80.86,
    "matched": [
     "L2"
    ],
-   "note": "급등 +48.0% 후 고점 대비 -14.2% 조정, 60일선 대비 +1.6%"
+   "note": "급등 +48.0% 후 고점 대비 -14.1% 조정, 60일선 대비 +1.7%"
   },
   {
    "code": "NDSN",
    "name": "Nordson Corporation",
-   "close": 334.46,
+   "close": 334.45,
    "ma240": 277.0,
    "ma480": 244.94,
    "matched": [
@@ -1852,7 +1863,7 @@ window.DASH.longterm = {
   {
    "code": "NVDA",
    "name": "Nvidia",
-   "close": 236.79,
+   "close": 237.07,
    "ma240": 198.31,
    "ma480": 171.38,
    "matched": [
@@ -1863,8 +1874,8 @@ window.DASH.longterm = {
   {
    "code": "PANW",
    "name": "Palo Alto Networks",
-   "close": 404.93,
-   "ma240": 243.29,
+   "close": 404.18,
+   "ma240": 243.28,
    "ma480": 216.56,
    "matched": [
     "L1"
@@ -1885,7 +1896,7 @@ window.DASH.longterm = {
   {
    "code": "RVTY",
    "name": "Revvity",
-   "close": 153.93,
+   "close": 153.98,
    "ma240": 104.87,
    "ma480": 103.26,
    "matched": [
@@ -1896,7 +1907,7 @@ window.DASH.longterm = {
   {
    "code": "STX",
    "name": "Seagate Technology",
-   "close": 891.09,
+   "close": 891.33,
    "ma240": 587.71,
    "ma480": 355.65,
    "matched": [
@@ -1907,7 +1918,7 @@ window.DASH.longterm = {
   {
    "code": "VTRS",
    "name": "Viatris",
-   "close": 17.67,
+   "close": 17.68,
    "ma240": 14.37,
    "ma480": 11.96,
    "matched": [
@@ -1929,24 +1940,13 @@ window.DASH.longterm = {
   {
    "code": "WAT",
    "name": "Waters Corporation",
-   "close": 432.78,
-   "ma240": 366.14,
-   "ma480": 357.17,
+   "close": 435.24,
+   "ma240": 366.15,
+   "ma480": 357.18,
    "matched": [
     "L1"
    ],
    "note": "정배열 상승 중, 최근 20일선 지지 확인"
-  },
-  {
-   "code": "WDAY",
-   "name": "Workday, Inc.",
-   "close": 185.82,
-   "ma240": 168.72,
-   "ma480": 207.46,
-   "matched": [
-    "L2"
-   ],
-   "note": "급등 +61.5% 후 고점 대비 -10.2% 조정, 60일선 대비 +3.8%"
   }
  ]
 };
