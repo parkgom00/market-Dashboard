@@ -84,7 +84,7 @@ def main():
     rows = parse_items(fetch_payload(cid, sec))
     os.makedirs(OUT, exist_ok=True)
     with open(os.path.join(OUT, "live_news.json"), "w", encoding="utf-8") as f:
-        json.dump({"items": rows}, f, ensure_ascii=False)
+        json.dump({"asOf": datetime.now(KST).strftime("%Y-%m-%d %H:%M"), "items": rows}, f, ensure_ascii=False)
     print(f"[특징주] 뉴스 {len(rows)}건 저장")
     import build_live
     build_live.build()

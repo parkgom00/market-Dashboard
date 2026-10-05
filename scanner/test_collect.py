@@ -1,0 +1,133 @@
+"""수집기·캘린더·합치기 로직을 가짜 데이터로 검증합니다 (인터넷 불필요). 실행: python test_collect.py"""
+import json
+import os
+import tempfile
+from datetime import date
+
+import pandas as pd
+
+import build_calendar
+import build_live
+import collect_kr
+import collect_us
+
+ok = []
+
+
+def check(name, cond):
+    ok.append(bool(cond))
+    print(("PASS " if cond else "FAIL ") + name)
+
+
+# ── 국내 ────────────────────────────────────────────────
+raw = pd.DataFrame({
+    "Code": ["5930", "000660", "111111", "222222", "333333", "444444"],
+    "Name": ["삼성전자", "SK하이닉스", "급등소형주", "OO스팩1호", "코넥스종목", "정상종목"],
+    "Market": ["KOSPI", "KOSPI", "KOSDAQ", "KOSDAQ", "KONEX", "KOSDAQ"],
+    "Close": [70000, 180000, 1000, 2000, 5000, 30000],
+    "ChagesRatio": [1.5, 6.2, 29.9, 25.0, 20.0, 9.1],
+    "Amount": [9e11, 7e11, 3e8, 5e10, 5e10, 4e10],   # 급등소형주는 거래대금 3억
+})
+df = collect_kr.normalize(raw)
+check("종목코드 6자리 보정 (5930 → 005930)", "005930" in set(df["code"]))
+check("스팩·코넥스 제외", set(df["name"]) == {"삼성전자", "SK하이닉스", "급등소형주", "정상종목"})
+g = collect_kr.top_gainers(df)
+check("등락률 상위: 거래대금 10억 미만 종목 제외 + 내림차순", [r["name"] for r in g] == ["정상종목", "SK하이닉스", "삼성전자"])
+v = collect_kr.top_value(df)
+check("거래대금 상위: 내림차순, 억 단위 반올림", v[0]["name"] == "삼성전자" and v[0]["valueEok"] == 9000)
+
+raw2 = raw.drop(columns=["ChagesRatio"]).assign(Changes=[1000, 10000, 200, 400, 800, 2500])
+df2 = collect_kr.normalize(raw2)
+check("등락률 컬럼이 없으면 등락폭으로 직접 계산 (SK하이닉스 10000/170000 = 5.88%)",
+      abs(df2.set_index("code").loc["000660", "pct"] - 5.88) < 0.01)
+
+try:
+    collect_kr.normalize(pd.DataFrame({"foo": [1]}))
+    check("필요 컬럼이 없으면 오류로 알림", False)
+except ValueError:
+    check("필요 컬럼이 없으면 오류로 알림", True)
+
+themes = [
+    {"name": "반도체", "kr": [{"code": "005930"}, {"code": "000660"}, {"code": "999999"}]},
+    {"name": "한 종목뿐", "kr": [{"code": "005930"}, {"code": "888888"}]},
+]
+ts = collect_kr.theme_strength(df, themes)
+check("테마 강약: 시세표에 없는 종목은 빼고, 종목이 2개 미만인 테마는 숨김", len(ts) == 1 and len(ts[0]["stocks"]) == 2)
+
+# ── 미국 ────────────────────────────────────────────────
+idx = pd.date_range("2026-09-28", periods=5, freq="B")
+closes = pd.DataFrame({
+    "NVDA": [100, 101, 102, 103, 106.0],
+    "AVGO": [200, 200, 201, 202, 206.0],
+    "XOM": [100, 100, 100, 100, 99.0],
+    "NEW": [None, None, None, None, 5.0],     # 데이터 부족
+}, index=idx)
+ch = collect_us.compute_changes(closes)
+check("미국 등락률: 마지막 종가 vs 직전 종가", abs(ch["NVDA"]["pct"] - (106 / 103 - 1) * 100) < 1e-9 and ch["NVDA"]["date"] == "2026-10-02")
+check("데이터가 하루뿐인 종목은 제외", "NEW" not in ch)
+check("기준일 문구에 요일 포함 (2026-10-02 = 금)", collect_us.as_of_text("2026-10-02") == "2026-10-02 (금) 미국 정규장 기준")
+
+umap = [
+    {"name": "AI", "us": [{"ticker": "NVDA", "name": "엔비디아"}, {"ticker": "AVGO", "name": "브로드컴"}],
+     "kr": [{"code": "000660", "name": "SK하이닉스", "link": "HBM 공급"}]},
+    {"name": "에너지", "us": [{"ticker": "XOM", "name": "엑슨"}, {"ticker": "NEW", "name": "신규"}], "kr": []},
+]
+res = collect_us.build_us_themes(ch, umap)
+check("급등 테마만(평균 +1% 이상) 선택, 미국 종목 내림차순, 국내 연관주 연결 포함",
+      [r["name"] for r in res] == ["AI"] and res[0]["usStocks"][0]["ticker"] == "NVDA" and res[0]["krStocks"][0]["link"] == "HBM 공급")
+flat = pd.DataFrame({"NVDA": [100, 100.2], "AVGO": [100, 99.9]}, index=idx[:2])
+fb = collect_us.build_us_themes(collect_us.compute_changes(flat), umap)
+check("급등 테마가 없으면 상위 테마를 대신 표시", len(fb) == 1 and fb[0]["name"] == "AI")
+
+with tempfile.TemporaryDirectory() as d:
+    collect_us.OUT = d
+    json.dump({"forDate": "2026-10-01", "lines": ["어제 요약"]}, open(os.path.join(d, "us_summary.json"), "w", encoding="utf-8"))
+    idx_ch = {"^IXIC": {"close": 20000.0, "pct": 1.2, "date": "2026-10-02"},
+              "^GSPC": {"close": 6000.0, "pct": 0.8, "date": "2026-10-02"},
+              "^DJI": {"close": 45000.0, "pct": 0.3, "date": "2026-10-02"}}
+    p = collect_us.build_payload(idx_ch, ch, umap)
+    check("요약 파일 날짜가 다르면 오래된 요약은 쓰지 않음", p["summary"] == [])
+    json.dump({"forDate": "2026-10-02", "lines": ["오늘 요약"]}, open(os.path.join(d, "us_summary.json"), "w", encoding="utf-8"))
+    check("날짜가 맞으면 요약 포함, 지수 3개 순서 유지",
+          collect_us.build_payload(idx_ch, ch, umap)["summary"] == ["오늘 요약"] and [i["name"] for i in p["indices"]] == ["나스닥", "S&P 500", "다우"])
+
+# ── 특징주 합치기 ───────────────────────────────────────
+with tempfile.TemporaryDirectory() as d:
+    for name, body in [("live_kr_rank.json", {"asOf": "2026-10-05 16:10", "gainers": [1], "value": [2]}),
+                       ("live_themes_kr.json", {"asOf": "2026-10-05 16:10", "themes": [3]}),
+                       ("live_themes_us.json", {"asOf": "2026-10-05 07:30", "themes": [4]}),
+                       ("live_news.json", {"asOf": "2026-10-05 16:30", "items": [5]})]:
+        json.dump(body, open(os.path.join(d, name), "w", encoding="utf-8"))
+    out = build_live.build(d, os.path.join(d, "live.js"))
+    check("특징주 합치기: 국내 4개 항목 + 미국 테마", set(out["kr"]) == {"news", "gainers", "value", "themes"} and set(out["us"]) == {"themes"})
+    check("데이터 기준 시각은 가장 최근 조각의 시각", out["asOf"] == "2026-10-05 16:30")
+
+# ── 캘린더 ──────────────────────────────────────────────
+fx = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "calendar_fixed.json"), encoding="utf-8"))["events"]
+titles = {(e["date"], e["title"]) for e in fx}
+check("FOMC 10/28(미국) → 한국 날짜 10/29", any(d == "2026-10-29" and "FOMC" in t for d, t in titles))
+check("CPI 9월분은 10/14", any(d == "2026-10-14" and "CPI" in t for d, t in titles))
+check("미국 휴장 7/3(독립기념일 대체) 포함", any(d == "2026-07-03" and "미국 증시 휴장" in t for d, t in titles))
+
+ex = build_calendar.krx_extra_closures([2026, 2028])
+dates = {e["date"] for e in ex}
+check("한국거래소 추가 휴장: 5/1, 연말 마지막 영업일 (2026-12-31 목, 2028-12-31 일 → 12-29 금)",
+      {"2026-05-01", "2026-12-31", "2028-05-01", "2028-12-29"} <= dates)
+
+m = build_calendar.merge(
+    [{"date": "2026-10-09", "type": "holiday", "market": "KR", "title": "한글날 (증시 휴장)"}],
+    [[{"date": "2026-10-09", "type": "holiday", "market": "KR", "title": "한글날"},
+      {"date": "2026-10-03", "type": "holiday", "market": "KR", "title": "개천절"}]],     # 토요일
+    [{"date": "2026-10-21", "type": "earnings", "market": "US", "title": "테슬라 실적"},
+     {"date": "잘못된날짜", "type": "event", "title": "무시"},
+     {"date": "2026-10-22", "type": "없는유형", "title": "무시"}])
+check("같은 날 같은 시장 휴장 중복 제거, 주말 휴장 제외, 수동 일정 유지, 형식 오류 건너뜀",
+      [e["title"] for e in m] == ["한글날 (증시 휴장)", "테슬라 실적"])
+
+with tempfile.TemporaryDirectory() as d:
+    out = build_calendar.build(os.path.join(d, "calendar.js"), today=date(2026, 10, 5))
+    txt = open(os.path.join(d, "calendar.js"), encoding="utf-8").read()
+    check("calendar.js 생성 (window.DASH.calendar)", "window.DASH.calendar = " in txt and len(out["events"]) > 50)
+
+print(f"\n{sum(ok)}/{len(ok)} 통과")
+raise SystemExit(0 if all(ok) else 1)

@@ -1,4 +1,6 @@
 pandas
 numpy
+lxml
 finance-datareader
 yfinance
+holidays

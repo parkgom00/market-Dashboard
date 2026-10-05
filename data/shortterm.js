@@ -3,6 +3,7 @@
 // timeframe: "일봉" | "1분봉" (1분봉은 실시간 연동이 필요해서 2차 단계)
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
+  sample: true,   // 실제 수집이 연결되면 이 줄은 자동으로 사라집니다
   types: [
     {
       id: "A",

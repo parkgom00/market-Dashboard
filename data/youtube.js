@@ -3,6 +3,7 @@
 // channelId 는 실제 채널 ID(UC로 시작)를 확인해서 넣어주세요.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
+  sample: true,   // 실제 수집이 연결되면 이 줄은 자동으로 사라집니다
   channels: [
     { name: "815머니톡",        channelId: "", videos: [{ title: "[샘플] 최신 영상 제목", publishedAt: "2026-10-05", url: "#", summary: ["[샘플] 핵심 요약 1", "[샘플] 핵심 요약 2"] }] },
     { name: "올렌도킴 미국주식", channelId: "", videos: [{ title: "[샘플] 최신 영상 제목", publishedAt: "2026-10-05", url: "#", summary: ["[샘플] 핵심 요약 1", "[샘플] 핵심 요약 2"] }] },

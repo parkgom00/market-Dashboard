@@ -3,6 +3,7 @@
 // krStocks 는 '테마 연결표(data/theme_map.js, 추후 추가)'를 근거로 채우는 것을 권장합니다.
 window.DASH = window.DASH || {};
 window.DASH.usmarket = {
+  sample: true,   // 실제 수집이 연결되면 이 줄은 자동으로 사라집니다
   asOf: "2026-10-02 (금) 미국 정규장 기준",
   indices: [
     { name: "나스닥",   close: 0, changePct: 0.0 },

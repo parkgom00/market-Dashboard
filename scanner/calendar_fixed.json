@@ -1,7 +1,11 @@
-// 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
-window.DASH = window.DASH || {};
-window.DASH.calendar = {
- "generatedAt": "2026-10-05 23:13",
+{
+ "_sources": {
+  "US 휴장": "https://www.nyse.com/trade/hours-calendars (2026-10-05 확인)",
+  "FOMC": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm (2026-10-05 확인, 2027은 잠정)",
+  "CPI": "https://www.bls.gov/schedule/news_release/cpi.htm (2026-10-05 확인)",
+  "고용보고서": "https://www.bls.gov/schedule/news_release/empsit.htm (2026-10-05 확인)",
+  "KR 휴장": "추석·개천절 대체·한글날은 언론 보도로 확인. 나머지는 holidays 라이브러리와 calendar_manual.json 으로 보충하고 KRX 공지와 대조하세요."
+ },
  "events": [
   {
    "date": "2026-01-01",
@@ -71,15 +75,15 @@ window.DASH.calendar = {
   },
   {
    "date": "2026-04-03",
-   "type": "econ",
-   "market": "US",
-   "title": "미국 고용보고서 발표 · 3월분 (한국시간 저녁)"
-  },
-  {
-   "date": "2026-04-03",
    "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 성금요일"
+  },
+  {
+   "date": "2026-04-03",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 고용보고서 발표 · 3월분 (한국시간 저녁)"
   },
   {
    "date": "2026-04-10",
@@ -92,12 +96,6 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "FOMC 금리 결정 발표 (한국시간 새벽, 미국 4/29)"
-  },
-  {
-   "date": "2026-05-01",
-   "type": "holiday",
-   "market": "KR",
-   "title": "근로자의 날 (증시 휴장)"
   },
   {
    "date": "2026-05-08",
@@ -286,12 +284,6 @@ window.DASH.calendar = {
    "title": "미국 증시 휴장 · 크리스마스"
   },
   {
-   "date": "2026-12-31",
-   "type": "holiday",
-   "market": "KR",
-   "title": "연말 휴장 (증시)"
-  },
-  {
    "date": "2027-01-01",
    "type": "holiday",
    "market": "US",
@@ -398,12 +390,6 @@ window.DASH.calendar = {
    "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 크리스마스 대체"
-  },
-  {
-   "date": "2027-12-31",
-   "type": "holiday",
-   "market": "KR",
-   "title": "연말 휴장 (증시)"
   }
  ]
-};
+}

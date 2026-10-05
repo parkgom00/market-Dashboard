@@ -4,6 +4,7 @@
 // strong / weak 기준(%)은 화면에서 정합니다 (app.js 의 LIVE_STRONG, LIVE_WEAK).
 window.DASH = window.DASH || {};
 window.DASH.live = {
+  sample: true,   // 실제 수집이 연결되면 이 줄은 자동으로 사라집니다
   asOf: "2026-10-05 16:00",   // 데이터가 만들어진 시각 (화면에 그대로 표시되어 얼마나 오래된 값인지 알 수 있음)
   kr: {
     news: [

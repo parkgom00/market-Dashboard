@@ -1,0 +1,31 @@
+name: 미국 장마감 (지수·테마 + 중장기 스캔)
+on:
+  schedule:
+    - cron: "30 22 * * 1-5"
+  workflow_dispatch:
+concurrency:
+  group: data-commit
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scanner/requirements.txt
+      - run: pip install -r scanner/requirements.txt
+      - name: 미국 지수·테마 수집
+        working-directory: scanner
+        run: python collect_us.py
+      - name: 중장기 스캔 (미국 S&P 500)
+        working-directory: scanner
+        run: python run_scan.py --market us
+      - name: 변경된 데이터 저장
+        if: ${{ !cancelled() }}
+        run: bash scanner/commit_data.sh

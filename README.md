@@ -11,7 +11,48 @@
 | 중장기 | 240일선·480일선 등 조건 충족 종목 (국내/미국) | `data/longterm.js` |
 | 단기 | 유형별 단기 트레이딩 조건 충족 종목 (국내/미국) | `data/shortterm.js` |
 
-현재 모든 데이터는 **화면 확인용 샘플**입니다. 실제 시세와 일정이 아닙니다.
+## 데이터 연결 상태
+
+| 탭 | 상태 |
+|---|---|
+| 캘린더 | **연결됨** (공식 일정 + 휴장일 자동 + 수동 일정 `scanner/calendar_manual.json`) |
+| 미국장 | 지수·테마 등락 **연결됨**, 이슈 요약 문장은 AI 요약 단계 필요(미연결) |
+| 특징주 | 국내 등락률·거래대금·테마 강약, 미국 테마 **연결됨** / [특징주] 뉴스는 네이버 키 등록 후 |
+| 유튜브 | 미연결 (샘플) |
+| 중장기 | 스캐너 **연결됨** (장마감 후 자동 실행) |
+| 단기 | 규칙 대기 (샘플) |
+
+샘플인 탭에는 화면 위쪽에 "샘플 데이터" 안내가 표시됩니다 (`data/*.js` 의 `sample: true`).
+
+## 자동 갱신 (GitHub Actions)
+
+`.github/workflows/` 의 일정에 따라 GitHub 서버가 수집 코드를 돌리고, 바뀐 `data/` 파일을 저장하면 사이트가 1~2분 안에 반영됩니다.
+
+| 워크플로 | 실행 시각 (한국시간) | 하는 일 |
+|---|---|---|
+| kr-intraday | 평일 09:00~16:00, 20분마다 | 국내 등락률·거래대금·테마 강약, 뉴스 |
+| kr-close | 평일 16:30 | 위 + 중장기 국내 전 종목 스캔 |
+| us-close | 평일(미국 장 마감 후) 07:30 | 미국 지수·테마, 중장기 미국 스캔 |
+| calendar | 매일 06:00 | 캘린더 |
+
+GitHub 의 정기 실행은 몇 분씩 늦어질 수 있습니다. 직접 돌리려면 저장소의 Actions 탭 → 워크플로 선택 → Run workflow.
+저장소에 활동이 60일 동안 없으면 GitHub 이 정기 실행을 멈출 수 있습니다.
+
+## 비밀 키 등록 (GitHub Secrets)
+
+저장소 Settings → Secrets and variables → Actions → New repository secret 에 등록합니다. 파일에는 절대 적지 마세요.
+`NAVER_CLIENT_ID`, `NAVER_CLIENT_SECRET` (특징주 뉴스)
+
+## 테마 연결표 (`scanner/theme_map.json`)
+
+미국 종목 → 국내 연관주 연결과 테마 구성은 이 파일 하나로 관리합니다. **지금 내용은 초안입니다.** 틀린 연결은 지우고 빠진 종목은 추가하세요.
+
+## 일정 직접 추가 (`scanner/calendar_manual.json`)
+
+```
+[{"date": "2026-10-21", "type": "earnings", "market": "US", "title": "테슬라 실적 발표"}]
+```
+type: `holiday`(휴장) `econ`(경제지표) `earnings`(실적) `event`(이벤트) / market: `KR` `US`
 
 ## 주소
 
@@ -43,6 +84,7 @@ https://parkgom00.github.io/market-Dashboard/ (GitHub Pages, main 브랜치에 �
 cd scanner
 pip install -r requirements.txt
 python test_rules.py          # 규칙 판정 검증 (합성 차트, 인터넷 불필요)
+python test_collect.py        # 수집·캘린더 로직 검증 (가짜 데이터)
 python run_scan.py --market kr --limit 30   # 국내 30종목만 시험
 python run_scan.py --market kr              # 국내 전 종목 (장 마감 후)
 python run_scan.py --market us              # 미국 (S&P 500, 미국장 마감 후)

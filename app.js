@@ -20,6 +20,9 @@
     return '<span class="' + cls + '">' + sign + n.toFixed(2) + "%</span>";
   }
   function num(v) { return Number(v || 0).toLocaleString("ko-KR"); }
+  function sampleNote(o) {
+    return o && o.sample ? '<div class="banner" style="margin:0 0 10px">이 탭은 아직 샘플 데이터입니다. 실제 시세·분석이 아닙니다.</div>' : "";
+  }
   function safeUrl(u) { return /^https?:\/\//i.test(u || "") ? u : "#"; }
 
   /* ---------- 공통: 선택 버튼(세그먼트) ---------- */
@@ -115,30 +118,36 @@
   function renderUS() {
     var root = $("#tab-us");
     var u = D.usmarket || {};
-    var h = "<h2>전날 미국장 &amp; 특징주</h2>";
+    var h = sampleNote(u) + "<h2>전날 미국장 &amp; 특징주</h2>";
     h += '<div class="muted" style="margin:-6px 0 10px">' + esc(u.asOf || "") + "</div>";
 
     h += '<div class="idx">' + (u.indices || []).map(function (i) {
-      return '<div class="card"><div class="nm">' + esc(i.name) + '</div><div class="pc">' + pctText(i.changePct) + "</div></div>";
+      return '<div class="card"><div class="nm">' + esc(i.name) + '</div><div class="pc">' + pctText(i.changePct) + "</div>" +
+        (i.close ? '<div class="nm">' + num(i.close) + "</div>" : "") + "</div>";
     }).join("") + "</div>";
 
-    h += '<div class="card"><h3>어제 미국장 이슈</h3><ul class="plain">' +
-      (u.summary || []).map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ul></div>";
+    if ((u.summary || []).length) {
+      h += '<div class="card"><h3>어제 미국장 이슈</h3><ul class="plain">' +
+        u.summary.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ul></div>";
+    }
 
     (u.themes || []).forEach(function (t) {
       h += '<div class="card"><div class="row"><h3>' + esc(t.name) + "</h3>" + pctText(t.changePct) + "</div>";
-      h += '<div class="muted">' + esc(t.why) + "</div>";
+      if (t.why) h += '<div class="muted">' + esc(t.why) + "</div>";
       h += '<div class="sub-title">미국 특징주</div>';
       h += (t.usStocks || []).map(function (s) {
         return '<div class="stock row"><div><span class="nm">' + esc(s.name) + '</span> <span class="meta">' + esc(s.ticker) + "</span></div>" + pctText(s.changePct) + "</div>";
       }).join("");
-      h += '<div class="sub-title">국내 연관주</div>';
-      h += (t.krStocks || []).map(function (s) {
-        return '<div class="stock"><div><span class="nm">' + esc(s.name) + '</span> <span class="meta">' + esc(s.code) + "</span></div>" +
-          '<div class="meta">연결 로직: ' + esc(s.link) + "</div></div>";
-      }).join("");
+      if ((t.krStocks || []).length) {
+        h += '<div class="sub-title">국내 연관주</div>';
+        h += t.krStocks.map(function (s) {
+          return '<div class="stock"><div><span class="nm">' + esc(s.name) + '</span> <span class="meta">' + esc(s.code) + "</span></div>" +
+            (s.link ? '<div class="meta">연결 로직: ' + esc(s.link) + "</div>" : "") + "</div>";
+        }).join("");
+      }
       h += "</div>";
     });
+    if (!(u.themes || []).length && !(u.indices || []).length) h += '<div class="card empty">아직 수집된 데이터가 없습니다.</div>';
     root.innerHTML = h;
   }
 
@@ -166,7 +175,7 @@
     var root = $("#tab-live");
     var L = D.live || {};
     var m = L[liveMarket] || {};
-    var h = '<div class="live-head"><h2>실시간 특징주</h2>' +
+    var h = sampleNote(L) + '<div class="live-head"><h2>실시간 특징주</h2>' +
       '<button type="button" class="refresh' + (liveStatus.indexOf("실패") === 0 ? " err" : "") + '" id="live-refresh"' + (liveBusy ? " disabled" : "") + '>' +
       (liveBusy ? "불러오는 중…" : "↻ 새로고침") + "</button></div>";
     h += '<div class="muted" style="margin-bottom:8px">데이터 기준 ' + esc(L.asOf || "-") + (liveStatus ? " · " + esc(liveStatus) : "") + "</div>";
@@ -234,9 +243,10 @@
   function renderYouTube() {
     var root = $("#tab-youtube");
     var y = D.youtube || {};
-    var h = "<h2>유튜브 최신 영상 요약</h2>";
+    var h = sampleNote(y) + "<h2>유튜브 최신 영상 요약</h2>";
     (y.channels || []).forEach(function (c) {
       h += '<div class="card"><h3>' + esc(c.name) + "</h3>";
+      if (!(c.videos || []).length) h += '<div class="muted">아직 수집된 영상이 없습니다.</div>';
       (c.videos || []).forEach(function (v) {
         h += '<div class="stock"><div class="nm">' + esc(v.title) + "</div>" +
           '<div class="meta">' + esc(v.publishedAt) + ' · <a href="' + esc(safeUrl(v.url)) + '" target="_blank" rel="noopener noreferrer">원본 영상 보기</a></div>' +
@@ -304,7 +314,7 @@
 
     function draw() {
       var t = types.filter(function (x) { return x.id === typeId; })[0];
-      var h = "<h2>단기 트레이딩</h2>";
+      var h = sampleNote(S) + "<h2>단기 트레이딩</h2>";
       h += seg(types.map(function (x) { return { id: x.id, label: "유형 " + x.id }; }), typeId, "data-ty");
       h += seg([{ id: "kr", label: "국내" }, { id: "us", label: "미국" }], market, "data-mk");
       if (!t) {
