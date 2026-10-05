@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-06 03:32",
+ "asOf": "2026-10-06 07:24",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[10월6일 #장시작전] 美10년물 금리 최고치 경신에도 뉴욕증시 상승… 나스닥 사상 최고 / 엔비디아·스페이스X 급등",
+     "publishedAt": "2026-10-06 06:28",
+     "url": "https://www.youtube.com/watch?v=VaNZQOzeVn8"
+    },
     {
      "title": "[#찐시황] 삼성전자·SK하이닉스 자사주 매입 끝나면 누가 사나? 외인 매도 물량 쏟아지면 증시 충격? / 10월 들고 갈 주식은 ‘이것’   | 이지환 대표",
      "publishedAt": "2026-10-05 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "美 고용 쇼크, 경기침체 신호인가? / 미국채금리 5% 돌파… 10월 증시 또 충격 받을까? ㅣ이주연 대표",
      "publishedAt": "2026-10-05 09:00",
      "url": "https://www.youtube.com/watch?v=he3PiHPwG1A"
-    },
-    {
-     "title": "[#찐시황]  금리 5%에도 AI는 안 죽는다… AI發 MLCC·기판 ‘초대형 공급 부족’ 시작? / 10월 주도주는 ‘여기’  | 미래에셋자산운용 최창규 이사",
-     "publishedAt": "2026-10-04 20:00",
-     "url": "https://www.youtube.com/watch?v=HXrsRH9EY3A"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) 대장주 엔비디아가 신고가 돌파했다는 건 의미 있다!!!",
+     "publishedAt": "2026-10-06 05:35",
+     "url": "https://www.youtube.com/watch?v=fW9zjIwnPOE"
+    },
     {
      "title": "(관심종목)트펌프의 이란공격 시간과 변동성 이기는 전략",
      "publishedAt": "2026-10-05 14:36",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(4Q장세) 민주당 블루웨이브 되면 시장 폭락하나?",
      "publishedAt": "2026-10-03 21:03",
      "url": "https://www.youtube.com/watch?v=4aEnyPi4ADE"
-    },
-    {
-     "title": "(시황분석) 웨스턴 디지털과 시게이트 폭락이유는?",
-     "publishedAt": "2026-10-03 08:04",
-     "url": "https://www.youtube.com/watch?v=Z3HAPgIm8qI"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 6일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-10-06 07:11",
+     "url": "https://www.youtube.com/watch?v=bbaeUYXfRNc"
+    },
+    {
      "title": "삼성전자 10월 실적발표전 미리 알아야 하는 '주가 상승패턴'",
      "publishedAt": "2026-10-05 21:15",
      "url": "https://www.youtube.com/watch?v=4jaRaPkYItk"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "\"현대 노조들 다 짤릴까?\" 아틀라스 개발 성공한 현대차",
      "publishedAt": "2026-10-05 14:52",
      "url": "https://www.youtube.com/watch?v=X5NJ4hZPLtk"
-    },
-    {
-     "title": "이번주 코스피는 어떻게 흘러갈까?",
-     "publishedAt": "2026-10-05 09:30",
-     "url": "https://www.youtube.com/watch?v=3Q5QSLGhMIk"
     }
    ]
   }
