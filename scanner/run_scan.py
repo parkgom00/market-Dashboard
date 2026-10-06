@@ -48,7 +48,7 @@ def scan_market(market: str, limit: int = 0):
     uni = fetch.kr_universe() if market == "kr" else fetch.us_universe()
     if limit:
         uni = uni.head(limit)
-    tags = {}
+    tags, kr_rank = {}, {}
     if market == "us":   # 지수에 없어도 국내 투자자 관심이 큰 테마 종목(theme_map.json 의 미국 종목)을 스캔 대상에 추가
         try:
             import pandas as pd
@@ -60,6 +60,17 @@ def scan_market(market: str, limit: int = 0):
                     c = s["ticker"].replace(".", "-")
                     kr_name.setdefault(c, s["name"])
                     tags.setdefault(c, []).append(t["name"])
+            try:   # 서학개미 보관금액·순매수 상위 종목 (ETF 제외)
+                import seohak
+                sh = seohak.load() or {}
+                more = seohak.kr_names()
+                for key, label in (("hold", "보관"), ("netbuy", "순매수")):
+                    for x in sh.get(key, []):
+                        if x.get("ticker") and not x.get("etf"):
+                            kr_name.setdefault(x["ticker"], more.get(x["ticker"]) or x["name"].title())
+                            kr_rank.setdefault(x["ticker"], f"서학개미 {label} {x['rank']}위")
+            except Exception as e:
+                print("서학개미 종목 추가 실패:", type(e).__name__, e)
             extra = [c for c in kr_name if c not in set(uni["code"])]
             if not limit:
                 uni = pd.concat([uni, pd.DataFrame({"code": extra, "name": [kr_name[c] for c in extra]})], ignore_index=True)
@@ -104,7 +115,7 @@ def scan_market(market: str, limit: int = 0):
             "_d": df.index[-1].strftime("%Y-%m-%d"),
             "code": code, "name": names.get(code, code),
             "market": m.get("market", ""), "sector": m.get("sector", ""), "marcap": m.get("marcap", 0),
-            "themes": tags.get(code, [])[:2],
+            "themes": tags.get(code, [])[:2], "krRank": kr_rank.get(code, ""),
             "prevClose": _r(prev), "changePct": _r((last / prev - 1) * 100) if prev else None,
             "value": round(last * float(df["volume"].iloc[-1]) / 1e8) if market == "kr" else None,
             "close": _r(ind["close"]), "ma240": _r(ind["ma240"]), "ma480": _r(ind["ma480"]),

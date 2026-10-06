@@ -228,3 +228,12 @@ details{margin-top:6px;font-size:13px} details summary{cursor:pointer;color:var(
 .weakbox > summary { cursor: pointer; padding: 8px 2px; color: var(--sub); font-size: 13px; }
 
 .chip.thm { border-color: var(--up); color: var(--up); }
+
+/* 서학개미 TOP */
+.shrow { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-top: 1px solid var(--line); }
+.shrow:first-of-type { border-top: 0; }
+.shrank { min-width: 24px; text-align: center; font-weight: 700; color: var(--sub); }
+.shname { flex: 1; min-width: 0; }
+.shpct { white-space: nowrap; font-weight: 600; }
+.chip.etf { font-size: 10px; padding: 0 6px; margin: 0 0 0 2px; }
+.chip.krr { border-color: #0f9d8a; color: #0f9d8a; }

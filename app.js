@@ -304,6 +304,30 @@
       h += '<div class="muted" style="margin:6px 0 14px">테마 등락률은 미국 대표 종목의 평균입니다. 연결 로직과 국내 관련주는 미리 정리해 둔 일반적인 산업 연결이며 그날의 뉴스를 반영한 추천이 아닙니다. 국내 종목 옆 숫자는 오늘 현재가입니다.</div>';
     }
 
+    // 5-2) 서학개미 TOP 50 (예탁결제원 세이브로)
+    var sh = u.seohak;
+    if (sh && ((sh.hold || []).length || (sh.netbuy || []).length)) {
+      var usd = function (v) {
+        var n = Number(v) || 0, a = Math.abs(n);
+        return (n < 0 ? "-" : "") + (a >= 1e8 ? (a / 1e8).toFixed(1) + "억 달러" : num(Math.round(a / 1e4)) + "만 달러");
+      };
+      var shRow = function (x) {
+        return '<div class="shrow"><span class="shrank">' + x.rank + '</span><div class="shname"><span class="nm">' + esc(x.name) + "</span>" +
+          (x.name.indexOf("(" + x.ticker + ")") < 0 ? ' <span class="meta">' + esc(x.ticker) + "</span>" : "") +
+          (x.etf ? ' <span class="chip etf">ETF</span>' : "") + '<div class="meta">' + usd(x.usd) + "</div></div>" +
+          '<div class="shpct">' + (x.changePct != null ? pctText(x.changePct) : '<span class="meta">-</span>') + "</div></div>";
+      };
+      var shList = function (rows) {
+        return rows.slice(0, 10).map(shRow).join("") +
+          (rows.length > 10 ? '<details class="weakbox"><summary>11~' + rows.length + "위 보기</summary>" + rows.slice(10).map(shRow).join("") + "</details>" : "");
+      };
+      h += "<h2>서학개미 TOP 50</h2>" + '<div class="card" id="us-seohak">' +
+        '<div class="seg"><button type="button" data-sh="hold" class="on">보관금액 상위</button><button type="button" data-sh="net">최근 1주 순매수</button></div>' +
+        '<div data-shp="hold"><div class="muted">국내 투자자가 가장 많이 보유한 미국 종목 · 기준일 ' + esc(sh.holdAsOf || "-") + "</div>" + shList(sh.hold || []) + "</div>" +
+        '<div data-shp="net" hidden><div class="muted">국내 투자자가 가장 많이 순매수한 미국 종목 · ' + esc(sh.netPeriod || "-") + " 결제 기준</div>" + shList(sh.netbuy || []) + "</div>" +
+        '<div class="muted" style="margin-top:6px">출처: 한국예탁결제원 세이브로(외화증권 종목별 내역). 오른쪽 숫자는 직전 미국장 등락률입니다. ETF를 뺀 종목은 중장기 스캔 대상에 자동으로 포함됩니다.</div></div>';
+    }
+
     // 6) AI가 그날 뉴스로 찾은 연결 (브리핑이 만들어진 날만)
     if (br && (br.connections || []).length) {
       h += "<h2>AI가 찾은 오늘의 연결</h2>";
@@ -325,6 +349,13 @@
     if (!(u.indices || []).length) h += '<div class="card empty">아직 수집된 데이터가 없습니다.</div>';
     root.innerHTML = h;
     root.onclick = function (ev) {
+      var sb = ev.target.closest("[data-sh]");
+      if (sb) {
+        var which = sb.getAttribute("data-sh");
+        $$("#us-seohak [data-sh]").forEach(function (x) { x.classList.toggle("on", x === sb); });
+        $$("#us-seohak [data-shp]").forEach(function (x) { x.hidden = x.getAttribute("data-shp") !== which; });
+        return;
+      }
       var c = ev.target.closest("[data-hm]");
       if (!c || !hm) return;
       var it = hm.items[Number(c.getAttribute("data-hm"))];
@@ -535,6 +566,7 @@
     }).join("") + "</div>";
     var chips = "";
     if (s.market) chips += '<span class="chip mk-' + esc(s.market.toLowerCase()) + '">' + esc(s.market) + "</span>";
+    if (s.krRank) chips += '<span class="chip krr">🇰🇷 ' + esc(s.krRank) + "</span>";
     (s.themes || []).forEach(function (t) { chips += '<span class="chip thm">🔥 ' + esc(t) + "</span>"; });
     if (s.sector && s.sector !== "기타") chips += '<span class="chip">' + esc(s.sector) + "</span>";
     if (chips) h += "<div>" + chips + "</div>";

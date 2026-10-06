@@ -47,12 +47,43 @@ def parse_rows(xml):
 
 
 def clean_name(n):
-    n = NAME_JUNK.sub("", str(n or "")).strip()
+    import html
+    n = NAME_JUNK.sub("", html.unescape(str(n or ""))).strip()
     return re.sub(r"\s+", " ", n)
 
 
+def kr_names():
+    try:
+        with open(os.path.join(HERE, "us_names_kr.json"), encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def load():
+    """마지막으로 저장한 결과 (없으면 None)."""
+    try:
+        with open(os.path.join(OUT, "seohak.json"), encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+
+def display_rows(rows, changes=None, date=""):
+    """화면용: 한글 이름, 금액, 등락률(기준일 종가가 있는 종목만)."""
+    names = kr_names()
+    out = []
+    for x in rows:
+        ch = (changes or {}).get(x["ticker"])
+        out.append({"rank": x["rank"], "ticker": x["ticker"], "name": names.get(x["ticker"]) or x["name"].title(),
+                    "usd": x["usd"], "etf": x["etf"],
+                    "changePct": round(ch["pct"], 2) if ch and ch["date"] >= date else None})
+    return out
+
+
 def is_etf(name, sec_type=""):
-    return bool(ETF_NAME.search(name or "")) or "ETP" in (sec_type or "") or "ETF" in (sec_type or "")
+    st = sec_type or ""
+    return bool(ETF_NAME.search(name or "")) or "ETP" in st or "ETF" in st or "Mutual Fund" in st
 
 
 def bdays_back(day, n):

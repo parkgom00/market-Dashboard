@@ -305,7 +305,27 @@ def main():
     except Exception as e:
         print("진단 저장 실패:", e)
 
+    seohak_payload = None
+    try:   # 서학개미 상위 종목 (세이브로). 실패하면 지난번 저장분을 그대로 씀
+        import seohak
+        try:
+            sh = seohak.collect()
+        except Exception as e:
+            print("세이브로 수집 실패(지난 자료 사용):", type(e).__name__, e)
+            sh = seohak.load()
+        if sh:
+            syms = sorted({x["ticker"] for k in ("hold", "netbuy") for x in sh[k] if x["ticker"]})
+            sch = compute_changes(yf.download(syms, period="15d", auto_adjust=True, progress=False)["Close"])
+            if date:
+                refresh_stale(sch, syms, date, dl)
+            seohak_payload = {"holdAsOf": sh["holdAsOf"], "netPeriod": sh["netPeriod"],
+                              "hold": seohak.display_rows(sh["hold"], sch, date), "netbuy": seohak.display_rows(sh["netbuy"], sch, date)}
+            print(f"서학개미: 보관 {len(sh['hold'])}개({sh['holdAsOf']}), 순매수 {len(sh['netbuy'])}개")
+    except Exception as e:
+        print("서학개미 처리 실패:", type(e).__name__, e)
+
     payload = build_payload(all_changes, th_changes, themes)
+    payload["seohak"] = seohak_payload
     if not [i for i in payload["indices"] if i["name"] in ("나스닥", "S&P 500", "다우")]:
         raise SystemExit("지수 데이터를 받지 못했습니다. (기존 파일은 그대로 둡니다)")
     payload["heatmap"] = heat
