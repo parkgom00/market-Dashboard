@@ -535,7 +535,7 @@
     }).join("") + "</div>";
     var chips = "";
     if (s.market) chips += '<span class="chip mk-' + esc(s.market.toLowerCase()) + '">' + esc(s.market) + "</span>";
-    if (s.sector) chips += '<span class="chip">' + esc(s.sector) + "</span>";
+    if (s.sector && s.sector !== "기타") chips += '<span class="chip">' + esc(s.sector) + "</span>";
     if (chips) h += "<div>" + chips + "</div>";
     var pc = Number(s.changePct);
     var dir = s.changePct == null ? "flat" : pc > 0 ? "up" : pc < 0 ? "down" : "flat";
