@@ -237,7 +237,7 @@
   "title": "미국 무역수지",
   "level": "macro",
   "kind": "econ",
-  "consensus": "-95.20B",
+  "consensus": "-100.80B",
   "actual": "",
   "previous": "-88.60B"
  },
@@ -610,6 +610,16 @@
   "consensus": "",
   "actual": "",
   "previous": "106.6"
+ },
+ {
+  "date": "2026-10-27",
+  "time": "08:00",
+  "title": "한국 GDP",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "3.7%"
  },
  {
   "date": "2026-10-28",
