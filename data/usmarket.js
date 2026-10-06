@@ -81,25 +81,25 @@ window.DASH.usmarket = {
    "group": "금리·환율",
    "name": "달러 인덱스",
    "kind": "plain",
-   "close": 102.14,
-   "changePct": 0.21,
-   "changeText": "102.14 (+0.21%)"
+   "close": 102.15,
+   "changePct": 0.22,
+   "changeText": "102.15 (+0.22%)"
   },
   {
    "group": "금리·환율",
    "name": "원/달러",
    "kind": "plain",
-   "close": 1341.88,
-   "changePct": -0.05,
-   "changeText": "1,341.88 (-0.05%)"
+   "close": 1342.11,
+   "changePct": -0.03,
+   "changeText": "1,342.11 (-0.03%)"
   },
   {
    "group": "금리·환율",
    "name": "엔/달러",
    "kind": "plain",
-   "close": 157.95,
-   "changePct": 0.14,
-   "changeText": "157.95 (+0.14%)"
+   "close": 157.92,
+   "changePct": 0.12,
+   "changeText": "157.92 (+0.12%)"
   },
   {
    "group": "원자재·기타",
@@ -113,33 +113,33 @@ window.DASH.usmarket = {
    "group": "원자재·기타",
    "name": "브렌트유",
    "kind": "usd",
-   "close": 100.65,
-   "changePct": -1.56,
-   "changeText": "100.65 (-1.56%)"
+   "close": 100.7,
+   "changePct": -1.52,
+   "changeText": "100.70 (-1.52%)"
   },
   {
    "group": "원자재·기타",
    "name": "금",
    "kind": "usd",
-   "close": 4153.2,
-   "changePct": -0.22,
-   "changeText": "4,153.20 (-0.22%)"
+   "close": 4152.3,
+   "changePct": -0.24,
+   "changeText": "4,152.30 (-0.24%)"
   },
   {
    "group": "원자재·기타",
    "name": "구리",
    "kind": "usd",
    "close": 6.66,
-   "changePct": 2.58,
-   "changeText": "6.66 (+2.58%)"
+   "changePct": 2.59,
+   "changeText": "6.66 (+2.59%)"
   },
   {
    "group": "원자재·기타",
    "name": "비트코인",
    "kind": "usd",
-   "close": 85415.08,
-   "changePct": -1.23,
-   "changeText": "85,415.08 (-1.23%)"
+   "close": 85462.85,
+   "changePct": -1.18,
+   "changeText": "85,462.85 (-1.18%)"
   }
  ],
  "sectors": [
@@ -1524,5 +1524,6 @@ window.DASH.usmarket = {
    }
   ]
  },
+ "staleNote": "시세가 늦게 들어와 제외한 종목·업종: 1개",
  "briefStatus": "AI 브리핑 생성 실패(다음 실행에 재시도): gemini-3.8-flash: HTTP 429 You exceeded your current quota, please check your plan and  | gemini-3.7-flash: HTTP 429 You exceeded your current quota, please check your plan and  | gemini-3.6-flash: HTTP 429 You exceeded your current quota, please check your plan and  | gemini-3.5-flash: HTTP 429 You exceeded your current quota, please check your plan and "
 };
