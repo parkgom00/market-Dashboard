@@ -1,0 +1,1041 @@
+HTTP 200
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/IPORTAL/common/css/multiple-select.css" type="text/css"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+	<head>
+		<title>종목별내역(주식TOP50) | SEIBro</title>
+		<w2:buildDate />
+		<xf:model>
+			<xf:instance>
+				<data xmlns="">
+				</data>
+			</xf:instance>
+
+			<!-- Start of Submission -->
+
+			<!-- 주요국 외화주식 예탁결제현황 조회(보관) -->
+			<xf:submission id="submission_getImptFrcurStkCusRemaList" ref="request/reqParam" target="response" action="/websquare/engine/proworks/callServletService.jsp" method="post" mediatype="application/xml"
+				encoding="UTF-8" instance="" replace="instance" errorHandler="" customHandler="" mode="asynchronous" processMsg="조회중입니다.">
+				<script type="javascript" ev:event="xforms-submit-done">
+				<![CDATA[
+					var docXml = WebSquare.xml.findNode( e.responseBody , "vector" );
+					grid1.setXML( docXml , false);
+				    
+				    
+				]]>
+				</script>
+			</xf:submission>
+			
+			<!-- 주요국 외화주식 예탁결제현황 조회(결제) -->
+			<xf:submission id="submission_getImptFrcurStkSetlAmtList" ref="request/reqParam" target="response" action="/websquare/engine/proworks/callServletService.jsp" method="post" mediatype="application/xml"
+				encoding="UTF-8" instance="" replace="instance" errorHandler="" customHandler="" mode="asynchronous" processMsg="조회중입니다.">
+				<script type="javascript" ev:event="xforms-submit-done">
+				<![CDATA[
+					var docXml = WebSquare.xml.findNode( e.responseBody , "vector" );
+					grid2.setXML( docXml , false);
+				    
+				]]>
+				</script>
+			</xf:submission>
+
+		</xf:model>
+		<!-- 
+		<script src="http://wenzhixin.net.cn/p/multiple-select/docs/assets/jquery.min.js" ></script>
+		<script src="http://wenzhixin.net.cn/p/multiple-select/multiple-select.js" ></script>
+		 -->
+		<script type="javascript"><![CDATA[ 
+			var pageOnCnt = 10;
+        	var mPage_num = 1;
+        	
+			function dateAdd(date, addDays) { 
+			var datetmp = date.replace(/-/g,''); // - 는 모두 제거
+			var y = parseInt(datetmp.substr(0, 4)); 
+			var m = parseInt(datetmp.substr(4, 2)); 
+			var d = parseInt(datetmp.substr(6,2)); 
+			d = new Date(y, m - 1, d + addDays); 
+			y = d.getFullYear(); 
+			m = d.getMonth() + 1; 
+			m = (m < 10) ? '0' + m : m; 
+			d = d.getDate(); 
+			d = (d < 10) ? '0' + d : d; 
+			return '' + y + m  + d; 
+			}
+			
+			var bDate8;
+        	
+        	
+        	
+        	/* 2021-NIP-0033 날짜데이터 형식변경함수 
+        	function getDateStr(dateStr){
+        		var yyyyMMdd = String(dateStr);
+        		var sYear = yyyyMMdd.substring(0, 4);
+        		var sMonth = yyyyMMdd.substring(4, 6);
+        		var sDate = yyyyMMdd.substring(6, 8);
+        		var date = new Date(Number(sYear), Number(sMonth)-1, Number(sDate));
+        		return date;  
+        	}*/
+
+       	
+        	/* 2021-NIP-0033 조회기준일 변경*/
+        	function getTodayLabel() {
+    			  
+			    var week = new Array('일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일');
+			    var today = new Date();
+			    var todayLabel = week[today.getDay()];			   
+			    today = new Date(+new Date() + 3240 * 10000).toISOString().split("T")[0]; //yyyy-mm-dd 형식의 오늘 날짜
+			    var s_type = a1_radio1.getValue();
+			    var sd1_date;
+				
+				/* 향후 시스템 개선 이후 결제, 보관잔액에 따라 구분 예정. 주석처리만 그대로 쓰고 아래 if절 삭제.
+				 @s_type1 : 현황구분 ( 2 : 결제금액 , 1 : 보관잔액) 
+				 @ 1 : 조회기준일 D-1로 설정
+				 @ 2 : 조회기준일 D-2로 설정
+				*/
+				
+			    if(s_type == "2")
+			    {
+					if(todayLabel == '일요일'){
+			 	  		sd1_date = dateAdd(today, -2);
+			 	  	}
+			 	  	else if(todayLabel == '월요일'){
+			 	  		sd1_date = dateAdd(today, -3);
+			 	  	}
+			 	  	else{
+			 	  		sd1_date = dateAdd(today, -1);	
+			 	  	}
+			    }		    
+			    else if(s_type == "1")
+			    {
+			 	  	if(todayLabel == '일요일'){
+			 	  	sd1_date = dateAdd(today, -3);
+			 	  	}
+			 	  	else if(todayLabel == '월요일' || todayLabel == '화요일'){
+			 	  	sd1_date = dateAdd(today, -4);
+			 	  	}
+			 	  	else{
+			 	  	sd1_date = dateAdd(today, -2);
+			 	  	}
+				}					    	
+			   return sd1_date;
+			}
+			
+        		        	
+
+			function getPList(page_num){ 
+				
+	            mPage_num = page_num;            
+	            
+			    var display_type ;
+				var pg_start; 
+				var pg_end;
+				var s_type1 = a1_radio1.getValue();			// 현황구분 
+				var s_type2 = area_radio.getValue();		// 국가
+				var s_submission;
+				
+				// hskim91 김혜성
+				var s_type0 = area_radio_2.getValue(); // 세부구분	
+				pg_start = (page_num-1) * pageOnCnt + 1;
+				pg_end = page_num * pageOnCnt;         	
+	         	
+				if(fn_validation()){
+	           	WebSquare.ModelUtil.setInstanceValue('request/reqParam/PG_START/@value', pg_start);
+			    WebSquare.ModelUtil.setInstanceValue('request/reqParam/PG_END/@value', pg_end);	
+			    
+			    if(s_type1=="1"){
+			    	WebSquare.ModelUtil.setInstanceValue('request/reqParam/START_DT/@value', sd1_inputCalendar2.getValue());//시작일
+			    }else{
+			    	WebSquare.ModelUtil.setInstanceValue('request/reqParam/START_DT/@value', sd1_inputCalendar1.getValue());//시작일	
+			    }
+				WebSquare.ModelUtil.setInstanceValue('request/reqParam/END_DT/@value', sd1_inputCalendar2.getValue());//종료일
+				//WebSquare.ModelUtil.setInstanceValue('request/reqParam/GIGAN/@value', ann_sd1_selectbox1.getValue()); // 조회기간 구분
+				WebSquare.ModelUtil.setInstanceValue('request/reqParam/S_TYPE/@value', s_type1); // 현황구분
+				WebSquare.ModelUtil.setInstanceValue('request/reqParam/S_COUNTRY/@value', s_type2); // 국가선택
+				
+				if(s_type1=="2"){
+					WebSquare.ModelUtil.setInstanceValue('request/reqParam/D_TYPE/@value', s_type0); // 세부구분
+				}
+
+				switch(s_type1)  {
+				
+					case "1" :
+								s_submission 			= 'getImptFrcurStkCusRemaList';  
+								//set_GridColFormat(s_type);
+								grid2.hide();
+								sd1_inputCalendar1.hide();						
+								group201_2.hide();//hskim91 김헤성						
+								sd1_textbox2.hide();
+								sd1_selectbox1.hide();
+								grid1.show();						
+								bDate8 = getTodayLabel();
+								//grid2.removeAll();
+								grid1.initGrid();
+								grid1.removeAll();
+								if(sd1_inputCalendar2.getValue()>bDate8){
+									alert("해당 조회기준일에 데이터가 존재하지 않습니다. 조회기준일을 재설정 하시기 바랍니다.(당일기준 2일전(주말제외)까지 조회 가능)");
+								return;
+								}
+								break;
+						
+					case "2" :
+								s_submission 			= 'getImptFrcurStkSetlAmtList'; 
+								//set_GridColFormat(s_type);
+								grid1.hide();
+								grid2.show();			
+								sd1_inputCalendar1.show();						
+								group201_2.show();//hskim91 김헤성						
+								group201_2.show();//hskim91 김헤성			
+								sd1_textbox2.show();
+								sd1_selectbox1.show();
+								bDate8 = getTodayLabel();
+								//grid1.removeAll();
+								grid2.initGrid();
+								grid2.removeAll();
+								if(sd1_inputCalendar2.getValue()>bDate8){
+									alert("해당 조회기준일에 데이터가 존재하지 않습니다. 조회기준일을 재설정하시기 바랍니다.(당일기준 1일전(주말제외)까지 조회 가능)");
+								return;
+								}				
+								break;
+				}
+				//set_GridColFormat(s_type);
+				
+				
+				callTask(s_submission ,"ksd.safe.bip.cnts.OvsSec.process.OvsSecIsinPTask");
+				
+				var reportParam = new Array();
+				
+				reportParam.push(a1_radio1.getText());
+				if(s_type1=="1"){
+					reportParam.push(sd1_inputCalendar2.getValue());
+				}else{
+					reportParam.push(getDateUtilForRex(sd1_inputCalendar1.getValue(), sd1_inputCalendar2.getValue()));
+					//reportParam.push(sd1_selectbox1.getText());
+				}
+				//reportParam.push(ann_sd1_selectbox1.getText());
+				reportParam.push(area_radio.getText());
+				
+				//hskim91 김혜성
+				if(s_type1 == "2")  { 
+					reportParam.push(area_radio_2.getText());
+				}
+					
+
+				//reportParam.push("총 (" + search_totalCnt.getValue() + ")건");  // 검색결과 카운트
+
+				// hskim91 김혜성	
+				switch(s_type0) {
+					case "1" :	
+						grid2.setColumnVisible("SUM_FRSEC_BUY_AMT",true);
+						grid2.setColumnVisible("SUM_FRSEC_SELL_AMT",false);
+						grid2.setColumnVisible("SUM_FRSEC_TOT_AMT",false);
+						grid2.setColumnVisible("SUM_FRSEC_NET_BUY_AMT",false);
+						grid2.setColumnWidth("SUM_FRSEC_BUY_AMT" , 200 );
+						break;
+						
+					case "2" :
+						grid2.setColumnVisible("SUM_FRSEC_BUY_AMT",false);
+						grid2.setColumnVisible("SUM_FRSEC_SELL_AMT",true);
+						grid2.setColumnVisible("SUM_FRSEC_TOT_AMT",false);
+						grid2.setColumnVisible("SUM_FRSEC_NET_BUY_AMT",false);
+						grid2.setColumnWidth("SUM_FRSEC_SELL_AMT" , 200 );
+						break;
+					case "3" :
+						grid2.setColumnVisible("SUM_FRSEC_BUY_AMT",true);
+						grid2.setColumnVisible("SUM_FRSEC_SELL_AMT",true);
+						grid2.setColumnVisible("SUM_FRSEC_TOT_AMT",true);
+						grid2.setColumnVisible("SUM_FRSEC_NET_BUY_AMT",false);
+						grid2.setColumnWidth("SUM_FRSEC_BUY_AMT" , 110 );
+						grid2.setColumnWidth("SUM_FRSEC_SELL_AMT" , 110 );
+						grid2.setColumnWidth("SUM_FRSEC_TOT_AMT" , 110 );
+						grid2.setColumnWidth("SUM_FRSEC_NET_BUY_AMT" , 110 );
+						break;
+					case "4" :
+						grid2.setColumnVisible("SUM_FRSEC_BUY_AMT",true);
+						grid2.setColumnVisible("SUM_FRSEC_SELL_AMT",true);
+						grid2.setColumnVisible("SUM_FRSEC_TOT_AMT",false);
+						grid2.setColumnVisible("SUM_FRSEC_NET_BUY_AMT",true);
+						grid2.setColumnWidth("SUM_FRSEC_BUY_AMT" , 110 );
+						grid2.setColumnWidth("SUM_FRSEC_SELL_AMT" , 110 );
+						grid2.setColumnWidth("SUM_FRSEC_TOT_AMT" , 110 );
+						grid2.setColumnWidth("SUM_FRSEC_NET_BUY_AMT" , 110 );
+						break;
+				}	
+
+
+				// 리포팅 호출
+				switch(a1_radio1.getValue())  {
+					case "1" :
+								// 리포팅 호출
+				        	   setReportProp( grid1,"BIP_CNTS10013_1",reportParam );
+				        	   
+						break;
+					case "2" :
+								// 리포팅 호출
+				        	   setReportProp( grid2,"BIP_CNTS10013_2",reportParam );
+						break;
+					}
+					
+								
+				
+				}
+			}
+			
+			//excel function	
+	       	function setFnExcelDown(){
+				var s_submission;
+				var s_type1 = a1_radio1.getValue();			// 현황구분  
+				var s_type2 = area_radio.getValue()
+	       		//param documen
+	       		var pDoc = WebSquare.xml.parse( '<reqParam></reqParam>');
+	       		
+	       		if(fn_validation()){
+	       		WebSquare.xml.setString( pDoc , "filename" , '주요국 외화주식 예탁결제현황' );
+				
+				//parmeter setting
+	       		
+	       		WebSquare.xml.setString( pDoc , 'S_TYPE', s_type1);		//현황구분
+	       		WebSquare.xml.setString( pDoc , 'S_COUNTRY', s_type2);	//국가
+				
+	       		
+			    if(s_type1=="1"){
+			    	WebSquare.xml.setString( pDoc , 'START_DT', sd1_inputCalendar2.getValue());//시작일
+			    }else{
+			    	WebSquare.xml.setString( pDoc , 'START_DT', sd1_inputCalendar1.getValue());//시작일	
+			    } 
+			    
+	       		WebSquare.xml.setString( pDoc , 'END_DT', sd1_inputCalendar2.getValue());      
+				
+	       		//WebSquare.xml.setString( pDoc , 'GIGAN', ann_sd1_selectbox1.getValue());  // 조회기간 구분
+	       		WebSquare.xml.setString( pDoc , 'GIGAN', sd1_selectbox1.getValue());  // 조회기간 구분      
+
+	       		WebSquare.xml.setString( pDoc , 'PG_START', 1); 
+	       		WebSquare.xml.setString( pDoc , 'PG_END', 100000);     
+
+	       		//console.log(WebSquare.xml.indent(pDoc));
+	       		//return;
+				
+				switch(s_type1)  {
+					case "1" :
+						s_submission 			= 'getImptFrcurStkCusRemaList'; 
+						// excel head, id setting
+						WebSquare.xml.setString( pDoc , 'column_Id', getBodyId('grid1') );
+						WebSquare.xml.setString( pDoc , 'Header_html', getHeadGrid('grid1') );
+						//WebSquare.xml.setString( pDoc , 'body_html', getBodyGrid('grid1') );
+						
+						
+						
+						break;
+					case "2" :
+						s_submission 			= 'getImptFrcurStkSetlAmtList';
+						// excel head, id setting
+						//WebSquare.xml.setString( pDoc , 'column_Id', getBodyId('grid2') );
+						//WebSquare.xml.setString( pDoc , 'Header_html', getHeadGrid('grid2') );
+							WebSquare.xml.setString( pDoc , 'D_TYPE', area_radio_2.getValue());
+						switch(area_radio_2.getValue()) {
+						case "1" :	
+	       					WebSquare.xml.setString( pDoc , 'column_Id', getBodyId_Grid(grid2, false, "5,6,7") );
+							WebSquare.xml.setString( pDoc , 'Header_html', getHead_Grid(grid2, false, "5,6,7") );
+							//WebSquare.xml.setString( pDoc , 'body_html', getBodyId_Grid('grid2') );
+							break;
+						case "2" :
+	       					WebSquare.xml.setString( pDoc , 'column_Id', getBodyId_Grid(grid2, false, "4,6,7") );
+							WebSquare.xml.setString( pDoc , 'Header_html', getHead_Grid(grid2, false, "4,6,7") );
+							//WebSquare.xml.setString( pDoc , 'column_Id', getBodyId_Grid(grid2, false, "4,6,7") );
+							break;
+						case "3" :
+	       					WebSquare.xml.setString( pDoc , 'column_Id', getBodyId_Grid(grid2, false, "7") );
+							WebSquare.xml.setString( pDoc , 'Header_html', getHead_Grid(grid2, false, "7") );
+							//WebSquare.xml.setString( pDoc , 'column_Id', getBodyId_Grid(grid2, false, "4,5,7") );
+							break;
+						case "4" :
+	       					WebSquare.xml.setString( pDoc , 'column_Id', getBodyId_Grid(grid2, false, "6") );
+							WebSquare.xml.setString( pDoc , 'Header_html', getHead_Grid(grid2, false, "6") );
+							//WebSquare.xml.setString( pDoc , 'column_Id', getBodyId_Grid(grid2, false, "4,5,6") );
+							break;
+						}
+						//WebSquare.xml.setString( pDoc , 'body_html', getBodyGrid('grid2') );
+
+						
+						break;
+				}
+				
+	
+				WebSquare.xml.setAttribute(pDoc ,'action', s_submission);
+	       		WebSquare.xml.setAttribute( pDoc , "task", "ksd.safe.bip.cnts.OvsSec.process.OvsSecIsinPTask" );
+	       		
+	       		
+	
+	       		      		
+	       		setExcelParam('/IPORTAL/jsp/callExcelDown.jsp', pDoc);
+	       		}
+	       	}
+			function fn_changeSF(v) {
+				switch(v) {
+					case "1" :										// 보관잔액
+										grid1.show();
+										
+										grid2.hide();
+										group201_2.hide();//hskim91 김헤성
+										
+										sd1_inputCalendar1.hide();
+										sd1_inputCalendar2.setValue(getTodayLabel());
+										sd1_textbox2.hide();
+										sd1_selectbox1.hide();
+										
+										grid1.initGrid();
+										grid1.removeAll();
+										//cntsPaging01.setCount(0);
+										
+										break;
+					case "2" :										// 결제규모
+										grid1.hide();
+										
+										grid2.show();
+										
+										group201_2.show();//hskim91 김헤성
+										grid2.setColumnVisible("SUM_FRSEC_BUY_AMT",true);
+										grid2.setColumnVisible("SUM_FRSEC_SELL_AMT",false);
+										grid2.setColumnVisible("SUM_FRSEC_TOT_AMT",false);
+										grid2.setColumnVisible("SUM_FRSEC_NET_BUY_AMT",false);
+										
+										sd1_inputCalendar1.show();
+										sd1_textbox2.show();
+										sd1_selectbox1.show();
+                            			sd1_selectbox1.setValue("2");
+										sd1_inputCalendar2.setValue(getTodayLabel());
+										getDateTypeObj2SD(sd1_inputCalendar1, sd1_inputCalendar2, "2");										
+										grid2.initGrid();
+										grid2.removeAll();
+										//cntsPaging01.setCount(0);
+										break;
+					default :
+				}
+			}
+			//유효성 검사
+			function fn_validation() {
+				
+				if(sd1_inputCalendar1.getValue()==null || sd1_inputCalendar1.getValue()==''){
+					alert('시작 날짜를 입력 해주세요');
+				     return false;
+				}
+				
+				if(a1_radio1.getValue() == "2" && getDateCheck(sd1_inputCalendar1.getValue(),sd1_inputCalendar2.getValue(),1)){
+					alert('최대 1년까지 조회가능합니다.');
+					return false;
+				}
+					
+				if (sd1_inputCalendar2.getValue()==null || sd1_inputCalendar2.getValue()==''){
+				
+					alert('종료일을 입력해 주세요');
+				    return false;
+				}
+					
+				if(a1_radio1.getValue()=="2")
+				{
+					if (sd1_inputCalendar1.getValue() > sd1_inputCalendar2.getValue()) {
+						alert(msg_date_error);
+						return false;
+					}
+				}
+				
+				if (area_radio.getValue()=="") {
+					alert("국가를 선택하여 주십시오. ");
+					return false;
+				}
+				return true;
+			}
+			//------------- 조회기간 설정 시작
+        	
+        	function twoNumberUtil(val){
+        	
+        		if(val < 10){
+        			val = "0"+val;
+        		}
+        		
+        		return val;
+        	}
+        	/*
+			grid2.hide();
+			
+			sd1_inputCalendar1.hide();
+			
+			group201_2.hide();//hskim91 김헤성
+			
+			sd1_textbox2.hide();
+			sd1_selectbox1.hide();
+			
+			sd1_selectbox1.setValue("2");
+			getDateType03(2);			
+			//getPList(1);
+			
+			sd1_inputCalendar1.setValue( bDate1 );
+			sd1_inputCalendar2.setValue( bDate1 );
+			*/
+			
+			
+			
+			grid1.hide();
+			
+			grid2.show();
+			
+			group201_2.show();//hskim91 김헤성
+			grid2.setColumnVisible("SUM_FRSEC_BUY_AMT",true);
+			grid2.setColumnVisible("SUM_FRSEC_SELL_AMT",false);
+			grid2.setColumnVisible("SUM_FRSEC_TOT_AMT",false);
+			grid2.setColumnVisible("SUM_FRSEC_NET_BUY_AMT",false);
+			
+			sd1_inputCalendar1.show();
+			sd1_textbox2.show();
+			sd1_selectbox1.show();
+            sd1_selectbox1.setValue("2");
+			sd1_inputCalendar2.setValue(getTodayLabel());
+			getDateTypeObj2SD(sd1_inputCalendar1, sd1_inputCalendar2, "2");										
+			grid2.initGrid();
+			grid2.removeAll();
+			
+			/* 20240612 엔비디아 액면분할 안내 팝업 */
+			/* 20260219 콘텐츠 이용 유의사항 안내 팝업 */
+			/* 20260303 콘텐츠 이용 유의사항 안내 팝업 교체, 연장 */
+			
+		var odate = new Date(); // 현재 날짜 객체 생성
+		
+		var tday = odate.getFullYear()+""+getTwoNumberUtil(odate.getMonth()+1)+""+getTwoNumberUtil(odate.getDate());
+		var ttime = getTwoNumberUtil(odate.getHours()) + ":" + getTwoNumberUtil(odate.getMinutes());        	
+		
+		if (bDate3 >= '20230501' && bDate3 <= '20261231'){		  
+			var tnow = tday + " " + ttime;
+			console.log("tday : " + tday) ;
+			if (tnow <= '20261231 24:00') {				
+				openNoticePopup();
+			}
+		}
+		
+		function openNoticePopup() 
+		{
+			// 쿠키를 읽어서 팝업을 열지 결정
+			
+			if ( getCookie("SeibroPopup_20260303" ) != "done") {			
+			
+				// 팝업을 연다.				
+				var popupX = (window.screen.width / 3);
+				var popupY = (window.screen.height / 2)-(220 / 1);
+				var newWin;
+				
+				if (fn_browser_chk()) {					
+					newWin = window.open("/websquare/control.jsp?w2xPath=/IPORTAL/user/etc/BIP_CMUC03059P_3.xml" ,"알림33", "width=470, height=472, toolbar=no, menubar=no, resizable=no, scrollbars=no, top=" + popupY + ", left=" + popupX );	
+				} else {				  
+					newWin = window.open("/websquare/control.jsp?w2xPath=/IPORTAL/user/etc/BIP_CMUC03059P_3.xml" ,"알림33", "width=470, height=472, toolbar=no, menubar=no, resizable=no, scrollbars=no, top=" + popupY + ", left=" + popupX );
+				}				
+				
+				// 1초 뒤에 다시 포커스를 준다.
+				if (window.focus){
+					setTimeout(function(){
+					 	newWin.focus();
+					},1000);					
+				}	
+			}
+		}
+		
+		function fn_browser_chk(){
+	    	var agent = navigator.userAgent.toLowerCase();
+	 		var version = Number(agent.substring(agent.indexOf("chrome")+7,agent.indexOf("chrome")+9));
+	 		
+			if (agent.indexOf("chrome") != -1) {
+				return false;
+			}else{
+				return true;
+			}    
+	  }
+	  
+	  // 쿠키 값 읽기
+		function getCookie( name )
+		{
+			var nameOfCookie = name + "=";
+			var x = 0;
+
+			while( x <= document.cookie.length )
+			{
+				var y = (x+nameOfCookie.length);
+				
+				if(document.cookie.substring(x,y) == nameOfCookie)
+				{
+					if( (endOfCookie=document.cookie.indexOf(";", y)) == -1 )
+					{
+						endOfCookie = document.cookie.length;
+					}
+					return unescape( document.cookie.substring(y, endOfCookie));
+				}
+				x = document.cookie.indexOf( " ", x) + 1;
+				
+				if ( x == 0 ) { 	break; }
+			}
+			
+			return "";
+		}
+			
+			
+			
+
+        ]]></script>
+		<style type="text/css"><![CDATA[
+			// .w2checkbox_row {height: 18px;}
+			// .w2checkbox_td_input {width: 20px; height: 18px; }
+			// .w2checkbox_td_label {width: 100px; height: 18px; }
+			// .w2checkbox_input { margin: 0 0 4px !important; }
+			// .w2checkbox_td_input {width: 2%; height: 18px; }
+			// .w2checkbox_td_label {width: 18%; height: 18px; }
+	         .grid +.grid{margin-top:7px;}
+		 ]]></style>
+		 
+	</head>
+	<body>
+		<xf:group id="wrap" style="" class="wrap" tagname="div">
+			<w2:wframe id="header" style="" class="header" src="/IPORTAL/user/common/wframe/common/top.xml">
+			</w2:wframe>
+			<xf:group id="container" style="" class="container" tagname="div">
+				<w2:wframe id="left_side" style="" class="left_side" src="/IPORTAL/user/common/wframe/common/side.xml">
+				</w2:wframe>
+				<xf:group id="content" style="" class="content"
+					tagname="div">
+					<w2:wframe id="wfrmLocation"
+						src="/IPORTAL/user/common/wframe/common/location.xml" />
+					<xf:group id="" style="" class="search_item" tagname="div">
+						<xf:group id="" style="" class="search_item_inner" tagname="div">
+							<xf:group class="search_gr search_first" 	id="group187" style="" tagname="div">
+								<xf:group class="col2" id="a1_group1" style="" tagname="dl">
+									<xf:group class="search_dt" 	id="a1_group2" style="" tagname="dt">
+										<w2:textbox class="" 	for="a1_radio1" id="a1_textbox1" label="현황구분" style="" tagname="label">
+										</w2:textbox>
+									</xf:group>
+									<xf:group class="search_dd" id="a1_group3" style="" tagname="dd">
+										<xf:select1 appearance="full" id="a1_radio1" itemTagname="li" renderType="radiogroup"
+											selectedIndex="0" style="" tagname="ul" cols="" rows="">
+											<xf:choices>
+												<xf:item>
+													<xf:label>결제금액</xf:label>
+													<xf:value>2</xf:value>
+												</xf:item>
+												<xf:item>
+													<xf:label>보관금액</xf:label>
+													<xf:value>1</xf:value>
+												</xf:item>
+
+											</xf:choices>
+											<script type="javascript" ev:event="onchange"><![CDATA[
+												if (typeof fn_changeSF  == 'function' ) {
+													fn_changeSF(a1_radio1.getValue());
+												}
+												 ]]></script>
+						 				</xf:select1>
+									</xf:group>
+								</xf:group>
+							</xf:group>
+							<!--
+							<xf:group class="search_gr " id="group189" style="" tagname="div">
+								<xf:group class="col2" id="group190" style="" tagname="dl">
+								
+									<xf:group class="search_dt" id="group191" style="" tagname="dt">
+										<w2:textbox class="" for="sd1_inputCalendar1" id="textbox49" label="조회기준일" style="" tagname="label">
+										</w2:textbox>
+									</xf:group>
+									<xf:group class="search_dd" id="group192" style="" tagname="dd">
+										<w2:inputCalendar
+											calendarClass=""
+											calendarImage="/IPORTAL/common/images/common/calendar_input.png"
+											calendarImageOver="/IPORTAL/common/images/common/calendar_input.png"
+											calendarValueType="yearMonthDate" class="ic_start"
+											id="sd1_inputCalendar1" renderType="native" style=""
+											title="시작일 예20130101" useAnchorMove="true" delimiter="/">
+										</w2:inputCalendar>
+										<w2:textbox class="of" id="textbox50" label="~" style="" tagname="span">
+										</w2:textbox>
+										<w2:inputCalendar
+											calendarClass=""
+											calendarImage="/IPORTAL/common/images/common/calendar_input.png"
+											calendarImageOver="/IPORTAL/common/images/common/calendar_input.png"
+											calendarValueType="yearMonthDate" class="ic_end"
+											id="sd1_inputCalendar2" renderType="native" style=""
+											title="종료일 예20130101" useAnchorMove="true" delimiter="/">
+										</w2:inputCalendar>
+									</xf:group>
+								</xf:group>
+   								<xf:group class="" id="ann_sd1_group1" style="" tagname="dl">
+    								<xf:group class="search_dt" id="ann_sd1_group2" style="" tagname="dt">
+    								<w2:textbox class="" for="ann_sd1_selectbox1_input_0" id="ann_sd1_textbox1" label="기간" style="" tagname="label"></w2:textbox>
+    								</xf:group>
+    									<xf:group class="search_dd" id="ann_sd1_group3" style="" tagname="dd">
+    										<xf:select1 allOption="" appearance="minimal" chooseOption="" class="selectbox1" direction="auto" disabled="false" displayMode="label" id="ann_sd1_selectbox1" renderType="native"
+    											style="" submenuSize="auto" title="조회기간을 선택하세요">
+    									<xf:choices>
+    									<xf:item>
+    										<xf:label>반기</xf:label>
+    										<xf:value>5</xf:value>
+    									</xf:item>
+    									<xf:item>
+    										<xf:label>분기</xf:label>
+    										<xf:value>3</xf:value>
+    									</xf:item>
+    									<xf:item>
+    										<xf:label>일</xf:label>
+    										<xf:value>1</xf:value>
+    									</xf:item>
+    								</xf:choices>
+    							</xf:select1>
+    						</xf:group>
+    					</xf:group>
+					</xf:group>
+					-->	
+					<xf:group class="search_gr search_first" id="group201_2" style="" tagname="div">
+								<xf:group class="col1" id="group202_2" style="height:auto;" tagname="dl">
+									<xf:group class="search_dt" id="group203_2" style="" tagname="dt">
+										<w2:textbox class="" for="" id="textbox204_2" label="세부구분" style="" tagname="label"></w2:textbox>
+									</xf:group>
+									<xf:group class="search_dd" id="group_s1_2" style="" tagname="dd">
+										<xf:select1 appearance="full" 	id="area_radio_2" itemTagname="li" renderType="radiogroup" 	selectedIndex="0" style="" tagname="ul" cols="" rows="">
+											<xf:choices>
+												<xf:item>
+													<xf:label>매수결제</xf:label>
+													<xf:value>1</xf:value>
+												</xf:item>
+												<xf:item>
+													<xf:label>매도결제</xf:label>
+													<xf:value>2</xf:value>
+												</xf:item>
+												<xf:item>
+													<xf:label>매수+매도결제</xf:label>
+													<xf:value>3</xf:value>
+												</xf:item>
+												<xf:item>
+													<xf:label>순매수결제</xf:label>
+													<xf:value>4</xf:value>
+												</xf:item>
+											</xf:choices>
+										</xf:select1>
+									</xf:group>
+								</xf:group>
+					</xf:group>
+								
+					<xf:group class="search_gr" id="sd1_group1" style="" tagname="dl">
+						<xf:group class="search_dt" id="sd1_group2" style="" tagname="dt">
+							<w2:textbox class="" for="sd1_inputCalendar1" id="sd1_textbox1" label="조회기준일" style="" tagname="label">
+							</w2:textbox>
+						</xf:group>
+						<xf:group class="search_dd" id="sd1_group3" style="" tagname="dd">
+							<w2:inputCalendar calendarClass="" calendarImage="/IPORTAL/common/images/common/calendar_input.png"
+							calendarImageOver="/IPORTAL/common/images/common/calendar_input.png" calendarValueType="yearMonthDate" class="ic_start"
+							id="sd1_inputCalendar1" renderType="native" style="" useAnchorMove="true" delimiter="/">
+							</w2:inputCalendar>
+						
+							<w2:textbox class="of" id="sd1_textbox2" label="~" style="" tagname="span">
+							</w2:textbox>
+						
+							<w2:inputCalendar calendarClass="" calendarImage="/IPORTAL/common/images/common/calendar_input.png"
+							calendarImageOver="/IPORTAL/common/images/common/calendar_input.png" calendarValueType="yearMonthDate" class="ic_end"
+							id="sd1_inputCalendar2" renderType="native" style="" useAnchorMove="true" delimiter="/">
+							</w2:inputCalendar>
+						
+							<xf:select1 allOption="" appearance="minimal" chooseOption="" class="selectbox1 m_left10" direction="auto"
+							disabled="false" displayMode="label" id="sd1_selectbox1" renderType="native" style="" submenuSize="auto" title="조회기간을 선택하세요">
+							<xf:choices>
+								<xf:item>
+									<xf:label>1주</xf:label>
+									<xf:value>1</xf:value>
+								</xf:item>
+								<xf:item>
+									<xf:label>1개월</xf:label>
+									<xf:value>2</xf:value>
+								</xf:item>
+								<xf:item>
+									<xf:label>3개월</xf:label>
+									<xf:value>3</xf:value>
+								</xf:item>
+								<xf:item>
+									<xf:label>6개월</xf:label>
+									<xf:value>4</xf:value>
+								</xf:item>
+								  
+								<xf:item>
+									<xf:label>1년</xf:label>
+									<xf:value>5</xf:value>
+								</xf:item>
+								
+							</xf:choices>
+							<script ev:event="onchange" type="javascript"><![CDATA[
+        						getDateTypeObj2SD(sd1_inputCalendar1, sd1_inputCalendar2, this.getValue());	    					
+		    				]]></script>
+							</xf:select1>
+						</xf:group>
+					</xf:group>
+						
+									
+							<xf:group class="search_gr search_last " id="group201" style="" tagname="div">
+								<xf:group class="col1" id="group202" style="height:auto;" tagname="dl">
+									<xf:group class="search_dt" id="group203" style="" tagname="dt">
+										<w2:textbox class="" for="" id="textbox204" label="국가" style="" tagname="label"></w2:textbox>
+									</xf:group>
+									<xf:group class="search_dd" id="group_s1" style="" tagname="dd">
+										<xf:select1 appearance="full" 	id="area_radio" itemTagname="li" renderType="radiogroup" 	selectedIndex="0" style="" tagname="ul" cols="" rows="">
+											<xf:choices>
+												<xf:item>
+													<xf:label>전체</xf:label>
+													<xf:value>ALL</xf:value>
+												</xf:item>
+												<xf:item>
+													<xf:label>미국</xf:label>
+													<xf:value>US</xf:value>
+												</xf:item>
+												<xf:item>
+													<xf:label>홍콩</xf:label>
+													<xf:value>HK</xf:value>
+												</xf:item>
+												<xf:item>
+													<xf:label>중국</xf:label>
+													<xf:value>CN</xf:value>
+												</xf:item>
+												<xf:item>
+													<xf:label>일본</xf:label>
+													<xf:value>JP</xf:value>
+												</xf:item>
+												<xf:item>
+													<xf:label>베트남</xf:label>
+													<xf:value>VN</xf:value>
+												</xf:item>
+											</xf:choices>
+										</xf:select1>
+									</xf:group>
+								</xf:group>
+							</xf:group>
+							
+							<xf:group class="btn_seach" id="group186" style="" tagname="a">
+								<w2:attributes>
+									<w2:href>
+										javascript:getPList(1);
+									</w2:href>
+								</w2:attributes>
+								<xf:image alt="조회" id="image2" 	src="/IPORTAL/common/images/common/btn_search_off.png" style="" 	title="조회">
+								</xf:image>
+							</xf:group>
+						</xf:group>
+						
+					</xf:group>
+					
+					<xf:group class="" id="group193_2"
+						style="" tagname="div">
+						<xf:image alt="" id="image2_2" 	src="/IPORTAL/common/images/banner_data_notice.jpg" style="margin-top:10px;" title="" usemap="#i20211223_URL">
+						</xf:image>
+					</xf:group>
+					
+					<xf:group class="user_unit_group" id="group193"
+						style="" tagname="p">
+						<w2:textbox class="user_unit bg_none" id="DDD1"
+							 style="" tagname="span" label="단위 : USD">
+						</w2:textbox>
+					</xf:group>
+					<w2:grid autoFit="allColumn" autoFitMinWidth="800"
+						baseNode="vector" class="grid" enterKeyMove="right" id="grid1"
+						noResultMessage="조회 결과가 없습니다." oddEvenColorDisplay="" overflowX=""
+						overflowY="" readOnly="true" repeatNode="data/result"
+						resize="true" rowNumVisible="false" rowStatusVisible="false"
+						style="" summary="순위와 종목코드로 로 구성된 표입니다."
+						valueNode="value" visibleRowNum="50"
+						selectedCellColor="#E2EDEC">
+						<w2:caption id="caption1" style="" value="주요국 외화주식 예탁결제현황">
+						</w2:caption>
+						<w2:header class="" id="header5"
+							style="height:20px;">
+							<w2:row id="row12" style="">
+								
+								<w2:column allOption=""  hidden="false" id="column132" inputType="text" style="height:20px;" textAlign="" useLocale="true" value="순위" width="25" rowSpan="">
+								</w2:column>
+								
+								<w2:column id="column147" style="height:20px" inputType="text" width="75" rowSpan="" value="국가">
+								</w2:column>
+								
+								<w2:column id="column138" inputType="text" style="height:20px;" value="종목코드" width="110" colSpan="">
+								</w2:column>
+								
+								<w2:column id="column133" inputType="text" style="height:20px;" value="종목명" width="200" colSpan="">
+								</w2:column>
+								
+								<w2:column  id="column134" inputType="text" style="height:20px;" value="보관금액" width="100" colSpan="">
+								</w2:column>
+								
+							</w2:row>
+						</w2:header>
+						<w2:gBody id="gBody2" style="height:20px;"
+							width="100">
+							<w2:row id="row13" style="">
+								
+								<w2:column id="RNUM" dataType="text" inputType="text" style="height:20px;" textAlign="center" width="25" value="" >
+								</w2:column>
+								
+								<w2:column id="NATION_NM" style="height:20px" inputType="text" width="75">
+								</w2:column>
+								
+								<w2:column id="ISIN" style="height:20px" inputType="text" width="110">
+								</w2:column>
+								
+								<w2:column id="KOR_SECN_NM" style="height:20px" inputType="text" width="200" textAlign="left"> 
+								</w2:column>
+								
+								<w2:column id="SUM_FRSEC_AMT" displayFormat="#,###.##" dataType="number" inputType="text" style="height:20px;" textAlign="right" width="100" value="">
+								</w2:column>
+								
+							</w2:row>
+						</w2:gBody>
+					</w2:grid>
+					
+					<w2:grid autoFit="allColumn" autoFitMinWidth="800"
+						baseNode="vector" class="grid" enterKeyMove="right" id="grid2"
+						noResultMessage="조회 결과가 없습니다." oddEvenColorDisplay="" overflowX=""
+						overflowY="" readOnly="true" repeatNode="data/result"
+						resize="true" rowNumVisible="false" rowStatusVisible="false"
+						style="" summary="순위와 종목코드로 로 구성된 표입니다."
+						valueNode="value" visibleRowNum="50"
+						selectedCellColor="#E2EDEC">
+						<w2:caption id="caption1" style="" value="주요국 외화주식 예탁결제현황">
+						</w2:caption>
+						<w2:header class="" id="header5"
+							style="height:20px;">
+							<w2:row id="row12" style="">
+								
+								<w2:column allOption="" dataType="" id="column1312" inputType="text" style="height:20px;" textAlign="" useLocale="true" value="순위" width="25" rowSpan="1">
+								</w2:column>
+								
+								<w2:column id="column1471" style="height:20px" inputType="text" width="65" rowSpan="1" value="국가">
+								</w2:column>
+								
+								<w2:column id="column1381" inputType="text" style="height:20px;" value="종목코드" width="80" rowSpan="1">
+								</w2:column>
+								
+								<w2:column id="column1332" inputType="text" style="height:20px;" value="종목명" width="170" rowSpan="1">
+								</w2:column>
+								
+								<!-- <w2:column  id="column1341" inputType="text" style="height:20px;" value="결제금액" width="150" colSpan="1">
+								</w2:column> -->
+								
+								<w2:column  id="column1342" inputType="text" style="height:20px;" value="매수결제" width="70" colSpan="1">
+								</w2:column>
+								
+								<w2:column  id="column1343" inputType="text" style="height:20px;" value="매도결제" width="70" colSpan="1">
+								</w2:column>
+								
+								<w2:column  id="column1344" inputType="text" style="height:20px;" value="매수+매도결제" width="70" colSpan="1">
+								</w2:column>
+								
+								<w2:column  id="column1345" inputType="text" style="height:20px;" value="순매수결제" width="70" colSpan="1">
+								</w2:column>
+							</w2:row>
+<!-- 							<w2:row id="row122">
+							    <w2:column id="column1100" style="height:20px" inputType="text" width="70" value="매수">
+								</w2:column>
+								<w2:column id="column1101" style="height:20px;" width="70" inputType="text" value="매도">
+								</w2:column>
+								<w2:column id="column1100_2" style="height:20px" inputType="text" width="70" value="전체">
+								</w2:column>
+							</w2:row> -->
+						</w2:header>
+						<w2:gBody id="gBody2" style="height:20px;"
+							width="100">
+							<w2:row id="row13" style="">
+								
+								<w2:column id="RNUM" dataType="text" inputType="text" style="height:20px;" textAlign="center" width="25" value="" >
+								</w2:column>
+								
+								<w2:column id="NATION_NM" style="height:20px" inputType="text" width="65">
+								</w2:column>
+								
+								<w2:column id="ISIN" style="height:20px" inputType="text" width="80">
+								</w2:column>
+								
+								<w2:column id="KOR_SECN_NM" style="height:20px" inputType="text" width="170" textAlign="left"> 
+								</w2:column>
+								
+								<!-- <w2:column id="SUM_FRSEC_AMT" displayFormat="#,###.##" dataType="number" inputType="text" style="height:20px;" textAlign="right" width="100" value="">
+								</w2:column> -->
+								
+								
+								<w2:column id="SUM_FRSEC_BUY_AMT" style="height:21px" inputType="text" width="70" textAlign="right" dataType="number" displayFormat="#,###.##">
+								</w2:column>
+								
+								<w2:column id="SUM_FRSEC_SELL_AMT" style="height:21px" inputType="text" width="70" textAlign="right" dataType="number" displayFormat="#,###.##">
+								</w2:column>
+								
+								<w2:column id="SUM_FRSEC_TOT_AMT" style="height:21px" inputType="text" width="70" textAlign="right" dataType="number" displayFormat="#,###.##">
+								</w2:column>
+								
+								<w2:column id="SUM_FRSEC_NET_BUY_AMT" style="height:21px" inputType="text" width="70" textAlign="right" dataType="number" displayFormat="#,###.##">
+								</w2:column>
+							</w2:row>
+						</w2:gBody>
+					</w2:grid>
+					<!-- 2026-NIP-0009 저작권 침해로 인한 엑셀다운로드 폐지
+					<w2:wframe class="exceldown_b" id="wframe_exceldownload" src="/IPORTAL/user/common/wframe/exceldownload.xml" style=""></w2:wframe>
+					-->
+					
+					<xf:group class="dp_notice" id="dp_notice" style="" tagname="div">
+						<w2:textbox class="dp_notice_tit" id="dp_notice_tit" label="NOTICE" style="" tagname="h4"></w2:textbox>
+						<xf:group class="dp_notice_right" id="group5" style="" tagname="div">
+							<xf:group class="dp_notice_1col_k" id="group6" style="" tagname="dl">
+								<w2:textbox id="textbox18" label="주 :" style="" tagname="dt"></w2:textbox>
+					<w2:textbox class="" id="textbox116_1"
+						label="1. 조회기준일" style="" tagname="dd">
+					</w2:textbox>
+					<w2:textbox class="" id="textbox116"
+						label="한국시간을 기준으로 결제처리 및 액면분할ㆍ병합, 합병 등 권리처리가 완료된 일자" style="background:url();" tagname="dd">
+					</w2:textbox>
+					<w2:textbox class="" id="textbox108"
+						label="기간을 연/반기/분기/월 로 조회하는 경우, 해당 기간의 마지막 영업일을 기준으로 표기" style="background:url();" tagname="dd">
+					</w2:textbox>
+					<w2:textbox class="" id="textbox113"
+						label="2. 내역구분" style="" tagname="dd">
+					</w2:textbox>					
+					<w2:textbox class="" id="textbox109" 
+					    label="(결제건수) 매수ㆍ매도거래의 결제건수(결제금액이 있는 거래에 한하며, 인수ㆍ인도ㆍ계좌대체 건은 제외)" style="background:url();" tagname="dd">
+					</w2:textbox>
+					<w2:textbox class="" id="textbox109_1" 
+					    label="(결제금액) 매수ㆍ매도거래의 결제금액(결제금액이 있는 거래에 한하며, 인수ㆍ인도ㆍ계좌대체 건은 제외)" style="background:url();" tagname="dd">
+					</w2:textbox>
+					<w2:textbox class="" id="textbox109_2" 
+					    label="(보관금액) 주식의 경우 종가, 채권의 경우 액면가 기준" style="background:url();" tagname="dd">
+					</w2:textbox>
+					<w2:textbox class="" id="textbox109_3" 
+					    label="액면분할ㆍ병합, 합병 등 권리 발생 시 현지 결제기관과 외국보관기관의 처리 및 통보시점 등에 따라 일정 기간 보관금액에 차이가 발생함에 유의" style="background:url();" tagname="dd">
+					</w2:textbox>
+					
+					<w2:textbox class="" id="textbox117"
+						label="3. 시장구분" style="" tagname="dd">
+					</w2:textbox>					
+					<w2:textbox class="" id="textbox118" 
+					    label="(ICSD) 국제예탁결제기구(International Central Securities Depository)인 Euroclear 및 Clearstream 보관종목으로, ICSD를 통한 결제분은 개별국가가 아닌 ICSD로 표기" style="background:url();" tagname="dd">
+					</w2:textbox>
+					<w2:textbox class="" id="textbox119" 
+					    label="(중국) B주(China B), (R)QFII, 상해홍콩증시연계(후강통), 심천홍콩증시연계(선강통), 중국홍콩간채권시장연계(채권통)를 포함" style="background:url();" tagname="dd">
+					</w2:textbox>
+					<w2:textbox class="" id="textbox120" 
+					    label="(기타국가) 전체내역 화면에서 조회되는 기타국가는 미국, 일본, 홍콩, 중국, ICSD를 제외한 유럽, 아메리카, 오세아니아, 아시아 등 국가를 포함" style="background:url();" tagname="dd">
+					</w2:textbox>
+
+					<w2:textbox class="" id="textbox121"
+						label="4. 기타사항" style="" tagname="dd">
+					</w2:textbox>					
+					<w2:textbox class="" id="textbox122" 
+					    label='상기 자료를 언론기사에 활용시 자료출처 "한국예탁결제원 증권정보포털(SEIBro)" 게재 요망' style="background:url();" tagname="dd">
+					</w2:textbox>						
+							</xf:group>
+						</xf:group>
+					</xf:group>
+
+				</xf:group>
+			</xf:group>
+      		
+			<w2:wframe class="footer" id="footer" src="/IPORTAL/user/common/wframe/common/bottom.xml" style="">
+			</w2:wframe>
+			<w2:wframe id="wide" style="" class="wide" src="/IPORTAL/user/common/wframe/common/wide.xml">
+			</w2:wframe>
+		</xf:group>
+		<map id="i20211223_URL" name="i20211223_URL"  >
+			<area shape="rect" alt="유튜브 URL 새창열림" title="유튜브 URL 새창열림" coords="245, 229, 271, 255"  href="https://www.youtube.com/watch?v=tKlrlrodYpg" target="_blank" />
+			<area shape="rect" alt="네이버 포스트URL 새창열림" title="네이버 포스트 URL 새창열림" coords="272, 229, 299, 255"  href="https://m.post.naver.com/viewer/postView.naver?volumeNo=32814181&amp;memberNo=6894744" target="_blank" />
+		</map>
+	</body>
+</html>

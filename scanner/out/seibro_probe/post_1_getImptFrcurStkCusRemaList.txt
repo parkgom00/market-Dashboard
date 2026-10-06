@@ -1,0 +1,159 @@
+<reqParam action="getImptFrcurStkCusRemaList" task="ksd.safe.bip.cnts.OvsSec.process.OvsSecIsinPTask"><MENU_NO value="921"/><CMM_BTN_ABBR_NM value="total_search,openall,print,hwp,word,pdf,seach,xls,"/><W2XPATH value="/IPORTAL/user/ovsSec/BIP_CNTS10013V.xml"/><PG_START value="1"/><PG_END value="50"/><START_DT value="20260925"/><END_DT value="20261002"/><S_TYPE value="2"/><S_COUNTRY value="US"/><D_TYPE value="1"/></reqParam>
+
+HTTP 200
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<vector beforeServletCall="1791259394599" beforeEJBCall="1791259394603" afterServletCall="1791259394743" afterEJBCall="1791259394742" result="50">
+    <data vectorkey="0" type="Document">
+        <result><RNUM value="1"/><NATION_NM value="미국"/><ISIN value="US88160R1014"/><KOR_SECN_NM value="TESLA INC"/><SUM_FRSEC_AMT value="21713479203"/></result>
+    </data>
+    <data vectorkey="1" type="Document">
+        <result><RNUM value="2"/><NATION_NM value="미국"/><ISIN value="US67066G1040"/><KOR_SECN_NM value="NVIDIA CORP"/><SUM_FRSEC_AMT value="18815526897"/></result>
+    </data>
+    <data vectorkey="2" type="Document">
+        <result><RNUM value="3"/><NATION_NM value="미국"/><ISIN value="US02079K3059"/><KOR_SECN_NM value="ALPHABET INC CL A"/><SUM_FRSEC_AMT value="8811274768"/></result>
+    </data>
+    <data vectorkey="3" type="Document">
+        <result><RNUM value="4"/><NATION_NM value="미국"/><ISIN value="US25459W4583"/><KOR_SECN_NM value="DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF"/><SUM_FRSEC_AMT value="6129750014"/></result>
+    </data>
+    <data vectorkey="4" type="Document">
+        <result><RNUM value="5"/><NATION_NM value="미국"/><ISIN value="US46090E1038"/><KOR_SECN_NM value="INVESCO QQQ TRUST SRS 1 ETF"/><SUM_FRSEC_AMT value="5665841704"/></result>
+    </data>
+    <data vectorkey="5" type="Document">
+        <result><RNUM value="6"/><NATION_NM value="미국"/><ISIN value="US9229083632"/><KOR_SECN_NM value="VANGUARD SP 500 ETF SPLR 39326002188 US9229084135"/><SUM_FRSEC_AMT value="5383420009"/></result>
+    </data>
+    <data vectorkey="6" type="Document">
+        <result><RNUM value="7"/><NATION_NM value="미국"/><ISIN value="US0378331005"/><KOR_SECN_NM value="APPLE INC"/><SUM_FRSEC_AMT value="4990824756"/></result>
+    </data>
+    <data vectorkey="7" type="Document">
+        <result><RNUM value="8"/><NATION_NM value="미국"/><ISIN value="US74347X8314"/><KOR_SECN_NM value="PROSHARES ULTRAPRO QQQ ETF"/><SUM_FRSEC_AMT value="4962481119"/></result>
+    </data>
+    <data vectorkey="8" type="Document">
+        <result><RNUM value="9"/><NATION_NM value="미국"/><ISIN value="US5951121038"/><KOR_SECN_NM value="MICRON TECHNOLOGY INC"/><SUM_FRSEC_AMT value="4947036775"/></result>
+    </data>
+    <data vectorkey="9" type="Document">
+        <result><RNUM value="10"/><NATION_NM value="미국"/><ISIN value="US69608A1088"/><KOR_SECN_NM value="PALANTIR TECHNOLOGIES INC CL A"/><SUM_FRSEC_AMT value="4513765196"/></result>
+    </data>
+    <data vectorkey="10" type="Document">
+        <result><RNUM value="11"/><NATION_NM value="미국"/><ISIN value="US46222L1089"/><KOR_SECN_NM value="IONQ INC"/><SUM_FRSEC_AMT value="3827563112"/></result>
+    </data>
+    <data vectorkey="11" type="Document">
+        <result><RNUM value="12"/><NATION_NM value="미국"/><ISIN value="US5949181045"/><KOR_SECN_NM value="MICROSOFT CORP"/><SUM_FRSEC_AMT value="3795382166"/></result>
+    </data>
+    <data vectorkey="12" type="Document">
+        <result><RNUM value="13"/><NATION_NM value="미국"/><ISIN value="US8085247976"/><KOR_SECN_NM value="SCHWAB US DIVIDEND EQUITY ETF"/><SUM_FRSEC_AMT value="3793843023"/></result>
+    </data>
+    <data vectorkey="13" type="Document">
+        <result><RNUM value="14"/><NATION_NM value="미국"/><ISIN value="US46138G6492"/><KOR_SECN_NM value="INVESCO NASDAQ 100 ETF"/><SUM_FRSEC_AMT value="3787836276"/></result>
+    </data>
+    <data vectorkey="14" type="Document">
+        <result><RNUM value="15"/><NATION_NM value="미국"/><ISIN value="US74347R2067"/><KOR_SECN_NM value="PROSHARES ULTRA QQQ ETF"/><SUM_FRSEC_AMT value="3339382566"/></result>
+    </data>
+    <data vectorkey="15" type="Document">
+        <result><RNUM value="16"/><NATION_NM value="미국"/><ISIN value="US78462F1030"/><KOR_SECN_NM value="SPDR SP 500 ETF TRUST"/><SUM_FRSEC_AMT value="3137638381"/></result>
+    </data>
+    <data vectorkey="16" type="Document">
+        <result><RNUM value="17"/><NATION_NM value="미국"/><ISIN value="US11135F1012"/><KOR_SECN_NM value="BROADCOM INC EXOF 005644980 SG9999014823"/><SUM_FRSEC_AMT value="2841856998"/></result>
+    </data>
+    <data vectorkey="17" type="Document">
+        <result><RNUM value="18"/><NATION_NM value="미국"/><ISIN value="US84615Q1031"/><KOR_SECN_NM value="SPACE EXPLORATION TECHN-CL A"/><SUM_FRSEC_AMT value="2736005373"/></result>
+    </data>
+    <data vectorkey="18" type="Document">
+        <result><RNUM value="19"/><NATION_NM value="미국"/><ISIN value="US80004C2008"/><KOR_SECN_NM value="SNDSK CRP ORD WI"/><SUM_FRSEC_AMT value="2638876406"/></result>
+    </data>
+    <data vectorkey="19" type="Document">
+        <result><RNUM value="20"/><NATION_NM value="미국"/><ISIN value="US0231351067"/><KOR_SECN_NM value="AMAZON.COM INC"/><SUM_FRSEC_AMT value="2378337375"/></result>
+    </data>
+    <data vectorkey="20" type="Document">
+        <result><RNUM value="21"/><NATION_NM value="미국"/><ISIN value="US46436E7186"/><KOR_SECN_NM value="ISHARES 0-3 MONTH TREASURY BOND ETF"/><SUM_FRSEC_AMT value="2165573180"/></result>
+    </data>
+    <data vectorkey="21" type="Document">
+        <result><RNUM value="22"/><NATION_NM value="미국"/><ISIN value="US0079031078"/><KOR_SECN_NM value="ADVANCED MICRO DEVICES INC"/><SUM_FRSEC_AMT value="2006744444"/></result>
+    </data>
+    <data vectorkey="22" type="Document">
+        <result><RNUM value="23"/><NATION_NM value="미국"/><ISIN value="US8740391003"/><KOR_SECN_NM value="TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD ADR"/><SUM_FRSEC_AMT value="1925890605"/></result>
+    </data>
+    <data vectorkey="23" type="Document">
+        <result><RNUM value="24"/><NATION_NM value="미국"/><ISIN value="US4581401001"/><KOR_SECN_NM value="INTEL CORP"/><SUM_FRSEC_AMT value="1860133413"/></result>
+    </data>
+    <data vectorkey="24" type="Document">
+        <result><RNUM value="25"/><NATION_NM value="미국"/><ISIN value="US46654Q2030"/><KOR_SECN_NM value="J.P. MORGAN NASDAQ EQUITY PREMIUM INCOME ETF"/><SUM_FRSEC_AMT value="1806717900"/></result>
+    </data>
+    <data vectorkey="25" type="Document">
+        <result><RNUM value="26"/><NATION_NM value="미국"/><ISIN value="US30303M1027"/><KOR_SECN_NM value="META PLATFORMS INC CL A"/><SUM_FRSEC_AMT value="1669861278"/></result>
+    </data>
+    <data vectorkey="26" type="Document">
+        <result><RNUM value="27"/><NATION_NM value="미국"/><ISIN value="US78464A8541"/><KOR_SECN_NM value="SPDR PORTFOLIO SP 500 ETF"/><SUM_FRSEC_AMT value="1576445931"/></result>
+    </data>
+    <data vectorkey="27" type="Document">
+        <result><RNUM value="28"/><NATION_NM value="미국"/><ISIN value="US4642875235"/><KOR_SECN_NM value="ISHARES SEMICONDUCTOR ETF"/><SUM_FRSEC_AMT value="1559405058"/></result>
+    </data>
+    <data vectorkey="28" type="Document">
+        <result><RNUM value="29"/><NATION_NM value="미국"/><ISIN value="US02079K1079"/><KOR_SECN_NM value="ALPHABET INC CL C CHAN 39527405649 US38259P7069"/><SUM_FRSEC_AMT value="1518213363"/></result>
+    </data>
+    <data vectorkey="29" type="Document">
+        <result><RNUM value="30"/><NATION_NM value="미국"/><ISIN value="US25460G2865"/><KOR_SECN_NM value="DIREXION DAILY TSLA BULL 2X SHARES"/><SUM_FRSEC_AMT value="1431443039"/></result>
+    </data>
+    <data vectorkey="30" type="Document">
+        <result><RNUM value="31"/><NATION_NM value="미국"/><ISIN value="US5738741041"/><KOR_SECN_NM value="MARVELL TECHNOLOGY INC"/><SUM_FRSEC_AMT value="1369437717"/></result>
+    </data>
+    <data vectorkey="31" type="Document">
+        <result><RNUM value="32"/><NATION_NM value="미국"/><ISIN value="AU0000185993"/><KOR_SECN_NM value="IRIS ENERGY LTD"/><SUM_FRSEC_AMT value="1165140335"/></result>
+    </data>
+    <data vectorkey="32" type="Document">
+        <result><RNUM value="33"/><NATION_NM value="미국"/><ISIN value="US09175A2069"/><KOR_SECN_NM value="BITMINE IMMERSION TECHNOLOGI"/><SUM_FRSEC_AMT value="1054447826"/></result>
+    </data>
+    <data vectorkey="33" type="Document">
+        <result><RNUM value="34"/><NATION_NM value="미국"/><ISIN value="US5949724083"/><KOR_SECN_NM value="MICROSTRATEGY INC CL A"/><SUM_FRSEC_AMT value="1024878664"/></result>
+    </data>
+    <data vectorkey="34" type="Document">
+        <result><RNUM value="35"/><NATION_NM value="미국"/><ISIN value="US92189F6768"/><KOR_SECN_NM value="VANECK SEMICONDUCTOR ETF CHAN 39610601171 US57060U2336"/><SUM_FRSEC_AMT value="956544275"/></result>
+    </data>
+    <data vectorkey="35" type="Document">
+        <result><RNUM value="36"/><NATION_NM value="미국"/><ISIN value="US77926X3200"/><KOR_SECN_NM value="ROUNDHILL MEMORY ETF"/><SUM_FRSEC_AMT value="953455033"/></result>
+    </data>
+    <data vectorkey="36" type="Document">
+        <result><RNUM value="37"/><NATION_NM value="미국"/><ISIN value="US7731211089"/><KOR_SECN_NM value="ROCKET LAB CORPORATION COM USD0.0001 MRGR 978814817 US7731221062"/><SUM_FRSEC_AMT value="935025728"/></result>
+    </data>
+    <data vectorkey="37" type="Document">
+        <result><RNUM value="38"/><NATION_NM value="미국"/><ISIN value="US1725731079"/><KOR_SECN_NM value="Circle Internet"/><SUM_FRSEC_AMT value="790597763"/></result>
+    </data>
+    <data vectorkey="38" type="Document">
+        <result><RNUM value="39"/><NATION_NM value="미국"/><ISIN value="USN070592100"/><KOR_SECN_NM value="ASML HOLDING NV ADR"/><SUM_FRSEC_AMT value="784916708"/></result>
+    </data>
+    <data vectorkey="39" type="Document">
+        <result><RNUM value="40"/><NATION_NM value="미국"/><ISIN value="US78433H6751"/><KOR_SECN_NM value="NEOS NASDAQ 100 HIGH INCOME ETF"/><SUM_FRSEC_AMT value="782070320"/></result>
+    </data>
+    <data vectorkey="40" type="Document">
+        <result><RNUM value="41"/><NATION_NM value="미국"/><ISIN value="US0937121079"/><KOR_SECN_NM value="BLOOM ENERGY CORP CL A"/><SUM_FRSEC_AMT value="752363963"/></result>
+    </data>
+    <data vectorkey="41" type="Document">
+        <result><RNUM value="42"/><NATION_NM value="미국"/><ISIN value="US55024U1097"/><KOR_SECN_NM value="LUMENTUM HOLDINGS INC SOFF 39520207144 US46612J5074"/><SUM_FRSEC_AMT value="744724218"/></result>
+    </data>
+    <data vectorkey="42" type="Document">
+        <result><RNUM value="43"/><NATION_NM value="미국"/><ISIN value="US46641Q3323"/><KOR_SECN_NM value="JP MORGAN EQUITY PREMIUM INCOME ETF"/><SUM_FRSEC_AMT value="736630652"/></result>
+    </data>
+    <data vectorkey="43" type="Document">
+        <result><RNUM value="44"/><NATION_NM value="미국"/><ISIN value="US78392B2060"/><KOR_SECN_NM value="SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI"/><SUM_FRSEC_AMT value="719850075"/></result>
+    </data>
+    <data vectorkey="44" type="Document">
+        <result><RNUM value="45"/><NATION_NM value="미국"/><ISIN value="NL0009805522"/><KOR_SECN_NM value="YANDEX NV CL A"/><SUM_FRSEC_AMT value="703992215"/></result>
+    </data>
+    <data vectorkey="45" type="Document">
+        <result><RNUM value="46"/><NATION_NM value="미국"/><ISIN value="US5128073062"/><KOR_SECN_NM value="LAM RESEARCH CORP COM USD0.001 (P/S) EXOF 965159710 US5128071082"/><SUM_FRSEC_AMT value="697068074"/></result>
+    </data>
+    <data vectorkey="46" type="Document">
+        <result><RNUM value="47"/><NATION_NM value="미국"/><ISIN value="US0382221051"/><KOR_SECN_NM value="APPLIED MATERIALS INC"/><SUM_FRSEC_AMT value="691319625"/></result>
+    </data>
+    <data vectorkey="47" type="Document">
+        <result><RNUM value="48"/><NATION_NM value="미국"/><ISIN value="US4642872000"/><KOR_SECN_NM value="ISHARES CORE SP 500 ETF"/><SUM_FRSEC_AMT value="672894214"/></result>
+    </data>
+    <data vectorkey="48" type="Document">
+        <result><RNUM value="49"/><NATION_NM value="미국"/><ISIN value="US0846707026"/><KOR_SECN_NM value="BERKSHIRE HATHAWAY INC CL B"/><SUM_FRSEC_AMT value="665908207"/></result>
+    </data>
+    <data vectorkey="49" type="Document">
+        <result><RNUM value="50"/><NATION_NM value="미국"/><ISIN value="US25461A3876"/><KOR_SECN_NM value="DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208"/><SUM_FRSEC_AMT value="632573161"/></result>
+    </data>
+</vector>
+
