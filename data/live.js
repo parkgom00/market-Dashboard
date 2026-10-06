@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_live.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.live = {
- "asOf": "2026-10-06 15:37",
+ "asOf": "2026-10-06 15:56",
  "kr": {
   "gainers": [
    {
@@ -131,35 +131,35 @@ window.DASH.live = {
     "name": "SK하이닉스",
     "price": 1773000,
     "changePct": -3.69,
-    "valueEok": 47406
+    "valueEok": 47425
    },
    {
     "code": "005930",
     "name": "삼성전자",
     "price": 272000,
     "changePct": -1.45,
-    "valueEok": 34692
+    "valueEok": 34696
    },
    {
     "code": "069500",
     "name": "KODEX 200",
     "price": 110745,
     "changePct": -1.17,
-    "valueEok": 26670
+    "valueEok": 26684
    },
    {
     "code": "102110",
     "name": "TIGER 200",
     "price": 111055,
     "changePct": -1.05,
-    "valueEok": 14695
+    "valueEok": 14696
    },
    {
     "code": "122630",
     "name": "KODEX 레버리지",
     "price": 111805,
     "changePct": -2.26,
-    "valueEok": 13555
+    "valueEok": 13573
    },
    {
     "code": "009150",
@@ -173,28 +173,28 @@ window.DASH.live = {
     "name": "KODEX CD금리액티브(합성)",
     "price": 1073860,
     "changePct": 0.01,
-    "valueEok": 10127
+    "valueEok": 10128
    },
    {
     "code": "133690",
     "name": "TIGER 미국나스닥100",
     "price": 185250,
     "changePct": 1.2,
-    "valueEok": 9954
+    "valueEok": 9955
    },
    {
     "code": "036930",
     "name": "주성엔지니어링",
     "price": 278500,
     "changePct": 17.51,
-    "valueEok": 8527
+    "valueEok": 8537
    },
    {
     "code": "360750",
     "name": "TIGER 미국S&P500",
     "price": 25975,
     "changePct": 0.76,
-    "valueEok": 7658
+    "valueEok": 7659
    },
    {
     "code": "402340",
@@ -215,56 +215,56 @@ window.DASH.live = {
     "name": "KODEX 미국나스닥100",
     "price": 27705,
     "changePct": 1.17,
-    "valueEok": 6019
+    "valueEok": 6020
    },
    {
     "code": "233740",
     "name": "KODEX 코스닥150레버리지",
     "price": 8710,
     "changePct": 8.4,
-    "valueEok": 5788
+    "valueEok": 5794
    },
    {
     "code": "229200",
     "name": "KODEX 코스닥150",
     "price": 15850,
     "changePct": 4.41,
-    "valueEok": 4311
+    "valueEok": 4312
    },
    {
     "code": "252670",
     "name": "KODEX 200선물인버스2X",
     "price": 70,
     "changePct": 1.45,
-    "valueEok": 4050
+    "valueEok": 4053
    },
    {
     "code": "114800",
     "name": "KODEX 인버스",
     "price": 987,
     "changePct": 1.23,
-    "valueEok": 3907
+    "valueEok": 3913
    },
    {
     "code": "006400",
     "name": "삼성SDI",
     "price": 575000,
     "changePct": 8.7,
-    "valueEok": 3515
+    "valueEok": 3516
    },
    {
     "code": "494310",
     "name": "KODEX 반도체레버리지",
     "price": 107115,
     "changePct": 2.96,
-    "valueEok": 3230
+    "valueEok": 3231
    },
    {
     "code": "396500",
     "name": "TIGER 반도체TOP10",
     "price": 40110,
     "changePct": 0.53,
-    "valueEok": 2845
+    "valueEok": 2846
    }
   ],
   "themes": [
