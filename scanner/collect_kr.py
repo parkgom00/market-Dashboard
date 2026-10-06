@@ -106,11 +106,46 @@ def themes_for(df):
         return theme_strength(df, load_themes())
 
 
+def live_df():
+    """장중에도 갱신되는 네이버 실시간 시세로 표를 만든다. 실패하거나 너무 적으면 None."""
+    import naver_live
+    uni, keys = naver_live.fetch_universe()
+    print("naver row keys:", keys)
+    base = {}
+    try:
+        with open(os.path.join(OUT, "closing_base_kr.json"), encoding="utf-8") as f:
+            base = json.load(f).get("base", {})
+    except Exception:
+        pass
+    rows = []
+    for c, u in uni.items():
+        pct = u.get("pct")
+        if pct is None and base.get(c, {}).get("prevClose"):
+            pct = (u["price"] / base[c]["prevClose"] - 1) * 100
+        if pct is None:
+            continue
+        rows.append({"code": c, "name": u["name"], "market": u["market"], "close": u["price"],
+                     "amount": u["price"] * u["volume"], "pct": pct})
+    df = pd.DataFrame(rows)
+    if len(df) < 300:
+        print(f"네이버 시세가 {len(df)}개뿐이라 사용 안 함")
+        return None
+    return df[~df["name"].str.contains("스팩")].reset_index(drop=True)
+
+
 def main():
     import FinanceDataReader as fdr
     import build_live
 
-    df = normalize(fdr.StockListing("KRX"))
+    df = None
+    try:
+        df = live_df()
+        if df is not None:
+            print(f"네이버 실시간 시세 사용: {len(df)}개")
+    except Exception as e:
+        print("네이버 실시간 시세 실패:", type(e).__name__, e)
+    if df is None:
+        df = normalize(fdr.StockListing("KRX"))
     os.makedirs(OUT, exist_ok=True)
     stamp = now_kst()
     with open(os.path.join(OUT, "kr_names.json"), "w", encoding="utf-8") as f:   # 미국 브리핑의 국내 종목명 검증용
