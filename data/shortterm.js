@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/collect_closing.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-06 16:37",
+ "asOf": "2026-10-06 16:48",
  "window": "15:20~15:40",
- "status": "전 종목 2422개 중 후보 194개 점검 (기준 일봉 2026-10-02)",
+ "status": "전 종목 2420개 중 후보 200개 점검 (기준 일봉 2026-10-02)",
  "types": [
   {
    "id": "A",
@@ -23,10 +23,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "복합기업",
        "after": {
-        "price": 114700.0,
-        "pct": 3.24
+        "price": 114900.0,
+        "pct": 3.42
        },
-       "marcap": 173417,
+       "marcap": 173720,
        "prevClose": 111100.0,
        "changePct": 3.87,
        "value": 191,
@@ -39,10 +39,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "비철금속",
        "after": {
-        "price": 1106000.0,
-        "pct": 2.41
+        "price": 1105000.0,
+        "pct": 2.31
        },
-       "marcap": 230855,
+       "marcap": 230646,
        "prevClose": 1080000.0,
        "changePct": 2.69,
        "value": 135,
@@ -71,13 +71,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "전기장비",
        "after": {
-        "price": 216500.0,
-        "pct": 3.34
+        "price": 216000.0,
+        "pct": 3.1
        },
-       "marcap": 324750,
+       "marcap": 324000,
        "prevClose": 209500.0,
        "changePct": 3.82,
-       "value": 1029,
+       "value": 1030,
        "note": "고가 마감권(고가 대비 0.00% 아래) · 막판 20분 거래량 비중 12% · 수급 자료 확인 전"
       },
       {
@@ -87,13 +87,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "화장품",
        "after": {
-        "price": 296500.0,
-        "pct": 9.81
+        "price": 296000.0,
+        "pct": 9.63
        },
-       "marcap": 33651,
+       "marcap": 33595,
        "prevClose": 270000.0,
        "changePct": 10.37,
-       "value": 530,
+       "value": 533,
        "note": "고가 마감권(고가 대비 0.17% 아래) · 막판 20분 거래량 비중 10% · 수급 자료 확인 전"
       }
      ]
@@ -110,13 +110,13 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "전자장비와기기",
        "after": {
-        "price": 17360.0,
-        "pct": 0.64
+        "price": 17380.0,
+        "pct": 0.75
        },
-       "marcap": 1398,
+       "marcap": 1400,
        "prevClose": 17250.0,
        "changePct": 0.46,
-       "value": 326,
+       "value": 327,
        "note": "전일 +11.7% 급등 · 오늘 거래량 전일의 20% · 도지(몸통 2%) · 10일선 14,726 / 20일선 12,475 위 마감"
       },
       {
@@ -132,7 +132,7 @@ window.DASH.shortterm = {
        "marcap": 24446,
        "prevClose": 31200.0,
        "changePct": 3.69,
-       "value": 1187,
+       "value": 1190,
        "note": "전일 +11.3% 급등 · 오늘 거래량 전일의 40% · 도지(몸통 27%) · 10일선 27,635 / 20일선 22,678 위 마감"
       }
      ]
@@ -147,18 +147,18 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2422,
-  "candidates": 194,
+  "quotes": 2420,
+  "candidates": 200,
   "bars": 150,
   "naverBars": 150,
   "a1": {
    "후보": 147,
    "분봉지연": 0,
    "사유": {
-    "고가에서 멂": 118,
+    "고가에서 멂": 115,
     "막판 거래량 비중 부족": 21,
     "ok(수급 자료 없음)": 5,
-    "등락률·거래대금 미달": 3
+    "등락률·거래대금 미달": 6
    },
    "수급자료": 0,
    "막판비중_중앙값": 0.035,
