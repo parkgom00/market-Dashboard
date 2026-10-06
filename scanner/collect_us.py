@@ -44,7 +44,7 @@ def build_us_themes(changes: dict, themes: list, top_n: int = 6, hot_pct: float 
         if len(us) < min_stocks:
             continue
         avg = sum(c["pct"] for _, c in us) / len(us)
-        us.sort(key=lambda x: -x[1]["pct"])
+        us.sort(key=lambda x: x[1]["pct"] if weak else -x[1]["pct"])   # 약세 테마는 많이 내린 순
         rows.append({
             "name": t["name"],
             "changePct": round(avg, 2),

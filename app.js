@@ -121,6 +121,76 @@
     draw();
   }
 
+  /* ---------- 히트맵 공통 ---------- */
+  var HEAT_MAX = 3;   // ±3% 에서 가장 진한 색
+  function heatColor(pct, max) {
+    var p = Number(pct) || 0, t = Math.min(Math.abs(p) / (max || HEAT_MAX), 1);
+    var n = [72, 78, 92], to = p >= 0 ? [220, 38, 44] : [26, 90, 214];
+    t = Math.pow(t, 0.75);
+    return "rgb(" + n.map(function (v, i) { return Math.round(v + (to[i] - v) * t); }).join(",") + ")";
+  }
+  function heatLegend() {
+    return '<div class="hm-legend">' + [-3, -2, -1, 0, 1, 2, 3].map(function (v) {
+      return '<span style="background:' + heatColor(v) + '">' + (v > 0 ? "+" : "") + v + "%</span>";
+    }).join("") + "</div>";
+  }
+  /* 네모 나누기(스퀘어리파이): nodes[{v}] 를 x,y,w,h 안에 값 비율대로 채운다 */
+  function squarify(nodes, x, y, w, h) {
+    var total = nodes.reduce(function (s, n) { return s + n.v; }, 0), out = [];
+    if (total <= 0 || w <= 0 || h <= 0) return out;
+    var items = nodes.map(function (n) { return { n: n, a: n.v / total * w * h }; }).sort(function (p, q) { return q.a - p.a; });
+    var i = 0;
+    while (i < items.length) {
+      var shortSide = Math.min(w, h), row = [], area = 0, best = Infinity, mx = 0, mn = Infinity;
+      while (i < items.length) {
+        var a = items[i].a, na = area + a, nmx = Math.max(mx, a), nmn = Math.min(mn, a);
+        var worst = Math.max(shortSide * shortSide * nmx / (na * na), na * na / (shortSide * shortSide * nmn));
+        if (row.length && worst > best) break;
+        row.push(items[i]); area = na; best = worst; mx = nmx; mn = nmn; i++;
+      }
+      var thick = area / shortSide, off = 0;
+      row.forEach(function (r) {
+        var len = r.a / thick;
+        if (w >= h) out.push({ n: r.n, x: x, y: y + off, w: thick, h: len });
+        else out.push({ n: r.n, x: x + off, y: y, w: len, h: thick });
+        off += len;
+      });
+      if (w >= h) { x += thick; w -= thick; } else { y += thick; h -= thick; }
+    }
+    return out;
+  }
+  var HM_W = 100, HM_H = 150;   // 가상 좌표 (가로 100 = 화면 폭)
+  function heatmapHtml(items) {
+    var secs = [];
+    items.forEach(function (it, idx) {
+      var g = secs.filter(function (x) { return x.name === it.s; })[0];
+      if (!g) { g = { name: it.s, v: 0, kids: [] }; secs.push(g); }
+      g.v += it.c; g.kids.push({ v: it.c, it: it, idx: idx });
+    });
+    var pos = function (r) {
+      return "left:" + (r.x / HM_W * 100).toFixed(3) + "%;top:" + (r.y / HM_H * 100).toFixed(3) + "%;width:" + (r.w / HM_W * 100).toFixed(3) + "%;height:" + (r.h / HM_H * 100).toFixed(3) + "%;";
+    };
+    var fs = function (u) { return "font-size:" + (u * 3.6).toFixed(1) + "px;font-size:" + u.toFixed(2) + "cqw;"; };
+    var h = "";
+    squarify(secs, 0, 0, HM_W, HM_H).forEach(function (sr) {
+      var hd = sr.h > 9 && sr.w > 12 ? 3.6 : 0;
+      h += '<div class="hm-sec" style="' + pos(sr) + '">' + (hd ? '<div class="hm-sechd" style="' + fs(2.5) + "height:" + (hd / sr.h * 100).toFixed(2) + '%">' + esc(sr.n.name) + "</div>" : "") + "</div>";
+      squarify(sr.n.kids, sr.x, sr.y + hd, sr.w, sr.h - hd).forEach(function (r) {
+        var it = r.n.it, len = it.t.length;
+        var f = Math.min(r.w / (len * 0.66 + 0.5), r.h * 0.4, 6);
+        var label = "";
+        if (f >= 1.7) {
+          label = '<b style="' + fs(f) + '">' + esc(it.t) + "</b>";
+          var pf = Math.max(Math.min(f * 0.72, r.w / 4.2), 1.6);
+          if (r.h > f * 1.25 + pf * 1.3 && r.w > pf * 3.6) label += '<span style="' + fs(pf) + '">' + (it.p > 0 ? "+" : "") + it.p.toFixed(2) + "%</span>";
+        }
+        h += '<div class="hm-cell" data-hm="' + r.n.idx + '" style="' + pos(r) + "background:" + heatColor(it.p) + '">' + label + "</div>";
+      });
+    });
+    return h;
+  }
+  function capText(b) { return b >= 1000 ? "$" + (b / 1000).toFixed(2) + "T" : "$" + Math.round(b) + "B"; }
+
   /* ---------- 2장: 미국장 ---------- */
   function renderUS() {
     var root = $("#tab-us");
@@ -143,7 +213,41 @@
       }).join("") + "</div>";
     });
 
-    // 2) AI 브리핑
+    // 2) 히트맵 (S&P 500 시총 상위: 네모 크기 = 시가총액, 색 = 등락률)
+    var hm = u.heatmap && (u.heatmap.items || []).length ? u.heatmap : null;
+    if (hm) {
+      h += '<div class="card"><h3>미국 히트맵</h3><div class="muted">' + esc(hm.source || "") + " 100종목 · " + esc(u.asOf || "") + "</div>" +
+        '<div class="hm-wrap"><div class="hm" id="us-hm">' + heatmapHtml(hm.items) + "</div></div>" +
+        heatLegend() +
+        '<div class="hm-info" id="us-hm-info">네모를 누르면 종목 정보가 보입니다. 크기는 시가총액, 색은 전일 대비 등락률입니다.</div></div>';
+    } else if (u.heatmapStatus) {
+      h += '<div class="card"><h3>미국 히트맵</h3><div class="muted">' + esc(u.heatmapStatus) + "</div></div>";
+    }
+
+    // 3) 업종별 성과 (대표 ETF 등락률, 색 진하기 = 강약)
+    var sec = u.sectors || [];
+    if (sec.length) {
+      var sorted = sec.slice().sort(function (x, y) { return y.changePct - x.changePct; });
+      var names = function (arr) { return arr.map(function (x) { return esc(x.name) + " " + (x.changePct > 0 ? "+" : "") + x.changePct.toFixed(2) + "%"; }).join(" · "); };
+      var gs = [];
+      sec.forEach(function (x) {
+        var g = gs.filter(function (y) { return y.name === x.group; })[0];
+        if (!g) { g = { name: x.group, items: [] }; gs.push(g); }
+        g.items.push(x);
+      });
+      h += '<div class="card"><h3>업종별 성과</h3>' +
+        '<div class="secsum"><span class="up">강</span> ' + names(sorted.slice(0, 3)) + '<br><span class="down">약</span> ' + names(sorted.slice(-3).reverse()) + "</div>" +
+        gs.map(function (g) {
+          return '<div class="sub-title">' + esc(g.name) + '</div><div class="secgrid">' +
+            g.items.slice().sort(function (x, y) { return y.changePct - x.changePct; }).map(function (x) {
+              return '<div class="sectile" style="background:' + heatColor(x.changePct) + '" title="' + esc(x.symbol) + '">' +
+                '<div class="sn">' + esc(x.name) + '</div><div class="sp">' + (x.changePct > 0 ? "+" : "") + x.changePct.toFixed(2) + "%</div>" +
+                (x.kr ? '<div class="sk">' + esc(x.kr) + "</div>" : "") + "</div>";
+            }).join("") + "</div>";
+        }).join("") + heatLegend() + '<div class="muted">업종 대표 ETF의 전일 대비 등락률입니다. 작은 글씨는 연결되는 국내 업종입니다.</div></div>';
+    }
+
+    // 4) AI 브리핑 (있을 때만)
     if (br) {
       h += '<div class="card"><h3>간밤 미국장 이슈</h3><p class="para">' + esc(br.usMarket) + "</p>" +
         (br.sectorFlow ? '<div class="sub-title">업종 흐름</div><p class="para">' + esc(br.sectorFlow) + "</p>" : "") +
@@ -164,74 +268,71 @@
         }).join("") + "</div>";
       };
       h += chk("오늘 국장 체크 · 조심할 점", br.caution, "caution") + chk("오늘 국장 체크 · 눈여겨볼 곳", br.watch, "watch");
-    } else if (u.briefStatus) {
-      h += '<div class="card"><h3>간밤 미국장 이슈 · 국장 대응</h3><div class="muted">아직 AI 브리핑이 만들어지지 않았습니다. ' + esc(u.briefStatus) + "</div></div>";
     } else if ((u.summary || []).length) {
-      h += '<div class="card"><h3>어제 미국장 이슈</h3><ul class="plain">' + u.summary.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ul></div>";
+      h += '<div class="card"><h3>어제 미국장 이슈</h3><ul class="plain">' + u.summary.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul></div>";
     }
 
-    // 3) 업종별 성과
-    var sec = u.sectors || [];
-    if (sec.length) {
-      var sorted = sec.slice().sort(function (a, b) { return b.changePct - a.changePct; });
-      var top = sorted.slice(0, 5), bot = sorted.slice(-5).reverse();
-      var line = function (s) {
-        return '<div class="stock row"><div><span class="nm">' + esc(s.name) + '</span> <span class="meta">' + esc(s.symbol) + (s.kr ? " · 국내: " + esc(s.kr) : "") + "</span></div>" + pctText(s.changePct) + "</div>";
-      };
-      h += '<div class="card"><h3>업종별 성과</h3><div class="sub-title">강한 업종 TOP 5</div>' + top.map(line).join("") +
-        '<div class="sub-title">약한 업종 TOP 5</div>' + bot.map(line).join("") + "</div>";
-      var gs = [];
-      sec.forEach(function (s) {
-        var g = gs.filter(function (x) { return x.name === s.group; })[0];
-        if (!g) { g = { name: s.group, items: [] }; gs.push(g); }
-        g.items.push(s);
-      });
-      h += '<div class="card"><h3>업종 전체 보기</h3>' + gs.map(function (g) {
-        return "<details><summary>" + esc(g.name) + " (" + g.items.length + ")</summary>" +
-          g.items.slice().sort(function (a, b) { return b.changePct - a.changePct; }).map(line).join("") + "</details>";
-      }).join("") + '<div class="muted">업종은 대표 ETF 등락률 기준입니다.</div></div>';
+    // 5) 미국 주도 테마 → 국내 관련주
+    var STR = ["", "●○○ 테마 동조", "●●○ 같은 업황", "●●● 직접 연관"];
+    var krPick = function (p, reason) {
+      var q = ((D.quotes || {}).kr || {})[p.code];
+      var nm = p.code ? '<a href="https://m.stock.naver.com/domestic/stock/' + encodeURIComponent(p.code) + '/total" target="_blank" rel="noopener noreferrer">' + esc(p.name) + "</a>" : esc(p.name);
+      return '<div class="krpick"><div class="row"><div><span class="nm">' + nm + "</span>" +
+        (p.strength ? ' <span class="str s' + p.strength + '">' + STR[p.strength] + "</span>" : "") + "</div>" +
+        (q ? '<span class="krq">' + num(q.price) + " " + pctText(q.pct) + "</span>" : "") + "</div>" +
+        (reason ? '<div class="meta">' + esc(reason) + "</div>" : "") + "</div>";
+    };
+    var themeCard = function (t, i, weak) {
+      var c = '<div class="card tcard' + (weak ? " weak" : "") + '"><div class="row"><h3>' + (weak ? "🧊 " : '<span class="rank">' + (i + 1) + "</span> ") + esc(t.name) + "</h3>" +
+        '<b class="' + (t.changePct > 0 ? "up" : t.changePct < 0 ? "down" : "flat") + ' tpct">' + (t.changePct > 0 ? "▲ +" : t.changePct < 0 ? "▼ " : "") + t.changePct.toFixed(2) + "%</b></div>" +
+        '<div class="sub-title">🇺🇸 미국 ' + (weak ? "약세 종목" : "주도주") + '</div><div class="uschips">' + (t.usStocks || []).map(function (x) {
+          return '<span class="uschip" style="background:' + heatColor(x.changePct) + '"><b>' + esc(x.name) + "</b> " + esc(x.ticker) + " " + (x.changePct > 0 ? "+" : "") + x.changePct.toFixed(2) + "%</span>";
+        }).join("") + "</div>";
+      if (t.logic) c += '<div class="linkbox"><span class="lk">🔗 연결 로직</span>' + esc(t.logic) + "</div>";
+      if ((t.krStocks || []).length) {
+        c += '<div class="sub-title">🇰🇷 국내 관련주</div>' + t.krStocks.map(function (p) { return krPick(p, p.link); }).join("");
+      }
+      return c + "</div>";
+    };
+    if ((u.themes || []).length) {
+      h += "<h2>미국 주도 테마 → 국내 관련주</h2>";
+      h += u.themes.map(function (t, i) { return themeCard(t, i, false); }).join("");
+      if ((u.weakThemes || []).length) {
+        h += '<details class="weakbox"><summary>약했던 테마 ' + u.weakThemes.length + "개 보기</summary>" +
+          u.weakThemes.map(function (t, i) { return themeCard(t, i, true); }).join("") + "</details>";
+      }
+      h += '<div class="muted" style="margin:6px 0 14px">테마 등락률은 미국 대표 종목의 평균입니다. 연결 로직과 국내 관련주는 미리 정리해 둔 일반적인 산업 연결이며 그날의 뉴스를 반영한 추천이 아닙니다. 국내 종목 옆 숫자는 오늘 현재가입니다.</div>';
     }
 
-    // 4) 미국 특징주 ↔ 국내 연관주 (AI 연결)
+    // 6) AI가 그날 뉴스로 찾은 연결 (브리핑이 만들어진 날만)
     if (br && (br.connections || []).length) {
-      h += "<h2>미국 특징주 ↔ 국내 연관주</h2>";
+      h += "<h2>AI가 찾은 오늘의 연결</h2>";
       br.connections.forEach(function (c) {
-        h += '<div class="card"><div class="conn-sector"><b>' + esc(c.sector) + "</b>" +
+        h += '<div class="card tcard"><div class="conn-sector"><b>' + esc(c.sector) + "</b>" +
           (c.sectorChange != null ? ' <span class="meta">업종</span> ' + pctText(c.sectorChange) : "") + "</div>" +
           '<div class="row"><div><span class="nm">' + esc(c.usName) + '</span> <span class="meta">' + esc(c.usTicker) + "</span></div>" +
           (c.usChange != null ? pctText(c.usChange) : '<span class="meta">' + (c.direction === "down" ? "약세" : "강세") + "</span>") + "</div>" +
           (c.cause ? '<div class="para">' + esc(c.cause) + "</div>" : "") +
-          (c.logic ? '<div class="logic">연결 로직: ' + esc(c.logic) + "</div>" : "") +
-          '<div class="sub-title">국내 연관주</div>' +
-          (c.koreaPicks || []).map(function (p) {
-            var nm = p.code ? '<a href="https://m.stock.naver.com/domestic/stock/' + encodeURIComponent(p.code) + '/total" target="_blank" rel="noopener noreferrer">' + esc(p.name) + "</a>" : esc(p.name);
-            return '<div class="stock"><span class="nm">' + nm + '</span> <span class="str s' + p.strength + '">' + ["", "●○○", "●●○", "●●●"][p.strength] + "</span>" +
-              (p.reason ? '<div class="meta">' + esc(p.reason) + "</div>" : "") + "</div>";
-          }).join("") + "</div>";
+          (c.logic ? '<div class="linkbox"><span class="lk">🔗 연결 로직</span>' + esc(c.logic) + "</div>" : "") +
+          '<div class="sub-title">🇰🇷 국내 관련주</div>' +
+          (c.koreaPicks || []).map(function (p) { return krPick(p, p.reason); }).join("") + "</div>";
       });
-      h += '<div class="muted">●●● 직접 연관 · ●●○ 간접 · ●○○ 동조 가능성. AI가 검색으로 추정한 연결이라 실제 투자 전 확인이 필요합니다.</div>';
+      h += '<div class="muted">AI가 검색으로 추정한 연결이라 실제 투자 전 확인이 필요합니다.</div>';
     }
-
-    // 5) 고정 테마표 기반 (등락률은 실제 시세)
-    if ((u.themes || []).length) {
-      h += "<h2>테마별 미국 주도주</h2>";
-      u.themes.forEach(function (t) {
-        h += '<div class="card"><div class="row"><h3>' + esc(t.name) + "</h3>" + pctText(t.changePct) + "</div>";
-        if (t.why) h += '<div class="muted">' + esc(t.why) + "</div>";
-        h += (t.usStocks || []).map(function (s) {
-          return '<div class="stock row"><div><span class="nm">' + esc(s.name) + '</span> <span class="meta">' + esc(s.ticker) + "</span></div>" + pctText(s.changePct) + "</div>";
-        }).join("");
-        if ((t.krStocks || []).length) {
-          h += '<div class="sub-title">국내 연관주</div>' + t.krStocks.map(function (s) {
-            return '<div class="stock"><span class="nm">' + esc(s.name) + '</span> <span class="meta">' + esc(s.code) + "</span>" +
-              (s.link ? '<div class="meta">연결 로직: ' + esc(s.link) + "</div>" : "") + "</div>";
-          }).join("");
-        }
-        h += "</div>";
-      });
+    if (!br && u.briefStatus) {
+      h += '<details class="weakbox"><summary>AI 브리핑은 아직 만들어지지 않았습니다</summary><div class="muted">' + esc(u.briefStatus) + "</div></details>";
     }
     if (!(u.indices || []).length) h += '<div class="card empty">아직 수집된 데이터가 없습니다.</div>';
     root.innerHTML = h;
+    root.onclick = function (ev) {
+      var c = ev.target.closest("[data-hm]");
+      if (!c || !hm) return;
+      var it = hm.items[Number(c.getAttribute("data-hm"))];
+      $$("#us-hm .hm-cell.on").forEach(function (x) { x.classList.remove("on"); });
+      c.classList.add("on");
+      $("#us-hm-info").innerHTML = '<b>' + esc(it.t) + "</b> " + esc(it.n) + ' <span class="meta">' + esc(it.s) + "</span> " + pctText(it.p) +
+        ' <span class="meta">시총 ' + capText(it.c) + '</span> <a href="https://finance.yahoo.com/chart/' + encodeURIComponent(it.t.replace(".", "-")) + '" target="_blank" rel="noopener noreferrer">📈 차트</a>';
+    };
   }
 
   /* ---------- 특징주(실시간) ---------- */
