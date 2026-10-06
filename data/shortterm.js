@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_closing.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-06 15:41",
+ "asOf": "2026-10-06 15:44",
  "window": "15:20~15:40",
  "status": "전 종목 2423개 중 후보 199개 점검 (기준 일봉 2026-10-02)",
  "types": [
@@ -16,18 +16,6 @@ window.DASH.shortterm = {
      "name": "장 마감 직전 대형수급 + 당일 고가 마감",
      "desc": "마감 직전 외국인·기관 순매수(거래대금의 3% 이상)가 몰리고, 고가 대비 0.5% 이내로 마감하는 종목",
      "kr": [
-      {
-       "code": "010130",
-       "name": "고려아연",
-       "close": 1109000.0,
-       "market": "KOSPI",
-       "sector": "비철금속",
-       "marcap": 231481,
-       "prevClose": 1080000.0,
-       "changePct": 2.69,
-       "value": 134,
-       "note": "고가 마감권(고가 대비 0.09% 아래) · 막판 20분 거래량 비중 19% · 수급 자료 확인 전"
-      },
       {
        "code": "323410",
        "name": "카카오뱅크",
@@ -51,6 +39,18 @@ window.DASH.shortterm = {
        "changePct": 3.87,
        "value": 191,
        "note": "고가 마감권(고가 대비 0.43% 아래) · 막판 20분 거래량 비중 17% · 수급 자료 확인 전"
+      },
+      {
+       "code": "010130",
+       "name": "고려아연",
+       "close": 1109000.0,
+       "market": "KOSPI",
+       "sector": "비철금속",
+       "marcap": 231481,
+       "prevClose": 1080000.0,
+       "changePct": 2.69,
+       "value": 134,
+       "note": "고가 마감권(고가 대비 0.09% 아래) · 막판 20분 거래량 비중 13% · 수급 자료 확인 전"
       },
       {
        "code": "005490",
@@ -92,7 +92,7 @@ window.DASH.shortterm = {
        "marcap": 24409,
        "prevClose": 31200.0,
        "changePct": 3.69,
-       "value": 1174,
+       "value": 1175,
        "note": "전일 +11.3% 급등 · 오늘 거래량 전일의 39% · 도지(몸통 27%) · 10일선 27,635 / 20일선 22,678 위 마감"
       }
      ]
@@ -121,7 +121,7 @@ window.DASH.shortterm = {
    },
    "수급자료": 0,
    "막판비중_중앙값": 0.017,
-   "막판비중_최대": 0.19
+   "막판비중_최대": 0.177
   }
  },
  "flowConfirmed": false,
