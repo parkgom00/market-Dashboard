@@ -10,6 +10,7 @@ import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
+# 참고: /api/stock/{code}/trend (외국인·기관 순매수)는 장이 끝난 뒤에야 당일 값이 들어온다 → 장중에는 None
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125 Safari/537.36",
            "Accept": "application/json", "Referer": "https://m.stock.naver.com/"}
 MV_URL = "https://m.stock.naver.com/api/stocks/marketValue/{mk}"

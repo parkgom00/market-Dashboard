@@ -43,6 +43,43 @@ def yahoo_bars(code, market, now=None):
         return None
 
 
+NAVER_MIN = "https://api.stock.naver.com/chart/domestic/item/{code}/minute?startDateTime={d}0900&endDateTime={d}1600"
+
+
+def parse_naver_minutes(rows):
+    """네이버 1분봉(실시간) → {open, high, low, close, lateShare, lastTs}. 비어 있으면 None."""
+    bars = []
+    for r in rows or []:
+        try:
+            t = dt.datetime.strptime(str(r["localDateTime"])[:12], "%Y%m%d%H%M").replace(tzinfo=KST).timestamp()
+            bars.append((t, float(r["openPrice"]), float(r["highPrice"]), float(r["lowPrice"]), float(r["currentPrice"]),
+                         float(r.get("accumulatedTradingVolume") or 0)))
+        except (KeyError, TypeError, ValueError):
+            continue
+    if not bars:
+        return None
+    bars.sort()
+    tot = sum(b[5] for b in bars)
+    cut = bars[-1][0] - CP.a1_late_min * 60
+    late = sum(b[5] for b in bars if b[0] > cut)
+    return {"open": bars[0][1], "high": max(b[2] for b in bars), "low": min(b[3] for b in bars), "close": bars[-1][4],
+            "lateShare": (late / tot) if tot > 0 else None, "lastTs": bars[-1][0], "src": "naver"}
+
+
+def naver_bars(code, market=None, now=None):
+    try:
+        import naver_live
+        d = (now or dt.datetime.now(KST)).strftime("%Y%m%d")
+        return parse_naver_minutes(naver_live._get(NAVER_MIN.format(code=code, d=d), tries=2))
+    except Exception:
+        return None
+
+
+def live_bars(code, market):
+    """실시간인 네이버 분봉을 먼저 쓰고, 안 되면 야후(약 20분 지연)."""
+    return naver_bars(code, market) or yahoo_bars(code, market)
+
+
 def parse_bars(res):
     ts = res.get("timestamp") or []
     q = ((res.get("indicators") or {}).get("quote") or [{}])[0]
@@ -58,7 +95,7 @@ def parse_bars(res):
             "lateShare": (late / tot) if tot > 0 else None, "lastTs": rows[-1][0]}
 
 
-def run(universe, base, now, fetch_bars=yahoo_bars, fetch_flows=None, meta=None):
+def run(universe, base, now, fetch_bars=live_bars, fetch_flows=None, meta=None):
     """universe: {code:{name,price,volume,pct?,market}}, base: {code:features}. 반환: (subtype별 목록, 진단)."""
     qs = {}
     for code, u in universe.items():
@@ -121,6 +158,7 @@ def run(universe, base, now, fetch_bars=yahoo_bars, fetch_flows=None, meta=None)
                                "changePct": round(q["pct"], 2), "value": round(q["value"] / 1e8), "note": r["note"],
                                "score": r["score"]})
     diag["bars"] = nbars
+    diag["naverBars"] = sum(1 for b in bars.values() if b and b.get("src") == "naver")
     late_vals.sort()
     diag["a1"] = {"후보": sum(1 for s in cands.values() if "A1" in s), "분봉지연": stale_n, "사유": why,
                   "수급자료": sum(1 for v in flows.values() if v is not None), "막판비중_중앙값": late_vals[len(late_vals) // 2] if late_vals else None,
