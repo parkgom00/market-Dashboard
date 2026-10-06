@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-06 21:32",
+ "asOf": "2026-10-06 23:28",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,21 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "미국 금리인상이 '장기 상승장' 시작 신호라는 진짜 이유",
+     "publishedAt": "2026-10-06 23:00",
+     "url": "https://www.youtube.com/watch?v=a2xNf3_sH70"
+    },
+    {
+     "title": "초보자도 알기 쉽게 전부 분석해 왔습니다",
+     "publishedAt": "2026-10-06 22:00",
+     "url": "https://www.youtube.com/watch?v=7qQyi7I3gGM"
+    },
+    {
+     "title": "미국 중간선거 공화당이 이기면 좋을까 민주당이 이기면 좋을까?",
+     "publishedAt": "2026-10-06 21:30",
+     "url": "https://www.youtube.com/watch?v=UqMzO3SUJxg"
+    },
+    {
      "title": "SK하이닉스 투자자라면 꼭 봐야하는 '단기,장기' 전망",
      "publishedAt": "2026-10-06 19:30",
      "url": "https://www.youtube.com/watch?v=UugiydREUKg"
@@ -113,21 +128,6 @@ window.DASH.youtube = {
      "title": "젠슨황 수혜주 중, 'LG전자'만 주가 153% 오른 진짜 이유",
      "publishedAt": "2026-10-06 18:19",
      "url": "https://www.youtube.com/watch?v=7Ua2mdttWUU"
-    },
-    {
-     "title": "'나스닥'은 최고점인데 '코스피' 주가만 안 오르는 진짜 이유",
-     "publishedAt": "2026-10-06 14:37",
-     "url": "https://www.youtube.com/watch?v=qMysq1fBe8w"
-    },
-    {
-     "title": "10월 6일, 오늘 코스피 어떻게 흘러갈까?",
-     "publishedAt": "2026-10-06 08:35",
-     "url": "https://www.youtube.com/watch?v=4uTpHcFYe-4"
-    },
-    {
-     "title": "10월 6일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-10-06 07:11",
-     "url": "https://www.youtube.com/watch?v=bbaeUYXfRNc"
     }
    ]
   },
