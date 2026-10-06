@@ -124,3 +124,16 @@ def judge_a3(q, bars, base):
     note = (f"바닥권(250일 범위 하단 {pos * 100:.0f}%) · 거래대금 {q['value'] / 1e8:,.0f}억(20일 평균의 {mult:.1f}배) · "
             f"장대양봉(+{(c / o - 1) * 100:.1f}%) · 240일선 {ma['ma240']:,.0f}, 480일선 {ma['ma480']:,.0f} 돌파")
     return {"score": mult, "note": note}
+
+
+def a1_reason(q, bars, flow=None):
+    """A1 탈락 사유(진단용). 통과면 'ok'."""
+    if q["pct"] < CP.a1_min_pct or q["value"] < CP.min_value:
+        return "등락률·거래대금 미달"
+    if q["price"] < bars["high"] * (1 - CP.a1_high_gap):
+        return "고가에서 멂"
+    if bars.get("lateShare") is not None and bars["lateShare"] < CP.a1_late_share:
+        return "막판 거래량 비중 부족"
+    if flow is not None and flow < q["value"] * CP.a1_flow_share:
+        return "외국인·기관 순매수 부족"
+    return "ok(수급 확인)" if flow is not None else "ok(수급 자료 없음)"

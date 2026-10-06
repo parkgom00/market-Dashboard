@@ -92,6 +92,7 @@ def run(universe, base, now, fetch_bars=yahoo_bars, fetch_flows=None, meta=None)
         flows = fetch_flows(a1) if a1 else {}
     res = {"A1": [], "A2": [], "A3": []}
     nbars = 0
+    why, stale_n, late_vals = {}, 0, []
     for code, kinds in cands.items():
         b = bars.get(code)
         if not b:
@@ -104,6 +105,12 @@ def run(universe, base, now, fetch_bars=yahoo_bars, fetch_flows=None, meta=None)
         bb["low"] = min(b["low"], q["price"])
         if stale:
             bb["lateShare"] = None
+            stale_n += 1
+        if "A1" in kinds:
+            r1 = closing.a1_reason(q, bb, flows.get(code))
+            why[r1] = why.get(r1, 0) + 1
+            if bb.get("lateShare") is not None:
+                late_vals.append(round(bb["lateShare"], 3))
         jobs = {"A1": lambda: closing.judge_a1(q, bb, flows.get(code)),
                 "A2": lambda: closing.judge_a2(q, bb, base.get(code)),
                 "A3": lambda: closing.judge_a3(q, bb, base.get(code))}
@@ -118,6 +125,10 @@ def run(universe, base, now, fetch_bars=yahoo_bars, fetch_flows=None, meta=None)
                                "changePct": round(q["pct"], 2), "value": round(q["value"] / 1e8), "note": r["note"],
                                "score": r["score"]})
     diag["bars"] = nbars
+    late_vals.sort()
+    diag["a1"] = {"후보": sum(1 for s in cands.values() if "A1" in s), "분봉지연": stale_n, "사유": why,
+                  "수급자료": sum(1 for v in flows.values() if v is not None), "막판비중_중앙값": late_vals[len(late_vals) // 2] if late_vals else None,
+                  "막판비중_최대": late_vals[-1] if late_vals else None}
     for k in res:
         res[k].sort(key=lambda x: -x["score"])
         res[k] = [{kk: vv for kk, vv in x.items() if kk != "score"} for x in res[k][:CP.top_n]]
@@ -186,7 +197,9 @@ def main(force=False):
         pass
     res, diag = run(uni, base, now, fetch_flows=fetch_flows, meta=meta)
     print(diag, {k: len(v) for k, v in res.items()})
-    write_js(to_payload(res, stamp, f"전 종목 {diag['quotes']}개 중 후보 {diag['candidates']}개 점검 (기준 일봉 {bj['asOf']})"))
+    payload = to_payload(res, stamp, f"전 종목 {diag['quotes']}개 중 후보 {diag['candidates']}개 점검 (기준 일봉 {bj['asOf']})")
+    payload["diag"] = diag
+    write_js(payload)
 
 
 if __name__ == "__main__":
