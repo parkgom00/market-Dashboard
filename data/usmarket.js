@@ -55,9 +55,9 @@ window.DASH.usmarket = {
    "group": "주가지수",
    "name": "한국 ETF (EWY)",
    "kind": "usd",
-   "close": 191.88,
-   "changePct": 3.1,
-   "changeText": "191.88 (+3.10%)"
+   "close": 191.46,
+   "changePct": -0.22,
+   "changeText": "191.46 (-0.22%)"
   },
   {
    "group": "금리·환율",
@@ -81,65 +81,65 @@ window.DASH.usmarket = {
    "group": "금리·환율",
    "name": "달러 인덱스",
    "kind": "plain",
-   "close": 102.08,
-   "changePct": 0.15,
-   "changeText": "102.08 (+0.15%)"
+   "close": 102.16,
+   "changePct": 0.22,
+   "changeText": "102.16 (+0.22%)"
   },
   {
    "group": "금리·환율",
    "name": "원/달러",
    "kind": "plain",
-   "close": 1343.28,
-   "changePct": 0.05,
-   "changeText": "1,343.28 (+0.05%)"
+   "close": 1341.77,
+   "changePct": -0.06,
+   "changeText": "1,341.77 (-0.06%)"
   },
   {
    "group": "금리·환율",
    "name": "엔/달러",
    "kind": "plain",
-   "close": 157.78,
-   "changePct": 0.03,
-   "changeText": "157.78 (+0.03%)"
+   "close": 157.98,
+   "changePct": 0.15,
+   "changeText": "157.98 (+0.15%)"
   },
   {
    "group": "원자재·기타",
    "name": "WTI 유가",
    "kind": "usd",
-   "close": 89.57,
-   "changePct": -1.69,
-   "changeText": "89.57 (-1.69%)"
+   "close": 89.75,
+   "changePct": -1.49,
+   "changeText": "89.75 (-1.49%)"
   },
   {
    "group": "원자재·기타",
    "name": "브렌트유",
    "kind": "usd",
-   "close": 100.57,
-   "changePct": -1.64,
-   "changeText": "100.57 (-1.64%)"
+   "close": 100.67,
+   "changePct": -1.55,
+   "changeText": "100.67 (-1.55%)"
   },
   {
    "group": "원자재·기타",
    "name": "금",
    "kind": "usd",
-   "close": 4167.1,
-   "changePct": 0.12,
-   "changeText": "4,167.10 (+0.12%)"
+   "close": 4157.2,
+   "changePct": -0.12,
+   "changeText": "4,157.20 (-0.12%)"
   },
   {
    "group": "원자재·기타",
    "name": "구리",
    "kind": "usd",
    "close": 6.66,
-   "changePct": 2.62,
-   "changeText": "6.66 (+2.62%)"
+   "changePct": 2.6,
+   "changeText": "6.66 (+2.60%)"
   },
   {
    "group": "원자재·기타",
    "name": "비트코인",
    "kind": "usd",
-   "close": 85938.54,
-   "changePct": -0.63,
-   "changeText": "85,938.54 (-0.63%)"
+   "close": 85374.38,
+   "changePct": -1.28,
+   "changeText": "85,374.38 (-1.28%)"
   }
  ],
  "sectors": [
@@ -148,570 +148,368 @@ window.DASH.usmarket = {
    "name": "기술",
    "symbol": "XLK",
    "kr": "IT·반도체",
-   "changePct": 1.01
+   "changePct": 0.56
   },
   {
    "group": "S&P 11개 섹터",
    "name": "금융",
    "symbol": "XLF",
    "kr": "은행·증권·보험",
-   "changePct": 0.06
+   "changePct": 0.73
   },
   {
    "group": "S&P 11개 섹터",
    "name": "에너지",
    "symbol": "XLE",
    "kr": "정유·가스",
-   "changePct": 0.19
+   "changePct": 1.0
   },
   {
    "group": "S&P 11개 섹터",
    "name": "헬스케어",
    "symbol": "XLV",
    "kr": "제약·바이오",
-   "changePct": -0.01
+   "changePct": 0.72
   },
   {
    "group": "S&P 11개 섹터",
    "name": "경기소비재",
    "symbol": "XLY",
    "kr": "자동차·유통·여행",
-   "changePct": 1.13
+   "changePct": 0.35
   },
   {
    "group": "S&P 11개 섹터",
    "name": "필수소비재",
    "symbol": "XLP",
    "kr": "음식료·화장품",
-   "changePct": 0.25
+   "changePct": 0.63
   },
   {
    "group": "S&P 11개 섹터",
    "name": "산업재",
    "symbol": "XLI",
    "kr": "기계·조선·방산",
-   "changePct": 0.78
+   "changePct": 0.09
   },
   {
    "group": "S&P 11개 섹터",
    "name": "소재",
    "symbol": "XLB",
    "kr": "화학·철강",
-   "changePct": 0.66
+   "changePct": 1.31
   },
   {
    "group": "S&P 11개 섹터",
    "name": "유틸리티",
    "symbol": "XLU",
    "kr": "전력·가스",
-   "changePct": 0.38
+   "changePct": 0.35
   },
   {
    "group": "S&P 11개 섹터",
    "name": "부동산",
    "symbol": "XLRE",
    "kr": "리츠",
-   "changePct": 0.32
+   "changePct": -0.34
   },
   {
    "group": "S&P 11개 섹터",
    "name": "커뮤니케이션",
    "symbol": "XLC",
    "kr": "플랫폼·미디어·게임",
-   "changePct": 0.35
+   "changePct": 1.17
   },
   {
    "group": "반도체·IT",
    "name": "반도체",
    "symbol": "SOXX",
    "kr": "반도체 대형주·HBM",
-   "changePct": 2.18
+   "changePct": 0.1
   },
   {
    "group": "반도체·IT",
    "name": "소프트웨어",
    "symbol": "IGV",
    "kr": "소프트웨어·AI 서비스",
-   "changePct": 0.18
+   "changePct": 1.19
   },
   {
    "group": "반도체·IT",
    "name": "클라우드",
    "symbol": "SKYY",
    "kr": "클라우드·데이터센터",
-   "changePct": 0.71
+   "changePct": 1.01
   },
   {
    "group": "반도체·IT",
    "name": "사이버보안",
    "symbol": "CIBR",
    "kr": "정보보안",
-   "changePct": 0.89
+   "changePct": 1.25
   },
   {
    "group": "반도체·IT",
    "name": "AI·로봇",
    "symbol": "BOTZ",
    "kr": "로봇·AI",
-   "changePct": 1.69
+   "changePct": 0.47
   },
   {
    "group": "반도체·IT",
    "name": "통신장비",
    "symbol": "XTL",
    "kr": "광통신·통신장비",
-   "changePct": 2.07
+   "changePct": 0.36
   },
   {
    "group": "반도체·IT",
    "name": "인터넷 플랫폼",
    "symbol": "FDN",
    "kr": "플랫폼",
-   "changePct": 0.84
+   "changePct": 0.71
   },
   {
    "group": "반도체·IT",
    "name": "양자컴퓨팅",
    "symbol": "QTUM",
    "kr": "양자 테마",
-   "changePct": 1.83
+   "changePct": 0.22
   },
   {
    "group": "반도체·IT",
    "name": "게임",
    "symbol": "ESPO",
    "kr": "게임",
-   "changePct": 0.39
+   "changePct": 0.69
   },
   {
    "group": "에너지·산업",
    "name": "전력망·전력기기",
    "symbol": "GRID",
    "kr": "변압기·전선·전력 인프라",
-   "changePct": 2.3
+   "changePct": -0.44
   },
   {
    "group": "에너지·산업",
    "name": "원자력",
    "symbol": "URA",
    "kr": "원전",
-   "changePct": 0.51
+   "changePct": 1.01
   },
   {
    "group": "에너지·산업",
    "name": "태양광",
    "symbol": "TAN",
    "kr": "태양광",
-   "changePct": 2.28
+   "changePct": -0.86
   },
   {
    "group": "에너지·산업",
    "name": "클린에너지",
    "symbol": "ICLN",
    "kr": "신재생",
-   "changePct": 2.08
+   "changePct": 0.58
   },
   {
    "group": "에너지·산업",
    "name": "원유·가스 개발",
    "symbol": "XOP",
    "kr": "정유·화학",
-   "changePct": 0.34
+   "changePct": 1.36
   },
   {
    "group": "에너지·산업",
    "name": "방산·우주항공",
    "symbol": "ITA",
    "kr": "방산·우주",
-   "changePct": -0.12
+   "changePct": -0.39
   },
   {
    "group": "에너지·산업",
    "name": "운송",
    "symbol": "IYT",
    "kr": "해운·항공·물류",
-   "changePct": 1.47
+   "changePct": -0.44
   },
   {
    "group": "에너지·산업",
    "name": "항공",
    "symbol": "JETS",
    "kr": "항공·여행",
-   "changePct": 0.18
+   "changePct": -0.89
   },
   {
    "group": "에너지·산업",
    "name": "주택건설",
    "symbol": "XHB",
    "kr": "건설",
-   "changePct": -0.08
+   "changePct": -0.41
   },
   {
    "group": "자동차·배터리",
    "name": "2차전지(리튬)",
    "symbol": "LIT",
    "kr": "2차전지",
-   "changePct": 1.55
+   "changePct": 1.23
   },
   {
    "group": "자동차·배터리",
    "name": "전기차·자율주행",
    "symbol": "IDRV",
    "kr": "전기차·부품",
-   "changePct": 0.8
+   "changePct": 0.78
   },
   {
    "group": "소재",
    "name": "구리",
    "symbol": "COPX",
    "kr": "비철금속",
-   "changePct": 3.01
+   "changePct": 0.49
   },
   {
    "group": "소재",
    "name": "금광",
    "symbol": "GDX",
    "kr": "금·귀금속",
-   "changePct": 1.2
+   "changePct": -0.41
   },
   {
    "group": "소재",
    "name": "철강",
    "symbol": "SLX",
    "kr": "철강",
-   "changePct": 1.69
+   "changePct": 1.55
   },
   {
    "group": "소재",
    "name": "희토류·전략광물",
    "symbol": "REMX",
    "kr": "희토류·소재",
-   "changePct": 0.41
+   "changePct": 0.52
   },
   {
    "group": "헬스케어",
    "name": "바이오",
    "symbol": "XBI",
    "kr": "바이오",
-   "changePct": -0.05
+   "changePct": 1.14
   },
   {
    "group": "헬스케어",
    "name": "제약",
    "symbol": "XPH",
    "kr": "제약",
-   "changePct": -0.22
+   "changePct": 0.03
   },
   {
    "group": "헬스케어",
    "name": "의료기기",
    "symbol": "IHI",
    "kr": "의료기기",
-   "changePct": -0.39
+   "changePct": 2.26
   },
   {
    "group": "금융·소비",
    "name": "지역은행",
    "symbol": "KRE",
    "kr": "은행",
-   "changePct": 1.19
+   "changePct": -0.55
   },
   {
    "group": "금융·소비",
    "name": "증권·자산운용",
    "symbol": "IAI",
    "kr": "증권",
-   "changePct": -0.23
+   "changePct": 1.02
   },
   {
    "group": "금융·소비",
    "name": "핀테크",
    "symbol": "FINX",
    "kr": "핀테크·결제",
-   "changePct": -0.13
+   "changePct": 2.51
   },
   {
    "group": "금융·소비",
    "name": "소매",
    "symbol": "XRT",
    "kr": "유통",
-   "changePct": 0.01
+   "changePct": 0.35
   },
   {
    "group": "금융·소비",
    "name": "중국 인터넷",
    "symbol": "KWEB",
    "kr": "중국 관련주",
-   "changePct": -1.93
+   "changePct": 2.93
   }
  ],
  "summary": [],
  "brief": null,
  "themes": [
   {
-   "name": "우주",
-   "changePct": 5.13,
+   "name": "철강",
+   "changePct": 5.42,
    "why": "",
-   "logic": "미국 민간 우주 기업 강세는 위성·발사체 투자 심리를 끌어올립니다. 위성 본체와 안테나를 만드는 국내 업체가 같은 테마로 움직입니다.",
+   "logic": "미국 철강 가격과 관세 정책은 글로벌 철강 시황에 영향을 줍니다. 국내 철강사도 같은 시황 재료에 반응합니다.",
    "usStocks": [
     {
-     "ticker": "PL",
-     "name": "플래닛랩스",
-     "changePct": 8.43
+     "ticker": "CLF",
+     "name": "클리블랜드클리프스",
+     "changePct": 7.77
     },
     {
-     "ticker": "RKLB",
-     "name": "로켓랩",
-     "changePct": 4.91
+     "ticker": "NUE",
+     "name": "뉴코",
+     "changePct": 4.58
     },
     {
-     "ticker": "LUNR",
-     "name": "인튜이티브머신스",
-     "changePct": 4.7
-    },
-    {
-     "ticker": "ASTS",
-     "name": "AST스페이스모바일",
-     "changePct": 2.47
+     "ticker": "STLD",
+     "name": "스틸다이내믹스",
+     "changePct": 3.9
     }
    ],
    "krStocks": [
     {
-     "code": "099320",
-     "name": "쎄트렉아이",
-     "link": "지구관측 위성 본체·탑재체 제작",
+     "code": "005490",
+     "name": "POSCO홀딩스",
+     "link": "국내 1위 철강사, 글로벌 철강 시황에 연동",
      "strength": 2
     },
     {
-     "code": "189300",
-     "name": "인텔리안테크",
-     "link": "저궤도 위성통신용 안테나 공급",
+     "code": "004020",
+     "name": "현대제철",
+     "link": "미국 관세·철강 가격에 영향",
      "strength": 2
     }
    ]
   },
-  {
-   "name": "AI 서버·네트워크",
-   "changePct": 3.76,
-   "why": "",
-   "logic": "AI 서버와 데이터센터 네트워크 장비 주문이 늘면 그 안에 들어가는 고다층 기판·MLCC 수요가 따라 늘어납니다.",
-   "usStocks": [
-    {
-     "ticker": "COHR",
-     "name": "코히런트",
-     "changePct": 5.59
-    },
-    {
-     "ticker": "SMCI",
-     "name": "슈퍼마이크로",
-     "changePct": 4.22
-    },
-    {
-     "ticker": "DELL",
-     "name": "델",
-     "changePct": 3.84
-    },
-    {
-     "ticker": "ANET",
-     "name": "아리스타네트웍스",
-     "changePct": 1.4
-    }
-   ],
-   "krStocks": [
-    {
-     "code": "007660",
-     "name": "이수페타시스",
-     "link": "AI 서버·네트워크 장비용 고다층 기판(MLB)을 북미 고객에 공급",
-     "strength": 3
-    },
-    {
-     "code": "009150",
-     "name": "삼성전기",
-     "link": "AI 서버용 MLCC와 FC-BGA 기판 공급",
-     "strength": 2
-    }
-   ]
-  },
-  {
-   "name": "로봇",
-   "changePct": 3.65,
-   "why": "",
-   "logic": "미국 자동화·휴머노이드 관련주 강세는 로봇 투자 심리로 이어집니다. 국내 협동로봇·휴머노이드 업체가 같은 테마로 묶여 움직입니다.",
-   "usStocks": [
-    {
-     "ticker": "TER",
-     "name": "테라다인",
-     "changePct": 8.0
-    },
-    {
-     "ticker": "ROK",
-     "name": "로크웰오토메이션",
-     "changePct": 2.69
-    },
-    {
-     "ticker": "SYM",
-     "name": "심보틱",
-     "changePct": 0.25
-    }
-   ],
-   "krStocks": [
-    {
-     "code": "277810",
-     "name": "레인보우로보틱스",
-     "link": "휴머노이드·협동로봇, 로봇 테마 대표주",
-     "strength": 1
-    },
-    {
-     "code": "454910",
-     "name": "두산로보틱스",
-     "link": "협동로봇 제조 (테라다인 자회사 유니버설로봇과 같은 시장)",
-     "strength": 2
-    }
-   ]
-  },
-  {
-   "name": "구리·전선",
-   "changePct": 3.58,
-   "why": "",
-   "logic": "구리 가격과 미국 구리 광산주가 오르면 전선 판가와 재고 가치가 올라 국내 전선·비철 업체 실적 기대가 커집니다.",
-   "usStocks": [
-    {
-     "ticker": "FCX",
-     "name": "프리포트맥모란",
-     "changePct": 3.98
-    },
-    {
-     "ticker": "SCCO",
-     "name": "서던코퍼",
-     "changePct": 3.17
-    }
-   ],
-   "krStocks": [
-    {
-     "code": "006260",
-     "name": "LS",
-     "link": "LS전선·LS MnM(구리 제련) 지주사",
-     "strength": 2
-    },
-    {
-     "code": "103140",
-     "name": "풍산",
-     "link": "구리 가공 제품, 구리 가격에 연동",
-     "strength": 2
-    }
-   ]
-  },
-  {
-   "name": "반도체 장비",
-   "changePct": 2.68,
-   "why": "",
-   "logic": "글로벌 장비사 주가는 반도체 설비투자 전망을 반영합니다. 투자가 늘면 국내 전공정·검사 장비사의 수주도 같은 방향으로 움직입니다.",
-   "usStocks": [
-    {
-     "ticker": "KLAC",
-     "name": "KLA",
-     "changePct": 3.27
-    },
-    {
-     "ticker": "ASML",
-     "name": "ASML",
-     "changePct": 3.25
-    },
-    {
-     "ticker": "LRCX",
-     "name": "램리서치",
-     "changePct": 2.17
-    },
-    {
-     "ticker": "AMAT",
-     "name": "어플라이드머티리얼즈",
-     "changePct": 2.03
-    }
-   ],
-   "krStocks": [
-    {
-     "code": "240810",
-     "name": "원익IPS",
-     "link": "반도체 증착 장비, 글로벌 장비주와 같은 투자 사이클",
-     "strength": 2
-    },
-    {
-     "code": "036930",
-     "name": "주성엔지니어링",
-     "link": "반도체 증착 장비, 글로벌 장비주와 같은 투자 사이클",
-     "strength": 2
-    }
-   ]
-  },
-  {
-   "name": "반도체·AI 인프라",
-   "changePct": 1.71,
-   "why": "",
-   "logic": "엔비디아·브로드컴의 AI 가속기 수요가 늘면 거기에 들어가는 HBM 메모리와 후공정 장비 주문이 함께 늘어납니다.",
-   "usStocks": [
-    {
-     "ticker": "AVGO",
-     "name": "브로드컴",
-     "changePct": 3.35
-    },
-    {
-     "ticker": "TSM",
-     "name": "TSMC",
-     "changePct": 2.96
-    },
-    {
-     "ticker": "AMD",
-     "name": "AMD",
-     "changePct": 2.95
-    },
-    {
-     "ticker": "NVDA",
-     "name": "엔비디아",
-     "changePct": 1.34
-    }
-   ],
-   "krStocks": [
-    {
-     "code": "000660",
-     "name": "SK하이닉스",
-     "link": "엔비디아 AI 가속기에 들어가는 HBM 메모리를 공급",
-     "strength": 3
-    },
-    {
-     "code": "042700",
-     "name": "한미반도체",
-     "link": "HBM 제조 공정에 쓰는 TC본더 장비를 공급",
-     "strength": 3
-    }
-   ]
-  }
- ],
- "weakThemes": [
   {
    "name": "메모리·스토리지",
-   "changePct": -6.57,
+   "changePct": 2.22,
    "why": "",
    "logic": "마이크론·샌디스크 주가는 D램·낸드 가격과 수요 전망을 가장 먼저 반영합니다. 같은 제품을 파는 국내 메모리 업체의 실적 기대가 같은 방향으로 움직입니다.",
    "usStocks": [
     {
-     "ticker": "MU",
-     "name": "마이크론",
-     "changePct": -2.05
-    },
-    {
-     "ticker": "SNDK",
-     "name": "샌디스크",
-     "changePct": -3.79
+     "ticker": "WDC",
+     "name": "웨스턴디지털",
+     "changePct": 6.34
     },
     {
      "ticker": "STX",
      "name": "씨게이트",
-     "changePct": -10.21
+     "changePct": 4.49
     },
     {
-     "ticker": "WDC",
-     "name": "웨스턴디지털",
-     "changePct": -10.22
+     "ticker": "SNDK",
+     "name": "샌디스크",
+     "changePct": -0.92
+    },
+    {
+     "ticker": "MU",
+     "name": "마이크론",
+     "changePct": -1.02
     }
    ],
    "krStocks": [
@@ -730,30 +528,114 @@ window.DASH.usmarket = {
    ]
   },
   {
+   "name": "원전·SMR",
+   "changePct": 1.9,
+   "why": "",
+   "logic": "미국의 원전 재가동·SMR(소형원전) 기대가 커지면 주기기 제작과 설계·시공을 맡는 국내 원전 공급망에 수주 기대가 붙습니다.",
+   "usStocks": [
+    {
+     "ticker": "CEG",
+     "name": "컨스텔레이션에너지",
+     "changePct": 3.93
+    },
+    {
+     "ticker": "VST",
+     "name": "비스트라",
+     "changePct": 3.48
+    },
+    {
+     "ticker": "CCJ",
+     "name": "카메코",
+     "changePct": 2.69
+    },
+    {
+     "ticker": "OKLO",
+     "name": "오클로",
+     "changePct": 0.28
+    }
+   ],
+   "krStocks": [
+    {
+     "code": "034020",
+     "name": "두산에너빌리티",
+     "link": "원전 주기기 제작, 뉴스케일 등 SMR 업체에 기자재 공급",
+     "strength": 3
+    },
+    {
+     "code": "052690",
+     "name": "한전기술",
+     "link": "원전 설계 전문, 원전 투자 확대와 연동",
+     "strength": 2
+    }
+   ]
+  },
+  {
+   "name": "엔터",
+   "changePct": 1.81,
+   "why": "",
+   "logic": "글로벌 스트리밍·음악 플랫폼 실적은 콘텐츠 소비 흐름을 보여줍니다. 해외 음원·공연 매출이 큰 국내 엔터사에 간접적으로 연결됩니다.",
+   "usStocks": [
+    {
+     "ticker": "WMG",
+     "name": "워너뮤직",
+     "changePct": 3.04
+    },
+    {
+     "ticker": "SPOT",
+     "name": "스포티파이",
+     "changePct": 2.15
+    },
+    {
+     "ticker": "DIS",
+     "name": "디즈니",
+     "changePct": 1.39
+    },
+    {
+     "ticker": "NFLX",
+     "name": "넷플릭스",
+     "changePct": 0.66
+    }
+   ],
+   "krStocks": [
+    {
+     "code": "352820",
+     "name": "하이브",
+     "link": "글로벌 음원·공연 매출 비중이 큼",
+     "strength": 1
+    },
+    {
+     "code": "041510",
+     "name": "에스엠",
+     "link": "글로벌 음원·공연 매출",
+     "strength": 1
+    }
+   ]
+  },
+  {
    "name": "자동차",
-   "changePct": -2.47,
+   "changePct": 1.6,
    "why": "",
    "logic": "미국 자동차 판매와 관세 뉴스는 완성차 업종 전체에 영향을 줍니다. 미국 판매 비중이 큰 현대차·기아가 같은 재료에 반응합니다.",
    "usStocks": [
     {
-     "ticker": "TM",
-     "name": "도요타",
-     "changePct": -1.01
-    },
-    {
      "ticker": "GM",
      "name": "GM",
-     "changePct": -1.31
-    },
-    {
-     "ticker": "F",
-     "name": "포드",
-     "changePct": -1.39
+     "changePct": 2.5
     },
     {
      "ticker": "STLA",
      "name": "스텔란티스",
-     "changePct": -6.18
+     "changePct": 2.05
+    },
+    {
+     "ticker": "TM",
+     "name": "도요타",
+     "changePct": 1.45
+    },
+    {
+     "ticker": "F",
+     "name": "포드",
+     "changePct": 0.41
     }
    ],
    "krStocks": [
@@ -772,44 +654,157 @@ window.DASH.usmarket = {
    ]
   },
   {
-   "name": "엔터",
-   "changePct": -1.24,
+   "name": "2차전지·전기차",
+   "changePct": 1.36,
    "why": "",
-   "logic": "글로벌 스트리밍·음악 플랫폼 실적은 콘텐츠 소비 흐름을 보여줍니다. 해외 음원·공연 매출이 큰 국내 엔터사에 간접적으로 연결됩니다.",
+   "logic": "테슬라 판매와 리튬 가격은 배터리 수요·판가의 선행 신호입니다. 북미 전기차용 배터리와 양극재를 공급하는 국내 업체가 영향을 받습니다.",
    "usStocks": [
     {
-     "ticker": "DIS",
-     "name": "디즈니",
-     "changePct": 0.85
+     "ticker": "TSLA",
+     "name": "테슬라",
+     "changePct": 2.2
     },
     {
-     "ticker": "WMG",
-     "name": "워너뮤직",
-     "changePct": -0.87
+     "ticker": "RIVN",
+     "name": "리비안",
+     "changePct": 2.1
     },
     {
-     "ticker": "NFLX",
-     "name": "넷플릭스",
-     "changePct": -1.16
-    },
-    {
-     "ticker": "SPOT",
-     "name": "스포티파이",
-     "changePct": -3.77
+     "ticker": "ALB",
+     "name": "앨버말",
+     "changePct": -0.21
     }
    ],
    "krStocks": [
     {
-     "code": "352820",
-     "name": "하이브",
-     "link": "글로벌 음원·공연 매출 비중이 큼",
-     "strength": 1
+     "code": "373220",
+     "name": "LG에너지솔루션",
+     "link": "테슬라·GM 등 북미 전기차 업체에 배터리를 공급",
+     "strength": 3
     },
     {
-     "code": "041510",
-     "name": "에스엠",
-     "link": "글로벌 음원·공연 매출",
-     "strength": 1
+     "code": "247540",
+     "name": "에코프로비엠",
+     "link": "배터리 양극재 공급, 리튬 등 소재 가격과 연동",
+     "strength": 2
+    }
+   ]
+  }
+ ],
+ "weakThemes": [
+  {
+   "name": "우주",
+   "changePct": -1.22,
+   "why": "",
+   "logic": "미국 민간 우주 기업 강세는 위성·발사체 투자 심리를 끌어올립니다. 위성 본체와 안테나를 만드는 국내 업체가 같은 테마로 움직입니다.",
+   "usStocks": [
+    {
+     "ticker": "LUNR",
+     "name": "인튜이티브머신스",
+     "changePct": -2.86
+    },
+    {
+     "ticker": "RKLB",
+     "name": "로켓랩",
+     "changePct": -1.22
+    },
+    {
+     "ticker": "PL",
+     "name": "플래닛랩스",
+     "changePct": -0.8
+    },
+    {
+     "ticker": "ASTS",
+     "name": "AST스페이스모바일",
+     "changePct": -0.02
+    }
+   ],
+   "krStocks": [
+    {
+     "code": "099320",
+     "name": "쎄트렉아이",
+     "link": "지구관측 위성 본체·탑재체 제작",
+     "strength": 2
+    },
+    {
+     "code": "189300",
+     "name": "인텔리안테크",
+     "link": "저궤도 위성통신용 안테나 공급",
+     "strength": 2
+    }
+   ]
+  },
+  {
+   "name": "스마트폰·애플",
+   "changePct": -1.22,
+   "why": "",
+   "logic": "애플 판매 전망이 좋아지면 아이폰에 들어가는 카메라모듈·기판 주문이 늘어 국내 부품사 실적으로 이어집니다.",
+   "usStocks": [
+    {
+     "ticker": "QCOM",
+     "name": "퀄컴",
+     "changePct": -2.21
+    },
+    {
+     "ticker": "AAPL",
+     "name": "애플",
+     "changePct": -0.24
+    }
+   ],
+   "krStocks": [
+    {
+     "code": "011070",
+     "name": "LG이노텍",
+     "link": "아이폰 카메라모듈 주력 공급사",
+     "strength": 3
+    },
+    {
+     "code": "090460",
+     "name": "비에이치",
+     "link": "아이폰 OLED용 연성기판(FPCB) 공급",
+     "strength": 3
+    }
+   ]
+  },
+  {
+   "name": "AI 서버·네트워크",
+   "changePct": -1.05,
+   "why": "",
+   "logic": "AI 서버와 데이터센터 네트워크 장비 주문이 늘면 그 안에 들어가는 고다층 기판·MLCC 수요가 따라 늘어납니다.",
+   "usStocks": [
+    {
+     "ticker": "DELL",
+     "name": "델",
+     "changePct": -1.82
+    },
+    {
+     "ticker": "SMCI",
+     "name": "슈퍼마이크로",
+     "changePct": -1.14
+    },
+    {
+     "ticker": "COHR",
+     "name": "코히런트",
+     "changePct": -1.01
+    },
+    {
+     "ticker": "ANET",
+     "name": "아리스타네트웍스",
+     "changePct": -0.22
+    }
+   ],
+   "krStocks": [
+    {
+     "code": "007660",
+     "name": "이수페타시스",
+     "link": "AI 서버·네트워크 장비용 고다층 기판(MLB)을 북미 고객에 공급",
+     "strength": 3
+    },
+    {
+     "code": "009150",
+     "name": "삼성전기",
+     "link": "AI 서버용 MLCC와 FC-BGA 기판 공급",
+     "strength": 2
     }
    ]
   }
