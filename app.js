@@ -216,7 +216,7 @@
     // 2) 히트맵 (S&P 500 시총 상위: 네모 크기 = 시가총액, 색 = 등락률)
     var hm = u.heatmap && (u.heatmap.items || []).length ? u.heatmap : null;
     if (hm) {
-      h += '<div class="card"><h3>미국 히트맵</h3><div class="muted">' + esc(hm.source || "") + " 100종목 · " + esc(u.asOf || "") + "</div>" +
+      h += '<div class="card"><h3>미국 히트맵</h3><div class="muted">' + esc(hm.source || "") + " · " + hm.items.length + "종목 · " + esc(u.asOf || "") + "</div>" +
         '<div class="hm-wrap"><div class="hm" id="us-hm">' + heatmapHtml(hm.items) + "</div></div>" +
         heatLegend() +
         '<div class="hm-info" id="us-hm-info">네모를 누르면 종목 정보가 보입니다. 크기는 시가총액, 색은 전일 대비 등락률입니다.</div></div>';

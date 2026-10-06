@@ -96,6 +96,17 @@ def build(parsed, members, top_n=TOP_N):
     return items[:top_n]
 
 
+def apply_changes(items, changes, date):
+    """등락률을 야후 종가 기준 값으로 바꾼다. 나스닥 스크리너의 등락률은 하루 늦게 갱신되는 경우가 있어 쓰지 않는다.
+    changes: {야후 티커: {"pct", "date"}}. 기준일(date) 종가가 없는 종목은 뺀다."""
+    out = []
+    for it in items:
+        ch = changes.get(it["t"].replace(".", "-"))
+        if ch and ch["date"] >= date:
+            out.append(dict(it, p=round(ch["pct"], 2)))
+    return out
+
+
 def collect(parsed=None):
     if parsed is None:
         parsed = parse_rows(fetch_rows())
@@ -103,4 +114,4 @@ def collect(parsed=None):
     items = build(parsed, members)
     if len(items) < 30:
         raise ValueError(f"히트맵 종목이 {len(items)}개뿐")
-    return {"source": "Nasdaq 스크리너" + (" · S&P 500 시총 상위" if members else " · 미국 상장 시총 상위"), "items": items}
+    return {"source": ("S&P 500 시총 상위" if members else "미국 상장 시총 상위") + " · 시총 Nasdaq, 등락률 Yahoo 종가", "items": items}

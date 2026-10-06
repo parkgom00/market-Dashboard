@@ -272,7 +272,19 @@ def main():
         sec_syms = [s["symbol"] for s in SECTORS]
         n_sec, n_th = len(stale_symbols(all_changes, sec_syms, date)), len(stale_symbols(th_changes, th_tickers, date))
         dropped += fill_from_nasdaq(all_changes, refresh_stale(all_changes, sec_syms, date, dl), [], date)
-        dropped += fill_from_nasdaq(th_changes, refresh_stale(th_changes, th_tickers, date, dl), nasdaq_rows, date)
+        dropped += fill_from_nasdaq(th_changes, refresh_stale(th_changes, th_tickers, date, dl), [], date)
+        if heat:   # 히트맵 등락률도 야후 종가 기준으로 (나스닥 스크리너 등락률은 하루 늦을 수 있음)
+            try:
+                hsyms = [i["t"].replace(".", "-") for i in heat["items"]]
+                hch = compute_changes(yf.download(hsyms, period="15d", auto_adjust=True, progress=False)["Close"])
+                late = refresh_stale(hch, hsyms, date, dl)
+                heat["items"] = us_heatmap.apply_changes(heat["items"], hch, date)
+                print(f"히트맵 등락률: 야후 기준 {len(heat['items'])}종목 (늦어서 제외 {len(late)}개)")
+                if len(heat["items"]) < 30:
+                    heat, heat_err = None, "등락률 자료 부족"
+            except Exception as e:
+                heat, heat_err = None, type(e).__name__
+                print("히트맵 등락률 실패:", type(e).__name__, e)
         print(f"기준일 {date}: 처음에 늦게 들어온 업종 ETF {n_sec}개·테마 종목 {n_th}개 → 끝내 제외 {len(dropped)}개 {dropped}")
 
     try:   # 진단용: 야후 원본 마지막 4일 종가와 나스닥 값 비교
@@ -286,6 +298,7 @@ def main():
         for t in ("WDC", "NVDA", "TSLA", "CEG", "STX"):
             if t in by:
                 diag["nasdaq"][t] = {"price": by[t]["price"], "pct": by[t]["p"]}
+        diag["heat"] = {i["t"]: i["p"] for i in (heat or {}).get("items", [])[:8]}
         os.makedirs(OUT, exist_ok=True)
         with open(os.path.join(OUT, "us_diag.json"), "w", encoding="utf-8") as f:
             json.dump(diag, f, ensure_ascii=False, indent=1)
