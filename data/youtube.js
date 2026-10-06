@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-06 13:27",
+ "asOf": "2026-10-06 15:18",
  "channels": [
   {
    "name": "815머니톡",
@@ -41,29 +41,29 @@ window.DASH.youtube = {
    "handle": "@orlandocampus",
    "videos": [
     {
-     "title": "(시황분석) 대장주 엔비디아가 신고가 돌파했다는 건 의미 있다!!!",
-     "publishedAt": "2026-10-06 05:35",
-     "url": "https://www.youtube.com/watch?v=fW9zjIwnPOE"
+     "title": "(마이크론) 중장기 수요가 많다, 아직 꺽이는 시기 아니다",
+     "publishedAt": "2026-10-01",
+     "url": "https://www.youtube.com/watch?v=QqzRbsfrtc0"
     },
     {
-     "title": "(관심종목)트펌프의 이란공격 시간과 변동성 이기는 전략",
-     "publishedAt": "2026-10-05 14:36",
-     "url": "https://www.youtube.com/watch?v=1w_aDNp1Lio"
+     "title": "(유가,금리) 선거전까지는 유가,금리 내려간다!!!",
+     "publishedAt": "2026-09-27",
+     "url": "https://www.youtube.com/watch?v=fLuKAbjwqas"
     },
     {
-     "title": "(월간시황) 금리를 이기는 실적주에만 투자하자!!!",
-     "publishedAt": "2026-10-04 18:42",
-     "url": "https://www.youtube.com/watch?v=DT1cMLMpye8"
+     "title": "(마이크론) 직전고점에서 물량 털어야 하나?",
+     "publishedAt": "2026-09-27",
+     "url": "https://www.youtube.com/watch?v=evKEv4G9TbY"
     },
     {
-     "title": "(관심종목) 주식을 매수할때 수익의 60%이상이 결정난다.좋은주식을 싼가격에 매수하고 분할매수하자!!!",
-     "publishedAt": "2026-10-04 06:31",
-     "url": "https://www.youtube.com/watch?v=0rRmRe_rh8k"
+     "title": "(시황분석) 다음주 마이크론 실적이 트리거가 되나?",
+     "publishedAt": "2026-09-26",
+     "url": "https://www.youtube.com/watch?v=R02arEFMkf8"
     },
     {
-     "title": "(4Q장세) 민주당 블루웨이브 되면 시장 폭락하나?",
-     "publishedAt": "2026-10-03 21:03",
-     "url": "https://www.youtube.com/watch?v=4aEnyPi4ADE"
+     "title": "(아이온큐) 적자주여서 투자할수 없나?",
+     "publishedAt": "2026-09-24",
+     "url": "https://www.youtube.com/watch?v=bdu4XTiEHrY"
     }
    ]
   },
@@ -73,29 +73,14 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
-     "title": "[몰아보기] 반도체 소부장 전략 AtoZ? 한 방에 정리!!",
-     "publishedAt": "2026-10-03 14:00",
-     "url": "https://www.youtube.com/watch?v=2VsqPGX9ovY"
+     "title": "[안테나] 엔비디아가 촉발한 유리기판 기술 변화, 소부장 기업 들썩!!",
+     "publishedAt": "2026-09-25",
+     "url": "https://www.youtube.com/watch?v=NsdOt1IFOMM"
     },
     {
-     "title": "삼성 파운드리 2나노 전략? 우선 순위가 바뀌었다!!",
-     "publishedAt": "2026-10-02 19:00",
-     "url": "https://www.youtube.com/watch?v=hwXpstrA_lE"
-    },
-    {
-     "title": "[아테네] 역대 최장 메모리 슈퍼 사이클, 주식 팔아야 할 때는?",
-     "publishedAt": "2026-10-01 19:00",
-     "url": "https://www.youtube.com/watch?v=9_ukGybWvyM"
-    },
-    {
-     "title": "고객이 돈 먼저 줄테니 공급만 부탁? AI 인프라에서 급부상한 이 품목?",
-     "publishedAt": "2026-09-30 19:00",
-     "url": "https://www.youtube.com/watch?v=uf7IbdQ5U_A"
-    },
-    {
-     "title": "[아테네] 반도체 Q사이클에서 소부장 투자 전략? 핵심은 이거에요!!",
-     "publishedAt": "2026-09-29 19:00",
-     "url": "https://www.youtube.com/watch?v=qhEMibOw1Rs"
+     "title": "[몰아보기] AI 기술의 변곡점, 반도체 돈의 흐름이 바뀐다!!",
+     "publishedAt": "2026-09-15",
+     "url": "https://www.youtube.com/watch?v=i84OzgSHmuQ"
     }
    ]
   },
@@ -105,29 +90,93 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "10월 6일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-10-06 07:11",
-     "url": "https://www.youtube.com/watch?v=bbaeUYXfRNc"
+     "title": "이번에 금리가 오르면 AI 주식은 계속 떨어질까?!",
+     "publishedAt": "2026-09-22",
+     "url": "https://www.youtube.com/watch?v=pE87I6NVjEM"
     },
     {
-     "title": "삼성전자 10월 실적발표전 미리 알아야 하는 '주가 상승패턴'",
-     "publishedAt": "2026-10-05 21:15",
-     "url": "https://www.youtube.com/watch?v=4jaRaPkYItk"
+     "title": "AI 개발을 늦추려는 클로드의 숨은 의도",
+     "publishedAt": "2026-09-22",
+     "url": "https://www.youtube.com/watch?v=JJ3Id2fjvns"
     },
     {
-     "title": "월가가 매번 중간선거 전 \"지금\"같은 장이 기회라고 말하는 이유",
-     "publishedAt": "2026-10-05 19:20",
-     "url": "https://www.youtube.com/watch?v=WkcVCqxh-Oo"
+     "title": "투자자들이 지금을 기회로 삼아야 하는 진짜 이유",
+     "publishedAt": "2026-09-15",
+     "url": "https://www.youtube.com/watch?v=tmpkHiva8D0"
     },
     {
-     "title": "유가, 금리 상승 이후 시장이 바라보는 다음 '악재' 정체",
-     "publishedAt": "2026-10-05 17:06",
-     "url": "https://www.youtube.com/watch?v=-TwotENCoa8"
+     "title": "일본 금리 인상 확률 97%, 투자자들이 꼭 알아야 하는 것",
+     "publishedAt": "2026-09-15",
+     "url": "https://www.youtube.com/watch?v=G-ZhktRr83Q"
     },
     {
-     "title": "\"현대 노조들 다 짤릴까?\" 아틀라스 개발 성공한 현대차",
-     "publishedAt": "2026-10-05 14:52",
-     "url": "https://www.youtube.com/watch?v=X5NJ4hZPLtk"
+     "title": "2030년 이후 뒤바뀔 AI 산업의 변화",
+     "publishedAt": "2026-09-15",
+     "url": "https://www.youtube.com/watch?v=Vjzln1aIHXY"
+    }
+   ]
+  },
+  {
+   "name": "내일은 투자왕 김단테",
+   "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
+   "handle": "@김단테",
+   "videos": [
+    {
+     "title": "메모리 주식 다시 폭등하는 이유",
+     "publishedAt": "2026-09-06",
+     "url": "https://www.youtube.com/watch?v=5fLVQ7nTGiE"
+    },
+    {
+     "title": "엔비디아 이젠 올인?! 판돈이 너무 커졌습니다 ㄷㄷㄷ",
+     "publishedAt": "2026-09-06",
+     "url": "https://www.youtube.com/watch?v=UrM9JNqZs_E"
+    },
+    {
+     "title": "미국증시 신고가의 비밀",
+     "publishedAt": "2026-08-07",
+     "url": "https://www.youtube.com/watch?v=vHZGKCsKulk"
+    },
+    {
+     "title": "마진콜에 코스피 야간선물 상한가? 나스닥 대폭등?",
+     "publishedAt": "2026-08-07",
+     "url": "https://www.youtube.com/watch?v=9cPQh6AgTrM"
+    },
+    {
+     "title": "AI 주식 공포. 한국을 넘어 전세계로 퍼지나?",
+     "publishedAt": "2026-08-07",
+     "url": "https://www.youtube.com/watch?v=O5PJmXPZ0eU"
+    }
+   ]
+  },
+  {
+   "name": "소수몽키",
+   "channelId": "UCC3yfxS5qC6PCwDzetUuEWg",
+   "handle": "@sosumonkey",
+   "videos": [
+    {
+     "title": "트럼프 칼 갈았다? 9월 미중회담 대격돌의수혜주들",
+     "publishedAt": "2026-09-06",
+     "url": "https://www.youtube.com/watch?v=4NMpSHP72C8"
+    },
+    {
+     "title": "긴축 우려 완화에 다시 들썩이는 증시, 8월 랠리 주인공이 될 주식들",
+     "publishedAt": "2026-09-06",
+     "url": "https://www.youtube.com/watch?v=FDSevM8o4gY"
+    },
+    {
+     "title": "하락은 기회? AI 에이전트 시대 새롭게 주도주가 될 주식들",
+     "publishedAt": "2026-09-06",
+     "url": "https://www.youtube.com/watch?v=dBCJCdi3fEw"
+    },
+    {
+     "title": "월가 천재 투자자마저 패닉셀, 본격 분위기 반전의 신호일까",
+     "publishedAt": "2026-08-07",
+     "url": "https://www.youtube.com/watch?v=WTfk0OYuY7Q"
+    },
+    {
+     "title": "빅테크의 반격 시작? 나스닥으로 자금 대이동 신호일까",
+     "publishedAt": "2026-08-07",
+     "url": "https://www.youtube.com/watch?v=XF_dMqNUrBs"
     }
    ]
   }
