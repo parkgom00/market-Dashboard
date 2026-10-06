@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_closing.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-06 15:35",
+ "asOf": "2026-10-06 15:38",
  "window": "15:20~15:40",
  "status": "전 종목 2423개 중 후보 199개 점검 (기준 일봉 2026-10-02)",
  "types": [
@@ -135,5 +135,7 @@ window.DASH.shortterm = {
    "막판비중_중앙값": 0.036,
    "막판비중_최대": 0.209
   }
- }
+ },
+ "flowConfirmed": false,
+ "phase": "장중 · 수급 자료는 마감 후(16시 이후) 반영됩니다"
 };
