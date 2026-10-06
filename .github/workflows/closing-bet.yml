@@ -1,25 +1,44 @@
 name: 종가배팅주 (장 마감 직전)
+# 깃허브 예약 실행은 수십 분씩 늦거나 빠질 수 있어, 14:40 무렵에 한 번 시작해 놓고
+# 작업 안에서 15:05~15:48 동안 3~4분 간격으로 반복 수집합니다. (예약을 3번 걸어 두고 먼저 시작한 하나만 돕니다)
 on:
   schedule:
-    - cron: "10-45/5 6 * * 1-5"   # 15:10~15:45 KST, 5분 간격
+    - cron: "40 5 * * 1-5"   # 14:40 KST
+    - cron: "55 5 * * 1-5"   # 14:55 KST (예비)
+    - cron: "10 6 * * 1-5"   # 15:10 KST (예비)
   workflow_dispatch:
 concurrency:
-  group: data-commit
+  group: closing-bet
   cancel-in-progress: false
 permissions:
   contents: write
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 80
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: 종가배팅주 수집
-        working-directory: scanner
-        run: python collect_closing.py ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
-      - name: 변경된 데이터 저장
-        if: ${{ !cancelled() }}
-        run: bash scanner/commit_data.sh
+      - name: 종가배팅주 반복 수집
+        run: |
+          hhmm() { echo $((10#$(TZ=Asia/Seoul date +%H%M))); }
+          now=$(hhmm)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && { [ "$now" -lt 1440 ] || [ "$now" -gt 1548 ]; }; then
+            echo "수동 실행(장 마감 시간대 밖): 한 번만 강제 수집"
+            (cd scanner && python collect_closing.py --force)
+            bash scanner/commit_data.sh || true
+            exit 0
+          fi
+          while true; do
+            now=$(hhmm)
+            if [ "$now" -gt 1548 ]; then echo "15:48 지남 → 종료"; break; fi
+            if [ "$now" -ge 1505 ]; then
+              (cd scanner && python collect_closing.py) || true
+              bash scanner/commit_data.sh || true
+              sleep 110
+            else
+              sleep 60
+            fi
+          done
