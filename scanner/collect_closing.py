@@ -136,6 +136,11 @@ def run(universe, base, now, fetch_bars=live_bars, fetch_flows=None, meta=None, 
             continue
         nbars += 1
         q = qs[code]
+        after = None
+        if final:   # 마감 후에는 네이버 현재가가 시간외 거래로 움직이므로, 판정은 정규장 종가(15:30 분봉 종가)로 한다
+            prev = universe[code].get("prev") or (base.get(code) or {}).get("prevClose")
+            after = {"price": q["price"], "pct": round(q["pct"], 2)}
+            q = dict(q, price=b["close"], pct=((b["close"] / prev - 1) * 100 if prev else q["pct"]))
         stale = (not final) and (now.timestamp() - b["lastTs"]) > 25 * 60   # 마감 후에는 15:30 봉이 마지막이라 지연으로 보지 않음
         bb = dict(b)
         bb["high"] = max(b["high"], q["price"])
@@ -157,6 +162,7 @@ def run(universe, base, now, fetch_bars=live_bars, fetch_flows=None, meta=None, 
                 mt = (meta or {}).get(code, {})
                 res[k].append({"code": code, "name": universe[code]["name"], "close": q["price"],
                                "market": universe[code].get("market", ""), "sector": mt.get("sector", ""),
+                               "after": after,
                                "marcap": round(universe[code]["marcap"] / 1e8) if universe[code].get("marcap") else mt.get("marcap", 0),
                                "prevClose": universe[code].get("prev") or (base.get(code) or {}).get("prevClose"),
                                "changePct": round(q["pct"], 2), "value": round(q["value"] / 1e8), "note": r["note"],
@@ -279,7 +285,7 @@ def main(mode="auto"):
     payload["diag"] = diag
     payload["flowConfirmed"] = bool(n_flow)
     if mode == "final":
-        payload["phase"] = ("장 마감 후 · 종가 확정 · 외국인·기관 수급 반영" if n_flow else "장 마감 후 · 종가 확정 · 수급 자료는 아직 공개 전")
+        payload["phase"] = ("장 마감 후 · 정규장 종가 기준 · 외국인·기관 수급 반영" if n_flow else "장 마감 후 · 정규장 종가 기준 · 수급 자료는 아직 공개 전")
     else:
         payload["phase"] = "장중 · 수급 자료는 마감 후(16시 이후) 반영됩니다"
     write_js(payload)

@@ -688,7 +688,10 @@
       root.innerHTML = h;
     }
     function stockRow(s, id, i, subName) {
-      return stockCard(s, id ? [{ k: i, text: id, title: (subName || "") }] : [], true, "현재가") +
+      var af = s.after && Math.abs(s.after.price - s.close) > 1e-9 ? s.after : null;
+      return stockCard(s, id ? [{ k: i, text: id, title: (subName || "") }] : [], true, s.after ? "종가" : "현재가") +
+        (af ? '<div class="meta">마감 후 현재가(시간외) <b class="' + (af.pct > 0 ? "up" : af.pct < 0 ? "down" : "flat") + '">' + num(af.price) + " " +
+          (af.pct > 0 ? "+" : "") + af.pct.toFixed(2) + "%</b></div>" : "") +
         (s.note ? '<div class="meta">' + esc(s.note) + "</div>" : "") + "</div>";
     }
     root.addEventListener("click", function (ev) {
