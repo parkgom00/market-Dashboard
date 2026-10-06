@@ -68,12 +68,49 @@ def kr_prices(codes, workers: int = 4):
                 yield code, df
 
 
+def nasdaq100() -> pd.DataFrame:
+    """나스닥 100 구성종목 (code, name). 나스닥 공식 API 우선, 실패하면 위키백과 표. 둘 다 실패하면 빈 표."""
+    import json
+    import urllib.request
+    try:
+        req = urllib.request.Request("https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+                                     headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/125 Safari/537.36",
+                                              "Accept": "application/json"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            rows = json.loads(r.read().decode())["data"]["data"]["rows"]
+        df = pd.DataFrame([{"code": str(x["symbol"]).strip(), "name": str(x.get("companyName") or x["symbol"]).strip()}
+                           for x in rows if x.get("symbol")])
+        if len(df) >= 90:
+            return df
+    except Exception as e:
+        print("나스닥 100 (공식 API) 실패:", type(e).__name__, e)
+    try:
+        for t in pd.read_html("https://en.wikipedia.org/wiki/Nasdaq-100"):
+            cols = {str(c).lower(): c for c in t.columns}
+            sym = cols.get("ticker") or cols.get("symbol")
+            if sym is not None and 90 <= len(t) <= 110:
+                name = cols.get("company") or sym
+                return pd.DataFrame({"code": t[sym].astype(str), "name": t[name].astype(str)})
+    except Exception as e:
+        print("나스닥 100 (위키백과) 실패:", type(e).__name__, e)
+    return pd.DataFrame(columns=["code", "name"])
+
+
+def merge_us(sp: pd.DataFrame, ndx: pd.DataFrame) -> pd.DataFrame:
+    """S&P 500 + 나스닥 100 (겹치는 종목은 한 번만). 야후 표기로 통일."""
+    both = pd.concat([sp, ndx], ignore_index=True)
+    both["code"] = both["code"].astype(str).str.strip().str.replace(".", "-", regex=False).str.replace("/", "-", regex=False)
+    return both.drop_duplicates("code").reset_index(drop=True)
+
+
 def us_universe() -> pd.DataFrame:
     import FinanceDataReader as fdr
     lst = fdr.StockListing("S&P500")
     lst = lst[["Symbol", "Name"]].rename(columns={"Symbol": "code", "Name": "name"})
-    lst["code"] = lst["code"].str.replace(".", "-", regex=False)  # BRK.B -> BRK-B (야후 표기)
-    return lst.reset_index(drop=True)
+    ndx = nasdaq100()
+    out = merge_us(lst, ndx)   # BRK.B -> BRK-B (야후 표기)
+    print(f"미국 스캔 대상: S&P 500 {len(lst)}개 + 나스닥 100 {len(ndx)}개 → 중복 제외 {len(out)}개")
+    return out
 
 
 def us_prices(codes, batch: int = 50):

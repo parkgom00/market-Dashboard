@@ -89,7 +89,7 @@ python test_rules.py          # 규칙 판정 검증 (합성 차트, 인터넷 �
 python test_collect.py        # 수집·캘린더 로직 검증 (가짜 데이터)
 python run_scan.py --market kr --limit 30   # 국내 30종목만 시험
 python run_scan.py --market kr              # 국내 전 종목 (장 마감 후)
-python run_scan.py --market us              # 미국 (S&P 500, 미국장 마감 후)
+python run_scan.py --market us              # 미국 (S&P 500 + 나스닥 100, 미국장 마감 후)
 ```
 
 결과는 `data/longterm.js` 로 저장되고 대시보드 4장에 표시됩니다.

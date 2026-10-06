@@ -25,7 +25,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python collect_us.py
-      - name: 중장기 스캔 (미국 S&P 500)
+      - name: 중장기 스캔 (미국 S&P 500 + 나스닥 100)
         working-directory: scanner
         run: python run_scan.py --market us
       - name: 변경된 데이터 저장
