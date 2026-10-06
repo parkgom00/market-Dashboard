@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_live.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.live = {
- "asOf": "2026-10-06 12:33",
+ "asOf": "2026-10-06 12:42",
  "kr": {
   "gainers": [
    {
@@ -1625,6 +1625,48 @@ window.DASH.live = {
      {
       "name": "코히런트",
       "changePct": -1.01
+     }
+    ]
+   },
+   {
+    "name": "네오클라우드",
+    "stocks": [
+     {
+      "name": "코어위브",
+      "changePct": -2.49
+     },
+     {
+      "name": "네비우스",
+      "changePct": -4.22
+     },
+     {
+      "name": "아이렌",
+      "changePct": -3.07
+     },
+     {
+      "name": "어플라이드디지털",
+      "changePct": -2.68
+     }
+    ]
+   },
+   {
+    "name": "양자컴퓨터",
+    "stocks": [
+     {
+      "name": "아이온큐",
+      "changePct": -1.83
+     },
+     {
+      "name": "리게티컴퓨팅",
+      "changePct": -0.66
+     },
+     {
+      "name": "디웨이브퀀텀",
+      "changePct": -0.82
+     },
+     {
+      "name": "퀀텀컴퓨팅",
+      "changePct": -2.93
      }
     ]
    },

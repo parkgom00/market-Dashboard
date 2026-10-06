@@ -81,65 +81,65 @@ window.DASH.usmarket = {
    "group": "금리·환율",
    "name": "달러 인덱스",
    "kind": "plain",
-   "close": 102.16,
-   "changePct": 0.22,
-   "changeText": "102.16 (+0.22%)"
+   "close": 102.14,
+   "changePct": 0.21,
+   "changeText": "102.14 (+0.21%)"
   },
   {
    "group": "금리·환율",
    "name": "원/달러",
    "kind": "plain",
-   "close": 1341.77,
-   "changePct": -0.06,
-   "changeText": "1,341.77 (-0.06%)"
+   "close": 1341.88,
+   "changePct": -0.05,
+   "changeText": "1,341.88 (-0.05%)"
   },
   {
    "group": "금리·환율",
    "name": "엔/달러",
    "kind": "plain",
-   "close": 157.98,
-   "changePct": 0.15,
-   "changeText": "157.98 (+0.15%)"
+   "close": 157.95,
+   "changePct": 0.14,
+   "changeText": "157.95 (+0.14%)"
   },
   {
    "group": "원자재·기타",
    "name": "WTI 유가",
    "kind": "usd",
-   "close": 89.75,
-   "changePct": -1.49,
-   "changeText": "89.75 (-1.49%)"
+   "close": 89.73,
+   "changePct": -1.51,
+   "changeText": "89.73 (-1.51%)"
   },
   {
    "group": "원자재·기타",
    "name": "브렌트유",
    "kind": "usd",
-   "close": 100.67,
-   "changePct": -1.55,
-   "changeText": "100.67 (-1.55%)"
+   "close": 100.65,
+   "changePct": -1.56,
+   "changeText": "100.65 (-1.56%)"
   },
   {
    "group": "원자재·기타",
    "name": "금",
    "kind": "usd",
-   "close": 4157.2,
-   "changePct": -0.12,
-   "changeText": "4,157.20 (-0.12%)"
+   "close": 4153.2,
+   "changePct": -0.22,
+   "changeText": "4,153.20 (-0.22%)"
   },
   {
    "group": "원자재·기타",
    "name": "구리",
    "kind": "usd",
    "close": 6.66,
-   "changePct": 2.6,
-   "changeText": "6.66 (+2.60%)"
+   "changePct": 2.58,
+   "changeText": "6.66 (+2.58%)"
   },
   {
    "group": "원자재·기타",
    "name": "비트코인",
    "kind": "usd",
-   "close": 85374.38,
-   "changePct": -1.28,
-   "changeText": "85,374.38 (-1.28%)"
+   "close": 85415.08,
+   "changePct": -1.23,
+   "changeText": "85,415.08 (-1.23%)"
   }
  ],
  "sectors": [
@@ -693,6 +693,90 @@ window.DASH.usmarket = {
  ],
  "weakThemes": [
   {
+   "name": "네오클라우드",
+   "changePct": -3.11,
+   "why": "",
+   "logic": "코어위브·네비우스·아이렌은 엔비디아 GPU를 대량으로 사서 AI 연산을 빌려주는 데이터센터 업체입니다. 이들의 증설은 GPU에 들어가는 HBM과 데이터센터 전력기기 수요로 이어집니다.",
+   "usStocks": [
+    {
+     "ticker": "NBIS",
+     "name": "네비우스",
+     "changePct": -4.22
+    },
+    {
+     "ticker": "IREN",
+     "name": "아이렌",
+     "changePct": -3.07
+    },
+    {
+     "ticker": "APLD",
+     "name": "어플라이드디지털",
+     "changePct": -2.68
+    },
+    {
+     "ticker": "CRWV",
+     "name": "코어위브",
+     "changePct": -2.49
+    }
+   ],
+   "krStocks": [
+    {
+     "code": "000660",
+     "name": "SK하이닉스",
+     "link": "네오클라우드가 사들이는 엔비디아 GPU에 HBM을 공급",
+     "strength": 2
+    },
+    {
+     "code": "010120",
+     "name": "LS ELECTRIC",
+     "link": "데이터센터용 배전·전력기기 공급",
+     "strength": 2
+    }
+   ]
+  },
+  {
+   "name": "양자컴퓨터",
+   "changePct": -1.56,
+   "why": "",
+   "logic": "미국 양자컴퓨터 종목은 기술 발표와 정부 지원 뉴스에 크게 움직입니다. 국내에는 직접 거래 관계가 있는 회사가 드물고, 양자암호·보안 사업을 하는 종목이 테마로 함께 움직입니다.",
+   "usStocks": [
+    {
+     "ticker": "QUBT",
+     "name": "퀀텀컴퓨팅",
+     "changePct": -2.93
+    },
+    {
+     "ticker": "IONQ",
+     "name": "아이온큐",
+     "changePct": -1.83
+    },
+    {
+     "ticker": "QBTS",
+     "name": "디웨이브퀀텀",
+     "changePct": -0.82
+    },
+    {
+     "ticker": "RGTI",
+     "name": "리게티컴퓨팅",
+     "changePct": -0.66
+    }
+   ],
+   "krStocks": [
+    {
+     "code": "046970",
+     "name": "우리로",
+     "link": "양자암호통신용 광 검출 소자 개발, 양자 테마로 함께 움직임",
+     "strength": 1
+    },
+    {
+     "code": "456010",
+     "name": "아이씨티케이",
+     "link": "양자내성암호 보안칩 사업, 양자 테마로 함께 움직임",
+     "strength": 1
+    }
+   ]
+  },
+  {
    "name": "우주",
    "changePct": -1.22,
    "why": "",
@@ -730,80 +814,6 @@ window.DASH.usmarket = {
      "code": "189300",
      "name": "인텔리안테크",
      "link": "저궤도 위성통신용 안테나 공급",
-     "strength": 2
-    }
-   ]
-  },
-  {
-   "name": "스마트폰·애플",
-   "changePct": -1.22,
-   "why": "",
-   "logic": "애플 판매 전망이 좋아지면 아이폰에 들어가는 카메라모듈·기판 주문이 늘어 국내 부품사 실적으로 이어집니다.",
-   "usStocks": [
-    {
-     "ticker": "QCOM",
-     "name": "퀄컴",
-     "changePct": -2.21
-    },
-    {
-     "ticker": "AAPL",
-     "name": "애플",
-     "changePct": -0.24
-    }
-   ],
-   "krStocks": [
-    {
-     "code": "011070",
-     "name": "LG이노텍",
-     "link": "아이폰 카메라모듈 주력 공급사",
-     "strength": 3
-    },
-    {
-     "code": "090460",
-     "name": "비에이치",
-     "link": "아이폰 OLED용 연성기판(FPCB) 공급",
-     "strength": 3
-    }
-   ]
-  },
-  {
-   "name": "AI 서버·네트워크",
-   "changePct": -1.05,
-   "why": "",
-   "logic": "AI 서버와 데이터센터 네트워크 장비 주문이 늘면 그 안에 들어가는 고다층 기판·MLCC 수요가 따라 늘어납니다.",
-   "usStocks": [
-    {
-     "ticker": "DELL",
-     "name": "델",
-     "changePct": -1.82
-    },
-    {
-     "ticker": "SMCI",
-     "name": "슈퍼마이크로",
-     "changePct": -1.14
-    },
-    {
-     "ticker": "COHR",
-     "name": "코히런트",
-     "changePct": -1.01
-    },
-    {
-     "ticker": "ANET",
-     "name": "아리스타네트웍스",
-     "changePct": -0.22
-    }
-   ],
-   "krStocks": [
-    {
-     "code": "007660",
-     "name": "이수페타시스",
-     "link": "AI 서버·네트워크 장비용 고다층 기판(MLB)을 북미 고객에 공급",
-     "strength": 3
-    },
-    {
-     "code": "009150",
-     "name": "삼성전기",
-     "link": "AI 서버용 MLCC와 FC-BGA 기판 공급",
      "strength": 2
     }
    ]

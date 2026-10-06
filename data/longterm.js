@@ -30,7 +30,7 @@ window.DASH.longterm = {
   },
   "us": {
    "asOf": "2026-10-05",
-   "scanned": 516
+   "scanned": 546
   }
  },
  "kr": [
@@ -2480,6 +2480,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 144.03,
    "changePct": 33.49,
    "value": null,
@@ -2498,6 +2499,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 489.9,
    "changePct": -0.29,
    "value": null,
@@ -2516,6 +2518,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 14.91,
    "changePct": -0.07,
    "value": null,
@@ -2533,6 +2536,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 251.93,
    "changePct": -0.0,
    "value": null,
@@ -2550,6 +2554,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 86.96,
    "changePct": 0.36,
    "value": null,
@@ -2567,6 +2572,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 58.51,
    "changePct": -0.58,
    "value": null,
@@ -2584,6 +2590,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 270.04,
    "changePct": 0.97,
    "value": null,
@@ -2601,6 +2608,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 277.22,
    "changePct": -0.29,
    "value": null,
@@ -2618,6 +2626,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 161.61,
    "changePct": 0.45,
    "value": null,
@@ -2635,6 +2644,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 140.14,
    "changePct": 2.67,
    "value": null,
@@ -2652,6 +2662,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 454.04,
    "changePct": 0.99,
    "value": null,
@@ -2669,6 +2680,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 266.0,
    "changePct": 3.92,
    "value": null,
@@ -2686,6 +2698,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 180.95,
    "changePct": 1.76,
    "value": null,
@@ -2703,6 +2716,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 69.33,
    "changePct": -1.4,
    "value": null,
@@ -2720,6 +2734,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 273.04,
    "changePct": 7.56,
    "value": null,
@@ -2737,6 +2752,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 156.24,
    "changePct": 0.39,
    "value": null,
@@ -2754,6 +2770,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 272.29,
    "changePct": -0.38,
    "value": null,
@@ -2771,6 +2788,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 190.01,
    "changePct": 6.95,
    "value": null,
@@ -2783,28 +2801,12 @@ window.DASH.longterm = {
    "note": "정배열 상승 중, 최근 20일선 지지 확인"
   },
   {
-   "code": "NBIS",
-   "name": "Nebius Group N.V. Class A Ordinary Shares",
-   "market": "",
-   "sector": "",
-   "marcap": 0,
-   "prevClose": 242.81,
-   "changePct": -4.22,
-   "value": null,
-   "close": 232.57,
-   "ma240": 157.26,
-   "ma480": 102.17,
-   "matched": [
-    "L1"
-   ],
-   "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
-  },
-  {
    "code": "NTAP",
    "name": "NetApp",
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 226.27,
    "changePct": -1.1,
    "value": null,
@@ -2822,6 +2824,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 115.56,
    "changePct": 0.22,
    "value": null,
@@ -2839,6 +2842,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 333.54,
    "changePct": 0.27,
    "value": null,
@@ -2851,28 +2855,12 @@ window.DASH.longterm = {
    "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
   },
   {
-   "code": "NVDA",
-   "name": "Nvidia",
-   "market": "",
-   "sector": "",
-   "marcap": 0,
-   "prevClose": 233.95,
-   "changePct": 2.12,
-   "value": null,
-   "close": 238.9,
-   "ma240": 198.32,
-   "ma480": 171.38,
-   "matched": [
-    "L1"
-   ],
-   "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
-  },
-  {
    "code": "PANW",
    "name": "Palo Alto Networks",
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 403.24,
    "changePct": 0.87,
    "value": null,
@@ -2890,6 +2878,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 9.5,
    "changePct": 2.95,
    "value": null,
@@ -2907,6 +2896,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 151.53,
    "changePct": 3.85,
    "value": null,
@@ -2919,21 +2909,24 @@ window.DASH.longterm = {
    "note": "정배열 상승 중, 최근 20일선 지지 확인"
   },
   {
-   "code": "STX",
-   "name": "Seagate Technology",
+   "code": "TSM",
+   "name": "TSMC",
    "market": "",
    "sector": "",
    "marcap": 0,
-   "prevClose": 848.99,
-   "changePct": 4.49,
-   "value": null,
-   "close": 887.09,
-   "ma240": 587.7,
-   "ma480": 355.65,
-   "matched": [
-    "L2"
+   "themes": [
+    "반도체·AI 인프라"
    ],
-   "note": "급등 +45.4% 후 고점 대비 -18.8% 조정, 60일선 대비 +3.9%"
+   "prevClose": 472.78,
+   "changePct": 2.75,
+   "value": null,
+   "close": 485.8,
+   "ma240": 370.21,
+   "ma480": 289.04,
+   "matched": [
+    "L1"
+   ],
+   "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
   },
   {
    "code": "TRI",
@@ -2941,6 +2934,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 97.62,
    "changePct": -0.55,
    "value": null,
@@ -2958,6 +2952,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 17.6,
    "changePct": 0.11,
    "value": null,
@@ -2975,6 +2970,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 30.94,
    "changePct": 0.03,
    "value": null,
@@ -2992,6 +2988,7 @@ window.DASH.longterm = {
    "market": "",
    "sector": "",
    "marcap": 0,
+   "themes": [],
    "prevClose": 425.21,
    "changePct": 3.51,
    "value": null,
@@ -3002,6 +2999,126 @@ window.DASH.longterm = {
     "L1"
    ],
    "note": "정배열 상승 중, 최근 20일선 지지 확인"
+  },
+  {
+   "code": "NBIS",
+   "name": "네비우스",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [
+    "네오클라우드"
+   ],
+   "prevClose": 242.81,
+   "changePct": -4.22,
+   "value": null,
+   "close": 232.57,
+   "ma240": 157.26,
+   "ma480": 102.17,
+   "matched": [
+    "L1"
+   ],
+   "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
+  },
+  {
+   "code": "STX",
+   "name": "씨게이트",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [
+    "메모리·스토리지"
+   ],
+   "prevClose": 848.99,
+   "changePct": 4.49,
+   "value": null,
+   "close": 887.09,
+   "ma240": 587.7,
+   "ma480": 355.65,
+   "matched": [
+    "L2"
+   ],
+   "note": "급등 +45.4% 후 고점 대비 -18.8% 조정, 60일선 대비 +3.9%"
+  },
+  {
+   "code": "IREN",
+   "name": "아이렌",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [
+    "네오클라우드"
+   ],
+   "prevClose": 41.76,
+   "changePct": -3.07,
+   "value": null,
+   "close": 40.48,
+   "ma240": 46.66,
+   "ma480": 31.54,
+   "matched": [
+    "L2"
+   ],
+   "note": "급등 +53.2% 후 고점 대비 -16.6% 조정, 60일선 대비 -1.2%"
+  },
+  {
+   "code": "NVDA",
+   "name": "엔비디아",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [
+    "반도체·AI 인프라"
+   ],
+   "prevClose": 233.95,
+   "changePct": 2.12,
+   "value": null,
+   "close": 238.9,
+   "ma240": 198.32,
+   "ma480": 171.38,
+   "matched": [
+    "L1"
+   ],
+   "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
+  },
+  {
+   "code": "COTY",
+   "name": "코티",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [
+    "화장품"
+   ],
+   "prevClose": 2.66,
+   "changePct": 2.26,
+   "value": null,
+   "close": 2.72,
+   "ma240": 2.71,
+   "ma480": 4.12,
+   "matched": [
+    "L2"
+   ],
+   "note": "급등 +46.3% 후 고점 대비 -10.2% 조정, 60일선 대비 +0.7%"
+  },
+  {
+   "code": "CLF",
+   "name": "클리블랜드클리프스",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [
+    "철강"
+   ],
+   "prevClose": 11.32,
+   "changePct": 7.77,
+   "value": null,
+   "close": 12.2,
+   "ma240": 11.5,
+   "ma480": 10.73,
+   "matched": [
+    "L2"
+   ],
+   "note": "급등 +45.3% 후 고점 대비 -17.3% 조정, 60일선 대비 +5.4%"
   }
  ]
 };
