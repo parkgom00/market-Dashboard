@@ -1,0 +1,43 @@
+{
+ "at": "16:43",
+ "today": "20261006",
+ "krx_top_foreign_today": "ERR HTTPError: HTTP Error 400: Bad Request",
+ "krx_top_inst_today": "ERR HTTPError: HTTP Error 400: Bad Request",
+ "krx_top_foreign_1002": "ERR HTTPError: HTTP Error 400: Bad Request",
+ "krx_stock_daily": "ERR HTTPError: HTTP Error 400: Bad Request",
+ "daum": [
+  {
+   "date": "2026-10-02 00:00:00",
+   "foreignStraightPurchaseVolume": -345661,
+   "institutionStraightPurchaseVolume": 614278,
+   "tradePrice": 276000.0
+  },
+  {
+   "date": "2026-10-01 00:00:00",
+   "foreignStraightPurchaseVolume": -750745,
+   "institutionStraightPurchaseVolume": 46127,
+   "tradePrice": 274500.0
+  },
+  {
+   "date": "2026-09-30 00:00:00",
+   "foreignStraightPurchaseVolume": -3204354,
+   "institutionStraightPurchaseVolume": -1409182,
+   "tradePrice": 269500.0
+  },
+  {
+   "date": "2026-09-29 00:00:00",
+   "foreignStraightPurchaseVolume": -2509145,
+   "institutionStraightPurchaseVolume": 53759,
+   "tradePrice": 275000.0
+  }
+ ],
+ "naver_pc": {
+  "dates": [],
+  "len": 132905
+ },
+ "naver_m_trend?pageSize=2": "[{\"itemCode\":\"005930\",\"bizdate\":\"20261002\",\"foreignerPureBuyQuant\":\"-350,942\",\"foreignerHoldRatio\":\"46.41%\",\"organPureBuyQuant\":\"+614,278\",\"individualPureBuyQuant\":\"-2,217,946\",\"closePrice\":\"276,000\",\"compareToPreviousClosePrice\":\"0\",\"compareToPreviousPrice\":{\"code\":\"3\",\"text\":\"보합\",\"name\":\"UNCHANGED\"},\"accumulatedTradingVolume\":\"11,501,250\"},{\"itemCode\":\"005930\",\"bizdate\":\"20261001\",\"foreignerPureBuyQuant\":\"-758,236\",\"foreignerHoldRatio\":\"46.41%\",\"organPureBuyQuant\":\"+46,127\",\"individualPureBuyQ",
+ "naver_m_investor": "ERR HTTPError: HTTP Error 404: 404",
+ "naver_m_investors": "ERR HTTPError: HTTP Error 404: 404",
+ "naver_m_dealTrend": "ERR HTTPError: HTTP Error 404: 404",
+ "naver_m_provisional": "ERR HTTPError: HTTP Error 404: 404"
+}
