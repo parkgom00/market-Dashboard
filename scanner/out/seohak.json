@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-06 13:06",
+ "generatedAt": "2026-10-06 13:09",
  "holdAsOf": "2026-10-02",
  "netPeriod": "2026-09-29~2026-10-05",
  "hold": [
@@ -745,7 +745,7 @@
    "rank": 43,
    "isin": "US5801351017",
    "ticker": "MCD",
-   "name": "MCDONALD&apos;S CORP",
+   "name": "MCDONALD'S CORP",
    "usd": 7956041,
    "etf": false
   },

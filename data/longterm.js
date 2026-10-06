@@ -30,7 +30,7 @@ window.DASH.longterm = {
   },
   "us": {
    "asOf": "2026-10-05",
-   "scanned": 546
+   "scanned": 556
   }
  },
  "kr": [
@@ -2481,6 +2481,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 144.03,
    "changePct": 33.49,
    "value": null,
@@ -2500,6 +2501,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 489.9,
    "changePct": -0.29,
    "value": null,
@@ -2519,6 +2521,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 14.91,
    "changePct": -0.07,
    "value": null,
@@ -2537,6 +2540,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 251.93,
    "changePct": -0.0,
    "value": null,
@@ -2555,6 +2559,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 86.96,
    "changePct": 0.36,
    "value": null,
@@ -2573,6 +2578,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 58.51,
    "changePct": -0.58,
    "value": null,
@@ -2591,6 +2597,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 270.04,
    "changePct": 0.97,
    "value": null,
@@ -2609,6 +2616,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 277.22,
    "changePct": -0.29,
    "value": null,
@@ -2627,6 +2635,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 161.61,
    "changePct": 0.45,
    "value": null,
@@ -2645,6 +2654,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 140.14,
    "changePct": 2.67,
    "value": null,
@@ -2663,6 +2673,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 454.04,
    "changePct": 0.99,
    "value": null,
@@ -2681,6 +2692,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 266.0,
    "changePct": 3.92,
    "value": null,
@@ -2699,6 +2711,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 180.95,
    "changePct": 1.76,
    "value": null,
@@ -2717,6 +2730,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 69.33,
    "changePct": -1.4,
    "value": null,
@@ -2735,6 +2749,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 273.04,
    "changePct": 7.56,
    "value": null,
@@ -2753,6 +2768,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 156.24,
    "changePct": 0.39,
    "value": null,
@@ -2765,30 +2781,13 @@ window.DASH.longterm = {
    "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
   },
   {
-   "code": "MRVL",
-   "name": "Marvell Technology",
-   "market": "",
-   "sector": "",
-   "marcap": 0,
-   "themes": [],
-   "prevClose": 272.29,
-   "changePct": -0.38,
-   "value": null,
-   "close": 271.25,
-   "ma240": 154.49,
-   "ma480": 118.13,
-   "matched": [
-    "L1"
-   ],
-   "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
-  },
-  {
    "code": "MRNA",
    "name": "Moderna",
    "market": "",
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 190.01,
    "changePct": 6.95,
    "value": null,
@@ -2807,6 +2806,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 226.27,
    "changePct": -1.1,
    "value": null,
@@ -2825,6 +2825,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 115.56,
    "changePct": 0.22,
    "value": null,
@@ -2843,6 +2844,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 333.54,
    "changePct": 0.27,
    "value": null,
@@ -2855,30 +2857,13 @@ window.DASH.longterm = {
    "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
   },
   {
-   "code": "PANW",
-   "name": "Palo Alto Networks",
-   "market": "",
-   "sector": "",
-   "marcap": 0,
-   "themes": [],
-   "prevClose": 403.24,
-   "changePct": 0.87,
-   "value": null,
-   "close": 406.76,
-   "ma240": 243.3,
-   "ma480": 216.56,
-   "matched": [
-    "L1"
-   ],
-   "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
-  },
-  {
    "code": "PSKY",
    "name": "Paramount Skydance Corporation",
    "market": "",
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 9.5,
    "changePct": 2.95,
    "value": null,
@@ -2897,6 +2882,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 151.53,
    "changePct": 3.85,
    "value": null,
@@ -2917,6 +2903,7 @@ window.DASH.longterm = {
    "themes": [
     "반도체·AI 인프라"
    ],
+   "krRank": "서학개미 보관 23위",
    "prevClose": 472.78,
    "changePct": 2.75,
    "value": null,
@@ -2935,6 +2922,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 97.62,
    "changePct": -0.55,
    "value": null,
@@ -2953,6 +2941,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 17.6,
    "changePct": 0.11,
    "value": null,
@@ -2971,6 +2960,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 30.94,
    "changePct": 0.03,
    "value": null,
@@ -2989,6 +2979,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
+   "krRank": "",
    "prevClose": 425.21,
    "changePct": 3.51,
    "value": null,
@@ -3009,6 +3000,7 @@ window.DASH.longterm = {
    "themes": [
     "네오클라우드"
    ],
+   "krRank": "서학개미 보관 45위",
    "prevClose": 242.81,
    "changePct": -4.22,
    "value": null,
@@ -3021,6 +3013,44 @@ window.DASH.longterm = {
    "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
   },
   {
+   "code": "MRVL",
+   "name": "마벨",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [],
+   "krRank": "서학개미 보관 31위",
+   "prevClose": 272.29,
+   "changePct": -0.38,
+   "value": null,
+   "close": 271.25,
+   "ma240": 154.49,
+   "ma480": 118.13,
+   "matched": [
+    "L1"
+   ],
+   "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
+  },
+  {
+   "code": "CRCL",
+   "name": "서클",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [],
+   "krRank": "서학개미 보관 38위",
+   "prevClose": 81.25,
+   "changePct": 2.52,
+   "value": null,
+   "close": 83.3,
+   "ma240": 87.73,
+   "ma480": null,
+   "matched": [
+    "L2"
+   ],
+   "note": "급등 +63.1% 후 고점 대비 -19.3% 조정, 60일선 대비 +5.6%"
+  },
+  {
    "code": "STX",
    "name": "씨게이트",
    "market": "",
@@ -3029,6 +3059,7 @@ window.DASH.longterm = {
    "themes": [
     "메모리·스토리지"
    ],
+   "krRank": "",
    "prevClose": 848.99,
    "changePct": 4.49,
    "value": null,
@@ -3049,6 +3080,7 @@ window.DASH.longterm = {
    "themes": [
     "네오클라우드"
    ],
+   "krRank": "서학개미 보관 32위",
    "prevClose": 41.76,
    "changePct": -3.07,
    "value": null,
@@ -3069,6 +3101,7 @@ window.DASH.longterm = {
    "themes": [
     "반도체·AI 인프라"
    ],
+   "krRank": "서학개미 보관 2위",
    "prevClose": 233.95,
    "changePct": 2.12,
    "value": null,
@@ -3089,6 +3122,7 @@ window.DASH.longterm = {
    "themes": [
     "화장품"
    ],
+   "krRank": "",
    "prevClose": 2.66,
    "changePct": 2.26,
    "value": null,
@@ -3109,6 +3143,7 @@ window.DASH.longterm = {
    "themes": [
     "철강"
    ],
+   "krRank": "",
    "prevClose": 11.32,
    "changePct": 7.77,
    "value": null,
@@ -3119,6 +3154,63 @@ window.DASH.longterm = {
     "L2"
    ],
    "note": "급등 +45.3% 후 고점 대비 -17.3% 조정, 60일선 대비 +5.4%"
+  },
+  {
+   "code": "TWST",
+   "name": "트위스트바이오사이언스",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [],
+   "krRank": "서학개미 순매수 17위",
+   "prevClose": 188.67,
+   "changePct": 8.66,
+   "value": null,
+   "close": 205.0,
+   "ma240": 70.08,
+   "ma480": 53.94,
+   "matched": [
+    "L1"
+   ],
+   "note": "정배열 상승 중, 최근 20일선 지지 확인"
+  },
+  {
+   "code": "PANW",
+   "name": "팔로알토네트웍스",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [],
+   "krRank": "서학개미 순매수 28위",
+   "prevClose": 403.24,
+   "changePct": 0.87,
+   "value": null,
+   "close": 406.76,
+   "ma240": 243.3,
+   "ma480": 216.56,
+   "matched": [
+    "L1"
+   ],
+   "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
+  },
+  {
+   "code": "FIGS",
+   "name": "피그스",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [],
+   "krRank": "서학개미 순매수 31위",
+   "prevClose": 13.52,
+   "changePct": 0.81,
+   "value": null,
+   "close": 13.63,
+   "ma240": 12.24,
+   "ma480": 8.92,
+   "matched": [
+    "L2"
+   ],
+   "note": "급등 +60.6% 후 고점 대비 -11.6% 조정, 60일선 대비 +6.0%"
   }
  ]
 };
