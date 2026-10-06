@@ -1,0 +1,25 @@
+name: 종가배팅주 (장 마감 직전)
+on:
+  schedule:
+    - cron: "10-45/5 6 * * 1-5"   # 15:10~15:45 KST, 5분 간격
+  workflow_dispatch:
+concurrency:
+  group: data-commit
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 종가배팅주 수집
+        working-directory: scanner
+        run: python collect_closing.py ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
+      - name: 변경된 데이터 저장
+        if: ${{ !cancelled() }}
+        run: bash scanner/commit_data.sh

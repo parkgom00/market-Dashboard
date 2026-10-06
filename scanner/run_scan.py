@@ -14,6 +14,7 @@ import json
 import os
 
 from config import P
+import closing
 from rules import NOTE_FMT, evaluate
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -52,10 +53,18 @@ def scan_market(market: str, limit: int = 0):
     min_value = P.min_value_kr if market == "kr" else P.min_value_us
 
     items, scanned, as_of = [], 0, ""
+    base = {}
     for code, df in gen:
         scanned += 1
         as_of = max(as_of, df.index[-1].strftime("%Y-%m-%d"))
         value20 = (df["close"] * df["volume"]).tail(20).mean()
+        if market == "kr" and value20 >= 5e8:   # 종가배팅주(5장 A) 판정용 기준값
+            try:
+                bf = closing.base_features(df)
+                if bf:
+                    base[code] = bf
+            except Exception:
+                pass
         if value20 < min_value:
             continue
         hits = evaluate(df, P)
@@ -69,6 +78,10 @@ def scan_market(market: str, limit: int = 0):
             "note": " / ".join(NOTE_FMT[k](v) for k, v in hits.items()),
         })
     items.sort(key=lambda x: (-len(x["matched"]), x["name"]))
+    if market == "kr":
+        os.makedirs(OUT, exist_ok=True)
+        with open(os.path.join(OUT, "closing_base_kr.json"), "w", encoding="utf-8") as f:
+            json.dump({"asOf": as_of, "base": base}, f, ensure_ascii=False, separators=(",", ":"))
     return {"asOf": as_of, "scanned": scanned, "items": items}
 
 

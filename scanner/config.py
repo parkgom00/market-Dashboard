@@ -38,3 +38,33 @@ class Params:
 
 
 P = Params()
+
+
+@dataclass(frozen=True)
+class ClosingParams:
+    """5장 유형 A '종가배팅주' 기준. 말씀하신 문장에서 숫자가 정해지지 않은 부분은 제가 정한 기본값이니 여기서 고치세요."""
+    # 공통 체급 (거래대금은 당일 누적)
+    min_value: float = 5e9          # 당일 거래대금 50억 원 이상
+    min_price: float = 1000
+    # A1: 장 마감 직전 대형 수급 + 당일 고가 마감
+    a1_min_pct: float = 2.0         # 전일 대비 +2% 이상
+    a1_high_gap: float = 0.005      # 현재가가 당일 고가의 0.5% 이내 (고가 마감 근접)
+    a1_late_from: str = "15:00"     # '마감 직전' 구간 시작 (분봉 기준)
+    a1_late_share: float = 0.10     # 마감 직전 구간 거래량이 당일 거래량의 10% 이상
+    a1_flow_share: float = 0.03     # 외국인+기관 순매수 대금이 당일 거래대금의 3% 이상 (수급 자료가 있을 때)
+    # A2: 전일 급등 후 거래량 반토막 + 도지 + 10/20일선 사수
+    a2_prev_pct: float = 10.0       # 전일 +10% 이상
+    a2_vol_ratio: float = 0.5       # 오늘 거래량이 전일의 50% 이하
+    a2_doji_body: float = 0.30      # 도지: 몸통이 (고가-저가)의 30% 이하
+    a2_min_range: float = 0.01      # 고가-저가가 시가의 1% 이상 (움직임이 아예 없는 종목 제외)
+    # A3: 바닥권 거래대금 폭발 장대양봉 + 240/480일선 돌파
+    a3_pos_max: float = 0.45        # 바닥권: 최근 250일 저가~고가 범위의 하단 45% 이하에서 출발 (전일 종가 기준)
+    a3_value_mult: float = 3.0      # 거래대금이 최근 20일 평균의 3배 이상
+    a3_min_value: float = 1e10      # 그리고 100억 원 이상
+    a3_body_pct: float = 6.0        # 장대양봉: 시가 대비 종가 +6% 이상
+    a3_body_ratio: float = 0.7      # 몸통이 (고가-저가)의 70% 이상
+    a3_cross_margin: float = 0.01   # '강하게' 돌파 = 종가가 240·480일선 위로 1% 이상
+    top_n: int = 5
+
+
+CP = ClosingParams()

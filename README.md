@@ -107,3 +107,8 @@ python run_scan.py --market us              # 미국 (S&P 500, 미국장 마감 
 
 ## 국내 테마 (네이버 증권 모바일 주소 사용)
 특징주 탭의 국내 테마는 네이버 증권 모바일 화면이 쓰는 주소(`m.stock.naver.com/api/stocks/theme`)로 받습니다. 키는 필요 없지만 **공식 개방 API가 아니라서 네이버가 막거나 바꾸면 실패**할 수 있습니다. 실패하면 `scanner/theme_map.json` 의 기본 테마로 자동 대체됩니다. 시세 값은 KRX 시세표를 쓰고, 테마 안에서는 거래대금이 큰 종목 10개를 보여줍니다.
+
+## 5장 유형 A 종가배팅주 (자동)
+- 장마감(16:30) `kr-close` 가 `scanner/out/closing_base_kr.json`(종목별 일봉 요약)을 만들고,
+- 평일 15:10~15:45 `closing-bet` 워크플로우가 5분마다 네이버 실시간 시세 + 야후 1분봉으로 A1/A2/A3 를 판정해 `data/shortterm.js` 를 갱신합니다.
+- 기준값은 `scanner/config.py` 의 `ClosingParams`. 판정 로직은 `scanner/closing.py`, 시험은 `python scanner/test_closing.py`.
