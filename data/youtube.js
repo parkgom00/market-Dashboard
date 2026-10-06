@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-07 01:29",
+ "asOf": "2026-10-07 03:28",
  "channels": [
   {
    "name": "815머니톡",
@@ -137,6 +137,11 @@ window.DASH.youtube = {
    "handle": "@김단테",
    "videos": [
     {
+     "title": "나스닥 연일 신고가의 진짜 이유",
+     "publishedAt": "2026-10-07 02:21",
+     "url": "https://www.youtube.com/watch?v=ffpwNQMKSv4"
+    },
+    {
      "title": "돈이 삼전닉스에서 '여기'로 간다고? #삼성전자 #소부장 #코스닥",
      "publishedAt": "2026-10-06 16:55",
      "url": "https://www.youtube.com/watch?v=-hO_Np9Ez98"
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "OpenAI발 에이전트 전쟁이 시작됐다. (2026 DevDay)",
      "publishedAt": "2026-09-30 03:48",
      "url": "https://www.youtube.com/watch?v=03UhmOVEZio"
-    },
-    {
-     "title": "인터넷 이제 전부 바뀐다 #메타 #뮤즈 #에이전트",
-     "publishedAt": "2026-09-29 16:49",
-     "url": "https://www.youtube.com/watch?v=0tPDkNP8Dvk"
     }
    ]
   },
