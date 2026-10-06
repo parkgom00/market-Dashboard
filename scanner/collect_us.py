@@ -36,7 +36,7 @@ def compute_changes(closes: pd.DataFrame) -> dict:
     return out
 
 
-def build_us_themes(changes: dict, themes: list, top_n: int = 5, hot_pct: float = 1.0, min_stocks: int = 2):
+def build_us_themes(changes: dict, themes: list, top_n: int = 6, hot_pct: float = 1.0, min_stocks: int = 2, weak: bool = False):
     """미국 종목이 있는 테마만 평균 등락률로 정렬. 평균 +hot_pct% 이상인 테마만(없으면 상위 3개)."""
     rows = []
     for t in themes:
@@ -49,10 +49,14 @@ def build_us_themes(changes: dict, themes: list, top_n: int = 5, hot_pct: float 
             "name": t["name"],
             "changePct": round(avg, 2),
             "why": "",
+            "logic": t.get("logic", ""),
             "usStocks": [{"ticker": s["ticker"], "name": s["name"], "changePct": round(c["pct"], 2)} for s, c in us[:4]],
-            "krStocks": [{"code": k["code"], "name": k["name"], "link": k.get("link", "")} for k in t.get("kr", [])[:3]],
+            "krStocks": [{"code": k["code"], "name": k["name"], "link": k.get("link", ""), "strength": k.get("strength", 0)}
+                         for k in t.get("kr", [])[:2]],
         })
     rows.sort(key=lambda r: -r["changePct"])
+    if weak:   # 약했던 테마: 평균 -hot_pct% 이하, 가장 약한 순
+        return [r for r in reversed(rows) if r["changePct"] <= -hot_pct][:top_n]
     hot = [r for r in rows if r["changePct"] >= hot_pct][:top_n]
     return hot if hot else rows[:3]
 
@@ -133,6 +137,7 @@ def build_payload(all_changes: dict, th_changes: dict, themes: list) -> dict:
         "summary": load_summary(date) if date else [],
         "brief": brief,
         "themes": build_us_themes(th_changes, themes),
+        "weakThemes": build_us_themes(th_changes, themes, top_n=3, weak=True),
     }
 
 
@@ -210,6 +215,15 @@ def main():
     payload = build_payload(all_changes, compute_changes(th), themes)
     if not [i for i in payload["indices"] if i["name"] in ("나스닥", "S&P 500", "다우")]:
         raise SystemExit("지수 데이터를 받지 못했습니다. (기존 파일은 그대로 둡니다)")
+    try:
+        import us_heatmap
+        payload["heatmap"] = us_heatmap.collect()
+        print("히트맵:", len(payload["heatmap"]["items"]), "종목 ·", payload["heatmap"]["source"])
+    except Exception as e:
+        payload["heatmap"] = None
+        payload["heatmapStatus"] = f"히트맵 자료를 받지 못했습니다 ({type(e).__name__})"
+        print("히트맵 실패:", type(e).__name__, e)
+
     ensure_brief(payload, themes)
 
     with open(os.path.join(DATA, "usmarket.js"), "w", encoding="utf-8") as f:

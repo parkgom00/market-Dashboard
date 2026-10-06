@@ -157,6 +157,11 @@ def write_quotes(df, stamp):
         pass
     if "prev" not in df.columns:      # 네이버 실시간이 아닌 대체 자료면 기존 파일 유지
         return 0
+    try:   # 미국장 탭의 '국내 관련주'도 현재가를 보여주기 위해 포함
+        with open(os.path.join(HERE, "theme_map.json"), encoding="utf-8") as f:
+            want |= {k["code"] for t in json.load(f)["themes"] if t.get("us") for k in t.get("kr", [])}
+    except Exception:
+        pass
     sub = df[df["code"].isin(want)]
     q = {}
     for _, r in sub.iterrows():
