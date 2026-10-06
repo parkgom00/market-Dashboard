@@ -13,6 +13,6 @@ jobs:
         with:
           python-version: "3.12"
       - working-directory: scanner
-        run: python probe_seibro.py
+        run: python seohak.py
       - if: ${{ !cancelled() }}
         run: bash scanner/commit_data.sh
