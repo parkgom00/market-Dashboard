@@ -90,3 +90,28 @@ def collect(df, workers=6):
     if not themes:
         raise ValueError("구성종목을 하나도 받지 못함")
     return themes
+
+
+def fetch_all_members(workers=8, min_total=MIN_TOTAL):
+    """모든 테마의 구성종목 {테마명: [종목코드]} (순환매 계산용). 테마 약 260개 → 요청 수백 번."""
+    groups = [g for g in fetch_groups() if g.get("totalCount", 0) >= min_total and g.get("name") and g.get("no") is not None]
+    if not groups:
+        raise ValueError("테마 목록이 비어 있음")
+
+    def one(g):
+        codes = []
+        try:
+            for p in range(1, 4):
+                rows = (_get(MEMBERS_URL.format(no=g["no"]), {"page": p, "pageSize": 100}) or {}).get("stocks") or []
+                new = [s["itemCode"] for s in rows if s.get("itemCode") and s["itemCode"] not in codes]
+                codes += new
+                if len(rows) < 100 or not new:
+                    break
+        except Exception:
+            pass
+        return g["name"], codes
+    with ThreadPoolExecutor(workers) as ex:
+        out = {name: codes for name, codes in ex.map(one, groups) if codes}
+    if len(out) < 30:
+        raise ValueError(f"구성종목을 받은 테마가 {len(out)}개뿐")
+    return out

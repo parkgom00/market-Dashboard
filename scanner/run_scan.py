@@ -91,10 +91,15 @@ def scan_market(market: str, limit: int = 0):
 
     items, scanned, as_of = [], 0, ""
     base = {}
+    hist = {}      # 테마 순환매 계산용: 최근 33일의 (종가, 거래대금)
     for code, df in gen:
         scanned += 1
         as_of = max(as_of, df.index[-1].strftime("%Y-%m-%d"))
         value20 = (df["close"] * df["volume"]).tail(20).mean()
+        if market == "kr":
+            t = df.tail(33)
+            hist[code] = {"name": names.get(code, code),
+                          "bars": {d.strftime("%Y-%m-%d"): (float(c), float(c) * float(v)) for d, c, v in zip(t.index, t["close"], t["volume"])}}
         if market == "kr" and value20 >= 5e8:   # 종가배팅주(5장 A) 판정용 기준값
             try:
                 bf = closing.base_features(df)
@@ -141,7 +146,37 @@ def scan_market(market: str, limit: int = 0):
             pass
         with open(cb, "w", encoding="utf-8") as f:
             json.dump({"asOf": as_of, "base": base}, f, ensure_ascii=False, separators=(",", ":"))
+        try:
+            write_rotation(hist, as_of)
+        except Exception as e:
+            print("테마 순환매 계산 실패:", type(e).__name__, e)
     return {"asOf": as_of, "scanned": scanned, "items": items}
+
+
+def write_rotation(hist, as_of):
+    """네이버 테마 구성종목 + 일봉으로 테마 순환매 자료(data/rotation.js)를 만든다."""
+    import naver_themes
+    import rotation
+    mpath = os.path.join(OUT, "theme_members.json")
+    try:
+        themes = naver_themes.fetch_all_members()
+        with open(mpath, "w", encoding="utf-8") as f:
+            json.dump(themes, f, ensure_ascii=False, separators=(",", ":"))
+    except Exception as e:      # 네이버가 막히면 지난번에 받아 둔 구성종목을 씀
+        print("테마 구성종목 수집 실패(지난 자료 사용):", type(e).__name__, e)
+        with open(mpath, encoding="utf-8") as f:
+            themes = json.load(f)
+    res = rotation.build(hist, themes)
+    if not res:
+        print("테마 순환매: 계산할 자료 부족")
+        return
+    res["asOf"] = as_of
+    with open(os.path.join(HERE, "..", "data", "rotation.js"), "w", encoding="utf-8") as f:
+        f.write("// 자동 생성 파일 (scanner/run_scan.py → rotation.py). 직접 고치지 마세요.\n")
+        f.write("window.DASH = window.DASH || {};\nwindow.DASH.rotation = ")
+        json.dump(res, f, ensure_ascii=False, separators=(",", ":"))
+        f.write(";\n")
+    print(f"테마 순환매: 테마 {res['themeCount']}개, 기준일 {as_of}")
 
 
 def build_js():

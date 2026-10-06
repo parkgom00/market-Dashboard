@@ -418,6 +418,58 @@
     return html;
   }
 
+  /* ---------- 테마 순환매 (특징주 탭 안) ---------- */
+  var rotPeriod = "1";
+  function rotationHtml() {
+    var R = D.rotation;
+    if (!R || !(R.days || []).length) return '<div class="card empty">아직 순환매 자료가 없습니다. 장 마감 후(16:30 무렵) 만들어집니다.</div>';
+    var md = function (d) { return d.slice(5).replace("-", "/"); };
+    var sgn = function (v) { return (v > 0 ? "+" : "") + Number(v).toFixed(2) + "%"; };
+    var h = '<div class="muted" style="margin:-2px 0 8px">기준일 ' + esc(R.asOf || "") + " · 네이버 테마 " + (R.themeCount || 0) + "개 · 장 마감 후 하루 한 번 갱신</div>";
+
+    // 1) 돈이 들어온 테마
+    var list = (R.inflow || {})[rotPeriod] || [];
+    h += '<div class="card"><h3>돈이 들어온 테마</h3>' +
+      seg([{ id: "1", label: "오늘" }, { id: "3", label: "최근 3일" }, { id: "5", label: "최근 5일" }], rotPeriod, "data-rp") +
+      (list.length ? list.map(function (t, i) {
+        return '<details class="rotrow"><summary><span class="shrank">' + (i + 1) + '</span><span class="rn">' + esc(t.name) + "</span>" +
+          '<span class="rv"><b class="' + (t.ret > 0 ? "up" : "down") + '">' + sgn(t.ret) + '</b><span class="meta">거래대금 ' + t.ratio.toFixed(1) + "배 · " + won억(t.amt) + "</span></span></summary>" +
+          '<div class="uschips">' + (t.stocks || []).map(function (s) {
+            return '<a class="uschip" style="background:' + heatColor(s.pct, 10) + '" href="https://m.stock.naver.com/domestic/stock/' + encodeURIComponent(s.code) + '/total" target="_blank" rel="noopener noreferrer"><b>' +
+              esc(s.name) + "</b> " + sgn(s.pct) + " · " + won억(s.amt) + "</a>";
+          }).join("") + "</div></details>";
+      }).join("") : '<div class="muted">조건에 맞는 테마가 없습니다.</div>') +
+      '<div class="muted" style="margin-top:6px">오르면서 거래대금이 평소(직전 20일 평균)보다 늘어난 테마 순서입니다. 줄을 누르면 오늘 거래대금이 큰 종목이 보입니다.</div></div>';
+
+    // 2) 날짜별 주도 테마
+    h += '<div class="card"><h3>순환매 흐름 · 날짜별 주도 테마</h3>' + (R.daily || []).map(function (d) {
+      return '<div class="rotday"><span class="rd">' + md(d.date) + "</span><div>" + (d.top.length ? d.top.map(function (t, i) {
+        return '<span class="uschip" style="background:' + heatColor(t.ret, 6) + '">' + ["①", "②", "③"][i] + " <b>" + esc(t.name) + "</b> " + sgn(t.ret) + " · " + t.ratio.toFixed(1) + "배</span>";
+      }).join("") : '<span class="meta">뚜렷한 주도 테마 없음</span>') + "</div></div>";
+    }).join("") + '<div class="muted" style="margin-top:6px">그날 평균 +1% 이상 오르고 거래대금이 300억 원 이상인 테마 중, 등락률 × 거래대금 배수가 큰 순서 3개입니다.</div></div>';
+
+    // 3) 히트맵
+    if ((R.heat || []).length) {
+      h += '<div class="card"><h3>주도 테마 일별 등락 (최근 ' + R.days.length + '거래일)</h3><div class="rotgrid" style="grid-template-columns:minmax(96px,1.6fr) repeat(' + R.days.length + ',1fr)">' +
+        "<span></span>" + R.days.map(function (d) { return '<span class="rh">' + d.slice(8) + "</span>"; }).join("") +
+        R.heat.map(function (t) {
+          return '<span class="rname">' + esc(t.name) + "</span>" + t.rets.map(function (v, i) {
+            return '<span class="rc' + (t.top[i] ? " top" : "") + '" style="background:' + heatColor(v, 6) + '" title="' + sgn(v) + '">' + (Math.abs(v) >= 10 ? v.toFixed(0) : v.toFixed(1)) + "</span>";
+          }).join("");
+        }).join("") + "</div>" +
+        '<div class="muted" style="margin-top:6px">숫자는 테마 평균 등락률(%), 흰 테두리는 그날 주도 테마 3위 안에 든 날입니다. 진한 색이 왼쪽에서 오른쪽으로 옮겨 가는 모습이 순환매입니다.</div></div>';
+    }
+
+    // 4) 돈이 빠진 테마
+    var out = (R.outflow || {})[rotPeriod] || [];
+    if (out.length) {
+      h += '<div class="card"><h3>돈이 빠진 테마</h3>' + out.map(function (t) {
+        return '<div class="rotrow plain"><span class="rn">' + esc(t.name) + '</span><span class="rv"><b class="down">' + sgn(t.ret) + '</b><span class="meta">거래대금 ' + t.ratio.toFixed(1) + "배 · " + won억(t.amt) + "</span></span></div>";
+      }).join("") + "</div>";
+    }
+    return h + '<div class="note">테마 분류와 구성종목은 네이버 증권 기준이고, 등락률은 구성종목의 단순 평균입니다. 외국인·기관 수급이 아니라 가격과 거래대금으로 본 자금 쏠림입니다.</div>';
+  }
+
   function renderLive() {
     var root = $("#tab-live");
     var L = D.live || {};
@@ -426,7 +478,8 @@
       '<button type="button" class="refresh' + (liveStatus.indexOf("실패") === 0 ? " err" : "") + '" id="live-refresh"' + (liveBusy ? " disabled" : "") + '>' +
       (liveBusy ? "불러오는 중…" : "↻ 새로고침") + "</button></div>";
     h += '<div class="muted" style="margin-bottom:8px">데이터 기준 ' + esc(L.asOf || "-") + (liveStatus ? " · " + esc(liveStatus) : "") + "</div>";
-    h += seg([{ id: "kr", label: "국내" }, { id: "us", label: "미국" }], liveMarket, "data-lm");
+    h += seg([{ id: "kr", label: "국내" }, { id: "us", label: "미국" }, { id: "rot", label: "테마 순환매" }], liveMarket, "data-lm");
+    if (liveMarket === "rot") { root.innerHTML = h + rotationHtml(); return; }
 
     if (m.gainers) h += '<div class="card"><h3>등락률 상위</h3>' + rankBlock("gainers", m.gainers) + "</div>";
     if (m.value) {
@@ -477,6 +530,8 @@
       var mb = ev.target.closest("[data-more]");
       if (mb) { var k = mb.getAttribute("data-more") + liveMarket; liveMore[k] = !liveMore[k]; renderLive(); return; }
       var b = ev.target.closest("[data-lm]");
+      var rp = ev.target.closest("[data-rp]");
+      if (rp) { rotPeriod = rp.getAttribute("data-rp"); renderLive(); return; }
       if (b) { liveMarket = b.getAttribute("data-lm"); renderLive(); }
     });
   }

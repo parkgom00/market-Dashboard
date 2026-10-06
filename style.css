@@ -250,3 +250,24 @@ details{margin-top:6px;font-size:13px} details summary{cursor:pointer;color:var(
 
 .phase { display: inline-block; margin: 6px 0 2px; padding: 2px 8px; border-radius: 6px; font-size: 12px; font-weight: 600; border: 1px solid var(--line); color: var(--sub); }
 .phase.ok { border-color: var(--up); color: var(--up); }
+
+/* 테마 순환매 */
+.rotrow { border-top: 1px solid var(--line); padding: 7px 0; }
+.rotrow > summary, .rotrow.plain { display: flex; align-items: center; gap: 8px; cursor: pointer; list-style: none; }
+.rotrow > summary::-webkit-details-marker { display: none; }
+.rotrow.plain { cursor: default; }
+.rotrow .rn { flex: 1; min-width: 0; font-weight: 600; font-size: 14px; }
+.rotrow .rv { text-align: right; white-space: nowrap; display: flex; flex-direction: column; align-items: flex-end; }
+.rotrow .rv .meta { font-size: 11px; color: var(--sub); }
+.rotrow .uschips { margin: 8px 0 2px 32px; }
+.rotrow a.uschip { text-decoration: none; }
+.rotday { display: flex; gap: 8px; align-items: flex-start; padding: 6px 0; border-top: 1px solid var(--line); }
+.rotday:first-of-type { border-top: 0; }
+.rotday .rd { min-width: 40px; font-weight: 700; font-size: 13px; padding-top: 3px; }
+.rotday .uschip { display: inline-block; margin: 2px 4px 2px 0; }
+.rotgrid { display: grid; gap: 2px; align-items: center; margin-top: 6px; }
+.rotgrid .rh { text-align: center; font-size: 10px; color: var(--sub); }
+.rotgrid .rname { font-size: 11.5px; line-height: 1.2; word-break: keep-all; padding-right: 4px; }
+.rotgrid .rc { text-align: center; color: #fff; font-size: 9.5px; padding: 6px 0; border-radius: 4px; box-sizing: border-box; border: 1.5px solid transparent; }
+.rotgrid .rc.top { border-color: #fff; outline: 1.5px solid var(--text); }
+.rotrow > summary { color: var(--text); }
