@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-06 17:28",
+ "asOf": "2026-10-06 19:27",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“사과 대신 극 초음속 미사일 쐈다” 합참, 북한 지뢰 직접 제거 시작… 추가 도발 이어지나 | 평양24시 강철환 대표",
+     "publishedAt": "2026-10-06 19:00",
+     "url": "https://www.youtube.com/watch?v=PQj4yqVJ_ok"
+    },
+    {
+     "title": "[#긴급인터뷰]  답답한 코스피… 실적은 좋은데 왜 안 가나? / 돈은 이미 삼전·하닉에서 반도체 소부장으로 이동 중 ㅣ김민수 대표",
+     "publishedAt": "2026-10-06 17:30",
+     "url": "https://www.youtube.com/watch?v=gSy9RYunYkE"
+    },
     {
      "title": "[#글로벌인사이트]  빅테크 내부자가 말했다 “메모리 더 비싸게 살 수밖에 없다” / 답답해도 삼전·SK하이닉스 팔면 안되는 이유ㅣ세미콘 리서치랩 노근창 대표",
      "publishedAt": "2026-10-06 16:30",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "지수는 답답한데 돈은 이미 움직였다… 지금 시장의 ‘진짜 주도주’는 어디?ㅣ이권희 대표",
      "publishedAt": "2026-10-06 13:09",
      "url": "https://www.youtube.com/watch?v=_v8UI8HKq4s"
-    },
-    {
-     "title": "美국채 5.3%에도 뉴욕증시는 올랐다… 나스닥 사상 최고 / 코스피는 언제 날아가나? 돈은 2차전지로?ㅣ 이주연 대표",
-     "publishedAt": "2026-10-06 10:38",
-     "url": "https://www.youtube.com/watch?v=41_UaeSmKoE"
-    },
-    {
-     "title": "[10월6일 #장시작전] 美10년물 금리 최고치 경신에도 뉴욕증시 상승… 나스닥 사상 최고 / 엔비디아·스페이스X 급등",
-     "publishedAt": "2026-10-06 09:55",
-     "url": "https://www.youtube.com/watch?v=VaNZQOzeVn8"
     }
    ]
   },
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "[실전 투자 스터디] 미국 매크로 봐야하는 단 한 가지 이유",
+     "publishedAt": "2026-10-06 18:00",
+     "url": "https://www.youtube.com/watch?v=W6uO9N2Dttk"
+    },
+    {
      "title": "[실전 투자 스터디] 엔비디아가 흔드는 유리기판 시장",
      "publishedAt": "2026-10-06 16:46",
      "url": "https://www.youtube.com/watch?v=UcoeBvX116A"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[아테네] 역대 최장 메모리 슈퍼 사이클, 주식 팔아야 할 때는?",
      "publishedAt": "2026-10-01 19:00",
      "url": "https://www.youtube.com/watch?v=9_ukGybWvyM"
-    },
-    {
-     "title": "고객이 돈 먼저 줄테니 공급만 부탁? AI 인프라에서 급부상한 이 품목?",
-     "publishedAt": "2026-09-30 19:00",
-     "url": "https://www.youtube.com/watch?v=uf7IbdQ5U_A"
     }
    ]
   },
@@ -104,6 +104,11 @@ window.DASH.youtube = {
    "channelId": "UC7usMJDHmtbs_oegmzQKKMA",
    "handle": "@경제사냥꾼",
    "videos": [
+    {
+     "title": "젠슨황 수혜주 중, 'LG전자'만 주가 153% 오른 진짜 이유",
+     "publishedAt": "2026-10-06 18:19",
+     "url": "https://www.youtube.com/watch?v=7Ua2mdttWUU"
+    },
     {
      "title": "'나스닥'은 최고점인데 '코스피' 주가만 안 오르는 진짜 이유",
      "publishedAt": "2026-10-06 14:37",
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "삼성전자 10월 실적발표전 미리 알아야 하는 '주가 상승패턴'",
      "publishedAt": "2026-10-05 21:15",
      "url": "https://www.youtube.com/watch?v=4jaRaPkYItk"
-    },
-    {
-     "title": "월가가 매번 중간선거 전 \"지금\"같은 장이 기회라고 말하는 이유",
-     "publishedAt": "2026-10-05 19:20",
-     "url": "https://www.youtube.com/watch?v=WkcVCqxh-Oo"
     }
    ]
   },
@@ -169,6 +169,11 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
+     "title": "2년만에 재결합한 머스크와 트럼프, 두 거물 화해의 수혜주들",
+     "publishedAt": "2026-10-06 17:30",
+     "url": "https://www.youtube.com/watch?v=ha4-lyhvafM"
+    },
+    {
      "title": "나스닥 엔비디아는 신고가인데 내 주식은 왜? 역대급 기묘한 랠리 이어질까",
      "publishedAt": "2026-10-05 21:07",
      "url": "https://www.youtube.com/watch?v=V3ZQ02Syf5U"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "AI에이전트가 노는 돈 다 찾아내서 옮긴다? 우려가 현실이 된 위기의 주식들",
      "publishedAt": "2026-09-29 21:39",
      "url": "https://www.youtube.com/watch?v=Cswz8biSRHs"
-    },
-    {
-     "title": "메타의 승부수에 깜짝 놀란 증시? AI 3차 변곡점의 새로운 수혜주들",
-     "publishedAt": "2026-09-28 21:10",
-     "url": "https://www.youtube.com/watch?v=4muqJe1bX-I"
     }
    ]
   }
