@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "교보증권",
     "tit": "3Q26 Preview HBM이 만들고, 메모리가 이어간다",
-    "rcnt": "4019",
+    "rcnt": "4144",
     "wdt": "20261006"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "미래에셋증권",
     "tit": "반도체 사상 첫 매출 천억불 달성",
-    "rcnt": "4236",
+    "rcnt": "4340",
     "wdt": "20261006"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "SK증권",
     "tit": "현저한 저평가",
-    "rcnt": "3805",
+    "rcnt": "3903",
     "wdt": "20261006"
    }
   ],
@@ -222,17 +222,17 @@
     "reutersCode": "000660",
     "stockName": "SK하이닉스",
     "sosok": "0",
-    "closePrice": "1,776,000",
-    "compareToPreviousClosePrice": "-65,000",
+    "closePrice": "1,775,000",
+    "compareToPreviousClosePrice": "-66,000",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "fluctuationsRatio": "-3.53",
+    "fluctuationsRatio": "-3.59",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "1,297,354,440",
+    "marketValue": "1,296,623,947",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
@@ -260,17 +260,17 @@
     "reutersCode": "402340",
     "stockName": "SK스퀘어",
     "sosok": "0",
-    "closePrice": "1,158,000",
-    "compareToPreviousClosePrice": "-2,000",
+    "closePrice": "1,157,000",
+    "compareToPreviousClosePrice": "-3,000",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "fluctuationsRatio": "-0.17",
+    "fluctuationsRatio": "-0.26",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "152,767,989",
+    "marketValue": "152,636,065",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
