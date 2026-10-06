@@ -81,25 +81,25 @@ window.DASH.usmarket = {
    "group": "금리·환율",
    "name": "달러 인덱스",
    "kind": "plain",
-   "close": 102.13,
-   "changePct": 0.19,
-   "changeText": "102.13 (+0.19%)"
+   "close": 102.12,
+   "changePct": 0.18,
+   "changeText": "102.12 (+0.18%)"
   },
   {
    "group": "금리·환율",
    "name": "원/달러",
    "kind": "plain",
-   "close": 1341.81,
+   "close": 1341.75,
    "changePct": -0.06,
-   "changeText": "1,341.81 (-0.06%)"
+   "changeText": "1,341.75 (-0.06%)"
   },
   {
    "group": "금리·환율",
    "name": "엔/달러",
    "kind": "plain",
-   "close": 157.95,
-   "changePct": 0.13,
-   "changeText": "157.95 (+0.13%)"
+   "close": 157.73,
+   "changePct": -0.12,
+   "changeText": "157.73 (-0.12%)"
   },
   {
    "group": "원자재·기타",
@@ -113,33 +113,33 @@ window.DASH.usmarket = {
    "group": "원자재·기타",
    "name": "브렌트유",
    "kind": "usd",
-   "close": 100.73,
-   "changePct": -1.49,
-   "changeText": "100.73 (-1.49%)"
+   "close": 100.69,
+   "changePct": -1.53,
+   "changeText": "100.69 (-1.53%)"
   },
   {
    "group": "원자재·기타",
    "name": "금",
    "kind": "usd",
-   "close": 4154.3,
-   "changePct": -0.19,
-   "changeText": "4,154.30 (-0.19%)"
+   "close": 4158.1,
+   "changePct": -0.1,
+   "changeText": "4,158.10 (-0.10%)"
   },
   {
    "group": "원자재·기타",
    "name": "구리",
    "kind": "usd",
    "close": 6.66,
-   "changePct": 2.51,
-   "changeText": "6.66 (+2.51%)"
+   "changePct": 2.64,
+   "changeText": "6.66 (+2.64%)"
   },
   {
    "group": "원자재·기타",
    "name": "비트코인",
    "kind": "usd",
-   "close": 85517.49,
-   "changePct": -1.11,
-   "changeText": "85,517.49 (-1.11%)"
+   "close": 85511.03,
+   "changePct": -1.12,
+   "changeText": "85,511.03 (-1.12%)"
   }
  ],
  "sectors": [
@@ -820,308 +820,308 @@ window.DASH.usmarket = {
   }
  ],
  "heatmap": {
-  "source": "Nasdaq 스크리너 · S&P 500 시총 상위",
+  "source": "S&P 500 시총 상위 · 시총 Nasdaq, 등락률 Yahoo 종가",
   "items": [
    {
     "t": "NVDA",
     "n": "NVIDIA Corporation",
     "s": "기술",
     "c": 5638.2,
-    "p": 1.34
+    "p": 2.12
    },
    {
     "t": "AAPL",
     "n": "Apple Inc.",
     "s": "기술",
     "c": 4869.9,
-    "p": 1.02
+    "p": -0.24
    },
    {
     "t": "GOOGL",
     "n": "Alphabet Inc.",
     "s": "커뮤니케이션",
     "c": 4201.0,
-    "p": 1.55
+    "p": 0.86
    },
    {
     "t": "MSFT",
     "n": "Microsoft Corporation",
     "s": "기술",
     "c": 3842.9,
-    "p": 0.92
+    "p": 1.48
    },
    {
     "t": "AMZN",
     "n": "Amazon.com Inc.",
     "s": "경기소비재",
     "c": 2713.0,
-    "p": 1.32
+    "p": -0.05
    },
    {
     "t": "META",
     "n": "Meta Platforms Inc.",
     "s": "커뮤니케이션",
     "c": 1854.8,
-    "p": 0.3
+    "p": 1.9
    },
    {
     "t": "AVGO",
     "n": "Broadcom Inc.",
     "s": "기술",
     "c": 1695.3,
-    "p": 3.35
+    "p": 2.08
    },
    {
     "t": "TSLA",
     "n": "Tesla Inc.",
     "s": "경기소비재",
     "c": 1463.7,
-    "p": 4.65
+    "p": 2.2
    },
    {
     "t": "MU",
     "n": "Micron Technology Inc.",
     "s": "기술",
     "c": 1214.0,
-    "p": -2.05
+    "p": -1.02
    },
    {
     "t": "BRK.B",
     "n": "Berkshire Hathaway Inc.",
     "s": "금융",
     "c": 1109.0,
-    "p": 0.43
+    "p": 0.32
    },
    {
     "t": "LLY",
     "n": "Eli Lilly and Company",
     "s": "헬스케어",
     "c": 1075.8,
-    "p": -0.61
+    "p": 0.02
    },
    {
     "t": "AMD",
     "n": "Advanced Micro Devices Inc.",
     "s": "기술",
     "c": 1034.8,
-    "p": 2.95
+    "p": -0.34
    },
    {
     "t": "JPM",
     "n": "JP Morgan Chase & Co.",
     "s": "금융",
     "c": 883.5,
-    "p": -0.24
+    "p": 0.0
    },
    {
     "t": "WMT",
     "n": "Walmart Inc.",
     "s": "필수소비재",
     "c": 827.2,
-    "p": 0.0
+    "p": 0.78
    },
    {
     "t": "XOM",
     "n": "ExxonMobil Holdings Corporation",
     "s": "에너지",
     "c": 674.4,
-    "p": 0.12
+    "p": -0.01
    },
    {
     "t": "V",
     "n": "Visa Inc.",
     "s": "금융",
     "c": 644.4,
-    "p": 0.23
+    "p": 2.51
    },
    {
     "t": "INTC",
     "n": "Intel Corporation",
     "s": "기술",
     "c": 630.7,
-    "p": -0.56
+    "p": -2.63
    },
    {
     "t": "JNJ",
     "n": "Johnson & Johnson",
     "s": "헬스케어",
     "c": 617.0,
-    "p": -1.02
+    "p": -1.21
    },
    {
     "t": "MA",
     "n": "Mastercard Incorporated",
     "s": "금융",
     "c": 483.8,
-    "p": 0.41
+    "p": 2.23
    },
    {
     "t": "ABBV",
     "n": "AbbVie Inc.",
     "s": "헬스케어",
     "c": 464.4,
-    "p": 1.11
+    "p": 1.12
    },
    {
     "t": "PLTR",
     "n": "Palantir Technologies Inc.",
     "s": "기술",
     "c": 453.4,
-    "p": -0.68
+    "p": 0.34
    },
    {
     "t": "CSCO",
     "n": "Cisco Systems Inc.",
     "s": "기술",
     "c": 442.4,
-    "p": 3.56
+    "p": 0.55
    },
    {
     "t": "LRCX",
     "n": "Lam Research Corporation",
     "s": "기술",
     "c": 434.9,
-    "p": 2.17
+    "p": -0.49
    },
    {
     "t": "ORCL",
     "n": "Oracle Corporation",
     "s": "기술",
     "c": 431.4,
-    "p": 3.06
+    "p": 0.13
    },
    {
     "t": "AMAT",
     "n": "Applied Materials Inc.",
     "s": "기술",
     "c": 428.6,
-    "p": 2.03
+    "p": 0.41
    },
    {
     "t": "CVX",
     "n": "Chevron Corporation",
     "s": "에너지",
     "c": 408.4,
-    "p": -0.2
+    "p": -0.11
    },
    {
     "t": "COST",
     "n": "Costco Wholesale Corporation",
     "s": "필수소비재",
     "c": 408.3,
-    "p": 0.62
+    "p": 0.31
    },
    {
     "t": "CAT",
     "n": "Caterpillar Inc.",
     "s": "산업재",
     "c": 388.6,
-    "p": 2.31
+    "p": 0.32
    },
    {
     "t": "BAC",
     "n": "Bank of America Corporation",
     "s": "금융",
     "c": 375.9,
-    "p": 0.04
+    "p": 0.47
    },
    {
     "t": "KO",
     "n": "Coca-Cola Company",
     "s": "필수소비재",
     "c": 368.5,
-    "p": -0.52
+    "p": 1.0
    },
    {
     "t": "DELL",
     "n": "Dell Technologies Inc.",
     "s": "기술",
     "c": 357.7,
-    "p": 3.84
+    "p": -1.82
    },
    {
     "t": "MRK",
     "n": "Merck & Company Inc.",
     "s": "헬스케어",
     "c": 356.0,
-    "p": 0.34
+    "p": -3.3
    },
    {
     "t": "PG",
     "n": "Procter & Gamble Company",
     "s": "필수소비재",
     "c": 336.8,
-    "p": 0.67
+    "p": 0.71
    },
    {
     "t": "UNH",
     "n": "UnitedHealth Group Incorporated",
     "s": "헬스케어",
     "c": 333.8,
-    "p": 1.83
+    "p": 1.8
    },
    {
     "t": "PANW",
     "n": "Palo Alto Networks Inc.",
     "s": "기술",
     "c": 329.9,
-    "p": 1.76
+    "p": 0.87
    },
    {
     "t": "GE",
     "n": "GE Aerospace",
     "s": "산업재",
     "c": 321.2,
-    "p": -0.91
+    "p": -0.89
    },
    {
     "t": "MS",
     "n": "Morgan Stanley",
     "s": "금융",
     "c": 298.9,
-    "p": 1.22
+    "p": -0.06
    },
    {
     "t": "PM",
     "n": "Philip Morris International Inc",
     "s": "필수소비재",
     "c": 292.2,
-    "p": -0.38
+    "p": 1.1
    },
    {
     "t": "HD",
     "n": "Home Depot Inc.",
     "s": "경기소비재",
     "c": 282.2,
-    "p": 0.14
+    "p": -0.6
    },
    {
     "t": "NFLX",
     "n": "Netflix Inc.",
     "s": "커뮤니케이션",
     "c": 279.2,
-    "p": -1.16
+    "p": 0.66
    },
    {
     "t": "CRWD",
     "n": "CrowdStrike Holdings Inc.",
     "s": "기술",
     "c": 276.5,
-    "p": 1.48
+    "p": 0.97
    },
    {
     "t": "KLAC",
     "n": "KLA Corporation",
     "s": "기술",
     "c": 270.0,
-    "p": 3.27
+    "p": -0.02
    },
    {
     "t": "TXN",
     "n": "Texas Instruments Incorporated",
     "s": "기술",
     "c": 268.3,
-    "p": 4.44
+    "p": 0.37
    },
    {
     "t": "GEV",
@@ -1135,315 +1135,315 @@ window.DASH.usmarket = {
     "n": "Goldman Sachs Group Inc.",
     "s": "금융",
     "c": 262.8,
-    "p": 0.66
+    "p": -1.01
    },
    {
     "t": "ANET",
     "n": "Arista Networks Inc.",
     "s": "기술",
     "c": 261.5,
-    "p": 1.4
+    "p": -0.22
    },
    {
     "t": "SNDK",
     "n": "Sandisk Corporation",
     "s": "기술",
     "c": 251.8,
-    "p": -3.79
+    "p": -0.92
    },
    {
     "t": "RTX",
     "n": "RTX Corporation",
     "s": "산업재",
     "c": 248.9,
-    "p": -0.18
+    "p": -0.19
    },
    {
     "t": "WFC",
     "n": "Wells Fargo & Company",
     "s": "금융",
     "c": 243.3,
-    "p": 0.25
+    "p": 1.23
    },
    {
     "t": "TMO",
     "n": "Thermo Fisher Scientific Inc",
     "s": "헬스케어",
     "c": 242.1,
-    "p": 0.35
+    "p": 3.35
    },
    {
     "t": "MRVL",
     "n": "Marvell Technology Inc.",
     "s": "기술",
     "c": 238.8,
-    "p": 1.57
+    "p": -0.38
    },
    {
     "t": "LIN",
     "n": "Linde plc",
     "s": "소재",
     "c": 221.0,
-    "p": 2.14
+    "p": 0.6
    },
    {
     "t": "AMGN",
     "n": "Amgen Inc.",
     "s": "헬스케어",
     "c": 217.9,
-    "p": -1.04
+    "p": -0.01
    },
    {
     "t": "C",
     "n": "Citigroup Inc.",
     "s": "금융",
     "c": 215.6,
-    "p": 1.18
+    "p": 0.04
    },
    {
     "t": "APH",
     "n": "Amphenol Corporation",
     "s": "기술",
     "c": 214.4,
-    "p": 1.51
+    "p": 0.36
    },
    {
     "t": "IBM",
     "n": "International Business Machines Corporation",
     "s": "기술",
     "c": 209.8,
-    "p": -1.32
+    "p": -0.48
    },
    {
     "t": "AXP",
     "n": "American Express Company",
     "s": "금융",
     "c": 204.5,
-    "p": 0.23
+    "p": 0.41
    },
    {
     "t": "ADI",
     "n": "Analog Devices Inc.",
     "s": "기술",
     "c": 202.1,
-    "p": 3.1
+    "p": 0.47
    },
    {
     "t": "QCOM",
     "n": "QUALCOMM Incorporated",
     "s": "기술",
     "c": 194.2,
-    "p": 1.53
+    "p": -2.21
    },
    {
     "t": "STX",
     "n": "Seagate Technology Holdings PLC",
     "s": "기술",
     "c": 194.2,
-    "p": -10.21
+    "p": 4.49
    },
    {
     "t": "CRM",
     "n": "Salesforce Inc.",
     "s": "기술",
     "c": 193.1,
-    "p": -0.84
+    "p": -2.09
    },
    {
     "t": "VZ",
     "n": "Verizon Communications Inc.",
     "s": "커뮤니케이션",
     "c": 190.8,
-    "p": -0.13
+    "p": -0.15
    },
    {
     "t": "DE",
     "n": "Deere & Company",
     "s": "산업재",
     "c": 185.2,
-    "p": 2.96
+    "p": -0.7
    },
    {
     "t": "GILD",
     "n": "Gilead Sciences Inc.",
     "s": "헬스케어",
     "c": 179.5,
-    "p": -1.87
+    "p": -0.08
    },
    {
     "t": "DIS",
     "n": "Walt Disney Company",
     "s": "커뮤니케이션",
     "c": 176.5,
-    "p": 0.85
+    "p": 1.39
    },
    {
     "t": "TMUS",
     "n": "T-Mobile US Inc.",
     "s": "커뮤니케이션",
     "c": 175.5,
-    "p": 1.18
+    "p": 0.61
    },
    {
     "t": "PEP",
     "n": "PepsiCo Inc.",
     "s": "필수소비재",
     "c": 171.8,
-    "p": 0.23
+    "p": -0.19
    },
    {
     "t": "ETN",
     "n": "Eaton Corporation PLC",
     "s": "산업재",
     "c": 169.4,
-    "p": -0.27
+    "p": -0.8
    },
    {
     "t": "ABT",
     "n": "Abbott Laboratories",
     "s": "헬스케어",
     "c": 168.7,
-    "p": 0.84
+    "p": 2.67
    },
    {
     "t": "SCHW",
     "n": "Charles Schwab Corporation",
     "s": "금융",
     "c": 167.2,
-    "p": -1.7
+    "p": 1.3
    },
    {
     "t": "T",
     "n": "AT&T Inc.",
     "s": "커뮤니케이션",
     "c": 166.5,
-    "p": 0.0
+    "p": -0.25
    },
    {
     "t": "UNP",
     "n": "Union Pacific Corporation",
     "s": "산업재",
     "c": 165.3,
-    "p": 2.15
+    "p": -0.44
    },
    {
     "t": "BLK",
     "n": "BlackRock Inc.",
     "s": "금융",
     "c": 164.1,
-    "p": -0.44
+    "p": 0.64
    },
    {
     "t": "MCD",
     "n": "McDonald's Corporation",
     "s": "경기소비재",
     "c": 164.1,
-    "p": 0.03
+    "p": 0.5
    },
    {
     "t": "WELL",
     "n": "Welltower Inc.",
     "s": "부동산",
     "c": 164.1,
-    "p": 0.34
+    "p": -1.56
    },
    {
     "t": "NEE",
     "n": "NextEra Energy Inc.",
     "s": "유틸리티",
     "c": 160.3,
-    "p": 0.63
+    "p": -0.72
    },
    {
     "t": "PFE",
     "n": "Pfizer Inc.",
     "s": "헬스케어",
     "c": 158.5,
-    "p": -1.14
+    "p": -1.4
    },
    {
     "t": "BA",
     "n": "Boeing Company",
     "s": "산업재",
     "c": 153.0,
-    "p": 0.67
+    "p": -0.43
    },
    {
     "t": "COP",
     "n": "ConocoPhillips",
     "s": "에너지",
     "c": 152.3,
-    "p": -0.24
+    "p": 1.3
    },
    {
     "t": "DHR",
     "n": "Danaher Corporation",
     "s": "헬스케어",
     "c": 150.5,
-    "p": 1.09
+    "p": 3.34
    },
    {
     "t": "WDC",
     "n": "Western Digital Corporation",
     "s": "기술",
     "c": 149.7,
-    "p": -10.22
+    "p": 6.34
    },
    {
     "t": "TJX",
     "n": "TJX Companies Inc.",
     "s": "경기소비재",
     "c": 145.9,
-    "p": -0.68
+    "p": 1.3
    },
    {
     "t": "GLW",
     "n": "Corning Incorporated",
     "s": "기술",
     "c": 141.4,
-    "p": 2.35
+    "p": -2.94
    },
    {
     "t": "UBER",
     "n": "Uber Technologies Inc.",
     "s": "산업재",
     "c": 139.1,
-    "p": 0.34
+    "p": 2.01
    },
    {
     "t": "NOW",
     "n": "ServiceNow Inc.",
     "s": "기술",
     "c": 138.9,
-    "p": -2.45
+    "p": 1.27
    },
    {
     "t": "ISRG",
     "n": "Intuitive Surgical Inc.",
     "s": "헬스케어",
     "c": 138.5,
-    "p": -2.31
+    "p": 3.71
    },
    {
     "t": "ACN",
     "n": "Accenture plc",
     "s": "기술",
     "c": 132.8,
-    "p": -6.31
+    "p": -1.94
    },
    {
     "t": "FTNT",
     "n": "Fortinet Inc.",
     "s": "기술",
     "c": 132.8,
-    "p": 1.25
+    "p": 1.76
    },
    {
     "t": "VRTX",
     "n": "Vertex Pharmaceuticals Incorporated",
     "s": "헬스케어",
     "c": 127.9,
-    "p": -0.4
+    "p": -0.24
    },
    {
     "t": "CB",
@@ -1457,70 +1457,70 @@ window.DASH.usmarket = {
     "n": "Monster Beverage Corporation",
     "s": "필수소비재",
     "c": 126.2,
-    "p": 1.9
+    "p": 1.33
    },
    {
     "t": "BMY",
     "n": "Bristol-Myers Squibb Company",
     "s": "헬스케어",
     "c": 124.9,
-    "p": -0.5
+    "p": -3.83
    },
    {
     "t": "PH",
     "n": "Parker-Hannifin Corporation",
     "s": "산업재",
     "c": 122.7,
-    "p": 0.69
+    "p": 0.32
    },
    {
     "t": "PGR",
     "n": "Progressive Corporation",
     "s": "금융",
     "c": 122.3,
-    "p": -0.31
+    "p": 1.1
    },
    {
     "t": "PLD",
     "n": "Prologis Inc.",
     "s": "부동산",
     "c": 122.2,
-    "p": 0.57
+    "p": -0.64
    },
    {
     "t": "NEM",
     "n": "Newmont Corporation",
     "s": "소재",
     "c": 121.8,
-    "p": 0.78
+    "p": 0.22
    },
    {
     "t": "BKNG",
     "n": "Booking Holdings Inc.",
     "s": "경기소비재",
     "c": 119.5,
-    "p": -0.79
+    "p": -0.43
    },
    {
     "t": "COF",
     "n": "Capital One Financial Corporation",
     "s": "금융",
     "c": 119.5,
-    "p": 0.12
+    "p": 0.22
    },
    {
     "t": "MPC",
     "n": "Marathon Petroleum Corporation",
     "s": "에너지",
     "c": 118.6,
-    "p": 0.52
+    "p": 2.64
    },
    {
     "t": "VLO",
     "n": "Valero Energy Corporation",
     "s": "에너지",
     "c": 117.0,
-    "p": -0.53
+    "p": 3.21
    }
   ]
  },
