@@ -101,6 +101,7 @@ def scan_market(market: str, limit: int = 0):
         last = float(df["close"].iloc[-1])
         m = meta.get(code, {})
         items.append({
+            "_d": df.index[-1].strftime("%Y-%m-%d"),
             "code": code, "name": names.get(code, code),
             "market": m.get("market", ""), "sector": m.get("sector", ""), "marcap": m.get("marcap", 0),
             "themes": tags.get(code, [])[:2],
@@ -110,6 +111,10 @@ def scan_market(market: str, limit: int = 0):
             "matched": list(hits.keys()),
             "note": " / ".join(NOTE_FMT[k](v) for k, v in hits.items()),
         })
+    late = [x["code"] for x in items if x["_d"] < as_of]
+    if late:
+        print(f"기준일({as_of})보다 시세가 오래된 종목 {len(late)}개 제외: {late[:20]}")
+    items = [{k: v for k, v in x.items() if k != "_d"} for x in items if x["_d"] >= as_of]
     items.sort(key=lambda x: (-len(x["matched"]), x["name"]))
     if market == "kr":
         os.makedirs(OUT, exist_ok=True)

@@ -197,7 +197,7 @@
     var u = D.usmarket || {};
     var br = u.brief || null;
     var h = sampleNote(u) + "<h2>미국장 마감 &amp; 국장 대응</h2>";
-    h += '<div class="muted" style="margin:-6px 0 10px">' + esc(u.asOf || "") + "</div>";
+    h += '<div class="muted" style="margin:-6px 0 10px">' + esc(u.asOf || "") + (u.staleNote ? " · " + esc(u.staleNote) : "") + "</div>";
 
     // 1) 지수·금리·환율·원자재
     var groups = [];

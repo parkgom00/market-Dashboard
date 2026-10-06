@@ -96,8 +96,9 @@ def build(parsed, members, top_n=TOP_N):
     return items[:top_n]
 
 
-def collect():
-    parsed = parse_rows(fetch_rows())
+def collect(parsed=None):
+    if parsed is None:
+        parsed = parse_rows(fetch_rows())
     members = sp500_members()
     items = build(parsed, members)
     if len(items) < 30:

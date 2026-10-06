@@ -85,6 +85,46 @@ def load_summary(for_date: str):
     return []
 
 
+def stale_symbols(changes: dict, symbols, date: str) -> list:
+    """기준일(date)의 종가가 아직 안 들어온 심볼. 야후가 가끔 최신 하루를 빼고 주는 일이 있어 그대로 쓰면 전날 등락률이 표시된다."""
+    return [s for s in symbols if s not in changes or changes[s]["date"] < date]
+
+
+def refresh_stale(changes: dict, symbols, date: str, download, tries: int = 3, wait: float = 4.0) -> list:
+    """늦은 심볼만 다시 받아 changes 를 고친다. 끝까지 늦은 심볼 목록을 돌려준다."""
+    import time
+    stale = stale_symbols(changes, symbols, date)
+    for i in range(tries):
+        if not stale:
+            break
+        time.sleep(wait * (i + 1))
+        try:
+            fresh = compute_changes(download(stale))
+        except Exception as e:
+            print("재조회 실패:", type(e).__name__, e)
+            continue
+        for s in stale:
+            if s in fresh and fresh[s]["date"] >= date:
+                changes[s] = fresh[s]
+        stale = stale_symbols(changes, symbols, date)
+    return stale
+
+
+def fill_from_nasdaq(changes: dict, stale: list, parsed_rows: list, date: str) -> list:
+    """야후에서 끝내 못 받은 종목은 나스닥 스크리너의 등락률로 채운다. 그래도 없는 것은 changes 에서 지운다(틀린 값 표시 방지)."""
+    by = {r["t"].replace("/", "-").replace(".", "-"): r for r in parsed_rows or []}
+    left = []
+    for s in stale:
+        r = by.get(s.replace(".", "-"))
+        if r and r.get("price"):
+            prev = r["price"] / (1 + r["p"] / 100) if r["p"] > -100 else r["price"]
+            changes[s] = {"close": r["price"], "pct": r["p"], "date": date, "diff": r["price"] - prev}
+        else:
+            changes.pop(s, None)
+            left.append(s)
+    return left
+
+
 def index_text(a, ch):
     """화면·AI 입력용 한 줄 (금리는 bp, 나머지는 %)."""
     if a["kind"] == "yield":
@@ -212,17 +252,39 @@ def main():
     allc = yf.download(asset_symbols, period="15d", auto_adjust=True, progress=False)["Close"]
     th = yf.download(th_tickers, period="15d", auto_adjust=True, progress=False)["Close"]
     all_changes = compute_changes(allc)
-    payload = build_payload(all_changes, compute_changes(th), themes)
+    th_changes = compute_changes(th)
+
+    # 기준일(주요 지수의 마지막 거래일)과 날짜가 안 맞는 종목·ETF 는 다시 받고, 그래도 안 되면 나스닥 값으로 채우거나 뺀다
+    import us_heatmap
+    date = max((all_changes[t]["date"] for t in MAIN_INDICES if t in all_changes), default="")
+    nasdaq_rows, heat, heat_err = [], None, ""
+    try:
+        nasdaq_rows = us_heatmap.parse_rows(us_heatmap.fetch_rows())
+        heat = us_heatmap.collect(nasdaq_rows)
+    except Exception as e:
+        heat_err = type(e).__name__
+        print("히트맵 실패:", type(e).__name__, e)
+    dropped = []
+    if date:
+        def dl(symbols):
+            d = yf.download(symbols, period="1mo", auto_adjust=True, progress=False)["Close"]
+            return d.to_frame(symbols[0]) if not hasattr(d, "columns") else d
+        sec_syms = [s["symbol"] for s in SECTORS]
+        n_sec, n_th = len(stale_symbols(all_changes, sec_syms, date)), len(stale_symbols(th_changes, th_tickers, date))
+        dropped += fill_from_nasdaq(all_changes, refresh_stale(all_changes, sec_syms, date, dl), [], date)
+        dropped += fill_from_nasdaq(th_changes, refresh_stale(th_changes, th_tickers, date, dl), nasdaq_rows, date)
+        print(f"기준일 {date}: 처음에 늦게 들어온 업종 ETF {n_sec}개·테마 종목 {n_th}개 → 끝내 제외 {len(dropped)}개 {dropped}")
+
+    payload = build_payload(all_changes, th_changes, themes)
     if not [i for i in payload["indices"] if i["name"] in ("나스닥", "S&P 500", "다우")]:
         raise SystemExit("지수 데이터를 받지 못했습니다. (기존 파일은 그대로 둡니다)")
-    try:
-        import us_heatmap
-        payload["heatmap"] = us_heatmap.collect()
-        print("히트맵:", len(payload["heatmap"]["items"]), "종목 ·", payload["heatmap"]["source"])
-    except Exception as e:
-        payload["heatmap"] = None
-        payload["heatmapStatus"] = f"히트맵 자료를 받지 못했습니다 ({type(e).__name__})"
-        print("히트맵 실패:", type(e).__name__, e)
+    payload["heatmap"] = heat
+    if dropped:
+        payload["staleNote"] = f"시세가 늦게 들어와 제외한 종목·업종: {len(dropped)}개"
+    if heat:
+        print("히트맵:", len(heat["items"]), "종목 ·", heat["source"])
+    else:
+        payload["heatmapStatus"] = f"히트맵 자료를 받지 못했습니다 ({heat_err})"
 
     ensure_brief(payload, themes)
 
@@ -235,7 +297,7 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     stamp = datetime.now(KST).strftime("%Y-%m-%d %H:%M")
     with open(os.path.join(OUT, "live_themes_us.json"), "w", encoding="utf-8") as f:
-        json.dump({"asOf": stamp, "themes": theme_strength_us(compute_changes(th), themes)}, f, ensure_ascii=False)
+        json.dump({"asOf": stamp, "themes": theme_strength_us(th_changes, themes)}, f, ensure_ascii=False)
     build_live.build()
     print(f"[미국] 기준 {payload['asOf']}, 지수 {len(payload['indices'])}개, 업종 {len(payload['sectors'])}개, 테마 {len(payload['themes'])}개, AI {'있음' if payload['brief'] else '없음'}")
 
