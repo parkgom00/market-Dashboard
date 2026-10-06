@@ -122,17 +122,31 @@ def parse_flow(payload, price, today=None):
     return ((f or 0) + (o or 0)) * price
 
 
+def parse_flow_detail(payload, price, today=None):
+    """trend 응답 → {"sum", "f"(외국인), "o"(기관)} 순매수 대금(원). 오늘 자료가 없으면 None."""
+    rows = payload if isinstance(payload, list) else (payload or {}).get("trends") or (payload or {}).get("items") or []
+    if not rows:
+        return None
+    r = sorted(rows, key=lambda x: str(x.get("bizdate") or ""), reverse=True)[0]
+    if today and str(r.get("bizdate") or "") != today:
+        return None
+    f, o = num(r.get("foreignerPureBuyQuant")), num(r.get("organPureBuyQuant"))
+    if f is None and o is None:
+        return None
+    return {"f": (f or 0) * price, "o": (o or 0) * price, "sum": ((f or 0) + (o or 0)) * price}
+
+
 def fetch_flow(code, price):
     try:
         import datetime as dt
         today = dt.datetime.now(dt.timezone(dt.timedelta(hours=9))).strftime("%Y%m%d")
-        return parse_flow(_get(TREND_URL.format(code=code), {"pageSize": 3}), price, today)
+        return parse_flow_detail(_get(TREND_URL.format(code=code), {"pageSize": 3}), price, today)
     except Exception:
         return None
 
 
 def fetch_flows(cands, workers=6):
-    """cands: {code: price} → {code: 순매수대금 또는 None}"""
+    """cands: {code: price} → {code: {"sum","f","o"} 또는 None}"""
     with ThreadPoolExecutor(workers) as ex:
         return dict(zip(cands, ex.map(lambda c: fetch_flow(c, cands[c]), cands)))
 

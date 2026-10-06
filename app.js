@@ -668,6 +668,7 @@
       h += '<div class="card"><div class="row"><h3>' + esc(t.name) + '</h3><span class="chip">' + esc(t.timeframe) + "</span></div>" +
         (t.desc ? '<div class="muted">' + esc(t.desc) + "</div>" : "") +
         '<div class="muted">확인 시간대 ' + esc(S.window || "") + " · 갱신 " + esc(S.asOf || "-") + "</div>" +
+        (S.phase ? '<div class="phase' + (S.flowConfirmed ? " ok" : "") + '">' + esc(S.phase) + "</div>" : "") +
         (S.status ? '<div class="muted">' + esc(S.status) + "</div>" : "") + "</div>";
       var subs = t.subtypes || [];
       if (subs.length) {

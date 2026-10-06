@@ -95,7 +95,7 @@ def parse_bars(res):
             "lateShare": (late / tot) if tot > 0 else None, "lastTs": rows[-1][0]}
 
 
-def run(universe, base, now, fetch_bars=live_bars, fetch_flows=None, meta=None):
+def run(universe, base, now, fetch_bars=live_bars, fetch_flows=None, meta=None, final=False):
     """universe: {code:{name,price,volume,pct?,market}}, base: {code:features}. 반환: (subtype별 목록, 진단)."""
     qs = {}
     for code, u in universe.items():
@@ -123,6 +123,8 @@ def run(universe, base, now, fetch_bars=live_bars, fetch_flows=None, meta=None):
     if fetch_flows:
         a1 = {c: qs[c]["price"] for c, s in cands.items() if "A1" in s and bars.get(c)}
         flows = fetch_flows(a1) if a1 else {}
+    fdet = {c: v for c, v in flows.items() if isinstance(v, dict)}
+    flows = {c: (v["sum"] if isinstance(v, dict) else v) for c, v in flows.items()}
     res = {"A1": [], "A2": [], "A3": []}
     nbars = 0
     why, stale_n, late_vals = {}, 0, []
@@ -132,7 +134,7 @@ def run(universe, base, now, fetch_bars=live_bars, fetch_flows=None, meta=None):
             continue
         nbars += 1
         q = qs[code]
-        stale = (now.timestamp() - b["lastTs"]) > 25 * 60
+        stale = (not final) and (now.timestamp() - b["lastTs"]) > 25 * 60   # 마감 후에는 15:30 봉이 마지막이라 지연으로 보지 않음
         bb = dict(b)
         bb["high"] = max(b["high"], q["price"])
         bb["low"] = min(b["low"], q["price"])
@@ -144,7 +146,7 @@ def run(universe, base, now, fetch_bars=live_bars, fetch_flows=None, meta=None):
             why[r1] = why.get(r1, 0) + 1
             if bb.get("lateShare") is not None:
                 late_vals.append(round(bb["lateShare"], 3))
-        jobs = {"A1": lambda: closing.judge_a1(q, bb, flows.get(code)),
+        jobs = {"A1": lambda: closing.judge_a1(q, bb, flows.get(code), fdet.get(code)),
                 "A2": lambda: closing.judge_a2(q, bb, base.get(code)),
                 "A3": lambda: closing.judge_a3(q, bb, base.get(code))}
         for k in kinds:
@@ -187,22 +189,37 @@ def write_js(payload):
         f.write(";\n")
 
 
-def main(force=False):
+def pick_base(today):
+    """오늘 판정에 쓸 '어제까지의 일봉 요약'. 장마감 스캔이 이미 오늘 것으로 덮어썼으면 보관해 둔 직전 것을 쓴다."""
+    for name in ("closing_base_kr.json", "closing_base_kr_prev.json"):
+        try:
+            with open(os.path.join(OUT, name), encoding="utf-8") as f:
+                bj = json.load(f)
+            if bj.get("asOf") and bj["asOf"] < today:
+                return bj
+        except Exception:
+            continue
+    return None
+
+
+def main(mode="auto"):
+    """mode: auto(15:05~15:50 에만) / force(시간 무관, 장중 방식) / final(장 마감 후: 종가 확정 + 외국인·기관 수급 반영)"""
     from naver_live import fetch_flows, fetch_universe
     now = dt.datetime.now(KST)
     stamp = now.strftime("%Y-%m-%d %H:%M")
-    if not force and not (now.weekday() < 5 and (15, 5) <= (now.hour, now.minute) <= (15, 50)):
+    hm = (now.hour, now.minute)
+    if mode == "auto" and not (now.weekday() < 5 and (15, 5) <= hm <= (15, 50)):
         print("장 마감 직전 시간대가 아니라 건너뜀", stamp)
         return
-    path = os.path.join(OUT, "closing_base_kr.json")
-    if not os.path.exists(path):
-        write_js(to_payload({}, stamp, "기준 데이터(일봉 요약)가 아직 없습니다. 장마감 작업이 먼저 실행되어야 합니다."))
+    if mode == "final" and not (now.weekday() < 5 and hm >= (15, 45)):
+        print("마감 후 시간대가 아니라 건너뜀", stamp)
         return
-    with open(path, encoding="utf-8") as f:
-        bj = json.load(f)
     today = now.strftime("%Y-%m-%d")
-    if bj["asOf"] >= today:
-        print("기준일이 오늘 → 이미 오늘 마감 데이터가 반영됨, 건너뜀")
+    bj = pick_base(today)
+    if not bj:
+        if not os.path.exists(os.path.join(OUT, "closing_kr.json")):
+            write_js(to_payload({}, stamp, "기준 데이터(일봉 요약)가 아직 없습니다. 장마감 작업이 먼저 실행되어야 합니다."))
+        print("어제까지의 기준 데이터가 없음 → 건너뜀")
         return
     try:
         uni, keys = fetch_universe()
@@ -229,7 +246,7 @@ def main(force=False):
                 meta.setdefault(c, {})["sector"] = name
     except Exception:
         pass
-    res, diag = run(uni, base, now, fetch_flows=fetch_flows, meta=meta)
+    res, diag = run(uni, base, now, fetch_flows=fetch_flows, meta=meta, final=(mode == "final"))
     try:   # 진단용 표본 (응답 형식 확인)
         import naver_live
         smp = {}
@@ -246,10 +263,25 @@ def main(force=False):
     except Exception as e:
         print("표본 저장 실패", e)
     print(diag, {k: len(v) for k, v in res.items()})
+    n_flow = diag.get("a1", {}).get("수급자료", 0)
+    if mode == "final" and n_flow == 0:
+        try:   # 수급이 아직 공개 전이면 이미 확정 수급으로 만든 결과를 덮어쓰지 않는다
+            with open(os.path.join(OUT, "closing_kr.json"), encoding="utf-8") as f:
+                old = json.load(f)
+            if old.get("flowConfirmed") and str(old.get("asOf", ""))[:10] == today:
+                print("수급 자료 없음 → 기존 확정 결과 유지")
+                return
+        except Exception:
+            pass
     payload = to_payload(res, stamp, f"전 종목 {diag['quotes']}개 중 후보 {diag['candidates']}개 점검 (기준 일봉 {bj['asOf']})")
     payload["diag"] = diag
+    payload["flowConfirmed"] = bool(n_flow)
+    if mode == "final":
+        payload["phase"] = ("장 마감 후 · 종가 확정 · 외국인·기관 수급 반영" if n_flow else "장 마감 후 · 종가 확정 · 수급 자료는 아직 공개 전")
+    else:
+        payload["phase"] = "장중 · 수급 자료는 마감 후(16시 이후) 반영됩니다"
     write_js(payload)
 
 
 if __name__ == "__main__":
-    main(force="--force" in sys.argv)
+    main("final" if "--final" in sys.argv else "force" if "--force" in sys.argv else "auto")

@@ -131,7 +131,15 @@ def scan_market(market: str, limit: int = 0):
         os.makedirs(OUT, exist_ok=True)
         with open(os.path.join(OUT, "kr_meta.json"), "w", encoding="utf-8") as f:
             json.dump(meta, f, ensure_ascii=False, separators=(",", ":"))
-        with open(os.path.join(OUT, "closing_base_kr.json"), "w", encoding="utf-8") as f:
+        cb = os.path.join(OUT, "closing_base_kr.json")
+        try:   # 마감 후 판정(수급 반영)에 '어제까지의 기준'이 필요하므로, 날짜가 바뀔 때 직전 파일을 보관
+            with open(cb, encoding="utf-8") as f:
+                old_asof = json.load(f).get("asOf", "")
+            if old_asof and old_asof < as_of:
+                os.replace(cb, os.path.join(OUT, "closing_base_kr_prev.json"))
+        except Exception:
+            pass
+        with open(cb, "w", encoding="utf-8") as f:
             json.dump({"asOf": as_of, "base": base}, f, ensure_ascii=False, separators=(",", ":"))
     return {"asOf": as_of, "scanned": scanned, "items": items}
 

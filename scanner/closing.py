@@ -65,7 +65,7 @@ def prefilter(q, base):
 
 
 # ───────────── 2차 판정 (오늘 분봉으로 만든 시가·고가·저가·종가 사용) ─────────────
-def judge_a1(q, bars, flow=None):
+def judge_a1(q, bars, flow=None, detail=None):
     """A1. bars: {open, high, low, close, lateShare}. flow: 외국인+기관 순매수 대금(원) 또는 None."""
     if q["pct"] < CP.a1_min_pct or q["value"] < CP.min_value:
         return None
@@ -82,7 +82,12 @@ def judge_a1(q, bars, flow=None):
     note = f"고가 마감권(고가 대비 {(1 - q['price'] / bars['high']) * 100:.2f}% 아래)"
     if bars.get("lateShare") is not None:
         note += f" · 막판 {CP.a1_late_min}분 거래량 비중 {bars['lateShare'] * 100:.0f}%"
-    note += f" · 외국인+기관 순매수 {flow / 1e8:+.0f}억" if flow is not None else " · 수급 자료 확인 전"
+    if flow is None:
+        note += " · 수급 자료 확인 전"
+    elif detail:
+        note += f" · 외국인 {detail['f'] / 1e8:+,.0f}억 · 기관 {detail['o'] / 1e8:+,.0f}억 (합계 거래대금의 {flow / q['value'] * 100:.0f}%)"
+    else:
+        note += f" · 외국인+기관 순매수 {flow / 1e8:+.0f}억"
     return {"score": score, "note": note}
 
 
