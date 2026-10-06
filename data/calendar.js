@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-06 21:15",
+ "generatedAt": "2026-10-07 03:13",
  "events": [
   {
    "date": "2026-01-01",
@@ -1221,7 +1221,7 @@ window.DASH.calendar = {
    "title": "미국 무역수지",
    "time": "21:30",
    "result": [
-    "예상 -100.80B · 이전 -88.60B"
+    "실제 -105.60B · 예상 -100.80B · 이전 -92.80B"
    ]
   },
   {
@@ -1577,6 +1577,46 @@ window.DASH.calendar = {
    "time": "08:00",
    "result": [
     "이전 3.7%"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 내구재 주문",
+   "time": "21:30",
+   "result": [
+    "이전 -0.1%"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "type": "econ",
+   "market": "US",
+   "title": "리치먼드 연은지수",
+   "time": "23:00",
+   "result": [
+    "이전 -2"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 소비자신뢰",
+   "time": "23:00",
+   "result": [
+    "이전 81.9"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 신규주택판매",
+   "time": "23:00",
+   "result": [
+    "이전 6.4%"
    ]
   },
   {
