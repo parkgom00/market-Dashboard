@@ -20,12 +20,13 @@ jobs:
           cache: pip
           cache-dependency-path: scanner/requirements.txt
       - run: pip install -r scanner/requirements.txt
-      - name: 국내 시세 수집
-        working-directory: scanner
-        run: python collect_kr.py
       - name: 중장기 스캔 (국내 전 종목)
         working-directory: scanner
         run: python run_scan.py --market kr
+      - name: 국내 시세 수집 (스캔이 끝난 뒤의 최신 값)
+        if: ${{ !cancelled() }}
+        working-directory: scanner
+        run: python collect_kr.py
       - name: 변경된 데이터 저장
         if: ${{ !cancelled() }}
         run: bash scanner/commit_data.sh
