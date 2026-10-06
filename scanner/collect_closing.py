@@ -178,6 +178,12 @@ def main(force=False):
             meta = json.load(f)
     except Exception:
         pass
+    try:   # 업종은 네이버 업종표(장중 갱신 작업이 만듦)를 우선 사용
+        with open(os.path.join(OUT, "kr_sector.json"), encoding="utf-8") as f:
+            for c, name in json.load(f).get("map", {}).items():
+                meta.setdefault(c, {})["sector"] = name
+    except Exception:
+        pass
     res, diag = run(uni, base, now, fetch_flows=fetch_flows, meta=meta)
     print(diag, {k: len(v) for k, v in res.items()})
     write_js(to_payload(res, stamp, f"전 종목 {diag['quotes']}개 중 후보 {diag['candidates']}개 점검 (기준 일봉 {bj['asOf']})"))

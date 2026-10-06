@@ -134,3 +134,55 @@ def fetch_flows(cands, workers=6):
     """cands: {code: price} → {code: 순매수대금 또는 None}"""
     with ThreadPoolExecutor(workers) as ex:
         return dict(zip(cands, ex.map(lambda c: fetch_flow(c, cands[c]), cands)))
+
+
+# ───────────── 업종 (종목코드 → 네이버 업종명) ─────────────
+IND_LIST_URL = "https://m.stock.naver.com/api/stocks/industry"
+IND_MEMBERS_URL = "https://m.stock.naver.com/api/stocks/industry/{no}"
+
+
+def _rows(payload, *names):
+    if isinstance(payload, list):
+        return payload
+    for n in names:
+        v = (payload or {}).get(n)
+        if isinstance(v, list):
+            return v
+    return []
+
+
+def fetch_industries(workers=6):
+    """{종목코드: 업종명}. 네이버 업종 목록과 구성종목으로 만든다. 실패하면 예외."""
+    groups = []
+    for p in range(1, 4):
+        rows = _rows(_get(IND_LIST_URL, {"page": p, "pageSize": 100}), "groups", "industries", "result")
+        if not rows:
+            break
+        groups += rows
+        if len(rows) < 100:
+            break
+    SAMPLE["industryGroups"] = groups[:2]
+    groups = [g for g in groups if g.get("no") is not None and g.get("name")]
+    if not groups:
+        raise ValueError("업종 목록이 비어 있음")
+
+    def one(g):
+        codes = []
+        try:
+            for p in range(1, 8):
+                rows = _rows(_get(IND_MEMBERS_URL.format(no=g["no"]), {"page": p, "pageSize": 100}), "stocks", "result")
+                codes += [str(r.get("itemCode")) for r in rows if r.get("itemCode")]
+                if len(rows) < 100:
+                    break
+        except Exception:
+            pass
+        return str(g["name"]), codes
+
+    out = {}
+    with ThreadPoolExecutor(workers) as ex:
+        for name, codes in ex.map(one, groups):
+            for c in codes:
+                out.setdefault(c, name)
+    if len(out) < 500:
+        raise ValueError(f"업종 구성종목이 {len(out)}개뿐")
+    return out

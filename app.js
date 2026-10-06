@@ -514,6 +514,7 @@
     if (!q) return o;
     if (!o.market) o.market = q.market;
     if (!o.marcap && q.marcap) o.marcap = q.marcap;
+    if (!o.sector && q.sector) o.sector = q.sector;
     // 네이버 화면과 같은 값(전일종가·현재가·등락률)을 그대로 쓴다. 스캔 기준일보다 오래된 시세는 쓰지 않는다
     if (q.prev && String(q.day || "") >= String(asOf || "").slice(0, 10)) {
       o.prevClose = q.prev; o.close = q.price; o.changePct = q.pct; o.value = q.value;

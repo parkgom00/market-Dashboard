@@ -139,6 +139,29 @@ def live_df():
     return df[~df["name"].str.contains("스팩")].reset_index(drop=True)
 
 
+def load_sectors(stamp):
+    """out/kr_sector.json ({asOf, map}) 을 읽고, 오늘 것이 아니면 네이버에서 새로 받아 저장. 실패하면 있는 것 그대로."""
+    path = os.path.join(OUT, "kr_sector.json")
+    cur = {"asOf": "", "map": {}}
+    try:
+        with open(path, encoding="utf-8") as f:
+            cur = json.load(f)
+    except Exception:
+        pass
+    if cur.get("asOf") == stamp[:10] and cur.get("map"):
+        return cur["map"]
+    try:
+        import naver_live
+        m = naver_live.fetch_industries()
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump({"asOf": stamp[:10], "map": m}, f, ensure_ascii=False, separators=(",", ":"))
+        print("업종표 갱신:", len(m), "종목")
+        return m
+    except Exception as e:
+        print("업종표 갱신 실패:", type(e).__name__, e)
+        return cur.get("map", {})
+
+
 def write_quotes(df, stamp):
     """4장·5장에 올라온 종목만 골라 현재가를 data/quotes.js 로 저장 (화면에서 전일종가 대비 표시용)."""
     want = set()
@@ -162,6 +185,7 @@ def write_quotes(df, stamp):
             want |= {k["code"] for t in json.load(f)["themes"] if t.get("us") for k in t.get("kr", [])}
     except Exception:
         pass
+    sectors = load_sectors(stamp)
     sub = df[df["code"].isin(want)]
     q = {}
     for _, r in sub.iterrows():
@@ -170,7 +194,7 @@ def write_quotes(df, stamp):
         q[r["code"]] = {"price": float(r["close"]), "prev": float(r["prev"]), "pct": round(float(r["pct"]), 2),
                         "value": int(round(r["amount"] / 1e8)), "market": str(r["market"]),
                         "marcap": int(round(r["marcap"] / 1e8)) if pd.notna(r["marcap"]) else 0,
-                        "day": str(r["day"])}
+                        "day": str(r["day"]), "sector": sectors.get(r["code"], "")}
     with open(os.path.join(HERE, "..", "data", "quotes.js"), "w", encoding="utf-8") as f:
         f.write("// 자동 생성 파일 (scanner/collect_kr.py). 직접 고치지 마세요.\n")
         f.write("window.DASH = window.DASH || {};\nwindow.DASH.quotes = ")
@@ -204,6 +228,13 @@ def main():
         print("현재가 저장:", write_quotes(df, stamp), "종목")
     except Exception as e:
         print("현재가 저장 실패:", type(e).__name__, e)
+    try:
+        import naver_live
+        if naver_live.SAMPLE:
+            with open(os.path.join(OUT, "naver_sample.json"), "w", encoding="utf-8") as f:
+                json.dump(naver_live.SAMPLE, f, ensure_ascii=False, indent=1)
+    except Exception:
+        pass
     build_live.build()
     print(f"[국내] {len(df)}개 종목 처리, {stamp}")
 
