@@ -51,6 +51,8 @@ def parse_naver_minutes(rows):
     bars = []
     for r in rows or []:
         try:
+            if str(r["localDateTime"])[8:12] > "1530":      # 정규장(15:30 종가 체결)까지만. 시간외 거래 봉은 제외
+                continue
             t = dt.datetime.strptime(str(r["localDateTime"])[:12], "%Y%m%d%H%M").replace(tzinfo=KST).timestamp()
             bars.append((t, float(r["openPrice"]), float(r["highPrice"]), float(r["lowPrice"]), float(r["currentPrice"]),
                          float(r.get("accumulatedTradingVolume") or 0)))
