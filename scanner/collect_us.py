@@ -275,6 +275,23 @@ def main():
         dropped += fill_from_nasdaq(th_changes, refresh_stale(th_changes, th_tickers, date, dl), nasdaq_rows, date)
         print(f"기준일 {date}: 처음에 늦게 들어온 업종 ETF {n_sec}개·테마 종목 {n_th}개 → 끝내 제외 {len(dropped)}개 {dropped}")
 
+    try:   # 진단용: 야후 원본 마지막 4일 종가와 나스닥 값 비교
+        diag = {"at": datetime.now(KST).strftime("%Y-%m-%d %H:%M:%S"), "utc": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S"), "yahoo": {}, "nasdaq": {}}
+        for frame in (allc, th):
+            for t in ("^IXIC", "^GSPC", "XLK", "XLF", "WDC", "NVDA", "TSLA", "CEG", "STX"):
+                if t in frame.columns:
+                    s_ = frame[t].tail(5)
+                    diag["yahoo"][t] = {str(k)[:10]: (None if v != v else round(float(v), 3)) for k, v in s_.items()}
+        by = {r["t"]: r for r in nasdaq_rows}
+        for t in ("WDC", "NVDA", "TSLA", "CEG", "STX"):
+            if t in by:
+                diag["nasdaq"][t] = {"price": by[t]["price"], "pct": by[t]["p"]}
+        os.makedirs(OUT, exist_ok=True)
+        with open(os.path.join(OUT, "us_diag.json"), "w", encoding="utf-8") as f:
+            json.dump(diag, f, ensure_ascii=False, indent=1)
+    except Exception as e:
+        print("진단 저장 실패:", e)
+
     payload = build_payload(all_changes, th_changes, themes)
     if not [i for i in payload["indices"] if i["name"] in ("나스닥", "S&P 500", "다우")]:
         raise SystemExit("지수 데이터를 받지 못했습니다. (기존 파일은 그대로 둡니다)")
