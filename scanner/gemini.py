@@ -145,17 +145,23 @@ def _text_of(res):
     return out
 
 
-def generate(prompt, system=None, video_url=None, want_json=False, search=False, max_tokens=8192, temperature=0.3, retries=2):
+def generate(prompt, system=None, video_url=None, want_json=False, search=False, max_tokens=8192, temperature=0.3, retries=2,
+             video_meta=None, low_res=False):
     """텍스트(또는 JSON 파싱한 객체)를 돌려줍니다.
     video_url: 유튜브 주소를 영상 그대로 읽게 함. search: 구글 검색 근거 사용(이 경우 JSON 모드는 못 쓰므로 본문에서 추출)."""
     if not api_key():
         raise GeminiError("GEMINI_API_KEY 가 없습니다")
     parts = []
     if video_url:
-        parts.append({"file_data": {"file_uri": video_url}})
+        vp = {"file_data": {"file_uri": video_url}}
+        if video_meta:      # 예: {"start_offset": "0s", "end_offset": "2400s", "fps": 0.1} (긴 영상을 구간별로, 화면은 드물게 읽어 토큰 절약)
+            vp["video_metadata"] = video_meta
+        parts.append(vp)
     parts.append({"text": prompt})
     body = {"contents": [{"role": "user", "parts": parts}],
             "generationConfig": {"maxOutputTokens": max_tokens, "temperature": temperature}}
+    if low_res:
+        body["generationConfig"]["mediaResolution"] = "MEDIA_RESOLUTION_LOW"
     if system:
         body["systemInstruction"] = {"parts": [{"text": system}]}
     if search:

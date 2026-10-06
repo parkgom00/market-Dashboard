@@ -53,6 +53,68 @@ def parse_feed(xml_text, limit=PER_CHANNEL):
     return out
 
 
+REL = [(r"(\d+)\s*분 전", 60), (r"(\d+)\s*시간 전", 3600), (r"(\d+)\s*일 전", 86400), (r"(\d+)\s*주 전", 7 * 86400),
+       (r"(\d+)\s*개월 전", 30 * 86400), (r"(\d+)\s*년 전", 365 * 86400),
+       (r"(\d+)\s*minutes? ago", 60), (r"(\d+)\s*hours? ago", 3600), (r"(\d+)\s*days? ago", 86400),
+       (r"(\d+)\s*weeks? ago", 7 * 86400), (r"(\d+)\s*months? ago", 30 * 86400), (r"(\d+)\s*years? ago", 365 * 86400)]
+
+
+def rel_to_time(text, now=None):
+    """'3시간 전' 같은 상대 시각 → 'YYYY-MM-DD HH:MM' (하루 이상 전이면 날짜만). 못 읽으면 ''."""
+    from datetime import timedelta
+    now = now or datetime.now(KST)
+    for pat, sec in REL:
+        m = re.search(pat, text or "")
+        if m:
+            t = now - timedelta(seconds=int(m.group(1)) * sec)
+            return t.strftime("%Y-%m-%d %H:%M") if sec < 86400 else t.strftime("%Y-%m-%d")
+    return ""
+
+
+def _unesc(s):
+    try:
+        return json.loads('"' + s + '"')
+    except Exception:
+        return s
+
+
+def parse_videos_tab(html, limit=PER_CHANNEL, now=None):
+    """채널의 '동영상' 탭 화면에서 최신 영상 목록을 읽습니다 (RSS 가 막혔을 때의 대체 수단)."""
+    out, seen = [], set()
+    for chunk in html.split('"lockupViewModel":{')[1:]:
+        chunk = chunk[:9000]
+        mid = re.search(r'"contentId":"([\w-]{11})"', chunk)
+        mt = re.search(r'"lockupMetadataViewModel":\{"title":\{"content":"((?:[^"\\]|\\.)*)"', chunk)
+        if not mid or not mt or mid.group(1) in seen or "LOCKUP_CONTENT_TYPE_VIDEO" not in chunk:
+            continue
+        seen.add(mid.group(1))
+        when = ""
+        for txt in re.findall(r'"content":"((?:[^"\\]|\\.)*)"', chunk):
+            when = rel_to_time(_unesc(txt), now)
+            if when:
+                break
+        out.append({"title": _unesc(mt.group(1)).strip(), "publishedAt": when, "url": f"https://www.youtube.com/watch?v={mid.group(1)}"})
+        if len(out) >= limit:
+            break
+    if not out:   # 예전 화면 형식
+        for vid, title, rel in re.findall(r'"videoRenderer":\{"videoId":"([\w-]{11})".{0,1500}?"title":\{"runs":\[\{"text":"((?:[^"\\]|\\.)*)"\}.{0,2500}?"publishedTimeText":\{"simpleText":"(.*?)"', html):
+            if vid not in seen:
+                seen.add(vid)
+                out.append({"title": _unesc(title).strip(), "publishedAt": rel_to_time(_unesc(rel), now), "url": f"https://www.youtube.com/watch?v={vid}"})
+            if len(out) >= limit:
+                break
+    return out
+
+
+def merge_times(videos, old_videos):
+    """화면에서 읽은 시각은 대략값이라, 이미 알고 있던 영상은 예전에 저장한 시각을 유지합니다."""
+    known = {v["url"]: v.get("publishedAt", "") for v in old_videos or []}
+    for v in videos:
+        if known.get(v["url"]):
+            v["publishedAt"] = known[v["url"]]
+    return videos
+
+
 def load_previous(path=TARGET):
     """이전 data/youtube.js 에서 채널별 영상 목록과 채널 ID 를 읽습니다 (실패 시 빈 값)."""
     try:
@@ -68,20 +130,25 @@ def build(channels, prev, fetch=_get):
     result, errors = [], []
     for ch in channels:
         old = prev.get(ch["name"], {})
-        cid = old.get("channelId") or ""
+        cid = old.get("channelId") or ch.get("channelId") or ""
         try:
             if not cid:
                 cid = find_channel_id(fetch("https://www.youtube.com/" + urllib.parse.quote(ch["handle"]))) or ""
                 if not cid:
                     raise ValueError("채널 ID를 찾지 못함")
-            videos = parse_feed(fetch(f"https://www.youtube.com/feeds/videos.xml?channel_id={cid}"))
+            try:
+                videos = parse_feed(fetch(f"https://www.youtube.com/feeds/videos.xml?channel_id={cid}"))
+            except Exception as e_rss:   # RSS 가 막히면 채널의 '동영상' 탭 화면에서 읽음
+                videos = merge_times(parse_videos_tab(fetch(f"https://www.youtube.com/channel/{cid}/videos")), old.get("videos", []))
+                if not videos:
+                    raise ValueError(f"RSS 실패({e_rss}), 동영상 탭도 비어 있음")
             if not videos:
                 raise ValueError("영상 목록이 비어 있음")
-            result.append({"name": ch["name"], "channelId": cid, "handle": ch["handle"],
+            result.append({"name": ch["name"], "channelId": cid, "handle": ch.get("handle", ""),
                            "videos": carry_summaries(videos, old.get("videos", []))})
         except Exception as e:  # 한 채널 실패가 전체를 막지 않게
             errors.append(f"{ch['name']}: {e}")
-            result.append({"name": ch["name"], "channelId": cid, "handle": ch["handle"], "videos": old.get("videos", [])})
+            result.append({"name": ch["name"], "channelId": cid, "handle": ch.get("handle", ""), "videos": old.get("videos", [])})
     return result, errors
 
 

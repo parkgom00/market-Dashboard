@@ -237,3 +237,12 @@ details{margin-top:6px;font-size:13px} details summary{cursor:pointer;color:var(
 .shpct { white-space: nowrap; font-weight: 600; }
 .chip.etf { font-size: 10px; padding: 0 6px; margin: 0 0 0 2px; }
 .chip.krr { border-color: #0f9d8a; color: #0f9d8a; }
+
+/* 당잠사 요약 */
+.djcard h3 { margin: 0; }
+.djhead { font-size: 15px; font-weight: 600; line-height: 1.55; margin: 8px 0 6px; padding: 8px 10px; border-left: 3px solid var(--accent); background: rgba(37, 99, 235, .06); border-radius: 0 8px 8px 0; }
+.djpart { border-top: 1px solid var(--line); padding: 6px 0; }
+.djpart > summary { cursor: pointer; font-weight: 700; font-size: 14px; padding: 4px 0; }
+.djpart ul { margin: 4px 0 4px; padding-left: 18px; }
+.djpart li { font-size: 14px; line-height: 1.6; margin: 3px 0; }
+.djpart li b, .djhead b { color: var(--up); }

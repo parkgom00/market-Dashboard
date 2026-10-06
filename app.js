@@ -213,6 +213,25 @@
       }).join("") + "</div>";
     });
 
+    // 1-2) 간밤 미국장 요약·시황 (한국경제TV #당잠사 영상을 AI 가 요약)
+    var dj = D.dangjamsa || {};
+    var bold = function (t) { return esc(t).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>"); };
+    if ((dj.parts || []).length) {
+      h += '<div class="card djcard"><div class="row"><h3>간밤 미국장 요약 · 시황</h3><span class="meta">' + esc((dj.forDate || "").slice(5).replace("-", "/")) + " 방송</span></div>" +
+        (dj.headline ? '<p class="djhead">' + bold(dj.headline) + "</p>" : "") +
+        dj.parts.map(function (p, i) {
+          return '<details class="djpart"' + (i < 2 ? " open" : "") + "><summary>" + (i + 1) + ". " + esc(p.title || "요점") + "</summary><ul>" +
+            (p.points || []).map(function (x) { return "<li>" + bold(x) + "</li>"; }).join("") + "</ul></details>";
+        }).join("") +
+        '<div class="muted">한국경제TV 유튜브 <a href="' + safeUrl(dj.sumUrl || dj.url) + '" target="_blank" rel="noopener noreferrer">#당잠사 방송</a>을 AI(제미나이)가 요약한 내용입니다' +
+        (dj.generatedAt ? " · " + esc(dj.generatedAt) + " 정리" : "") + ". 방송 내용 요약이며 투자 권유가 아닙니다." +
+        (dj.status ? "<br>" + esc(dj.status) : "") + "</div></div>";
+    } else {
+      h += '<div class="card djcard"><h3>간밤 미국장 요약 · 시황</h3><div class="muted">한국경제TV #당잠사 방송을 매일 아침 AI가 요약해 여기에 보여줍니다. ' +
+        (dj.status ? esc(dj.status) : "아직 요약이 만들어지지 않았습니다.") +
+        (dj.url ? ' <a href="' + safeUrl(dj.url) + '" target="_blank" rel="noopener noreferrer">오늘 방송 보기 ›</a>' : "") + "</div></div>";
+    }
+
     // 2) 히트맵 (S&P 500 시총 상위: 네모 크기 = 시가총액, 색 = 등락률)
     var hm = u.heatmap && (u.heatmap.items || []).length ? u.heatmap : null;
     if (hm) {

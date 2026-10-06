@@ -1,0 +1,28 @@
+name: 당잠사 요약 (한국경제TV 아침 방송)
+on:
+  schedule:
+    - cron: "*/15 23 * * 0-5"   # 08:00~08:45 KST (월~토)
+    - cron: "*/15 0-2 * * 1-6"  # 09:00~11:45 KST (월~토)
+  workflow_dispatch:
+concurrency:
+  group: dangjamsa
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 당잠사 영상 찾기 + 요약
+        working-directory: scanner
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python dangjamsa.py
+      - name: 변경된 데이터 저장
+        if: ${{ !cancelled() }}
+        run: bash scanner/commit_data.sh
