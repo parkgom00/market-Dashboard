@@ -288,7 +288,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장 시작 전",
-  "epsForecast": "$5.88",
+  "epsForecast": "$5.94",
   "eps": "",
   "surprise": ""
  },
@@ -299,7 +299,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장 시작 전",
-  "epsForecast": "$14.05",
+  "epsForecast": "$13.89",
   "eps": "",
   "surprise": ""
  },
@@ -322,7 +322,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "-2.0%"
+  "previous": "3.98M"
  },
  {
   "date": "2026-10-14",
@@ -331,7 +331,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장 시작 전",
-  "epsForecast": "$12.54",
+  "epsForecast": "$12.47",
   "eps": "",
   "surprise": ""
  },
@@ -414,7 +414,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "4.7%"
+  "previous": "0.3%"
  },
  {
   "date": "2026-10-15",
@@ -435,6 +435,16 @@
   "consensus": "",
   "actual": "",
   "previous": "1.2%"
+ },
+ {
+  "date": "2026-10-15",
+  "time": "21:30",
+  "title": "미국 신규 실업수당 청구",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": ""
  },
  {
   "date": "2026-10-15",
@@ -814,6 +824,17 @@
   "kind": "earnings",
   "note": "",
   "epsForecast": "$1.47",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-11-05",
+  "time": "",
+  "title": "ARM 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "장마감 후(한국 다음 날 새벽)",
+  "epsForecast": "$0.22",
   "eps": "",
   "surprise": ""
  },

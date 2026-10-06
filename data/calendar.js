@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-06 15:15",
+ "generatedAt": "2026-10-06 21:15",
  "events": [
   {
    "date": "2026-01-01",
@@ -1268,7 +1268,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "JP모건 실적 발표",
    "result": [
-    "EPS 예상 $5.88",
+    "EPS 예상 $5.94",
     "장 시작 전"
    ]
   },
@@ -1278,7 +1278,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "골드만삭스 실적 발표",
    "result": [
-    "EPS 예상 $14.05",
+    "EPS 예상 $13.89",
     "장 시작 전"
    ]
   },
@@ -1299,7 +1299,7 @@ window.DASH.calendar = {
    "title": "미국 기존주택판매",
    "time": "23:00",
    "result": [
-    "이전 -2.0%"
+    "이전 3.98M"
    ]
   },
   {
@@ -1308,7 +1308,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "ASML 실적 발표",
    "result": [
-    "EPS 예상 $12.54",
+    "EPS 예상 $12.47",
     "장 시작 전"
    ]
   },
@@ -1370,7 +1370,7 @@ window.DASH.calendar = {
    "title": "미국 PPI",
    "time": "21:30",
    "result": [
-    "이전 4.7%"
+    "이전 0.3%"
    ]
   },
   {
@@ -1392,6 +1392,13 @@ window.DASH.calendar = {
    "result": [
     "이전 1.2%"
    ]
+  },
+  {
+   "date": "2026-10-15",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 신규 실업수당 청구",
+   "time": "21:30"
   },
   {
    "date": "2026-10-15",
