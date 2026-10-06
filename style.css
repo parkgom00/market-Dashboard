@@ -246,3 +246,4 @@ details{margin-top:6px;font-size:13px} details summary{cursor:pointer;color:var(
 .djpart ul { margin: 4px 0 4px; padding-left: 18px; }
 .djpart li { font-size: 14px; line-height: 1.6; margin: 3px 0; }
 .djpart li b, .djhead b { color: var(--up); }
+.djpart > summary { color: var(--text); }
