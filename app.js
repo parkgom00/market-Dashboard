@@ -411,8 +411,7 @@
       '<a class="chartlink" href="' + link + '" target="_blank" rel="noopener noreferrer" title="차트 보기">📈</a> ' +
       '<span class="meta">' + esc(code) + "</span></div></div>";
     if ((tags || []).length) h += '<div class="tagrow">' + tags.map(function (t) {
-      return '<span class="rt-line"><span class="rtag rt-' + t.k + '">' + esc(t.text) + "</span>" +
-        (t.title ? '<span class="rlabel rl-' + t.k + '">' + esc(t.title) + "</span>" : "") + "</span>";
+      return '<span class="rlabel rl-' + t.k + '">' + esc(t.title || t.text) + "</span>";
     }).join("") + "</div>";
     var chips = "";
     if (s.market) chips += '<span class="chip mk-' + esc(s.market.toLowerCase()) + '">' + esc(s.market) + "</span>";
