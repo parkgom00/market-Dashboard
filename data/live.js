@@ -1,9 +1,15 @@
 // 자동 생성 파일 (scanner/build_live.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.live = {
- "asOf": "2026-10-06 12:47",
+ "asOf": "2026-10-06 12:50",
  "kr": {
   "gainers": [
+   {
+    "code": "411080",
+    "name": "샌즈랩",
+    "price": 8970,
+    "changePct": 30.0
+   },
    {
     "code": "042510",
     "name": "라온시큐어",
@@ -23,254 +29,248 @@ window.DASH.live = {
     "changePct": 29.91
    },
    {
-    "code": "411080",
-    "name": "샌즈랩",
-    "price": 8950,
-    "changePct": 29.71
-   },
-   {
     "code": "065770",
     "name": "CS",
-    "price": 999,
-    "changePct": 25.82
-   },
-   {
-    "code": "067630",
-    "name": "HLB생명과학",
-    "price": 4445,
-    "changePct": 24.34
+    "price": 1003,
+    "changePct": 26.32
    },
    {
     "code": "365590",
     "name": "하이딥",
-    "price": 1606,
-    "changePct": 23.82
+    "price": 1623,
+    "changePct": 25.13
    },
    {
     "code": "263860",
     "name": "지니언스",
-    "price": 25250,
-    "changePct": 23.77
+    "price": 25200,
+    "changePct": 23.53
+   },
+   {
+    "code": "067630",
+    "name": "HLB생명과학",
+    "price": 4410,
+    "changePct": 23.36
    },
    {
     "code": "158430",
     "name": "아톤",
-    "price": 6750,
-    "changePct": 22.73
-   },
-   {
-    "code": "160190",
-    "name": "하이젠알앤엠",
-    "price": 34850,
-    "changePct": 21.43
-   },
-   {
-    "code": "003580",
-    "name": "HLB글로벌",
-    "price": 2140,
-    "changePct": 20.84
-   },
-   {
-    "code": "150900",
-    "name": "파수AI",
-    "price": 4710,
-    "changePct": 20.46
+    "price": 6760,
+    "changePct": 22.91
    },
    {
     "code": "115610",
     "name": "이미지스",
-    "price": 1973,
-    "changePct": 19.5
+    "price": 1984,
+    "changePct": 20.17
+   },
+   {
+    "code": "003580",
+    "name": "HLB글로벌",
+    "price": 2115,
+    "changePct": 19.42
+   },
+   {
+    "code": "085910",
+    "name": "네오티스",
+    "price": 20450,
+    "changePct": 19.17
    },
    {
     "code": "480370",
     "name": "씨케이솔루션",
-    "price": 2255,
-    "changePct": 17.69
+    "price": 2260,
+    "changePct": 17.95
    },
    {
-    "code": "488280",
-    "name": "에스투더블유",
-    "price": 17990,
-    "changePct": 17.12
+    "code": "150900",
+    "name": "파수AI",
+    "price": 4605,
+    "changePct": 17.77
    },
    {
     "code": "200350",
     "name": "아티스트스튜디오",
-    "price": 3865,
-    "changePct": 17.12
-   },
-   {
-    "code": "115500",
-    "name": "케이씨에스",
-    "price": 12520,
-    "changePct": 16.9
-   },
-   {
-    "code": "028300",
-    "name": "HLB",
-    "price": 47275,
-    "changePct": 16.87
-   },
-   {
-    "code": "136150",
-    "name": "원일티엔아이",
-    "price": 14530,
-    "changePct": 16.8
+    "price": 3885,
+    "changePct": 17.73
    },
    {
     "code": "434480",
     "name": "모니터랩",
     "price": 3380,
     "changePct": 16.75
+   },
+   {
+    "code": "036930",
+    "name": "주성엔지니어링",
+    "price": 276500,
+    "changePct": 16.67
+   },
+   {
+    "code": "028300",
+    "name": "HLB",
+    "price": 47150,
+    "changePct": 16.56
+   },
+   {
+    "code": "136150",
+    "name": "원일티엔아이",
+    "price": 14470,
+    "changePct": 16.32
+   },
+   {
+    "code": "488280",
+    "name": "에스투더블유",
+    "price": 17820,
+    "changePct": 16.02
    }
   ],
   "value": [
    {
     "code": "000660",
     "name": "SK하이닉스",
-    "price": 1786500,
-    "changePct": -2.96,
-    "valueEok": 24743
+    "price": 1788000,
+    "changePct": -2.88,
+    "valueEok": 25953
    },
    {
     "code": "005930",
     "name": "삼성전자",
-    "price": 271250,
-    "changePct": -1.72,
-    "valueEok": 18588
+    "price": 271500,
+    "changePct": -1.63,
+    "valueEok": 19444
    },
    {
     "code": "069500",
     "name": "KODEX 200",
-    "price": 110617,
-    "changePct": -1.29,
-    "valueEok": 17015
+    "price": 110660,
+    "changePct": -1.25,
+    "valueEok": 17646
    },
    {
     "code": "102110",
     "name": "TIGER 200",
-    "price": 110915,
-    "changePct": -1.18,
-    "valueEok": 9477
+    "price": 110940,
+    "changePct": -1.15,
+    "valueEok": 9786
    },
    {
     "code": "459580",
     "name": "KODEX CD금리액티브(합성)",
-    "price": 1073857,
+    "price": 1073860,
     "changePct": 0.01,
-    "valueEok": 9163
+    "valueEok": 9276
+   },
+   {
+    "code": "122630",
+    "name": "KODEX 레버리지",
+    "price": 111565,
+    "changePct": -2.47,
+    "valueEok": 8694
    },
    {
     "code": "009150",
     "name": "삼성전기",
     "price": 1662000,
     "changePct": 5.12,
-    "valueEok": 8373
-   },
-   {
-    "code": "122630",
-    "name": "KODEX 레버리지",
-    "price": 111480,
-    "changePct": -2.55,
-    "valueEok": 8342
+    "valueEok": 8578
    },
    {
     "code": "036930",
     "name": "주성엔지니어링",
-    "price": 276000,
-    "changePct": 16.46,
-    "valueEok": 6919
+    "price": 276500,
+    "changePct": 16.67,
+    "valueEok": 7040
    },
    {
     "code": "133690",
     "name": "TIGER 미국나스닥100",
-    "price": 184900,
-    "changePct": 1.01,
-    "valueEok": 6508
+    "price": 184915,
+    "changePct": 1.02,
+    "valueEok": 6984
    },
    {
     "code": "360750",
     "name": "TIGER 미국S&P500",
-    "price": 25920,
-    "changePct": 0.54,
-    "valueEok": 5271
+    "price": 25925,
+    "changePct": 0.56,
+    "valueEok": 5466
    },
    {
     "code": "379800",
     "name": "KODEX 미국S&P500",
     "price": 23565,
     "changePct": 0.58,
-    "valueEok": 4707
+    "valueEok": 4942
    },
    {
     "code": "379810",
     "name": "KODEX 미국나스닥100",
     "price": 27650,
     "changePct": 0.97,
-    "valueEok": 4582
+    "valueEok": 4930
    },
    {
     "code": "402340",
     "name": "SK스퀘어",
     "price": 1148000,
     "changePct": -1.03,
-    "valueEok": 4551
+    "valueEok": 4688
    },
    {
     "code": "233740",
     "name": "KODEX 코스닥150레버리지",
-    "price": 8685,
-    "changePct": 8.09,
-    "valueEok": 4206
+    "price": 8675,
+    "changePct": 7.97,
+    "valueEok": 4301
    },
    {
     "code": "229200",
     "name": "KODEX 코스닥150",
-    "price": 15830,
-    "changePct": 4.28,
-    "valueEok": 2536
-   },
-   {
-    "code": "252670",
-    "name": "KODEX 200선물인버스2X",
-    "price": 70,
-    "changePct": 1.45,
-    "valueEok": 2514
+    "price": 15820,
+    "changePct": 4.22,
+    "valueEok": 2674
    },
    {
     "code": "114800",
     "name": "KODEX 인버스",
     "price": 989,
     "changePct": 1.44,
-    "valueEok": 2505
+    "valueEok": 2578
    },
    {
-    "code": "028300",
-    "name": "HLB",
-    "price": 47275,
-    "changePct": 16.87,
-    "valueEok": 2292
+    "code": "252670",
+    "name": "KODEX 200선물인버스2X",
+    "price": 70,
+    "changePct": 1.45,
+    "valueEok": 2516
    },
    {
     "code": "494310",
     "name": "KODEX 반도체레버리지",
-    "price": 106810,
-    "changePct": 2.66,
-    "valueEok": 2262
+    "price": 107165,
+    "changePct": 3.0,
+    "valueEok": 2319
+   },
+   {
+    "code": "028300",
+    "name": "HLB",
+    "price": 47150,
+    "changePct": 16.56,
+    "valueEok": 2307
    },
    {
     "code": "006400",
     "name": "삼성SDI",
-    "price": 570000,
-    "changePct": 7.75,
-    "valueEok": 2121
+    "price": 571000,
+    "changePct": 7.94,
+    "valueEok": 2251
    }
   ],
   "themes": [
    {
     "name": "딥페이크(deepfake)",
-    "rate": 9.54,
+    "rate": 9.46,
     "rise": 12,
     "total": 14,
     "stocks": [
@@ -280,19 +280,19 @@ window.DASH.live = {
      },
      {
       "name": "샌즈랩",
-      "changePct": 29.71
+      "changePct": 30.0
      },
      {
       "name": "아이씨티케이",
-      "changePct": 15.06
+      "changePct": 14.66
      },
      {
       "name": "에스피소프트",
-      "changePct": 7.91
+      "changePct": 8.33
      },
      {
       "name": "파수AI",
-      "changePct": 20.46
+      "changePct": 17.77
      },
      {
       "name": "이스트소프트",
@@ -304,31 +304,31 @@ window.DASH.live = {
      },
      {
       "name": "크라우드웍스",
-      "changePct": 7.39
+      "changePct": 6.61
      },
      {
       "name": "알체라",
-      "changePct": 4.93
+      "changePct": 4.87
      },
      {
       "name": "스톤브릿지벤처스",
-      "changePct": 1.63
+      "changePct": 1.74
      }
     ]
    },
    {
     "name": "보안주(정보)",
-    "rate": 7.01,
-    "rise": 45,
+    "rate": 7.04,
+    "rise": 44,
     "total": 52,
     "stocks": [
      {
       "name": "엑스게이트",
-      "changePct": 9.37
+      "changePct": 8.83
      },
      {
       "name": "에스투더블유",
-      "changePct": 17.12
+      "changePct": 16.02
      },
      {
       "name": "라온시큐어",
@@ -336,85 +336,37 @@ window.DASH.live = {
      },
      {
       "name": "아톤",
-      "changePct": 22.73
+      "changePct": 22.91
+     },
+     {
+      "name": "한컴위드",
+      "changePct": 13.8
      },
      {
       "name": "샌즈랩",
-      "changePct": 29.71
-     },
-     {
-      "name": "한컴위드",
-      "changePct": 11.18
-     },
-     {
-      "name": "아이씨티케이",
-      "changePct": 15.06
+      "changePct": 30.0
      },
      {
       "name": "드림시큐리티",
-      "changePct": 10.19
+      "changePct": 9.84
+     },
+     {
+      "name": "아이씨티케이",
+      "changePct": 14.66
      },
      {
       "name": "지니언스",
-      "changePct": 23.77
+      "changePct": 23.53
      },
      {
       "name": "안랩",
-      "changePct": 13.38
-     }
-    ]
-   },
-   {
-    "name": "양자암호/양자컴퓨팅",
-    "rate": 5.73,
-    "rise": 18,
-    "total": 26,
-    "stocks": [
-     {
-      "name": "엑스게이트",
-      "changePct": 9.37
-     },
-     {
-      "name": "라온시큐어",
-      "changePct": 29.98
-     },
-     {
-      "name": "아톤",
-      "changePct": 22.73
-     },
-     {
-      "name": "우리로",
-      "changePct": 2.04
-     },
-     {
-      "name": "한컴위드",
-      "changePct": 11.18
-     },
-     {
-      "name": "아이씨티케이",
-      "changePct": 15.06
-     },
-     {
-      "name": "드림시큐리티",
-      "changePct": 10.19
-     },
-     {
-      "name": "SK텔레콤",
-      "changePct": -0.57
-     },
-     {
-      "name": "케이씨에스",
-      "changePct": 16.9
-     },
-     {
-      "name": "한국첨단소재",
-      "changePct": 4.61
+      "changePct": 14.81
      }
     ]
    },
    {
     "name": "반도체 기판(FC-BGA/PCB/MLB 등)",
-    "rate": 5.65,
+    "rate": 5.93,
     "rise": 13,
     "total": 14,
     "stocks": [
@@ -424,7 +376,7 @@ window.DASH.live = {
      },
      {
       "name": "LG이노텍",
-      "changePct": 9.06
+      "changePct": 9.23
      },
      {
       "name": "이수페타시스",
@@ -436,7 +388,7 @@ window.DASH.live = {
      },
      {
       "name": "심텍",
-      "changePct": 6.94
+      "changePct": 6.7
      },
      {
       "name": "코리아써키트",
@@ -444,43 +396,91 @@ window.DASH.live = {
      },
      {
       "name": "티엘비",
-      "changePct": 5.26
+      "changePct": 5.06
      },
      {
       "name": "태성",
-      "changePct": 3.87
+      "changePct": 4.03
      },
      {
       "name": "인텍플러스",
-      "changePct": 1.69
+      "changePct": 1.86
      },
      {
       "name": "덕산하이메탈",
-      "changePct": 1.57
+      "changePct": 1.78
+     }
+    ]
+   },
+   {
+    "name": "양자암호/양자컴퓨팅",
+    "rate": 5.87,
+    "rise": 19,
+    "total": 26,
+    "stocks": [
+     {
+      "name": "엑스게이트",
+      "changePct": 8.83
+     },
+     {
+      "name": "라온시큐어",
+      "changePct": 29.98
+     },
+     {
+      "name": "아톤",
+      "changePct": 22.91
+     },
+     {
+      "name": "한컴위드",
+      "changePct": 13.8
+     },
+     {
+      "name": "우리로",
+      "changePct": 2.16
+     },
+     {
+      "name": "드림시큐리티",
+      "changePct": 9.84
+     },
+     {
+      "name": "아이씨티케이",
+      "changePct": 14.66
+     },
+     {
+      "name": "케이씨에스",
+      "changePct": 15.59
+     },
+     {
+      "name": "한국첨단소재",
+      "changePct": 4.44
+     },
+     {
+      "name": "한국정보인증",
+      "changePct": 7.71
      }
     ]
    },
    {
     "name": "마이데이터",
-    "rate": 4.77,
+    "rate": 4.55,
     "rise": 9,
     "total": 12,
     "stocks": [
      {
       "name": "아톤",
-      "changePct": 22.73
+      "changePct": 22.91
      },
      {
       "name": "NAVER",
-      "changePct": 0.0
+      "changePct": -0.05
      },
      {
       "name": "파수AI",
-      "changePct": 20.46
+      "changePct": 17.77
      },
      {
       "name": "핑거",
-      "changePct": -0.54
+      "changePct": -0.95
      },
      {
       "name": "쿠콘",
@@ -488,15 +488,15 @@ window.DASH.live = {
      },
      {
       "name": "파이오링크",
-      "changePct": 6.35
+      "changePct": 5.87
      },
      {
       "name": "헥토이노베이션",
-      "changePct": 4.87
+      "changePct": 5.23
      },
      {
       "name": "NICE평가정보",
-      "changePct": 0.55
+      "changePct": 0.37
      },
      {
       "name": "세종텔레콤",
@@ -509,57 +509,9 @@ window.DASH.live = {
     ]
    },
    {
-    "name": "블록체인",
-    "rate": 4.47,
-    "rise": 15,
-    "total": 23,
-    "stocks": [
-     {
-      "name": "라온시큐어",
-      "changePct": 29.98
-     },
-     {
-      "name": "한컴위드",
-      "changePct": 11.18
-     },
-     {
-      "name": "SK",
-      "changePct": 0.17
-     },
-     {
-      "name": "드림시큐리티",
-      "changePct": 10.19
-     },
-     {
-      "name": "NAVER",
-      "changePct": 0.0
-     },
-     {
-      "name": "카카오",
-      "changePct": 0.15
-     },
-     {
-      "name": "SK텔레콤",
-      "changePct": -0.57
-     },
-     {
-      "name": "삼성에스디에스",
-      "changePct": -0.46
-     },
-     {
-      "name": "LG",
-      "changePct": 3.69
-     },
-     {
-      "name": "파수AI",
-      "changePct": 20.46
-     }
-    ]
-   },
-   {
     "name": "바이오인식(생체인식)",
-    "rate": 4.37,
-    "rise": 16,
+    "rate": 4.48,
+    "rise": 19,
     "total": 19,
     "stocks": [
      {
@@ -568,35 +520,35 @@ window.DASH.live = {
      },
      {
       "name": "드림시큐리티",
-      "changePct": 10.19
+      "changePct": 9.84
      },
      {
       "name": "드림텍",
-      "changePct": 2.13
+      "changePct": 2.45
      },
      {
       "name": "에프에스티",
-      "changePct": 0.7
+      "changePct": 1.12
      },
      {
       "name": "슈프리마",
-      "changePct": 8.39
+      "changePct": 9.49
      },
      {
       "name": "아이티센피엔에스",
-      "changePct": 7.01
+      "changePct": 6.84
      },
      {
       "name": "유니퀘스트",
-      "changePct": -0.19
+      "changePct": 0.29
      },
      {
       "name": "동운아나텍",
-      "changePct": 0.0
+      "changePct": 0.19
      },
      {
       "name": "해성옵틱스",
-      "changePct": 2.53
+      "changePct": 2.62
      },
      {
       "name": "시선AI",
@@ -605,9 +557,57 @@ window.DASH.live = {
     ]
    },
    {
+    "name": "블록체인",
+    "rate": 4.37,
+    "rise": 13,
+    "total": 23,
+    "stocks": [
+     {
+      "name": "라온시큐어",
+      "changePct": 29.98
+     },
+     {
+      "name": "한컴위드",
+      "changePct": 13.8
+     },
+     {
+      "name": "드림시큐리티",
+      "changePct": 9.84
+     },
+     {
+      "name": "SK",
+      "changePct": 0.17
+     },
+     {
+      "name": "NAVER",
+      "changePct": -0.05
+     },
+     {
+      "name": "카카오",
+      "changePct": 0.15
+     },
+     {
+      "name": "SK텔레콤",
+      "changePct": -0.68
+     },
+     {
+      "name": "삼성에스디에스",
+      "changePct": -0.68
+     },
+     {
+      "name": "LG",
+      "changePct": 3.15
+     },
+     {
+      "name": "파수AI",
+      "changePct": 17.77
+     }
+    ]
+   },
+   {
     "name": "스테이블코인",
-    "rate": 4.08,
-    "rise": 17,
+    "rate": 4.06,
+    "rise": 16,
     "total": 25,
     "stocks": [
      {
@@ -616,90 +616,90 @@ window.DASH.live = {
      },
      {
       "name": "아톤",
-      "changePct": 22.73
+      "changePct": 22.91
      },
      {
       "name": "한컴위드",
-      "changePct": 11.18
+      "changePct": 13.8
      },
      {
       "name": "드림시큐리티",
-      "changePct": 10.19
+      "changePct": 9.84
      },
      {
       "name": "NAVER",
-      "changePct": 0.0
+      "changePct": -0.05
      },
      {
       "name": "LG씨엔에스",
-      "changePct": 2.09
+      "changePct": 1.95
      },
      {
       "name": "한국정보인증",
-      "changePct": 8.48
+      "changePct": 7.71
      },
      {
       "name": "다날",
-      "changePct": 3.74
+      "changePct": 3.41
      },
      {
       "name": "아이티센글로벌",
-      "changePct": 2.22
+      "changePct": 2.39
      },
      {
       "name": "카카오페이",
-      "changePct": 0.37
+      "changePct": 0.25
      }
     ]
    },
    {
     "name": "2차전지(나트륨이온)",
-    "rate": 3.94,
+    "rate": 4.06,
     "rise": 8,
     "total": 9,
     "stocks": [
      {
       "name": "삼성SDI",
-      "changePct": 7.75
+      "changePct": 7.94
      },
      {
       "name": "LG에너지솔루션",
-      "changePct": 4.72
+      "changePct": 4.85
      },
      {
       "name": "에코프로",
-      "changePct": 6.86
+      "changePct": 6.52
      },
      {
       "name": "에코프로비엠",
-      "changePct": 10.72
+      "changePct": 10.29
      },
      {
       "name": "메가터치",
-      "changePct": -2.39
+      "changePct": -0.55
      },
      {
       "name": "나인테크",
-      "changePct": 1.24
+      "changePct": 0.89
      },
      {
       "name": "애경케미칼",
-      "changePct": 2.11
+      "changePct": 2.3
      },
      {
       "name": "더블유씨피",
-      "changePct": 2.41
+      "changePct": 2.22
      },
      {
       "name": "디아이씨",
-      "changePct": 2.09
+      "changePct": 2.26
      }
     ]
    },
    {
     "name": "핀테크(FinTech)",
-    "rate": 3.69,
-    "rise": 20,
+    "rate": 3.7,
+    "rise": 18,
     "total": 33,
     "stocks": [
      {
@@ -708,15 +708,19 @@ window.DASH.live = {
      },
      {
       "name": "아톤",
-      "changePct": 22.73
+      "changePct": 22.91
      },
      {
       "name": "한컴위드",
-      "changePct": 11.18
+      "changePct": 13.8
      },
      {
       "name": "SK",
       "changePct": 0.17
+     },
+     {
+      "name": "NAVER",
+      "changePct": -0.05
      },
      {
       "name": "카카오",
@@ -724,35 +728,79 @@ window.DASH.live = {
      },
      {
       "name": "아모텍",
-      "changePct": 3.38
+      "changePct": 4.35
      },
      {
       "name": "한국정보인증",
-      "changePct": 8.48
+      "changePct": 7.71
      },
      {
       "name": "다날",
-      "changePct": 3.74
+      "changePct": 3.41
      },
      {
       "name": "이글루",
-      "changePct": 9.22
+      "changePct": 8.53
+     }
+    ]
+   },
+   {
+    "name": "리비안(RIVIAN)",
+    "rate": 3.49,
+    "rise": 15,
+    "total": 21,
+    "stocks": [
+     {
+      "name": "삼성SDI",
+      "changePct": 7.94
      },
      {
-      "name": "카카오페이",
-      "changePct": 0.37
+      "name": "TCC스틸",
+      "changePct": 9.73
+     },
+     {
+      "name": "알멕",
+      "changePct": 15.56
+     },
+     {
+      "name": "포스코인터내셔널",
+      "changePct": 1.24
+     },
+     {
+      "name": "HL만도",
+      "changePct": 0.74
+     },
+     {
+      "name": "상신이디피",
+      "changePct": 11.66
+     },
+     {
+      "name": "SFA넥셀",
+      "changePct": 4.91
+     },
+     {
+      "name": "모베이스전자",
+      "changePct": 7.57
+     },
+     {
+      "name": "피엔티",
+      "changePct": 2.62
+     },
+     {
+      "name": "아모그린텍",
+      "changePct": 2.59
      }
     ]
    },
    {
     "name": "스페이스X(SpaceX)",
-    "rate": 3.58,
+    "rate": 3.36,
     "rise": 14,
     "total": 14,
     "stocks": [
      {
       "name": "LG에너지솔루션",
-      "changePct": 4.72
+      "changePct": 4.85
      },
      {
       "name": "한미반도체",
@@ -764,187 +812,91 @@ window.DASH.live = {
      },
      {
       "name": "미래에셋증권",
-      "changePct": 1.9
+      "changePct": 1.26
      },
      {
       "name": "센서뷰",
-      "changePct": 10.32
+      "changePct": 9.26
      },
      {
       "name": "아주IB투자",
-      "changePct": 3.68
+      "changePct": 3.17
      },
      {
       "name": "켄코아에어로스페이스",
-      "changePct": 2.89
+      "changePct": 2.6
      },
      {
       "name": "미래에셋벤처투자",
-      "changePct": 3.35
+      "changePct": 3.13
      },
      {
       "name": "에이치브이엠",
-      "changePct": 7.55
+      "changePct": 7.12
      },
      {
       "name": "와이제이링크",
-      "changePct": 1.2
-     }
-    ]
-   },
-   {
-    "name": "리비안(RIVIAN)",
-    "rate": 3.33,
-    "rise": 17,
-    "total": 21,
-    "stocks": [
-     {
-      "name": "삼성SDI",
-      "changePct": 7.75
-     },
-     {
-      "name": "TCC스틸",
-      "changePct": 9.58
-     },
-     {
-      "name": "알멕",
-      "changePct": 15.33
-     },
-     {
-      "name": "포스코인터내셔널",
-      "changePct": 1.59
-     },
-     {
-      "name": "HL만도",
-      "changePct": 0.85
-     },
-     {
-      "name": "상신이디피",
-      "changePct": 9.19
-     },
-     {
-      "name": "SFA넥셀",
-      "changePct": 5.15
-     },
-     {
-      "name": "모베이스전자",
-      "changePct": 8.79
-     },
-     {
-      "name": "피엔티",
-      "changePct": 3.09
-     },
-     {
-      "name": "아모그린텍",
-      "changePct": 2.29
+      "changePct": 0.12
      }
     ]
    },
    {
     "name": "NI(네트워크통합)",
-    "rate": 3.31,
+    "rate": 3.21,
     "rise": 7,
     "total": 7,
     "stocks": [
      {
       "name": "오파스넷",
-      "changePct": 2.98
+      "changePct": 4.01
      },
      {
       "name": "오픈베이스",
-      "changePct": 4.15
+      "changePct": 3.24
      },
      {
       "name": "링네트",
-      "changePct": 2.36
+      "changePct": 2.12
      },
      {
       "name": "인성정보",
-      "changePct": 5.17
+      "changePct": 4.71
      },
      {
       "name": "에스넷",
-      "changePct": 3.4
+      "changePct": 3.14
      },
      {
       "name": "아이티센씨티에스",
-      "changePct": 3.5
+      "changePct": 3.67
      },
      {
       "name": "광무",
-      "changePct": 1.6
-     }
-    ]
-   },
-   {
-    "name": "줄기세포",
-    "rate": 3.04,
-    "rise": 12,
-    "total": 18,
-    "stocks": [
-     {
-      "name": "파미셀",
-      "changePct": 6.69
-     },
-     {
-      "name": "HLB생명과학",
-      "changePct": 24.34
-     },
-     {
-      "name": "네이처셀",
-      "changePct": 0.0
-     },
-     {
-      "name": "차바이오텍",
-      "changePct": 2.01
-     },
-     {
-      "name": "메디포스트",
-      "changePct": 5.36
-     },
-     {
-      "name": "에스바이오메딕스",
-      "changePct": 9.57
-     },
-     {
-      "name": "바이오솔루션",
-      "changePct": 0.6
-     },
-     {
-      "name": "강스템바이오텍",
-      "changePct": 0.45
-     },
-     {
-      "name": "이엔셀",
-      "changePct": 1.17
-     },
-     {
-      "name": "코아스템켐온",
-      "changePct": 1.51
+      "changePct": 1.53
      }
     ]
    },
    {
     "name": "리튬",
-    "rate": 2.99,
+    "rate": 3.05,
     "rise": 18,
     "total": 22,
     "stocks": [
      {
       "name": "LG에너지솔루션",
-      "changePct": 4.72
+      "changePct": 4.85
      },
      {
       "name": "에코프로",
-      "changePct": 6.86
+      "changePct": 6.52
      },
      {
       "name": "후성",
-      "changePct": -0.43
+      "changePct": -0.92
      },
      {
       "name": "포스코퓨처엠",
-      "changePct": 5.46
+      "changePct": 5.35
      },
      {
       "name": "POSCO홀딩스",
@@ -952,7 +904,7 @@ window.DASH.live = {
      },
      {
       "name": "LG화학",
-      "changePct": 4.57
+      "changePct": 4.76
      },
      {
       "name": "엔켐",
@@ -960,69 +912,21 @@ window.DASH.live = {
      },
      {
       "name": "미래산업",
-      "changePct": 4.19
+      "changePct": 4.91
      },
      {
       "name": "세방전지",
-      "changePct": 3.54
+      "changePct": 3.7
      },
      {
       "name": "코스모화학",
-      "changePct": 4.6
-     }
-    ]
-   },
-   {
-    "name": "재택근무/스마트워크",
-    "rate": 2.98,
-    "rise": 13,
-    "total": 15,
-    "stocks": [
-     {
-      "name": "파수AI",
-      "changePct": 20.46
-     },
-     {
-      "name": "NHN",
-      "changePct": 0.18
-     },
-     {
-      "name": "오파스넷",
-      "changePct": 2.98
-     },
-     {
-      "name": "소프트캠프",
-      "changePct": 3.4
-     },
-     {
-      "name": "링네트",
-      "changePct": 2.36
-     },
-     {
-      "name": "폴라리스오피스",
-      "changePct": 1.72
-     },
-     {
-      "name": "휴네시온",
-      "changePct": 5.37
-     },
-     {
-      "name": "에스넷",
-      "changePct": 3.4
-     },
-     {
-      "name": "제이씨현시스템",
-      "changePct": 0.79
-     },
-     {
-      "name": "알서포트",
-      "changePct": 1.75
+      "changePct": 4.38
      }
     ]
    },
    {
     "name": "PCB(FPCB 등)",
-    "rate": 2.97,
+    "rate": 3.03,
     "rise": 26,
     "total": 31,
     "stocks": [
@@ -1040,7 +944,7 @@ window.DASH.live = {
      },
      {
       "name": "심텍",
-      "changePct": 6.94
+      "changePct": 6.7
      },
      {
       "name": "코리아써키트",
@@ -1048,71 +952,167 @@ window.DASH.live = {
      },
      {
       "name": "롯데에너지머티리얼즈",
-      "changePct": 5.91
+      "changePct": 6.1
      },
      {
       "name": "티엘비",
-      "changePct": 5.26
+      "changePct": 5.06
      },
      {
       "name": "태성",
-      "changePct": 3.87
+      "changePct": 4.03
      },
      {
       "name": "비에이치",
-      "changePct": 5.05
+      "changePct": 5.77
      },
      {
       "name": "필옵틱스",
-      "changePct": 1.83
+      "changePct": 2.08
      }
     ]
    },
    {
-    "name": "스마트그리드(지능형전력망)",
-    "rate": 2.76,
-    "rise": 15,
-    "total": 20,
+    "name": "재택근무/스마트워크",
+    "rate": 2.96,
+    "rise": 14,
+    "total": 15,
     "stocks": [
      {
-      "name": "삼화콘덴서",
-      "changePct": 3.32
+      "name": "파수AI",
+      "changePct": 17.77
      },
      {
-      "name": "LS ELECTRIC",
-      "changePct": 2.15
+      "name": "NHN",
+      "changePct": 0.18
      },
      {
-      "name": "일진전기",
-      "changePct": 1.16
+      "name": "오파스넷",
+      "changePct": 4.01
      },
      {
-      "name": "비츠로셀",
-      "changePct": 1.69
+      "name": "소프트캠프",
+      "changePct": 3.67
      },
      {
-      "name": "포스코DX",
-      "changePct": 5.04
+      "name": "링네트",
+      "changePct": 2.12
      },
      {
-      "name": "지투파워",
-      "changePct": 2.96
+      "name": "폴라리스오피스",
+      "changePct": 1.72
      },
      {
-      "name": "CS",
-      "changePct": 25.82
+      "name": "휴네시온",
+      "changePct": 5.37
      },
      {
-      "name": "한전산업",
-      "changePct": -0.16
+      "name": "에스넷",
+      "changePct": 3.14
      },
      {
-      "name": "아모그린텍",
-      "changePct": 2.29
+      "name": "제이씨현시스템",
+      "changePct": 0.79
      },
      {
-      "name": "스맥",
-      "changePct": -0.25
+      "name": "알서포트",
+      "changePct": 1.34
+     }
+    ]
+   },
+   {
+    "name": "줄기세포",
+    "rate": 2.95,
+    "rise": 13,
+    "total": 18,
+    "stocks": [
+     {
+      "name": "파미셀",
+      "changePct": 6.57
+     },
+     {
+      "name": "HLB생명과학",
+      "changePct": 23.36
+     },
+     {
+      "name": "네이처셀",
+      "changePct": 0.2
+     },
+     {
+      "name": "차바이오텍",
+      "changePct": 2.13
+     },
+     {
+      "name": "메디포스트",
+      "changePct": 5.05
+     },
+     {
+      "name": "에스바이오메딕스",
+      "changePct": 9.33
+     },
+     {
+      "name": "바이오솔루션",
+      "changePct": -0.45
+     },
+     {
+      "name": "강스템바이오텍",
+      "changePct": 0.22
+     },
+     {
+      "name": "이엔셀",
+      "changePct": 1.0
+     },
+     {
+      "name": "코아스템켐온",
+      "changePct": 1.94
+     }
+    ]
+   },
+   {
+    "name": "2차전지(소재/부품)",
+    "rate": 2.78,
+    "rise": 57,
+    "total": 73,
+    "stocks": [
+     {
+      "name": "에코프로",
+      "changePct": 6.52
+     },
+     {
+      "name": "에코프로비엠",
+      "changePct": 10.29
+     },
+     {
+      "name": "엘앤에프",
+      "changePct": 9.22
+     },
+     {
+      "name": "포스코퓨처엠",
+      "changePct": 5.35
+     },
+     {
+      "name": "TCC스틸",
+      "changePct": 9.73
+     },
+     {
+      "name": "LG화학",
+      "changePct": 4.76
+     },
+     {
+      "name": "롯데에너지머티리얼즈",
+      "changePct": 6.1
+     },
+     {
+      "name": "알멕",
+      "changePct": 15.56
+     },
+     {
+      "name": "삼아알미늄",
+      "changePct": 12.46
+     },
+     {
+      "name": "에코프로머티",
+      "changePct": 4.21
      }
     ]
    },
@@ -1124,97 +1124,97 @@ window.DASH.live = {
     "stocks": [
      {
       "name": "삼성SDI",
-      "changePct": 7.75
+      "changePct": 7.94
      },
      {
       "name": "에코프로",
-      "changePct": 6.86
+      "changePct": 6.52
      },
      {
       "name": "에코프로비엠",
-      "changePct": 10.72
+      "changePct": 10.29
      },
      {
       "name": "엘앤에프",
-      "changePct": 9.57
-     },
-     {
-      "name": "포스코퓨처엠",
-      "changePct": 5.46
+      "changePct": 9.22
      },
      {
       "name": "TCC스틸",
-      "changePct": 9.58
+      "changePct": 9.73
      },
      {
       "name": "롯데에너지머티리얼즈",
-      "changePct": 5.91
+      "changePct": 6.1
      },
      {
       "name": "알멕",
-      "changePct": 15.33
+      "changePct": 15.56
      },
      {
       "name": "삼아알미늄",
-      "changePct": 11.34
+      "changePct": 12.46
      },
      {
       "name": "상신이디피",
-      "changePct": 9.19
+      "changePct": 11.66
+     },
+     {
+      "name": "코칩",
+      "changePct": 5.67
      }
     ]
    },
    {
-    "name": "2차전지(소재/부품)",
-    "rate": 2.66,
-    "rise": 58,
-    "total": 73,
+    "name": "2차전지(전고체)",
+    "rate": 2.67,
+    "rise": 25,
+    "total": 30,
     "stocks": [
      {
-      "name": "에코프로",
-      "changePct": 6.86
+      "name": "삼성전기",
+      "changePct": 5.12
      },
      {
-      "name": "에코프로비엠",
-      "changePct": 10.72
+      "name": "삼성SDI",
+      "changePct": 7.94
      },
      {
-      "name": "엘앤에프",
-      "changePct": 9.57
+      "name": "LG에너지솔루션",
+      "changePct": 4.85
      },
      {
-      "name": "포스코퓨처엠",
-      "changePct": 5.46
-     },
-     {
-      "name": "SKC",
-      "changePct": 4.41
-     },
-     {
-      "name": "TCC스틸",
-      "changePct": 9.58
-     },
-     {
-      "name": "LG화학",
-      "changePct": 4.57
+      "name": "대주전자재료",
+      "changePct": 3.23
      },
      {
       "name": "롯데에너지머티리얼즈",
-      "changePct": 5.91
+      "changePct": 6.1
      },
      {
-      "name": "알멕",
-      "changePct": 15.33
+      "name": "이수스페셜티케미컬",
+      "changePct": 4.07
      },
      {
-      "name": "삼아알미늄",
-      "changePct": 11.34
+      "name": "레이크머티리얼즈",
+      "changePct": 4.94
+     },
+     {
+      "name": "SFA넥셀",
+      "changePct": 4.91
+     },
+     {
+      "name": "나인테크",
+      "changePct": 0.89
+     },
+     {
+      "name": "엠플러스",
+      "changePct": 5.63
      }
     ]
    },
    {
     "name": "서울고속버스터미널 재개발 수혜",
-    "rate": -1.07,
+    "rate": -1.11,
     "rise": 1,
     "total": 5,
     "stocks": [
@@ -1224,15 +1224,15 @@ window.DASH.live = {
      },
      {
       "name": "동원산업",
-      "changePct": -1.27
+      "changePct": -1.13
      },
      {
       "name": "대성산업",
-      "changePct": 1.2
+      "changePct": 1.67
      },
      {
       "name": "동양고속",
-      "changePct": -1.52
+      "changePct": -2.17
      },
      {
       "name": "천일고속",
@@ -1241,62 +1241,14 @@ window.DASH.live = {
     ]
    },
    {
-    "name": "건설기계",
-    "rate": -1.15,
-    "rise": 3,
-    "total": 16,
-    "stocks": [
-     {
-      "name": "HD건설기계",
-      "changePct": -0.59
-     },
-     {
-      "name": "삼미금속",
-      "changePct": 1.25
-     },
-     {
-      "name": "혜인",
-      "changePct": -9.52
-     },
-     {
-      "name": "두산밥캣",
-      "changePct": 0.18
-     },
-     {
-      "name": "전진건설로봇",
-      "changePct": -0.25
-     },
-     {
-      "name": "현대에버다임",
-      "changePct": -0.3
-     },
-     {
-      "name": "진성티이씨",
-      "changePct": -0.88
-     },
-     {
-      "name": "대창단조",
-      "changePct": -0.15
-     },
-     {
-      "name": "수산세보틱스",
-      "changePct": -0.48
-     },
-     {
-      "name": "디와이파워",
-      "changePct": -0.54
-     }
-    ]
-   },
-   {
     "name": "사료",
-    "rate": -1.16,
-    "rise": 4,
+    "rate": -1.23,
+    "rise": 5,
     "total": 18,
     "stocks": [
      {
       "name": "이지바이오",
-      "changePct": -3.12
+      "changePct": -2.79
      },
      {
       "name": "이지홀딩스",
@@ -1304,47 +1256,95 @@ window.DASH.live = {
      },
      {
       "name": "선진",
-      "changePct": -0.89
+      "changePct": -0.59
      },
      {
       "name": "애드바이오텍",
-      "changePct": 0.24
+      "changePct": 0.49
      },
      {
       "name": "대주산업",
-      "changePct": 0.71
+      "changePct": 0.48
      },
      {
       "name": "한일사료",
-      "changePct": -1.06
+      "changePct": -1.48
      },
      {
       "name": "한탑",
-      "changePct": -7.33
+      "changePct": -8.36
      },
      {
       "name": "팜스토리",
-      "changePct": -1.07
+      "changePct": -1.34
      },
      {
       "name": "대한제당",
-      "changePct": -0.72
+      "changePct": -0.89
      },
      {
       "name": "고려산업",
-      "changePct": -0.88
+      "changePct": -1.03
+     }
+    ]
+   },
+   {
+    "name": "건설기계",
+    "rate": -1.28,
+    "rise": 2,
+    "total": 16,
+    "stocks": [
+     {
+      "name": "HD건설기계",
+      "changePct": -0.93
+     },
+     {
+      "name": "삼미금속",
+      "changePct": 1.25
+     },
+     {
+      "name": "혜인",
+      "changePct": -8.99
+     },
+     {
+      "name": "두산밥캣",
+      "changePct": -0.18
+     },
+     {
+      "name": "전진건설로봇",
+      "changePct": -0.37
+     },
+     {
+      "name": "진성티이씨",
+      "changePct": -1.14
+     },
+     {
+      "name": "현대에버다임",
+      "changePct": -0.76
+     },
+     {
+      "name": "대창단조",
+      "changePct": -0.46
+     },
+     {
+      "name": "수산세보틱스",
+      "changePct": -0.43
+     },
+     {
+      "name": "디와이파워",
+      "changePct": -0.45
      }
     ]
    },
    {
     "name": "환율하락 수혜",
-    "rate": -1.21,
-    "rise": 4,
+    "rate": -1.31,
+    "rise": 5,
     "total": 23,
     "stocks": [
      {
       "name": "S-Oil",
-      "changePct": -0.72
+      "changePct": -0.54
      },
      {
       "name": "POSCO홀딩스",
@@ -1360,65 +1360,65 @@ window.DASH.live = {
      },
      {
       "name": "현대제철",
-      "changePct": 0.0
+      "changePct": -0.33
      },
      {
       "name": "고려아연",
-      "changePct": 1.76
+      "changePct": 1.67
      },
      {
       "name": "풍산",
-      "changePct": -2.51
+      "changePct": -2.63
      },
      {
       "name": "오리온",
-      "changePct": 0.09
+      "changePct": -0.19
      },
      {
       "name": "농심",
-      "changePct": -2.85
+      "changePct": -2.97
      },
      {
       "name": "CJ제일제당",
-      "changePct": -0.33
+      "changePct": -0.56
      }
     ]
    },
    {
     "name": "테마파크",
-    "rate": -1.39,
-    "rise": 1,
+    "rate": -1.52,
+    "rise": 0,
     "total": 6,
     "stocks": [
      {
       "name": "현대건설",
-      "changePct": -0.35
+      "changePct": -0.52
      },
      {
       "name": "이월드",
-      "changePct": -5.77
+      "changePct": -6.2
      },
      {
       "name": "시공테크",
-      "changePct": 0.28
+      "changePct": 0.14
      },
      {
       "name": "국보디자인",
-      "changePct": -1.62
+      "changePct": -1.82
      },
      {
       "name": "한국종합기술",
-      "changePct": -0.8
+      "changePct": -0.4
      },
      {
       "name": "닷밀",
-      "changePct": -0.18
+      "changePct": -0.12
      }
     ]
    },
    {
     "name": "면세점",
-    "rate": -1.51,
+    "rate": -1.55,
     "rise": 0,
     "total": 8,
     "stocks": [
@@ -1428,15 +1428,15 @@ window.DASH.live = {
      },
      {
       "name": "글로벌텍스프리",
-      "changePct": -4.58
+      "changePct": -4.93
      },
      {
       "name": "현대백화점",
-      "changePct": -1.91
+      "changePct": -2.03
      },
      {
       "name": "호텔신라",
-      "changePct": -0.64
+      "changePct": -0.51
      },
      {
       "name": "HDC",
@@ -1444,11 +1444,11 @@ window.DASH.live = {
      },
      {
       "name": "한국정보통신",
-      "changePct": 0.0
+      "changePct": -0.13
      },
      {
       "name": "토니모리",
-      "changePct": -0.2
+      "changePct": -0.4
      },
      {
       "name": "JTC",
@@ -1458,81 +1458,81 @@ window.DASH.live = {
    },
    {
     "name": "2026 하반기 신규상장",
-    "rate": -1.84,
+    "rate": -1.71,
     "rise": 9,
     "total": 20,
     "stocks": [
      {
       "name": "글로벌테크놀로지",
-      "changePct": 0.26
+      "changePct": 0.91
      },
      {
       "name": "브릴스",
-      "changePct": -5.59
+      "changePct": -6.47
      },
      {
       "name": "덕산넵코어스",
-      "changePct": 0.43
+      "changePct": 0.18
      },
      {
       "name": "스카이랩스",
-      "changePct": -3.94
-     },
-     {
-      "name": "인제니아테라퓨틱스(Reg.S)",
-      "changePct": -1.73
-     },
-     {
-      "name": "니어스랩",
-      "changePct": -9.17
+      "changePct": -3.61
      },
      {
       "name": "레메디",
-      "changePct": 0.79
+      "changePct": 4.69
+     },
+     {
+      "name": "인제니아테라퓨틱스(Reg.S)",
+      "changePct": -0.52
+     },
+     {
+      "name": "니어스랩",
+      "changePct": -9.83
      },
      {
       "name": "레몬헬스케어",
-      "changePct": -5.72
+      "changePct": -5.6
      },
      {
       "name": "기도산업",
-      "changePct": -3.47
+      "changePct": -3.64
      },
      {
       "name": "케이앤에스아이앤씨",
-      "changePct": -2.71
+      "changePct": -2.87
      }
     ]
    },
    {
     "name": "해운",
-    "rate": -2.77,
-    "rise": 1,
+    "rate": -2.96,
+    "rise": 0,
     "total": 6,
     "stocks": [
      {
       "name": "팬오션",
-      "changePct": -3.69
+      "changePct": -3.85
      },
      {
       "name": "HMM",
-      "changePct": -0.7
+      "changePct": -0.47
      },
      {
       "name": "흥아해운",
-      "changePct": -2.32
+      "changePct": -2.26
      },
      {
       "name": "대한해운",
-      "changePct": -4.65
+      "changePct": -5.12
      },
      {
       "name": "KSS해운",
-      "changePct": 0.42
+      "changePct": -0.08
      },
      {
       "name": "STX그린로지스",
-      "changePct": -5.8
+      "changePct": -5.13
      }
     ]
    }
