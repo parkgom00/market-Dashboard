@@ -52,6 +52,8 @@ def parse_row(r, exclude_etf=True):
     name = str(r.get("stockName") or "")
     if not re.fullmatch(r"\d{5}0", code) or BAD_NAME.search(name) or (exclude_etf and (ETF_BRAND.match(name) or ETF_WORD.search(name))):   # 우선주(끝자리≠0)·스팩·ETF 제외
         return None
+    if exclude_etf and str(r.get("stockEndType") or "stock") != "stock":   # ETF·ETN 등
+        return None
     price = num(r.get("closePriceRaw")) or num(r.get("closePrice"))
     volume = num(r.get("accumulatedTradingVolumeRaw")) or num(r.get("accumulatedTradingVolume"))
     if not price or not volume:
@@ -59,7 +61,21 @@ def parse_row(r, exclude_etf=True):
     pct = num(r.get("fluctuationsRatioRaw"))
     if pct is None:
         pct = num(r.get("fluctuationsRatio"))
-    return {"code": code, "name": name, "price": price, "volume": volume, "pct": pct}
+    out = {"code": code, "name": name, "price": price, "volume": volume, "pct": pct}
+    chg = num(r.get("compareToPreviousClosePriceRaw"))
+    if chg is None:
+        chg = num(r.get("compareToPreviousClosePrice"))
+    if chg is not None:
+        out["prev"] = price - chg                      # 네이버 화면과 같은 전일종가
+        if pct is None and out["prev"] > 0:
+            out["pct"] = chg / out["prev"] * 100
+    val = num(r.get("accumulatedTradingValueRaw"))     # 원 단위 거래대금
+    out["value"] = val if val else price * volume
+    cap = num(r.get("marketValueRaw"))                 # 원 단위 시가총액
+    if cap:
+        out["marcap"] = cap
+    out["day"] = str(r.get("localTradedAt") or "")[:10]   # 마지막 체결일 (휴장일 판별용)
+    return out
 
 
 SAMPLE = {}   # 진단용: 시장별 원본 앞 3행

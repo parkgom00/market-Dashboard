@@ -67,10 +67,13 @@ def run(universe, base, now, fetch_bars=yahoo_bars, fetch_flows=None, meta=None)
     qs = {}
     for code, u in universe.items():
         b = base.get(code)
-        pct = (u["price"] / b["prevClose"] - 1) * 100 if b and b.get("prevClose") else u.get("pct")
+        pct = u.get("pct")     # 네이버 화면과 같은 등락률 우선
+        if pct is None and b and b.get("prevClose"):
+            pct = (u["price"] / b["prevClose"] - 1) * 100
         if pct is None:
             continue
-        qs[code] = {"price": u["price"], "volume": u["volume"], "value": u["price"] * u["volume"], "pct": pct}
+        qs[code] = {"price": u["price"], "volume": u["volume"],
+                    "value": u.get("value") or u["price"] * u["volume"], "pct": pct}
     diag = {"quotes": len(qs)}
     cands = {}
     for code, q in qs.items():
@@ -110,8 +113,8 @@ def run(universe, base, now, fetch_bars=yahoo_bars, fetch_flows=None, meta=None)
                 mt = (meta or {}).get(code, {})
                 res[k].append({"code": code, "name": universe[code]["name"], "close": q["price"],
                                "market": universe[code].get("market", ""), "sector": mt.get("sector", ""),
-                               "marcap": mt.get("marcap", 0),
-                               "prevClose": (base.get(code) or {}).get("prevClose"),
+                               "marcap": round(universe[code]["marcap"] / 1e8) if universe[code].get("marcap") else mt.get("marcap", 0),
+                               "prevClose": universe[code].get("prev") or (base.get(code) or {}).get("prevClose"),
                                "changePct": round(q["pct"], 2), "value": round(q["value"] / 1e8), "note": r["note"],
                                "score": r["score"]})
     diag["bars"] = nbars
@@ -164,9 +167,9 @@ def main(force=False):
         return
     print("naver row keys:", keys)
     base = bj["base"]
-    same = sum(1 for c, u in uni.items() if c in base and abs(u["price"] - base[c]["prevClose"]) < 1e-9)
-    common = sum(1 for c in uni if c in base)
-    if common and same / common > 0.6:
+    days = [u.get("day") for u in uni.values() if u.get("day")]
+    traded_today = sum(1 for d in days if d == today)
+    if days and traded_today / len(days) < 0.4:
         write_js(to_payload({}, stamp, "휴장일이거나 시세가 갱신되지 않은 것으로 보여 건너뜁니다."))
         return
     meta = {}

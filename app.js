@@ -412,12 +412,12 @@
     o.priceLabel = "종가";
     if (!q) return o;
     if (!o.market) o.market = q.market;
-    var fresh = String(Q.asOf || "").slice(0, 10) > String(asOf || "").slice(0, 10);
-    // 휴장일에는 가격이 스캔 종가와 같고 등락률만 남아 있으므로 현재가로 쓰지 않는다
-    var stale = Math.abs(q.price - Number(s.close)) < 1e-9 && q.pct !== 0;
-    if (fresh && !stale) {
-      o.prevClose = s.close; o.close = q.price; o.changePct = q.pct; o.value = q.value;
-      o.priceLabel = "현재가"; o.quoteAt = Q.asOf;
+    if (!o.marcap && q.marcap) o.marcap = q.marcap;
+    // 네이버 화면과 같은 값(전일종가·현재가·등락률)을 그대로 쓴다. 스캔 기준일보다 오래된 시세는 쓰지 않는다
+    if (q.prev && String(q.day || "") >= String(asOf || "").slice(0, 10)) {
+      o.prevClose = q.prev; o.close = q.price; o.changePct = q.pct; o.value = q.value;
+      if (q.marcap) o.marcap = q.marcap;
+      o.priceLabel = "현재가";
     }
     return o;
   }

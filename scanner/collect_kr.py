@@ -130,7 +130,8 @@ def live_df():
         if pct is None:
             continue
         rows.append({"code": c, "name": u["name"], "market": u["market"], "close": u["price"],
-                     "amount": u["price"] * u["volume"], "pct": pct})
+                     "amount": u.get("value") or u["price"] * u["volume"], "pct": pct,
+                     "prev": u.get("prev"), "marcap": u.get("marcap"), "day": u.get("day", "")})
     df = pd.DataFrame(rows)
     if len(df) < 300:
         print(f"네이버 시세가 {len(df)}개뿐이라 사용 안 함")
@@ -154,10 +155,17 @@ def write_quotes(df, stamp):
                     want |= {it["code"] for it in sb.get("kr", [])}
     except Exception:
         pass
+    if "prev" not in df.columns:      # 네이버 실시간이 아닌 대체 자료면 기존 파일 유지
+        return 0
     sub = df[df["code"].isin(want)]
-    q = {r["code"]: {"price": float(r["close"]), "pct": round(float(r["pct"]), 2),
-                     "value": int(round(r["amount"] / 1e8)), "market": str(r["market"])}
-         for _, r in sub.iterrows()}
+    q = {}
+    for _, r in sub.iterrows():
+        if pd.isna(r["prev"]):
+            continue
+        q[r["code"]] = {"price": float(r["close"]), "prev": float(r["prev"]), "pct": round(float(r["pct"]), 2),
+                        "value": int(round(r["amount"] / 1e8)), "market": str(r["market"]),
+                        "marcap": int(round(r["marcap"] / 1e8)) if pd.notna(r["marcap"]) else 0,
+                        "day": str(r["day"])}
     with open(os.path.join(HERE, "..", "data", "quotes.js"), "w", encoding="utf-8") as f:
         f.write("// 자동 생성 파일 (scanner/collect_kr.py). 직접 고치지 마세요.\n")
         f.write("window.DASH = window.DASH || {};\nwindow.DASH.quotes = ")
