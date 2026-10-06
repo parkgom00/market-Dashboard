@@ -81,7 +81,7 @@ def judge_a1(q, bars, flow=None):
     score = (flow / q["value"] if flow is not None else 0) + (bars.get("lateShare") or 0)
     note = f"고가 마감권(고가 대비 {(1 - q['price'] / bars['high']) * 100:.2f}% 아래)"
     if bars.get("lateShare") is not None:
-        note += f" · {CP.a1_late_from} 이후 거래량 비중 {bars['lateShare'] * 100:.0f}%"
+        note += f" · 막판 {CP.a1_late_min}분 거래량 비중 {bars['lateShare'] * 100:.0f}%"
     note += f" · 외국인+기관 순매수 {flow / 1e8:+.0f}억" if flow is not None else " · 수급 자료 확인 전"
     return {"score": score, "note": note}
 

@@ -52,12 +52,8 @@ def parse_bars(res):
     if not rows:
         return None
     tot = sum(r[5] or 0 for r in rows)
-    late = 0
-    h_, m_ = map(int, CP.a1_late_from.split(":"))
-    for t, o, h, l, c, v in rows:
-        k = dt.datetime.fromtimestamp(t, KST)
-        if (k.hour, k.minute) >= (h_, m_):
-            late += v or 0
+    cut = rows[-1][0] - CP.a1_late_min * 60          # 받은 분봉 중 마지막 a1_late_min 분
+    late = sum((v or 0) for t, o, h, l, c, v in rows if t > cut)
     return {"open": rows[0][1], "high": max(r[2] for r in rows), "low": min(r[3] for r in rows), "close": rows[-1][4],
             "lateShare": (late / tot) if tot > 0 else None, "lastTs": rows[-1][0]}
 
@@ -196,6 +192,21 @@ def main(force=False):
     except Exception:
         pass
     res, diag = run(uni, base, now, fetch_flows=fetch_flows, meta=meta)
+    try:   # 진단용 표본 (응답 형식 확인)
+        import naver_live
+        smp = {}
+        for name, url in (("trend", "https://m.stock.naver.com/api/stock/005930/trend"),
+                          ("minute", "https://api.stock.naver.com/chart/domestic/item/005930/minute?startDateTime=" + now.strftime("%Y%m%d") + "1500&endDateTime=" + now.strftime("%Y%m%d") + "1600"),
+                          ("integration", "https://m.stock.naver.com/api/stock/005930/integration")):
+            try:
+                v = naver_live._get(url, tries=1)
+                smp[name] = v[-4:] if isinstance(v, list) else {k: (v[k][:3] if isinstance(v[k], list) else v[k]) for k in list(v)[:40]}
+            except Exception as e:
+                smp[name] = f"ERR {type(e).__name__}: {e}"
+        with open(os.path.join(OUT, "closing_sample.json"), "w", encoding="utf-8") as f:
+            json.dump(smp, f, ensure_ascii=False, indent=1)
+    except Exception as e:
+        print("표본 저장 실패", e)
     print(diag, {k: len(v) for k, v in res.items()})
     payload = to_payload(res, stamp, f"전 종목 {diag['quotes']}개 중 후보 {diag['candidates']}개 점검 (기준 일봉 {bj['asOf']})")
     payload["diag"] = diag

@@ -49,6 +49,7 @@ class ClosingParams:
     # A1: 장 마감 직전 대형 수급 + 당일 고가 마감
     a1_min_pct: float = 2.0         # 전일 대비 +2% 이상
     a1_high_gap: float = 0.005      # 현재가가 당일 고가의 0.5% 이내 (고가 마감 근접)
+    a1_late_min: int = 20           # 받은 분봉의 마지막 20분 거래량을 '막판 거래량'으로 봄
     a1_late_from: str = "15:00"     # '마감 직전' 구간 시작 (분봉 기준)
     a1_late_share: float = 0.10     # 마감 직전 구간 거래량이 당일 거래량의 10% 이상
     a1_flow_share: float = 0.03     # 외국인+기관 순매수 대금이 당일 거래대금의 3% 이상 (수급 자료가 있을 때)
