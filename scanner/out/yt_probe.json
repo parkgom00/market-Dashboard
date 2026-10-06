@@ -1,0 +1,18 @@
+{
+ "@hkwowtv": {
+  "channelId": "UCF8AeLlUbEpKju6v1H6p8Eg",
+  "title": "한국경제TV - YouTube",
+  "err": "HTTPError: HTTP Error 404: Not Found"
+ },
+ "@hkglobalmarket": {
+  "err": "HTTPError: HTTP Error 404: Not Found"
+ },
+ "@wowtv": {
+  "channelId": "UC6RN3c9CMHTL-5YfBLvwe_g",
+  "title": "Wowtv - YouTube",
+  "err": "HTTPError: HTTP Error 404: Not Found"
+ },
+ "@한국경제TV": {
+  "err": "HTTPError: HTTP Error 404: Not Found"
+ }
+}
