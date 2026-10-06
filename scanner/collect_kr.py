@@ -133,6 +133,34 @@ def live_df():
     return df[~df["name"].str.contains("스팩")].reset_index(drop=True)
 
 
+def write_quotes(df, stamp):
+    """4장·5장에 올라온 종목만 골라 현재가를 data/quotes.js 로 저장 (화면에서 전일종가 대비 표시용)."""
+    want = set()
+    for fn in ("longterm_kr.json",):
+        try:
+            with open(os.path.join(OUT, fn), encoding="utf-8") as f:
+                want |= {it["code"] for it in json.load(f).get("items", [])}
+        except Exception:
+            pass
+    try:
+        with open(os.path.join(OUT, "closing_kr.json"), encoding="utf-8") as f:
+            for t in json.load(f).get("types", []):
+                for sb in t.get("subtypes", []):
+                    want |= {it["code"] for it in sb.get("kr", [])}
+    except Exception:
+        pass
+    sub = df[df["code"].isin(want)]
+    q = {r["code"]: {"price": float(r["close"]), "pct": round(float(r["pct"]), 2),
+                     "value": int(round(r["amount"] / 1e8)), "market": str(r["market"])}
+         for _, r in sub.iterrows()}
+    with open(os.path.join(HERE, "..", "data", "quotes.js"), "w", encoding="utf-8") as f:
+        f.write("// 자동 생성 파일 (scanner/collect_kr.py). 직접 고치지 마세요.\n")
+        f.write("window.DASH = window.DASH || {};\nwindow.DASH.quotes = ")
+        json.dump({"asOf": stamp, "kr": q}, f, ensure_ascii=False, separators=(",", ":"))
+        f.write(";\n")
+    return len(q)
+
+
 def main():
     import FinanceDataReader as fdr
     import build_live
@@ -154,6 +182,10 @@ def main():
         json.dump({"asOf": stamp, "gainers": top_gainers(df), "value": top_value(df)}, f, ensure_ascii=False)
     with open(os.path.join(OUT, "live_themes_kr.json"), "w", encoding="utf-8") as f:
         json.dump({"asOf": stamp, "themes": themes_for(df)}, f, ensure_ascii=False)
+    try:
+        print("현재가 저장:", write_quotes(df, stamp), "종목")
+    except Exception as e:
+        print("현재가 저장 실패:", type(e).__name__, e)
     build_live.build()
     print(f"[국내] {len(df)}개 종목 처리, {stamp}")
 

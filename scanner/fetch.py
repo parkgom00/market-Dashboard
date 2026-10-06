@@ -47,11 +47,17 @@ def kr_prices(codes, workers: int = 4):
     from concurrent.futures import ThreadPoolExecutor
 
     start = start_date()
+    kst = dt.datetime.now(dt.timezone(dt.timedelta(hours=9)))
+    # 장 마감(15:30) 전에 실행하면 오늘 일봉은 아직 진행 중 → 판정에 쓰면 안 되므로 버린다
+    drop_today = kst.date() if (kst.hour, kst.minute) < (15, 40) else None
 
     def one(code):
         for attempt in range(3):
             try:
-                return code, _norm(fdr.DataReader(code, start))
+                df = _norm(fdr.DataReader(code, start))
+                if drop_today and len(df) and df.index[-1].date() >= drop_today:
+                    df = df[df.index.date < drop_today]
+                return code, df
             except Exception:
                 time.sleep(1 + attempt)
         return code, None

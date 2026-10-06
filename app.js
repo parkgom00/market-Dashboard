@@ -403,6 +403,24 @@
     if (!n) return "-";
     return n >= 10000 ? (n / 10000).toFixed(n >= 100000 ? 0 : 1).replace(/\.0$/, "") + "조" : num(n) + "억";
   }
+  /* 스캔 결과(일봉 기준) 위에 장중 현재가(quotes.js)를 덮어쓴다. asOf: 그 스캔의 기준일 */
+  function withQuote(s, asOf) {
+    var Q = D.quotes || {};
+    var q = (Q.kr || {})[s.code];
+    var o = {};
+    for (var k in s) o[k] = s[k];
+    o.priceLabel = "종가";
+    if (!q) return o;
+    if (!o.market) o.market = q.market;
+    var fresh = String(Q.asOf || "").slice(0, 10) > String(asOf || "").slice(0, 10);
+    // 휴장일에는 가격이 스캔 종가와 같고 등락률만 남아 있으므로 현재가로 쓰지 않는다
+    var stale = Math.abs(q.price - Number(s.close)) < 1e-9 && q.pct !== 0;
+    if (fresh && !stale) {
+      o.prevClose = s.close; o.close = q.price; o.changePct = q.pct; o.value = q.value;
+      o.priceLabel = "현재가"; o.quoteAt = Q.asOf;
+    }
+    return o;
+  }
   function stockCard(s, tags, isKR, priceLabel) {
     var code = s.code || "";
     var link = isKR ? "https://m.stock.naver.com/domestic/stock/" + encodeURIComponent(code) + "/chart"
@@ -417,9 +435,12 @@
     if (s.market) chips += '<span class="chip mk-' + esc(s.market.toLowerCase()) + '">' + esc(s.market) + "</span>";
     if (s.sector) chips += '<span class="chip">' + esc(s.sector) + "</span>";
     if (chips) h += "<div>" + chips + "</div>";
-    h += '<div class="pricerow"><span class="lbl">' + (priceLabel || "현재가") + '</span> <b class="up">' + num(s.close) + "</b>" +
-      (s.prevClose ? ' <span class="lbl">전일종가</span> <span class="blk">' + num(s.prevClose) + "</span>" : "") +
-      (s.changePct != null ? " " + pctText(s.changePct) : "") + "</div>";
+    var pc = Number(s.changePct);
+    var dir = s.changePct == null ? "flat" : pc > 0 ? "up" : pc < 0 ? "down" : "flat";
+    h += '<div class="pricerow">' +
+      (s.prevClose ? '<span class="lbl">전일종가</span> <span class="blk">' + num(s.prevClose) + '</span><span class="arrow">→</span>' : "") +
+      '<span class="lbl">' + (priceLabel || "현재가") + '</span> <b class="' + dir + '">' + num(s.close) + "</b>" +
+      (s.changePct != null ? ' <b class="' + dir + ' pct">' + (pc > 0 ? "▲ +" : pc < 0 ? "▼ " : "") + pc.toFixed(2) + "%</b>" : "") + "</div>";
     var ex = [];
     if (s.marcap) ex.push("시총 " + won억(s.marcap));
     if (s.value) ex.push("거래대금 " + won억(s.value));
@@ -446,7 +467,8 @@
       var info = (L.scanInfo || {})[market];
       var items = L[market] || [];
       if (info && info.scanned) {
-        h += '<div class="muted" style="margin:-4px 0 8px">기준일 ' + esc(info.asOf) + " · " + num(info.scanned) + "개 종목 스캔 · " + items.length + "개 충족</div>";
+        h += '<div class="muted" style="margin:-4px 0 8px">기준일 ' + esc(info.asOf) + " · " + num(info.scanned) + "개 종목 스캔 · " + items.length + "개 충족" +
+          (market === "kr" && D.quotes && D.quotes.asOf ? " · 현재가 " + esc(D.quotes.asOf) : "") + "</div>";
       }
       if (L.scanInfo && !(info && info.scanned)) {
         h += '<div class="card empty">아직 이 시장의 스캔 결과가 없습니다.</div>';
@@ -458,7 +480,8 @@
             var i = Math.max(0, ruleIds.indexOf(m));
             return { k: i, text: LETTER[i] || "?", title: ruleLabel[m] || m };
           });
-          return stockCard(s, tags, market === "kr", "종가") +
+          var v = market === "kr" ? withQuote(s, info && info.asOf) : s;
+          return stockCard(v, tags, market === "kr", v.priceLabel || "종가") +
             '<div class="meta">240일선 ' + maText(s.ma240) + " · 480일선 " + maText(s.ma480) + "</div>" +
             (s.note ? '<div class="meta">' + esc(s.note) + "</div>" : "") + "</div>";
         }).join("") + "</div>";
