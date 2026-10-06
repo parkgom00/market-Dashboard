@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-07 05:27",
+ "asOf": "2026-10-07 07:25",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[10월7일 #장시작전] 금리 하락, AI주 강세로 뉴욕증시 사상최고 /  메모리주와 장비주는 급락, 오늘 증시 외인의 선택은?",
+     "publishedAt": "2026-10-07 06:41",
+     "url": "https://www.youtube.com/watch?v=F98b7_mjX_Q"
+    },
     {
      "title": "[#찐시황] “지수 찍어 누르더니 3시부터 돌변했다!” 외국인이 장 막판 선물 7,000억 말아 올린 진짜 이유 / 10월 한국 증시 방향? | 박현상 이사",
      "publishedAt": "2026-10-06 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#글로벌인사이트]  빅테크 내부자가 말했다 “메모리 더 비싸게 살 수밖에 없다” / 답답해도 삼전·SK하이닉스 팔면 안되는 이유ㅣ세미콘 리서치랩 노근창 대표",
      "publishedAt": "2026-10-06 16:30",
      "url": "https://www.youtube.com/watch?v=paZADAQnd2o"
-    },
-    {
-     "title": "[#긴급시황] 외국인이 삼성전자·SK하이닉스 17조 던지고 산 것은? / 역대급 ‘채권 숏’ 청산 되면 증시 판 뒤집힌다 | 박근형 부장",
-     "publishedAt": "2026-10-06 15:00",
-     "url": "https://www.youtube.com/watch?v=8uq4srVsgbU"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) 마벨과 브로드컴의 ASIC반도체가 장을주도,그러나 메모리는 숨고르기",
+     "publishedAt": "2026-10-07 05:44",
+     "url": "https://www.youtube.com/watch?v=FnqR2rAvGA0"
+    },
     {
      "title": "(관심종목) 주도 정당에 따른 상승가능종목들은?",
      "publishedAt": "2026-10-06 14:36",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(월간시황) 금리를 이기는 실적주에만 투자하자!!!",
      "publishedAt": "2026-10-04 18:42",
      "url": "https://www.youtube.com/watch?v=DT1cMLMpye8"
-    },
-    {
-     "title": "(관심종목) 주식을 매수할때 수익의 60%이상이 결정난다.좋은주식을 싼가격에 매수하고 분할매수하자!!!",
-     "publishedAt": "2026-10-04 06:31",
-     "url": "https://www.youtube.com/watch?v=0rRmRe_rh8k"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 7일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-10-07 07:04",
+     "url": "https://www.youtube.com/watch?v=S2wyWIUH1hM"
+    },
+    {
      "title": "미국 금리인상이 '장기 상승장' 시작 신호라는 진짜 이유",
      "publishedAt": "2026-10-06 23:00",
      "url": "https://www.youtube.com/watch?v=a2xNf3_sH70"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "SK하이닉스 투자자라면 꼭 봐야하는 '단기,장기' 전망",
      "publishedAt": "2026-10-06 19:30",
      "url": "https://www.youtube.com/watch?v=UugiydREUKg"
-    },
-    {
-     "title": "젠슨황 수혜주 중, 'LG전자'만 주가 153% 오른 진짜 이유",
-     "publishedAt": "2026-10-06 18:19",
-     "url": "https://www.youtube.com/watch?v=7Ua2mdttWUU"
     }
    ]
   },
