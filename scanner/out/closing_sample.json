@@ -67,22 +67,6 @@
  ],
  "minute": [
   {
-   "localDateTime": "20261006151700",
-   "currentPrice": 272750.0,
-   "openPrice": 272750.0,
-   "highPrice": 273000.0,
-   "lowPrice": 272500.0,
-   "accumulatedTradingVolume": 65334
-  },
-  {
-   "localDateTime": "20261006151800",
-   "currentPrice": 272500.0,
-   "openPrice": 273000.0,
-   "highPrice": 273000.0,
-   "lowPrice": 272000.0,
-   "accumulatedTradingVolume": 78592
-  },
-  {
    "localDateTime": "20261006151900",
    "currentPrice": 272000.0,
    "openPrice": 272250.0,
@@ -97,6 +81,22 @@
    "highPrice": 272000.0,
    "lowPrice": 272000.0,
    "accumulatedTradingVolume": 1427002
+  },
+  {
+   "localDateTime": "20261006154000",
+   "currentPrice": 272000.0,
+   "openPrice": 272000.0,
+   "highPrice": 272000.0,
+   "lowPrice": 272000.0,
+   "accumulatedTradingVolume": 934
+  },
+  {
+   "localDateTime": "20261006154100",
+   "currentPrice": 272000.0,
+   "openPrice": 272000.0,
+   "highPrice": 272000.0,
+   "lowPrice": 272000.0,
+   "accumulatedTradingVolume": 133
   }
  ],
  "integration": {
@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "교보증권",
     "tit": "3Q26 Preview HBM이 만들고, 메모리가 이어간다",
-    "rcnt": "3650",
+    "rcnt": "3681",
     "wdt": "20261006"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "미래에셋증권",
     "tit": "반도체 사상 첫 매출 천억불 달성",
-    "rcnt": "3928",
+    "rcnt": "3956",
     "wdt": "20261006"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "SK증권",
     "tit": "현저한 저평가",
-    "rcnt": "3523",
+    "rcnt": "3544",
     "wdt": "20261006"
    }
   ],
