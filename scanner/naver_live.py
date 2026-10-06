@@ -62,6 +62,9 @@ def parse_row(r, exclude_etf=True):
     return {"code": code, "name": name, "price": price, "volume": volume, "pct": pct}
 
 
+SAMPLE = {}   # 진단용: 시장별 원본 앞 3행
+
+
 def fetch_universe(max_pages=30, exclude_etf=True):
     out, keys = {}, []
     for mk in ("KOSPI", "KOSDAQ"):
@@ -74,6 +77,8 @@ def fetch_universe(max_pages=30, exclude_etf=True):
                 break
             if not rows:
                 break
+            if p == 1:
+                SAMPLE[mk] = rows[:3]
             if not keys:
                 keys = sorted(rows[0].keys())
             for r in rows:

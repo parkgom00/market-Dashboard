@@ -111,6 +111,11 @@ def live_df():
     import naver_live
     uni, keys = naver_live.fetch_universe(exclude_etf=False)   # 순위에는 ETF 포함
     print("naver row keys:", keys)
+    try:   # 진단용 원본 표본 (응답 형식이 바뀌었는지 확인)
+        with open(os.path.join(OUT, "naver_sample.json"), "w", encoding="utf-8") as f:
+            json.dump(naver_live.SAMPLE, f, ensure_ascii=False, indent=1)
+    except Exception:
+        pass
     base = {}
     try:
         with open(os.path.join(OUT, "closing_base_kr.json"), encoding="utf-8") as f:
