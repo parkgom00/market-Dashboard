@@ -409,9 +409,11 @@
                     : "https://finance.yahoo.com/chart/" + encodeURIComponent(code);
     var h = '<div class="stock"><div class="row"><div><span class="nm">' + esc(s.name) + '</span> ' +
       '<a class="chartlink" href="' + link + '" target="_blank" rel="noopener noreferrer" title="차트 보기">📈</a> ' +
-      '<span class="meta">' + esc(code) + "</span></div><div>" +
-      (tags || []).map(function (t) { return '<span class="rtag rt-' + t.k + '" title="' + esc(t.title || "") + '">' + esc(t.text) + "</span>"; }).join("") +
-      "</div></div>";
+      '<span class="meta">' + esc(code) + "</span></div></div>";
+    if ((tags || []).length) h += '<div class="tagrow">' + tags.map(function (t) {
+      return '<span class="rt-line"><span class="rtag rt-' + t.k + '">' + esc(t.text) + "</span>" +
+        (t.title ? '<span class="rlabel rl-' + t.k + '">' + esc(t.title) + "</span>" : "") + "</span>";
+    }).join("") + "</div>";
     var chips = "";
     if (s.market) chips += '<span class="chip mk-' + esc(s.market.toLowerCase()) + '">' + esc(s.market) + "</span>";
     if (s.sector) chips += '<span class="chip">' + esc(s.sector) + "</span>";
@@ -501,15 +503,15 @@
         h += '<div class="card"><h3>' + esc(cur.name) + '</h3><div class="muted">' + esc(cur.desc || "") + "</div></div>";
         var items = cur.kr || [];
         if (!items.length) h += '<div class="card empty">지금 조건을 충족한 종목이 없습니다.</div>';
-        else h += '<div class="card">' + items.map(function (s) { return stockRow(s, cur.id, subs.indexOf(cur)); }).join("") + "</div>";
+        else h += '<div class="card">' + items.map(function (s) { return stockRow(s, cur.id, subs.indexOf(cur), cur.short || cur.name); }).join("") + "</div>";
       } else {
         var its = t.kr || [];
         h += its.length ? '<div class="card">' + its.map(function (s) { return stockRow(s, "", 0); }).join("") + "</div>" : '<div class="card empty">조건을 충족한 종목이 없습니다.</div>';
       }
       root.innerHTML = h;
     }
-    function stockRow(s, id, i) {
-      return stockCard(s, id ? [{ k: i, text: id, title: "" }] : [], true, "현재가") +
+    function stockRow(s, id, i, subName) {
+      return stockCard(s, id ? [{ k: i, text: id, title: (subName || "") }] : [], true, "현재가") +
         (s.note ? '<div class="meta">' + esc(s.note) + "</div>" : "") + "</div>";
     }
     root.addEventListener("click", function (ev) {
