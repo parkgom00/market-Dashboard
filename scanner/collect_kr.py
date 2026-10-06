@@ -109,7 +109,7 @@ def themes_for(df):
 def live_df():
     """장중에도 갱신되는 네이버 실시간 시세로 표를 만든다. 실패하거나 너무 적으면 None."""
     import naver_live
-    uni, keys = naver_live.fetch_universe()
+    uni, keys = naver_live.fetch_universe(exclude_etf=False)   # 순위에는 ETF 포함
     print("naver row keys:", keys)
     base = {}
     try:

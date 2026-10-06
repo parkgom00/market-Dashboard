@@ -14,7 +14,8 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
            "Accept": "application/json", "Referer": "https://m.stock.naver.com/"}
 MV_URL = "https://m.stock.naver.com/api/stocks/marketValue/{mk}"
 TREND_URL = "https://m.stock.naver.com/api/stock/{code}/trend"
-BAD_NAME = re.compile(r"(스팩|SPAC|ETN|ETF|리츠)", re.I)
+BAD_NAME = re.compile(r"(스팩|SPAC|리츠)", re.I)
+ETF_WORD = re.compile(r"(ETN|ETF)", re.I)
 ETF_BRAND = re.compile(r"^(KODEX|TIGER|ACE|RISE|SOL|KBSTAR|ARIRANG|HANARO|PLUS|KOSEF|TIMEFOLIO|WON|1Q|마이티|히어로즈|KIWOOM|BNK|UNICORN|FOCUS|HK|TRUSTON|VITA|파워|에셋플러스|대신|메리츠)\s", re.I)
 
 
@@ -45,11 +46,11 @@ def num(v):
         return None
 
 
-def parse_row(r):
+def parse_row(r, exclude_etf=True):
     """네이버 한 종목 행 → {code,name,price,volume,pct} 또는 None (보통주가 아니면 None)."""
     code = str(r.get("itemCode") or "")
     name = str(r.get("stockName") or "")
-    if not re.fullmatch(r"\d{5}0", code) or BAD_NAME.search(name) or ETF_BRAND.match(name):   # 우선주(끝자리≠0)·스팩·ETF 제외
+    if not re.fullmatch(r"\d{5}0", code) or BAD_NAME.search(name) or (exclude_etf and (ETF_BRAND.match(name) or ETF_WORD.search(name))):   # 우선주(끝자리≠0)·스팩·ETF 제외
         return None
     price = num(r.get("closePriceRaw")) or num(r.get("closePrice"))
     volume = num(r.get("accumulatedTradingVolumeRaw")) or num(r.get("accumulatedTradingVolume"))
@@ -61,7 +62,7 @@ def parse_row(r):
     return {"code": code, "name": name, "price": price, "volume": volume, "pct": pct}
 
 
-def fetch_universe(max_pages=30):
+def fetch_universe(max_pages=30, exclude_etf=True):
     out, keys = {}, []
     for mk in ("KOSPI", "KOSDAQ"):
         for p in range(1, max_pages + 1):
@@ -76,7 +77,7 @@ def fetch_universe(max_pages=30):
             if not keys:
                 keys = sorted(rows[0].keys())
             for r in rows:
-                q = parse_row(r)
+                q = parse_row(r, exclude_etf)
                 if q:
                     q["market"] = mk
                     out[q["code"]] = q
