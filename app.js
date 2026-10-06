@@ -535,6 +535,7 @@
     }).join("") + "</div>";
     var chips = "";
     if (s.market) chips += '<span class="chip mk-' + esc(s.market.toLowerCase()) + '">' + esc(s.market) + "</span>";
+    (s.themes || []).forEach(function (t) { chips += '<span class="chip thm">🔥 ' + esc(t) + "</span>"; });
     if (s.sector && s.sector !== "기타") chips += '<span class="chip">' + esc(s.sector) + "</span>";
     if (chips) h += "<div>" + chips + "</div>";
     var pc = Number(s.changePct);

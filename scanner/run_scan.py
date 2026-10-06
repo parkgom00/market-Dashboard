@@ -48,6 +48,25 @@ def scan_market(market: str, limit: int = 0):
     uni = fetch.kr_universe() if market == "kr" else fetch.us_universe()
     if limit:
         uni = uni.head(limit)
+    tags = {}
+    if market == "us":   # 지수에 없어도 국내 투자자 관심이 큰 테마 종목(theme_map.json 의 미국 종목)을 스캔 대상에 추가
+        try:
+            import pandas as pd
+            with open(os.path.join(HERE, "theme_map.json"), encoding="utf-8") as f:
+                themes = json.load(f)["themes"]
+            kr_name = {}
+            for t in themes:
+                for s in t.get("us", []):
+                    c = s["ticker"].replace(".", "-")
+                    kr_name.setdefault(c, s["name"])
+                    tags.setdefault(c, []).append(t["name"])
+            extra = [c for c in kr_name if c not in set(uni["code"])]
+            if not limit:
+                uni = pd.concat([uni, pd.DataFrame({"code": extra, "name": [kr_name[c] for c in extra]})], ignore_index=True)
+            uni["name"] = [kr_name.get(c, n) for c, n in zip(uni["code"], uni["name"])]
+            print(f"관심 테마 종목 {len(kr_name)}개 (지수 밖 {len(extra)}개 추가) → 스캔 대상 {len(uni)}개")
+        except Exception as e:
+            print("관심 테마 종목 추가 실패:", type(e).__name__, e)
     names = dict(zip(uni["code"], uni["name"]))
     meta = {}
     if market == "kr" and "market" in uni.columns:
@@ -84,6 +103,7 @@ def scan_market(market: str, limit: int = 0):
         items.append({
             "code": code, "name": names.get(code, code),
             "market": m.get("market", ""), "sector": m.get("sector", ""), "marcap": m.get("marcap", 0),
+            "themes": tags.get(code, [])[:2],
             "prevClose": _r(prev), "changePct": _r((last / prev - 1) * 100) if prev else None,
             "value": round(last * float(df["volume"].iloc[-1]) / 1e8) if market == "kr" else None,
             "close": _r(ind["close"]), "ma240": _r(ind["ma240"]), "ma480": _r(ind["ma480"]),
