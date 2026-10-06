@@ -49,6 +49,13 @@ def scan_market(market: str, limit: int = 0):
     if limit:
         uni = uni.head(limit)
     names = dict(zip(uni["code"], uni["name"]))
+    meta = {}
+    if market == "kr" and "market" in uni.columns:
+        for c, mk, mc, sc in zip(uni["code"], uni["market"], uni["marcap"], uni["sector"]):
+            try:
+                meta[c] = {"market": mk, "sector": str(sc or ""), "marcap": round(float(mc) / 1e8)}
+            except (TypeError, ValueError):
+                meta[c] = {"market": mk, "sector": str(sc or ""), "marcap": 0}
     gen = fetch.kr_prices(uni["code"]) if market == "kr" else fetch.us_prices(uni["code"])
     min_value = P.min_value_kr if market == "kr" else P.min_value_us
 
@@ -71,8 +78,14 @@ def scan_market(market: str, limit: int = 0):
         if not hits:
             continue
         ind = add_indicators(df).iloc[-1]
+        prev = float(df["close"].iloc[-2]) if len(df) > 1 else 0.0
+        last = float(df["close"].iloc[-1])
+        m = meta.get(code, {})
         items.append({
             "code": code, "name": names.get(code, code),
+            "market": m.get("market", ""), "sector": m.get("sector", ""), "marcap": m.get("marcap", 0),
+            "prevClose": _r(prev), "changePct": _r((last / prev - 1) * 100) if prev else None,
+            "value": round(last * float(df["volume"].iloc[-1]) / 1e8) if market == "kr" else None,
             "close": _r(ind["close"]), "ma240": _r(ind["ma240"]), "ma480": _r(ind["ma480"]),
             "matched": list(hits.keys()),
             "note": " / ".join(NOTE_FMT[k](v) for k, v in hits.items()),
@@ -80,6 +93,8 @@ def scan_market(market: str, limit: int = 0):
     items.sort(key=lambda x: (-len(x["matched"]), x["name"]))
     if market == "kr":
         os.makedirs(OUT, exist_ok=True)
+        with open(os.path.join(OUT, "kr_meta.json"), "w", encoding="utf-8") as f:
+            json.dump(meta, f, ensure_ascii=False, separators=(",", ":"))
         with open(os.path.join(OUT, "closing_base_kr.json"), "w", encoding="utf-8") as f:
             json.dump({"asOf": as_of, "base": base}, f, ensure_ascii=False, separators=(",", ":"))
     return {"asOf": as_of, "scanned": scanned, "items": items}

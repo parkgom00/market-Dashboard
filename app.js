@@ -396,6 +396,36 @@
     };
   }
 
+  /* ---------- 공통: 종목 카드 (4장·5장) ---------- */
+  var LETTER = ["a", "b", "c", "d", "e", "f", "g", "h"];
+  function won억(v) {
+    var n = Number(v) || 0;
+    if (!n) return "-";
+    return n >= 10000 ? (n / 10000).toFixed(n >= 100000 ? 0 : 1).replace(/\.0$/, "") + "조" : num(n) + "억";
+  }
+  function stockCard(s, tags, isKR, priceLabel) {
+    var code = s.code || "";
+    var link = isKR ? "https://m.stock.naver.com/domestic/stock/" + encodeURIComponent(code) + "/chart"
+                    : "https://finance.yahoo.com/chart/" + encodeURIComponent(code);
+    var h = '<div class="stock"><div class="row"><div><span class="nm">' + esc(s.name) + '</span> ' +
+      '<a class="chartlink" href="' + link + '" target="_blank" rel="noopener noreferrer" title="차트 보기">📈</a> ' +
+      '<span class="meta">' + esc(code) + "</span></div><div>" +
+      (tags || []).map(function (t) { return '<span class="rtag rt-' + t.k + '" title="' + esc(t.title || "") + '">' + esc(t.text) + "</span>"; }).join("") +
+      "</div></div>";
+    var chips = "";
+    if (s.market) chips += '<span class="chip mk-' + esc(s.market.toLowerCase()) + '">' + esc(s.market) + "</span>";
+    if (s.sector) chips += '<span class="chip">' + esc(s.sector) + "</span>";
+    if (chips) h += "<div>" + chips + "</div>";
+    h += '<div class="pricerow"><span class="lbl">' + (priceLabel || "현재가") + '</span> <b class="up">' + num(s.close) + "</b>" +
+      (s.prevClose ? ' <span class="lbl">전일종가</span> <span class="blk">' + num(s.prevClose) + "</span>" : "") +
+      (s.changePct != null ? " " + pctText(s.changePct) : "") + "</div>";
+    var ex = [];
+    if (s.marcap) ex.push("시총 " + won억(s.marcap));
+    if (s.value) ex.push("거래대금 " + won억(s.value));
+    if (ex.length) h += '<div class="meta">' + ex.join(" · ") + "</div>";
+    return h;
+  }
+
   /* ---------- 4장: 중장기 ---------- */
   function renderLong() {
     var root = $("#tab-long");
@@ -403,13 +433,14 @@
     var market = "kr";
     var rules = L.rules || [];
     var ruleLabel = {};
+    var ruleIds = rules.map(function (r) { return r.id; });
     rules.forEach(function (r) { ruleLabel[r.id] = r.label; });
     var maText = function (v) { return v ? num(v) : "-"; };
 
     function draw() {
       var h = "<h2>중장기 투자</h2>";
       h += '<div class="card"><h3>적용 규칙</h3><ul class="plain">' +
-        rules.map(function (r) { return "<li><b>" + esc(r.label) + "</b> — " + esc(r.desc) + "</li>"; }).join("") + "</ul></div>";
+        rules.map(function (r, i) { return '<li><span class="rtag rt-' + i + '">' + LETTER[i] + "</span> <b>" + esc(r.label) + "</b> — " + esc(r.desc) + "</li>"; }).join("") + "</ul></div>";
       h += seg([{ id: "kr", label: "국내" }, { id: "us", label: "미국" }], market, "data-mk");
       var info = (L.scanInfo || {})[market];
       var items = L[market] || [];
@@ -422,10 +453,12 @@
         h += '<div class="card empty">조건을 충족한 종목이 없습니다.</div>';
       } else {
         h += '<div class="card">' + items.map(function (s) {
-          return '<div class="stock"><div class="row"><div><span class="nm">' + esc(s.name) + '</span> <span class="meta">' + esc(s.code) + "</span></div>" +
-            '<span class="meta">종가 ' + num(s.close) + "</span></div>" +
+          var tags = (s.matched || []).map(function (m) {
+            var i = Math.max(0, ruleIds.indexOf(m));
+            return { k: i, text: LETTER[i] || "?", title: ruleLabel[m] || m };
+          });
+          return stockCard(s, tags, market === "kr", "종가") +
             '<div class="meta">240일선 ' + maText(s.ma240) + " · 480일선 " + maText(s.ma480) + "</div>" +
-            "<div>" + (s.matched || []).map(function (m) { return '<span class="chip">' + esc(ruleLabel[m] || m) + "</span>"; }).join("") + "</div>" +
             (s.note ? '<div class="meta">' + esc(s.note) + "</div>" : "") + "</div>";
         }).join("") + "</div>";
       }
@@ -461,22 +494,22 @@
       var subs = t.subtypes || [];
       if (subs.length) {
         if (!sub || !subs.some(function (x) { return x.id === sub; })) sub = subs[0].id;
-        h += seg(subs.map(function (x) { return { id: x.id, label: x.id }; }), sub, "data-sb");
+        h += '<div class="seg">' + subs.map(function (x, i) {
+          return '<button type="button" data-sb="' + esc(x.id) + '" class="' + (x.id === sub ? "on" : "") + '"><span class="rtag rt-' + i + '">' + esc(x.id) + "</span></button>";
+        }).join("") + "</div>";
         var cur = subs.filter(function (x) { return x.id === sub; })[0];
         h += '<div class="card"><h3>' + esc(cur.name) + '</h3><div class="muted">' + esc(cur.desc || "") + "</div></div>";
         var items = cur.kr || [];
         if (!items.length) h += '<div class="card empty">지금 조건을 충족한 종목이 없습니다.</div>';
-        else h += '<div class="card">' + items.map(stockRow).join("") + "</div>";
+        else h += '<div class="card">' + items.map(function (s) { return stockRow(s, cur.id, subs.indexOf(cur)); }).join("") + "</div>";
       } else {
         var its = t.kr || [];
-        h += its.length ? '<div class="card">' + its.map(stockRow).join("") + "</div>" : '<div class="card empty">조건을 충족한 종목이 없습니다.</div>';
+        h += its.length ? '<div class="card">' + its.map(function (s) { return stockRow(s, "", 0); }).join("") + "</div>" : '<div class="card empty">조건을 충족한 종목이 없습니다.</div>';
       }
       root.innerHTML = h;
     }
-    function stockRow(s) {
-      return '<div class="stock"><div class="row"><div><span class="nm">' + esc(s.name) + '</span> <span class="meta">' + esc(s.code) + "</span></div>" +
-        pctText(s.changePct) + "</div>" +
-        '<div class="meta">현재가 ' + num(s.close) + (s.value ? " · 거래대금 " + num(s.value) + "억" : "") + "</div>" +
+    function stockRow(s, id, i) {
+      return stockCard(s, id ? [{ k: i, text: id, title: "" }] : [], true, "현재가") +
         (s.note ? '<div class="meta">' + esc(s.note) + "</div>" : "") + "</div>";
     }
     root.addEventListener("click", function (ev) {

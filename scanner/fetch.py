@@ -26,8 +26,19 @@ def start_date(years: float = 3.2) -> str:
 def kr_universe() -> pd.DataFrame:
     import FinanceDataReader as fdr
     lst = fdr.StockListing("KRX")
-    lst = lst[lst["Market"].isin(["KOSPI", "KOSDAQ"])]
-    return lst[["Code", "Name"]].rename(columns={"Code": "code", "Name": "name"}).reset_index(drop=True)
+    lst = lst[lst["Market"].isin(["KOSPI", "KOSDAQ"])].copy()
+    lst["Sector"] = ""
+    try:   # 업종 정보는 'KRX-DESC' 목록에만 있음 (실패해도 나머지는 정상 동작)
+        d = fdr.StockListing("KRX-DESC")
+        col = "Industry" if "Industry" in d.columns else ("Sector" if "Sector" in d.columns else None)
+        if col:
+            lst["Sector"] = lst["Code"].map(dict(zip(d["Code"], d[col].fillna("")))).fillna("")
+    except Exception:
+        pass
+    if "Marcap" not in lst.columns:
+        lst["Marcap"] = 0
+    out = lst[["Code", "Name", "Market", "Marcap", "Sector"]]
+    return out.rename(columns={"Code": "code", "Name": "name", "Market": "market", "Marcap": "marcap", "Sector": "sector"}).reset_index(drop=True)
 
 
 def kr_prices(codes, workers: int = 4):

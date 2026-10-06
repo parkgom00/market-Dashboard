@@ -62,7 +62,7 @@ def parse_bars(res):
             "lateShare": (late / tot) if tot > 0 else None, "lastTs": rows[-1][0]}
 
 
-def run(universe, base, now, fetch_bars=yahoo_bars, fetch_flows=None):
+def run(universe, base, now, fetch_bars=yahoo_bars, fetch_flows=None, meta=None):
     """universe: {code:{name,price,volume,pct?,market}}, base: {code:features}. 반환: (subtype별 목록, 진단)."""
     qs = {}
     for code, u in universe.items():
@@ -107,7 +107,11 @@ def run(universe, base, now, fetch_bars=yahoo_bars, fetch_flows=None):
         for k in kinds:
             r = jobs[k]()
             if r:
+                mt = (meta or {}).get(code, {})
                 res[k].append({"code": code, "name": universe[code]["name"], "close": q["price"],
+                               "market": universe[code].get("market", ""), "sector": mt.get("sector", ""),
+                               "marcap": mt.get("marcap", 0),
+                               "prevClose": (base.get(code) or {}).get("prevClose"),
                                "changePct": round(q["pct"], 2), "value": round(q["value"] / 1e8), "note": r["note"],
                                "score": r["score"]})
     diag["bars"] = nbars
@@ -165,7 +169,13 @@ def main(force=False):
     if common and same / common > 0.6:
         write_js(to_payload({}, stamp, "휴장일이거나 시세가 갱신되지 않은 것으로 보여 건너뜁니다."))
         return
-    res, diag = run(uni, base, now, fetch_flows=fetch_flows)
+    meta = {}
+    try:
+        with open(os.path.join(OUT, "kr_meta.json"), encoding="utf-8") as f:
+            meta = json.load(f)
+    except Exception:
+        pass
+    res, diag = run(uni, base, now, fetch_flows=fetch_flows, meta=meta)
     print(diag, {k: len(v) for k, v in res.items()})
     write_js(to_payload(res, stamp, f"전 종목 {diag['quotes']}개 중 후보 {diag['candidates']}개 점검 (기준 일봉 {bj['asOf']})"))
 
