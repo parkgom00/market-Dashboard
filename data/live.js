@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_live.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.live = {
- "asOf": "2026-10-06 10:30",
+ "asOf": "2026-10-06 10:33",
  "kr": {
   "gainers": [
    {
@@ -1553,23 +1553,44 @@ window.DASH.live = {
     "stocks": [
      {
       "name": "엔비디아",
-      "changePct": 2.12
+      "changePct": 1.34
      },
      {
       "name": "브로드컴",
-      "changePct": 2.08
+      "changePct": 3.35
      },
      {
       "name": "AMD",
-      "changePct": -0.34
+      "changePct": 2.95
      },
      {
       "name": "TSMC",
-      "changePct": 2.75
+      "changePct": 2.96
      },
      {
       "name": "마이크론",
-      "changePct": -1.02
+      "changePct": -2.05
+     }
+    ]
+   },
+   {
+    "name": "메모리·스토리지",
+    "stocks": [
+     {
+      "name": "마이크론",
+      "changePct": -2.05
+     },
+     {
+      "name": "샌디스크",
+      "changePct": -3.79
+     },
+     {
+      "name": "웨스턴디지털",
+      "changePct": -10.22
+     },
+     {
+      "name": "씨게이트",
+      "changePct": -10.21
      }
     ]
    },
@@ -1578,19 +1599,78 @@ window.DASH.live = {
     "stocks": [
      {
       "name": "어플라이드머티리얼즈",
-      "changePct": 0.41
+      "changePct": 2.03
      },
      {
       "name": "램리서치",
-      "changePct": -0.49
+      "changePct": 2.17
      },
      {
       "name": "KLA",
-      "changePct": -0.02
+      "changePct": 3.27
      },
      {
       "name": "ASML",
-      "changePct": -0.4
+      "changePct": 3.25
+     }
+    ]
+   },
+   {
+    "name": "AI 서버·네트워크",
+    "stocks": [
+     {
+      "name": "델",
+      "changePct": 3.84
+     },
+     {
+      "name": "슈퍼마이크로",
+      "changePct": 4.22
+     },
+     {
+      "name": "아리스타네트웍스",
+      "changePct": 1.4
+     },
+     {
+      "name": "코히런트",
+      "changePct": 5.59
+     }
+    ]
+   },
+   {
+    "name": "빅테크·AI 소프트웨어",
+    "stocks": [
+     {
+      "name": "마이크로소프트",
+      "changePct": 0.92
+     },
+     {
+      "name": "알파벳",
+      "changePct": 1.56
+     },
+     {
+      "name": "메타",
+      "changePct": 0.3
+     },
+     {
+      "name": "팔란티어",
+      "changePct": -0.68
+     },
+     {
+      "name": "오라클",
+      "changePct": 3.06
+     }
+    ]
+   },
+   {
+    "name": "스마트폰·애플",
+    "stocks": [
+     {
+      "name": "애플",
+      "changePct": 1.02
+     },
+     {
+      "name": "퀄컴",
+      "changePct": 1.53
      }
     ]
    },
@@ -1599,36 +1679,61 @@ window.DASH.live = {
     "stocks": [
      {
       "name": "테슬라",
-      "changePct": 2.2
+      "changePct": 4.65
      },
      {
       "name": "앨버말",
-      "changePct": -0.21
+      "changePct": -0.42
      },
      {
       "name": "리비안",
-      "changePct": 2.1
+      "changePct": -3.12
      }
     ]
    },
    {
-    "name": "전력 인프라·원전",
+    "name": "전력 인프라",
     "stocks": [
-     {
-      "name": "컨스텔레이션에너지",
-      "changePct": 3.93
-     },
-     {
-      "name": "비스트라",
-      "changePct": 3.48
-     },
      {
       "name": "GE베르노바",
       "changePct": 0.13
      },
      {
       "name": "이튼",
-      "changePct": -0.8
+      "changePct": -0.27
+     },
+     {
+      "name": "버티브",
+      "changePct": 2.46
+     },
+     {
+      "name": "콴타서비스",
+      "changePct": 2.11
+     }
+    ]
+   },
+   {
+    "name": "원전·SMR",
+    "stocks": [
+     {
+      "name": "컨스텔레이션에너지",
+      "changePct": -0.55
+     },
+     {
+      "name": "비스트라",
+      "changePct": 0.19
+     },
+     {
+      "name": "오클로",
+      "changePct": -0.75
+     },
+     {
+      "name": "카메코",
+      "changePct": -0.6
+     },
+     {
+      "name": "뉴스케일파워",
+      "changePct": -0.51
      }
     ]
    },
@@ -1637,19 +1742,310 @@ window.DASH.live = {
     "stocks": [
      {
       "name": "록히드마틴",
-      "changePct": 0.24
+      "changePct": -0.02
      },
      {
       "name": "RTX",
-      "changePct": -0.19
+      "changePct": -0.18
      },
      {
-      "name": "노스럽그루먼",
-      "changePct": -0.4
+      "name": "노스롭그루먼",
+      "changePct": -0.83
      },
      {
       "name": "제너럴다이내믹스",
-      "changePct": 0.49
+      "changePct": -0.79
+     }
+    ]
+   },
+   {
+    "name": "우주",
+    "stocks": [
+     {
+      "name": "로켓랩",
+      "changePct": 4.91
+     },
+     {
+      "name": "AST스페이스모바일",
+      "changePct": 2.47
+     },
+     {
+      "name": "플래닛랩스",
+      "changePct": 8.43
+     },
+     {
+      "name": "인튜이티브머신스",
+      "changePct": 4.7
+     }
+    ]
+   },
+   {
+    "name": "로봇",
+    "stocks": [
+     {
+      "name": "테라다인",
+      "changePct": 8.0
+     },
+     {
+      "name": "심보틱",
+      "changePct": 0.25
+     },
+     {
+      "name": "로크웰오토메이션",
+      "changePct": 2.69
+     }
+    ]
+   },
+   {
+    "name": "은행·금융지주",
+    "stocks": [
+     {
+      "name": "JP모건",
+      "changePct": -0.24
+     },
+     {
+      "name": "뱅크오브아메리카",
+      "changePct": 0.04
+     },
+     {
+      "name": "웰스파고",
+      "changePct": 0.25
+     },
+     {
+      "name": "씨티그룹",
+      "changePct": 1.18
+     }
+    ]
+   },
+   {
+    "name": "증권",
+    "stocks": [
+     {
+      "name": "골드만삭스",
+      "changePct": 0.66
+     },
+     {
+      "name": "모건스탠리",
+      "changePct": 1.22
+     },
+     {
+      "name": "찰스슈왑",
+      "changePct": -1.7
+     },
+     {
+      "name": "로빈후드",
+      "changePct": 1.43
+     }
+    ]
+   },
+   {
+    "name": "가상자산",
+    "stocks": [
+     {
+      "name": "코인베이스",
+      "changePct": -3.32
+     },
+     {
+      "name": "스트래티지",
+      "changePct": -0.31
+     },
+     {
+      "name": "마라홀딩스",
+      "changePct": 0.18
+     },
+     {
+      "name": "라이엇플랫폼스",
+      "changePct": 0.61
+     }
+    ]
+   },
+   {
+    "name": "엔터",
+    "stocks": [
+     {
+      "name": "넷플릭스",
+      "changePct": -1.16
+     },
+     {
+      "name": "스포티파이",
+      "changePct": -3.77
+     },
+     {
+      "name": "디즈니",
+      "changePct": 0.85
+     },
+     {
+      "name": "워너뮤직",
+      "changePct": -0.87
+     }
+    ]
+   },
+   {
+    "name": "화장품",
+    "stocks": [
+     {
+      "name": "에스티로더",
+      "changePct": 1.97
+     },
+     {
+      "name": "엘프뷰티",
+      "changePct": 0.57
+     },
+     {
+      "name": "울타뷰티",
+      "changePct": 1.11
+     },
+     {
+      "name": "코티",
+      "changePct": 0.38
+     }
+    ]
+   },
+   {
+    "name": "자동차",
+    "stocks": [
+     {
+      "name": "GM",
+      "changePct": -1.31
+     },
+     {
+      "name": "포드",
+      "changePct": -1.39
+     },
+     {
+      "name": "도요타",
+      "changePct": -1.01
+     },
+     {
+      "name": "스텔란티스",
+      "changePct": -6.18
+     }
+    ]
+   },
+   {
+    "name": "바이오",
+    "stocks": [
+     {
+      "name": "일라이릴리",
+      "changePct": -0.61
+     },
+     {
+      "name": "노보노디스크",
+      "changePct": -0.21
+     },
+     {
+      "name": "암젠",
+      "changePct": -1.04
+     },
+     {
+      "name": "버텍스",
+      "changePct": -0.4
+     }
+    ]
+   },
+   {
+    "name": "정유·에너지",
+    "stocks": [
+     {
+      "name": "엑슨모빌",
+      "changePct": 0.12
+     },
+     {
+      "name": "셰브론",
+      "changePct": -0.2
+     },
+     {
+      "name": "코노코필립스",
+      "changePct": -0.24
+     },
+     {
+      "name": "옥시덴탈",
+      "changePct": 0.41
+     }
+    ]
+   },
+   {
+    "name": "태양광·신재생",
+    "stocks": [
+     {
+      "name": "퍼스트솔라",
+      "changePct": 1.45
+     },
+     {
+      "name": "엔페이즈",
+      "changePct": 1.98
+     },
+     {
+      "name": "넥스트에라에너지",
+      "changePct": 0.63
+     },
+     {
+      "name": "선런",
+      "changePct": 0.92
+     }
+    ]
+   },
+   {
+    "name": "구리·전선",
+    "stocks": [
+     {
+      "name": "프리포트맥모란",
+      "changePct": 3.98
+     },
+     {
+      "name": "서던코퍼",
+      "changePct": 3.17
+     }
+    ]
+   },
+   {
+    "name": "철강",
+    "stocks": [
+     {
+      "name": "뉴코",
+      "changePct": 1.87
+     },
+     {
+      "name": "스틸다이내믹스",
+      "changePct": 2.57
+     },
+     {
+      "name": "클리블랜드클리프스",
+      "changePct": -1.31
+     }
+    ]
+   },
+   {
+    "name": "항공·여행",
+    "stocks": [
+     {
+      "name": "델타항공",
+      "changePct": -0.05
+     },
+     {
+      "name": "유나이티드항공",
+      "changePct": 0.65
+     },
+     {
+      "name": "부킹홀딩스",
+      "changePct": -0.79
+     },
+     {
+      "name": "에어비앤비",
+      "changePct": 1.22
+     }
+    ]
+   },
+   {
+    "name": "게임",
+    "stocks": [
+     {
+      "name": "테이크투",
+      "changePct": -0.44
+     },
+     {
+      "name": "로블록스",
+      "changePct": 2.6
      }
     ]
    }
