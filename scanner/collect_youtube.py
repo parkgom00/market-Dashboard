@@ -79,31 +79,40 @@ def _unesc(s):
 
 
 def parse_videos_tab(html, limit=PER_CHANNEL, now=None):
-    """채널의 '동영상' 탭 화면에서 최신 영상 목록을 읽습니다 (RSS 가 막혔을 때의 대체 수단)."""
+    """채널의 '동영상'·'라이브' 탭 화면에서 최신 영상 목록을 읽습니다 (RSS 가 막혔을 때의 대체 수단)."""
     out, seen = [], set()
     for chunk in html.split('"lockupViewModel":{')[1:]:
-        chunk = chunk[:9000]
+        chunk = chunk[:16000]
         mid = re.search(r'"contentId":"([\w-]{11})"', chunk)
         mt = re.search(r'"lockupMetadataViewModel":\{"title":\{"content":"((?:[^"\\]|\\.)*)"', chunk)
-        if not mid or not mt or mid.group(1) in seen or "LOCKUP_CONTENT_TYPE_VIDEO" not in chunk:
+        if not mid or not mt or mid.group(1) in seen:
             continue
         seen.add(mid.group(1))
         when = ""
-        for txt in re.findall(r'"content":"((?:[^"\\]|\\.)*)"', chunk):
+        for txt in re.findall(r'"content":"((?:[^"\\]|\\.)*)"', chunk[mt.end():mt.end() + 3000]):   # 제목 바로 뒤의 조회수·시각
             when = rel_to_time(_unesc(txt), now)
             if when:
                 break
         out.append({"title": _unesc(mt.group(1)).strip(), "publishedAt": when, "url": f"https://www.youtube.com/watch?v={mid.group(1)}"})
         if len(out) >= limit:
             break
-    if not out:   # 예전 화면 형식
-        for vid, title, rel in re.findall(r'"videoRenderer":\{"videoId":"([\w-]{11})".{0,1500}?"title":\{"runs":\[\{"text":"((?:[^"\\]|\\.)*)"\}.{0,2500}?"publishedTimeText":\{"simpleText":"(.*?)"', html):
-            if vid not in seen:
-                seen.add(vid)
-                out.append({"title": _unesc(title).strip(), "publishedAt": rel_to_time(_unesc(rel), now), "url": f"https://www.youtube.com/watch?v={vid}"})
-            if len(out) >= limit:
-                break
     return out
+
+
+def scrape_channel(cid, fetch, old_videos=None, limit=PER_CHANNEL):
+    """동영상 탭 + 라이브 탭을 합쳐 최신순으로. 이미 알던 영상은 예전에 저장한 정확한 시각을 유지."""
+    items, seen = [], set()
+    for tab in ("videos", "streams"):
+        try:
+            for v in parse_videos_tab(fetch(f"https://www.youtube.com/channel/{cid}/{tab}"), limit=limit * 2):
+                if v["url"] not in seen:
+                    seen.add(v["url"])
+                    items.append(v)
+        except Exception:
+            continue
+    items = merge_times(items, old_videos)
+    items.sort(key=lambda v: v.get("publishedAt") or "", reverse=True)
+    return items[:limit]
 
 
 def merge_times(videos, old_videos):
@@ -139,7 +148,7 @@ def build(channels, prev, fetch=_get):
             try:
                 videos = parse_feed(fetch(f"https://www.youtube.com/feeds/videos.xml?channel_id={cid}"))
             except Exception as e_rss:   # RSS 가 막히면 채널의 '동영상' 탭 화면에서 읽음
-                videos = merge_times(parse_videos_tab(fetch(f"https://www.youtube.com/channel/{cid}/videos")), old.get("videos", []))
+                videos = scrape_channel(cid, fetch, old.get("videos", []))
                 if not videos:
                     raise ValueError(f"RSS 실패({e_rss}), 동영상 탭도 비어 있음")
             if not videos:
