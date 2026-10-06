@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/collect_closing.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-06 15:21",
+ "asOf": "2026-10-06 15:25",
  "window": "15:20~15:40",
- "status": "전 종목 2422개 중 후보 195개 점검 (기준 일봉 2026-10-02)",
+ "status": "전 종목 2423개 중 후보 195개 점검 (기준 일봉 2026-10-02)",
  "types": [
   {
    "id": "A",
@@ -132,7 +132,7 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2422,
+  "quotes": 2423,
   "candidates": 195,
   "bars": 150,
   "naverBars": 150,
