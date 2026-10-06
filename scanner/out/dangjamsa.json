@@ -1,7 +1,6 @@
-// 자동 생성 파일 (scanner/dangjamsa.py). 직접 고치지 마세요.
-window.DASH = window.DASH || {};
-window.DASH.dangjamsa = {
+{
  "tryDate": "2026-10-06",
+ "attempts": 1,
  "videoId": "8s4kFJ6eXs4",
  "title": "[🔴10/06 #당잠사] 미 장기채 금리 상승에도 기술주 강세 | 서비스업 PMI 54.9 | 머스크 “TSMC와 테라팹 협력 논의” | #엔비디아 #TSMC #스페이스X",
  "url": "https://www.youtube.com/watch?v=8s4kFJ6eXs4",
@@ -65,4 +64,4 @@ window.DASH.dangjamsa = {
  "generatedAt": "2026-10-06 15:18",
  "model": "gemini-3.5-flash",
  "status": ""
-};
+}
