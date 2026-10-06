@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-06 19:27",
+ "asOf": "2026-10-06 21:32",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황] “지수 찍어 누르더니 3시부터 돌변했다!” 외국인이 장 막판 선물 7,000억 말아 올린 진짜 이유 / 10월 한국 증시 방향? | 박현상 이사",
+     "publishedAt": "2026-10-06 20:00",
+     "url": "https://www.youtube.com/watch?v=2bMWLDREDrs"
+    },
     {
      "title": "“사과 대신 극 초음속 미사일 쐈다” 합참, 북한 지뢰 직접 제거 시작… 추가 도발 이어지나 | 평양24시 강철환 대표",
      "publishedAt": "2026-10-06 19:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] 외국인이 삼성전자·SK하이닉스 17조 던지고 산 것은? / 역대급 ‘채권 숏’ 청산 되면 증시 판 뒤집힌다 | 박근형 부장",
      "publishedAt": "2026-10-06 15:00",
      "url": "https://www.youtube.com/watch?v=8uq4srVsgbU"
-    },
-    {
-     "title": "지수는 답답한데 돈은 이미 움직였다… 지금 시장의 ‘진짜 주도주’는 어디?ㅣ이권희 대표",
-     "publishedAt": "2026-10-06 13:09",
-     "url": "https://www.youtube.com/watch?v=_v8UI8HKq4s"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "SK하이닉스 투자자라면 꼭 봐야하는 '단기,장기' 전망",
+     "publishedAt": "2026-10-06 19:30",
+     "url": "https://www.youtube.com/watch?v=UugiydREUKg"
+    },
+    {
      "title": "젠슨황 수혜주 중, 'LG전자'만 주가 153% 오른 진짜 이유",
      "publishedAt": "2026-10-06 18:19",
      "url": "https://www.youtube.com/watch?v=7Ua2mdttWUU"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "10월 6일 투자자들이 꼭 알아야 하는 투자 포인트",
      "publishedAt": "2026-10-06 07:11",
      "url": "https://www.youtube.com/watch?v=bbaeUYXfRNc"
-    },
-    {
-     "title": "삼성전자 10월 실적발표전 미리 알아야 하는 '주가 상승패턴'",
-     "publishedAt": "2026-10-05 21:15",
-     "url": "https://www.youtube.com/watch?v=4jaRaPkYItk"
     }
    ]
   },
