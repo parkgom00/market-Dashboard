@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-07 23:28",
+ "asOf": "2026-10-08 01:30",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "젠슨황 리사수가 동시에 콕찝은 다음 '미래산업'은 뭘까",
+     "publishedAt": "2026-10-07 23:30",
+     "url": "https://www.youtube.com/watch?v=pp5NwUqYh64"
+    },
+    {
      "title": "이마트 전국 2시간 배송 시작  쿠팡 이길 수 있을까",
      "publishedAt": "2026-10-07 23:00",
      "url": "https://www.youtube.com/watch?v=A4WQPHFEJug"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "젠슨황이 '사위'를 부사장으로 앉힌 이유는 뭘까?",
      "publishedAt": "2026-10-07 16:46",
      "url": "https://www.youtube.com/watch?v=aeDjqFadkHs"
-    },
-    {
-     "title": "'금 vs 달러' 지금 뭘 사야 기회일까?",
-     "publishedAt": "2026-10-07 15:26",
-     "url": "https://www.youtube.com/watch?v=hMV3KV4Sanc"
     }
    ]
   },
