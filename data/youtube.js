@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-07 21:34",
+ "asOf": "2026-10-07 23:28",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "이마트 전국 2시간 배송 시작  쿠팡 이길 수 있을까",
+     "publishedAt": "2026-10-07 23:00",
+     "url": "https://www.youtube.com/watch?v=A4WQPHFEJug"
+    },
+    {
+     "title": "초보자가 꼭 봐야하는 'AI 주식' 매수 타이밍",
+     "publishedAt": "2026-10-07 22:23",
+     "url": "https://www.youtube.com/watch?v=jvs7I0j1oSE"
+    },
+    {
      "title": "테슬라 지금 사는게 기회일까?",
      "publishedAt": "2026-10-07 18:48",
      "url": "https://www.youtube.com/watch?v=zvP9u8N1U00"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "'금 vs 달러' 지금 뭘 사야 기회일까?",
      "publishedAt": "2026-10-07 15:26",
      "url": "https://www.youtube.com/watch?v=hMV3KV4Sanc"
-    },
-    {
-     "title": "\"나스닥·S&P500 최고가?!\"10월 7일 오늘 코스피 어떻게 흘러갈까?",
-     "publishedAt": "2026-10-07 08:38",
-     "url": "https://www.youtube.com/watch?v=6A1yI_eWNT4"
-    },
-    {
-     "title": "10월 7일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-10-07 07:04",
-     "url": "https://www.youtube.com/watch?v=S2wyWIUH1hM"
     }
    ]
   },
