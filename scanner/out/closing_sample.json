@@ -2,6 +2,22 @@
  "trend": [
   {
    "itemCode": "005930",
+   "bizdate": "20260928",
+   "foreignerPureBuyQuant": "-4,999,903",
+   "foreignerHoldRatio": "46.52%",
+   "organPureBuyQuant": "-2,410,724",
+   "individualPureBuyQuant": "+5,330,121",
+   "closePrice": "270,000",
+   "compareToPreviousClosePrice": "-15,500",
+   "compareToPreviousPrice": {
+    "code": "5",
+    "text": "하락",
+    "name": "FALLING"
+   },
+   "accumulatedTradingVolume": "21,346,064"
+  },
+  {
+   "itemCode": "005930",
    "bizdate": "20260923",
    "foreignerPureBuyQuant": "+4,513,767",
    "foreignerHoldRatio": "46.64%",
@@ -47,22 +63,6 @@
     "name": "RISING"
    },
    "accumulatedTradingVolume": "22,261,519"
-  },
-  {
-   "itemCode": "005930",
-   "bizdate": "20260918",
-   "foreignerPureBuyQuant": "-1,673,323",
-   "foreignerHoldRatio": "46.46%",
-   "organPureBuyQuant": "+2,746,972",
-   "individualPureBuyQuant": "-2,975,813",
-   "closePrice": "260,000",
-   "compareToPreviousClosePrice": "7,500",
-   "compareToPreviousPrice": {
-    "code": "2",
-    "text": "상승",
-    "name": "RISING"
-   },
-   "accumulatedTradingVolume": "17,489,615"
   }
  ],
  "minute": [
@@ -137,6 +137,22 @@
   "dealTrendInfos": [
    {
     "itemCode": "005930",
+    "bizdate": "20261007",
+    "foreignerPureBuyQuant": "-118,283",
+    "foreignerHoldRatio": "46.37%",
+    "organPureBuyQuant": "-819,541",
+    "individualPureBuyQuant": "+957,691",
+    "closePrice": "269,000",
+    "compareToPreviousClosePrice": "-3,000",
+    "compareToPreviousPrice": {
+     "code": "5",
+     "text": "하락",
+     "name": "FALLING"
+    },
+    "accumulatedTradingVolume": "16,389,555"
+   },
+   {
+    "itemCode": "005930",
     "bizdate": "20261006",
     "foreignerPureBuyQuant": "-2,064,174",
     "foreignerHoldRatio": "46.37%",
@@ -166,22 +182,6 @@
      "name": "UNCHANGED"
     },
     "accumulatedTradingVolume": "11,501,250"
-   },
-   {
-    "itemCode": "005930",
-    "bizdate": "20261001",
-    "foreignerPureBuyQuant": "-758,236",
-    "foreignerHoldRatio": "46.41%",
-    "organPureBuyQuant": "+46,127",
-    "individualPureBuyQuant": "-1,292,880",
-    "closePrice": "274,500",
-    "compareToPreviousClosePrice": "6,000",
-    "compareToPreviousPrice": {
-     "code": "2",
-     "text": "상승",
-     "name": "RISING"
-    },
-    "accumulatedTradingVolume": "13,741,073"
    }
   ],
   "researches": [
@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "한화투자증권",
     "tit": "주인공은 HBM으로 바뀐다",
-    "rcnt": "4778",
+    "rcnt": "5395",
     "wdt": "20261007"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "교보증권",
     "tit": "3Q26 Preview HBM이 만들고, 메모리가 이어간다",
-    "rcnt": "12624",
+    "rcnt": "12901",
     "wdt": "20261006"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "미래에셋증권",
     "tit": "반도체 사상 첫 매출 천억불 달성",
-    "rcnt": "11966",
+    "rcnt": "12232",
     "wdt": "20261006"
    }
   ],
@@ -222,17 +222,17 @@
     "reutersCode": "000660",
     "stockName": "SK하이닉스",
     "sosok": "0",
-    "closePrice": "1,721,000",
-    "compareToPreviousClosePrice": "-52,000",
+    "closePrice": "1,715,000",
+    "compareToPreviousClosePrice": "-58,000",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "fluctuationsRatio": "-2.93",
+    "fluctuationsRatio": "-3.27",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "1,257,177,360",
+    "marketValue": "1,252,794,405",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
@@ -298,17 +298,17 @@
     "reutersCode": "042700",
     "stockName": "한미반도체",
     "sosok": "0",
-    "closePrice": "264,500",
-    "compareToPreviousClosePrice": "-13,500",
+    "closePrice": "264,000",
+    "compareToPreviousClosePrice": "-14,000",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "fluctuationsRatio": "-4.86",
+    "fluctuationsRatio": "-5.04",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "25,210,076",
+    "marketValue": "25,162,420",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
