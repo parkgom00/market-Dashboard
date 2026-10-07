@@ -1,6 +1,383 @@
 // 자동 생성 파일 (scanner/run_scan.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.longterm = {
+ "swingRules": [
+  {
+   "id": "S1",
+   "label": "상한가 후 조정 → 20일선 반등",
+   "desc": "최근 40거래일 안에 상한가, 고점 대비 -10% 이상 조정 후 최근 5일 안에 20일선까지 내려왔다가 오늘 20일선 위에서 상승 마감 (국내만)"
+  },
+  {
+   "id": "S2",
+   "label": "상한가 후 조정 → 60일선 반등",
+   "desc": "최근 120거래일 안에 상한가, 고점 대비 -10% 이상 조정 후 최근 5일 안에 60일선까지 내려왔다가 오늘 60일선 위에서 상승 마감 (국내만)"
+  },
+  {
+   "id": "S3",
+   "label": "급등 후 10일 이상 조정, 10일선 지지",
+   "desc": "20일 안에 +30% 이상 급등, 고점 이후 10거래일 이상 조정, 종가가 10일선 ±3% 이내에서 지지"
+  },
+  {
+   "id": "S4",
+   "label": "급등 후 거래량 감소, 20일선 지지",
+   "desc": "급등 후 최근 5일 평균 거래량이 급등 막바지의 50% 이하로 줄고, 상승 중인 20일선에서 지지"
+  },
+  {
+   "id": "S5",
+   "label": "외국인·기관 지속 유입 + 10일선 위 상승",
+   "desc": "최근 10거래일 종가가 10일선을 이탈하지 않고 +3% 이상 상승, 최근 5거래일 중 4일 이상 외국인+기관 합계 순매수 (국내만, 수급은 네이버 공개분까지)"
+  }
+ ],
+ "swing": {
+  "kr": [],
+  "us": [
+   {
+    "code": "ARM",
+    "name": "Arm Holdings plc American Depositary Shares",
+    "market": "",
+    "sector": "",
+    "marcap": 0,
+    "themes": [],
+    "krRank": "",
+    "prevClose": 302.56,
+    "changePct": -1.48,
+    "value": null,
+    "close": 298.08,
+    "ma10": 298.67,
+    "ma20": 287.98,
+    "ma60": 268.75,
+    "ma240": 206.29,
+    "ma480": 172.33,
+    "matched": [
+     "S3",
+     "S4"
+    ],
+    "note": "급등 +41.9% 후 11일째 조정(-10.5%), 10일선 대비 -0.2% / 급등 +41.9% 후 거래량이 급등 때의 47%로 감소, 20일선 대비 +3.5%"
+   },
+   {
+    "code": "BAX",
+    "name": "Baxter International",
+    "market": "",
+    "sector": "",
+    "marcap": 0,
+    "themes": [],
+    "krRank": "",
+    "prevClose": 24.36,
+    "changePct": -0.1,
+    "value": null,
+    "close": 24.33,
+    "ma10": 23.79,
+    "ma20": 23.64,
+    "ma60": 24.85,
+    "ma240": 20.58,
+    "ma480": 24.76,
+    "matched": [
+     "S3"
+    ],
+    "note": "급등 +30.8% 후 45일째 조정(-14.1%), 10일선 대비 +2.3%"
+   },
+   {
+    "code": "DASH",
+    "name": "DoorDash",
+    "market": "",
+    "sector": "",
+    "marcap": 0,
+    "themes": [],
+    "krRank": "",
+    "prevClose": 193.62,
+    "changePct": -1.33,
+    "value": null,
+    "close": 191.04,
+    "ma10": 187.77,
+    "ma20": 192.1,
+    "ma60": 202.55,
+    "ma240": 192.02,
+    "ma480": 201.63,
+    "matched": [
+     "S3"
+    ],
+    "note": "급등 +31.0% 후 29일째 조정(-19.4%), 10일선 대비 +1.7%"
+   },
+   {
+    "code": "IT",
+    "name": "Gartner",
+    "market": "",
+    "sector": "",
+    "marcap": 0,
+    "themes": [],
+    "krRank": "",
+    "prevClose": 184.92,
+    "changePct": 1.2,
+    "value": null,
+    "close": 187.14,
+    "ma10": 186.28,
+    "ma20": 185.57,
+    "ma60": 177.18,
+    "ma240": 182.8,
+    "ma480": 294.88,
+    "matched": [
+     "S3"
+    ],
+    "note": "급등 +46.2% 후 31일째 조정(-7.7%), 10일선 대비 +0.5%"
+   },
+   {
+    "code": "PYPL",
+    "name": "PayPal",
+    "market": "",
+    "sector": "",
+    "marcap": 0,
+    "themes": [],
+    "krRank": "",
+    "prevClose": 54.61,
+    "changePct": 0.43,
+    "value": null,
+    "close": 54.85,
+    "ma10": 53.81,
+    "ma20": 53.45,
+    "ma60": 56.28,
+    "ma240": 52.17,
+    "ma480": 62.87,
+    "matched": [
+     "S3"
+    ],
+    "note": "급등 +36.3% 후 33일째 조정(-11.7%), 10일선 대비 +1.9%"
+   },
+   {
+    "code": "NOW",
+    "name": "ServiceNow",
+    "market": "",
+    "sector": "",
+    "marcap": 0,
+    "themes": [],
+    "krRank": "",
+    "prevClose": 137.97,
+    "changePct": 0.93,
+    "value": null,
+    "close": 139.25,
+    "ma10": 135.42,
+    "ma20": 136.57,
+    "ma60": 126.32,
+    "ma240": 124.68,
+    "ma480": 158.74,
+    "matched": [
+     "S3"
+    ],
+    "note": "급등 +41.1% 후 26일째 조정(-5.9%), 10일선 대비 +2.8%"
+   },
+   {
+    "code": "TRI",
+    "name": "Thomson Reuters Corporation Common Shares",
+    "market": "",
+    "sector": "",
+    "marcap": 0,
+    "themes": [],
+    "krRank": "",
+    "prevClose": 98.09,
+    "changePct": 0.59,
+    "value": null,
+    "close": 98.67,
+    "ma10": 98.1,
+    "ma20": 98.36,
+    "ma60": 100.06,
+    "ma240": 102.58,
+    "ma480": 135.43,
+    "matched": [
+     "S3"
+    ],
+    "note": "급등 +30.2% 후 23일째 조정(-11.7%), 10일선 대비 +0.6%"
+   },
+   {
+    "code": "WDAY",
+    "name": "Workday, Inc.",
+    "market": "",
+    "sector": "",
+    "marcap": 0,
+    "themes": [],
+    "krRank": "",
+    "prevClose": 186.55,
+    "changePct": 0.01,
+    "value": null,
+    "close": 186.57,
+    "ma10": 188.36,
+    "ma20": 189.64,
+    "ma60": 180.62,
+    "ma240": 168.25,
+    "ma480": 207.24,
+    "matched": [
+     "S3"
+    ],
+    "note": "급등 +61.5% 후 23일째 조정(-9.8%), 10일선 대비 -1.0%"
+   },
+   {
+    "code": "RBLX",
+    "name": "로블록스",
+    "market": "",
+    "sector": "",
+    "marcap": 0,
+    "themes": [
+     "게임"
+    ],
+    "krRank": "",
+    "prevClose": 45.56,
+    "changePct": 0.26,
+    "value": null,
+    "close": 45.68,
+    "ma10": 44.36,
+    "ma20": 46.42,
+    "ma60": 43.72,
+    "ma240": 62.58,
+    "ma480": 74.58,
+    "matched": [
+     "S3"
+    ],
+    "note": "급등 +36.6% 후 17일째 조정(-10.9%), 10일선 대비 +3.0%"
+   },
+   {
+    "code": "ABNB",
+    "name": "에어비앤비",
+    "market": "",
+    "sector": "",
+    "marcap": 0,
+    "themes": [
+     "항공·여행"
+    ],
+    "krRank": "",
+    "prevClose": 160.39,
+    "changePct": 0.31,
+    "value": null,
+    "close": 160.88,
+    "ma10": 159.08,
+    "ma20": 162.27,
+    "ma60": 166.3,
+    "ma240": 140.42,
+    "ma480": 135.37,
+    "matched": [
+     "S3"
+    ],
+    "note": "급등 +35.5% 후 30일째 조정(-15.5%), 10일선 대비 +1.1%"
+   },
+   {
+    "code": "CRWV",
+    "name": "코어위브",
+    "market": "",
+    "sector": "",
+    "marcap": 0,
+    "themes": [
+     "네오클라우드"
+    ],
+    "krRank": "",
+    "prevClose": 91.72,
+    "changePct": -4.06,
+    "value": null,
+    "close": 88.0,
+    "ma10": 88.11,
+    "ma20": 86.34,
+    "ma60": 85.69,
+    "ma240": 92.6,
+    "ma480": null,
+    "matched": [
+     "S3"
+    ],
+    "note": "급등 +77.1% 후 39일째 조정(-18.3%), 10일선 대비 -0.1%"
+   },
+   {
+    "code": "CLF",
+    "name": "클리블랜드클리프스",
+    "market": "",
+    "sector": "",
+    "marcap": 0,
+    "themes": [
+     "철강"
+    ],
+    "krRank": "",
+    "prevClose": 12.25,
+    "changePct": -2.69,
+    "value": null,
+    "close": 11.92,
+    "ma10": 11.71,
+    "ma20": 11.96,
+    "ma60": 11.65,
+    "ma240": 11.49,
+    "ma480": 10.72,
+    "matched": [
+     "S3"
+    ],
+    "note": "급등 +40.9% 후 10일째 조정(-7.4%), 10일선 대비 +1.8%"
+   },
+   {
+    "code": "FCX",
+    "name": "프리포트맥모란",
+    "market": "",
+    "sector": "",
+    "marcap": 0,
+    "themes": [
+     "구리·전선"
+    ],
+    "krRank": "",
+    "prevClose": 72.56,
+    "changePct": -1.58,
+    "value": null,
+    "close": 71.41,
+    "ma10": 71.5,
+    "ma20": 71.34,
+    "ma60": 69.52,
+    "ma240": 60.23,
+    "ma480": 50.01,
+    "matched": [
+     "S3"
+    ],
+    "note": "급등 +33.2% 후 30일째 조정(-10.6%), 10일선 대비 -0.1%"
+   },
+   {
+    "code": "NBIS",
+    "name": "네비우스",
+    "market": "",
+    "sector": "",
+    "marcap": 0,
+    "themes": [
+     "네오클라우드"
+    ],
+    "krRank": "서학개미 보관 47위",
+    "prevClose": 249.87,
+    "changePct": -6.2,
+    "value": null,
+    "close": 234.38,
+    "ma10": 237.78,
+    "ma20": 229.82,
+    "ma60": 217.45,
+    "ma240": 158.43,
+    "ma480": 103.09,
+    "matched": [
+     "S4"
+    ],
+    "note": "급등 +87.3% 후 거래량이 급등 때의 42%로 감소, 20일선 대비 +2.0%"
+   },
+   {
+    "code": "META",
+    "name": "메타",
+    "market": "",
+    "sector": "",
+    "marcap": 0,
+    "themes": [
+     "빅테크·AI 소프트웨어"
+    ],
+    "krRank": "서학개미 보관 26위",
+    "prevClose": 738.88,
+    "changePct": -1.81,
+    "value": null,
+    "close": 725.54,
+    "ma10": 736.92,
+    "ma20": 711.85,
+    "ma60": 632.51,
+    "ma240": 631.49,
+    "ma480": 644.7,
+    "matched": [
+     "S4"
+    ],
+    "note": "급등 +36.3% 후 거래량이 급등 때의 35%로 감소, 20일선 대비 +1.9%"
+   }
+  ]
+ },
  "rules": [
   {
    "id": "L1",
@@ -13,14 +390,14 @@ window.DASH.longterm = {
    "desc": "20일 안에 +30% 이상 급등 후 고점 대비 -10% 이상 조정, 60일선(상승 중)에서 지지"
   },
   {
-   "id": "L3a",
-   "label": "240일선 거래량 돌파",
-   "desc": "최근 3일 안에 240일선을 아래→위로 돌파, 돌파일 거래량이 직전 20일 평균의 2배 이상"
+   "id": "L3",
+   "label": "240·480일선 동시 거래량 돌파",
+   "desc": "최근 3일 안에 240일선과 480일선을 모두 아래→위로 돌파, 각 돌파일 거래량이 직전 20일 평균의 2배 이상"
   },
   {
-   "id": "L3b",
-   "label": "480일선 거래량 돌파",
-   "desc": "최근 3일 안에 480일선을 아래→위로 돌파, 돌파일 거래량이 직전 20일 평균의 2배 이상"
+   "id": "L4",
+   "label": "신고가 후 240일선 지지 → 전고점 향해 반등",
+   "desc": "52주(또는 역사적) 신고가를 찍고 -15% 이상 조정, 조정 중 240일선 지지, 저점 대비 +8% 이상 반등해 전고점 아래에서 상승 중이며 최근 5일 종가가 20일선을 이탈하지 않음"
   }
  ],
  "scanInfo": {
@@ -29,71 +406,11 @@ window.DASH.longterm = {
    "scanned": 2710
   },
   "us": {
-   "asOf": "2026-10-06",
+   "asOf": "2026-10-07",
    "scanned": 556
   }
  },
  "kr": [
-  {
-   "code": "142280",
-   "name": "녹십자엠에스",
-   "market": "KOSDAQ",
-   "sector": "",
-   "marcap": 959,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 3345.0,
-   "changePct": 25.41,
-   "value": 856,
-   "close": 4195.0,
-   "ma240": 3657.54,
-   "ma480": 3795.12,
-   "matched": [
-    "L3a",
-    "L3b"
-   ],
-   "note": "240일선 돌파(오늘), 거래량 평균의 26.5배 / 480일선 돌파(오늘), 거래량 평균의 26.5배"
-  },
-  {
-   "code": "263600",
-   "name": "덕우전자",
-   "market": "KOSDAQ",
-   "sector": "",
-   "marcap": 830,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 5400.0,
-   "changePct": -6.48,
-   "value": 35,
-   "close": 5050.0,
-   "ma240": 4495.96,
-   "ma480": 4679.88,
-   "matched": [
-    "L3a",
-    "L3b"
-   ],
-   "note": "240일선 돌파(2일 전), 거래량 평균의 146.3배 / 480일선 돌파(2일 전), 거래량 평균의 146.3배"
-  },
-  {
-   "code": "248070",
-   "name": "솔루엠",
-   "market": "KOSPI",
-   "sector": "",
-   "marcap": 8602,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 16780.0,
-   "changePct": 5.13,
-   "value": 161,
-   "close": 17640.0,
-   "ma240": 16688.54,
-   "ma480": 17115.06,
-   "matched": [
-    "L3a",
-    "L3b"
-   ],
-   "note": "240일선 돌파(2일 전), 거래량 평균의 9.7배 / 480일선 돌파(오늘), 거래량 평균의 4.7배"
-  },
   {
    "code": "236200",
    "name": "슈프리마",
@@ -113,66 +430,6 @@ window.DASH.longterm = {
     "L2"
    ],
    "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인 / 급등 +41.2% 후 고점 대비 -13.7% 조정, 60일선 대비 +3.5%"
-  },
-  {
-   "code": "158430",
-   "name": "아톤",
-   "market": "KOSDAQ",
-   "sector": "",
-   "marcap": 1653,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 7150.0,
-   "changePct": -4.2,
-   "value": 761,
-   "close": 6850.0,
-   "ma240": 6100.79,
-   "ma480": 6424.09,
-   "matched": [
-    "L3a",
-    "L3b"
-   ],
-   "note": "240일선 돌파(1일 전), 거래량 평균의 9.4배 / 480일선 돌파(1일 전), 거래량 평균의 9.4배"
-  },
-  {
-   "code": "065530",
-   "name": "와이어블",
-   "market": "KOSDAQ",
-   "sector": "",
-   "marcap": 708,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 1520.0,
-   "changePct": -2.3,
-   "value": 11,
-   "close": 1485.0,
-   "ma240": 1467.92,
-   "ma480": 1394.46,
-   "matched": [
-    "L3a",
-    "L3b"
-   ],
-   "note": "240일선 돌파(2일 전), 거래량 평균의 45.3배 / 480일선 돌파(2일 전), 거래량 평균의 45.3배"
-  },
-  {
-   "code": "104540",
-   "name": "코렌텍",
-   "market": "KOSDAQ",
-   "sector": "",
-   "marcap": 782,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 6030.0,
-   "changePct": -2.65,
-   "value": 12,
-   "close": 5870.0,
-   "ma240": 5259.52,
-   "ma480": 5604.31,
-   "matched": [
-    "L3a",
-    "L3b"
-   ],
-   "note": "240일선 돌파(1일 전), 거래량 평균의 3.0배 / 480일선 돌파(1일 전), 거래량 평균의 3.0배"
   },
   {
    "code": "375500",
@@ -308,63 +565,6 @@ window.DASH.longterm = {
    "note": "급등 +62.7% 후 고점 대비 -14.5% 조정, 60일선 대비 +14.3%"
   },
   {
-   "code": "003580",
-   "name": "HLB글로벌",
-   "market": "KOSPI",
-   "sector": "",
-   "marcap": 1018,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 2070.0,
-   "changePct": -1.69,
-   "value": 20,
-   "close": 2035.0,
-   "ma240": 1926.48,
-   "ma480": 2612.58,
-   "matched": [
-    "L3a"
-   ],
-   "note": "240일선 돌파(1일 전), 거래량 평균의 7.5배"
-  },
-  {
-   "code": "067630",
-   "name": "HLB생명과학",
-   "market": "KOSDAQ",
-   "sector": "",
-   "marcap": 5035,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 4470.0,
-   "changePct": -6.38,
-   "value": 21,
-   "close": 4185.0,
-   "ma240": 3591.43,
-   "ma480": 5378.56,
-   "matched": [
-    "L3a"
-   ],
-   "note": "240일선 돌파(1일 전), 거래량 평균의 7.8배"
-  },
-  {
-   "code": "115450",
-   "name": "HLB테라퓨틱스",
-   "market": "KOSDAQ",
-   "sector": "",
-   "marcap": 2755,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 2860.0,
-   "changePct": 1.57,
-   "value": 48,
-   "close": 2905.0,
-   "ma240": 2733.68,
-   "ma480": 4960.55,
-   "matched": [
-    "L3a"
-   ],
-   "note": "240일선 돌파(1일 전), 거래량 평균의 9.4배"
-  },
-  {
    "code": "294870",
    "name": "IPARK현대산업개발",
    "market": "KOSPI",
@@ -460,25 +660,6 @@ window.DASH.longterm = {
    "note": "급등 +70.5% 후 고점 대비 -17.6% 조정, 60일선 대비 +4.2%"
   },
   {
-   "code": "178920",
-   "name": "PI첨단소재",
-   "market": "KOSPI",
-   "sector": "",
-   "marcap": 6005,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 20500.0,
-   "changePct": -0.73,
-   "value": 10,
-   "close": 20350.0,
-   "ma240": 19896.08,
-   "ma480": 18870.94,
-   "matched": [
-    "L3a"
-   ],
-   "note": "240일선 돌파(2일 전), 거래량 평균의 2.2배"
-  },
-  {
    "code": "010950",
    "name": "S-Oil",
    "market": "KOSPI",
@@ -517,25 +698,6 @@ window.DASH.longterm = {
    "note": "정배열 상승 중, 최근 20일선 지지 확인"
   },
   {
-   "code": "011790",
-   "name": "SKC",
-   "market": "KOSPI",
-   "sector": "",
-   "marcap": 54608,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 112400.0,
-   "changePct": -2.94,
-   "value": 270,
-   "close": 109100.0,
-   "ma240": 104206.89,
-   "ma480": 105447.75,
-   "matched": [
-    "L3b"
-   ],
-   "note": "480일선 돌파(2일 전), 거래량 평균의 3.7배"
-  },
-  {
    "code": "096770",
    "name": "SK이노베이션",
    "market": "KOSPI",
@@ -553,25 +715,6 @@ window.DASH.longterm = {
     "L1"
    ],
    "note": "정배열 상승 중, 최근 20일선 지지 확인"
-  },
-  {
-   "code": "002710",
-   "name": "TCC스틸",
-   "market": "KOSPI",
-   "sector": "",
-   "marcap": 3793,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 15100.0,
-   "changePct": -4.77,
-   "value": 56,
-   "close": 14380.0,
-   "ma240": 14213.88,
-   "ma480": 19229.44,
-   "matched": [
-    "L3a"
-   ],
-   "note": "240일선 돌파(1일 전), 거래량 평균의 4.3배"
   },
   {
    "code": "089230",
@@ -667,82 +810,6 @@ window.DASH.longterm = {
     "L2"
    ],
    "note": "급등 +33.8% 후 고점 대비 -14.1% 조정, 60일선 대비 +1.5%"
-  },
-  {
-   "code": "009290",
-   "name": "광동제약",
-   "market": "KOSPI",
-   "sector": "",
-   "marcap": 3441,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 6870.0,
-   "changePct": 0.87,
-   "value": 18,
-   "close": 6930.0,
-   "ma240": 6727.08,
-   "ma480": 6217.48,
-   "matched": [
-    "L3a"
-   ],
-   "note": "240일선 돌파(1일 전), 거래량 평균의 2.5배"
-  },
-  {
-   "code": "002720",
-   "name": "국제약품",
-   "market": "KOSPI",
-   "sector": "",
-   "marcap": 937,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 3480.0,
-   "changePct": 27.3,
-   "value": 271,
-   "close": 4430.0,
-   "ma240": 4087.58,
-   "ma480": 4501.57,
-   "matched": [
-    "L3a"
-   ],
-   "note": "240일선 돌파(오늘), 거래량 평균의 207.2배"
-  },
-  {
-   "code": "114450",
-   "name": "그린생명과학",
-   "market": "KOSDAQ",
-   "sector": "",
-   "marcap": 501,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 2300.0,
-   "changePct": 10.65,
-   "value": 145,
-   "close": 2545.0,
-   "ma240": 2675.55,
-   "ma480": 2450.26,
-   "matched": [
-    "L3b"
-   ],
-   "note": "480일선 돌파(오늘), 거래량 평균의 111.5배"
-  },
-  {
-   "code": "121600",
-   "name": "나노신소재",
-   "market": "KOSDAQ",
-   "sector": "",
-   "marcap": 7786,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 64200.0,
-   "changePct": -1.87,
-   "value": 32,
-   "close": 63000.0,
-   "ma240": 59073.96,
-   "ma480": 59533.33,
-   "matched": [
-    "L3b"
-   ],
-   "note": "480일선 돌파(1일 전), 거래량 평균의 2.7배"
   },
   {
    "code": "036800",
@@ -859,25 +926,6 @@ window.DASH.longterm = {
    "note": "급등 +44.0% 후 고점 대비 -11.0% 조정, 60일선 대비 +1.6%"
   },
   {
-   "code": "128820",
-   "name": "대성산업",
-   "market": "KOSPI",
-   "sector": "",
-   "marcap": 2289,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 4230.0,
-   "changePct": 18.44,
-   "value": 332,
-   "close": 5010.0,
-   "ma240": 5859.38,
-   "ma480": 4822.9,
-   "matched": [
-    "L3b"
-   ],
-   "note": "480일선 돌파(오늘), 거래량 평균의 50.0배"
-  },
-  {
    "code": "045390",
    "name": "대아티아이",
    "market": "KOSDAQ",
@@ -933,25 +981,6 @@ window.DASH.longterm = {
     "L1"
    ],
    "note": "정배열 상승 중, 최근 20일선 지지 확인"
-  },
-  {
-   "code": "005160",
-   "name": "동국산업",
-   "market": "KOSDAQ",
-   "sector": "",
-   "marcap": 2151,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 4105.0,
-   "changePct": -6.09,
-   "value": 23,
-   "close": 3855.0,
-   "ma240": 2852.73,
-   "ma480": 3533.46,
-   "matched": [
-    "L3b"
-   ],
-   "note": "480일선 돌파(2일 전), 거래량 평균의 3.0배"
   },
   {
    "code": "028100",
@@ -1142,25 +1171,6 @@ window.DASH.longterm = {
     "L2"
    ],
    "note": "급등 +83.2% 후 고점 대비 -19.5% 조정, 60일선 대비 +6.3%"
-  },
-  {
-   "code": "411080",
-   "name": "샌즈랩",
-   "market": "KOSDAQ",
-   "sector": "",
-   "marcap": 1290,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 8970.0,
-   "changePct": -6.69,
-   "value": 656,
-   "close": 8370.0,
-   "ma240": 6307.19,
-   "ma480": 7245.34,
-   "matched": [
-    "L3b"
-   ],
-   "note": "480일선 돌파(1일 전), 거래량 평균의 3.6배"
   },
   {
    "code": "252990",
@@ -1429,44 +1439,6 @@ window.DASH.longterm = {
    "note": "급등 +119.4% 후 고점 대비 -30.6% 조정, 60일선 대비 +1.1%"
   },
   {
-   "code": "117670",
-   "name": "알파칩스",
-   "market": "KOSDAQ",
-   "sector": "",
-   "marcap": 893,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 10310.0,
-   "changePct": 29.97,
-   "value": 81,
-   "close": 13400.0,
-   "ma240": 12130.79,
-   "ma480": null,
-   "matched": [
-    "L3a"
-   ],
-   "note": "240일선 돌파(오늘), 거래량 평균의 4.7배"
-  },
-  {
-   "code": "161000",
-   "name": "애경케미칼",
-   "market": "KOSPI",
-   "sector": "",
-   "marcap": 5312,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 11270.0,
-   "changePct": -3.99,
-   "value": 21,
-   "close": 10820.0,
-   "ma240": 10813.88,
-   "ma480": 10030.92,
-   "matched": [
-    "L3a"
-   ],
-   "note": "240일선 돌파(2일 전), 거래량 평균의 3.8배"
-  },
-  {
    "code": "078520",
    "name": "에이블씨엔씨",
    "market": "KOSPI",
@@ -1486,25 +1458,6 @@ window.DASH.longterm = {
    "note": "급등 +41.7% 후 고점 대비 -12.1% 조정, 60일선 대비 +7.9%"
   },
   {
-   "code": "083310",
-   "name": "엘오티베큠",
-   "market": "KOSDAQ",
-   "sector": "",
-   "marcap": 2344,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 13300.0,
-   "changePct": -3.46,
-   "value": 13,
-   "close": 12840.0,
-   "ma240": 12025.38,
-   "ma480": 10958.46,
-   "matched": [
-    "L3a"
-   ],
-   "note": "240일선 돌파(2일 전), 거래량 평균의 4.5배"
-  },
-  {
    "code": "000670",
    "name": "영풍",
    "market": "KOSPI",
@@ -1522,25 +1475,6 @@ window.DASH.longterm = {
     "L2"
    ],
    "note": "급등 +33.9% 후 고점 대비 -19.9% 조정, 60일선 대비 +2.5%"
-  },
-  {
-   "code": "011690",
-   "name": "와이투솔루션",
-   "market": "KOSPI",
-   "sector": "",
-   "marcap": 1373,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 3850.0,
-   "changePct": -3.12,
-   "value": 8,
-   "close": 3730.0,
-   "ma240": 4648.27,
-   "ma480": 3684.03,
-   "matched": [
-    "L3b"
-   ],
-   "note": "480일선 돌파(2일 전), 거래량 평균의 2.4배"
   },
   {
    "code": "101160",
@@ -1579,63 +1513,6 @@ window.DASH.longterm = {
     "L2"
    ],
    "note": "급등 +49.8% 후 고점 대비 -21.1% 조정, 60일선 대비 -1.6%"
-  },
-  {
-   "code": "101730",
-   "name": "위메이드맥스",
-   "market": "KOSDAQ",
-   "sector": "",
-   "marcap": 4291,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 4585.0,
-   "changePct": 17.34,
-   "value": 227,
-   "close": 5380.0,
-   "ma240": 5302.83,
-   "ma480": 6638.83,
-   "matched": [
-    "L3a"
-   ],
-   "note": "240일선 돌파(오늘), 거래량 평균의 7.0배"
-  },
-  {
-   "code": "264450",
-   "name": "유비쿼스",
-   "market": "KOSDAQ",
-   "sector": "",
-   "marcap": 1723,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 11810.0,
-   "changePct": -0.59,
-   "value": 3,
-   "close": 11740.0,
-   "ma240": 11476.33,
-   "ma480": 9775.61,
-   "matched": [
-    "L3a"
-   ],
-   "note": "240일선 돌파(2일 전), 거래량 평균의 2.4배"
-  },
-  {
-   "code": "119610",
-   "name": "인터로조",
-   "market": "KOSDAQ",
-   "sector": "",
-   "marcap": 1957,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 16440.0,
-   "changePct": 4.44,
-   "value": 14,
-   "close": 17170.0,
-   "ma240": 17038.79,
-   "ma480": 18822.63,
-   "matched": [
-    "L3a"
-   ],
-   "note": "240일선 돌파(오늘), 거래량 평균의 2.3배"
   },
   {
    "code": "333430",
@@ -1866,44 +1743,6 @@ window.DASH.longterm = {
    "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
   },
   {
-   "code": "150900",
-   "name": "파수AI",
-   "market": "KOSDAQ",
-   "sector": "",
-   "marcap": 512,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 4550.0,
-   "changePct": -6.15,
-   "value": 10,
-   "close": 4270.0,
-   "ma240": 4054.06,
-   "ma480": 4437.84,
-   "matched": [
-    "L3a"
-   ],
-   "note": "240일선 돌파(1일 전), 거래량 평균의 6.4배"
-  },
-  {
-   "code": "368770",
-   "name": "파이버프로",
-   "market": "KOSDAQ",
-   "sector": "",
-   "marcap": 4698,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 14620.0,
-   "changePct": -3.83,
-   "value": 26,
-   "close": 14060.0,
-   "ma240": 14027.92,
-   "ma480": 9979.85,
-   "matched": [
-    "L3a"
-   ],
-   "note": "240일선 돌파(2일 전), 거래량 평균의 3.2배"
-  },
-  {
    "code": "103140",
    "name": "풍산",
    "market": "KOSPI",
@@ -2075,25 +1914,6 @@ window.DASH.longterm = {
    "note": "정배열 상승 중, 최근 20일선 지지 확인"
   },
   {
-   "code": "018880",
-   "name": "한온시스템",
-   "market": "KOSPI",
-   "sector": "",
-   "marcap": 39685,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 3945.0,
-   "changePct": -2.03,
-   "value": 197,
-   "close": 3865.0,
-   "ma240": 3857.27,
-   "ma480": 3643.84,
-   "matched": [
-    "L3a"
-   ],
-   "note": "240일선 돌파(1일 전), 거래량 평균의 2.7배"
-  },
-  {
    "code": "051600",
    "name": "한전KPS",
    "market": "KOSPI",
@@ -2130,25 +1950,6 @@ window.DASH.longterm = {
     "L2"
    ],
    "note": "급등 +44.2% 후 고점 대비 -10.7% 조정, 60일선 대비 +3.0%"
-  },
-  {
-   "code": "107640",
-   "name": "한중엔시에스",
-   "market": "KOSDAQ",
-   "sector": "",
-   "marcap": 4365,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 45650.0,
-   "changePct": 3.94,
-   "value": 130,
-   "close": 47450.0,
-   "ma240": 46175.0,
-   "ma480": 37402.46,
-   "matched": [
-    "L3a"
-   ],
-   "note": "240일선 돌파(오늘), 거래량 평균의 3.0배"
   },
   {
    "code": "180640",
@@ -2286,48 +2087,6 @@ window.DASH.longterm = {
  ],
  "us": [
   {
-   "code": "PTC",
-   "name": "PTC Inc.",
-   "market": "",
-   "sector": "",
-   "marcap": 0,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 192.26,
-   "changePct": 0.38,
-   "value": null,
-   "close": 193.0,
-   "ma240": 151.35,
-   "ma480": 167.26,
-   "matched": [
-    "L3a",
-    "L3b"
-   ],
-   "note": "240일선 돌파(1일 전), 거래량 평균의 16.9배 / 480일선 돌파(1일 전), 거래량 평균의 16.9배"
-  },
-  {
-   "code": "CEG",
-   "name": "컨스텔레이션에너지",
-   "market": "",
-   "sector": "",
-   "marcap": 0,
-   "themes": [
-    "원전·SMR"
-   ],
-   "krRank": "",
-   "prevClose": 267.62,
-   "changePct": 12.25,
-   "value": null,
-   "close": 300.4,
-   "ma240": 298.48,
-   "ma480": 289.86,
-   "matched": [
-    "L3a",
-    "L3b"
-   ],
-   "note": "240일선 돌파(오늘), 거래량 평균의 4.3배 / 480일선 돌파(오늘), 거래량 평균의 4.3배"
-  },
-  {
    "code": "AES",
    "name": "AES Corporation",
    "market": "",
@@ -2335,16 +2094,68 @@ window.DASH.longterm = {
    "marcap": 0,
    "themes": [],
    "krRank": "",
-   "prevClose": 14.9,
-   "changePct": 0.2,
+   "prevClose": 14.93,
+   "changePct": -0.1,
    "value": null,
-   "close": 14.93,
-   "ma240": 14.29,
-   "ma480": 12.82,
+   "close": 14.91,
+   "ma10": 14.89,
+   "ma20": 14.85,
+   "ma60": 14.76,
+   "ma240": 14.3,
+   "ma480": 12.83,
    "matched": [
-    "L1"
+    "L1",
+    "L4"
    ],
-   "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
+   "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인 / 02/27 52주 신고가 후 -20.7% 조정, 240일선 지지 → 20일선 위에서 반등 중 (전고점까지 -13.4%)"
+  },
+  {
+   "code": "APH",
+   "name": "Amphenol",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [],
+   "krRank": "",
+   "prevClose": 88.62,
+   "changePct": -1.5,
+   "value": null,
+   "close": 87.29,
+   "ma10": 85.62,
+   "ma20": 82.73,
+   "ma60": 80.95,
+   "ma240": 73.22,
+   "ma480": 58.2,
+   "matched": [
+    "L1",
+    "L4"
+   ],
+   "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인 / 06/30 역사적 신고가 후 -21.8% 조정, 240일선 지지 → 20일선 위에서 반등 중 (전고점까지 -2.0%)"
+  },
+  {
+   "code": "ETN",
+   "name": "이튼",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [
+    "전력 인프라"
+   ],
+   "krRank": "",
+   "prevClose": 445.09,
+   "changePct": -3.36,
+   "value": null,
+   "close": 430.12,
+   "ma10": 435.56,
+   "ma20": 426.22,
+   "ma60": 420.38,
+   "ma240": 382.78,
+   "ma480": 356.78,
+   "matched": [
+    "L1",
+    "L4"
+   ],
+   "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인 / 08/12 역사적 신고가 후 -19.5% 조정, 240일선 지지 → 20일선 위에서 반등 중 (전고점까지 -10.0%)"
   },
   {
    "code": "AMD",
@@ -2356,12 +2167,61 @@ window.DASH.longterm = {
     "반도체·AI 인프라"
    ],
    "krRank": "서학개미 보관 22위",
-   "prevClose": 631.75,
-   "changePct": 2.8,
+   "prevClose": 649.42,
+   "changePct": -0.96,
    "value": null,
-   "close": 649.42,
-   "ma240": 354.4,
-   "ma480": 244.3,
+   "close": 643.19,
+   "ma10": 626.11,
+   "ma20": 587.49,
+   "ma60": 521.12,
+   "ma240": 356.12,
+   "ma480": 245.35,
+   "matched": [
+    "L1"
+   ],
+   "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
+  },
+  {
+   "code": "ASML",
+   "name": "ASML",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [
+    "반도체 장비"
+   ],
+   "krRank": "서학개미 보관 40위",
+   "prevClose": 1834.1,
+   "changePct": -1.68,
+   "value": null,
+   "close": 1803.36,
+   "ma10": 1805.7,
+   "ma20": 1736.25,
+   "ma60": 1734.15,
+   "ma240": 1467.66,
+   "ma480": 1106.99,
+   "matched": [
+    "L1"
+   ],
+   "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
+  },
+  {
+   "code": "ABBV",
+   "name": "AbbVie",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [],
+   "krRank": "",
+   "prevClose": 266.69,
+   "changePct": 2.97,
+   "value": null,
+   "close": 274.61,
+   "ma10": 265.04,
+   "ma20": 263.63,
+   "ma60": 257.86,
+   "ma240": 228.67,
+   "ma480": 207.55,
    "matched": [
     "L1"
    ],
@@ -2375,31 +2235,15 @@ window.DASH.longterm = {
    "marcap": 0,
    "themes": [],
    "krRank": "",
-   "prevClose": 251.92,
-   "changePct": 0.71,
+   "prevClose": 253.72,
+   "changePct": -2.25,
    "value": null,
-   "close": 253.72,
-   "ma240": 224.24,
-   "ma480": 201.94,
-   "matched": [
-    "L1"
-   ],
-   "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
-  },
-  {
-   "code": "APH",
-   "name": "Amphenol",
-   "market": "",
-   "sector": "",
-   "marcap": 0,
-   "themes": [],
-   "krRank": "",
-   "prevClose": 87.27,
-   "changePct": 1.55,
-   "value": null,
-   "close": 88.62,
-   "ma240": 73.12,
-   "ma480": 58.09,
+   "close": 248.0,
+   "ma10": 250.33,
+   "ma20": 244.19,
+   "ma60": 243.15,
+   "ma240": 224.51,
+   "ma480": 202.08,
    "matched": [
     "L1"
    ],
@@ -2413,16 +2257,19 @@ window.DASH.longterm = {
    "marcap": 0,
    "themes": [],
    "krRank": "",
-   "prevClose": 87.39,
-   "changePct": -2.91,
+   "prevClose": 84.85,
+   "changePct": -0.04,
    "value": null,
-   "close": 84.85,
-   "ma240": 71.89,
+   "close": 84.82,
+   "ma10": 88.11,
+   "ma20": 90.1,
+   "ma60": 86.59,
+   "ma240": 71.92,
    "ma480": 71.28,
    "matched": [
     "L2"
    ],
-   "note": "급등 +40.4% 후 고점 대비 -10.5% 조정, 60일선 대비 -2.0%"
+   "note": "급등 +39.5% 후 고점 대비 -10.5% 조정, 60일선 대비 -2.0%"
   },
   {
    "code": "CRL",
@@ -2432,12 +2279,15 @@ window.DASH.longterm = {
    "marcap": 0,
    "themes": [],
    "krRank": "",
-   "prevClose": 310.77,
-   "changePct": -1.87,
+   "prevClose": 304.96,
+   "changePct": -0.75,
    "value": null,
-   "close": 304.96,
-   "ma240": 205.84,
-   "ma480": 183.58,
+   "close": 302.67,
+   "ma10": 296.83,
+   "ma20": 287.0,
+   "ma60": 271.51,
+   "ma240": 206.32,
+   "ma480": 183.82,
    "matched": [
     "L1"
    ],
@@ -2451,16 +2301,19 @@ window.DASH.longterm = {
    "marcap": 0,
    "themes": [],
    "krRank": "",
-   "prevClose": 58.17,
-   "changePct": -1.63,
+   "prevClose": 57.22,
+   "changePct": -0.42,
    "value": null,
-   "close": 57.22,
-   "ma240": 62.41,
-   "ma480": 68.39,
+   "close": 56.98,
+   "ma10": 57.73,
+   "ma20": 59.19,
+   "ma60": 56.93,
+   "ma240": 62.37,
+   "ma480": 68.36,
    "matched": [
     "L2"
    ],
-   "note": "급등 +44.5% 후 고점 대비 -11.5% 조정, 60일선 대비 +0.9%"
+   "note": "급등 +44.5% 후 고점 대비 -11.9% 조정, 60일선 대비 +0.1%"
   },
   {
    "code": "CRWD",
@@ -2470,12 +2323,15 @@ window.DASH.longterm = {
    "marcap": 0,
    "themes": [],
    "krRank": "",
-   "prevClose": 272.67,
-   "changePct": 2.27,
+   "prevClose": 278.86,
+   "changePct": -3.96,
    "value": null,
-   "close": 278.86,
-   "ma240": 150.97,
-   "ma480": 127.59,
+   "close": 267.83,
+   "ma10": 265.4,
+   "ma20": 251.71,
+   "ma60": 219.74,
+   "ma240": 151.56,
+   "ma480": 127.99,
    "matched": [
     "L1"
    ],
@@ -2489,12 +2345,15 @@ window.DASH.longterm = {
    "marcap": 0,
    "themes": [],
    "krRank": "",
-   "prevClose": 276.42,
-   "changePct": 0.66,
+   "prevClose": 278.24,
+   "changePct": -1.19,
    "value": null,
-   "close": 278.24,
-   "ma240": 182.3,
-   "ma480": 156.31,
+   "close": 274.94,
+   "ma10": 271.94,
+   "ma20": 253.17,
+   "ma60": 247.61,
+   "ma240": 182.8,
+   "ma480": 156.62,
    "matched": [
     "L1"
    ],
@@ -2508,12 +2367,15 @@ window.DASH.longterm = {
    "marcap": 0,
    "themes": [],
    "krRank": "",
-   "prevClose": 162.33,
-   "changePct": -0.57,
+   "prevClose": 161.4,
+   "changePct": -1.37,
    "value": null,
-   "close": 161.4,
-   "ma240": 141.97,
-   "ma480": 132.21,
+   "close": 159.19,
+   "ma10": 158.92,
+   "ma20": 154.44,
+   "ma60": 152.99,
+   "ma240": 142.1,
+   "ma480": 132.3,
    "matched": [
     "L1"
    ],
@@ -2527,12 +2389,15 @@ window.DASH.longterm = {
    "marcap": 0,
    "themes": [],
    "krRank": "",
-   "prevClose": 143.88,
-   "changePct": 2.31,
+   "prevClose": 147.2,
+   "changePct": 2.22,
    "value": null,
-   "close": 147.2,
-   "ma240": 80.23,
-   "ma480": 70.46,
+   "close": 150.47,
+   "ma10": 135.39,
+   "ma20": 118.85,
+   "ma60": 100.77,
+   "ma240": 80.49,
+   "ma480": 70.66,
    "matched": [
     "L1"
    ],
@@ -2546,12 +2411,15 @@ window.DASH.longterm = {
    "marcap": 0,
    "themes": [],
    "krRank": "",
-   "prevClose": 458.53,
-   "changePct": 2.46,
+   "prevClose": 469.79,
+   "changePct": 0.21,
    "value": null,
-   "close": 469.79,
-   "ma240": 331.03,
-   "ma480": 308.35,
+   "close": 470.77,
+   "ma10": 450.52,
+   "ma20": 440.37,
+   "ma60": 413.55,
+   "ma240": 331.75,
+   "ma480": 308.84,
    "matched": [
     "L1"
    ],
@@ -2565,16 +2433,41 @@ window.DASH.longterm = {
    "marcap": 0,
    "themes": [],
    "krRank": "",
-   "prevClose": 276.44,
-   "changePct": -1.6,
+   "prevClose": 272.01,
+   "changePct": 1.01,
    "value": null,
-   "close": 272.01,
-   "ma240": 251.51,
-   "ma480": 333.63,
+   "close": 274.76,
+   "ma10": 270.87,
+   "ma20": 273.22,
+   "ma60": 278.05,
+   "ma240": 251.47,
+   "ma480": 333.25,
    "matched": [
     "L2"
    ],
-   "note": "급등 +36.2% 후 고점 대비 -13.2% 조정, 60일선 대비 -2.0%"
+   "note": "급등 +36.2% 후 고점 대비 -12.4% 조정, 60일선 대비 -1.2%"
+  },
+  {
+   "code": "FAST",
+   "name": "Fastenal",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [],
+   "krRank": "",
+   "prevClose": 50.81,
+   "changePct": -1.11,
+   "value": null,
+   "close": 50.24,
+   "ma10": 50.39,
+   "ma20": 49.95,
+   "ma60": 49.37,
+   "ma240": 45.1,
+   "ma480": 42.85,
+   "matched": [
+    "L1"
+   ],
+   "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
   },
   {
    "code": "FTNT",
@@ -2584,16 +2477,43 @@ window.DASH.longterm = {
    "marcap": 0,
    "themes": [],
    "krRank": "",
-   "prevClose": 184.13,
-   "changePct": 3.88,
+   "prevClose": 191.27,
+   "changePct": -0.26,
    "value": null,
-   "close": 191.27,
-   "ma240": 113.5,
-   "ma480": 104.69,
+   "close": 190.77,
+   "ma10": 180.9,
+   "ma20": 175.45,
+   "ma60": 164.34,
+   "ma240": 113.94,
+   "ma480": 104.93,
    "matched": [
     "L1"
    ],
    "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
+  },
+  {
+   "code": "GEV",
+   "name": "GE베르노바",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [
+    "전력 인프라"
+   ],
+   "krRank": "",
+   "prevClose": 1029.21,
+   "changePct": -3.22,
+   "value": null,
+   "close": 996.05,
+   "ma10": 976.68,
+   "ma20": 952.21,
+   "ma60": 976.51,
+   "ma240": 868.3,
+   "ma480": 658.57,
+   "matched": [
+    "L4"
+   ],
+   "note": "07/06 역사적 신고가 후 -27.4% 조정, 240일선 지지 → 20일선 위에서 반등 중 (전고점까지 -16.7%)"
   },
   {
    "code": "GRMN",
@@ -2603,16 +2523,19 @@ window.DASH.longterm = {
    "marcap": 0,
    "themes": [],
    "krRank": "",
-   "prevClose": 285.52,
-   "changePct": -2.21,
+   "prevClose": 279.21,
+   "changePct": -1.31,
    "value": null,
-   "close": 279.21,
-   "ma240": 238.47,
-   "ma480": 225.19,
+   "close": 275.55,
+   "ma10": 286.42,
+   "ma20": 282.81,
+   "ma60": 281.57,
+   "ma240": 238.61,
+   "ma480": 225.35,
    "matched": [
     "L2"
    ],
-   "note": "급등 +32.3% 후 고점 대비 -10.5% 조정, 60일선 대비 -0.6%"
+   "note": "급등 +32.3% 후 고점 대비 -11.7% 조정, 60일선 대비 -2.1%"
   },
   {
    "code": "ILMN",
@@ -2622,12 +2545,15 @@ window.DASH.longterm = {
    "marcap": 0,
    "themes": [],
    "krRank": "",
-   "prevClose": 293.69,
-   "changePct": -6.86,
+   "prevClose": 273.54,
+   "changePct": -0.1,
    "value": null,
-   "close": 273.54,
-   "ma240": 157.06,
-   "ma480": 130.32,
+   "close": 273.26,
+   "ma10": 274.07,
+   "ma20": 251.72,
+   "ma60": 218.57,
+   "ma240": 157.79,
+   "ma480": 130.57,
    "matched": [
     "L1"
    ],
@@ -2641,12 +2567,15 @@ window.DASH.longterm = {
    "marcap": 0,
    "themes": [],
    "krRank": "",
-   "prevClose": 156.85,
-   "changePct": 1.22,
+   "prevClose": 158.76,
+   "changePct": -2.03,
    "value": null,
-   "close": 158.76,
-   "ma240": 133.59,
-   "ma480": 112.72,
+   "close": 155.54,
+   "ma10": 152.17,
+   "ma20": 147.31,
+   "ma60": 145.71,
+   "ma240": 133.79,
+   "ma480": 112.89,
    "matched": [
     "L1"
    ],
@@ -2660,16 +2589,41 @@ window.DASH.longterm = {
    "marcap": 0,
    "themes": [],
    "krRank": "",
-   "prevClose": 433.47,
-   "changePct": -0.26,
+   "prevClose": 432.36,
+   "changePct": 1.82,
    "value": null,
-   "close": 432.36,
-   "ma240": 250.82,
-   "ma480": 202.68,
+   "close": 440.22,
+   "ma10": 410.99,
+   "ma20": 407.34,
+   "ma60": 362.29,
+   "ma240": 251.88,
+   "ma480": 203.3,
    "matched": [
     "L1"
    ],
    "note": "정배열 상승 중, 최근 20일선 지지 확인"
+  },
+  {
+   "code": "MAR",
+   "name": "Marriott International",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [],
+   "krRank": "",
+   "prevClose": 361.28,
+   "changePct": -1.23,
+   "value": null,
+   "close": 356.85,
+   "ma10": 356.72,
+   "ma20": 347.95,
+   "ma60": 353.75,
+   "ma240": 338.58,
+   "ma480": 301.17,
+   "matched": [
+    "L4"
+   ],
+   "note": "06/15 역사적 신고가 후 -21.8% 조정, 240일선 지지 → 20일선 위에서 반등 중 (전고점까지 -13.0%)"
   },
   {
    "code": "NTAP",
@@ -2679,12 +2633,15 @@ window.DASH.longterm = {
    "marcap": 0,
    "themes": [],
    "krRank": "",
-   "prevClose": 223.77,
-   "changePct": 2.09,
+   "prevClose": 228.45,
+   "changePct": 3.05,
    "value": null,
-   "close": 228.45,
-   "ma240": 134.85,
-   "ma480": 120.74,
+   "close": 235.42,
+   "ma10": 215.1,
+   "ma20": 204.28,
+   "ma60": 190.8,
+   "ma240": 135.35,
+   "ma480": 121.0,
    "matched": [
     "L1"
    ],
@@ -2698,16 +2655,19 @@ window.DASH.longterm = {
    "marcap": 0,
    "themes": [],
    "krRank": "",
-   "prevClose": 115.82,
-   "changePct": 0.49,
+   "prevClose": 116.39,
+   "changePct": -2.19,
    "value": null,
-   "close": 116.39,
-   "ma240": 107.28,
-   "ma480": 81.01,
+   "close": 113.84,
+   "ma10": 116.75,
+   "ma20": 120.56,
+   "ma60": 114.62,
+   "ma240": 107.4,
+   "ma480": 81.16,
    "matched": [
     "L2"
    ],
-   "note": "급등 +48.0% 후 고점 대비 -13.7% 조정, 60일선 대비 +1.8%"
+   "note": "급등 +48.0% 후 고점 대비 -15.6% 조정, 60일선 대비 -0.7%"
   },
   {
    "code": "NDSN",
@@ -2717,16 +2677,41 @@ window.DASH.longterm = {
    "marcap": 0,
    "themes": [],
    "krRank": "",
-   "prevClose": 334.43,
-   "changePct": -0.06,
+   "prevClose": 334.22,
+   "changePct": -1.92,
    "value": null,
-   "close": 334.22,
-   "ma240": 277.41,
-   "ma480": 245.14,
+   "close": 327.8,
+   "ma10": 329.67,
+   "ma20": 321.2,
+   "ma60": 312.66,
+   "ma240": 277.81,
+   "ma480": 245.31,
    "matched": [
     "L1"
    ],
    "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
+  },
+  {
+   "code": "PTC",
+   "name": "PTC Inc.",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [],
+   "krRank": "",
+   "prevClose": 193.0,
+   "changePct": 0.38,
+   "value": null,
+   "close": 193.73,
+   "ma10": 156.26,
+   "ma20": 145.43,
+   "ma60": 142.33,
+   "ma240": 151.31,
+   "ma480": 167.27,
+   "matched": [
+    "L3"
+   ],
+   "note": "240일선 돌파(2일 전, 거래량 16.9배) · 480일선 돌파(2일 전, 거래량 16.9배)"
   },
   {
    "code": "RVTY",
@@ -2736,12 +2721,15 @@ window.DASH.longterm = {
    "marcap": 0,
    "themes": [],
    "krRank": "",
-   "prevClose": 157.36,
-   "changePct": -2.58,
+   "prevClose": 153.3,
+   "changePct": 1.76,
    "value": null,
-   "close": 153.3,
-   "ma240": 105.12,
-   "ma480": 103.33,
+   "close": 155.99,
+   "ma10": 152.57,
+   "ma20": 145.23,
+   "ma60": 127.19,
+   "ma240": 105.37,
+   "ma480": 103.39,
    "matched": [
     "L1"
    ],
@@ -2754,13 +2742,16 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
-   "krRank": "서학개미 순매수 48위",
-   "prevClose": 338.99,
-   "changePct": -0.9,
+   "krRank": "서학개미 순매수 39위",
+   "prevClose": 335.95,
+   "changePct": 0.31,
    "value": null,
-   "close": 335.95,
-   "ma240": 232.59,
-   "ma480": 209.74,
+   "close": 336.99,
+   "ma10": 336.29,
+   "ma20": 334.48,
+   "ma60": 318.11,
+   "ma240": 232.99,
+   "ma480": 210.2,
    "matched": [
     "L1"
    ],
@@ -2776,12 +2767,15 @@ window.DASH.longterm = {
     "반도체·AI 인프라"
    ],
    "krRank": "서학개미 보관 23위",
-   "prevClose": 485.8,
-   "changePct": -0.72,
+   "prevClose": 482.3,
+   "changePct": -1.93,
    "value": null,
-   "close": 482.3,
-   "ma240": 371.0,
-   "ma480": 289.65,
+   "close": 472.98,
+   "ma10": 464.08,
+   "ma20": 447.78,
+   "ma60": 425.47,
+   "ma240": 371.78,
+   "ma480": 290.24,
    "matched": [
     "L1"
    ],
@@ -2795,12 +2789,15 @@ window.DASH.longterm = {
    "marcap": 0,
    "themes": [],
    "krRank": "",
-   "prevClose": 419.33,
-   "changePct": -0.03,
+   "prevClose": 419.22,
+   "changePct": 0.71,
    "value": null,
-   "close": 419.22,
-   "ma240": 246.33,
-   "ma480": 189.28,
+   "close": 422.21,
+   "ma10": 401.05,
+   "ma20": 397.08,
+   "ma60": 352.46,
+   "ma240": 247.43,
+   "ma480": 189.9,
    "matched": [
     "L1"
    ],
@@ -2816,16 +2813,67 @@ window.DASH.longterm = {
     "네오클라우드"
    ],
    "krRank": "서학개미 보관 47위",
-   "prevClose": 232.57,
-   "changePct": 7.44,
+   "prevClose": 249.87,
+   "changePct": -6.2,
    "value": null,
-   "close": 249.87,
-   "ma240": 157.86,
-   "ma480": 102.64,
+   "close": 234.38,
+   "ma10": 237.78,
+   "ma20": 229.82,
+   "ma60": 217.45,
+   "ma240": 158.43,
+   "ma480": 103.09,
    "matched": [
     "L1"
    ],
    "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
+  },
+  {
+   "code": "HOOD",
+   "name": "로빈후드",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [
+    "증권"
+   ],
+   "krRank": "서학개미 순매수 44위",
+   "prevClose": 112.0,
+   "changePct": -2.73,
+   "value": null,
+   "close": 108.94,
+   "ma10": 114.43,
+   "ma20": 114.97,
+   "ma60": 105.63,
+   "ma240": 99.97,
+   "ma480": 85.67,
+   "matched": [
+    "L2"
+   ],
+   "note": "급등 +46.9% 후 고점 대비 -12.7% 조정, 60일선 대비 +3.1%"
+  },
+  {
+   "code": "ROK",
+   "name": "로크웰오토메이션",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [
+    "로봇"
+   ],
+   "krRank": "",
+   "prevClose": 450.74,
+   "changePct": -2.28,
+   "value": null,
+   "close": 440.46,
+   "ma10": 440.83,
+   "ma20": 430.98,
+   "ma60": 440.65,
+   "ma240": 415.39,
+   "ma480": 356.87,
+   "matched": [
+    "L4"
+   ],
+   "note": "06/30 역사적 신고가 후 -17.9% 조정, 240일선 지지 → 20일선 위에서 반등 중 (전고점까지 -11.2%)"
   },
   {
    "code": "MRVL",
@@ -2835,37 +2883,66 @@ window.DASH.longterm = {
    "marcap": 0,
    "themes": [],
    "krRank": "서학개미 보관 31위",
-   "prevClose": 271.25,
-   "changePct": 5.81,
+   "prevClose": 287.01,
+   "changePct": -1.93,
    "value": null,
-   "close": 287.01,
-   "ma240": 155.33,
-   "ma480": 118.55,
+   "close": 281.47,
+   "ma10": 268.04,
+   "ma20": 253.97,
+   "ma60": 226.38,
+   "ma240": 156.17,
+   "ma480": 118.96,
    "matched": [
     "L1"
    ],
    "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
   },
   {
-   "code": "VST",
-   "name": "비스트라",
+   "code": "MU",
+   "name": "마이크론",
    "market": "",
    "sector": "",
    "marcap": 0,
    "themes": [
-    "원전·SMR"
+    "반도체·AI 인프라",
+    "메모리·스토리지"
    ],
-   "krRank": "",
-   "prevClose": 144.89,
-   "changePct": 10.77,
+   "krRank": "서학개미 보관 9위",
+   "prevClose": 1045.56,
+   "changePct": 3.29,
    "value": null,
-   "close": 160.5,
-   "ma240": 158.26,
-   "ma480": 160.88,
+   "close": 1079.99,
+   "ma10": 1070.88,
+   "ma20": 1032.25,
+   "ma60": 956.4,
+   "ma240": 617.13,
+   "ma480": 363.84,
    "matched": [
-    "L3a"
+    "L1"
    ],
-   "note": "240일선 돌파(오늘), 거래량 평균의 3.3배"
+   "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
+  },
+  {
+   "code": "BE",
+   "name": "블룸에너지",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [],
+   "krRank": "서학개미 보관 42위",
+   "prevClose": 295.78,
+   "changePct": -2.77,
+   "value": null,
+   "close": 287.6,
+   "ma10": 282.32,
+   "ma20": 275.74,
+   "ma60": 236.63,
+   "ma240": 193.92,
+   "ma480": 113.71,
+   "matched": [
+    "L4"
+   ],
+   "note": "06/25 역사적 신고가 후 -55.2% 조정, 240일선 지지 → 20일선 위에서 반등 중 (전고점까지 -18.1%)"
   },
   {
    "code": "CRCL",
@@ -2875,16 +2952,19 @@ window.DASH.longterm = {
    "marcap": 0,
    "themes": [],
    "krRank": "서학개미 보관 38위",
-   "prevClose": 83.3,
-   "changePct": 1.0,
+   "prevClose": 84.13,
+   "changePct": -3.95,
    "value": null,
-   "close": 84.13,
-   "ma240": 87.54,
+   "close": 80.81,
+   "ma10": 84.61,
+   "ma20": 87.44,
+   "ma60": 79.5,
+   "ma240": 87.36,
    "ma480": null,
    "matched": [
     "L2"
    ],
-   "note": "급등 +63.1% 후 고점 대비 -18.5% 조정, 60일선 대비 +6.2%"
+   "note": "급등 +63.1% 후 고점 대비 -21.7% 조정, 60일선 대비 +1.6%"
   },
   {
    "code": "STX",
@@ -2896,16 +2976,19 @@ window.DASH.longterm = {
     "메모리·스토리지"
    ],
    "krRank": "서학개미 순매수 15위",
-   "prevClose": 887.09,
-   "changePct": -9.18,
+   "prevClose": 805.63,
+   "changePct": -0.65,
    "value": null,
-   "close": 805.63,
-   "ma240": 590.16,
-   "ma480": 357.12,
+   "close": 800.36,
+   "ma10": 886.77,
+   "ma20": 864.85,
+   "ma60": 851.2,
+   "ma240": 592.61,
+   "ma480": 358.58,
    "matched": [
     "L2"
    ],
-   "note": "급등 +45.4% 후 고점 대비 -26.3% 조정, 60일선 대비 -5.5%"
+   "note": "급등 +45.4% 후 고점 대비 -26.7% 조정, 60일선 대비 -6.0%"
   },
   {
    "code": "ANET",
@@ -2917,12 +3000,15 @@ window.DASH.longterm = {
     "AI 서버·네트워크"
    ],
    "krRank": "",
-   "prevClose": 206.9,
-   "changePct": 4.09,
+   "prevClose": 215.36,
+   "changePct": -0.37,
    "value": null,
-   "close": 215.36,
-   "ma240": 155.73,
-   "ma480": 132.02,
+   "close": 214.57,
+   "ma10": 207.23,
+   "ma20": 202.6,
+   "ma60": 191.87,
+   "ma240": 156.01,
+   "ma480": 132.26,
    "matched": [
     "L1"
    ],
@@ -2938,16 +3024,43 @@ window.DASH.longterm = {
     "네오클라우드"
    ],
    "krRank": "서학개미 보관 32위",
-   "prevClose": 40.48,
-   "changePct": 1.98,
+   "prevClose": 41.28,
+   "changePct": -6.6,
    "value": null,
-   "close": 41.28,
-   "ma240": 46.6,
-   "ma480": 31.61,
+   "close": 38.56,
+   "ma10": 41.7,
+   "ma20": 43.24,
+   "ma60": 41.0,
+   "ma240": 46.54,
+   "ma480": 31.67,
    "matched": [
     "L2"
    ],
-   "note": "급등 +53.2% 후 고점 대비 -15.0% 조정, 60일선 대비 +0.7%"
+   "note": "급등 +53.2% 후 고점 대비 -20.6% 조정, 60일선 대비 -6.0%"
+  },
+  {
+   "code": "XOM",
+   "name": "엑슨모빌",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [
+    "정유·에너지"
+   ],
+   "krRank": "",
+   "prevClose": 164.48,
+   "changePct": -0.4,
+   "value": null,
+   "close": 163.83,
+   "ma10": 162.95,
+   "ma20": 163.17,
+   "ma60": 159.09,
+   "ma240": 142.66,
+   "ma480": 124.26,
+   "matched": [
+    "L4"
+   ],
+   "note": "03/30 역사적 신고가 후 -23.0% 조정, 240일선 지지 → 20일선 위에서 반등 중 (전고점까지 -5.9%)"
   },
   {
    "code": "NVDA",
@@ -2959,16 +3072,91 @@ window.DASH.longterm = {
     "반도체·AI 인프라"
    ],
    "krRank": "서학개미 보관 2위",
-   "prevClose": 238.9,
-   "changePct": 0.14,
+   "prevClose": 239.24,
+   "changePct": -0.92,
    "value": null,
-   "close": 239.24,
-   "ma240": 198.57,
-   "ma480": 171.6,
+   "close": 237.03,
+   "ma10": 231.41,
+   "ma20": 225.56,
+   "ma60": 217.89,
+   "ma240": 198.8,
+   "ma480": 171.8,
    "matched": [
     "L1"
    ],
    "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
+  },
+  {
+   "code": "CRWV",
+   "name": "코어위브",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [
+    "네오클라우드"
+   ],
+   "krRank": "",
+   "prevClose": 91.72,
+   "changePct": -4.06,
+   "value": null,
+   "close": 88.0,
+   "ma10": 88.11,
+   "ma20": 86.34,
+   "ma60": 85.69,
+   "ma240": 92.6,
+   "ma480": null,
+   "matched": [
+    "L2"
+   ],
+   "note": "급등 +77.1% 후 고점 대비 -18.3% 조정, 60일선 대비 +2.7%"
+  },
+  {
+   "code": "PWR",
+   "name": "콴타서비스",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [
+    "전력 인프라"
+   ],
+   "krRank": "",
+   "prevClose": 719.56,
+   "changePct": -4.01,
+   "value": null,
+   "close": 690.7,
+   "ma10": 666.36,
+   "ma20": 647.99,
+   "ma60": 645.28,
+   "ma240": 582.12,
+   "ma480": 460.74,
+   "matched": [
+    "L4"
+   ],
+   "note": "05/06 역사적 신고가 후 -29.7% 조정, 240일선 지지 → 20일선 위에서 반등 중 (전고점까지 -12.4%)"
+  },
+  {
+   "code": "QCOM",
+   "name": "퀄컴",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [
+    "스마트폰·애플"
+   ],
+   "krRank": "",
+   "prevClose": 181.03,
+   "changePct": -2.41,
+   "value": null,
+   "close": 176.66,
+   "ma10": 185.73,
+   "ma20": 186.25,
+   "ma60": 171.5,
+   "ma240": 168.31,
+   "ma480": 160.44,
+   "matched": [
+    "L2"
+   ],
+   "note": "급등 +43.0% 후 고점 대비 -28.7% 조정, 60일선 대비 +3.0%"
   },
   {
    "code": "CLF",
@@ -2980,35 +3168,19 @@ window.DASH.longterm = {
     "철강"
    ],
    "krRank": "",
-   "prevClose": 12.2,
-   "changePct": 0.41,
+   "prevClose": 12.25,
+   "changePct": -2.69,
    "value": null,
-   "close": 12.25,
+   "close": 11.92,
+   "ma10": 11.71,
+   "ma20": 11.96,
+   "ma60": 11.65,
    "ma240": 11.49,
    "ma480": 10.72,
    "matched": [
     "L2"
    ],
-   "note": "급등 +45.3% 후 고점 대비 -16.9% 조정, 60일선 대비 +5.5%"
-  },
-  {
-   "code": "TWST",
-   "name": "트위스트바이오사이언스",
-   "market": "",
-   "sector": "",
-   "marcap": 0,
-   "themes": [],
-   "krRank": "서학개미 순매수 14위",
-   "prevClose": 205.0,
-   "changePct": -18.55,
-   "value": null,
-   "close": 166.97,
-   "ma240": 70.64,
-   "ma480": 54.2,
-   "matched": [
-    "L1"
-   ],
-   "note": "정배열 상승 중, 최근 20일선 지지 확인"
+   "note": "급등 +45.3% 후 고점 대비 -19.2% 조정, 60일선 대비 +2.3%"
   },
   {
    "code": "PANW",
@@ -3017,17 +3189,44 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
-   "krRank": "서학개미 순매수 25위",
-   "prevClose": 406.76,
-   "changePct": 3.23,
+   "krRank": "서학개미 순매수 19위",
+   "prevClose": 419.91,
+   "changePct": -3.14,
    "value": null,
-   "close": 419.91,
-   "ma240": 244.15,
-   "ma480": 217.06,
+   "close": 406.73,
+   "ma10": 397.54,
+   "ma20": 382.37,
+   "ma60": 362.41,
+   "ma240": 244.96,
+   "ma480": 217.53,
    "matched": [
     "L1"
    ],
    "note": "정배열 상승 중, 최근 20일선·60일선 지지 확인"
+  },
+  {
+   "code": "FCX",
+   "name": "프리포트맥모란",
+   "market": "",
+   "sector": "",
+   "marcap": 0,
+   "themes": [
+    "구리·전선"
+   ],
+   "krRank": "",
+   "prevClose": 72.56,
+   "changePct": -1.58,
+   "value": null,
+   "close": 71.41,
+   "ma10": 71.5,
+   "ma20": 71.34,
+   "ma60": 69.52,
+   "ma240": 60.23,
+   "ma480": 50.01,
+   "matched": [
+    "L2"
+   ],
+   "note": "급등 +33.2% 후 고점 대비 -10.6% 조정, 60일선 대비 +2.7%"
   }
  ]
 };
