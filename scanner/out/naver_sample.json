@@ -450,25 +450,5 @@
    "accumulatedTradingValueRaw": "51614000000",
    "marketValueRaw": "12170105989600"
   }
- ],
- "industryGroups": [
-  {
-   "no": 266,
-   "name": "화장품",
-   "totalCount": 64,
-   "changeRate": "3.86",
-   "riseCount": 46,
-   "fallCount": 15,
-   "steadyCount": 3
-  },
-  {
-   "no": 285,
-   "name": "방송과엔터테인먼트",
-   "totalCount": 57,
-   "changeRate": "3.83",
-   "riseCount": 34,
-   "fallCount": 19,
-   "steadyCount": 4
-  }
  ]
 }
