@@ -30,7 +30,7 @@ RULES = [
     {"id": "L3", "label": "240·480일선 동시 거래량 돌파",
      "desc": f"최근 {P.breakout_days}일 안에 240일선과 480일선을 모두 아래→위로 돌파, 각 돌파일 거래량이 직전 20일 평균의 {P.vol_mult:g}배 이상"},
     {"id": "L4", "label": "신고가 후 240일선 지지 → 전고점 향해 반등",
-     "desc": (f"52주(또는 역사적) 신고가를 찍고 -{int(rules2.PEAK_DRAWDOWN * 100)}% 이상 조정, 조정 중 240일선 지지, "
+     "desc": (f"52주 신고가(받아 둔 3년치 자료 안에서 최고가면 '3년 내 최고가'로 표시)를 찍고 -{int(rules2.PEAK_DRAWDOWN * 100)}% 이상 조정, 조정 중 240일선 지지, "
               f"저점 대비 +{int(rules2.D_REBOUND * 100)}% 이상 반등해 전고점 아래에서 상승 중이며 최근 5일 종가가 20일선을 이탈하지 않음")},
 ]
 SWING_RULES = [
@@ -44,11 +44,11 @@ SWING_RULES = [
      "desc": f"급등 후 최근 5일 평균 거래량이 급등 막바지의 {int(rules2.D_VOL_RATIO * 100)}% 이하로 줄고, 상승 중인 20일선에서 지지"},
     {"id": "S5", "label": "외국인·기관 지속 유입 + 10일선 위 상승",
      "desc": (f"최근 {rules2.E_HOLD_DAYS}거래일 종가가 10일선을 이탈하지 않고 +{int(rules2.E_MIN_GAIN * 100)}% 이상 상승, "
-              f"최근 {rules2.E_FLOW_DAYS}거래일 중 {rules2.E_FLOW_POS}일 이상 외국인+기관 합계 순매수 (국내만, 수급은 네이버 공개분까지)")},
+              f"최근 {rules2.E_FLOW_DAYS}거래일 중 {rules2.E_FLOW_POS}일 이상 외국인+기관 합계 순매수이고 누적 {rules2.E_FLOW_MIN / 1e8:g}억 원 이상 (국내만, 수급은 네이버 공개분까지)")},
 ]
 BREAK_SUBTYPES = [
     {"id": "B1", "name": "전고점 돌파 + 거래량 동반 장대양봉",
-     "desc": (f"52주(또는 역사적) 신고가를 찍고 -{int(rules2.PEAK_DRAWDOWN * 100)}% 이상 하락했던 전고점을 최근 {rules2.B_BREAK_DAYS}일 안에 종가로 돌파, "
+     "desc": (f"52주 신고가(3년치 자료 안에서 최고가면 '3년 내 최고가')를 찍고 -{int(rules2.PEAK_DRAWDOWN * 100)}% 이상 하락했던 전고점을 최근 {rules2.B_BREAK_DAYS}일 안에 종가로 돌파, "
               f"돌파일 몸통 +{rules2.B1_BODY_PCT:g}% 이상·거래량 20일 평균의 {rules2.B1_VOL_MULT:g}배 이상")},
     {"id": "B2", "name": "전고점 돌파 + 장기 이평선 지지",
      "desc": "같은 전고점 돌파 종목 중, 조정 구간에서 240일선 또는 480일선 지지를 받았던 종목"},

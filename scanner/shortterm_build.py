@@ -23,7 +23,7 @@ def merge(closing, breakout):
     types = [t for t in payload.get("types", []) if t.get("id") != "B"]
     if breakout:
         types.append({"id": "B", "name": "전고점 돌파", "timeframe": "일봉",
-                      "desc": "52주·역사적 신고가를 찍고 하락했던 전고점을 다시 넘어서는 종목. 장 마감 후 종가 기준으로 하루 한 번 갱신됩니다.",
+                      "desc": "52주 신고가(또는 3년 내 최고가)를 찍고 하락했던 전고점을 다시 넘어서는 종목. 장 마감 후 종가 기준으로 하루 한 번 갱신됩니다.",
                       "asOf": breakout.get("asOf", ""), "subtypes": breakout.get("subtypes", [])})
     payload["types"] = types
     return payload

@@ -235,7 +235,7 @@ def long_d(df):
     rec = df.iloc[-5:]
     if not (rec["close"] >= rec["ma20"] * 0.99).all() or not rising(df, "ma20") or c < float(last["ma240"]):
         return None
-    return {"peak_date": _d(df.index[pk["pos"]]), "kind": "역사적 신고가" if pk["all_time"] else "52주 신고가",
+    return {"peak_date": _d(df.index[pk["pos"]]), "kind": "3년 내 최고가" if pk["all_time"] else "52주 신고가",
             "dd": round((1 - pk["T"] / pk["P"]) * 100, 1), "to_peak": round((c / pk["P"] - 1) * 100, 1)}
 
 
@@ -258,7 +258,7 @@ def breakout(df):
         return {}
     out = {}
     b = df.iloc[first]
-    kind = "역사적 신고가" if pk["all_time"] else "52주 신고가"
+    kind = "3년 내 최고가" if pk["all_time"] else "52주 신고가"
     common = {"peak_date": _d(df.index[pk["pos"]]), "kind": kind, "dd": round((1 - pk["T"] / P) * 100, 1),
               "when": "오늘" if first == n - 1 else f"{n - 1 - first}일 전", "over": round((float(close.iloc[-1]) / P - 1) * 100, 1)}
     rng = float(b["high"] - b["low"])
