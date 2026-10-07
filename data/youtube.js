@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-07 09:36",
+ "asOf": "2026-10-07 11:26",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "소외된 삼전·SK하닉, 오후장 반등할까? / 빅테크 ‘원전 장기계약’ 본격화… 진짜 수혜주는 ‘이것’ ㅣ이주연 대표",
+     "publishedAt": "2026-10-07 10:26",
+     "url": "https://www.youtube.com/watch?v=toEF93oEd3Q"
+    },
     {
      "title": "[10월7일 #장시작전] 금리 하락, AI주 강세로 뉴욕증시 사상최고 /  메모리주와 장비주는 급락, 오늘 증시 외인의 선택은?",
      "publishedAt": "2026-10-07 06:41",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급인터뷰]  답답한 코스피… 실적은 좋은데 왜 안 가나? / 돈은 이미 삼전·하닉에서 반도체 소부장으로 이동 중 ㅣ김민수 대표",
      "publishedAt": "2026-10-06 17:30",
      "url": "https://www.youtube.com/watch?v=gSy9RYunYkE"
-    },
-    {
-     "title": "[#글로벌인사이트]  빅테크 내부자가 말했다 “메모리 더 비싸게 살 수밖에 없다” / 답답해도 삼전·SK하이닉스 팔면 안되는 이유ㅣ세미콘 리서치랩 노근창 대표",
-     "publishedAt": "2026-10-06 16:30",
-     "url": "https://www.youtube.com/watch?v=paZADAQnd2o"
     }
    ]
   },
@@ -179,6 +179,11 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=V3ZQ02Syf5U"
     },
     {
+     "title": "공포 구간인데 나스닥 신고가? 기묘한 랠리/GPT, 끌로드가 주식투자 대신 해준다?/중간선거 한달, 돌아온 머스크의 베팅?/주도주 부활? 마지막 불꽃 랠리 시작될까",
+     "publishedAt": "2026-10-05",
+     "url": "https://www.youtube.com/watch?v=pCVLA2-FurU"
+    },
+    {
      "title": "초고금리 뉴노멀 시대에 대비하라? 월가 초고수의 깜짝 예언, 적중할까",
      "publishedAt": "2026-10-01 21:02",
      "url": "https://www.youtube.com/watch?v=2cduC5_rK9I"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "사상 첫 우주 데이터센터 시작, 구글 스페이스X의 승부수 먹힐까",
      "publishedAt": "2026-09-30 20:34",
      "url": "https://www.youtube.com/watch?v=kiQ_USot1go"
-    },
-    {
-     "title": "AI에이전트가 노는 돈 다 찾아내서 옮긴다? 우려가 현실이 된 위기의 주식들",
-     "publishedAt": "2026-09-29 21:39",
-     "url": "https://www.youtube.com/watch?v=Cswz8biSRHs"
     }
    ]
   }
