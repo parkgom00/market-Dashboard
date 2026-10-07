@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-08 05:27",
+ "asOf": "2026-10-08 07:24",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[10월8일 #장시작전] 美국채금리 다시 상승… 뉴욕증시 하락 / 코스피 7000 또 막혔다, 삼성전자 실적 발표 후 판 바뀔까?",
+     "publishedAt": "2026-10-08 06:16",
+     "url": "https://www.youtube.com/watch?v=_PPWh1jOvhs"
+    },
     {
      "title": "[#찐시황]  또 3시부터 외인이 돌변했다… 선물 5,000억 말아올린 이유 / 내일 삼성전자 실적 발표 후 이렇게 대응하세요ㅣ오로라투자자문 이지환 대표",
      "publishedAt": "2026-10-07 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] 공매도 주의… 오전 10시부터 외인이 집어던진 이유 / 지금은 관망, 매수 매도는 내일 이후 하세요 (주가하락) 이건희 대표",
      "publishedAt": "2026-10-07 15:00",
      "url": "https://www.youtube.com/watch?v=kNCZ7VJ76RM"
-    },
-    {
-     "title": "삼성전자 실적 발표 전날 美 반도체주 급락… 겁먹어야 하나? / 오히려 오늘은 사고 싶었던 주식 담을 기회?ㅣ이권희 대표",
-     "publishedAt": "2026-10-07 13:15",
-     "url": "https://www.youtube.com/watch?v=GCQ5ZKoUNZs"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) 국채경매 수요 좋아도 금리 크게 안빠진다!!!",
+     "publishedAt": "2026-10-08 05:50",
+     "url": "https://www.youtube.com/watch?v=WiDiX5oRTwk"
+    },
     {
      "title": "(아이온큐) 양자 법안 통과되나?",
      "publishedAt": "2026-10-07 14:55",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 대장주 엔비디아가 신고가 돌파했다는 건 의미 있다!!!",
      "publishedAt": "2026-10-06 05:35",
      "url": "https://www.youtube.com/watch?v=fW9zjIwnPOE"
-    },
-    {
-     "title": "(관심종목)트펌프의 이란공격 시간과 변동성 이기는 전략",
-     "publishedAt": "2026-10-05 14:36",
-     "url": "https://www.youtube.com/watch?v=1w_aDNp1Lio"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 8일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-10-08 07:01",
+     "url": "https://www.youtube.com/watch?v=Obpkla5tfQU"
+    },
+    {
      "title": "젠슨황 리사수가 동시에 콕찝은 다음 '미래산업'은 뭘까",
      "publishedAt": "2026-10-07 23:30",
      "url": "https://www.youtube.com/watch?v=pp5NwUqYh64"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "테슬라 지금 사는게 기회일까?",
      "publishedAt": "2026-10-07 18:48",
      "url": "https://www.youtube.com/watch?v=zvP9u8N1U00"
-    },
-    {
-     "title": "젠슨황이 '사위'를 부사장으로 앉힌 이유는 뭘까?",
-     "publishedAt": "2026-10-07 16:46",
-     "url": "https://www.youtube.com/watch?v=aeDjqFadkHs"
     }
    ]
   },
