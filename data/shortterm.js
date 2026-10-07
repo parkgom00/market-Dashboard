@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/collect_closing.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-07 15:50",
+ "asOf": "2026-10-07 16:16",
  "window": "15:20~15:40",
- "status": "전 종목 2425개 중 후보 85개 점검 (기준 일봉 2026-10-06)",
+ "status": "전 종목 2421개 중 후보 85개 점검 (기준 일봉 2026-10-06)",
  "types": [
   {
    "id": "A",
@@ -29,13 +29,13 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "기계",
        "after": {
-        "price": 33800.0,
-        "pct": -1.02
+        "price": 33750.0,
+        "pct": -1.17
        },
-       "marcap": 10440,
+       "marcap": 10425,
        "prevClose": 34150.0,
        "changePct": -1.02,
-       "value": 83,
+       "value": 84,
        "note": "전일 +16.8% 급등 · 오늘 거래량 전일의 26% · 도지(몸통 16%) · 10일선 30,110 / 20일선 26,628 위 마감"
       },
       {
@@ -45,13 +45,13 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "건강관리장비와용품",
        "after": {
-        "price": 45900.0,
-        "pct": -3.16
+        "price": 45850.0,
+        "pct": -3.27
        },
-       "marcap": 61138,
+       "marcap": 61071,
        "prevClose": 47400.0,
        "changePct": -3.16,
-       "value": 473,
+       "value": 475,
        "note": "전일 +16.4% 급등 · 오늘 거래량 전일의 18% · 도지(몸통 19%) · 10일선 39,015 / 20일선 35,285 위 마감"
       },
       {
@@ -61,10 +61,10 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "생명과학도구및서비스",
        "after": {
-        "price": 10140.0,
-        "pct": -0.59
+        "price": 10230.0,
+        "pct": 0.29
        },
-       "marcap": 2398,
+       "marcap": 2419,
        "prevClose": 10200.0,
        "changePct": -0.59,
        "value": 100,
@@ -77,10 +77,10 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "IT서비스",
        "after": {
-        "price": 22550.0,
-        "pct": -1.74
+        "price": 22650.0,
+        "pct": -1.31
        },
-       "marcap": 5452,
+       "marcap": 5476,
        "prevClose": 22950.0,
        "changePct": -1.74,
        "value": 85,
@@ -100,14 +100,14 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "건강관리장비와용품",
        "after": {
-        "price": 4200.0,
-        "pct": 26.89
+        "price": 4175.0,
+        "pct": 26.13
        },
-       "marcap": 1006,
+       "marcap": 1000,
        "prevClose": 3310.0,
        "changePct": 26.89,
-       "value": 812,
-       "note": "바닥권(250일 범위 하단 25%) · 거래대금 812억(20일 평균의 32.4배) · 장대양봉(+23.9%) · 240일선 3,657, 480일선 3,795 돌파"
+       "value": 817,
+       "note": "바닥권(250일 범위 하단 25%) · 거래대금 817억(20일 평균의 32.6배) · 장대양봉(+23.9%) · 240일선 3,657, 480일선 3,795 돌파"
       }
      ]
     }
@@ -115,7 +115,7 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2425,
+  "quotes": 2421,
   "candidates": 85,
   "bars": 85,
   "naverBars": 85,
@@ -123,11 +123,12 @@ window.DASH.shortterm = {
    "후보": 73,
    "분봉지연": 0,
    "사유": {
-    "고가에서 멂": 69,
+    "고가에서 멂": 66,
+    "등락률·거래대금 미달": 3,
     "막판 거래량 비중 부족": 4
    },
    "수급자료": 0,
-   "막판비중_중앙값": 0.028,
+   "막판비중_중앙값": 0.029,
    "막판비중_최대": 0.158
   }
  },
