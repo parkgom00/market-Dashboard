@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_closing.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-07 15:46",
+ "asOf": "2026-10-07 15:50",
  "window": "15:20~15:40",
  "status": "전 종목 2425개 중 후보 85개 점검 (기준 일봉 2026-10-06)",
  "types": [
@@ -28,7 +28,10 @@ window.DASH.shortterm = {
        "close": 33800.0,
        "market": "KOSDAQ",
        "sector": "기계",
-       "after": null,
+       "after": {
+        "price": 33800.0,
+        "pct": -1.02
+       },
        "marcap": 10440,
        "prevClose": 34150.0,
        "changePct": -1.02,
@@ -41,7 +44,10 @@ window.DASH.shortterm = {
        "close": 45900.0,
        "market": "KOSDAQ",
        "sector": "건강관리장비와용품",
-       "after": null,
+       "after": {
+        "price": 45900.0,
+        "pct": -3.16
+       },
        "marcap": 61138,
        "prevClose": 47400.0,
        "changePct": -3.16,
@@ -54,7 +60,10 @@ window.DASH.shortterm = {
        "close": 10140.0,
        "market": "KOSDAQ",
        "sector": "생명과학도구및서비스",
-       "after": null,
+       "after": {
+        "price": 10140.0,
+        "pct": -0.59
+       },
        "marcap": 2398,
        "prevClose": 10200.0,
        "changePct": -0.59,
@@ -67,7 +76,10 @@ window.DASH.shortterm = {
        "close": 22550.0,
        "market": "KOSDAQ",
        "sector": "IT서비스",
-       "after": null,
+       "after": {
+        "price": 22550.0,
+        "pct": -1.74
+       },
        "marcap": 5452,
        "prevClose": 22950.0,
        "changePct": -1.74,
@@ -87,7 +99,10 @@ window.DASH.shortterm = {
        "close": 4200.0,
        "market": "KOSDAQ",
        "sector": "건강관리장비와용품",
-       "after": null,
+       "after": {
+        "price": 4200.0,
+        "pct": 26.89
+       },
        "marcap": 1006,
        "prevClose": 3310.0,
        "changePct": 26.89,
@@ -117,5 +132,5 @@ window.DASH.shortterm = {
   }
  },
  "flowConfirmed": false,
- "phase": "장중 · 수급 자료는 마감 후(16시 이후) 반영됩니다"
+ "phase": "장 마감 후 · 정규장 종가 기준 · 수급 자료는 아직 공개 전"
 };
