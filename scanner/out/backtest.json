@@ -1,0 +1,358 @@
+{
+ "period": [
+  "2021-08-13",
+  "2026-09-01"
+ ],
+ "signalDates": 410,
+ "samples": 213405,
+ "market": {
+  "d5": {
+   "mean": -0.39,
+   "median": -0.94,
+   "win": 43.0
+  },
+  "d10": {
+   "mean": -0.61,
+   "median": -1.66,
+   "win": 41.6
+  },
+  "d20": {
+   "mean": -0.0,
+   "median": -1.99,
+   "win": 42.8
+  }
+ },
+ "rules": {
+  "L1": {
+   "label": "중장기 a 정배열+이평선 지지",
+   "n": 9696,
+   "dates": 206,
+   "d5": {
+    "mean": -0.14,
+    "median": -0.94,
+    "win": 45.0,
+    "excess": 0.58,
+    "beat": 46.0
+   },
+   "d10": {
+    "mean": 0.25,
+    "median": -1.61,
+    "win": 43.7,
+    "excess": 1.09,
+    "beat": 45.8
+   },
+   "d20": {
+    "mean": 0.92,
+    "median": -2.24,
+    "win": 43.8,
+    "excess": 1.92,
+    "beat": 44.7
+   },
+   "maxGain20": 19.62,
+   "maxLoss20": -13.96,
+   "firstHalf": 1.2,
+   "secondHalf": 2.08
+  },
+  "L2": {
+   "label": "중장기 b 급등 후 60일선 지지",
+   "n": 16222,
+   "dates": 341,
+   "d5": {
+    "mean": -0.63,
+    "median": -1.22,
+    "win": 42.4,
+    "excess": -0.34,
+    "beat": 40.6
+   },
+   "d10": {
+    "mean": -0.91,
+    "median": -2.1,
+    "win": 40.6,
+    "excess": -0.47,
+    "beat": 39.2
+   },
+   "d20": {
+    "mean": -0.76,
+    "median": -3.24,
+    "win": 40.4,
+    "excess": -0.65,
+    "beat": 37.9
+   },
+   "maxGain20": 17.44,
+   "maxLoss20": -13.69,
+   "firstHalf": -5.39,
+   "secondHalf": -0.55
+  },
+  "L3": {
+   "label": "중장기 c 240·480 동시 돌파",
+   "n": 844,
+   "dates": 168,
+   "d5": {
+    "mean": -1.83,
+    "median": -3.25,
+    "win": 35.2,
+    "excess": -1.81,
+    "beat": 34.2
+   },
+   "d10": {
+    "mean": -2.55,
+    "median": -4.47,
+    "win": 34.7,
+    "excess": -2.89,
+    "beat": 32.2
+   },
+   "d20": {
+    "mean": -2.61,
+    "median": -7.47,
+    "win": 32.2,
+    "excess": -3.53,
+    "beat": 28.1
+   },
+   "maxGain20": 24.36,
+   "maxLoss20": -16.68,
+   "firstHalf": -4.77,
+   "secondHalf": -2.49
+  },
+  "L4": {
+   "label": "중장기 d 신고가 후 240일선 지지 반등",
+   "n": 3146,
+   "dates": 177,
+   "d5": {
+    "mean": -0.16,
+    "median": -0.83,
+    "win": 43.1,
+    "excess": 0.5,
+    "beat": 46.2
+   },
+   "d10": {
+    "mean": 0.15,
+    "median": -1.42,
+    "win": 42.0,
+    "excess": 0.8,
+    "beat": 45.7
+   },
+   "d20": {
+    "mean": -0.02,
+    "median": -2.33,
+    "win": 41.0,
+    "excess": 0.62,
+    "beat": 42.4
+   },
+   "maxGain20": 14.63,
+   "maxLoss20": -11.05,
+   "firstHalf": 1.09,
+   "secondHalf": 0.4
+  },
+  "S1": {
+   "label": "스윙 A 상한가 후 20일선 반등",
+   "n": 1704,
+   "dates": 203,
+   "d5": {
+    "mean": -2.08,
+    "median": -2.92,
+    "win": 33.2,
+    "excess": -1.83,
+    "beat": 31.7
+   },
+   "d10": {
+    "mean": -3.14,
+    "median": -4.78,
+    "win": 29.9,
+    "excess": -2.71,
+    "beat": 29.6
+   },
+   "d20": {
+    "mean": -4.2,
+    "median": -6.97,
+    "win": 28.8,
+    "excess": -4.11,
+    "beat": 27.3
+   },
+   "maxGain20": 19.19,
+   "maxLoss20": -17.12,
+   "firstHalf": -4.57,
+   "secondHalf": -3.87
+  },
+  "S2": {
+   "label": "스윙 B 상한가 후 60일선 반등",
+   "n": 2763,
+   "dates": 230,
+   "d5": {
+    "mean": -1.33,
+    "median": -1.87,
+    "win": 37.8,
+    "excess": -1.06,
+    "beat": 36.3
+   },
+   "d10": {
+    "mean": -2.09,
+    "median": -3.05,
+    "win": 35.9,
+    "excess": -1.51,
+    "beat": 34.2
+   },
+   "d20": {
+    "mean": -3.21,
+    "median": -5.48,
+    "win": 32.4,
+    "excess": -2.8,
+    "beat": 31.2
+   },
+   "maxGain20": 17.99,
+   "maxLoss20": -15.04,
+   "firstHalf": -2.82,
+   "secondHalf": -2.8
+  },
+  "S3": {
+   "label": "스윙 C 급등 후 10일선 지지",
+   "n": 11236,
+   "dates": 315,
+   "d5": {
+    "mean": -0.53,
+    "median": -1.25,
+    "win": 41.0,
+    "excess": -0.07,
+    "beat": 41.5
+   },
+   "d10": {
+    "mean": -0.83,
+    "median": -2.3,
+    "win": 39.2,
+    "excess": -0.27,
+    "beat": 39.8
+   },
+   "d20": {
+    "mean": 0.07,
+    "median": -2.59,
+    "win": 41.1,
+    "excess": -0.23,
+    "beat": 38.4
+   },
+   "maxGain20": 16.36,
+   "maxLoss20": -12.18,
+   "firstHalf": -1.41,
+   "secondHalf": -0.18
+  },
+  "S4": {
+   "label": "스윙 D 급등 후 거래량 감소+20일선",
+   "n": 7828,
+   "dates": 278,
+   "d5": {
+    "mean": -0.83,
+    "median": -1.9,
+    "win": 38.3,
+    "excess": -0.55,
+    "beat": 37.8
+   },
+   "d10": {
+    "mean": -1.16,
+    "median": -2.98,
+    "win": 36.9,
+    "excess": -0.78,
+    "beat": 36.3
+   },
+   "d20": {
+    "mean": -1.14,
+    "median": -4.03,
+    "win": 37.5,
+    "excess": -1.14,
+    "beat": 35.7
+   },
+   "maxGain20": 17.73,
+   "maxLoss20": -13.77,
+   "firstHalf": -3.31,
+   "secondHalf": -0.84
+  },
+  "S5p": {
+   "label": "스윙 E 가격조건만(수급 제외)",
+   "n": 26556,
+   "dates": 346,
+   "d5": {
+    "mean": -0.39,
+    "median": -1.15,
+    "win": 42.4,
+    "excess": 0.14,
+    "beat": 44.2
+   },
+   "d10": {
+    "mean": -0.0,
+    "median": -1.75,
+    "win": 42.1,
+    "excess": 0.47,
+    "beat": 43.6
+   },
+   "d20": {
+    "mean": 0.6,
+    "median": -2.36,
+    "win": 42.7,
+    "excess": 0.77,
+    "beat": 42.4
+   },
+   "maxGain20": 17.76,
+   "maxLoss20": -12.59,
+   "firstHalf": 3.88,
+   "secondHalf": 0.71
+  },
+  "B1": {
+   "label": "단기 B1 전고점 돌파+장대양봉",
+   "n": 432,
+   "dates": 137,
+   "d5": {
+    "mean": -1.43,
+    "median": -2.31,
+    "win": 41.2,
+    "excess": -1.39,
+    "beat": 38.9
+   },
+   "d10": {
+    "mean": -1.04,
+    "median": -3.52,
+    "win": 39.1,
+    "excess": -0.93,
+    "beat": 41.2
+   },
+   "d20": {
+    "mean": 1.28,
+    "median": -5.15,
+    "win": 41.9,
+    "excess": 0.63,
+    "beat": 38.7
+   },
+   "maxGain20": 25.89,
+   "maxLoss20": -17.2,
+   "firstHalf": -1.15,
+   "secondHalf": 1.34
+  },
+  "B2": {
+   "label": "단기 B2 전고점 돌파+장기이평 지지",
+   "n": 257,
+   "dates": 101,
+   "d5": {
+    "mean": 0.28,
+    "median": -1.3,
+    "win": 41.6,
+    "excess": 0.45,
+    "beat": 41.6
+   },
+   "d10": {
+    "mean": -0.59,
+    "median": -1.99,
+    "win": 42.4,
+    "excess": 0.24,
+    "beat": 45.1
+   },
+   "d20": {
+    "mean": 2.62,
+    "median": -3.9,
+    "win": 44.7,
+    "excess": 2.62,
+    "beat": 45.1
+   },
+   "maxGain20": 22.93,
+   "maxLoss20": -14.38,
+   "firstHalf": 1.47,
+   "secondHalf": 3.3
+  }
+ },
+ "stocks": 2715
+}
