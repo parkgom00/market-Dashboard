@@ -41,12 +41,12 @@ def kr_universe() -> pd.DataFrame:
     return out.rename(columns={"Code": "code", "Name": "name", "Market": "market", "Marcap": "marcap", "Sector": "sector"}).reset_index(drop=True)
 
 
-def kr_prices(codes, workers: int = 4):
+def kr_prices(codes, workers: int = 4, years: float = 3.2):
     """종목코드별 DataFrame 을 하나씩 내보내는 제너레이터."""
     import FinanceDataReader as fdr
     from concurrent.futures import ThreadPoolExecutor
 
-    start = start_date()
+    start = start_date(years)
     kst = dt.datetime.now(dt.timezone(dt.timedelta(hours=9)))
     # 장 마감(15:30) 전에 실행하면 오늘 일봉은 아직 진행 중 → 판정에 쓰면 안 되므로 버린다
     drop_today = kst.date() if (kst.hour, kst.minute) < (15, 40) else None
