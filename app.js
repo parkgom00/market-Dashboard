@@ -745,7 +745,10 @@
           ? '<div class="muted">확인 시간대 ' + esc(S.window || "") + " · 갱신 " + esc(S.asOf || "-") + "</div>" +
             (S.phase ? '<div class="phase' + (S.flowConfirmed ? " ok" : "") + '">' + esc(S.phase) + "</div>" : "") +
             (S.status ? '<div class="muted">' + esc(S.status) + "</div>" : "")
-          : '<div class="muted">기준일 ' + esc(t.asOf || "-") + " (종가 기준)</div>") + "</div>";
+          : t.window
+            ? '<div class="muted">확인 시간대 ' + esc(t.window) + " · 갱신 " + esc(t.asOf || "-") + "</div>" +
+              (t.status ? '<div class="muted">' + esc(t.status) + "</div>" : "")
+            : '<div class="muted">기준일 ' + esc(t.asOf || "-") + " (종가 기준)</div>") + "</div>";
       cur_asof = t.asOf || "";
       var subs = t.subtypes || [];
       if (subs.length) {
@@ -760,7 +763,8 @@
         else h += '<div class="card">' + items.map(function (s) { return stockRow(s, cur.id, subs.indexOf(cur), cur.short || cur.name); }).join("") + "</div>";
       } else {
         var its = t.kr || [];
-        h += its.length ? '<div class="card">' + its.map(function (s) { return stockRow(s, "", 0); }).join("") + "</div>" : '<div class="card empty">조건을 충족한 종목이 없습니다.</div>';
+        h += its.length ? '<div class="card">' + its.map(function (s) { return stockRow(s, "", 0); }).join("") + "</div>"
+          : '<div class="card empty">' + (t.asOf ? "이 시각에는 조건을 충족한 종목이 없습니다." : "아직 실행 전입니다. 평일 10:00부터 채워집니다.") + "</div>";
       }
       root.innerHTML = h;
     }
