@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-07 13:27",
+ "asOf": "2026-10-07 15:31",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급시황] 공매도 주의… 오전 10시부터 외인이 집어던진 이유 / 지금은 관망, 매수 매도는 내일 이후 하세요 (주가하락) 이건희 대표",
+     "publishedAt": "2026-10-07 15:00",
+     "url": "https://www.youtube.com/watch?v=kNCZ7VJ76RM"
+    },
     {
      "title": "삼성전자 실적 발표 전날 美 반도체주 급락… 겁먹어야 하나? / 오히려 오늘은 사고 싶었던 주식 담을 기회?ㅣ이권희 대표",
      "publishedAt": "2026-10-07 13:15",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#찐시황] “지수 찍어 누르더니 3시부터 돌변했다!” 외국인이 장 막판 선물 7,000억 말아 올린 진짜 이유 / 10월 한국 증시 방향? | 박현상 이사",
      "publishedAt": "2026-10-06 20:00",
      "url": "https://www.youtube.com/watch?v=2bMWLDREDrs"
-    },
-    {
-     "title": "“사과 대신 극 초음속 미사일 쐈다” 합참, 북한 지뢰 직접 제거 시작… 추가 도발 이어지나 | 평양24시 강철환 대표",
-     "publishedAt": "2026-10-06 19:00",
-     "url": "https://www.youtube.com/watch?v=PQj4yqVJ_ok"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(아이온큐) 양자 법안 통과되나?",
+     "publishedAt": "2026-10-07 14:55",
+     "url": "https://www.youtube.com/watch?v=D8nmhuV33Yc"
+    },
     {
      "title": "(시황분석) 마벨과 브로드컴의 ASIC반도체가 장을주도,그러나 메모리는 숨고르기",
      "publishedAt": "2026-10-07 05:44",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(관심종목)트펌프의 이란공격 시간과 변동성 이기는 전략",
      "publishedAt": "2026-10-05 14:36",
      "url": "https://www.youtube.com/watch?v=1w_aDNp1Lio"
-    },
-    {
-     "title": "(월간시황) 금리를 이기는 실적주에만 투자하자!!!",
-     "publishedAt": "2026-10-04 18:42",
-     "url": "https://www.youtube.com/watch?v=DT1cMLMpye8"
     }
    ]
   },
@@ -72,6 +72,11 @@ window.DASH.youtube = {
    "channelId": "UCQW05vzztAlwV54WL3pjGBQ",
    "handle": "@GODofIT_official",
    "videos": [
+    {
+     "title": "4분기 테크 시장, 메모리 빅2 vs 반도체 소부장 어디 쪽에 무게?",
+     "publishedAt": "2026-10-07 14:31",
+     "url": "https://www.youtube.com/watch?v=1jiX4quCdTg"
+    },
     {
      "title": "[몰아보기] 반도체 소부장 전략 AtoZ? 한 방에 정리!!",
      "publishedAt": "2026-10-03 14:00",
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "고객이 돈 먼저 줄테니 공급만 부탁? AI 인프라에서 급부상한 이 품목?",
      "publishedAt": "2026-10-01",
      "url": "https://www.youtube.com/watch?v=uf7IbdQ5U_A"
-    },
-    {
-     "title": "[아테네] 반도체 Q사이클에서 소부장 투자 전략? 핵심은 이거에요!!",
-     "publishedAt": "2026-09-30",
-     "url": "https://www.youtube.com/watch?v=qhEMibOw1Rs"
     }
    ]
   },
