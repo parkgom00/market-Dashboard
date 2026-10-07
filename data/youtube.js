@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-07 07:25",
+ "asOf": "2026-10-07 09:36",
  "channels": [
   {
    "name": "815머니톡",
@@ -73,16 +73,6 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
-     "title": "[실전 투자 스터디] 미국 매크로 봐야하는 단 한 가지 이유",
-     "publishedAt": "2026-10-06 18:00",
-     "url": "https://www.youtube.com/watch?v=W6uO9N2Dttk"
-    },
-    {
-     "title": "[실전 투자 스터디] 엔비디아가 흔드는 유리기판 시장",
-     "publishedAt": "2026-10-06 16:46",
-     "url": "https://www.youtube.com/watch?v=UcoeBvX116A"
-    },
-    {
      "title": "[몰아보기] 반도체 소부장 전략 AtoZ? 한 방에 정리!!",
      "publishedAt": "2026-10-03 14:00",
      "url": "https://www.youtube.com/watch?v=2VsqPGX9ovY"
@@ -96,6 +86,16 @@ window.DASH.youtube = {
      "title": "[아테네] 역대 최장 메모리 슈퍼 사이클, 주식 팔아야 할 때는?",
      "publishedAt": "2026-10-01 19:00",
      "url": "https://www.youtube.com/watch?v=9_ukGybWvyM"
+    },
+    {
+     "title": "고객이 돈 먼저 줄테니 공급만 부탁? AI 인프라에서 급부상한 이 품목?",
+     "publishedAt": "2026-10-01",
+     "url": "https://www.youtube.com/watch?v=uf7IbdQ5U_A"
+    },
+    {
+     "title": "[아테네] 반도체 Q사이클에서 소부장 투자 전략? 핵심은 이거에요!!",
+     "publishedAt": "2026-09-30",
+     "url": "https://www.youtube.com/watch?v=qhEMibOw1Rs"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "10월 7일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-10-07 07:04",
-     "url": "https://www.youtube.com/watch?v=S2wyWIUH1hM"
-    },
-    {
-     "title": "미국 금리인상이 '장기 상승장' 시작 신호라는 진짜 이유",
-     "publishedAt": "2026-10-06 23:00",
-     "url": "https://www.youtube.com/watch?v=a2xNf3_sH70"
-    },
-    {
      "title": "초보자도 알기 쉽게 전부 분석해 왔습니다",
      "publishedAt": "2026-10-06 22:00",
      "url": "https://www.youtube.com/watch?v=7qQyi7I3gGM"
     },
     {
-     "title": "미국 중간선거 공화당이 이기면 좋을까 민주당이 이기면 좋을까?",
-     "publishedAt": "2026-10-06 21:30",
-     "url": "https://www.youtube.com/watch?v=UqMzO3SUJxg"
+     "title": "오라클 투자자라면 꼭 봐야하는 '단기,장기' 주가 전망",
+     "publishedAt": "2026-10-04",
+     "url": "https://www.youtube.com/watch?v=6fFTN9aif5Q"
     },
     {
-     "title": "SK하이닉스 투자자라면 꼭 봐야하는 '단기,장기' 전망",
-     "publishedAt": "2026-10-06 19:30",
-     "url": "https://www.youtube.com/watch?v=UugiydREUKg"
+     "title": "다음주 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-10-03",
+     "url": "https://www.youtube.com/watch?v=JHHyXc1hYPg"
+    },
+    {
+     "title": "제미나이 4와 구글의 전략, 전부 뜯어왔습니다",
+     "publishedAt": "2026-10-02",
+     "url": "https://www.youtube.com/watch?v=Z5N-cLEAcjU"
+    },
+    {
+     "title": "271조 대미투자 한국한테 이득일까 손해일까",
+     "publishedAt": "2026-10-02",
+     "url": "https://www.youtube.com/watch?v=nM4lkpDlZ7U"
     }
    ]
   },
@@ -142,24 +142,24 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=ffpwNQMKSv4"
     },
     {
-     "title": "돈이 삼전닉스에서 '여기'로 간다고? #삼성전자 #소부장 #코스닥",
-     "publishedAt": "2026-10-06 16:55",
-     "url": "https://www.youtube.com/watch?v=-hO_Np9Ez98"
-    },
-    {
      "title": "AI 에이전트 최종승자 결국 여기입니다.",
      "publishedAt": "2026-10-03 18:43",
      "url": "https://www.youtube.com/watch?v=UnZF4mvPjMY"
     },
     {
-     "title": "마이크론 실적 보고는 별일 없었는데 코스피 오른 이유 #마이크론 #코스피 #하이닉스",
-     "publishedAt": "2026-10-01 17:58",
-     "url": "https://www.youtube.com/watch?v=GBfzxS_DUWM"
-    },
-    {
      "title": "OpenAI발 에이전트 전쟁이 시작됐다. (2026 DevDay)",
      "publishedAt": "2026-09-30 03:48",
      "url": "https://www.youtube.com/watch?v=03UhmOVEZio"
+    },
+    {
+     "title": "우리가 알던 인터넷 모두 끝났습니다.",
+     "publishedAt": "2026-09-28",
+     "url": "https://www.youtube.com/watch?v=8BAAT8G_jXM"
+    },
+    {
+     "title": "빅테크 판도 전부 바뀐다.",
+     "publishedAt": "2026-09-25",
+     "url": "https://www.youtube.com/watch?v=B7Xip6epo2E"
     }
    ]
   },
