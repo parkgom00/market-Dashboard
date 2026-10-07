@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-07 21:16",
+ "generatedAt": "2026-10-08 03:15",
  "events": [
   {
    "date": "2026-01-01",
@@ -1545,6 +1545,26 @@ window.DASH.calendar = {
    ]
   },
   {
+   "date": "2026-10-26",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 소비자심리",
+   "time": "06:00",
+   "result": [
+    "이전 106.6"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 GDP",
+   "time": "08:00",
+   "result": [
+    "이전 3.7%"
+   ]
+  },
+  {
    "date": "2026-10-27",
    "type": "earnings",
    "market": "US",
@@ -1621,6 +1641,16 @@ window.DASH.calendar = {
    "time": "23:00",
    "result": [
     "이전 6.4%"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 무역수지",
+   "time": "21:30",
+   "result": [
+    "이전 -132.07B"
    ]
   },
   {
@@ -1813,6 +1843,14 @@ window.DASH.calendar = {
    "result": [
     "EPS 예상 $0.79"
    ]
+  },
+  {
+   "date": "2026-12-09",
+   "type": "econ",
+   "market": "US",
+   "title": "FOMC 금리결정",
+   "time": "04:00",
+   "major": true
   },
   {
    "date": "2026-12-18",

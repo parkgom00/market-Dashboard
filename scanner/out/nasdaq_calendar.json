@@ -601,6 +601,26 @@
   "previous": "48.1"
  },
  {
+  "date": "2026-10-26",
+  "time": "06:00",
+  "title": "한국 소비자심리",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "106.6"
+ },
+ {
+  "date": "2026-10-26",
+  "time": "08:00",
+  "title": "한국 GDP",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "3.7%"
+ },
+ {
   "date": "2026-10-27",
   "time": "",
   "title": "보잉 실적 발표",
@@ -692,6 +712,16 @@
   "epsForecast": "$0.24",
   "eps": "",
   "surprise": ""
+ },
+ {
+  "date": "2026-10-28",
+  "time": "21:30",
+  "title": "미국 무역수지",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "-132.07B"
  },
  {
   "date": "2026-10-29",
@@ -943,6 +973,16 @@
   "epsForecast": "$0.79",
   "eps": "",
   "surprise": ""
+ },
+ {
+  "date": "2026-12-09",
+  "time": "04:00",
+  "title": "FOMC 금리결정",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": ""
  },
  {
   "date": "2026-12-10",
