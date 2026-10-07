@@ -67,22 +67,6 @@
  ],
  "minute": [
   {
-   "localDateTime": "20261007151800",
-   "currentPrice": 269000.0,
-   "openPrice": 269500.0,
-   "highPrice": 269500.0,
-   "lowPrice": 269000.0,
-   "accumulatedTradingVolume": 20450
-  },
-  {
-   "localDateTime": "20261007151900",
-   "currentPrice": 269500.0,
-   "openPrice": 269000.0,
-   "highPrice": 270000.0,
-   "lowPrice": 269000.0,
-   "accumulatedTradingVolume": 76129
-  },
-  {
    "localDateTime": "20261007153000",
    "currentPrice": 268500.0,
    "openPrice": 268500.0,
@@ -97,6 +81,22 @@
    "highPrice": 268500.0,
    "lowPrice": 268500.0,
    "accumulatedTradingVolume": 14177
+  },
+  {
+   "localDateTime": "20261007154100",
+   "currentPrice": 268500.0,
+   "openPrice": 268500.0,
+   "highPrice": 268500.0,
+   "lowPrice": 268500.0,
+   "accumulatedTradingVolume": 21
+  },
+  {
+   "localDateTime": "20261007154200",
+   "currentPrice": 268500.0,
+   "openPrice": 268500.0,
+   "highPrice": 268500.0,
+   "lowPrice": 268500.0,
+   "accumulatedTradingVolume": 16
   }
  ],
  "integration": {
@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "한화투자증권",
     "tit": "주인공은 HBM으로 바뀐다",
-    "rcnt": "3105",
+    "rcnt": "3132",
     "wdt": "20261007"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "교보증권",
     "tit": "3Q26 Preview HBM이 만들고, 메모리가 이어간다",
-    "rcnt": "12019",
+    "rcnt": "12030",
     "wdt": "20261006"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "미래에셋증권",
     "tit": "반도체 사상 첫 매출 천억불 달성",
-    "rcnt": "11359",
+    "rcnt": "11372",
     "wdt": "20261006"
    }
   ],
