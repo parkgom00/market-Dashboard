@@ -31,7 +31,8 @@ D_TOUCH_TOL = 0.03
 E_HOLD_DAYS = 10                  # 최근 10거래일 종가가 모두 10일선의 -1% 이상
 E_MIN_GAIN = 0.03                 # 10거래일 전보다 3% 이상 상승
 E_FLOW_DAYS = 5                   # 수급: 최근 5거래일 중
-E_FLOW_POS = 4                    # 4일 이상 외국인+기관 합계 순매수이고 누적도 순매수
+E_FLOW_POS = 4                    # 4일 이상 외국인+기관 합계 순매수이고
+E_FLOW_MIN = 1e9                  # 그 5일 누적 순매수가 10억 원 이상
 
 # ── 중장기 d · 단기 B 공통: 신고가(전고점) ───────────────────────────
 PEAK_WINDOW = 250                 # 52주(약 250거래일) 안의 최고가를 전고점으로 봄
@@ -171,7 +172,7 @@ def flow_ok(rows):
         return None
     tot = [r["f"] + r["o"] for r in rows]
     pos = sum(1 for x in tot if x > 0)
-    if pos < E_FLOW_POS or sum(tot) <= 0:
+    if pos < E_FLOW_POS or sum(tot) < E_FLOW_MIN:
         return None
     return {"pos": pos, "sum": sum(tot), "f": sum(r["f"] for r in rows), "o": sum(r["o"] for r in rows), "asof": rows[0]["date"]}
 
