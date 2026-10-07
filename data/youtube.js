@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-07 17:30",
+ "asOf": "2026-10-07 19:27",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#글로벌인사이트]  SK하이닉스 하락 이유 딱 2가지… 하지만 판 뒤집을 ‘대형 호재’가 있다 ㅣ노근창 대표",
+     "publishedAt": "2026-10-07 18:00",
+     "url": "https://www.youtube.com/watch?v=s2IhKAd8QGY"
+    },
     {
      "title": "실적 발표 앞두고 하락하는 코스피… 손절할까, 추매할까? / 조선·방산·원전 상승 타이밍은 ‘이때’ ㅣ 김민수 대표",
      "publishedAt": "2026-10-07 16:30",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "소외된 삼전·SK하닉, 오후장 반등할까? / 빅테크 ‘원전 장기계약’ 본격화… 진짜 수혜주는 ‘이것’ ㅣ이주연 대표",
      "publishedAt": "2026-10-07 10:00",
      "url": "https://www.youtube.com/watch?v=toEF93oEd3Q"
-    },
-    {
-     "title": "[10월7일 #장시작전] 금리 하락, AI주 강세로 뉴욕증시 사상최고 /  메모리주와 장비주는 급락, 오늘 증시 외인의 선택은?",
-     "publishedAt": "2026-10-07 09:53",
-     "url": "https://www.youtube.com/watch?v=F98b7_mjX_Q"
     }
    ]
   },
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "파운드리 시장 큰 손으로 부상한 이 업계? 돈이 쏟아진다!!",
+     "publishedAt": "2026-10-07 19:00",
+     "url": "https://www.youtube.com/watch?v=CWuoPW-5Cow"
+    },
+    {
      "title": "4분기 테크 시장, 메모리 빅2 vs 반도체 소부장 어디 쪽에 무게?",
      "publishedAt": "2026-10-07 14:00",
      "url": "https://www.youtube.com/watch?v=1jiX4quCdTg"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[몰아보기] 반도체 소부장 전략 AtoZ? 한 방에 정리!!",
      "publishedAt": "2026-10-03 14:00",
      "url": "https://www.youtube.com/watch?v=2VsqPGX9ovY"
-    },
-    {
-     "title": "삼성 파운드리 2나노 전략? 우선 순위가 바뀌었다!!",
-     "publishedAt": "2026-10-02 19:00",
-     "url": "https://www.youtube.com/watch?v=hwXpstrA_lE"
     }
    ]
   },
@@ -104,6 +104,11 @@ window.DASH.youtube = {
    "channelId": "UC7usMJDHmtbs_oegmzQKKMA",
    "handle": "@경제사냥꾼",
    "videos": [
+    {
+     "title": "테슬라 지금 사는게 기회일까?",
+     "publishedAt": "2026-10-07 18:48",
+     "url": "https://www.youtube.com/watch?v=zvP9u8N1U00"
+    },
     {
      "title": "젠슨황이 '사위'를 부사장으로 앉힌 이유는 뭘까?",
      "publishedAt": "2026-10-07 16:46",
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "10월 7일 투자자들이 꼭 알아야 하는 투자 포인트",
      "publishedAt": "2026-10-07 07:04",
      "url": "https://www.youtube.com/watch?v=S2wyWIUH1hM"
-    },
-    {
-     "title": "미국 금리인상이 '장기 상승장' 시작 신호라는 진짜 이유",
-     "publishedAt": "2026-10-06 23:00",
-     "url": "https://www.youtube.com/watch?v=a2xNf3_sH70"
     }
    ]
   },
