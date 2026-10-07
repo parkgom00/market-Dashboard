@@ -67,14 +67,6 @@
  ],
  "minute": [
   {
-   "localDateTime": "20261007151600",
-   "currentPrice": 269500.0,
-   "openPrice": 269500.0,
-   "highPrice": 270000.0,
-   "lowPrice": 269000.0,
-   "accumulatedTradingVolume": 154612
-  },
-  {
    "localDateTime": "20261007151700",
    "currentPrice": 269000.0,
    "openPrice": 269250.0,
@@ -97,6 +89,14 @@
    "highPrice": 270000.0,
    "lowPrice": 269000.0,
    "accumulatedTradingVolume": 76129
+  },
+  {
+   "localDateTime": "20261007153000",
+   "currentPrice": 268500.0,
+   "openPrice": 268500.0,
+   "highPrice": 268500.0,
+   "lowPrice": 268500.0,
+   "accumulatedTradingVolume": 1342087
   }
  ],
  "integration": {
@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "한화투자증권",
     "tit": "주인공은 HBM으로 바뀐다",
-    "rcnt": "3003",
+    "rcnt": "3032",
     "wdt": "20261007"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "교보증권",
     "tit": "3Q26 Preview HBM이 만들고, 메모리가 이어간다",
-    "rcnt": "11982",
+    "rcnt": "11990",
     "wdt": "20261006"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "미래에셋증권",
     "tit": "반도체 사상 첫 매출 천억불 달성",
-    "rcnt": "11321",
+    "rcnt": "11329",
     "wdt": "20261006"
    }
   ],
@@ -298,17 +298,17 @@
     "reutersCode": "042700",
     "stockName": "한미반도체",
     "sosok": "0",
-    "closePrice": "265,500",
-    "compareToPreviousClosePrice": "-12,500",
+    "closePrice": "264,500",
+    "compareToPreviousClosePrice": "-13,500",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "fluctuationsRatio": "-4.50",
+    "fluctuationsRatio": "-4.86",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "25,305,389",
+    "marketValue": "25,210,076",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
