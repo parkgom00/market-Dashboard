@@ -201,3 +201,27 @@ def fetch_industries(workers=6):
     if len(out) < 500:
         raise ValueError(f"업종 구성종목이 {len(out)}개뿐")
     return out
+
+
+def parse_flow_history(payload, n=6):
+    """trend 응답 → 최근 날짜부터 [{"date": "MM/DD", "f": 외국인 순매수 대금, "o": 기관 순매수 대금}] (그날 종가 × 수량)."""
+    rows = payload if isinstance(payload, list) else (payload or {}).get("trends") or (payload or {}).get("items") or []
+    out = []
+    for r in sorted(rows, key=lambda x: str(x.get("bizdate") or ""), reverse=True)[:n]:
+        d, price = str(r.get("bizdate") or ""), num(r.get("closePrice"))
+        f, o = num(r.get("foreignerPureBuyQuant")), num(r.get("organPureBuyQuant"))
+        if len(d) != 8 or not price or (f is None and o is None):
+            continue
+        out.append({"date": d[4:6] + "/" + d[6:8], "f": (f or 0) * price, "o": (o or 0) * price})
+    return out
+
+
+def fetch_flow_histories(codes, workers=6):
+    """{code: 최근 수급 이력}. 실패한 종목은 빈 목록."""
+    def one(c):
+        try:
+            return parse_flow_history(_get(TREND_URL.format(code=c), {"pageSize": 10}, tries=2))
+        except Exception:
+            return []
+    with ThreadPoolExecutor(workers) as ex:
+        return dict(zip(codes, ex.map(one, codes)))

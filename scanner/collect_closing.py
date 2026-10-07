@@ -190,11 +190,8 @@ def write_js(payload):
     os.makedirs(OUT, exist_ok=True)
     with open(os.path.join(OUT, "closing_kr.json"), "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False)
-    with open(DATA_JS, "w", encoding="utf-8") as f:
-        f.write("// 자동 생성 파일 (scanner/collect_closing.py). 직접 고치지 마세요.\n")
-        f.write("window.DASH = window.DASH || {};\nwindow.DASH.shortterm = ")
-        json.dump(payload, f, ensure_ascii=False, indent=1)
-        f.write(";\n")
+    import shortterm_build      # 유형 B(전고점 돌파)와 합쳐서 화면 파일을 만든다
+    shortterm_build.build(DATA_JS)
 
 
 def pick_base(today):

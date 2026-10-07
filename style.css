@@ -274,3 +274,8 @@ details{margin-top:6px;font-size:13px} details summary{cursor:pointer;color:var(
 
 .toprow { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
 #refresh-all.new { border-color: var(--up); color: var(--up); font-weight: 700; }
+
+.rulefilter { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 10px; }
+.rulefilter button { border: 1px solid var(--line); background: var(--card); color: var(--text); border-radius: 999px; padding: 4px 10px; font-size: 13px; cursor: pointer; }
+.rulefilter button.on { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); font-weight: 700; }
+.rulefilter .rtag { margin-left: 0; }

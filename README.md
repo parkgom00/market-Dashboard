@@ -112,3 +112,8 @@ python run_scan.py --market us              # 미국 (S&P 500 + 나스닥 100, �
 - 장마감(16:30) `kr-close` 가 `scanner/out/closing_base_kr.json`(종목별 일봉 요약)을 만들고,
 - 평일 15:10~15:45 `closing-bet` 워크플로우가 5분마다 네이버 실시간 시세 + 야후 1분봉으로 A1/A2/A3 를 판정해 `data/shortterm.js` 를 갱신합니다.
 - 기준값은 `scanner/config.py` 의 `ClosingParams`. 판정 로직은 `scanner/closing.py`, 시험은 `python scanner/test_closing.py`.
+
+## 스윙 · 중장기 새 규칙 · 단기 유형 B (전고점 돌파)
+- 판정 로직과 숫자 기준: `scanner/rules2.py` (위쪽 상수만 고치면 됩니다). 시험: `python scanner/test_rules2.py`
+- 스윙 A~E, 중장기 c(240·480 동시 돌파)·d(신고가 후 240일선 지지 반등), 단기 B1·B2 는 모두 장 마감 스캔(`run_scan.py`)에서 일봉 기준으로 계산합니다.
+- 단기 탭 파일은 `scanner/shortterm_build.py` 가 유형 A(`out/closing_kr.json`)와 유형 B(`out/breakout_kr.json`)를 합쳐 만듭니다.

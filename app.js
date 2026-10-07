@@ -662,44 +662,63 @@
     var root = $("#tab-long");
     var L = D.longterm || {};
     var market = "kr";
-    var rules = L.rules || [];
-    var ruleLabel = {};
-    var ruleIds = rules.map(function (r) { return r.id; });
-    rules.forEach(function (r) { ruleLabel[r.id] = r.label; });
+    var view = "swing";      // swing = 스윙 투자, long = 중장기 투자
+    try { view = sessionStorage.getItem("longView") || "swing"; } catch (e) {}
     var maText = function (v) { return v ? num(v) : "-"; };
 
     function draw() {
-      var h = "<h2>중장기 투자</h2>";
+      var isSwing = view === "swing";
+      var rules = (isSwing ? L.swingRules : L.rules) || [];
+      var letters = isSwing ? LETTER.map(function (x) { return x.toUpperCase(); }) : LETTER;
+      var ruleLabel = {};
+      var ruleIds = rules.map(function (r) { return r.id; });
+      rules.forEach(function (r) { ruleLabel[r.id] = r.label; });
+      var h = seg([{ id: "swing", label: "① 스윙 투자" }, { id: "long", label: "② 중장기 투자" }], view, "data-vw");
+      h += "<h2>" + (isSwing ? "스윙 투자" : "중장기 투자") + "</h2>";
       h += '<div class="card"><h3>적용 규칙</h3><ul class="plain">' +
-        rules.map(function (r, i) { return '<li><span class="rtag rt-' + i + '">' + LETTER[i] + "</span> <b>" + esc(r.label) + "</b> — " + esc(r.desc) + "</li>"; }).join("") + "</ul></div>";
+        rules.map(function (r, i) { return '<li><span class="rtag rt-' + i + '">' + letters[i] + "</span> <b>" + esc(r.label) + "</b> — " + esc(r.desc) + "</li>"; }).join("") + "</ul></div>";
       h += seg([{ id: "kr", label: "국내" }, { id: "us", label: "미국" }], market, "data-mk");
       var info = (L.scanInfo || {})[market];
-      var items = L[market] || [];
+      var items = (isSwing ? (L.swing || {})[market] : L[market]) || [];
       if (info && info.scanned) {
         h += '<div class="muted" style="margin:-4px 0 8px">기준일 ' + esc(info.asOf) + " · " + num(info.scanned) + "개 종목 스캔 · " + items.length + "개 충족" +
           (market === "kr" && D.quotes && D.quotes.asOf ? " · 현재가 " + esc(D.quotes.asOf) : "") + "</div>";
       }
       if (L.scanInfo && !(info && info.scanned)) {
         h += '<div class="card empty">아직 이 시장의 스캔 결과가 없습니다.</div>';
+      } else if (isSwing && !L.swing) {
+        h += '<div class="card empty">스윙 스캔 결과가 아직 없습니다. 다음 장 마감 스캔부터 채워집니다.</div>';
       } else if (!items.length) {
         h += '<div class="card empty">조건을 충족한 종목이 없습니다.</div>';
       } else {
-        h += '<div class="card">' + items.map(function (s) {
+        // 규칙별 개수 (눌러서 걸러 보기)
+        var cnt = {};
+        items.forEach(function (s) { (s.matched || []).forEach(function (m) { cnt[m] = (cnt[m] || 0) + 1; }); });
+        h += '<div class="rulefilter">' + ['<button type="button" data-rf="" class="' + (!filter ? "on" : "") + '">전체 ' + items.length + "</button>"].concat(
+          rules.map(function (r, i) {
+            return '<button type="button" data-rf="' + esc(r.id) + '" class="' + (filter === r.id ? "on" : "") + '"><span class="rtag rt-' + i + '">' + letters[i] + "</span> " + (cnt[r.id] || 0) + "</button>";
+          })).join("") + "</div>";
+        var shown = filter ? items.filter(function (s) { return (s.matched || []).indexOf(filter) >= 0; }) : items;
+        h += shown.length ? '<div class="card">' + shown.map(function (s) {
           var tags = (s.matched || []).map(function (m) {
             var i = Math.max(0, ruleIds.indexOf(m));
-            return { k: i, text: LETTER[i] || "?", title: ruleLabel[m] || m };
+            return { k: i, text: letters[i] || "?", title: ruleLabel[m] || m };
           });
           var v = market === "kr" ? withQuote(s, info && info.asOf) : s;
           return stockCard(v, tags, market === "kr", v.priceLabel || "종가") +
-            '<div class="meta">240일선 ' + maText(s.ma240) + " · 480일선 " + maText(s.ma480) + "</div>" +
+            '<div class="meta">' + (isSwing ? "10일선 " + maText(s.ma10) + " · 20일선 " + maText(s.ma20) + " · 60일선 " + maText(s.ma60)
+                                            : "240일선 " + maText(s.ma240) + " · 480일선 " + maText(s.ma480)) + "</div>" +
             (s.note ? '<div class="meta">' + esc(s.note) + "</div>" : "") + "</div>";
-        }).join("") + "</div>";
+        }).join("") + "</div>" : '<div class="card empty">이 규칙에 해당하는 종목이 없습니다.</div>';
       }
       root.innerHTML = h;
     }
+    var filter = "";
     root.addEventListener("click", function (ev) {
-      var b = ev.target.closest("[data-mk]");
-      if (b) { market = b.getAttribute("data-mk"); draw(); }
+      var b = ev.target.closest("[data-mk]"), v = ev.target.closest("[data-vw]"), f = ev.target.closest("[data-rf]");
+      if (v) { view = v.getAttribute("data-vw"); filter = ""; try { sessionStorage.setItem("longView", view); } catch (e) {} draw(); }
+      else if (b) { market = b.getAttribute("data-mk"); filter = ""; draw(); }
+      else if (f) { filter = f.getAttribute("data-rf"); draw(); }
     });
     draw();
   }
@@ -715,16 +734,19 @@
     function draw() {
       var t = types.filter(function (x) { return x.id === typeId; })[0];
       var h = sampleNote(S) + "<h2>단기 트레이딩</h2>";
-      h += seg(types.map(function (x) { return { id: x.id, label: "유형 " + x.id + (x.name ? " " + x.name : "") }; }), typeId, "data-ty");
+      h += seg(types.map(function (x) { return { id: x.id, label: x.id + " " + (x.name || "") }; }), typeId, "data-ty");
       if (!t) {
         h += '<div class="card empty">등록된 유형이 없습니다.</div>';
         root.innerHTML = h; return;
       }
       h += '<div class="card"><div class="row"><h3>' + esc(t.name) + '</h3><span class="chip">' + esc(t.timeframe) + "</span></div>" +
         (t.desc ? '<div class="muted">' + esc(t.desc) + "</div>" : "") +
-        '<div class="muted">확인 시간대 ' + esc(S.window || "") + " · 갱신 " + esc(S.asOf || "-") + "</div>" +
-        (S.phase ? '<div class="phase' + (S.flowConfirmed ? " ok" : "") + '">' + esc(S.phase) + "</div>" : "") +
-        (S.status ? '<div class="muted">' + esc(S.status) + "</div>" : "") + "</div>";
+        (t.id === "A"
+          ? '<div class="muted">확인 시간대 ' + esc(S.window || "") + " · 갱신 " + esc(S.asOf || "-") + "</div>" +
+            (S.phase ? '<div class="phase' + (S.flowConfirmed ? " ok" : "") + '">' + esc(S.phase) + "</div>" : "") +
+            (S.status ? '<div class="muted">' + esc(S.status) + "</div>" : "")
+          : '<div class="muted">기준일 ' + esc(t.asOf || "-") + " (종가 기준)</div>") + "</div>";
+      cur_asof = t.asOf || "";
       var subs = t.subtypes || [];
       if (subs.length) {
         if (!sub || !subs.some(function (x) { return x.id === sub; })) sub = subs[0].id;
@@ -742,9 +764,12 @@
       }
       root.innerHTML = h;
     }
+    var cur_asof = "";
     function stockRow(s, id, i, subName) {
       var af = s.after && Math.abs(s.after.price - s.close) > 1e-9 ? s.after : null;
-      return stockCard(s, id ? [{ k: i, text: id, title: (subName || "") }] : [], true, s.after ? "종가" : "현재가") +
+      var isB = String(id).charAt(0) === "B";
+      if (isB) s = withQuote(s, cur_asof);      // 유형 B 는 일봉(종가) 기준이라 장중에는 현재가를 덧씌운다
+      return stockCard(s, id ? [{ k: i, text: id, title: (subName || "") }] : [], true, isB ? (s.priceLabel || "종가") : (s.after ? "종가" : "현재가")) +
         (af ? '<div class="meta">마감 후 현재가(시간외) <b class="' + (af.pct > 0 ? "up" : af.pct < 0 ? "down" : "flat") + '">' + num(af.price) + " " +
           (af.pct > 0 ? "+" : "") + af.pct.toFixed(2) + "%</b></div>" : "") +
         (s.note ? '<div class="meta">' + esc(s.note) + "</div>" : "") + "</div>";

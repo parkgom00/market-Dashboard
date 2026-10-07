@@ -168,9 +168,16 @@ def write_quotes(df, stamp):
     for fn in ("longterm_kr.json",):
         try:
             with open(os.path.join(OUT, fn), encoding="utf-8") as f:
-                want |= {it["code"] for it in json.load(f).get("items", [])}
+                d = json.load(f)
+            want |= {it["code"] for it in d.get("items", [])} | {it["code"] for it in d.get("swing", [])}
         except Exception:
             pass
+    try:
+        with open(os.path.join(OUT, "breakout_kr.json"), encoding="utf-8") as f:
+            for sb in json.load(f).get("subtypes", []):
+                want |= {it["code"] for it in sb.get("kr", [])}
+    except Exception:
+        pass
     try:
         with open(os.path.join(OUT, "closing_kr.json"), encoding="utf-8") as f:
             for t in json.load(f).get("types", []):
