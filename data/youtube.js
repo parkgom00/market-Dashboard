@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-07 19:27",
+ "asOf": "2026-10-07 21:34",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황]  또 3시부터 외인이 돌변했다… 선물 5,000억 말아올린 이유 / 내일 삼성전자 실적 발표 후 이렇게 대응하세요ㅣ오로라투자자문 이지환 대표",
+     "publishedAt": "2026-10-07 20:00",
+     "url": "https://www.youtube.com/watch?v=hnZaB99hVG8"
+    },
     {
      "title": "[#글로벌인사이트]  SK하이닉스 하락 이유 딱 2가지… 하지만 판 뒤집을 ‘대형 호재’가 있다 ㅣ노근창 대표",
      "publishedAt": "2026-10-07 18:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "삼성전자 실적 발표 전날 美 반도체주 급락… 겁먹어야 하나? / 오히려 오늘은 사고 싶었던 주식 담을 기회?ㅣ이권희 대표",
      "publishedAt": "2026-10-07 13:15",
      "url": "https://www.youtube.com/watch?v=GCQ5ZKoUNZs"
-    },
-    {
-     "title": "소외된 삼전·SK하닉, 오후장 반등할까? / 빅테크 ‘원전 장기계약’ 본격화… 진짜 수혜주는 ‘이것’ ㅣ이주연 대표",
-     "publishedAt": "2026-10-07 10:00",
-     "url": "https://www.youtube.com/watch?v=toEF93oEd3Q"
     }
    ]
   },
@@ -169,6 +169,11 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
+     "title": "끌로드, 챗GPT가 주식투자도 대신해준다? AI 실생활 침투 가속화의 수혜주들",
+     "publishedAt": "2026-10-07 21:05",
+     "url": "https://www.youtube.com/watch?v=bL2q1ZfwdJA"
+    },
+    {
      "title": "2년만에 재결합한 머스크와 트럼프, 두 거물 화해의 수혜주들",
      "publishedAt": "2026-10-06 17:30",
      "url": "https://www.youtube.com/watch?v=ha4-lyhvafM"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "사상 첫 우주 데이터센터 시작, 구글 스페이스X의 승부수 먹힐까",
      "publishedAt": "2026-09-30 20:34",
      "url": "https://www.youtube.com/watch?v=kiQ_USot1go"
-    },
-    {
-     "title": "AI에이전트가 노는 돈 다 찾아내서 옮긴다? 우려가 현실이 된 위기의 주식들",
-     "publishedAt": "2026-09-29 21:39",
-     "url": "https://www.youtube.com/watch?v=Cswz8biSRHs"
     }
    ]
   }
