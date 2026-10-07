@@ -299,7 +299,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장 시작 전",
-  "epsForecast": "$13.89",
+  "epsForecast": "$13.35",
   "eps": "",
   "surprise": ""
  },
@@ -474,7 +474,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "0.7%"
+  "previous": "7.0%"
  },
  {
   "date": "2026-10-16",
@@ -546,6 +546,17 @@
   "kind": "earnings",
   "note": "",
   "epsForecast": "$0.27",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-10-22",
+  "time": "",
+  "title": "테슬라 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "장마감 후(한국 다음 날 새벽)",
+  "epsForecast": "$0.24",
   "eps": "",
   "surprise": ""
  },
@@ -819,7 +830,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "",
-  "epsForecast": "$4.70",
+  "epsForecast": "$4.71",
   "eps": "",
   "surprise": ""
  },
@@ -919,6 +930,17 @@
   "kind": "earnings",
   "note": "",
   "epsForecast": "$6.41",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-12-01",
+  "time": "",
+  "title": "마벨 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "",
+  "epsForecast": "$0.79",
   "eps": "",
   "surprise": ""
  },

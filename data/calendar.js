@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-07 15:14",
+ "generatedAt": "2026-10-07 21:16",
  "events": [
   {
    "date": "2026-01-01",
@@ -453,12 +453,6 @@ window.DASH.calendar = {
    "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 추수감사절"
-  },
-  {
-   "date": "2026-12-02",
-   "type": "earnings",
-   "market": "US",
-   "title": "마벨 실적 발표 (예정)"
   },
   {
    "date": "2026-12-03",
@@ -1278,7 +1272,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "골드만삭스 실적 발표",
    "result": [
-    "EPS 예상 $13.89",
+    "EPS 예상 $13.35",
     "장 시작 전"
    ]
   },
@@ -1427,7 +1421,7 @@ window.DASH.calendar = {
    "title": "미국 수입물가",
    "time": "21:30",
    "result": [
-    "이전 0.7%"
+    "이전 7.0%"
    ]
   },
   {
@@ -1497,6 +1491,16 @@ window.DASH.calendar = {
    "title": "인텔 실적 발표",
    "result": [
     "EPS 예상 $0.27"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "type": "earnings",
+   "market": "US",
+   "title": "테슬라 실적 발표",
+   "result": [
+    "EPS 예상 $0.24",
+    "장마감 후(한국 다음 날 새벽)"
    ]
   },
   {
@@ -1620,15 +1624,6 @@ window.DASH.calendar = {
    ]
   },
   {
-   "date": "2026-10-28",
-   "type": "earnings",
-   "market": "US",
-   "title": "테슬라 실적 발표",
-   "result": [
-    "EPS 예상 $0.24"
-   ]
-  },
-  {
    "date": "2026-10-29",
    "type": "earnings",
    "market": "US",
@@ -1733,7 +1728,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "마이크로소프트 실적 발표",
    "result": [
-    "EPS 예상 $4.70"
+    "EPS 예상 $4.71"
    ]
   },
   {
@@ -1808,6 +1803,15 @@ window.DASH.calendar = {
    "title": "델 실적 발표",
    "result": [
     "EPS 예상 $6.41"
+   ]
+  },
+  {
+   "date": "2026-12-01",
+   "type": "earnings",
+   "market": "US",
+   "title": "마벨 실적 발표",
+   "result": [
+    "EPS 예상 $0.79"
    ]
   },
   {
