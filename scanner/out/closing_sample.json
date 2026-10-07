@@ -94,9 +94,9 @@
    "localDateTime": "20261007151900",
    "currentPrice": 269500.0,
    "openPrice": 269000.0,
-   "highPrice": 269500.0,
+   "highPrice": 270000.0,
    "lowPrice": 269000.0,
-   "accumulatedTradingVolume": 2219
+   "accumulatedTradingVolume": 76129
   }
  ],
  "integration": {
@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "한화투자증권",
     "tit": "주인공은 HBM으로 바뀐다",
-    "rcnt": "2905",
+    "rcnt": "2942",
     "wdt": "20261007"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "교보증권",
     "tit": "3Q26 Preview HBM이 만들고, 메모리가 이어간다",
-    "rcnt": "11953",
+    "rcnt": "11967",
     "wdt": "20261006"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "미래에셋증권",
     "tit": "반도체 사상 첫 매출 천억불 달성",
-    "rcnt": "11287",
+    "rcnt": "11300",
     "wdt": "20261006"
    }
   ],
