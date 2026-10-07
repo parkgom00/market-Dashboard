@@ -117,3 +117,7 @@ python run_scan.py --market us              # 미국 (S&P 500 + 나스닥 100, �
 - 판정 로직과 숫자 기준: `scanner/rules2.py` (위쪽 상수만 고치면 됩니다). 시험: `python scanner/test_rules2.py`
 - 스윙 A~E, 중장기 c(240·480 동시 돌파)·d(신고가 후 240일선 지지 반등), 단기 B1·B2 는 모두 장 마감 스캔(`run_scan.py`)에서 일봉 기준으로 계산합니다.
 - 단기 탭 파일은 `scanner/shortterm_build.py` 가 유형 A(`out/closing_kr.json`)와 유형 B(`out/breakout_kr.json`)를 합쳐 만듭니다.
+
+## 단기 유형 C 480분선 지지 (1분봉)
+- `scanner/collect_m480.py` — 기준 숫자는 파일 위쪽 상수. 시험: `python scanner/test_m480.py`
+- `.github/workflows/m480.yml` 이 아침에 한 번 시작해 10:00~12:00 사이 30분마다 판정합니다.
