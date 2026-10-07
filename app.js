@@ -778,6 +778,31 @@
 
     renderCalendar(); renderUS(); initLive(); renderYouTube(); renderLong(); renderShort();
 
+    // 전체 새로고침: 페이지를 다시 열면 모든 데이터 파일을 최신본으로 받는다 (보고 있던 탭은 주소의 #탭 으로 유지)
+    var loadedAt = meta.updatedAt || "", hiddenAt = 0;
+    var btn = $("#refresh-all");
+    function hasNew() { return !!(D.meta && D.meta.updatedAt && D.meta.updatedAt !== loadedAt); }
+    function mark() {
+      if (!btn || !hasNew()) return;
+      btn.classList.add("new");
+      btn.textContent = "↻ 새 데이터 받기";
+      $("#updated").textContent = "마지막 갱신 " + loadedAt + " → 새 데이터 " + D.meta.updatedAt;
+    }
+    function checkMeta(then) {      // 작은 meta.js 만 다시 받아 서버에 새 데이터가 올라왔는지 확인
+      var s = document.createElement("script");
+      s.src = "data/meta.js?t=" + Date.now();
+      s.onload = function () { s.parentNode && s.parentNode.removeChild(s); mark(); if (then) then(); };
+      s.onerror = function () { s.parentNode && s.parentNode.removeChild(s); };
+      document.body.appendChild(s);
+    }
+    if (btn) btn.addEventListener("click", function () { btn.disabled = true; btn.textContent = "불러오는 중…"; location.reload(); });
+    setInterval(function () { if (!document.hidden) checkMeta(); }, 60000);
+    document.addEventListener("visibilitychange", function () {
+      if (document.hidden) { hiddenAt = Date.now(); return; }
+      var away = hiddenAt && Date.now() - hiddenAt > 120000;      // 2분 넘게 다른 앱에 있다가 돌아왔고
+      checkMeta(function () { if (away && hasNew()) location.reload(); });   // 새 데이터가 있으면 자동으로 다시 연다
+    });
+
     $("#tabbar").addEventListener("click", function (ev) {
       var b = ev.target.closest("button[data-tab]");
       if (b) show(b.getAttribute("data-tab"));

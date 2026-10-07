@@ -13,7 +13,10 @@
 </head>
 <body>
   <header class="top">
-    <h1 id="title">마켓 대시보드</h1>
+    <div class="toprow">
+      <h1 id="title">마켓 대시보드</h1>
+      <button type="button" class="refresh" id="refresh-all">↻ 새로고침</button>
+    </div>
     <div class="updated" id="updated"></div>
   </header>
   <div id="sample-banner" class="banner" hidden>샘플 데이터입니다.</div>
@@ -41,16 +44,20 @@
     <button data-tab="short" aria-label="단기"><span class="ico">⚡</span><span>단기</span></button>
   </nav>
 
-  <script src="data/meta.js"></script>
-  <script src="data/calendar.js"></script>
-  <script src="data/usmarket.js"></script>
-  <script src="data/dangjamsa.js"></script>
-  <script id="live-js" src="data/live.js"></script>
-  <script src="data/rotation.js"></script>
-  <script src="data/youtube.js"></script>
-  <script src="data/quotes.js"></script>
-  <script src="data/longterm.js"></script>
-  <script src="data/shortterm.js"></script>
-  <script src="app.js"></script>
+  <script>
+    /* 데이터 파일은 주소 뒤에 시각을 붙여 항상 최신본을 받습니다 (브라우저·서버 캐시 때문에 예전 값이 보이는 것 방지).
+       순서대로 실행되도록 async=false 로 붙입니다. 파일 하나가 없어도 나머지는 그대로 동작합니다. */
+    (function () {
+      var t = Date.now();
+      ["data/meta.js", "data/calendar.js", "data/usmarket.js", "data/dangjamsa.js", "data/live.js", "data/rotation.js",
+       "data/youtube.js", "data/quotes.js", "data/longterm.js", "data/shortterm.js", "app.js"].forEach(function (f) {
+        var s = document.createElement("script");
+        s.src = f + "?t=" + t;
+        s.async = false;
+        if (f === "data/live.js") s.id = "live-js";
+        document.body.appendChild(s);
+      });
+    })();
+  </script>
 </body>
 </html>

@@ -271,3 +271,6 @@ details{margin-top:6px;font-size:13px} details summary{cursor:pointer;color:var(
 .rotgrid .rc { text-align: center; color: #fff; font-size: 9.5px; padding: 6px 0; border-radius: 4px; box-sizing: border-box; border: 1.5px solid transparent; }
 .rotgrid .rc.top { border-color: #fff; outline: 1.5px solid var(--text); }
 .rotrow > summary { color: var(--text); }
+
+.toprow { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+#refresh-all.new { border-color: var(--up); color: var(--up); font-weight: 700; }
