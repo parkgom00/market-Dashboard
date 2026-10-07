@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-07 11:26",
+ "asOf": "2026-10-07 13:27",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "삼성전자 실적 발표 전날 美 반도체주 급락… 겁먹어야 하나? / 오히려 오늘은 사고 싶었던 주식 담을 기회?ㅣ이권희 대표",
+     "publishedAt": "2026-10-07 13:15",
+     "url": "https://www.youtube.com/watch?v=GCQ5ZKoUNZs"
+    },
     {
      "title": "소외된 삼전·SK하닉, 오후장 반등할까? / 빅테크 ‘원전 장기계약’ 본격화… 진짜 수혜주는 ‘이것’ ㅣ이주연 대표",
      "publishedAt": "2026-10-07 10:26",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“사과 대신 극 초음속 미사일 쐈다” 합참, 북한 지뢰 직접 제거 시작… 추가 도발 이어지나 | 평양24시 강철환 대표",
      "publishedAt": "2026-10-06 19:00",
      "url": "https://www.youtube.com/watch?v=PQj4yqVJ_ok"
-    },
-    {
-     "title": "[#긴급인터뷰]  답답한 코스피… 실적은 좋은데 왜 안 가나? / 돈은 이미 삼전·하닉에서 반도체 소부장으로 이동 중 ㅣ김민수 대표",
-     "publishedAt": "2026-10-06 17:30",
-     "url": "https://www.youtube.com/watch?v=gSy9RYunYkE"
     }
    ]
   },
