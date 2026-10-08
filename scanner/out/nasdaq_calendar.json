@@ -242,6 +242,26 @@
   "previous": "-92.80B"
  },
  {
+  "date": "2026-10-07",
+  "time": "03:00",
+  "title": "FOMC 의사록",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": ""
+ },
+ {
+  "date": "2026-10-07",
+  "time": "08:00",
+  "title": "한국 경상수지",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "46.11B",
+  "previous": "42.08B"
+ },
+ {
   "date": "2026-10-08",
   "time": "03:00",
   "title": "FOMC 의사록",
@@ -268,8 +288,8 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "200K",
-  "actual": "",
-  "previous": "197K"
+  "actual": "197K",
+  "previous": "199K"
  },
  {
   "date": "2026-10-09",
@@ -734,6 +754,16 @@
  },
  {
   "date": "2026-10-27",
+  "time": "21:30",
+  "title": "미국 무역수지",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "-132.07B"
+ },
+ {
+  "date": "2026-10-27",
   "time": "23:00",
   "title": "리치먼드 연은지수",
   "level": "macro",
@@ -772,6 +802,16 @@
   "epsForecast": "$0.24",
   "eps": "",
   "surprise": ""
+ },
+ {
+  "date": "2026-10-28",
+  "time": "03:00",
+  "title": "FOMC 금리결정",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "4.00%"
  },
  {
   "date": "2026-10-28",
@@ -858,6 +898,26 @@
   "consensus": "",
   "actual": "",
   "previous": "4.00%"
+ },
+ {
+  "date": "2026-10-29",
+  "time": "21:30",
+  "title": "미국 PCE",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "0.3%"
+ },
+ {
+  "date": "2026-10-29",
+  "time": "21:30",
+  "title": "미국 근원 PCE",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "3.0%"
  },
  {
   "date": "2026-10-30",
