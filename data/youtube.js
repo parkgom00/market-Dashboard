@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-09 01:31",
+ "asOf": "2026-10-09 03:30",
  "channels": [
   {
    "name": "815머니톡",
@@ -137,6 +137,11 @@ window.DASH.youtube = {
    "handle": "@김단테",
    "videos": [
     {
+     "title": "엔비디아가 숨기고 싶은 진짜 리스크",
+     "publishedAt": "2026-10-09 02:34",
+     "url": "https://www.youtube.com/watch?v=X2zIotF_JEY"
+    },
+    {
      "title": "삼성전자 역대급 실적에도 반응이 싸늘한 이유 #삼성전자 #코스피 #하이닉스",
      "publishedAt": "2026-10-08 13:34",
      "url": "https://www.youtube.com/watch?v=ILoaqN3AI6Y"
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "돈이 삼전닉스에서 '여기'로 간다고? #삼성전자 #소부장 #코스닥",
      "publishedAt": "2026-10-06 16:55",
      "url": "https://www.youtube.com/watch?v=-hO_Np9Ez98"
-    },
-    {
-     "title": "AI 에이전트 최종승자 결국 여기입니다.",
-     "publishedAt": "2026-10-03 18:43",
-     "url": "https://www.youtube.com/watch?v=UnZF4mvPjMY"
     }
    ]
   },
