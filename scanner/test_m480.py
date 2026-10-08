@@ -34,10 +34,16 @@ K = m.KST
 check("회차: 10:02 → 10:00", m.due_slot(dt.datetime(2026, 10, 8, 10, 2, tzinfo=K), "") == "10:00")
 check("회차: 이미 한 회차는 다시 안 함", m.due_slot(dt.datetime(2026, 10, 8, 10, 29, tzinfo=K), "10:00") is None)
 check("회차: 10:31 → 10:30", m.due_slot(dt.datetime(2026, 10, 8, 10, 31, tzinfo=K), "10:00") == "10:30")
-check("회차: 10시 전·12:20 후에는 없음", m.due_slot(dt.datetime(2026, 10, 8, 9, 40, tzinfo=K), "") is None and m.due_slot(dt.datetime(2026, 10, 8, 12, 30, tzinfo=K), "11:30") is None)
-rows, diag = m.evaluate(["000010", "000020"], {"000010": {"name": "가", "market": "KOSDAQ", "marcap": 1e11, "value": 5e10}}, "20261008",
-                        fetch=lambda c, t: b if c == "000010" else [])
-check("evaluate: 해당 종목만 목록에", len(rows) == 1 and rows[0]["name"] == "가" and rows[0]["changePct"] > 0)
+check("회차: 10시 전·14:50 후에는 없음", m.due_slot(dt.datetime(2026, 10, 8, 9, 40, tzinfo=K), "") is None and m.due_slot(dt.datetime(2026, 10, 8, 14, 55, tzinfo=K), "14:00") is None)
+check("회차: 오후 14:31 → 14:30", m.due_slot(dt.datetime(2026, 10, 8, 14, 31, tzinfo=K), "14:00") == "14:30")
+far = build(10400)                       # 480분선 위 약 +3%: 조건 미충족이지만 '접근 중'
+check("접근 중: 480분선 위 5% 이내", m.approaching(far, "20261008") is not None and "남음" in m.note_near(m.approaching(far, "20261008")))
+check("접근 중: 조건 충족 종목은 접근 목록에 안 넣음", m.approaching(b, "20261008") is None)
+check("접근 중: 8% 위는 제외", m.approaching(build(10900), "20261008") is None)
+check("접근 중: 480분선 이탈은 제외", m.approaching(build(9900), "20261008") is None)
+uni = {"000010": {"name": "가", "market": "KOSDAQ", "marcap": 1e11, "value": 5e10}, "000030": {"name": "나"}}
+rows, near, diag = m.evaluate(["000010", "000020", "000030"], uni, "20261008", fetch=lambda c, t: b if c == "000010" else far if c == "000030" else [])
+check("evaluate: 충족 1개 · 접근 중 1개", len(rows) == 1 and rows[0]["name"] == "가" and len(near) == 1 and near[0]["name"] == "나")
 print(m.note(d) if d else why)
 print(f"{sum(ok)}/{len(ok)}")
 raise SystemExit(0 if all(ok) else 1)

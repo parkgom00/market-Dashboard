@@ -120,4 +120,4 @@ python run_scan.py --market us              # 미국 (S&P 500 + 나스닥 100, �
 
 ## 단기 유형 C 480분선 지지 (1분봉)
 - `scanner/collect_m480.py` — 기준 숫자는 파일 위쪽 상수. 시험: `python scanner/test_m480.py`
-- `.github/workflows/m480.yml` 이 아침에 한 번 시작해 10:00~12:00 사이 30분마다 판정합니다.
+- `.github/workflows/m480.yml` 이 아침에 한 번 시작해 10:00~14:30 사이 30분마다 판정합니다. 조건 충족(C1)과 접근 중(C2: 480분선 위 5% 이내)을 나눠 보여줍니다.

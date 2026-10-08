@@ -1,6 +1,6 @@
-name: 480분선 지지 (1분봉, 10:00~12:00)
-# 아침에 한 번 시작해 놓고 작업 안에서 2~3분마다 시세를 살피다가 10:00·10:30·11:00·11:30·12:00 에 판정합니다.
-# (깃허브 예약 실행은 수십 분 늦을 수 있어 예약을 3번 걸어 두고, 먼저 시작한 하나만 12시 넘어까지 돕니다)
+name: CK480 480분선 지지 (1분봉, 10:00~14:30)
+# 아침에 한 번 시작해 놓고 작업 안에서 2~3분마다 시세를 살피다가 10:00 부터 14:30 까지 30분마다 판정합니다.
+# (깃허브 예약 실행은 수십 분 늦을 수 있어 예약을 3번 걸어 두고, 먼저 시작한 하나만 14:35 까지 돕니다)
 on:
   schedule:
     - cron: "45 23 * * 0-4"   # 08:45 KST (월~금)
@@ -15,7 +15,7 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 220
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -25,7 +25,7 @@ jobs:
         run: |
           hhmm() { echo $((10#$(TZ=Asia/Seoul date +%H%M))); }
           now=$(hhmm)
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && { [ "$now" -lt 855 ] || [ "$now" -gt 1215 ]; }; then
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && { [ "$now" -lt 855 ] || [ "$now" -gt 1435 ]; }; then
             echo "수동 실행(시간대 밖): 한 번만 강제 판정"
             (cd scanner && python collect_m480.py --force) || true
             bash scanner/commit_data.sh || true
@@ -33,7 +33,7 @@ jobs:
           fi
           while true; do
             now=$(hhmm)
-            if [ "$now" -gt 1215 ]; then echo "12:15 지남 → 종료"; break; fi
+            if [ "$now" -gt 1435 ]; then echo "14:35 지남 → 종료"; break; fi
             if [ "$now" -ge 855 ]; then
               rm -f /tmp/m480_reported
               (cd scanner && python collect_m480.py) || true

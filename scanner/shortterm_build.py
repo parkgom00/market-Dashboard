@@ -1,7 +1,7 @@
 """단기 탭 화면 파일(data/shortterm.js)을 만듭니다.
   유형 A 종가배팅주  ← out/closing_kr.json  (collect_closing.py, 장 마감 직전·마감 후)
   유형 B 전고점 돌파 ← out/breakout_kr.json (run_scan.py, 장 마감 후 일봉 기준)
-  유형 C 480분선 지지 ← out/m480_kr.json    (collect_m480.py, 10:00~12:00 30분 간격, 1분봉 기준)
+  유형 C 480분선 지지 ← out/m480_kr.json    (collect_m480.py, 10:00~14:30 30분 간격, 1분봉 기준)
 """
 import json
 import os
@@ -30,9 +30,15 @@ def merge(closing, breakout, m480=None):
     if m480:
         types.append({"id": "C", "name": "CK480", "title": "CK480 · 1분봉 480분선 지지", "timeframe": "1분봉",
                       "desc": ("오늘 장중 +15% 이상 올랐던 종목이 1분봉 480분선 근처까지 내려왔지만 이탈하지 않고 옆으로 기는(횡보) 상태. "
-                               "10:00~12:00 사이 30분마다 그 시점의 모습을 한 번씩 찍어 보여주며 실시간은 아닙니다."),
-                      "asOf": m480.get("asOf", ""), "window": "10:00~12:00 · 30분 간격", "status": m480.get("status", ""),
-                      "kr": m480.get("kr", [])})
+                               "10:00~14:30 사이 30분마다 그 시점의 모습을 한 번씩 찍어 보여주며 실시간은 아닙니다."),
+                      "asOf": m480.get("asOf", ""), "window": "10:00~14:30 · 30분 간격", "status": m480.get("status", ""),
+                      "subtypes": [
+                          {"id": "C1", "name": "480분선 지지 (조건 충족)",
+                           "desc": "480분선 위 1.5% 이내로 내려와 이탈 없이 3분 이상 횡보 중인 종목",
+                           "kr": m480.get("kr", [])},
+                          {"id": "C2", "name": "480분선 접근 중",
+                           "desc": "+15% 올랐다가 고가 대비 3% 이상 내려와 480분선 위 5% 이내까지 온 종목 (아직 조건 미충족, 480분선에 가까운 순)",
+                           "kr": m480.get("near", [])}]})
     payload["types"] = types
     return payload
 
