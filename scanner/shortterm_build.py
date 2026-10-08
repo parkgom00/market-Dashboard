@@ -28,7 +28,7 @@ def merge(closing, breakout, m480=None):
                       "asOf": breakout.get("asOf", ""), "subtypes": breakout.get("subtypes", [])})
     types = [t for t in types if t.get("id") != "C"]
     if m480:
-        types.append({"id": "C", "name": "480분선 지지", "timeframe": "1분봉",
+        types.append({"id": "C", "name": "CK480", "title": "CK480 · 1분봉 480분선 지지", "timeframe": "1분봉",
                       "desc": ("오늘 장중 +15% 이상 올랐던 종목이 1분봉 480분선 근처까지 내려왔지만 이탈하지 않고 옆으로 기는(횡보) 상태. "
                                "10:00~12:00 사이 30분마다 그 시점의 모습을 한 번씩 찍어 보여주며 실시간은 아닙니다."),
                       "asOf": m480.get("asOf", ""), "window": "10:00~12:00 · 30분 간격", "status": m480.get("status", ""),
