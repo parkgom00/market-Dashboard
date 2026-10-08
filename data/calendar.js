@@ -1,14 +1,8 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-08 21:27",
+ "generatedAt": "2026-10-08 21:31",
  "events": [
-  {
-   "date": "2026-01-01",
-   "type": "holiday",
-   "market": "KR",
-   "title": "신정연휴 (증시 휴장)"
-  },
   {
    "date": "2026-01-01",
    "type": "holiday",
@@ -60,32 +54,8 @@ window.DASH.calendar = {
   {
    "date": "2026-02-16",
    "type": "holiday",
-   "market": "KR",
-   "title": "설날 전날 (증시 휴장)"
-  },
-  {
-   "date": "2026-02-16",
-   "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 대통령의 날"
-  },
-  {
-   "date": "2026-02-17",
-   "type": "holiday",
-   "market": "KR",
-   "title": "설날 (증시 휴장)"
-  },
-  {
-   "date": "2026-02-18",
-   "type": "holiday",
-   "market": "KR",
-   "title": "설날 다음날 (증시 휴장)"
-  },
-  {
-   "date": "2026-03-02",
-   "type": "holiday",
-   "market": "KR",
-   "title": "삼일절 대체 휴일 (증시 휴장)"
   },
   {
    "date": "2026-03-06",
@@ -151,13 +121,7 @@ window.DASH.calendar = {
    "date": "2026-05-01",
    "type": "holiday",
    "market": "KR",
-   "title": "노동절 (증시 휴장)"
-  },
-  {
-   "date": "2026-05-05",
-   "type": "holiday",
-   "market": "KR",
-   "title": "어린이날 (증시 휴장)"
+   "title": "근로자의 날 (증시 휴장)"
   },
   {
    "date": "2026-05-08",
@@ -174,12 +138,6 @@ window.DASH.calendar = {
   {
    "date": "2026-05-25",
    "type": "holiday",
-   "market": "KR",
-   "title": "부처님오신날 대체 휴일 (증시 휴장)"
-  },
-  {
-   "date": "2026-05-25",
-   "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 메모리얼 데이"
   },
@@ -188,12 +146,6 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 PCE 물가지수 발표 · 4월분 (한국시간 저녁)"
-  },
-  {
-   "date": "2026-06-03",
-   "type": "holiday",
-   "market": "KR",
-   "title": "지방선거일 (증시 휴장)"
   },
   {
    "date": "2026-06-05",
@@ -244,12 +196,6 @@ window.DASH.calendar = {
    "title": "미국 소비자물가지수(CPI) 발표 · 6월분 (한국시간 저녁)"
   },
   {
-   "date": "2026-07-17",
-   "type": "holiday",
-   "market": "KR",
-   "title": "제헌절 (증시 휴장)"
-  },
-  {
    "date": "2026-07-30",
    "type": "econ",
    "market": "US",
@@ -272,12 +218,6 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 소비자물가지수(CPI) 발표 · 7월분 (한국시간 저녁)"
-  },
-  {
-   "date": "2026-08-17",
-   "type": "holiday",
-   "market": "KR",
-   "title": "광복절 대체 휴일 (증시 휴장)"
   },
   {
    "date": "2026-08-26",
@@ -365,12 +305,6 @@ window.DASH.calendar = {
     "영업이익 약 107.4조 원 (전년 동기 대비 +782.5%)",
     "확정실적·컨퍼런스콜은 이달 말 예정"
    ]
-  },
-  {
-   "date": "2026-10-08",
-   "type": "earnings",
-   "market": "KR",
-   "title": "삼성전자 잠정실적 (예상일·하루이틀 차이 가능)"
   },
   {
    "date": "2026-10-09",
@@ -535,12 +469,6 @@ window.DASH.calendar = {
   {
    "date": "2026-12-25",
    "type": "holiday",
-   "market": "KR",
-   "title": "기독탄신일 (증시 휴장)"
-  },
-  {
-   "date": "2026-12-25",
-   "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 크리스마스"
   },
@@ -549,12 +477,6 @@ window.DASH.calendar = {
    "type": "holiday",
    "market": "KR",
    "title": "연말 휴장 (증시)"
-  },
-  {
-   "date": "2027-01-01",
-   "type": "holiday",
-   "market": "KR",
-   "title": "신정연휴 (증시 휴장)"
   },
   {
    "date": "2027-01-01",
@@ -575,28 +497,10 @@ window.DASH.calendar = {
    "title": "FOMC 금리 결정 발표 (한국시간 새벽, 미국 1/27)"
   },
   {
-   "date": "2027-02-08",
-   "type": "holiday",
-   "market": "KR",
-   "title": "설날 다음날 (증시 휴장)"
-  },
-  {
-   "date": "2027-02-09",
-   "type": "holiday",
-   "market": "KR",
-   "title": "설날 대체 휴일 (증시 휴장)"
-  },
-  {
    "date": "2027-02-15",
    "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 대통령의 날"
-  },
-  {
-   "date": "2027-03-01",
-   "type": "holiday",
-   "market": "KR",
-   "title": "삼일절 (증시 휴장)"
   },
   {
    "date": "2027-03-18",
@@ -615,24 +519,6 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "FOMC 금리 결정 발표 (한국시간 새벽, 미국 4/28)"
-  },
-  {
-   "date": "2027-05-03",
-   "type": "holiday",
-   "market": "KR",
-   "title": "노동절 대체 휴일 (증시 휴장)"
-  },
-  {
-   "date": "2027-05-05",
-   "type": "holiday",
-   "market": "KR",
-   "title": "어린이날 (증시 휴장)"
-  },
-  {
-   "date": "2027-05-13",
-   "type": "holiday",
-   "market": "KR",
-   "title": "부처님오신날 (증시 휴장)"
   },
   {
    "date": "2027-05-31",
@@ -659,22 +545,10 @@ window.DASH.calendar = {
    "title": "미국 증시 휴장 · 독립기념일 대체"
   },
   {
-   "date": "2027-07-19",
-   "type": "holiday",
-   "market": "KR",
-   "title": "제헌절 대체 휴일 (증시 휴장)"
-  },
-  {
    "date": "2027-07-29",
    "type": "econ",
    "market": "US",
    "title": "FOMC 금리 결정 발표 (한국시간 새벽, 미국 7/28)"
-  },
-  {
-   "date": "2027-08-16",
-   "type": "holiday",
-   "market": "KR",
-   "title": "광복절 대체 휴일 (증시 휴장)"
   },
   {
    "date": "2027-09-06",
@@ -683,40 +557,10 @@ window.DASH.calendar = {
    "title": "미국 증시 휴장 · 노동절"
   },
   {
-   "date": "2027-09-14",
-   "type": "holiday",
-   "market": "KR",
-   "title": "추석 전날 (증시 휴장)"
-  },
-  {
-   "date": "2027-09-15",
-   "type": "holiday",
-   "market": "KR",
-   "title": "추석 (증시 휴장)"
-  },
-  {
-   "date": "2027-09-16",
-   "type": "holiday",
-   "market": "KR",
-   "title": "추석 다음날 (증시 휴장)"
-  },
-  {
    "date": "2027-09-16",
    "type": "econ",
    "market": "US",
    "title": "FOMC 금리 결정 발표 (한국시간 새벽, 미국 9/15)"
-  },
-  {
-   "date": "2027-10-04",
-   "type": "holiday",
-   "market": "KR",
-   "title": "개천절 대체 휴일 (증시 휴장)"
-  },
-  {
-   "date": "2027-10-11",
-   "type": "holiday",
-   "market": "KR",
-   "title": "한글날 대체 휴일 (증시 휴장)"
   },
   {
    "date": "2027-10-28",
@@ -741,12 +585,6 @@ window.DASH.calendar = {
    "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 크리스마스 대체"
-  },
-  {
-   "date": "2027-12-27",
-   "type": "holiday",
-   "market": "KR",
-   "title": "기독탄신일 대체 휴일 (증시 휴장)"
   },
   {
    "date": "2027-12-31",
@@ -947,7 +785,7 @@ window.DASH.calendar = {
    "title": "미국 옵션 만기일"
   },
   {
-   "date": "2027-05-12",
+   "date": "2027-05-13",
    "type": "event",
    "market": "KR",
    "title": "옵션 만기일"

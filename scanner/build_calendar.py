@@ -126,6 +126,20 @@ def attach_nasdaq(events, nas):
     return out
 
 
+def drop_estimates(events):
+    """'잠정실적 (예상일…)' 추정 일정은, 같은 회사의 실제 잠정실적 일정이 7일 안에 있으면 뺀다."""
+    actual = [(e["title"].split(" ")[0], date.fromisoformat(e["date"])) for e in events
+              if e["type"] == "earnings" and "잠정실적" in e["title"] and "예상일" not in e["title"]]
+    out = []
+    for e in events:
+        if e["type"] == "earnings" and "잠정실적 (예상일" in e["title"]:
+            name, d = e["title"].split(" ")[0], date.fromisoformat(e["date"])
+            if any(n == name and abs((d - a).days) <= 7 for n, a in actual):
+                continue
+        out.append(e)
+    return out
+
+
 def attach_results(events, results, today):
     """발표일이 지난 지표에 FRED 결과를, 모든 일정에 나스닥 예상/실제 줄(extra)을 result 로 합쳐 붙임. 내부용 ind/ref 는 제거."""
     for e in events:
@@ -187,6 +201,7 @@ def build(target=TARGET, today=None):
     events += [x for x in expiry_events(years, closed_kr) if date.fromisoformat(x["date"]).weekday() < 6]
     events = attach_nasdaq(events, _load_out("nasdaq_calendar.json") or [])
     events = dedupe_earnings(events)
+    events = drop_estimates(events)
     events = attach_results(events, _load_out("econ_results.json") or {}, today)
     payload = {"generatedAt": datetime.now(KST).strftime("%Y-%m-%d %H:%M"), "events": events}
     with open(target, "w", encoding="utf-8") as f:
