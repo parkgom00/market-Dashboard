@@ -67,14 +67,6 @@
  ],
  "minute": [
   {
-   "localDateTime": "20261008151600",
-   "currentPrice": 264500.0,
-   "openPrice": 263750.0,
-   "highPrice": 264500.0,
-   "lowPrice": 263750.0,
-   "accumulatedTradingVolume": 85220
-  },
-  {
    "localDateTime": "20261008151700",
    "currentPrice": 264250.0,
    "openPrice": 264250.0,
@@ -97,6 +89,14 @@
    "highPrice": 264500.0,
    "lowPrice": 264000.0,
    "accumulatedTradingVolume": 56387
+  },
+  {
+   "localDateTime": "20261008153200",
+   "currentPrice": 262000.0,
+   "openPrice": 262000.0,
+   "highPrice": 262000.0,
+   "lowPrice": 262000.0,
+   "accumulatedTradingVolume": 3993484
   }
  ],
  "integration": {
@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "한화투자증권",
     "tit": "주인공은 HBM으로 바뀐다",
-    "rcnt": "11874",
+    "rcnt": "11900",
     "wdt": "20261007"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "교보증권",
     "tit": "3Q26 Preview HBM이 만들고, 메모리가 이어간다",
-    "rcnt": "14877",
+    "rcnt": "14885",
     "wdt": "20261006"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "미래에셋증권",
     "tit": "반도체 사상 첫 매출 천억불 달성",
-    "rcnt": "14373",
+    "rcnt": "14380",
     "wdt": "20261006"
    }
   ],
@@ -260,17 +260,17 @@
     "reutersCode": "402340",
     "stockName": "SK스퀘어",
     "sosok": "0",
-    "closePrice": "1,060,000",
-    "compareToPreviousClosePrice": "-82,000",
+    "closePrice": "1,050,000",
+    "compareToPreviousClosePrice": "-92,000",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "fluctuationsRatio": "-7.18",
+    "fluctuationsRatio": "-8.06",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "139,839,437",
+    "marketValue": "138,520,197",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
