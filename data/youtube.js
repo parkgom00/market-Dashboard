@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-08 21:34",
+ "asOf": "2026-10-08 23:31",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,21 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "삼성전자, 지금이 저가 매수 기회일까?!",
+     "publishedAt": "2026-10-08 22:34",
+     "url": "https://www.youtube.com/watch?v=MCu7HRunY4s"
+    },
+    {
+     "title": "10월 8일 외국인이 한국인 몰래 매수한 종목 정체",
+     "publishedAt": "2026-10-08 22:00",
+     "url": "https://www.youtube.com/watch?v=n6km8MqR_NY"
+    },
+    {
+     "title": "10월 8일 우리가 현시점 꼭 알고 있어야 하는 저평가 ai 보안 소형주",
+     "publishedAt": "2026-10-08 21:31",
+     "url": "https://www.youtube.com/watch?v=q7wtgr4EIW8"
+    },
+    {
      "title": "경제사냥꾼 '종목 분석기', 내 종목 하나만 끝까지 파고듭니다",
      "publishedAt": "2026-10-08 20:00",
      "url": "https://www.youtube.com/watch?v=UiZvIe8I-VY"
@@ -113,21 +128,6 @@ window.DASH.youtube = {
      "title": "경제사냥꾼 종목 분석기, 내 종목 하나만 끝까지 파고듭니다",
      "publishedAt": "2026-10-08 19:00",
      "url": "https://www.youtube.com/watch?v=xcKCkQF5I04"
-    },
-    {
-     "title": "월가에서 현시점 엔비디아가 저평가 됐다는 이유",
-     "publishedAt": "2026-10-08 17:55",
-     "url": "https://www.youtube.com/watch?v=N-DmjglU-Ac"
-    },
-    {
-     "title": "삼성전자 영업이익 107조에, '노조'가 받는 보너스 얼마일까?",
-     "publishedAt": "2026-10-08 16:37",
-     "url": "https://www.youtube.com/watch?v=uYdhtMZkpJw"
-    },
-    {
-     "title": "10월 8일 오늘 코스피 어떻게 흘러갈까?",
-     "publishedAt": "2026-10-08 10:52",
-     "url": "https://www.youtube.com/watch?v=RDVEdqb2lbA"
     }
    ]
   },
