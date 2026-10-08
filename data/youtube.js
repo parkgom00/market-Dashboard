@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-09 05:29",
+ "asOf": "2026-10-09 07:27",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 9일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-10-09 07:19",
+     "url": "https://www.youtube.com/watch?v=VmlPiISC2JE"
+    },
+    {
      "title": "1년만에 화해한 트럼프·머스크, 주가 앞으로 어떻게 될까?",
      "publishedAt": "2026-10-09 01:00",
      "url": "https://www.youtube.com/watch?v=uPBX-bnt2MU"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "10월 8일 외국인이 한국인 몰래 매수한 종목 정체",
      "publishedAt": "2026-10-08 22:00",
      "url": "https://www.youtube.com/watch?v=n6km8MqR_NY"
-    },
-    {
-     "title": "10월 8일 우리가 현시점 꼭 알고 있어야 하는 저평가 ai 보안 소형주",
-     "publishedAt": "2026-10-08 21:31",
-     "url": "https://www.youtube.com/watch?v=q7wtgr4EIW8"
     }
    ]
   },
