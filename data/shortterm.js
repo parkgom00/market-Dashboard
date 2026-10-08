@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-08 16:17",
+ "asOf": "2026-10-08 16:50",
  "window": "15:20~15:40",
- "status": "전 종목 2418개 중 후보 92개 점검 (기준 일봉 2026-10-07)",
+ "status": "전 종목 2420개 중 후보 95개 점검 (기준 일봉 2026-10-07)",
  "types": [
   {
    "id": "A",
@@ -23,10 +23,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "철강",
        "after": {
-        "price": 46250.0,
-        "pct": 4.76
+        "price": 46400.0,
+        "pct": 5.1
        },
-       "marcap": 16586,
+       "marcap": 16640,
        "prevClose": 44150.0,
        "changePct": 6.0,
        "value": 91,
@@ -62,10 +62,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "화장품",
        "after": {
-        "price": 16180.0,
-        "pct": -3.86
+        "price": 16200.0,
+        "pct": -3.74
        },
-       "marcap": 3666,
+       "marcap": 3671,
        "prevClose": 16830.0,
        "changePct": -3.51,
        "value": 190,
@@ -91,8 +91,8 @@ window.DASH.shortterm = {
        "marcap": 1427,
        "prevClose": 14770.0,
        "changePct": 15.64,
-       "value": 106,
-       "note": "바닥권(250일 범위 하단 36%) · 거래대금 106억(20일 평균의 12.7배) · 장대양봉(+15.8%) · 240일선 15,267, 480일선 12,897 돌파"
+       "value": 107,
+       "note": "바닥권(250일 범위 하단 36%) · 거래대금 107억(20일 평균의 12.8배) · 장대양봉(+15.8%) · 240일선 15,267, 480일선 12,897 돌파"
       }
      ]
     }
@@ -342,18 +342,18 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2418,
-  "candidates": 92,
-  "bars": 92,
-  "naverBars": 92,
+  "quotes": 2420,
+  "candidates": 95,
+  "bars": 95,
+  "naverBars": 95,
   "a1": {
-   "후보": 88,
+   "후보": 91,
    "분봉지연": 0,
    "사유": {
-    "고가에서 멂": 75,
+    "고가에서 멂": 79,
     "ok(수급 자료 없음)": 2,
     "막판 거래량 비중 부족": 7,
-    "등락률·거래대금 미달": 4
+    "등락률·거래대금 미달": 3
    },
    "수급자료": 0,
    "막판비중_중앙값": 0.038,
