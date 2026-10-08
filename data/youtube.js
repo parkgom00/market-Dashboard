@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-09 03:30",
+ "asOf": "2026-10-09 05:29",
  "channels": [
   {
    "name": "815머니톡",
@@ -41,6 +41,11 @@ window.DASH.youtube = {
    "handle": "@orlandocampus",
    "videos": [
     {
+     "title": "(시황분석) 오픈ai 매출축소로 기술주 전체하락",
+     "publishedAt": "2026-10-09 05:28",
+     "url": "https://www.youtube.com/watch?v=OLSu_lpsUp0"
+    },
+    {
      "title": "(삼전닉스,마이크론) 아직은 멀리보고 들고가자!!!",
      "publishedAt": "2026-10-08 14:58",
      "url": "https://www.youtube.com/watch?v=ewIKZvUgzC8"
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 마벨과 브로드컴의 ASIC반도체가 장을주도,그러나 메모리는 숨고르기",
      "publishedAt": "2026-10-07 05:44",
      "url": "https://www.youtube.com/watch?v=FnqR2rAvGA0"
-    },
-    {
-     "title": "(관심종목) 주도 정당에 따른 상승가능종목들은?",
-     "publishedAt": "2026-10-06 14:36",
-     "url": "https://www.youtube.com/watch?v=MrO0QqXSk8E"
     }
    ]
   },
@@ -137,6 +137,11 @@ window.DASH.youtube = {
    "handle": "@김단테",
    "videos": [
     {
+     "title": "OpenAI의 매출 200억 달러가 사라졌다??",
+     "publishedAt": "2026-10-09 03:22",
+     "url": "https://www.youtube.com/watch?v=k1Ysumyvyio"
+    },
+    {
      "title": "엔비디아가 숨기고 싶은 진짜 리스크",
      "publishedAt": "2026-10-09 02:34",
      "url": "https://www.youtube.com/watch?v=X2zIotF_JEY"
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "나스닥 연일 신고가의 진짜 이유",
      "publishedAt": "2026-10-07 02:21",
      "url": "https://www.youtube.com/watch?v=ffpwNQMKSv4"
-    },
-    {
-     "title": "돈이 삼전닉스에서 '여기'로 간다고? #삼성전자 #소부장 #코스닥",
-     "publishedAt": "2026-10-06 16:55",
-     "url": "https://www.youtube.com/watch?v=-hO_Np9Ez98"
     }
    ]
   },
