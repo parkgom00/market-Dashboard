@@ -277,7 +277,7 @@
   "title": "미시간 소비심리",
   "level": "macro",
   "kind": "econ",
-  "consensus": "47.6",
+  "consensus": "47.5",
   "actual": "",
   "previous": "48.1"
  },
@@ -299,7 +299,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장 시작 전",
-  "epsForecast": "$13.35",
+  "epsForecast": "$12.90",
   "eps": "",
   "surprise": ""
  },
@@ -737,11 +737,33 @@
  {
   "date": "2026-10-29",
   "time": "",
+  "title": "서비스나우 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "장마감 후(한국 다음 날 새벽)",
+  "epsForecast": "$0.57",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-10-29",
+  "time": "",
   "title": "아마존 실적 발표",
   "level": "earnings",
   "kind": "earnings",
   "note": "",
   "epsForecast": "$2.02",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-10-29",
+  "time": "",
+  "title": "알파벳 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "장마감 후(한국 다음 날 새벽)",
+  "epsForecast": "$2.95",
   "eps": "",
   "surprise": ""
  },
@@ -790,6 +812,17 @@
  },
  {
   "date": "2026-10-30",
+  "time": "",
+  "title": "인텔 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "장마감 후(한국 다음 날 새벽)",
+  "epsForecast": "$0.27",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-10-30",
   "time": "12:00",
   "title": "BOJ 금리결정",
   "level": "major",
@@ -828,6 +861,17 @@
   "kind": "earnings",
   "note": "",
   "epsForecast": "$0.94",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-11-04",
+  "time": "",
+  "title": "AMD 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "장마감 후(한국 다음 날 새벽)",
+  "epsForecast": "$1.64",
   "eps": "",
   "surprise": ""
  },
@@ -971,6 +1015,17 @@
   "kind": "earnings",
   "note": "",
   "epsForecast": "$0.79",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-12-02",
+  "time": "",
+  "title": "세일즈포스 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "",
+  "epsForecast": "$2.41",
   "eps": "",
   "surprise": ""
  },

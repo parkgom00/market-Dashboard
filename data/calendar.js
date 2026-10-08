@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-08 15:16",
+ "generatedAt": "2026-10-08 21:16",
  "events": [
   {
    "date": "2026-01-01",
@@ -453,12 +453,6 @@ window.DASH.calendar = {
    "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 추수감사절"
-  },
-  {
-   "date": "2026-12-03",
-   "type": "earnings",
-   "market": "US",
-   "title": "세일즈포스 실적 발표 (예정)"
   },
   {
    "date": "2026-12-04",
@@ -1253,7 +1247,7 @@ window.DASH.calendar = {
    "title": "미시간 소비심리",
    "time": "23:00",
    "result": [
-    "예상 47.6 · 이전 48.1"
+    "예상 47.5 · 이전 48.1"
    ]
   },
   {
@@ -1272,7 +1266,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "골드만삭스 실적 발표",
    "result": [
-    "EPS 예상 $13.35",
+    "EPS 예상 $12.90",
     "장 시작 전"
    ]
   },
@@ -1666,9 +1660,29 @@ window.DASH.calendar = {
    "date": "2026-10-29",
    "type": "earnings",
    "market": "US",
+   "title": "서비스나우 실적 발표",
+   "result": [
+    "EPS 예상 $0.57",
+    "장마감 후(한국 다음 날 새벽)"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "type": "earnings",
+   "market": "US",
    "title": "아마존 실적 발표",
    "result": [
     "EPS 예상 $2.02"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "type": "earnings",
+   "market": "US",
+   "title": "알파벳 실적 발표",
+   "result": [
+    "EPS 예상 $2.95",
+    "장마감 후(한국 다음 날 새벽)"
    ]
   },
   {
@@ -1774,24 +1788,6 @@ window.DASH.calendar = {
    "date": "2026-11-04",
    "type": "earnings",
    "market": "US",
-   "title": "서비스나우 실적 발표",
-   "result": [
-    "EPS 예상 $0.57"
-   ]
-  },
-  {
-   "date": "2026-11-04",
-   "type": "earnings",
-   "market": "US",
-   "title": "알파벳 실적 발표",
-   "result": [
-    "EPS 예상 $2.95"
-   ]
-  },
-  {
-   "date": "2026-11-04",
-   "type": "earnings",
-   "market": "US",
    "title": "퀄컴 실적 발표",
    "result": [
     "EPS 예상 $1.47"
@@ -1842,6 +1838,15 @@ window.DASH.calendar = {
    "title": "마벨 실적 발표",
    "result": [
     "EPS 예상 $0.79"
+   ]
+  },
+  {
+   "date": "2026-12-02",
+   "type": "earnings",
+   "market": "US",
+   "title": "세일즈포스 실적 발표",
+   "result": [
+    "EPS 예상 $2.41"
    ]
   },
   {
