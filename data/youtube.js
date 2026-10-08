@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-08 13:27",
+ "asOf": "2026-10-08 15:33",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#글로벌인사이트]  다음 주부터 외국인 매도 줄어드나? 내년 삼성전자 실적은 더 무섭다… 오늘이 매수 기회인 이유ㅣ노근창 대표",
+     "publishedAt": "2026-10-08 15:00",
+     "url": "https://www.youtube.com/watch?v=jzR2FVavbpQ"
+    },
     {
      "title": "삼성전자 역대급 실적에도 외국인은 왜 팔까? / 오늘도 시작된 외인 ‘선물 흔들기’… 진짜 속내는? | 이권희 대표",
      "publishedAt": "2026-10-08 13:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#찐시황]  또 3시부터 외인이 돌변했다… 선물 5,000억 말아올린 이유 / 내일 삼성전자 실적 발표 후 이렇게 대응하세요ㅣ오로라투자자문 이지환 대표",
      "publishedAt": "2026-10-07 20:00",
      "url": "https://www.youtube.com/watch?v=hnZaB99hVG8"
-    },
-    {
-     "title": "[#글로벌인사이트]  SK하이닉스 하락 이유 딱 2가지… 하지만 판 뒤집을 ‘대형 호재’가 있다 ㅣ노근창 대표",
-     "publishedAt": "2026-10-07 18:00",
-     "url": "https://www.youtube.com/watch?v=s2IhKAd8QGY"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(삼전닉스,마이크론) 아직은 멀리보고 들고가자!!!",
+     "publishedAt": "2026-10-08 14:58",
+     "url": "https://www.youtube.com/watch?v=ewIKZvUgzC8"
+    },
     {
      "title": "(시황분석) 국채경매 수요 좋아도 금리 크게 안빠진다!!!",
      "publishedAt": "2026-10-08 05:50",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(관심종목) 주도 정당에 따른 상승가능종목들은?",
      "publishedAt": "2026-10-06 14:36",
      "url": "https://www.youtube.com/watch?v=MrO0QqXSk8E"
-    },
-    {
-     "title": "(시황분석) 대장주 엔비디아가 신고가 돌파했다는 건 의미 있다!!!",
-     "publishedAt": "2026-10-06 05:35",
-     "url": "https://www.youtube.com/watch?v=fW9zjIwnPOE"
     }
    ]
   },
@@ -142,7 +142,7 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=ffpwNQMKSv4"
     },
     {
-     "title": "AI 에이전트 세계대전 시작됐습니다.",
+     "title": "AI 에이전트 최종승자 결국 여기입니다.",
      "publishedAt": "2026-10-03 18:43",
      "url": "https://www.youtube.com/watch?v=UnZF4mvPjMY"
     },
