@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-08 09:15",
+ "generatedAt": "2026-10-08 15:16",
  "events": [
   {
    "date": "2026-01-01",
@@ -423,6 +423,12 @@ window.DASH.calendar = {
    "type": "earnings",
    "market": "KR",
    "title": "LG에너지솔루션 실적 발표 (예정)"
+  },
+  {
+   "date": "2026-11-06",
+   "type": "earnings",
+   "market": "KR",
+   "title": "NAVER 실적 발표 (예정)"
   },
   {
    "date": "2026-11-06",
@@ -1227,7 +1233,7 @@ window.DASH.calendar = {
    "title": "한국 경상수지",
    "time": "08:00",
    "result": [
-    "이전 42.08B"
+    "실제 46.11B · 이전 42.08B"
    ]
   },
   {
@@ -1287,7 +1293,7 @@ window.DASH.calendar = {
    "title": "미국 기존주택판매",
    "time": "23:00",
    "result": [
-    "이전 3.98M"
+    "이전 -2.0%"
    ]
   },
   {
@@ -1327,7 +1333,7 @@ window.DASH.calendar = {
    "title": "한국 무역수지",
    "time": "09:00",
    "result": [
-    "이전 49.85B"
+    "예상 49.85B · 이전 34.79B"
    ]
   },
   {
@@ -1337,7 +1343,7 @@ window.DASH.calendar = {
    "title": "한국 수입",
    "time": "09:00",
    "result": [
-    "이전 26.0%"
+    "예상 26.0% · 이전 22.4%"
    ]
   },
   {
@@ -1348,7 +1354,7 @@ window.DASH.calendar = {
    "time": "09:00",
    "major": true,
    "result": [
-    "이전 83.5%"
+    "예상 83.5% · 이전 68.7%"
    ]
   },
   {
@@ -1358,7 +1364,7 @@ window.DASH.calendar = {
    "title": "미국 PPI",
    "time": "21:30",
    "result": [
-    "이전 0.3%"
+    "이전 4.7%"
    ]
   },
   {

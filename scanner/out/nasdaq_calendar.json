@@ -258,7 +258,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "",
-  "actual": "",
+  "actual": "46.11B",
   "previous": "42.08B"
  },
  {
@@ -322,7 +322,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "3.98M"
+  "previous": "-2.0%"
  },
  {
   "date": "2026-10-14",
@@ -382,9 +382,9 @@
   "title": "한국 무역수지",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "49.85B",
   "actual": "",
-  "previous": "49.85B"
+  "previous": "34.79B"
  },
  {
   "date": "2026-10-15",
@@ -392,9 +392,9 @@
   "title": "한국 수입",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "26.0%",
   "actual": "",
-  "previous": "26.0%"
+  "previous": "22.4%"
  },
  {
   "date": "2026-10-15",
@@ -402,9 +402,9 @@
   "title": "한국 수출",
   "level": "major",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "83.5%",
   "actual": "",
-  "previous": "83.5%"
+  "previous": "68.7%"
  },
  {
   "date": "2026-10-15",
@@ -414,7 +414,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "0.3%"
+  "previous": "4.7%"
  },
  {
   "date": "2026-10-15",
