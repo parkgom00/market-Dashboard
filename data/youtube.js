@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-08 17:29",
+ "asOf": "2026-10-08 19:29",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "2차전지 끝났다고? 삼성SDI·LG엔솔 진짜 승부는 지금부터… 美 ESS·유럽 전기차 ‘K배터리 대반격’ 온다  ㅣ윤석천 평론가",
+     "publishedAt": "2026-10-08 19:00",
+     "url": "https://www.youtube.com/watch?v=GdnFY2FfjlU"
+    },
     {
      "title": "[#긴급시황] 외국인 매도 폭탄에 코스피 침몰… 투자심리 무너진 지금, 반등은 언제 올까? (급락장) 이권희 대표",
      "publishedAt": "2026-10-08 17:15",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[10월8일 #장시작전] 美국채금리 다시 상승… 뉴욕증시 하락 / 코스피 7000 또 막혔다, 삼성전자 실적 발표 후 판 바뀔까?",
      "publishedAt": "2026-10-08 10:03",
      "url": "https://www.youtube.com/watch?v=_PPWh1jOvhs"
-    },
-    {
-     "title": "마이크론은 급등, 삼성전자 107조 호실적… 외인 매수 들어올까? 오후장 대반전 나오나 ㅣ이주연 대표",
-     "publishedAt": "2026-10-08 10:00",
-     "url": "https://www.youtube.com/watch?v=SEXxprbqsKA"
     }
    ]
   },
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "[특집] 첨단 패키징, 테스트 후공정… 주도주 흐름 한 방에 싹 정리!!",
+     "publishedAt": "2026-10-08 19:00",
+     "url": "https://www.youtube.com/watch?v=RF4B2IsSxiY"
+    },
+    {
      "title": "파운드리 시장 큰 손으로 부상한 이 업계? 돈이 쏟아진다!!",
      "publishedAt": "2026-10-07 19:00",
      "url": "https://www.youtube.com/watch?v=CWuoPW-5Cow"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[실전 투자 스터디] 엔비디아가 흔드는 유리기판 시장",
      "publishedAt": "2026-10-06 16:46",
      "url": "https://www.youtube.com/watch?v=UcoeBvX116A"
-    },
-    {
-     "title": "[몰아보기] 반도체 소부장 전략 AtoZ? 한 방에 정리!!",
-     "publishedAt": "2026-10-03 14:00",
-     "url": "https://www.youtube.com/watch?v=2VsqPGX9ovY"
     }
    ]
   },
@@ -104,6 +104,16 @@ window.DASH.youtube = {
    "channelId": "UC7usMJDHmtbs_oegmzQKKMA",
    "handle": "@경제사냥꾼",
    "videos": [
+    {
+     "title": "경제사냥꾼 종목 분석기, 내 종목 하나만 끝까지 파고듭니다",
+     "publishedAt": "2026-10-08 19:00",
+     "url": "https://www.youtube.com/watch?v=xcKCkQF5I04"
+    },
+    {
+     "title": "월가에서 현시점 엔비디아가 저평가 됐다는 이유",
+     "publishedAt": "2026-10-08 17:55",
+     "url": "https://www.youtube.com/watch?v=N-DmjglU-Ac"
+    },
     {
      "title": "삼성전자 영업이익 107조에, '노조'가 받는 보너스 얼마일까?",
      "publishedAt": "2026-10-08 16:37",
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "10월 8일 투자자들이 꼭 알아야 하는 투자 포인트",
      "publishedAt": "2026-10-08 07:01",
      "url": "https://www.youtube.com/watch?v=Obpkla5tfQU"
-    },
-    {
-     "title": "젠슨황 리사수가 동시에 콕찝은 다음 '미래산업'은 뭘까",
-     "publishedAt": "2026-10-07 23:30",
-     "url": "https://www.youtube.com/watch?v=pp5NwUqYh64"
-    },
-    {
-     "title": "이마트 전국 2시간 배송 시작  쿠팡 이길 수 있을까",
-     "publishedAt": "2026-10-07 23:00",
-     "url": "https://www.youtube.com/watch?v=A4WQPHFEJug"
     }
    ]
   },
@@ -169,6 +169,11 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
+     "title": "올해 메모리 놓친 사람 주목? AI 반도체 다음 격전지가 될 투자처",
+     "publishedAt": "2026-10-08 19:17",
+     "url": "https://www.youtube.com/watch?v=MjEc_J9gYko"
+    },
+    {
      "title": "끌로드, 챗GPT가 주식투자도 대신해준다? AI 실생활 침투 가속화의 수혜주들",
      "publishedAt": "2026-10-07 21:05",
      "url": "https://www.youtube.com/watch?v=bL2q1ZfwdJA"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "초고금리 뉴노멀 시대에 대비하라? 월가 초고수의 깜짝 예언, 적중할까",
      "publishedAt": "2026-10-01 21:02",
      "url": "https://www.youtube.com/watch?v=2cduC5_rK9I"
-    },
-    {
-     "title": "사상 첫 우주 데이터센터 시작, 구글 스페이스X의 승부수 먹힐까",
-     "publishedAt": "2026-09-30 20:34",
-     "url": "https://www.youtube.com/watch?v=kiQ_USot1go"
     }
    ]
   }
