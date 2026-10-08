@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-08 19:29",
+ "asOf": "2026-10-08 21:34",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황] 짜증 폭발한 하루… 결국 주도주는 갈렸다 / 10월 증시.. 돈은 ‘여기’로 몰린다 | 황유현 팀장",
+     "publishedAt": "2026-10-08 20:00",
+     "url": "https://www.youtube.com/watch?v=RzkUZfUfNRA"
+    },
     {
      "title": "2차전지 끝났다고? 삼성SDI·LG엔솔 진짜 승부는 지금부터… 美 ESS·유럽 전기차 ‘K배터리 대반격’ 온다  ㅣ윤석천 평론가",
      "publishedAt": "2026-10-08 19:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "삼성전자 역대급 실적에도 외국인은 왜 팔까? / 오늘도 시작된 외인 ‘선물 흔들기’… 진짜 속내는? | 이권희 대표",
      "publishedAt": "2026-10-08 13:00",
      "url": "https://www.youtube.com/watch?v=A8Hgs2MnPqQ"
-    },
-    {
-     "title": "[10월8일 #장시작전] 美국채금리 다시 상승… 뉴욕증시 하락 / 코스피 7000 또 막혔다, 삼성전자 실적 발표 후 판 바뀔까?",
-     "publishedAt": "2026-10-08 10:03",
-     "url": "https://www.youtube.com/watch?v=_PPWh1jOvhs"
     }
    ]
   },
@@ -73,7 +73,7 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
-     "title": "[특집] 첨단 패키징, 테스트 후공정… 주도주 흐름 한 방에 싹 정리!!",
+     "title": "[특집] 반도체 소부장 지각 변동, 지금은 이 주도주 흐름을 봐야 합니다!!",
      "publishedAt": "2026-10-08 19:00",
      "url": "https://www.youtube.com/watch?v=RF4B2IsSxiY"
     },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "경제사냥꾼 '종목 분석기', 내 종목 하나만 끝까지 파고듭니다",
+     "publishedAt": "2026-10-08 20:00",
+     "url": "https://www.youtube.com/watch?v=UiZvIe8I-VY"
+    },
+    {
      "title": "경제사냥꾼 종목 분석기, 내 종목 하나만 끝까지 파고듭니다",
      "publishedAt": "2026-10-08 19:00",
      "url": "https://www.youtube.com/watch?v=xcKCkQF5I04"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "10월 8일 오늘 코스피 어떻게 흘러갈까?",
      "publishedAt": "2026-10-08 10:52",
      "url": "https://www.youtube.com/watch?v=RDVEdqb2lbA"
-    },
-    {
-     "title": "10월 8일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-10-08 07:01",
-     "url": "https://www.youtube.com/watch?v=Obpkla5tfQU"
     }
    ]
   },
