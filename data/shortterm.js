@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-08 15:47",
+ "asOf": "2026-10-08 15:51",
  "window": "15:20~15:40",
  "status": "전 종목 2421개 중 후보 96개 점검 (기준 일봉 2026-10-07)",
  "types": [
@@ -22,7 +22,10 @@ window.DASH.shortterm = {
        "close": 39550.0,
        "market": "KOSDAQ",
        "sector": "방송과엔터테인먼트",
-       "after": null,
+       "after": {
+        "price": 39550.0,
+        "pct": 2.59
+       },
        "marcap": 14053,
        "prevClose": 38550.0,
        "changePct": 2.59,
@@ -35,7 +38,10 @@ window.DASH.shortterm = {
        "close": 46800.0,
        "market": "KOSPI",
        "sector": "철강",
-       "after": null,
+       "after": {
+        "price": 46800.0,
+        "pct": 6.0
+       },
        "marcap": 16783,
        "prevClose": 44150.0,
        "changePct": 6.0,
@@ -48,7 +54,10 @@ window.DASH.shortterm = {
        "close": 145100.0,
        "market": "KOSDAQ",
        "sector": "반도체와반도체장비",
-       "after": null,
+       "after": {
+        "price": 145100.0,
+        "pct": 5.76
+       },
        "marcap": 42031,
        "prevClose": 137200.0,
        "changePct": 5.76,
@@ -68,7 +77,10 @@ window.DASH.shortterm = {
        "close": 16240.0,
        "market": "KOSPI",
        "sector": "화장품",
-       "after": null,
+       "after": {
+        "price": 16240.0,
+        "pct": -3.51
+       },
        "marcap": 3680,
        "prevClose": 16830.0,
        "changePct": -3.51,
@@ -88,7 +100,10 @@ window.DASH.shortterm = {
        "close": 17080.0,
        "market": "KOSDAQ",
        "sector": "디스플레이장비및부품",
-       "after": null,
+       "after": {
+        "price": 17080.0,
+        "pct": 15.64
+       },
        "marcap": 1419,
        "prevClose": 14770.0,
        "changePct": 15.64,
@@ -349,17 +364,18 @@ window.DASH.shortterm = {
   "naverBars": 96,
   "a1": {
    "후보": 92,
-   "분봉지연": 2,
+   "분봉지연": 0,
    "사유": {
-    "고가에서 멂": 82,
+    "고가에서 멂": 81,
+    "등락률·거래대금 미달": 1,
     "ok(수급 자료 없음)": 3,
     "막판 거래량 비중 부족": 7
    },
    "수급자료": 0,
-   "막판비중_중앙값": 0.039,
+   "막판비중_중앙값": 0.04,
    "막판비중_최대": 0.329
   }
  },
  "flowConfirmed": false,
- "phase": "장중 · 수급 자료는 마감 후(16시 이후) 반영됩니다"
+ "phase": "장 마감 후 · 정규장 종가 기준 · 수급 자료는 아직 공개 전"
 };
