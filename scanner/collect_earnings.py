@@ -33,13 +33,45 @@ def upcoming(dates, today, horizon_days=130):
     return c[:1]
 
 
+def kr_business_days(start, n):
+    """start 다음 날부터 센 한국 영업일 n번째 날 (주말·공휴일 제외)."""
+    try:
+        import holidays
+        hol = holidays.country_holidays("KR", years=[start.year, start.year + 1])
+    except Exception:
+        hol = {}
+    d, k = start, 0
+    while k < n:
+        d += timedelta(days=1)
+        if d.weekday() < 5 and d not in hol:
+            k += 1
+    return d
+
+
+def prelim_estimate(today, nth=5):
+    """잠정실적(삼성전자·LG전자처럼 분기 끝나고 1~2주 안에 먼저 내는 곳)의 다음 예상일: 분기 마지막 날 뒤 n번째 영업일."""
+    from datetime import date
+    for y in (today.year, today.year + 1):
+        for m in (1, 4, 7, 10):
+            q_end = date(y, m, 1) - timedelta(days=1)
+            d = kr_business_days(q_end, nth)
+            if d >= today:
+                return d.isoformat()
+    return None
+
+
 def build_events(found, watch, today):
     """found: {ticker: [KST 날짜...]} → 캘린더 이벤트 목록."""
     out = []
     for market, items in watch.items():
         for it in items:
+            label = "확정실적·컨퍼런스콜" if it.get("prelim") else "실적 발표"
             for d in upcoming(found.get(it["ticker"], []), today):
-                out.append({"date": d, "type": "earnings", "market": market, "title": f"{it['name']} 실적 발표 (예정)"})
+                out.append({"date": d, "type": "earnings", "market": market, "title": f"{it['name']} {label} (예정)"})
+            if it.get("prelim"):
+                d = prelim_estimate(today)
+                if d:
+                    out.append({"date": d, "type": "earnings", "market": market, "title": f"{it['name']} 잠정실적 (예상일·하루이틀 차이 가능)"})
     return out
 
 

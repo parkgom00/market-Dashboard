@@ -10,6 +10,7 @@
 
 calendar_manual.json 형식:
   [{"date": "2026-10-21", "type": "earnings", "market": "US", "title": "테슬라 실적 발표"}]
+  결과를 함께 적으려면 "extra": ["매출 …", "영업이익 …"] (날짜를 누르면 아래에 표시)
   type: holiday(휴장) | econ(경제지표) | earnings(실적) | event(이벤트)   market: KR | US
 """
 import json
@@ -71,7 +72,7 @@ def merge(fixed, extra_lists, manual):
                 continue
             seen_holiday.add(key)
         ev = {"date": e["date"], "type": e["type"], "market": e.get("market", ""), "title": e["title"]}
-        for k in ("ind", "ref", "time", "major"):
+        for k in ("ind", "ref", "time", "major", "extra"):
             if e.get(k):
                 ev[k] = e[k]
         events.append(ev)
