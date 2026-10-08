@@ -168,6 +168,12 @@
   "title": "JP모건 실적 발표 (예정)"
  },
  {
+  "date": "2026-10-13",
+  "type": "earnings",
+  "market": "US",
+  "title": "골드만삭스 실적 발표 (예정)"
+ },
+ {
   "date": "2026-10-28",
   "type": "earnings",
   "market": "US",
@@ -225,13 +231,31 @@
   "date": "2026-10-28",
   "type": "earnings",
   "market": "KR",
-  "title": "삼성전자 실적 발표 (예정)"
+  "title": "삼성전자 확정실적·컨퍼런스콜 (예정)"
+ },
+ {
+  "date": "2026-10-08",
+  "type": "earnings",
+  "market": "KR",
+  "title": "삼성전자 잠정실적 (예상일·하루이틀 차이 가능)"
  },
  {
   "date": "2026-10-27",
   "type": "earnings",
   "market": "KR",
   "title": "SK하이닉스 실적 발표 (예정)"
+ },
+ {
+  "date": "2026-10-30",
+  "type": "earnings",
+  "market": "KR",
+  "title": "LG전자 확정실적·컨퍼런스콜 (예정)"
+ },
+ {
+  "date": "2026-10-08",
+  "type": "earnings",
+  "market": "KR",
+  "title": "LG전자 잠정실적 (예상일·하루이틀 차이 가능)"
  },
  {
   "date": "2026-11-05",

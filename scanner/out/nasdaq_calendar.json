@@ -358,12 +358,62 @@
  {
   "date": "2026-10-14",
   "time": "21:30",
+  "title": "미국 PPI",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "4.7%"
+ },
+ {
+  "date": "2026-10-14",
+  "time": "21:30",
   "title": "미국 근원 CPI",
   "level": "major",
   "kind": "econ",
   "consensus": "",
   "actual": "",
   "previous": "337.77"
+ },
+ {
+  "date": "2026-10-14",
+  "time": "21:30",
+  "title": "미국 근원 PPI",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "4.6%"
+ },
+ {
+  "date": "2026-10-14",
+  "time": "21:30",
+  "title": "미국 소매판매",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "1.2%"
+ },
+ {
+  "date": "2026-10-14",
+  "time": "21:30",
+  "title": "미국 신규 실업수당 청구",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": ""
+ },
+ {
+  "date": "2026-10-14",
+  "time": "21:30",
+  "title": "필라델피아 연은지수",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "37.8"
  },
  {
   "date": "2026-10-15",
@@ -375,6 +425,16 @@
   "epsForecast": "$4.45",
   "eps": "",
   "surprise": ""
+ },
+ {
+  "date": "2026-10-15",
+  "time": "08:00",
+  "title": "한국 실업률",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "2.7%"
  },
  {
   "date": "2026-10-15",

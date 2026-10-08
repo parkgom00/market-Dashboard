@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-08 21:16",
+ "generatedAt": "2026-10-08 21:27",
  "events": [
   {
    "date": "2026-01-01",
@@ -350,6 +350,29 @@ window.DASH.calendar = {
    "title": "개천절 대체공휴일 (증시 휴장)"
   },
   {
+   "date": "2026-10-08",
+   "type": "earnings",
+   "market": "KR",
+   "title": "LG전자 잠정실적 (예상일·하루이틀 차이 가능)"
+  },
+  {
+   "date": "2026-10-08",
+   "type": "earnings",
+   "market": "KR",
+   "title": "삼성전자 3분기 잠정실적 발표",
+   "result": [
+    "매출 약 195조 원 (전년 동기 대비 +126.6%)",
+    "영업이익 약 107.4조 원 (전년 동기 대비 +782.5%)",
+    "확정실적·컨퍼런스콜은 이달 말 예정"
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "type": "earnings",
+   "market": "KR",
+   "title": "삼성전자 잠정실적 (예상일·하루이틀 차이 가능)"
+  },
+  {
    "date": "2026-10-09",
    "type": "holiday",
    "market": "KR",
@@ -388,7 +411,7 @@ window.DASH.calendar = {
    "date": "2026-10-28",
    "type": "earnings",
    "market": "KR",
-   "title": "삼성전자 실적 발표 (예정)"
+   "title": "삼성전자 확정실적·컨퍼런스콜 (예정)"
   },
   {
    "date": "2026-10-29",
@@ -411,6 +434,12 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 PCE 물가지수 발표 · 9월분 (한국시간 저녁)"
+  },
+  {
+   "date": "2026-10-30",
+   "type": "earnings",
+   "market": "KR",
+   "title": "LG전자 확정실적·컨퍼런스콜 (예정)"
   },
   {
    "date": "2026-10-30",
@@ -1311,6 +1340,53 @@ window.DASH.calendar = {
    ]
   },
   {
+   "date": "2026-10-14",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 PPI",
+   "time": "21:30",
+   "result": [
+    "이전 4.7%"
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 근원 PPI",
+   "time": "21:30",
+   "result": [
+    "이전 4.6%"
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 소매판매",
+   "time": "21:30",
+   "result": [
+    "이전 1.2%"
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 신규 실업수당 청구",
+   "time": "21:30"
+  },
+  {
+   "date": "2026-10-14",
+   "type": "econ",
+   "market": "US",
+   "title": "필라델피아 연은지수",
+   "time": "21:30",
+   "result": [
+    "이전 37.8"
+   ]
+  },
+  {
    "date": "2026-10-15",
    "type": "earnings",
    "market": "US",
@@ -1318,6 +1394,16 @@ window.DASH.calendar = {
    "result": [
     "EPS 예상 $4.45",
     "장 시작 전"
+   ]
+  },
+  {
+   "date": "2026-10-15",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 실업률",
+   "time": "08:00",
+   "result": [
+    "이전 2.7%"
    ]
   },
   {
