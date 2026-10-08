@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-08 09:35",
+ "asOf": "2026-10-08 11:25",
  "channels": [
   {
    "name": "815머니톡",
@@ -10,8 +10,13 @@ window.DASH.youtube = {
    "videos": [
     {
      "title": "[10월8일 #장시작전] 美국채금리 다시 상승… 뉴욕증시 하락 / 코스피 7000 또 막혔다, 삼성전자 실적 발표 후 판 바뀔까?",
-     "publishedAt": "2026-10-08 06:16",
+     "publishedAt": "2026-10-08 10:03",
      "url": "https://www.youtube.com/watch?v=_PPWh1jOvhs"
+    },
+    {
+     "title": "마이크론은 급등, 삼성전자 107조 호실적… 외인 매수 들어올까? 오후장 대반전 나오나 ㅣ이주연 대표",
+     "publishedAt": "2026-10-08 10:00",
+     "url": "https://www.youtube.com/watch?v=SEXxprbqsKA"
     },
     {
      "title": "[#찐시황]  또 3시부터 외인이 돌변했다… 선물 5,000억 말아올린 이유 / 내일 삼성전자 실적 발표 후 이렇게 대응하세요ㅣ오로라투자자문 이지환 대표",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "실적 발표 앞두고 하락하는 코스피… 손절할까, 추매할까? / 조선·방산·원전 상승 타이밍은 ‘이때’ ㅣ 김민수 대표",
      "publishedAt": "2026-10-07 16:30",
      "url": "https://www.youtube.com/watch?v=zIwhnaBjqNw"
-    },
-    {
-     "title": "[#긴급시황] 공매도 주의… 오전 10시부터 외인이 집어던진 이유 / 지금은 관망, 매수 매도는 내일 이후 하세요 (주가하락) 이건희 대표",
-     "publishedAt": "2026-10-07 15:00",
-     "url": "https://www.youtube.com/watch?v=kNCZ7VJ76RM"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 8일 오늘 코스피 어떻게 흘러갈까?",
+     "publishedAt": "2026-10-08 10:52",
+     "url": "https://www.youtube.com/watch?v=RDVEdqb2lbA"
+    },
+    {
      "title": "10월 8일 투자자들이 꼭 알아야 하는 투자 포인트",
      "publishedAt": "2026-10-08 07:01",
      "url": "https://www.youtube.com/watch?v=Obpkla5tfQU"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "초보자가 꼭 봐야하는 'AI 주식' 매수 타이밍",
      "publishedAt": "2026-10-07 22:23",
      "url": "https://www.youtube.com/watch?v=jvs7I0j1oSE"
-    },
-    {
-     "title": "테슬라 지금 사는게 기회일까?",
-     "publishedAt": "2026-10-07 18:48",
-     "url": "https://www.youtube.com/watch?v=zvP9u8N1U00"
     }
    ]
   },
