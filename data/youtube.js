@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-08 23:31",
+ "asOf": "2026-10-09 01:31",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "1년만에 화해한 트럼프·머스크, 주가 앞으로 어떻게 될까?",
+     "publishedAt": "2026-10-09 01:00",
+     "url": "https://www.youtube.com/watch?v=uPBX-bnt2MU"
+    },
+    {
+     "title": "금융권 해킹에 시작된 집단소송, 배상금은 얼마일까?",
+     "publishedAt": "2026-10-08 23:35",
+     "url": "https://www.youtube.com/watch?v=vBjCs2MEVXE"
+    },
+    {
      "title": "삼성전자, 지금이 저가 매수 기회일까?!",
      "publishedAt": "2026-10-08 22:34",
      "url": "https://www.youtube.com/watch?v=MCu7HRunY4s"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "10월 8일 우리가 현시점 꼭 알고 있어야 하는 저평가 ai 보안 소형주",
      "publishedAt": "2026-10-08 21:31",
      "url": "https://www.youtube.com/watch?v=q7wtgr4EIW8"
-    },
-    {
-     "title": "경제사냥꾼 '종목 분석기', 내 종목 하나만 끝까지 파고듭니다",
-     "publishedAt": "2026-10-08 20:00",
-     "url": "https://www.youtube.com/watch?v=UiZvIe8I-VY"
-    },
-    {
-     "title": "경제사냥꾼 종목 분석기, 내 종목 하나만 끝까지 파고듭니다",
-     "publishedAt": "2026-10-08 19:00",
-     "url": "https://www.youtube.com/watch?v=xcKCkQF5I04"
     }
    ]
   },
