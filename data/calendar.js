@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-08 03:15",
+ "generatedAt": "2026-10-08 09:15",
  "events": [
   {
    "date": "2026-01-01",
@@ -423,12 +423,6 @@ window.DASH.calendar = {
    "type": "earnings",
    "market": "KR",
    "title": "LG에너지솔루션 실적 발표 (예정)"
-  },
-  {
-   "date": "2026-11-06",
-   "type": "earnings",
-   "market": "KR",
-   "title": "NAVER 실적 발표 (예정)"
   },
   {
    "date": "2026-11-06",
