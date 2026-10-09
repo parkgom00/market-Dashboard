@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-10 05:25",
+ "asOf": "2026-10-10 07:26",
  "channels": [
   {
    "name": "815머니톡",
@@ -41,6 +41,11 @@ window.DASH.youtube = {
    "handle": "@orlandocampus",
    "videos": [
     {
+     "title": "(시황분석) 시장이 4년연속 상승후 5년연속 상승할 확률은?",
+     "publishedAt": "2026-10-10 06:50",
+     "url": "https://www.youtube.com/watch?v=u7x-uCwfWNo"
+    },
+    {
      "title": "(반도체 종목들) 내일장에서 반등이 나오는지 체크해보자!!!",
      "publishedAt": "2026-10-09 14:07",
      "url": "https://www.youtube.com/watch?v=_I4iMB_Gk7s"
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 국채경매 수요 좋아도 금리 크게 안빠진다!!!",
      "publishedAt": "2026-10-08 05:50",
      "url": "https://www.youtube.com/watch?v=WiDiX5oRTwk"
-    },
-    {
-     "title": "(아이온큐) 양자 법안 통과되나?",
-     "publishedAt": "2026-10-07 14:55",
-     "url": "https://www.youtube.com/watch?v=D8nmhuV33Yc"
     }
    ]
   },
