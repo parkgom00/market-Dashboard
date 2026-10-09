@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-09 19:29",
+ "asOf": "2026-10-09 21:31",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "다음주 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-10-09 20:52",
+     "url": "https://www.youtube.com/watch?v=PYO9NW-X05w"
+    },
+    {
+     "title": "10월 9일 미국 투자자가 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-10-09 19:47",
+     "url": "https://www.youtube.com/watch?v=pNW693pQOe8"
+    },
+    {
      "title": "AI가 장기적으로 계속 상승할수 밖에 없는 이유",
      "publishedAt": "2026-10-09 17:30",
      "url": "https://www.youtube.com/watch?v=XtmmAHH5r_M"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "주식 전문가들이 현시점, 아마존이 저평가 됐다는 이유",
      "publishedAt": "2026-10-09 13:33",
      "url": "https://www.youtube.com/watch?v=ne6GDkVxDds"
-    },
-    {
-     "title": "나스닥 역대급 하락.. 월요일 코스피 어떻게 될까?",
-     "publishedAt": "2026-10-09 09:31",
-     "url": "https://www.youtube.com/watch?v=HNGA1bPni8U"
-    },
-    {
-     "title": "10월 9일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-10-09 07:19",
-     "url": "https://www.youtube.com/watch?v=VmlPiISC2JE"
     }
    ]
   },
