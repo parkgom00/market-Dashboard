@@ -494,7 +494,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "4.7%"
+  "previous": "0.3%"
  },
  {
   "date": "2026-10-15",
@@ -524,7 +524,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": ""
+  "previous": "197K"
  },
  {
   "date": "2026-10-15",
@@ -545,6 +545,16 @@
   "consensus": "",
   "actual": "",
   "previous": "2.7%"
+ },
+ {
+  "date": "2026-10-16",
+  "time": "12:30",
+  "title": "연준 의장 연설",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": ""
  },
  {
   "date": "2026-10-16",
@@ -907,7 +917,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "0.3%"
+  "previous": "3.4%"
  },
  {
   "date": "2026-10-29",
@@ -917,7 +927,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "3.0%"
+  "previous": "0.2%"
  },
  {
   "date": "2026-10-30",
@@ -940,6 +950,26 @@
   "epsForecast": "$0.27",
   "eps": "",
   "surprise": ""
+ },
+ {
+  "date": "2026-10-30",
+  "time": "08:00",
+  "title": "한국 산업생산",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "-4.8%"
+ },
+ {
+  "date": "2026-10-30",
+  "time": "08:00",
+  "title": "한국 소매판매",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "-1.8%"
  },
  {
   "date": "2026-10-30",
