@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-09 21:31",
+ "asOf": "2026-10-09 23:31",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "지금 '광통신주'를 바라봐야 한다는 진짜 이유",
+     "publishedAt": "2026-10-09 21:30",
+     "url": "https://www.youtube.com/watch?v=CFQ1GrLNUCg"
+    },
+    {
      "title": "다음주 투자자들이 꼭 알아야 하는 투자 포인트",
      "publishedAt": "2026-10-09 20:52",
      "url": "https://www.youtube.com/watch?v=PYO9NW-X05w"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "10월 9일 우리가 꼭 알고 있어야 할, 저평가 'AI건설' 소형주",
      "publishedAt": "2026-10-09 15:58",
      "url": "https://www.youtube.com/watch?v=RBvNUqXrPD8"
-    },
-    {
-     "title": "주식 전문가들이 현시점, 아마존이 저평가 됐다는 이유",
-     "publishedAt": "2026-10-09 13:33",
-     "url": "https://www.youtube.com/watch?v=ne6GDkVxDds"
     }
    ]
   },
