@@ -646,7 +646,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$0.24",
+  "epsForecast": "$0.23",
   "eps": "",
   "surprise": ""
  },
@@ -847,11 +847,22 @@
  {
   "date": "2026-10-29",
   "time": "",
+  "title": "마이크로소프트 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "장마감 후(한국 다음 날 새벽)",
+  "epsForecast": "$4.71",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-10-29",
+  "time": "",
   "title": "서비스나우 실적 발표",
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$0.57",
+  "epsForecast": "$0.56",
   "eps": "",
   "surprise": ""
  },
@@ -1015,13 +1026,24 @@
   "surprise": ""
  },
  {
+  "date": "2026-11-03",
+  "time": "",
+  "title": "애플 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "장마감 후(한국 다음 날 새벽)",
+  "epsForecast": "$1.98",
+  "eps": "",
+  "surprise": ""
+ },
+ {
   "date": "2026-11-04",
   "time": "",
   "title": "AMD 실적 발표",
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$1.64",
+  "epsForecast": "$1.66",
   "eps": "",
   "surprise": ""
  },
