@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-09 13:28",
+ "asOf": "2026-10-09 15:33",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "김정은이 노리는 공격 1순위는 청와대가 아니다? / 러·우 전쟁에 북한군 1만 명 추가 파병설… 진짜 속내는?   | 평양24시 강철환 대표",
+     "publishedAt": "2026-10-09 15:31",
+     "url": "https://www.youtube.com/watch?v=aZ4ExpT04dM"
+    },
     {
      "title": "107조 삼성전자 대신 기판주로 돈 몰리는 진짜 이유 / LG에너지솔루션 깜짝 실적… 드디어 2차전지의 시간 오나? | 오현진 팀장",
      "publishedAt": "2026-10-09 12:28",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "2차전지 끝났다고? 삼성SDI·LG엔솔 진짜 승부는 지금부터… 美 ESS·유럽 전기차 ‘K배터리 대반격’ 온다  ㅣ윤석천 평론가",
      "publishedAt": "2026-10-08 19:00",
      "url": "https://www.youtube.com/watch?v=GdnFY2FfjlU"
-    },
-    {
-     "title": "[#긴급시황] 외국인 매도 폭탄에 코스피 침몰… 투자심리 무너진 지금, 반등은 언제 올까? (급락장) 이권희 대표",
-     "publishedAt": "2026-10-08 17:15",
-     "url": "https://www.youtube.com/watch?v=gLq3q920sn4"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(반도체 종목들) 내일장에서 반등이 나오는지 체크해보자!!!",
+     "publishedAt": "2026-10-09 14:33",
+     "url": "https://www.youtube.com/watch?v=_I4iMB_Gk7s"
+    },
     {
      "title": "(시황분석) 오픈ai 매출축소로 기술주 전체하락",
      "publishedAt": "2026-10-09 05:28",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(아이온큐) 양자 법안 통과되나?",
      "publishedAt": "2026-10-07 14:55",
      "url": "https://www.youtube.com/watch?v=D8nmhuV33Yc"
-    },
-    {
-     "title": "(시황분석) 마벨과 브로드컴의 ASIC반도체가 장을주도,그러나 메모리는 숨고르기",
-     "publishedAt": "2026-10-07 05:44",
-     "url": "https://www.youtube.com/watch?v=FnqR2rAvGA0"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "나스닥 역대급 하락.. 월요일 코스피 어떻게 될까?",
-     "publishedAt": "2026-10-09 09:31",
-     "url": "https://www.youtube.com/watch?v=HNGA1bPni8U"
-    },
-    {
-     "title": "10월 9일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-10-09 07:19",
-     "url": "https://www.youtube.com/watch?v=VmlPiISC2JE"
-    },
-    {
-     "title": "1년만에 화해한 트럼프·머스크, 주가 앞으로 어떻게 될까?",
-     "publishedAt": "2026-10-09 01:00",
-     "url": "https://www.youtube.com/watch?v=uPBX-bnt2MU"
-    },
-    {
-     "title": "금융권 해킹에 시작된 집단소송, 배상금은 얼마일까?",
-     "publishedAt": "2026-10-08 23:35",
-     "url": "https://www.youtube.com/watch?v=vBjCs2MEVXE"
-    },
-    {
      "title": "삼성전자, 지금이 저가 매수 기회일까?!",
      "publishedAt": "2026-10-08 22:34",
      "url": "https://www.youtube.com/watch?v=MCu7HRunY4s"
+    },
+    {
+     "title": "경제사냥꾼 종목 분석기, 내 종목 하나만 끝까지 파고듭니다",
+     "publishedAt": "2026-10-08 19:33",
+     "url": "https://www.youtube.com/watch?v=xcKCkQF5I04"
+    },
+    {
+     "title": "초보자가 꼭 봐야하는 'AI 주식' 매수 타이밍",
+     "publishedAt": "2026-10-08",
+     "url": "https://www.youtube.com/watch?v=jvs7I0j1oSE"
+    },
+    {
+     "title": "초보자도 알기 쉽게 전부 분석해 왔습니다",
+     "publishedAt": "2026-10-07",
+     "url": "https://www.youtube.com/watch?v=7qQyi7I3gGM"
+    },
+    {
+     "title": "오라클 투자자라면 꼭 봐야하는 '단기,장기' 주가 전망",
+     "publishedAt": "2026-10-04",
+     "url": "https://www.youtube.com/watch?v=6fFTN9aif5Q"
     }
    ]
   },
@@ -189,9 +189,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=V3ZQ02Syf5U"
     },
     {
-     "title": "초고금리 뉴노멀 시대에 대비하라? 월가 초고수의 깜짝 예언, 적중할까",
-     "publishedAt": "2026-10-01 21:02",
-     "url": "https://www.youtube.com/watch?v=2cduC5_rK9I"
+     "title": "공포 구간인데 나스닥 신고가? 기묘한 랠리/GPT, 끌로드가 주식투자 대신 해준다?/중간선거 한달, 돌아온 머스크의 베팅?/주도주 부활? 마지막 불꽃 랠리 시작될까",
+     "publishedAt": "2026-10-05",
+     "url": "https://www.youtube.com/watch?v=pCVLA2-FurU"
     }
    ]
   }
