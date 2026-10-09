@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-09 17:29",
+ "asOf": "2026-10-09 19:29",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "반도체 초 호황에도 삼성전자 주가는 왜 빠질까? / 2차전지? 지금 상승할 주식 찾아내는 단 하나의 방법 ㅣ 백만개미 한세구 당주",
+     "publishedAt": "2026-10-09 19:00",
+     "url": "https://www.youtube.com/watch?v=DCq8LMjO8Vc"
+    },
     {
      "title": "“폭락장 와도 버틸 주식에 투자했습니다” / 한국 증시에 다시 돈 몰려들 ‘3가지 결정적 조건’ㅣ숭실대학교 경제학과 서준식 교수",
      "publishedAt": "2026-10-09 17:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "삼성전자 역대급 실적에도 증시 급락… 외국인은 왜 매도 폭탄을 쏟아냈나? | LS증권 염승환 이사",
      "publishedAt": "2026-10-09 08:30",
      "url": "https://www.youtube.com/watch?v=ehj1b-SUi5c"
-    },
-    {
-     "title": "[#찐시황] 짜증 폭발한 하루… 결국 주도주는 갈렸다 / 10월 증시.. 돈은 ‘여기’로 몰린다 | 황유현 팀장",
-     "publishedAt": "2026-10-08 20:00",
-     "url": "https://www.youtube.com/watch?v=RzkUZfUfNRA"
     }
    ]
   },
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "신고가 뚫는 해외 기판 업체들, 이제 국내 기업들 순서?",
+     "publishedAt": "2026-10-09 19:00",
+     "url": "https://www.youtube.com/watch?v=LcDcoSxobt0"
+    },
+    {
      "title": "[특집] 반도체 소부장 지각 변동, 지금은 이 주도주 흐름을 봐야 합니다!!",
      "publishedAt": "2026-10-08 19:00",
      "url": "https://www.youtube.com/watch?v=RF4B2IsSxiY"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[실전 투자 스터디] 미국 매크로 봐야하는 단 한 가지 이유",
      "publishedAt": "2026-10-06 18:00",
      "url": "https://www.youtube.com/watch?v=W6uO9N2Dttk"
-    },
-    {
-     "title": "[실전 투자 스터디] 엔비디아가 흔드는 유리기판 시장",
-     "publishedAt": "2026-10-06 16:46",
-     "url": "https://www.youtube.com/watch?v=UcoeBvX116A"
     }
    ]
   },
@@ -104,6 +104,11 @@ window.DASH.youtube = {
    "channelId": "UC7usMJDHmtbs_oegmzQKKMA",
    "handle": "@경제사냥꾼",
    "videos": [
+    {
+     "title": "AI가 장기적으로 계속 상승할수 밖에 없는 이유",
+     "publishedAt": "2026-10-09 17:30",
+     "url": "https://www.youtube.com/watch?v=XtmmAHH5r_M"
+    },
     {
      "title": "10월 9일 우리가 꼭 알고 있어야 할, 저평가 'AI건설' 소형주",
      "publishedAt": "2026-10-09 15:58",
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "10월 9일 투자자들이 꼭 알아야 하는 투자 포인트",
      "publishedAt": "2026-10-09 07:19",
      "url": "https://www.youtube.com/watch?v=VmlPiISC2JE"
-    },
-    {
-     "title": "1년만에 화해한 트럼프·머스크, 주가 앞으로 어떻게 될까?",
-     "publishedAt": "2026-10-09 01:00",
-     "url": "https://www.youtube.com/watch?v=uPBX-bnt2MU"
     }
    ]
   },
@@ -169,6 +169,11 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
+     "title": "AI사이클 더 큰 한 방 남았다? 증시 의심의 벽 뚫고 올라갈까",
+     "publishedAt": "2026-10-09 18:36",
+     "url": "https://www.youtube.com/watch?v=Ob5TSrJbxbs"
+    },
+    {
      "title": "올해 메모리 놓친 사람 주목? AI 반도체 다음 격전지가 될 투자처",
      "publishedAt": "2026-10-08 19:17",
      "url": "https://www.youtube.com/watch?v=MjEc_J9gYko"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "나스닥 엔비디아는 신고가인데 내 주식은 왜? 역대급 기묘한 랠리 이어질까",
      "publishedAt": "2026-10-05 21:07",
      "url": "https://www.youtube.com/watch?v=V3ZQ02Syf5U"
-    },
-    {
-     "title": "초고금리 뉴노멀 시대에 대비하라? 월가 초고수의 깜짝 예언, 적중할까",
-     "publishedAt": "2026-10-01 21:02",
-     "url": "https://www.youtube.com/watch?v=2cduC5_rK9I"
     }
    ]
   }
