@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-09 09:39",
+ "asOf": "2026-10-09 11:25",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "10월 9일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-10-09 07:19",
-     "url": "https://www.youtube.com/watch?v=VmlPiISC2JE"
-    },
-    {
-     "title": "1년만에 화해한 트럼프·머스크, 주가 앞으로 어떻게 될까?",
-     "publishedAt": "2026-10-09 01:00",
-     "url": "https://www.youtube.com/watch?v=uPBX-bnt2MU"
-    },
-    {
-     "title": "금융권 해킹에 시작된 집단소송, 배상금은 얼마일까?",
-     "publishedAt": "2026-10-08 23:35",
-     "url": "https://www.youtube.com/watch?v=vBjCs2MEVXE"
-    },
-    {
      "title": "삼성전자, 지금이 저가 매수 기회일까?!",
      "publishedAt": "2026-10-08 22:34",
      "url": "https://www.youtube.com/watch?v=MCu7HRunY4s"
     },
     {
-     "title": "10월 8일 외국인이 한국인 몰래 매수한 종목 정체",
-     "publishedAt": "2026-10-08 22:00",
-     "url": "https://www.youtube.com/watch?v=n6km8MqR_NY"
+     "title": "경제사냥꾼 종목 분석기, 내 종목 하나만 끝까지 파고듭니다",
+     "publishedAt": "2026-10-08 19:25",
+     "url": "https://www.youtube.com/watch?v=xcKCkQF5I04"
+    },
+    {
+     "title": "초보자가 꼭 봐야하는 'AI 주식' 매수 타이밍",
+     "publishedAt": "2026-10-08",
+     "url": "https://www.youtube.com/watch?v=jvs7I0j1oSE"
+    },
+    {
+     "title": "초보자도 알기 쉽게 전부 분석해 왔습니다",
+     "publishedAt": "2026-10-07",
+     "url": "https://www.youtube.com/watch?v=7qQyi7I3gGM"
+    },
+    {
+     "title": "오라클 투자자라면 꼭 봐야하는 '단기,장기' 주가 전망",
+     "publishedAt": "2026-10-04",
+     "url": "https://www.youtube.com/watch?v=6fFTN9aif5Q"
     }
    ]
   },
@@ -189,9 +189,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=V3ZQ02Syf5U"
     },
     {
-     "title": "초고금리 뉴노멀 시대에 대비하라? 월가 초고수의 깜짝 예언, 적중할까",
-     "publishedAt": "2026-10-01 21:02",
-     "url": "https://www.youtube.com/watch?v=2cduC5_rK9I"
+     "title": "공포 구간인데 나스닥 신고가? 기묘한 랠리/GPT, 끌로드가 주식투자 대신 해준다?/중간선거 한달, 돌아온 머스크의 베팅?/주도주 부활? 마지막 불꽃 랠리 시작될까",
+     "publishedAt": "2026-10-05",
+     "url": "https://www.youtube.com/watch?v=pCVLA2-FurU"
     }
    ]
   }
