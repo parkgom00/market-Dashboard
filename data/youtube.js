@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-09 07:27",
+ "asOf": "2026-10-09 09:39",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "삼성전자 역대급 실적에도 증시 급락… 외국인은 왜 매도 폭탄을 쏟아냈나? | LS증권 염승환 이사",
+     "publishedAt": "2026-10-09 08:30",
+     "url": "https://www.youtube.com/watch?v=ehj1b-SUi5c"
+    },
     {
      "title": "[#찐시황] 짜증 폭발한 하루… 결국 주도주는 갈렸다 / 10월 증시.. 돈은 ‘여기’로 몰린다 | 황유현 팀장",
      "publishedAt": "2026-10-08 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#글로벌인사이트]  다음 주부터 외국인 매도 줄어드나? 내년 삼성전자 실적은 더 무섭다… 오늘이 매수 기회인 이유ㅣ노근창 대표",
      "publishedAt": "2026-10-08 15:00",
      "url": "https://www.youtube.com/watch?v=jzR2FVavbpQ"
-    },
-    {
-     "title": "삼성전자 역대급 실적에도 외국인은 왜 팔까? / 오늘도 시작된 외인 ‘선물 흔들기’… 진짜 속내는? | 이권희 대표",
-     "publishedAt": "2026-10-08 13:00",
-     "url": "https://www.youtube.com/watch?v=A8Hgs2MnPqQ"
     }
    ]
   },
