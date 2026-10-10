@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-10 19:24",
+ "asOf": "2026-10-10 21:29",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황]  오픈AI 200억 달러 매출 쇼크의 진실… 삼성전자·SK하이닉스 월요일이 분기점 / 다음 주 증시 어디로 갈까?  | 이주연 대표",
+     "publishedAt": "2026-10-10 20:00",
+     "url": "https://www.youtube.com/watch?v=lbT8CSmo5fk"
+    },
     {
      "title": "삼성전자 역대급 실적에도 주가 하락… 외국인 지분율 48% 붕괴! / 25년 만의 저점권, 외인 매도 끝나가나?  | 허재환 상무",
      "publishedAt": "2026-10-10 18:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "금리 5.3%에도 버티는 증시… ‘임계점’ 넘으면 폭락장 시작? / 로봇·자율주행 현대차가 선택받는 순간은 ‘이때’ ㅣLS증권 염승환 이사",
      "publishedAt": "2026-10-10 09:00",
      "url": "https://www.youtube.com/watch?v=W1acM8mjmWI"
-    },
-    {
-     "title": "반도체 초 호황에도 삼성전자 주가는 왜 빠질까? / 2차전지? 지금 상승할 주식 찾아내는 단 하나의 방법 ㅣ 백만개미 한세구 당주",
-     "publishedAt": "2026-10-09 19:00",
-     "url": "https://www.youtube.com/watch?v=DCq8LMjO8Vc"
     }
    ]
   },
