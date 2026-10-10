@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-10 07:26",
+ "asOf": "2026-10-10 09:37",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "금리 5.3%에도 버티는 증시… ‘임계점’ 넘으면 폭락장 시작? / 로봇·자율주행 현대차가 선택받는 순간은 ‘이때’ ㅣLS증권 염승환 이사",
+     "publishedAt": "2026-10-10 09:00",
+     "url": "https://www.youtube.com/watch?v=W1acM8mjmWI"
+    },
     {
      "title": "반도체 초 호황에도 삼성전자 주가는 왜 빠질까? / 2차전지? 지금 상승할 주식 찾아내는 단 하나의 방법 ㅣ 백만개미 한세구 당주",
      "publishedAt": "2026-10-09 19:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "107조 삼성전자 대신 기판주로 돈 몰리는 진짜 이유 / LG에너지솔루션 깜짝 실적… 드디어 2차전지의 시간 오나? | 오현진 팀장",
      "publishedAt": "2026-10-09 12:00",
      "url": "https://www.youtube.com/watch?v=rT2Eavkv0qI"
-    },
-    {
-     "title": "삼성전자 역대급 실적에도 증시 급락… 외국인은 왜 매도 폭탄을 쏟아냈나? | LS증권 염승환 이사",
-     "publishedAt": "2026-10-09 08:30",
-     "url": "https://www.youtube.com/watch?v=ehj1b-SUi5c"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "투자자들이 꼭 봐야하는, 다음주 '한국 투자' 포인트(10.12~16)",
+     "publishedAt": "2026-10-10 08:00",
+     "url": "https://www.youtube.com/watch?v=OIsJnmhOPP8"
+    },
+    {
      "title": "지금 '광통신주'를 바라봐야 한다는 진짜 이유",
      "publishedAt": "2026-10-09 21:30",
      "url": "https://www.youtube.com/watch?v=CFQ1GrLNUCg"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "AI가 장기적으로 계속 상승할수 밖에 없는 이유",
      "publishedAt": "2026-10-09 17:30",
      "url": "https://www.youtube.com/watch?v=XtmmAHH5r_M"
-    },
-    {
-     "title": "10월 9일 우리가 꼭 알고 있어야 할, 저평가 'AI건설' 소형주",
-     "publishedAt": "2026-10-09 15:58",
-     "url": "https://www.youtube.com/watch?v=RBvNUqXrPD8"
     }
    ]
   },
