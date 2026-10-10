@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-10 21:13",
+ "generatedAt": "2026-10-11 03:13",
  "events": [
   {
    "date": "2026-01-01",
@@ -373,8 +373,8 @@ window.DASH.calendar = {
    "title": "미국 소비자물가지수(CPI) 발표 · 9월분 (한국시간 저녁)",
    "time": "21:30",
    "result": [
-    "미국 CPI: 이전 0.32%",
-    "미국 근원 CPI: 이전 337.77"
+    "미국 CPI: 예상 3.6% · 이전 0.32%",
+    "미국 근원 CPI: 예상 2.5% · 이전 337.77"
    ]
   },
   {
@@ -1339,7 +1339,7 @@ window.DASH.calendar = {
    "title": "미국 기존주택판매",
    "time": "23:00",
    "result": [
-    "이전 -2.0%"
+    "예상 3.97M · 이전 -2.0%"
    ]
   },
   {
@@ -1359,7 +1359,7 @@ window.DASH.calendar = {
    "title": "중국 CPI",
    "time": "10:30",
    "result": [
-    "이전 0.4%"
+    "예상 1.0% · 이전 0.4%"
    ]
   },
   {
@@ -1467,7 +1467,7 @@ window.DASH.calendar = {
    "title": "미국 PPI",
    "time": "21:30",
    "result": [
-    "이전 0.3%"
+    "예상 0.5% · 이전 0.3%"
    ]
   },
   {
@@ -1477,7 +1477,7 @@ window.DASH.calendar = {
    "title": "미국 근원 PPI",
    "time": "21:30",
    "result": [
-    "이전 4.6%"
+    "예상 0.3% · 이전 4.6%"
    ]
   },
   {
@@ -1487,7 +1487,7 @@ window.DASH.calendar = {
    "title": "미국 소매판매",
    "time": "21:30",
    "result": [
-    "이전 1.2%"
+    "예상 0.3% · 이전 1.2%"
    ]
   },
   {
@@ -1497,7 +1497,7 @@ window.DASH.calendar = {
    "title": "미국 신규 실업수당 청구",
    "time": "21:30",
    "result": [
-    "이전 197K"
+    "예상 195K · 이전 197K"
    ]
   },
   {
@@ -1507,7 +1507,7 @@ window.DASH.calendar = {
    "title": "필라델피아 연은지수",
    "time": "21:30",
    "result": [
-    "이전 37.8"
+    "예상 26.5 · 이전 37.8"
    ]
   },
   {
@@ -1535,7 +1535,7 @@ window.DASH.calendar = {
    "title": "미국 수입물가",
    "time": "21:30",
    "result": [
-    "이전 7.0%"
+    "예상 0.6% · 이전 7.0%"
    ]
   },
   {
@@ -1545,7 +1545,7 @@ window.DASH.calendar = {
    "title": "미국 산업생산",
    "time": "22:15",
    "result": [
-    "이전 0.0%"
+    "예상 0.4% · 이전 0.0%"
    ]
   },
   {

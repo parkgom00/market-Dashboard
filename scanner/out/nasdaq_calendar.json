@@ -340,7 +340,7 @@
   "title": "미국 기존주택판매",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "3.97M",
   "actual": "",
   "previous": "-2.0%"
  },
@@ -361,7 +361,7 @@
   "title": "중국 CPI",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "1.0%",
   "actual": "",
   "previous": "0.4%"
  },
@@ -371,7 +371,7 @@
   "title": "미국 CPI",
   "level": "major",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "3.6%",
   "actual": "",
   "previous": "0.32%"
  },
@@ -391,7 +391,7 @@
   "title": "미국 근원 CPI",
   "level": "major",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "2.5%",
   "actual": "",
   "previous": "337.77"
  },
@@ -492,7 +492,7 @@
   "title": "미국 PPI",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "0.5%",
   "actual": "",
   "previous": "0.3%"
  },
@@ -502,7 +502,7 @@
   "title": "미국 근원 PPI",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "0.3%",
   "actual": "",
   "previous": "4.6%"
  },
@@ -512,7 +512,7 @@
   "title": "미국 소매판매",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "0.3%",
   "actual": "",
   "previous": "1.2%"
  },
@@ -522,7 +522,7 @@
   "title": "미국 신규 실업수당 청구",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "195K",
   "actual": "",
   "previous": "197K"
  },
@@ -532,7 +532,7 @@
   "title": "필라델피아 연은지수",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "26.5",
   "actual": "",
   "previous": "37.8"
  },
@@ -562,7 +562,7 @@
   "title": "미국 수입물가",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "0.6%",
   "actual": "",
   "previous": "7.0%"
  },
@@ -572,7 +572,7 @@
   "title": "미국 산업생산",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "0.4%",
   "actual": "",
   "previous": "0.0%"
  },
