@@ -464,7 +464,7 @@
   "kind": "econ",
   "consensus": "49.85B",
   "actual": "",
-  "previous": "34.79B"
+  "previous": "49.85B"
  },
  {
   "date": "2026-10-15",
@@ -474,7 +474,7 @@
   "kind": "econ",
   "consensus": "26.0%",
   "actual": "",
-  "previous": "22.4%"
+  "previous": "26.0%"
  },
  {
   "date": "2026-10-15",
@@ -484,7 +484,7 @@
   "kind": "econ",
   "consensus": "83.5%",
   "actual": "",
-  "previous": "68.7%"
+  "previous": "83.5%"
  },
  {
   "date": "2026-10-15",
@@ -991,6 +991,16 @@
   "consensus": "",
   "actual": "",
   "previous": ""
+ },
+ {
+  "date": "2026-10-31",
+  "time": "10:30",
+  "title": "중국 제조업 PMI",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "50.2"
  },
  {
   "date": "2026-11-02",

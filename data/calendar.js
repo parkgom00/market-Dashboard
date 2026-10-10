@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-10 09:16",
+ "generatedAt": "2026-10-10 15:14",
  "events": [
   {
    "date": "2026-01-01",
@@ -1436,7 +1436,7 @@ window.DASH.calendar = {
    "title": "한국 무역수지",
    "time": "09:00",
    "result": [
-    "예상 49.85B · 이전 34.79B"
+    "예상 49.85B · 이전 49.85B"
    ]
   },
   {
@@ -1446,7 +1446,7 @@ window.DASH.calendar = {
    "title": "한국 수입",
    "time": "09:00",
    "result": [
-    "예상 26.0% · 이전 22.4%"
+    "예상 26.0% · 이전 26.0%"
    ]
   },
   {
@@ -1457,7 +1457,7 @@ window.DASH.calendar = {
    "time": "09:00",
    "major": true,
    "result": [
-    "예상 83.5% · 이전 68.7%"
+    "예상 83.5% · 이전 83.5%"
    ]
   },
   {
@@ -1891,6 +1891,16 @@ window.DASH.calendar = {
    "title": "BOJ 금리결정",
    "time": "12:00",
    "major": true
+  },
+  {
+   "date": "2026-10-31",
+   "type": "econ",
+   "market": "CN",
+   "title": "중국 제조업 PMI",
+   "time": "10:30",
+   "result": [
+    "이전 50.2"
+   ]
   },
   {
    "date": "2026-11-02",
