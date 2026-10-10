@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-10 17:25",
+ "asOf": "2026-10-10 19:24",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "삼성전자 역대급 실적에도 주가 하락… 외국인 지분율 48% 붕괴! / 25년 만의 저점권, 외인 매도 끝나가나?  | 허재환 상무",
+     "publishedAt": "2026-10-10 18:00",
+     "url": "https://www.youtube.com/watch?v=nCIY3H7FWGg"
+    },
     {
      "title": "코스피가 못 오르는 진짜 이유… ‘주가 누르기 방지법’ 어디로 갔나? / 대통령 지시도 무시하는 재경부 공무원들?ㅣ 숭실대학교 경제학과 서준식 교수",
      "publishedAt": "2026-10-10 16:32",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "반도체 초 호황에도 삼성전자 주가는 왜 빠질까? / 2차전지? 지금 상승할 주식 찾아내는 단 하나의 방법 ㅣ 백만개미 한세구 당주",
      "publishedAt": "2026-10-09 19:00",
      "url": "https://www.youtube.com/watch?v=DCq8LMjO8Vc"
-    },
-    {
-     "title": "“폭락장 와도 버틸 주식에 투자했습니다” / 한국 증시에 다시 돈 몰려들 ‘3가지 결정적 조건’ㅣ숭실대학교 경제학과 서준식 교수",
-     "publishedAt": "2026-10-09 17:00",
-     "url": "https://www.youtube.com/watch?v=SxL7ii_6t7c"
     }
    ]
   },
