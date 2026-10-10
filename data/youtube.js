@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-11 05:24",
+ "asOf": "2026-10-11 07:24",
  "channels": [
   {
    "name": "815머니톡",
@@ -41,6 +41,11 @@ window.DASH.youtube = {
    "handle": "@orlandocampus",
    "videos": [
     {
+     "title": "(관심종목) 주식은 처음 살때 깊히있게 고민하고 들어가야 좋은 주식이라도 고점에 안들어간다",
+     "publishedAt": "2026-10-11 06:53",
+     "url": "https://www.youtube.com/watch?v=Dp5U02khx44"
+    },
+    {
      "title": "(팔란티어) 대중이 욕하고 떠날때가 바닥이다!!!",
      "publishedAt": "2026-10-10 17:11",
      "url": "https://www.youtube.com/watch?v=mSdBlPoqpWM"
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 오픈ai 매출축소로 기술주 전체하락",
      "publishedAt": "2026-10-09 05:28",
      "url": "https://www.youtube.com/watch?v=OLSu_lpsUp0"
-    },
-    {
-     "title": "(삼전닉스,마이크론) 아직은 멀리보고 들고가자!!!",
-     "publishedAt": "2026-10-08 14:58",
-     "url": "https://www.youtube.com/watch?v=ewIKZvUgzC8"
     }
    ]
   },
