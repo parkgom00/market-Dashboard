@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-10 15:14",
+ "generatedAt": "2026-10-10 21:13",
  "events": [
   {
    "date": "2026-01-01",
@@ -511,13 +511,13 @@ window.DASH.calendar = {
    "date": "2026-12-11",
    "type": "earnings",
    "market": "US",
-   "title": "오라클 실적 발표 (예정)"
+   "title": "코스트코 실적 발표 (예정)"
   },
   {
-   "date": "2026-12-11",
+   "date": "2026-12-15",
    "type": "earnings",
    "market": "US",
-   "title": "코스트코 실적 발표 (예정)"
+   "title": "오라클 실적 발표 (예정)"
   },
   {
    "date": "2026-12-23",
