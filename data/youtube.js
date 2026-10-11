@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-11 07:24",
+ "asOf": "2026-10-11 09:35",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "국제유가·프랑스 재정위기, 증시 흔들 최대 변수? / AI 시대 진짜 부족한 건 ‘전기’… 다음 주도주는 ESS·전력? ㅣ이주연 대표",
+     "publishedAt": "2026-10-11 08:35",
+     "url": "https://www.youtube.com/watch?v=wAPm15ZY9NE"
+    },
     {
      "title": "[#찐시황]  오픈AI 200억 달러 매출 쇼크의 진실… 삼성전자·SK하이닉스 월요일이 분기점 / 다음 주 증시 어디로 갈까?  | 이주연 대표",
      "publishedAt": "2026-10-10 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "삼성SDI보다 LG엔솔이 더 강하다? / 에코프로·포스코퓨처엠에 열린 거대한 기회… 배터리주 진짜 승부처는 ‘여기’ㅣ윤석천 평론가",
      "publishedAt": "2026-10-10 12:00",
      "url": "https://www.youtube.com/watch?v=Dn_uQ1i03s8"
-    },
-    {
-     "title": "금리 5.3%에도 버티는 증시… ‘임계점’ 넘으면 폭락장 시작? / 로봇·자율주행 현대차가 선택받는 순간은 ‘이때’ ㅣLS증권 염승환 이사",
-     "publishedAt": "2026-10-10 09:00",
-     "url": "https://www.youtube.com/watch?v=W1acM8mjmWI"
     }
    ]
   },
@@ -93,9 +93,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=1jiX4quCdTg"
     },
     {
-     "title": "[실전 투자 스터디] 미국 매크로 봐야하는 단 한 가지 이유",
-     "publishedAt": "2026-10-06 18:00",
-     "url": "https://www.youtube.com/watch?v=W6uO9N2Dttk"
+     "title": "[몰아보기] 반도체 소부장 전략 AtoZ? 한 방에 정리!!",
+     "publishedAt": "2026-10-04",
+     "url": "https://www.youtube.com/watch?v=2VsqPGX9ovY"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "월가에서 '유나이티드헬스'가 역대급 '저점'이라는 이유",
-     "publishedAt": "2026-10-10 16:00",
-     "url": "https://www.youtube.com/watch?v=5IuvGPNmaM0"
-    },
-    {
-     "title": "투자자들이 꼭 봐야하는, 다음주 '미국 투자' 포인트(10.12~16)",
-     "publishedAt": "2026-10-10 12:00",
-     "url": "https://www.youtube.com/watch?v=chUwfvCYbbM"
-    },
-    {
-     "title": "투자자들이 꼭 봐야하는, 다음주 '한국 투자' 포인트(10.12~16)",
-     "publishedAt": "2026-10-10 08:00",
-     "url": "https://www.youtube.com/watch?v=OIsJnmhOPP8"
-    },
-    {
-     "title": "지금 '광통신주'를 바라봐야 한다는 진짜 이유",
-     "publishedAt": "2026-10-09 21:30",
-     "url": "https://www.youtube.com/watch?v=CFQ1GrLNUCg"
-    },
-    {
      "title": "다음주 투자자들이 꼭 알아야 하는 투자 포인트",
      "publishedAt": "2026-10-09 20:52",
      "url": "https://www.youtube.com/watch?v=PYO9NW-X05w"
+    },
+    {
+     "title": "삼성전자, 지금이 저가 매수 기회일까?!",
+     "publishedAt": "2026-10-09",
+     "url": "https://www.youtube.com/watch?v=MCu7HRunY4s"
+    },
+    {
+     "title": "경제사냥꾼 종목 분석기, 내 종목 하나만 끝까지 파고듭니다",
+     "publishedAt": "2026-10-09",
+     "url": "https://www.youtube.com/watch?v=xcKCkQF5I04"
+    },
+    {
+     "title": "초보자가 꼭 봐야하는 'AI 주식' 매수 타이밍",
+     "publishedAt": "2026-10-08",
+     "url": "https://www.youtube.com/watch?v=jvs7I0j1oSE"
+    },
+    {
+     "title": "초보자도 알기 쉽게 전부 분석해 왔습니다",
+     "publishedAt": "2026-10-07",
+     "url": "https://www.youtube.com/watch?v=7qQyi7I3gGM"
     }
    ]
   },
@@ -147,19 +147,19 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=X2zIotF_JEY"
     },
     {
-     "title": "삼성전자 역대급 실적에도 반응이 싸늘한 이유 #삼성전자 #코스피 #하이닉스",
-     "publishedAt": "2026-10-08 13:34",
-     "url": "https://www.youtube.com/watch?v=ILoaqN3AI6Y"
-    },
-    {
-     "title": "나스닥은 신고가인데 코스피는 왜? #코스피 #후티 #삼성전자",
-     "publishedAt": "2026-10-07 15:31",
-     "url": "https://www.youtube.com/watch?v=JJQMtqmN23Q"
-    },
-    {
      "title": "나스닥 연일 신고가의 진짜 이유",
      "publishedAt": "2026-10-07 02:21",
      "url": "https://www.youtube.com/watch?v=ffpwNQMKSv4"
+    },
+    {
+     "title": "AI 에이전트 최종승자 결국 여기입니다.",
+     "publishedAt": "2026-10-04",
+     "url": "https://www.youtube.com/watch?v=UnZF4mvPjMY"
+    },
+    {
+     "title": "OpenAI발 에이전트 전쟁이 시작됐다. (2026 DevDay)",
+     "publishedAt": "2026-09-30",
+     "url": "https://www.youtube.com/watch?v=03UhmOVEZio"
     }
    ]
   },
