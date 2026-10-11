@@ -177,6 +177,65 @@ def flow_ok(rows):
     return {"pos": pos, "sum": sum(tot), "f": sum(r["f"] for r in rows), "o": sum(r["o"] for r in rows), "asof": rows[0]["date"]}
 
 
+# ───────────────────────── 중장기 e: 기관 연속 순매수 + 240일선 돌파 + 저점 상승 ─────────────────────────
+L5_CROSS_DAYS = 20        # 최근 20거래일 안에 240일선을 아래→위로 돌파 (종가 기준)
+L5_HOLD_TOL = 0.02        # 돌파 뒤 종가가 240일선 아래로 2% 넘게 내려간 적이 없음
+L5_MA_SLOPE = 20          # 240일선이 20거래일 전보다 1% 넘게 내려가 있지 않음 (하락 중인 선의 일시 돌파는 거름)
+L5_MA_SLOPE_TOL = 0.01
+L5_LOW_BLOCKS = 3         # 최근 60거래일을 20일씩 3구간으로 나눠
+L5_BLOCK = 20             # 구간별 최저가가 차례로 높아짐 (저점 상승)
+L5_FLOW_DAYS = 10         # 수급: 최근 10거래일 중
+L5_FLOW_POS = 7           # 기관 순매수일 7일 이상
+L5_STREAK = 3             # 가장 최근 3거래일 이상 연속 기관 순매수
+L5_FLOW_MIN = 2e9         # 10일 기관 누적 순매수 20억 원 이상
+# 그리고 10일 누적 기관 순매수 > 외국인 순매수 (기관이 매수를 '주도')
+
+
+def long_e_price(df):
+    """중장기 e 의 가격 조건 (수급은 따로 확인). 통과하면 설명 dict."""
+    n = len(df)
+    if n < 240 + L5_MA_SLOPE + L5_CROSS_DAYS:
+        return None
+    c, ma = df["close"], df["ma240"]
+    last_c, last_ma = float(c.iloc[-1]), float(ma.iloc[-1])
+    if pd.isna(last_ma) or last_c <= last_ma:
+        return None
+    rec = df.iloc[-(L5_CROSS_DAYS + 1):]
+    below = [i for i in range(len(rec) - 1) if rec["close"].iloc[i] < rec["ma240"].iloc[i]]
+    if not below:                         # 20일 내내 이미 위에 있었으면 '돌파'가 아님
+        return None
+    k = below[-1] + 1                     # 마지막으로 아래 있던 다음 날 = 돌파일
+    after = rec.iloc[k:]
+    if not (after["close"] >= after["ma240"] * (1 - L5_HOLD_TOL)).all():
+        return None
+    ma_old = float(ma.iloc[-1 - L5_MA_SLOPE])
+    if pd.isna(ma_old) or last_ma < ma_old * (1 - L5_MA_SLOPE_TOL):
+        return None
+    lows = [float(df["low"].iloc[-(i + 1) * L5_BLOCK:(-i * L5_BLOCK) or None].min()) for i in range(L5_LOW_BLOCKS)][::-1]
+    if not all(a < b for a, b in zip(lows, lows[1:])):
+        return None
+    days_ago = len(after) - 1
+    return {"cross": "오늘" if days_ago == 0 else f"{days_ago}일 전", "gap": round((last_c / last_ma - 1) * 100, 1),
+            "lows": [round(x) for x in lows], "ma_trend": "상승" if last_ma > ma_old else "보합"}
+
+
+def inst_flow_ok(rows):
+    """rows: 최근 날짜부터 [{"date","f","o"}]. 기관 연속 순매수 주도면 설명 dict."""
+    rows = rows[:L5_FLOW_DAYS]
+    if len(rows) < L5_FLOW_DAYS:
+        return None
+    pos = sum(1 for r in rows if r["o"] > 0)
+    streak = 0
+    for r in rows:
+        if r["o"] <= 0:
+            break
+        streak += 1
+    o_sum, f_sum = sum(r["o"] for r in rows), sum(r["f"] for r in rows)
+    if pos < L5_FLOW_POS or streak < L5_STREAK or o_sum < L5_FLOW_MIN or o_sum <= f_sum:
+        return None
+    return {"pos": pos, "streak": streak, "o": o_sum, "f": f_sum, "asof": rows[0]["date"]}
+
+
 # ───────────────────────── 전고점(신고가) 공통 ─────────────────────────
 def find_peak(df):
     """52주 안의 전고점(고가 기준)과 그 뒤 조정. 전고점이 그 시점의 52주 신고가였는지도 확인."""
@@ -300,6 +359,8 @@ SWING_NOTE = {
 LONG_NOTE = {
     "L3": lambda d: (f"240일선 돌파({'오늘' if d['a']['days_ago'] == 0 else str(d['a']['days_ago']) + '일 전'}, 거래량 {d['a']['vol_ratio']}배) · "
                      f"480일선 돌파({'오늘' if d['b']['days_ago'] == 0 else str(d['b']['days_ago']) + '일 전'}, 거래량 {d['b']['vol_ratio']}배)"),
+    "L5": lambda d: (f"기관 {d['streak']}일 연속 순매수(10일 중 {d['pos']}일, 누적 {d['o'] / 1e8:+,.0f}억 · 외국인 {d['f'] / 1e8:+,.0f}억, {d['asof']} 기준) · "
+                     f"240일선({d['ma_trend']}) {d['cross']} 돌파, {d['gap']:+}% 위 · 20일 구간 저점 {' → '.join(f'{x:,}' for x in d['lows'])} 상승"),
     "L4": lambda d: f"{d['peak_date']} {d['kind']} 후 -{d['dd']}% 조정, 240일선 지지 → 20일선 위에서 반등 중 (전고점까지 {d['to_peak']}%)",
 }
 BREAK_NOTE = {

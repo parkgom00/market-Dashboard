@@ -32,6 +32,10 @@ RULES = [
     {"id": "L4", "label": "신고가 후 240일선 지지 → 전고점 향해 반등",
      "desc": (f"52주 신고가(받아 둔 3년치 자료 안에서 최고가면 '3년 내 최고가'로 표시)를 찍고 -{int(rules2.PEAK_DRAWDOWN * 100)}% 이상 조정, 조정 중 240일선 지지, "
               f"저점 대비 +{int(rules2.D_REBOUND * 100)}% 이상 반등해 전고점 아래에서 상승 중이며 최근 5일 종가가 20일선을 이탈하지 않음")},
+    {"id": "L5", "label": "기관 연속 순매수 + 240일선 돌파 + 저점 상승",
+     "desc": (f"최근 {rules2.L5_FLOW_DAYS}거래일 중 {rules2.L5_FLOW_POS}일 이상 기관 순매수(가장 최근 {rules2.L5_STREAK}일 이상 연속), "
+              f"10일 누적 {rules2.L5_FLOW_MIN / 1e8:.0f}억 원 이상이고 외국인보다 많음 · 최근 {rules2.L5_CROSS_DAYS}거래일 안에 240일선을 종가로 돌파한 뒤 "
+              f"-{int(rules2.L5_HOLD_TOL * 100)}% 넘게 이탈하지 않음(240일선은 하락 중이 아닐 것) · 최근 60일을 20일씩 나눈 구간 저점이 차례로 높아짐 (국내만)")},
 ]
 SWING_RULES = [
     {"id": "S1", "label": "상한가 후 조정 → 20일선 반등",
@@ -136,6 +140,7 @@ def scan_market(market: str, limit: int = 0):
         }
 
     items, swing, breaks, e_cands, scanned, as_of = [], [], [], [], 0, ""
+    l5_cands = []
     base = {}
     hist = {}      # 테마 순환매 계산용: 최근 33일의 (종가, 거래대금)
     for code, df in gen:
@@ -173,6 +178,13 @@ def scan_market(market: str, limit: int = 0):
                 notes.append(rules2.LONG_NOTE["L4"](r))
         except Exception:
             pass
+        if market == "kr":
+            try:
+                lp = rules2.long_e_price(ind_df)
+                if lp:
+                    l5_cands.append((float(value20), code, lp, make_item(code, df, ind_df)))
+            except Exception:
+                pass
         if hits:
             items.append(dict(make_item(code, df, ind_df), matched=list(hits.keys()), note=" / ".join(notes)))
         # ── 스윙: A~D 는 가격만으로, E 는 수급 확인이 필요해 후보로 모아 둠 ──
@@ -213,6 +225,30 @@ def scan_market(market: str, limit: int = 0):
             print(f"스윙 E: 가격 후보 {len(e_cands)}개 중 {len(top)}개 수급 확인 → {n_e}개 충족")
         except Exception as e:
             print("스윙 E 수급 확인 실패:", type(e).__name__, e)
+
+    if market == "kr" and l5_cands:      # 중장기 e: 가격 조건을 통과한 종목만 기관 수급 이력 확인
+        try:
+            import naver_live
+            l5_cands.sort(key=lambda x: -x[0])
+            top = l5_cands[:400]
+            fh = naver_live.fetch_flow_histories([x[1] for x in top], n=rules2.L5_FLOW_DAYS, page=20)
+            depth = sorted(len(v) for v in fh.values())
+            by_code = {x["code"]: x for x in items}
+            n_l5 = 0
+            for _, code, lp, item in top:
+                fl = rules2.inst_flow_ok(fh.get(code) or [])
+                if not fl:
+                    continue
+                n_l5 += 1
+                note = rules2.LONG_NOTE["L5"](dict(lp, **fl))
+                if code in by_code:
+                    by_code[code]["matched"].append("L5")
+                    by_code[code]["note"] += " / " + note
+                else:
+                    items.append(dict(item, matched=["L5"], note=note))
+            print(f"중장기 e: 가격 후보 {len(l5_cands)}개 중 {len(top)}개 수급 확인 → {n_l5}개 충족 (수급 이력 일수 중앙값 {depth[len(depth) // 2] if depth else 0})")
+        except Exception as e:
+            print("중장기 e 수급 확인 실패:", type(e).__name__, e)
 
     def fresh(rows):
         late = [x["code"] for x in rows if x["_d"] < as_of]

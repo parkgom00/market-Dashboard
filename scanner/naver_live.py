@@ -216,11 +216,11 @@ def parse_flow_history(payload, n=6):
     return out
 
 
-def fetch_flow_histories(codes, workers=6):
-    """{code: 최근 수급 이력}. 실패한 종목은 빈 목록."""
+def fetch_flow_histories(codes, workers=6, n=6, page=10):
+    """{code: 최근 수급 이력(최근 n일)}. 실패한 종목은 빈 목록."""
     def one(c):
         try:
-            return parse_flow_history(_get(TREND_URL.format(code=c), {"pageSize": 10}, tries=2))
+            return parse_flow_history(_get(TREND_URL.format(code=c), {"pageSize": page}, tries=2), n=n)
         except Exception:
             return []
     with ThreadPoolExecutor(workers) as ex:
