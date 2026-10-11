@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-11 19:25",
+ "asOf": "2026-10-11 21:30",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황]  외국인 선물 8만 계약 매도… 삼전·SK하닉 다음 주가 진짜 분수령 / 외인 매도 끝날까? | 미래에셋자산운용 최창규 이사",
+     "publishedAt": "2026-10-11 20:00",
+     "url": "https://www.youtube.com/watch?v=NAnTn_wV4Kw"
+    },
     {
      "title": "코스피 보다 코스닥? 4분기 포트폴리오 갈아타라? / 내년 실적 성장 1위는 2차전지? 대반전 시작되나 | 유진투자증권 허재환 상무",
      "publishedAt": "2026-10-11 17:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#찐시황]  오픈AI 200억 달러 매출 쇼크의 진실… 삼성전자·SK하이닉스 월요일이 분기점 / 다음 주 증시 어디로 갈까?  | 이주연 대표",
      "publishedAt": "2026-10-10 20:00",
      "url": "https://www.youtube.com/watch?v=lbT8CSmo5fk"
-    },
-    {
-     "title": "삼성전자 역대급 실적에도 주가 하락… 외국인 지분율 48% 붕괴! / 25년 만의 저점권, 외인 매도 끝나가나?  | 허재환 상무",
-     "publishedAt": "2026-10-10 18:00",
-     "url": "https://www.youtube.com/watch?v=nCIY3H7FWGg"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(주간시황) 다음주 실적장세로 인해 섹터 로테이션 일어나나?",
+     "publishedAt": "2026-10-11 19:24",
+     "url": "https://www.youtube.com/watch?v=wFNXBW5KQe8"
+    },
     {
      "title": "(관심종목) 주식은 처음 살때 깊히있게 고민하고 들어가야 좋은 주식이라도 고점에 안들어간다",
      "publishedAt": "2026-10-11 06:53",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(반도체 종목들) 내일장에서 반등이 나오는지 체크해보자!!!",
      "publishedAt": "2026-10-09 14:07",
      "url": "https://www.youtube.com/watch?v=_I4iMB_Gk7s"
-    },
-    {
-     "title": "(시황분석) 오픈ai 매출축소로 기술주 전체하락",
-     "publishedAt": "2026-10-09 05:28",
-     "url": "https://www.youtube.com/watch?v=OLSu_lpsUp0"
     }
    ]
   },
@@ -169,11 +169,6 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
-     "title": "지금은 2003년? AI인프라 다음 노려라?/스페이스X 통신까지 진출, 본격 랠리 시작?/이때는 증시도 위험? 월가 초고수의 경고",
-     "publishedAt": "2026-10-11 18:33",
-     "url": "https://www.youtube.com/watch?v=b414IoVg0To"
-    },
-    {
      "title": "AI사이클 더 큰 한 방 남았다? 증시 의심의 벽 뚫고 올라갈까",
      "publishedAt": "2026-10-09 18:36",
      "url": "https://www.youtube.com/watch?v=Ob5TSrJbxbs"
@@ -192,6 +187,11 @@ window.DASH.youtube = {
      "title": "2년만에 재결합한 머스크와 트럼프, 두 거물 화해의 수혜주들",
      "publishedAt": "2026-10-06 17:30",
      "url": "https://www.youtube.com/watch?v=ha4-lyhvafM"
+    },
+    {
+     "title": "나스닥 엔비디아는 신고가인데 내 주식은 왜? 역대급 기묘한 랠리 이어질까",
+     "publishedAt": "2026-10-05 21:07",
+     "url": "https://www.youtube.com/watch?v=V3ZQ02Syf5U"
     }
    ]
   }
