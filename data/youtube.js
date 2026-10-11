@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-11 15:31",
+ "asOf": "2026-10-11 17:26",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,13 +9,18 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
+     "title": "코스피 보다 코스닥? 4분기 포트폴리오 갈아타라? / 내년 실적 성장 1위는 2차전지? 대반전 시작되나 | 유진투자증권 허재환 상무",
+     "publishedAt": "2026-10-11 17:00",
+     "url": "https://www.youtube.com/watch?v=QFpEpQ7ag78"
+    },
+    {
      "title": "코스피 7,200 돌파가 진짜 강세장의 조건… 삼성전자·SK하이닉스 외국인 ‘수급 대반전’ 시작될까?ㅣ 백만개미 한세구 당주",
-     "publishedAt": "2026-10-11 15:01",
+     "publishedAt": "2026-10-11 15:00",
      "url": "https://www.youtube.com/watch?v=jZFXszbt2tg"
     },
     {
      "title": "국제유가·프랑스 재정위기, 증시 흔들 최대 변수? / AI 시대 진짜 부족한 건 ‘전기’… 다음 주도주는 ESS·전력? ㅣ이주연 대표",
-     "publishedAt": "2026-10-11 08:35",
+     "publishedAt": "2026-10-11 08:30",
      "url": "https://www.youtube.com/watch?v=wAPm15ZY9NE"
     },
     {
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "삼성전자 역대급 실적에도 주가 하락… 외국인 지분율 48% 붕괴! / 25년 만의 저점권, 외인 매도 끝나가나?  | 허재환 상무",
      "publishedAt": "2026-10-10 18:00",
      "url": "https://www.youtube.com/watch?v=nCIY3H7FWGg"
-    },
-    {
-     "title": "코스피가 못 오르는 진짜 이유… ‘주가 누르기 방지법’ 어디로 갔나? / 대통령 지시도 무시하는 재경부 공무원들?ㅣ 숭실대학교 경제학과 서준식 교수",
-     "publishedAt": "2026-10-10 16:32",
-     "url": "https://www.youtube.com/watch?v=LW4LO1COi9M"
     }
    ]
   },
@@ -93,9 +93,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=1jiX4quCdTg"
     },
     {
-     "title": "[몰아보기] 반도체 소부장 전략 AtoZ? 한 방에 정리!!",
-     "publishedAt": "2026-10-04",
-     "url": "https://www.youtube.com/watch?v=2VsqPGX9ovY"
+     "title": "[실전 투자 스터디] 미국 매크로 봐야하는 단 한 가지 이유",
+     "publishedAt": "2026-10-06 18:00",
+     "url": "https://www.youtube.com/watch?v=W6uO9N2Dttk"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "다음주 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-10-09 20:52",
-     "url": "https://www.youtube.com/watch?v=PYO9NW-X05w"
+     "title": "10월 11일 우리가 꼭 알고 있어야 할, 저평가 'AI반도체' 소형주정체",
+     "publishedAt": "2026-10-11 13:00",
+     "url": "https://www.youtube.com/watch?v=xHQiao6wEX8"
     },
     {
-     "title": "삼성전자, 지금이 저가 매수 기회일까?!",
-     "publishedAt": "2026-10-09",
-     "url": "https://www.youtube.com/watch?v=MCu7HRunY4s"
+     "title": "월가에서 현시점, '팔란티어'를 몰래 '줍고' 있는 이유",
+     "publishedAt": "2026-10-11 10:00",
+     "url": "https://www.youtube.com/watch?v=3YMQO1EjuOc"
     },
     {
-     "title": "경제사냥꾼 종목 분석기, 내 종목 하나만 끝까지 파고듭니다",
-     "publishedAt": "2026-10-09",
-     "url": "https://www.youtube.com/watch?v=xcKCkQF5I04"
+     "title": "월가에서 '유나이티드헬스'가 역대급 '저점'이라는 이유",
+     "publishedAt": "2026-10-10 16:00",
+     "url": "https://www.youtube.com/watch?v=5IuvGPNmaM0"
     },
     {
-     "title": "초보자가 꼭 봐야하는 'AI 주식' 매수 타이밍",
-     "publishedAt": "2026-10-08",
-     "url": "https://www.youtube.com/watch?v=jvs7I0j1oSE"
+     "title": "투자자들이 꼭 봐야하는, 다음주 '미국 투자' 포인트(10.12~16)",
+     "publishedAt": "2026-10-10 12:00",
+     "url": "https://www.youtube.com/watch?v=chUwfvCYbbM"
     },
     {
-     "title": "초보자도 알기 쉽게 전부 분석해 왔습니다",
-     "publishedAt": "2026-10-07",
-     "url": "https://www.youtube.com/watch?v=7qQyi7I3gGM"
+     "title": "투자자들이 꼭 봐야하는, 다음주 '한국 투자' 포인트(10.12~16)",
+     "publishedAt": "2026-10-10 08:00",
+     "url": "https://www.youtube.com/watch?v=OIsJnmhOPP8"
     }
    ]
   },
@@ -147,19 +147,19 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=X2zIotF_JEY"
     },
     {
+     "title": "삼성전자 역대급 실적에도 반응이 싸늘한 이유 #삼성전자 #코스피 #하이닉스",
+     "publishedAt": "2026-10-08 13:34",
+     "url": "https://www.youtube.com/watch?v=ILoaqN3AI6Y"
+    },
+    {
+     "title": "나스닥은 신고가인데 코스피는 왜? #코스피 #후티 #삼성전자",
+     "publishedAt": "2026-10-07 15:31",
+     "url": "https://www.youtube.com/watch?v=JJQMtqmN23Q"
+    },
+    {
      "title": "나스닥 연일 신고가의 진짜 이유",
      "publishedAt": "2026-10-07 02:21",
      "url": "https://www.youtube.com/watch?v=ffpwNQMKSv4"
-    },
-    {
-     "title": "AI 에이전트 최종승자 결국 여기입니다.",
-     "publishedAt": "2026-10-04",
-     "url": "https://www.youtube.com/watch?v=UnZF4mvPjMY"
-    },
-    {
-     "title": "OpenAI발 에이전트 전쟁이 시작됐다. (2026 DevDay)",
-     "publishedAt": "2026-09-30",
-     "url": "https://www.youtube.com/watch?v=03UhmOVEZio"
     }
    ]
   },
