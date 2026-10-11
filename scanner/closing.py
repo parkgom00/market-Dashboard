@@ -86,6 +86,8 @@ def judge_a1(q, bars, flow=None, detail=None):
         note += " · 수급 자료 확인 전"
     elif detail:
         note += f" · 외국인 {detail['f'] / 1e8:+,.0f}억 · 기관 {detail['o'] / 1e8:+,.0f}억 (합계 거래대금의 {flow / q['value'] * 100:.0f}%)"
+        if detail.get("est"):
+            note += " · 장중 추정 가집계"
     else:
         note += f" · 외국인+기관 순매수 {flow / 1e8:+.0f}억"
     return {"score": score, "note": note}

@@ -28,6 +28,9 @@ jobs:
         with:
           python-version: "3.12"
       - name: 종가배팅주 반복 수집
+        env:   # 한국투자 Open API 키 (깃허브 Secrets, 없으면 네이버 자료로 대신)
+          KIS_APP_KEY: ${{ secrets.KIS_APP_KEY }}
+          KIS_APP_SECRET: ${{ secrets.KIS_APP_SECRET }}
         run: |
           hhmm() { echo $((10#$(TZ=Asia/Seoul date +%H%M))); }
           now=$(hhmm)

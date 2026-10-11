@@ -77,8 +77,36 @@ def naver_bars(code, market=None, now=None):
         return None
 
 
+def kis_bars(code, market=None, now=None):
+    """한국투자 API: 현재가(시·고·저·누적거래량) + 최근 1분봉 30개로 막판 거래량 비중. 실패하면 None."""
+    try:
+        import kis
+        if not kis.enabled():
+            return None
+        now = now or dt.datetime.now(KST)
+        p = kis.price(code)
+        if not p or not p.get("open") or not p.get("volume"):
+            return None
+        hh = min(now.strftime("%H%M%S"), "153000")
+        mins = kis.recent_minutes(code, hh)
+        if not mins:
+            return None
+        ts = [dt.datetime.strptime(b[0] + b[1], "%Y%m%d%H%M").replace(tzinfo=KST).timestamp() for b in mins]
+        cut = ts[-1] - CP.a1_late_min * 60
+        late = sum(b[6] for b, t in zip(mins, ts) if t > cut)
+        return {"open": p["open"], "high": p["high"], "low": p["low"], "close": p["price"],
+                "lateShare": min(late / p["volume"], 1.0), "lastTs": ts[-1], "src": "kis"}
+    except Exception:
+        return None
+
+
 def live_bars(code, market):
-    """실시간인 네이버 분봉을 먼저 쓰고, 안 되면 야후(약 20분 지연)."""
+    """한국투자 API → 네이버 분봉 → 야후(약 20분 지연) 순서로 시도."""
+    return kis_bars(code, market) or naver_bars(code, market) or yahoo_bars(code, market)
+
+
+def naver_live_bars(code, market):
+    """마감 후(확정) 실행용: 한국투자 토큰을 새로 받지 않도록 네이버 → 야후만."""
     return naver_bars(code, market) or yahoo_bars(code, market)
 
 
@@ -169,6 +197,7 @@ def run(universe, base, now, fetch_bars=live_bars, fetch_flows=None, meta=None, 
                                "score": r["score"]})
     diag["bars"] = nbars
     diag["naverBars"] = sum(1 for b in bars.values() if b and b.get("src") == "naver")
+    diag["kisBars"] = sum(1 for b in bars.values() if b and b.get("src") == "kis")
     late_vals.sort()
     diag["a1"] = {"후보": sum(1 for s in cands.values() if "A1" in s), "분봉지연": stale_n, "사유": why,
                   "수급자료": sum(1 for v in flows.values() if v is not None), "막판비중_중앙값": late_vals[len(late_vals) // 2] if late_vals else None,
@@ -251,7 +280,18 @@ def main(mode="auto"):
                 meta.setdefault(c, {})["sector"] = name
     except Exception:
         pass
-    res, diag = run(uni, base, now, fetch_flows=fetch_flows, meta=meta, final=(mode == "final"))
+    final = mode == "final"
+    flow_fn, bars_fn, est = fetch_flows, naver_live_bars, False
+    if not final:
+        import kis
+        if kis.enabled():      # 장중: 한국투자 API 로 분봉 + 외국인·기관 장중 추정 가집계
+            flow_fn, bars_fn, est = kis.flow_estimates, live_bars, True
+        else:
+            flow_fn, bars_fn = None, live_bars    # 장중에는 네이버에 당일 수급이 없음
+    res, diag = run(uni, base, now, fetch_bars=bars_fn, fetch_flows=flow_fn, meta=meta, final=final)
+    if est:
+        import kis
+        diag["kis"] = {"calls": kis.STATS["calls"], "ok": kis.STATS["ok"], "err": kis.STATS["err"]}
     try:   # 진단용 표본 (응답 형식 확인)
         import naver_live
         smp = {}
@@ -280,11 +320,13 @@ def main(mode="auto"):
             pass
     payload = to_payload(res, stamp, f"전 종목 {diag['quotes']}개 중 후보 {diag['candidates']}개 점검 (기준 일봉 {bj['asOf']})")
     payload["diag"] = diag
-    payload["flowConfirmed"] = bool(n_flow)
+    payload["flowConfirmed"] = bool(n_flow) and final
+    payload["flowKind"] = ("확정" if final else "장중 추정") if n_flow else ""
     if mode == "final":
         payload["phase"] = ("장 마감 후 · 정규장 종가 기준 · 외국인·기관 수급 반영" if n_flow else "장 마감 후 · 정규장 종가 기준 · 수급 자료는 아직 공개 전")
     else:
-        payload["phase"] = "장중 · 수급 자료는 마감 후(16시 이후) 반영됩니다"
+        payload["phase"] = ("장중 · 외국인·기관 장중 추정 가집계(한국투자) 반영 · 확정 수급은 마감 후 다시 반영" if n_flow
+                            else "장중 · 수급 자료는 마감 후(16시 이후) 반영됩니다")
     write_js(payload)
 
 
