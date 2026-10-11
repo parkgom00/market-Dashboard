@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-12 05:25",
+ "asOf": "2026-10-12 07:25",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[10월12일 #장시작전] 기술주 반등에 뉴욕증시 상승… 트럼프 “러·우 에너지 휴전 합의” 주장 / 후티, 사우디 공항 미사일 공격",
+     "publishedAt": "2026-10-12 06:40",
+     "url": "https://www.youtube.com/watch?v=UkU6XgLbw1A"
+    },
     {
      "title": "[#찐시황]  외국인 선물 8만 계약 매도… 삼전·SK하닉 다음 주가 진짜 분수령 / 외인 매도 끝날까? | 미래에셋자산운용 최창규 이사",
      "publishedAt": "2026-10-11 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "국제유가·프랑스 재정위기, 증시 흔들 최대 변수? / AI 시대 진짜 부족한 건 ‘전기’… 다음 주도주는 ESS·전력? ㅣ이주연 대표",
      "publishedAt": "2026-10-11 08:30",
      "url": "https://www.youtube.com/watch?v=wAPm15ZY9NE"
-    },
-    {
-     "title": "[#찐시황]  오픈AI 200억 달러 매출 쇼크의 진실… 삼성전자·SK하이닉스 월요일이 분기점 / 다음 주 증시 어디로 갈까?  | 이주연 대표",
-     "publishedAt": "2026-10-10 20:00",
-     "url": "https://www.youtube.com/watch?v=lbT8CSmo5fk"
     }
    ]
   },
