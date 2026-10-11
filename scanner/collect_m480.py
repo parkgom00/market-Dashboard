@@ -154,32 +154,9 @@ def fetch_bars(code, today, days_back=5):
 
 KIS_CACHE = os.environ.get("M480_KIS_CACHE", "/tmp/m480_kis_prev.json")
 PREV_DAYS = 2          # 480분선용 전 거래일 분봉 (하루 391개 × 2)
-_prev = {"days": None, "bars": None}
+_prev = {"bars": None}
 import threading
 _prev_lock = threading.Lock()
-
-
-def _prev_days(today):
-    """오늘 전의 거래일 PREV_DAYS 개 (삼성전자 분봉 유무로 휴장일을 건너뜀)."""
-    import kis
-    with _prev_lock:
-        return _prev_days_locked(today, kis)
-
-
-def _prev_days_locked(today, kis):
-    if _prev["days"] is None:
-        out, d = [], dt.datetime.strptime(today, "%Y%m%d")
-        for _ in range(12):
-            d -= dt.timedelta(days=1)
-            if d.weekday() >= 5:
-                continue
-            ds = d.strftime("%Y%m%d")
-            if kis.recent_day_has_data("005930", ds):
-                out.append(ds)
-            if len(out) >= PREV_DAYS:
-                break
-        _prev["days"] = sorted(out)
-    return _prev["days"]
 
 
 def _load_cache(today):
@@ -211,13 +188,14 @@ def kis_fetch_bars(code, today, now=None):
     """한국투자 API 1분봉: 전 거래일 2일치(실행기 임시 파일에 하루 동안 보관) + 오늘 지금까지. 실패하면 네이버."""
     import kis
     try:
-        days = _prev_days(today)
         cache = _load_cache(today)
         prev = cache.get(code)
         if prev is None:
             prev = []
-            for d in days:
-                prev += kis.day_minutes(code, d)
+            start = (dt.datetime.strptime(today, "%Y%m%d") - dt.timedelta(days=14)).strftime("%Y%m%d")
+            closes = kis.daily_closes(code, start, today)
+            for d in sorted(x for x in closes if x < today)[-PREV_DAYS:]:
+                prev += kis.day_minutes_closed(code, d, closes[d])
             if len(prev) >= MA_N // 2:
                 cache[code] = prev
         hh = min((now or dt.datetime.now(KST)).strftime("%H%M%S"), "153000")

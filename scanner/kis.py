@@ -196,6 +196,28 @@ def recent_day_has_data(code, yyyymmdd):
     return any(b[0] == yyyymmdd for b in _minute_rows((r or {}).get("output2")))
 
 
+def daily_closes(code, start, end):
+    """일봉 정규장 종가 {YYYYMMDD: 종가} (수정주가). 실패하면 {}."""
+    r = get("/uapi/domestic-stock/v1/quotations/inquire-daily-itemchartprice", "FHKST03010100",
+            {"FID_COND_MRKT_DIV_CODE": "J", "FID_INPUT_ISCD": code, "FID_INPUT_DATE_1": start, "FID_INPUT_DATE_2": end,
+             "FID_PERIOD_DIV_CODE": "D", "FID_ORG_ADJ_PRC": "0"})
+    out = {}
+    for row in (r or {}).get("output2") or []:
+        d, c = str(row.get("stck_bsop_date") or ""), _f(row.get("stck_clpr"))
+        if len(d) == 8 and c:
+            out[d] = c
+    return out
+
+
+def day_minutes_closed(code, yyyymmdd, close):
+    """지난 거래일 정규장 분봉. 한국투자 분봉에는 15:20 이후 동시호가 체결 봉이 빠져 있어,
+    15:30 봉을 그날 정규장 종가로 하나 붙인다 (480분선의 마지막 값과 '전일 종가'가 맞도록)."""
+    bars = day_minutes(code, yyyymmdd)
+    if bars and close and bars[-1][1] < "1530":
+        bars.append((yyyymmdd, "1530", close, close, close, close, 0.0))
+    return bars
+
+
 # ───────────── 외국인·기관 장중 추정 가집계 ─────────────
 def flow_estimate(code, price_now):
     """오늘 장중 추정 순매수 → {"sum","f","o"}(원, 수량×현재가), "est": True, "gb": 입력구분} 또는 None (아직 입력 전)."""

@@ -55,3 +55,19 @@ R["asOf"] = now.strftime("%Y-%m-%d %H:%M")
 os.makedirs(os.path.join(os.path.dirname(os.path.abspath(__file__)), "out"), exist_ok=True)
 with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "out", "kis_check.json"), "w", encoding="utf-8") as f:
     json.dump(R, f, ensure_ascii=False, indent=1)
+
+if kis.enabled():
+    try:   # CK480 재현: 지난 거래일 14:30 시점 입력 자료를 한국투자 분봉으로 만들어 봄
+        import collect_m480
+        R2 = {}
+        d0 = d.strftime("%Y%m%d")
+        bars = collect_m480.kis_fetch_bars("005930", d0, now=dt.datetime.strptime(d0 + "1430", "%Y%m%d%H%M").replace(tzinfo=KST))
+        days = sorted({b[0] for b in bars})
+        R["CK480 재현 일자별 분봉"] = {x: sum(1 for b in bars if b[0] == x) for x in days}
+        R["CK480 전일 마지막 봉"] = str([b for b in bars if b[0] < d0][-1])
+        R["CK480 판정"] = str(collect_m480.measure(bars, d0)[1] or "계산 가능")
+        R["호출 통계(최종)"] = str(kis.STATS)
+        with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "out", "kis_check.json"), "w", encoding="utf-8") as f:
+            json.dump(R, f, ensure_ascii=False, indent=1)
+    except Exception as e:
+        print("CK480 재현 실패:", type(e).__name__, e)

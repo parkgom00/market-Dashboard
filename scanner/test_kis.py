@@ -64,8 +64,11 @@ def fake_http(req, timeout=15):
         d, h = q["FID_INPUT_DATE_1"], q["FID_INPUT_HOUR_1"]
         if d not in TRADING:
             return {"rt_cd": "0", "output2": list(reversed(day_bars("20261008")[-120:]))}   # 휴장일엔 직전 거래일 자료가 오는 경우 흉내
-        rows = [b for b in day_bars(d) if b["stck_cntg_hour"] <= h]
+        rows = [b for b in day_bars(d, "1519" if d != "20261012" else "1530") if b["stck_cntg_hour"] <= h]   # 실제처럼 동시호가 봉 없음
         return {"rt_cd": "0", "output2": list(reversed(rows[-120:]))}
+    if tr == "FHKST03010100":
+        return {"rt_cd": "0", "output2": [{"stck_bsop_date": d, "stck_clpr": "12345"} for d in sorted(TRADING, reverse=True)
+                                          if q["FID_INPUT_DATE_1"] <= d <= q["FID_INPUT_DATE_2"]]}
     if tr == "HHPTJ04160200":
         if q["MKSC_SHRN_ISCD"] == "NONE":
             return {"rt_cd": "0", "output2": [{"bsop_hour_gb": "1", "frgn_fake_ntby_qty": "0", "orgn_fake_ntby_qty": "0"}]}
@@ -92,8 +95,10 @@ check("expired token reissued", kis.price("005930") is not None and CALLS["token
 
 # 하루 분봉 이어 붙이기
 dm = kis.day_minutes("005930", "20261008")
-check("day minutes full", len(dm) == 391 and dm[0][1] == "0900" and dm[-1][1] == "1530")
-check("day minutes sorted unique", len({b[1] for b in dm}) == 391)
+check("day minutes", len(dm) == 380 and dm[0][1] == "0900" and dm[-1][1] == "1519")
+check("day minutes sorted unique", len({b[1] for b in dm}) == 380)
+dc = kis.day_minutes_closed("005930", "20261008", 12345.0)
+check("closing bar appended", len(dc) == 381 and dc[-1][1] == "1530" and dc[-1][5] == 12345.0)
 check("holiday empty", kis.day_minutes("005930", "20261009") == [])
 check("partial today", len(kis.day_minutes("005930", "20261012", "103000")) == 91)
 
@@ -123,11 +128,12 @@ import collect_m480  # noqa: E402
 bars = collect_m480.kis_fetch_bars("005930", "20261012", now=dt.datetime(2026, 10, 12, 10, 30, tzinfo=KST))
 days = sorted({x[0] for x in bars})
 check("m480 days", days == ["20261007", "20261008", "20261012"])
-check("m480 count", len(bars) == 391 * 2 + 91)
+check("m480 count", len(bars) == 381 * 2 + 91)
+check("m480 prev close official", [b for b in bars if b[0] == "20261008"][-1][5] == 12345.0)
 check("m480 sorted", [tuple(x[:2]) for x in bars] == sorted(tuple(x[:2]) for x in bars))
 n0 = kis.STATS["calls"]
 collect_m480.kis_fetch_bars("005930", "20261012", now=dt.datetime(2026, 10, 12, 11, 0, tzinfo=KST))
-check("m480 prev cached", kis.STATS["calls"] - n0 <= 2)
+check("m480 prev cached", kis.STATS["calls"] - n0 <= 3)
 collect_m480.save_kis_cache("20261012")
 check("cache saved", json.load(open(os.environ["M480_KIS_CACHE"]))["day"] == "20261012")
 
