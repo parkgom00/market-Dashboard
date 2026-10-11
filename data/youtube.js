@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-11 13:27",
+ "asOf": "2026-10-11 15:31",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "코스피 7,200 돌파가 진짜 강세장의 조건… 삼성전자·SK하이닉스 외국인 ‘수급 대반전’ 시작될까?ㅣ 백만개미 한세구 당주",
+     "publishedAt": "2026-10-11 15:01",
+     "url": "https://www.youtube.com/watch?v=jZFXszbt2tg"
+    },
     {
      "title": "국제유가·프랑스 재정위기, 증시 흔들 최대 변수? / AI 시대 진짜 부족한 건 ‘전기’… 다음 주도주는 ESS·전력? ㅣ이주연 대표",
      "publishedAt": "2026-10-11 08:35",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "코스피가 못 오르는 진짜 이유… ‘주가 누르기 방지법’ 어디로 갔나? / 대통령 지시도 무시하는 재경부 공무원들?ㅣ 숭실대학교 경제학과 서준식 교수",
      "publishedAt": "2026-10-10 16:32",
      "url": "https://www.youtube.com/watch?v=LW4LO1COi9M"
-    },
-    {
-     "title": "삼성SDI보다 LG엔솔이 더 강하다? / 에코프로·포스코퓨처엠에 열린 거대한 기회… 배터리주 진짜 승부처는 ‘여기’ㅣ윤석천 평론가",
-     "publishedAt": "2026-10-10 12:00",
-     "url": "https://www.youtube.com/watch?v=Dn_uQ1i03s8"
     }
    ]
   },
