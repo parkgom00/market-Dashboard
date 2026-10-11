@@ -1,10 +1,21 @@
 """한국투자 API 연결 확인 (수동 실행용). 키·토큰은 출력하지 않고, 받아온 자료의 개수와 오류 코드만 보여준다."""
 import datetime as dt
+import json
+import os
 
 import kis
 
 KST = dt.timezone(dt.timedelta(hours=9))
 now = dt.datetime.now(KST)
+R = {}
+_p = print
+
+
+def print(*a):
+    _p(*a)
+    R[str(a[0])] = " ".join(str(x) for x in a[1:])
+
+
 print("키 등록:", "예" if kis.enabled() else "아니오 (Secrets 에 KIS_APP_KEY / KIS_APP_SECRET 필요)")
 if kis.enabled():
     print("토큰 발급:", "성공" if kis.token() else "실패")
@@ -19,3 +30,8 @@ if kis.enabled():
     fe = kis.flow_estimate("005930", p["price"] if p else 0)
     print("외국인·기관 추정 가집계:", "자료 있음 (입력구분 " + fe["gb"] + ")" if fe else "없음 (장중 09:30 이후 입력됨)")
     print("호출 통계:", kis.STATS)
+
+R["asOf"] = now.strftime("%Y-%m-%d %H:%M")
+os.makedirs(os.path.join(os.path.dirname(os.path.abspath(__file__)), "out"), exist_ok=True)
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "out", "kis_check.json"), "w", encoding="utf-8") as f:
+    json.dump(R, f, ensure_ascii=False, indent=1)
