@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-11 09:16",
+ "generatedAt": "2026-10-11 15:14",
  "events": [
   {
    "date": "2026-01-01",
@@ -1900,6 +1900,37 @@ window.DASH.calendar = {
    "time": "10:30",
    "result": [
     "이전 50.2"
+   ]
+  },
+  {
+   "date": "2026-11-01",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 무역수지",
+   "time": "09:00",
+   "result": [
+    "이전 34.79B"
+   ]
+  },
+  {
+   "date": "2026-11-01",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 수입",
+   "time": "09:00",
+   "result": [
+    "이전 22.4%"
+   ]
+  },
+  {
+   "date": "2026-11-01",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 수출",
+   "time": "09:00",
+   "major": true,
+   "result": [
+    "이전 68.7%"
    ]
   },
   {

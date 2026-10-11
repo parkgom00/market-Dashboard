@@ -1003,6 +1003,36 @@
   "previous": "50.2"
  },
  {
+  "date": "2026-11-01",
+  "time": "09:00",
+  "title": "한국 무역수지",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "34.79B"
+ },
+ {
+  "date": "2026-11-01",
+  "time": "09:00",
+  "title": "한국 수입",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "22.4%"
+ },
+ {
+  "date": "2026-11-01",
+  "time": "09:00",
+  "title": "한국 수출",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "68.7%"
+ },
+ {
   "date": "2026-11-02",
   "time": "",
   "title": "팔란티어 실적 발표",
