@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-12 07:25",
+ "asOf": "2026-10-12 09:38",
  "channels": [
   {
    "name": "815머니톡",
@@ -93,9 +93,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=1jiX4quCdTg"
     },
     {
-     "title": "[실전 투자 스터디] 미국 매크로 봐야하는 단 한 가지 이유",
-     "publishedAt": "2026-10-06 18:00",
-     "url": "https://www.youtube.com/watch?v=W6uO9N2Dttk"
+     "title": "[몰아보기] 반도체 소부장 전략 AtoZ? 한 방에 정리!!",
+     "publishedAt": "2026-10-04",
+     "url": "https://www.youtube.com/watch?v=2VsqPGX9ovY"
     }
    ]
   },
@@ -104,6 +104,16 @@ window.DASH.youtube = {
    "channelId": "UC7usMJDHmtbs_oegmzQKKMA",
    "handle": "@경제사냥꾼",
    "videos": [
+    {
+     "title": "10월 12일 오늘 코스피 어떻게 흘러갈까?",
+     "publishedAt": "2026-10-12 08:40",
+     "url": "https://www.youtube.com/watch?v=DnYfHShwgEU"
+    },
+    {
+     "title": "10월 12일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-10-12 07:14",
+     "url": "https://www.youtube.com/watch?v=MoKFO8ZtQaU"
+    },
     {
      "title": "10월 11일 우리가 꼭 알고 있어야 할, 저평가 'AI반도체' 소형주정체",
      "publishedAt": "2026-10-11 13:00",
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "월가에서 '유나이티드헬스'가 역대급 '저점'이라는 이유",
      "publishedAt": "2026-10-10 16:00",
      "url": "https://www.youtube.com/watch?v=5IuvGPNmaM0"
-    },
-    {
-     "title": "투자자들이 꼭 봐야하는, 다음주 '미국 투자' 포인트(10.12~16)",
-     "publishedAt": "2026-10-10 12:00",
-     "url": "https://www.youtube.com/watch?v=chUwfvCYbbM"
-    },
-    {
-     "title": "투자자들이 꼭 봐야하는, 다음주 '한국 투자' 포인트(10.12~16)",
-     "publishedAt": "2026-10-10 08:00",
-     "url": "https://www.youtube.com/watch?v=OIsJnmhOPP8"
     }
    ]
   },
@@ -169,6 +169,11 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
+     "title": "지금은 2003년? AI인프라 다음 노려라?/스페이스X 통신까지 진출, 본격 랠리 시작?/이때는 증시도 위험? 월가 초고수의 경고",
+     "publishedAt": "2026-10-11 21:38",
+     "url": "https://www.youtube.com/watch?v=b414IoVg0To"
+    },
+    {
      "title": "AI사이클 더 큰 한 방 남았다? 증시 의심의 벽 뚫고 올라갈까",
      "publishedAt": "2026-10-09 18:36",
      "url": "https://www.youtube.com/watch?v=Ob5TSrJbxbs"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "2년만에 재결합한 머스크와 트럼프, 두 거물 화해의 수혜주들",
      "publishedAt": "2026-10-06 17:30",
      "url": "https://www.youtube.com/watch?v=ha4-lyhvafM"
-    },
-    {
-     "title": "나스닥 엔비디아는 신고가인데 내 주식은 왜? 역대급 기묘한 랠리 이어질까",
-     "publishedAt": "2026-10-05 21:07",
-     "url": "https://www.youtube.com/watch?v=V3ZQ02Syf5U"
     }
    ]
   }
