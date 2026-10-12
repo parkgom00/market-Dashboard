@@ -646,7 +646,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$0.23",
+  "epsForecast": "$0.22",
   "eps": "",
   "surprise": ""
  },
@@ -659,6 +659,16 @@
   "consensus": "",
   "actual": "",
   "previous": "3.00%"
+ },
+ {
+  "date": "2026-10-22",
+  "time": "21:30",
+  "title": "미국 신규 실업수당 청구",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": ""
  },
  {
   "date": "2026-10-23",
@@ -805,6 +815,17 @@
  {
   "date": "2026-10-28",
   "time": "",
+  "title": "비자 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "장마감 후(한국 다음 날 새벽)",
+  "epsForecast": "$3.43",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-10-28",
+  "time": "",
   "title": "테슬라 실적 발표",
   "level": "earnings",
   "kind": "earnings",
@@ -839,7 +860,7 @@
   "title": "마스터카드 실적 발표",
   "level": "earnings",
   "kind": "earnings",
-  "note": "",
+  "note": "장 시작 전",
   "epsForecast": "$5.13",
   "eps": "",
   "surprise": ""
@@ -884,7 +905,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$2.95",
+  "epsForecast": "$2.94",
   "eps": "",
   "surprise": ""
  },

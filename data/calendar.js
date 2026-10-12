@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-12 15:18",
+ "generatedAt": "2026-10-12 21:20",
  "events": [
   {
    "date": "2026-01-01",
@@ -1613,7 +1613,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "테슬라 실적 발표",
    "result": [
-    "EPS 예상 $0.23",
+    "EPS 예상 $0.22",
     "장마감 후(한국 다음 날 새벽)"
    ]
   },
@@ -1627,6 +1627,13 @@ window.DASH.calendar = {
    "result": [
     "이전 3.00%"
    ]
+  },
+  {
+   "date": "2026-10-22",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 신규 실업수당 청구",
+   "time": "21:30"
   },
   {
    "date": "2026-10-23",
@@ -1794,7 +1801,8 @@ window.DASH.calendar = {
    "market": "US",
    "title": "마스터카드 실적 발표",
    "result": [
-    "EPS 예상 $5.13"
+    "EPS 예상 $5.13",
+    "장 시작 전"
    ]
   },
   {
@@ -1832,7 +1840,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "알파벳 실적 발표",
    "result": [
-    "EPS 예상 $2.95",
+    "EPS 예상 $2.94",
     "장마감 후(한국 다음 날 새벽)"
    ]
   },
