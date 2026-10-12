@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-12 19:30",
+ "asOf": "2026-10-12 21:47",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황]  “오늘 주가 폭락 너무 심했다!” 장 막판 선물 7,500억 쓸어담은 외국인… 내일 증시  반등 신호 인가?  ㅣ이권희 대표",
+     "publishedAt": "2026-10-12 20:00",
+     "url": "https://www.youtube.com/watch?v=Qx2fzi3p8Kg"
+    },
     {
      "title": "[#긴급시황] “이렇게까지 빠질 이유가 있나?” 1,850개 종목 하락장  / 외국인이 2.5조 투매한 진짜 이유  | 황유현 팀장",
      "publishedAt": "2026-10-12 18:30",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] 나스닥 선물은 오르는데 한국 증시만 급락장 / 자사주 매입 끝난 삼성전자, ‘진짜 바닥’은 언제일까? ㅣ이주현 대표",
      "publishedAt": "2026-10-12 15:00",
      "url": "https://www.youtube.com/watch?v=gg6xzd8T3OU"
-    },
-    {
-     "title": "한국증시 이렇게 빠질 이유가 있나? / 삼성전자 역사적 저평가, 외인은 언제까지 계속 던질까? ㅣ이권희 대표",
-     "publishedAt": "2026-10-12 13:11",
-     "url": "https://www.youtube.com/watch?v=rzUVus4_w64"
     }
    ]
   },
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "트럼프는 중간선거 전에 이란과의 전쟁을 끝낼까",
+     "publishedAt": "2026-10-12 21:17",
+     "url": "https://www.youtube.com/watch?v=SWGYpEh9g0A"
+    },
+    {
+     "title": "나스닥이 최고점인데 앞으로 더 오를지 확인하는 고점 신호 4가지",
+     "publishedAt": "2026-10-12 21:04",
+     "url": "https://www.youtube.com/watch?v=MQWnt6QDc2c"
+    },
+    {
      "title": "반토막 난 전력주 실적 발표전에 꼭 봐야하는 투자포인트",
      "publishedAt": "2026-10-12 19:19",
      "url": "https://www.youtube.com/watch?v=BRR7GHRMvaw"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "오픈AI 흔들리면 하이닉스 HBM 누가 사줄까?!",
      "publishedAt": "2026-10-12 15:35",
      "url": "https://www.youtube.com/watch?v=FhSGeJuVZnI"
-    },
-    {
-     "title": "금 지금 매수하기전에 꼭 봐야하는 투자포인트 3가지",
-     "publishedAt": "2026-10-12 14:26",
-     "url": "https://www.youtube.com/watch?v=r35XFqAG06Y"
-    },
-    {
-     "title": "SK 최태원이 AI 상승장을 확신하는 이유",
-     "publishedAt": "2026-10-12 11:57",
-     "url": "https://www.youtube.com/watch?v=ewgaSJWfjkY"
     }
    ]
   },
@@ -169,6 +169,11 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
+     "title": "AI투자 판도 조용히 바뀌는 중? 부진했던 빅테크, 팔란티어의 수상한 신고가",
+     "publishedAt": "2026-10-12 21:12",
+     "url": "https://www.youtube.com/watch?v=ILs31CN-_VA"
+    },
+    {
      "title": "AI사이클 더 큰 한 방 남았다? 증시 의심의 벽 뚫고 올라갈까",
      "publishedAt": "2026-10-09 18:36",
      "url": "https://www.youtube.com/watch?v=Ob5TSrJbxbs"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "2년만에 재결합한 머스크와 트럼프, 두 거물 화해의 수혜주들",
      "publishedAt": "2026-10-06 17:30",
      "url": "https://www.youtube.com/watch?v=ha4-lyhvafM"
-    },
-    {
-     "title": "나스닥 엔비디아는 신고가인데 내 주식은 왜? 역대급 기묘한 랠리 이어질까",
-     "publishedAt": "2026-10-05 21:07",
-     "url": "https://www.youtube.com/watch?v=V3ZQ02Syf5U"
     }
    ]
   }
