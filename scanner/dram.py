@@ -26,17 +26,20 @@ def page_text(raw):
 
 def parse(raw):
     t = page_text(raw)
-    i = t.find("DRAM Spot Price")
+    i = t.find("DRAM Spot Price Last Update")
+    if i < 0:
+        i = t.find("DRAM Spot Price")
     if i < 0:
         return [], ""
     sec = t[i:i + 4000]
     m = re.search(r"Last Update:?\s*([A-Za-z]{3}\.?\s*\d{1,2},?\s*\d{4}\s*\d{1,2}:\d{2})", sec)
     out = []
     for name, item in ITEMS:
-        r = re.search(re.escape(item) + NUM + NUM + NUM + NUM + r"\s*%", sec)
+        r = re.search(re.escape(item) + r"((?:\s*[-+]?[\d,]*\.?\d+){4,6})\s*%", sec)
         if not r:
             continue
-        hi, lo, avg, chg = (float(x.replace(",", "")) for x in r.groups())
+        nums = [float(x.replace(",", "")) for x in r.group(1).split()]
+        hi, lo, avg, chg = nums[0], nums[1], nums[-2], nums[-1]
         out.append({"name": name, "item": item, "high": hi, "low": lo, "avg": avg, "changePct": chg})
     return out, (m.group(1) if m else "")
 
