@@ -673,9 +673,10 @@
     var code = s.code || "";
     var link = isKR ? "https://m.stock.naver.com/domestic/stock/" + encodeURIComponent(code) + "/chart"
                     : "https://finance.yahoo.com/chart/" + encodeURIComponent(code);
-    var h = '<div class="stock"><div class="row"><div>' + (s._medal || "") + '<span class="nm">' + esc(s.name) + '</span> ' + (s._stars || "") +
+    var h = '<div class="stock' + (s._hl ? " hl" : "") + '"><div class="row"><div>' + (s._medal || "") + '<span class="nm">' + esc(s.name) + '</span> ' + (s._stars || "") +
       '<a class="chartlink" href="' + link + '" target="_blank" rel="noopener noreferrer" title="차트 보기">📈</a> ' +
       '<span class="meta">' + esc(code) + "</span></div></div>";
+    if (s._hl) h += '<div class="hlbadge">' + s._hl + "</div>";
     if ((tags || []).length) h += '<div class="tagrow">' + tags.map(function (t) {
       return '<span class="rlabel rl-' + t.k + '">' + esc(t.title || t.text) + "</span>";
     }).join("") + "</div>";
@@ -754,7 +755,7 @@
         var rf = '<div class="rulefilter">' + ['<button type="button" data-rf="" class="' + (!filter ? "on" : "") + '">전체 ' + items.length + "</button>"].concat(
           rules.map(function (r, i) {
             return '<button type="button" data-rf="' + esc(r.id) + '" class="' + (filter === r.id ? "on" : "") + '"><span class="rtag rt-' + i + '">' + letters[i] + "</span> " + (cnt[r.id] || 0) + "</button>";
-          })).join("") + "</div>";
+          }).concat(market === "kr" ? ['<button type="button" data-rf="TF" class="' + (filter === "TF" ? "on" : "") + '">💪 ' + items.filter(function (s) { return s.trendFlow; }).length + "</button>"] : [])).join("") + "</div>";
         h = h.replace("@@RF@@", rf);
         var exc = ((L.ruleStats || {}).excess20) || {};
         var scored = items.map(function (s) {
@@ -762,7 +763,7 @@
           return { s: s, v: v, sc: longScore(v, exc) };
         }).sort(function (a, b) { return b.sc - a.sc; });
         scored.forEach(function (o, i) { o.rank = i; });
-        var shownO = filter ? scored.filter(function (o) { return (o.s.matched || []).indexOf(filter) >= 0; }) : scored;
+        var shownO = filter ? scored.filter(function (o) { return filter === "TF" ? !!o.s.trendFlow : (o.s.matched || []).indexOf(filter) >= 0; }) : scored;
         h += shownO.length ? '<div class="card">' + shownO.map(function (o) {
           var s = o.s;
           var tags = (s.matched || []).map(function (m) {
@@ -772,6 +773,10 @@
           var v = {};
           for (var k in o.v) v[k] = o.v[k];
           v._stars = starsHtml(o.sc);
+          if (s.trendFlow) {
+            var tf = s.trendFlow, sg = function (x) { return (x > 0 ? "+" : "") + num(x) + "억"; };
+            v._hl = "💪 정배열 + 외국인·기관 수급 유입 <span>최근 5일 중 " + tf.pos + "일 순매수 · 외국인 " + sg(tf.f) + " · 기관 " + sg(tf.o) + " (" + esc(tf.asof) + "까지)</span>";
+          }
           if (o.rank < 3) v._medal = '<span class="medal">' + ["🥇", "🥈", "🥉"][o.rank] + "</span>";
           return stockCard(v, tags, market === "kr", v.priceLabel || "종가") +
             '<div class="meta">' + (isSwing ? "10일선 " + maText(s.ma10) + " · 20일선 " + maText(s.ma20) + " · 60일선 " + maText(s.ma60)

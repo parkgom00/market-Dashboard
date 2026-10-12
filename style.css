@@ -286,3 +286,7 @@ details{margin-top:6px;font-size:13px} details summary{cursor:pointer;color:var(
 .useg .rulefilter { margin: 6px 0 0; }
 .stars { color: #f5a524; font-size: 12px; letter-spacing: -1px; } .stars i { font-style: normal; color: var(--line); }
 .medal { font-size: 17px; margin-right: 3px; }
+.stock.hl { background: rgba(229,72,77,.07); border-left: 4px solid #e5484d; margin: 0 -14px; padding-left: 10px; padding-right: 14px; }
+.stock.hl .nm { font-weight: 800; font-size: 16px; }
+.hlbadge { font-weight: 800; color: #d4343a; font-size: 13.5px; margin: 2px 0 4px; }
+.hlbadge span { display: block; font-weight: 600; color: var(--text); font-size: 12.5px; }

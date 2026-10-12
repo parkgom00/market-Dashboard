@@ -250,6 +250,26 @@ def scan_market(market: str, limit: int = 0):
         except Exception as e:
             print("중장기 e 수급 확인 실패:", type(e).__name__, e)
 
+    if market == "kr":      # 정배열 + 외국인·기관 수급 유입 종목 표시 (중장기·스윙 목록 공통)
+        try:
+            import naver_live
+            def aligned(x):
+                v = [x.get(k) for k in ("close", "ma10", "ma20", "ma60", "ma240", "ma480")]
+                return all(a is not None for a in v) and all(a > b for a, b in zip(v, v[1:]))
+            cand = sorted({x["code"] for x in items + swing if aligned(x)})
+            fh = naver_live.fetch_flow_histories(cand) if cand else {}
+            tf = {}
+            for c in cand:
+                fl = rules2.flow_ok(fh.get(c) or [])
+                if fl:
+                    tf[c] = {"pos": fl["pos"], "f": round(fl["f"] / 1e8), "o": round(fl["o"] / 1e8), "asof": fl["asof"]}
+            for x in items + swing:
+                if x["code"] in tf:
+                    x["trendFlow"] = tf[x["code"]]
+            print(f"정배열 + 수급 유입: 정배열 {len(cand)}개 중 {len(tf)}개")
+        except Exception as e:
+            print("정배열 + 수급 확인 실패:", type(e).__name__, e)
+
     def fresh(rows):
         late = [x["code"] for x in rows if x["_d"] < as_of]
         if late:
