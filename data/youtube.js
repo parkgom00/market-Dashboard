@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-12 21:47",
+ "asOf": "2026-10-12 23:33",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 12일 미국장 열리기 전 꼭 알아야 하는 '미장 시황' 투자 포인트",
+     "publishedAt": "2026-10-12 22:47",
+     "url": "https://www.youtube.com/watch?v=btxXzulHHAY"
+    },
+    {
+     "title": "10월 12일 외국인이 한국인 몰래 매수한 종목 정체",
+     "publishedAt": "2026-10-12 22:10",
+     "url": "https://www.youtube.com/watch?v=6ErU8Rxc-PQ"
+    },
+    {
      "title": "트럼프는 중간선거 전에 이란과의 전쟁을 끝낼까",
      "publishedAt": "2026-10-12 21:17",
      "url": "https://www.youtube.com/watch?v=SWGYpEh9g0A"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "반토막 난 전력주 실적 발표전에 꼭 봐야하는 투자포인트",
      "publishedAt": "2026-10-12 19:19",
      "url": "https://www.youtube.com/watch?v=BRR7GHRMvaw"
-    },
-    {
-     "title": "10월 12일 우리가 꼭 알고 있어야 할, 저평가 'AI 반도체' 소형주",
-     "publishedAt": "2026-10-12 17:34",
-     "url": "https://www.youtube.com/watch?v=phVpt2WO-oY"
-    },
-    {
-     "title": "오픈AI 흔들리면 하이닉스 HBM 누가 사줄까?!",
-     "publishedAt": "2026-10-12 15:35",
-     "url": "https://www.youtube.com/watch?v=FhSGeJuVZnI"
     }
    ]
   },
