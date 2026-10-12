@@ -51,6 +51,7 @@
     var todayStr = selected;
 
     function eventsOn(date) { return events.filter(function (e) { return e.date === date; }); }
+    var calType = "", calMajor = false, calOpen = {};
 
     function draw() {
       var first = new Date(year, month, 1).getDay();
@@ -86,10 +87,51 @@
       h += "</div>";
 
       var prefix = year + "-" + pad(month + 1);
-      var monthEvs = events.filter(function (e) { return e.date.indexOf(prefix) === 0; })
+      var monthAll = events.filter(function (e) { return e.date.indexOf(prefix) === 0; })
         .sort(function (a, b) { return a.date < b.date ? -1 : a.date > b.date ? 1 : 0; });
-      h += '<div class="card"><h3>이달의 주요 일정</h3>';
-      h += monthEvs.length ? monthEvs.map(function (e) { return evRow(e, true); }).join("") : '<div class="muted">이 달에 등록된 일정이 없습니다.</div>';
+      var monthEvs = monthAll.filter(function (e) { return (!calType || e.type === calType) && (!calMajor || e.major); });
+      // 이달의 일정: 종류 걸러보기 + 주(월~일)별로 접어 두고 눌러서 펼침. 오늘이 든 주는 처음부터 펼침
+      var cnt = {};
+      monthAll.forEach(function (e) { cnt[e.type] = (cnt[e.type] || 0) + 1; });
+      var chip = function (attr, val, on, label) { return '<button type="button" ' + attr + '="' + val + '" class="' + (on ? "on" : "") + '">' + label + "</button>"; };
+      h += '<div class="card"><h3>📅 이달의 일정 <span class="meta">' + monthAll.length + "건</span></h3>" +
+        '<div class="calfilter">' + chip("data-ct", "", !calType, "전체") +
+        Object.keys(TYPE).filter(function (k) { return cnt[k]; }).map(function (k) { return chip("data-ct", k, calType === k, '<i class="dot ' + k + '"></i>' + TYPE[k] + " " + cnt[k]); }).join("") +
+        chip("data-cm", "1", calMajor, "⭐ 주요만") + "</div>";
+      if (!monthEvs.length) h += '<div class="muted">조건에 맞는 일정이 없습니다.</div>';
+      var DOW = ["일", "월", "화", "수", "목", "금", "토"];
+      var weeks = [];
+      monthEvs.forEach(function (e) {
+        var dt0 = new Date(e.date + "T00:00:00");
+        var mon = new Date(dt0); mon.setDate(dt0.getDate() - ((dt0.getDay() + 6) % 7));
+        var key = ymd(mon.getFullYear(), mon.getMonth(), mon.getDate());
+        var w = weeks.filter(function (x) { return x.key === key; })[0];
+        if (!w) { var sun = new Date(mon); sun.setDate(mon.getDate() + 6); w = { key: key, mon: mon, sun: sun, evs: [] }; weeks.push(w); }
+        w.evs.push(e);
+      });
+      var md = function (d) { return (d.getMonth() + 1) + "/" + d.getDate(); };
+      weeks.forEach(function (w) {
+        var isNow = todayStr >= w.key && todayStr <= ymd(w.sun.getFullYear(), w.sun.getMonth(), w.sun.getDate());
+        var open = calOpen[w.key] != null ? calOpen[w.key] : isNow;
+        var majors = w.evs.filter(function (e) { return e.major; });
+        var byType = {};
+        w.evs.forEach(function (e) { byType[e.type] = (byType[e.type] || 0) + 1; });
+        h += '<details class="calweek' + (isNow ? " now" : "") + '" data-wk="' + w.key + '"' + (open ? " open" : "") + "><summary>" +
+          '<div class="wkhd"><b>' + (isNow ? "📍 이번 주 · " : "") + md(w.mon) + "(월) ~ " + md(w.sun) + '(일)</b><span class="meta">' + w.evs.length + "건</span></div>" +
+          '<div class="wksum">' + Object.keys(byType).map(function (k) { return '<i class="dot ' + k + '"></i>' + TYPE[k] + " " + byType[k]; }).join(" · ") +
+          (majors.length ? '<div class="wkmaj">⭐ ' + majors.slice(0, 3).map(function (e) { return esc(e.title); }).join(" · ") + (majors.length > 3 ? " 외 " + (majors.length - 3) + "건" : "") + "</div>" : "") +
+          "</div></summary>";
+        var lastDate = "";
+        w.evs.forEach(function (e) {
+          if (e.date !== lastDate) {
+            lastDate = e.date;
+            var d0 = new Date(e.date + "T00:00:00");
+            h += '<div class="wkday' + (e.date === todayStr ? " today" : "") + '">' + md(d0) + " (" + DOW[d0.getDay()] + ")" + (e.date === todayStr ? " · 오늘" : "") + "</div>";
+          }
+          h += evRow(e, false);
+        });
+        h += "</details>";
+      });
       h += "</div>";
 
       root.innerHTML = '<h2>마켓 캘린더</h2>' + h;
@@ -104,7 +146,14 @@
         "</span></div>";
     }
 
+    root.addEventListener("toggle", function (ev) {
+      var w = ev.target.closest && ev.target.closest("[data-wk]");
+      if (w) calOpen[w.getAttribute("data-wk")] = w.open;
+    }, true);
     root.addEventListener("click", function (ev) {
+      var ct = ev.target.closest("[data-ct]"), cm = ev.target.closest("[data-cm]");
+      if (ct) { calType = ct.getAttribute("data-ct"); draw(); return; }
+      if (cm) { calMajor = !calMajor; draw(); return; }
       var nav = ev.target.closest("[data-nav]");
       var day = ev.target.closest("[data-date]");
       if (nav) {

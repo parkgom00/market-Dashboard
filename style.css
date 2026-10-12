@@ -290,3 +290,23 @@ details{margin-top:6px;font-size:13px} details summary{cursor:pointer;color:var(
 .stock.hl .nm { font-weight: 800; font-size: 16px; }
 .hlbadge { font-weight: 800; color: #d4343a; font-size: 13.5px; margin: 2px 0 4px; }
 .hlbadge span { display: block; font-weight: 600; color: var(--text); font-size: 12.5px; }
+
+/* 캘린더: 이달의 일정 주별 접기 */
+.calfilter { display: flex; gap: 6px; overflow-x: auto; margin: 4px 0 8px; scrollbar-width: none; }
+.calfilter button { flex: none; border: 1px solid var(--line); background: var(--card); color: var(--text); border-radius: 999px; padding: 4px 10px; font-size: 12.5px; cursor: pointer; }
+.calfilter button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+.calfilter .dot { margin-right: 4px; }
+.calweek { border: 1px solid var(--line); border-radius: 12px; margin: 8px 0; padding: 0 12px; }
+.calweek.now { border-color: var(--accent); }
+.calweek summary { list-style: none; cursor: pointer; padding: 10px 0; }
+.calweek summary::-webkit-details-marker { display: none; }
+.calweek summary .wkhd { display: flex; justify-content: space-between; align-items: center; }
+.calweek summary .wkhd b::after { content: " ▾"; color: var(--sub); font-weight: 400; }
+.calweek[open] summary .wkhd b::after { content: " ▴"; }
+.calweek .wksum { font-size: 12px; color: var(--sub); margin-top: 2px; }
+.calweek .wksum .dot { margin: 0 3px 0 0; }
+.calweek .wkmaj { color: var(--text); font-weight: 600; margin-top: 2px; }
+.calweek[open] { padding-bottom: 8px; }
+.wkday { font-size: 12.5px; font-weight: 700; color: var(--sub); margin: 8px 0 2px; padding-top: 6px; border-top: 1px dashed var(--line); }
+.wkday.today { color: var(--accent); }
+.calfilter .dot, .wksum .dot { display: inline-block; vertical-align: middle; }
