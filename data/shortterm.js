@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-12 15:47",
+ "asOf": "2026-10-12 15:52",
  "window": "15:20~15:40",
  "status": "전 종목 2420개 중 후보 50개 점검 (기준 일봉 2026-10-08)",
  "types": [
@@ -28,7 +28,10 @@ window.DASH.shortterm = {
        "close": 58100.0,
        "market": "KOSDAQ",
        "sector": "자동차부품",
-       "after": null,
+       "after": {
+        "price": 58100.0,
+        "pct": 1.4
+       },
        "marcap": 3713,
        "prevClose": 57300.0,
        "changePct": 1.4,
@@ -335,8 +338,8 @@ window.DASH.shortterm = {
   "quotes": 2420,
   "candidates": 50,
   "bars": 50,
-  "naverBars": 0,
-  "kisBars": 50,
+  "naverBars": 50,
+  "kisBars": 0,
   "a1": {
    "후보": 45,
    "분봉지연": 0,
@@ -344,21 +347,12 @@ window.DASH.shortterm = {
     "고가에서 멂": 42,
     "막판 거래량 비중 부족": 3
    },
-   "수급자료": 45,
-   "막판비중_중앙값": 0.018,
-   "막판비중_최대": 0.104
-  },
-  "kis": {
-   "calls": 167,
-   "ok": 145,
-   "err": {
-    "FHKST01010100:EGW00201": 9,
-    "FHKST03010200:EGW00201": 9,
-    "HHPTJ04160200:EGW00201": 4
-   }
+   "수급자료": 0,
+   "막판비중_중앙값": 0.03,
+   "막판비중_최대": 0.242
   }
  },
  "flowConfirmed": false,
- "flowKind": "장중 추정",
- "phase": "장중 · 외국인·기관 장중 추정 가집계(한국투자) 반영 · 확정 수급은 마감 후 다시 반영"
+ "flowKind": "",
+ "phase": "장 마감 후 · 정규장 종가 기준 · 수급 자료는 아직 공개 전"
 };
