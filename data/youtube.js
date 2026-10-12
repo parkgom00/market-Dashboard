@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-13 01:29",
+ "asOf": "2026-10-13 03:31",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "트럼프는 중간선거전에 이란과의 전쟁을 끝낼수 있을까?!",
+     "publishedAt": "2026-10-13 02:00",
+     "url": "https://www.youtube.com/watch?v=Ku3-ZEE8seQ"
+    },
+    {
      "title": "유튜브 월가에서 현시점 마이크론이 저평가 됐다는 이유",
      "publishedAt": "2026-10-13 01:00",
      "url": "https://www.youtube.com/watch?v=gknGDs_po98"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "10월 12일 미국장 열리기 전 꼭 알아야 하는 '미장 시황' 투자 포인트",
      "publishedAt": "2026-10-12 22:47",
      "url": "https://www.youtube.com/watch?v=btxXzulHHAY"
-    },
-    {
-     "title": "10월 12일 외국인이 한국인 몰래 매수한 종목 정체",
-     "publishedAt": "2026-10-12 22:10",
-     "url": "https://www.youtube.com/watch?v=6ErU8Rxc-PQ"
     }
    ]
   },
@@ -136,6 +136,11 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
+    {
+     "title": "또 메모리만 패는 나스닥",
+     "publishedAt": "2026-10-13 03:07",
+     "url": "https://www.youtube.com/watch?v=4Wt_PZqM5ZE"
+    },
     {
      "title": "코스피 코스닥 폭락의 주범 #코스피 #코스닥 #OpenAI",
      "publishedAt": "2026-10-12 17:27",
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "삼성전자 역대급 실적에도 반응이 싸늘한 이유 #삼성전자 #코스피 #하이닉스",
      "publishedAt": "2026-10-08 13:34",
      "url": "https://www.youtube.com/watch?v=ILoaqN3AI6Y"
-    },
-    {
-     "title": "나스닥은 신고가인데 코스피는 왜? #코스피 #후티 #삼성전자",
-     "publishedAt": "2026-10-07 15:31",
-     "url": "https://www.youtube.com/watch?v=JJQMtqmN23Q"
     }
    ]
   },
