@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-12 11:28",
+ "asOf": "2026-10-12 13:30",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "한국증시 이렇게 빠질 이유가 있나? / 삼성전자 역사적 저평가, 외인은 언제까지 계속 던질까? ㅣ이권희 대표",
+     "publishedAt": "2026-10-12 13:12",
+     "url": "https://www.youtube.com/watch?v=rzUVus4_w64"
+    },
     {
      "title": "ASML 장비값 10% 인상, 반도체주에 악재일까? / 삼성전자·SK하이닉스와 소부장 다시 갈 이유 ㅣ이주연 대표",
      "publishedAt": "2026-10-12 10:28",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "코스피 보다 코스닥? 4분기 포트폴리오 갈아타라? / 내년 실적 성장 1위는 2차전지? 대반전 시작되나 | 유진투자증권 허재환 상무",
      "publishedAt": "2026-10-11 17:00",
      "url": "https://www.youtube.com/watch?v=QFpEpQ7ag78"
-    },
-    {
-     "title": "코스피 7,200 돌파가 진짜 강세장의 조건… 삼성전자·SK하이닉스 외국인 ‘수급 대반전’ 시작될까?ㅣ 백만개미 한세구 당주",
-     "publishedAt": "2026-10-11 15:00",
-     "url": "https://www.youtube.com/watch?v=jZFXszbt2tg"
     }
    ]
   },
@@ -152,7 +152,7 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=ffpwNQMKSv4"
     },
     {
-     "title": "AI 에이전트 최종승자 결국 여기입니다.",
+     "title": "AI 에이전트 세계대전 시작됐습니다.",
      "publishedAt": "2026-10-04",
      "url": "https://www.youtube.com/watch?v=UnZF4mvPjMY"
     },
