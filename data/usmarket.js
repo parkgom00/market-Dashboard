@@ -81,65 +81,92 @@ window.DASH.usmarket = {
    "group": "금리·환율",
    "name": "달러 인덱스",
    "kind": "plain",
-   "close": 102.23,
-   "changePct": 0.09,
-   "changeText": "102.23 (+0.09%)"
+   "close": 102.25,
+   "changePct": 0.04,
+   "changeText": "102.25 (+0.04%)"
   },
   {
    "group": "금리·환율",
    "name": "원/달러",
    "kind": "plain",
-   "close": 1340.02,
-   "changePct": 0.07,
-   "changeText": "1,340.02 (+0.07%)"
+   "close": 1336.18,
+   "changePct": -0.51,
+   "changeText": "1,336.18 (-0.51%)"
   },
   {
    "group": "금리·환율",
    "name": "엔/달러",
    "kind": "plain",
-   "close": 158.25,
-   "changePct": 0.12,
-   "changeText": "158.25 (+0.12%)"
+   "close": 158.37,
+   "changePct": 0.19,
+   "changeText": "158.37 (+0.19%)"
   },
   {
    "group": "원자재·기타",
    "name": "WTI 유가",
    "kind": "usd",
-   "close": 91.66,
-   "changePct": 0.19,
-   "changeText": "91.66 (+0.19%)"
+   "close": 90.56,
+   "changePct": -1.4,
+   "changeText": "90.56 (-1.40%)"
   },
   {
    "group": "원자재·기타",
    "name": "브렌트유",
    "kind": "usd",
-   "close": 104.43,
-   "changePct": 0.14,
-   "changeText": "104.43 (+0.14%)"
+   "close": 103.61,
+   "changePct": -1.06,
+   "changeText": "103.61 (-1.06%)"
   },
   {
    "group": "원자재·기타",
    "name": "금",
    "kind": "usd",
-   "close": 4220.3,
-   "changePct": 1.52,
-   "changeText": "4,220.30 (+1.52%)"
+   "close": 4209.8,
+   "changePct": -0.15,
+   "changeText": "4,209.80 (-0.15%)"
   },
   {
    "group": "원자재·기타",
    "name": "구리",
    "kind": "usd",
-   "close": 6.71,
-   "changePct": 2.95,
-   "changeText": "6.71 (+2.95%)"
+   "close": 6.73,
+   "changePct": 1.39,
+   "changeText": "6.73 (+1.39%)"
   },
   {
    "group": "원자재·기타",
    "name": "비트코인",
    "kind": "usd",
-   "close": 82585.52,
-   "changePct": 1.11,
-   "changeText": "82,585.52 (+1.11%)"
+   "close": 83745.84,
+   "changePct": 1.01,
+   "changeText": "83,745.84 (+1.01%)"
+  },
+  {
+   "group": "원자재·기타",
+   "name": "D램 DDR5 16Gb",
+   "kind": "usd",
+   "close": 59.067,
+   "changePct": 0.28,
+   "changeText": "$59.067 (+0.28%)",
+   "note": "현물 평균가 · Oct.12 2026 11:00 대만시간"
+  },
+  {
+   "group": "원자재·기타",
+   "name": "D램 DDR4 16Gb",
+   "kind": "usd",
+   "close": 83.886,
+   "changePct": 0.29,
+   "changeText": "$83.886 (+0.29%)",
+   "note": "현물 평균가 · Oct.12 2026 11:00 대만시간"
+  },
+  {
+   "group": "원자재·기타",
+   "name": "D램 DDR4 8Gb",
+   "kind": "usd",
+   "close": 46.079,
+   "changePct": -0.23,
+   "changeText": "$46.079 (-0.23%)",
+   "note": "현물 평균가 · Oct.12 2026 11:00 대만시간"
   }
  ],
  "sectors": [
@@ -593,7 +620,7 @@ window.DASH.usmarket = {
   },
   {
    "name": "빅테크·AI 소프트웨어",
-   "changePct": 2.48,
+   "changePct": 2.56,
    "why": "",
    "logic": "미국 빅테크의 AI 투자와 실적은 플랫폼·소프트웨어 업종 평가를 좌우합니다. 국내에서도 AI 서비스·클라우드를 하는 플랫폼과 IT서비스 업체가 같은 잣대로 평가받습니다.",
    "usStocks": [
@@ -605,7 +632,7 @@ window.DASH.usmarket = {
     {
      "ticker": "ORCL",
      "name": "오라클",
-     "changePct": 4.21
+     "changePct": 4.59
     },
     {
      "ticker": "MSFT",
@@ -970,7 +997,7 @@ window.DASH.usmarket = {
     "name": "마벨",
     "usd": 1394765894,
     "etf": false,
-    "changePct": 0.23
+    "changePct": 0.25
    },
    {
     "rank": 32,
@@ -1316,7 +1343,7 @@ window.DASH.usmarket = {
     "name": "마벨",
     "usd": 14978490,
     "etf": false,
-    "changePct": 0.23
+    "changePct": 0.25
    },
    {
     "rank": 25,
@@ -1662,7 +1689,7 @@ window.DASH.usmarket = {
     "n": "Mastercard Incorporated",
     "s": "금융",
     "c": 503.5,
-    "p": 2.5
+    "p": 2.66
    },
    {
     "t": "ABBV",
@@ -1704,7 +1731,7 @@ window.DASH.usmarket = {
     "n": "Oracle Corporation",
     "s": "기술",
     "c": 411.3,
-    "p": 4.21
+    "p": 4.59
    },
    {
     "t": "AMAT",
@@ -1879,7 +1906,7 @@ window.DASH.usmarket = {
     "n": "Marvell Technology Inc.",
     "s": "기술",
     "c": 240.8,
-    "p": 0.23
+    "p": 0.25
    },
    {
     "t": "SNDK",
@@ -1928,7 +1955,7 @@ window.DASH.usmarket = {
     "n": "American Express Company",
     "s": "금융",
     "c": 208.1,
-    "p": 0.02
+    "p": 0.33
    },
    {
     "t": "ADI",
@@ -1942,7 +1969,7 @@ window.DASH.usmarket = {
     "n": "Verizon Communications Inc.",
     "s": "커뮤니케이션",
     "c": 192.6,
-    "p": -10.14
+    "p": -8.75
    },
    {
     "t": "CRM",
@@ -2012,7 +2039,7 @@ window.DASH.usmarket = {
     "n": "AT&T Inc.",
     "s": "커뮤니케이션",
     "c": 170.4,
-    "p": -10.82
+    "p": -9.81
    },
    {
     "t": "MCD",

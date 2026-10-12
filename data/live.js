@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_live.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.live = {
- "asOf": "2026-10-12 14:27",
+ "asOf": "2026-10-12 14:35",
  "kr": {
   "gainers": [
    {
@@ -1528,7 +1528,7 @@ window.DASH.live = {
      },
      {
       "name": "슈퍼마이크로",
-      "changePct": -2.14
+      "changePct": -2.13
      },
      {
       "name": "아리스타네트웍스",
@@ -1603,7 +1603,7 @@ window.DASH.live = {
      },
      {
       "name": "오라클",
-      "changePct": 4.21
+      "changePct": 4.59
      }
     ]
    },
@@ -1700,7 +1700,7 @@ window.DASH.live = {
      },
      {
       "name": "제너럴다이내믹스",
-      "changePct": 0.42
+      "changePct": 0.9
      }
     ]
    },
@@ -1970,7 +1970,7 @@ window.DASH.live = {
      },
      {
       "name": "유나이티드항공",
-      "changePct": 0.01
+      "changePct": 0.02
      },
      {
       "name": "부킹홀딩스",
