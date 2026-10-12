@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-12 17:32",
+ "asOf": "2026-10-12 19:30",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급시황] “이렇게까지 빠질 이유가 있나?” 1,850개 종목 하락장  / 외국인이 2.5조 투매한 진짜 이유  | 황유현 팀장",
+     "publishedAt": "2026-10-12 18:30",
+     "url": "https://www.youtube.com/watch?v=2RlqUZVUnK8"
+    },
     {
      "title": "[#긴급인터뷰]  삼성전자·SK하이닉스 주가 급락… 우리가 모르는 악재가 있나? / 외국인 매수 다시 시작될 결정적 신호는 ‘이것’  | 이형수 대표",
      "publishedAt": "2026-10-12 17:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "한국증시 이렇게 빠질 이유가 있나? / 삼성전자 역사적 저평가, 외인은 언제까지 계속 던질까? ㅣ이권희 대표",
      "publishedAt": "2026-10-12 13:11",
      "url": "https://www.youtube.com/watch?v=rzUVus4_w64"
-    },
-    {
-     "title": "[10월12일 #장시작전] 기술주 반등에 뉴욕증시 상승… 트럼프 “러·우 에너지 휴전 합의” 주장 / 후티, 사우디 공항 미사일 공격",
-     "publishedAt": "2026-10-12 10:29",
-     "url": "https://www.youtube.com/watch?v=UkU6XgLbw1A"
     }
    ]
   },
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "반토막 난 전력주 실적 발표전에 꼭 봐야하는 투자포인트",
+     "publishedAt": "2026-10-12 19:19",
+     "url": "https://www.youtube.com/watch?v=BRR7GHRMvaw"
+    },
+    {
+     "title": "10월 12일 우리가 꼭 알고 있어야 할, 저평가 'AI 반도체' 소형주",
+     "publishedAt": "2026-10-12 17:34",
+     "url": "https://www.youtube.com/watch?v=phVpt2WO-oY"
+    },
+    {
      "title": "오픈AI 흔들리면 하이닉스 HBM 누가 사줄까?!",
      "publishedAt": "2026-10-12 15:35",
      "url": "https://www.youtube.com/watch?v=FhSGeJuVZnI"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "SK 최태원이 AI 상승장을 확신하는 이유",
      "publishedAt": "2026-10-12 11:57",
      "url": "https://www.youtube.com/watch?v=ewgaSJWfjkY"
-    },
-    {
-     "title": "10월 12일 오늘 코스피 어떻게 흘러갈까?",
-     "publishedAt": "2026-10-12 08:40",
-     "url": "https://www.youtube.com/watch?v=DnYfHShwgEU"
-    },
-    {
-     "title": "10월 12일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-10-12 07:14",
-     "url": "https://www.youtube.com/watch?v=MoKFO8ZtQaU"
     }
    ]
   },
@@ -136,6 +136,11 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
+    {
+     "title": "코스피 코스닥 폭락의 주범 #코스피 #코스닥 #OpenAI",
+     "publishedAt": "2026-10-12 17:27",
+     "url": "https://www.youtube.com/watch?v=-aQybbK5sCI"
+    },
     {
      "title": "OpenAI의 매출 200억 달러가 사라졌다??",
      "publishedAt": "2026-10-09 03:22",
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "나스닥은 신고가인데 코스피는 왜? #코스피 #후티 #삼성전자",
      "publishedAt": "2026-10-07 15:31",
      "url": "https://www.youtube.com/watch?v=JJQMtqmN23Q"
-    },
-    {
-     "title": "나스닥 연일 신고가의 진짜 이유",
-     "publishedAt": "2026-10-07 02:21",
-     "url": "https://www.youtube.com/watch?v=ffpwNQMKSv4"
     }
    ]
   },
