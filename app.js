@@ -354,7 +354,7 @@
     var pBrief = h; h = "";
 
     // 5) 미국 주도 테마 → 국내 관련주
-    var STR = ["", "●○○ 테마 동조", "●●○ 같은 업황", "●●● 직접 연관"];
+    var STR = ["", "테마 동조", "같은 업황", "직접 연관"];
     var krPick = function (p, reason) {
       var q = ((D.quotes || {}).kr || {})[p.code];
       var nm = p.code ? '<a href="https://m.stock.naver.com/domestic/stock/' + encodeURIComponent(p.code) + '/total" target="_blank" rel="noopener noreferrer">' + esc(p.name) + "</a>" : esc(p.name);
@@ -363,20 +363,32 @@
         (q ? '<span class="krq">' + num(q.price) + " " + pctText(q.pct) + "</span>" : "") + "</div>" +
         (reason ? '<div class="meta">' + esc(reason) + "</div>" : "") + "</div>";
     };
+    // 테마 카드 (다리 모양: 왼쪽 미국 → 오른쪽 국내, 아래 '왜 연결되나')
+    var krLink = function (p) {
+      return p.code ? '<a href="https://m.stock.naver.com/domestic/stock/' + encodeURIComponent(p.code) + '/total" target="_blank" rel="noopener noreferrer">' + esc(p.name) + "</a>" : esc(p.name);
+    };
+    var meter = function (n) {
+      return n ? '<span class="br-meter" title="' + esc(STR[n] || "") + '">' + [1, 2, 3].map(function (k) { return '<i class="' + (k <= n ? "on" : "") + '"></i>'; }).join("") + "</span>" : "";
+    };
+    var krSide = function (list, reasonKey) {
+      return list.map(function (p) {
+        var q = ((D.quotes || {}).kr || {})[p.code];
+        return '<div class="br-kr"><div class="t"><b>' + krLink(p) + "</b>" + (q ? '<span class="' + (q.pct > 0 ? "up" : q.pct < 0 ? "down" : "flat") + '">' + (q.pct > 0 ? "+" : "") + Number(q.pct).toFixed(2) + "%</span>" : "") + "</div>" +
+          (p.strength ? '<div class="meta">연관도' + meter(p.strength) + "</div>" : "") + (p[reasonKey] ? '<div class="meta br-why">' + esc(p[reasonKey]) + "</div>" : "") + "</div>";
+      }).join("") || '<div class="meta">-</div>';
+    };
+    var usRow = function (x) {
+      return '<div class="br-us"><span>' + esc(x.name) + "<small>" + esc(x.ticker) + '</small></span><b class="' + (x.changePct > 0 ? "up" : x.changePct < 0 ? "down" : "flat") + '">' + (x.changePct > 0 ? "+" : "") + Number(x.changePct).toFixed(2) + "%</b></div>";
+    };
     var themeCard = function (t, i, weak) {
-      var c = '<div class="card tcard' + (weak ? " weak" : "") + '"><div class="row"><h3>' + (weak ? "🧊 " : '<span class="rank">' + (i + 1) + "</span> ") + esc(t.name) + "</h3>" +
-        '<b class="' + (t.changePct > 0 ? "up" : t.changePct < 0 ? "down" : "flat") + ' tpct">' + (t.changePct > 0 ? "▲ +" : t.changePct < 0 ? "▼ " : "") + t.changePct.toFixed(2) + "%</b></div>" +
-        '<div class="sub-title">🇺🇸 미국 ' + (weak ? "약세 종목" : "주도주") + '</div><div class="uschips">' + (t.usStocks || []).map(function (x) {
-          return '<span class="uschip" style="background:' + heatColor(x.changePct) + '"><b>' + esc(x.name) + "</b> " + esc(x.ticker) + " " + (x.changePct > 0 ? "+" : "") + x.changePct.toFixed(2) + "%</span>";
-        }).join("") + "</div>";
-      if (t.logic) c += '<div class="linkbox"><span class="lk">🔗 연결 로직</span>' + esc(t.logic) + "</div>";
-      if ((t.krStocks || []).length) {
-        c += '<div class="sub-title">🇰🇷 국내 관련주</div>' + t.krStocks.map(function (p) { return krPick(p, p.link); }).join("");
-      }
-      return c + "</div>";
+      return '<div class="br-card' + (weak ? " weak" : "") + '"><div class="br-top"><span class="br-rank">' + (weak ? "🧊" : "#" + (i + 1)) + '</span><span class="br-name">' + esc(t.name) + "</span>" +
+        '<span class="br-pct" style="background:' + heatColor(t.changePct) + '">' + (t.changePct > 0 ? "+" : "") + t.changePct.toFixed(2) + "%</span></div>" +
+        '<div class="br-bridge"><div class="br-side"><h4>🇺🇸 미국' + (weak ? " 약세" : "") + "</h4>" + (t.usStocks || []).map(usRow).join("") + "</div>" +
+        '<div class="br-arrow">➜</div><div class="br-side"><h4>🇰🇷 국내</h4>' + krSide(t.krStocks || [], "link") + "</div></div>" +
+        (t.logic ? '<div class="br-logic"><b>왜 연결되나</b> · ' + esc(t.logic) + "</div>" : "") + "</div>";
     };
     if ((u.themes || []).length) {
-      h += "<h2>미국 주도 테마 → 국내 관련주</h2>";
+      h += "<h2>🇺🇸 → 🇰🇷 테마 연결</h2>";
       h += u.themes.map(function (t, i) { return themeCard(t, i, false); }).join("");
       if ((u.weakThemes || []).length) {
         h += '<details class="weakbox"><summary>약했던 테마 ' + u.weakThemes.length + "개 보기</summary>" +
@@ -417,14 +429,14 @@
     if (br && (br.connections || []).length) {
       h += "<h2>AI가 찾은 오늘의 연결</h2>";
       br.connections.forEach(function (c) {
-        h += '<div class="card tcard"><div class="conn-sector"><b>' + esc(c.sector) + "</b>" +
-          (c.sectorChange != null ? ' <span class="meta">업종</span> ' + pctText(c.sectorChange) : "") + "</div>" +
-          '<div class="row"><div><span class="nm">' + esc(c.usName) + '</span> <span class="meta">' + esc(c.usTicker) + "</span></div>" +
-          (c.usChange != null ? pctText(c.usChange) : '<span class="meta">' + (c.direction === "down" ? "약세" : "강세") + "</span>") + "</div>" +
-          (c.cause ? '<div class="para">' + esc(c.cause) + "</div>" : "") +
-          (c.logic ? '<div class="linkbox"><span class="lk">🔗 연결 로직</span>' + esc(c.logic) + "</div>" : "") +
-          '<div class="sub-title">🇰🇷 국내 관련주</div>' +
-          (c.koreaPicks || []).map(function (p) { return krPick(p, p.reason); }).join("") + "</div>";
+        var ch = c.usChange != null ? c.usChange : null;
+        h += '<div class="br-card"><div class="br-top"><span class="br-rank">🤖</span><span class="br-name">' + esc(c.sector) + "</span>" +
+          (c.sectorChange != null ? '<span class="br-pct" style="background:' + heatColor(c.sectorChange) + '">' + (c.sectorChange > 0 ? "+" : "") + Number(c.sectorChange).toFixed(2) + "%</span>" : "") + "</div>" +
+          '<div class="br-bridge"><div class="br-side"><h4>🇺🇸 미국</h4>' +
+          (ch != null ? usRow({ name: c.usName, ticker: c.usTicker, changePct: ch }) : '<div class="br-us"><span>' + esc(c.usName) + "<small>" + esc(c.usTicker) + '</small></span><span class="meta">' + (c.direction === "down" ? "약세" : "강세") + "</span></div>") +
+          (c.cause ? '<div class="meta br-why">' + esc(c.cause) + "</div>" : "") + "</div>" +
+          '<div class="br-arrow">➜</div><div class="br-side"><h4>🇰🇷 국내</h4>' + krSide(c.koreaPicks || [], "reason") + "</div></div>" +
+          (c.logic ? '<div class="br-logic"><b>왜 연결되나</b> · ' + esc(c.logic) + "</div>" : "") + "</div>";
       });
       h += '<div class="muted">AI가 검색으로 추정한 연결이라 실제 투자 전 확인이 필요합니다.</div>';
     }
