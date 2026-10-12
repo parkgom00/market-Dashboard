@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-09 20:51",
+ "asOf": "2026-10-12 15:05",
  "window": "15:20~15:40",
- "status": "휴장일이거나 시세가 갱신되지 않은 것으로 보여 건너뜁니다.",
+ "status": "전 종목 2419개 중 후보 49개 점검 (기준 일봉 2026-10-08)",
  "types": [
   {
    "id": "A",
@@ -21,7 +21,21 @@ window.DASH.shortterm = {
      "id": "A2",
      "name": "급등 후 거래량 반토막 + 도지, 10·20일선 사수",
      "desc": "전일 +10% 이상 급등 → 오늘 거래량 50% 이하, 도지형 캔들, 종가가 10일선·20일선 위",
-     "kr": []
+     "kr": [
+      {
+       "code": "354320",
+       "name": "알멕",
+       "close": 57800.0,
+       "market": "KOSDAQ",
+       "sector": "자동차부품",
+       "after": null,
+       "marcap": 3694,
+       "prevClose": 57300.0,
+       "changePct": 0.87,
+       "value": 80,
+       "note": "전일 +12.8% 급등 · 오늘 거래량 전일의 36% · 도지(몸통 14%) · 10일선 46,165 / 20일선 41,668 위 마감"
+      }
+     ]
     },
     {
      "id": "A3",
@@ -48,7 +62,7 @@ window.DASH.shortterm = {
        "name": "비아트론",
        "market": "KOSDAQ",
        "sector": "디스플레이장비및부품",
-       "marcap": 1677,
+       "marcap": 1662,
        "themes": [],
        "krRank": "",
        "prevClose": 14670.0,
@@ -67,7 +81,7 @@ window.DASH.shortterm = {
        "name": "제너셈",
        "market": "KOSDAQ",
        "sector": "반도체와반도체장비",
-       "marcap": 1323,
+       "marcap": 1252,
        "themes": [],
        "krRank": "",
        "prevClose": 8950.0,
@@ -86,7 +100,7 @@ window.DASH.shortterm = {
        "name": "SK디스커버리",
        "market": "KOSPI",
        "sector": "석유와가스",
-       "marcap": 12329,
+       "marcap": 11667,
        "themes": [],
        "krRank": "",
        "prevClose": 71600.0,
@@ -316,5 +330,37 @@ window.DASH.shortterm = {
     }
    ]
   }
- ]
+ ],
+ "diag": {
+  "quotes": 2419,
+  "candidates": 49,
+  "bars": 49,
+  "naverBars": 4,
+  "kisBars": 45,
+  "a1": {
+   "후보": 44,
+   "분봉지연": 0,
+   "사유": {
+    "고가에서 멂": 41,
+    "막판 거래량 비중 부족": 2,
+    "외국인·기관 순매수 부족": 1
+   },
+   "수급자료": 44,
+   "막판비중_중앙값": 0.047,
+   "막판비중_최대": 0.219
+  },
+  "kis": {
+   "calls": 150,
+   "ok": 134,
+   "err": {
+    "token:http403": 4,
+    "FHKST01010100:EGW00201": 7,
+    "FHKST03010200:EGW00201": 6,
+    "HHPTJ04160200:EGW00201": 3
+   }
+  }
+ },
+ "flowConfirmed": false,
+ "flowKind": "장중 추정",
+ "phase": "장중 · 외국인·기관 장중 추정 가집계(한국투자) 반영 · 확정 수급은 마감 후 다시 반영"
 };
