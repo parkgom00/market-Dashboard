@@ -13,6 +13,7 @@ os.environ["M480_KIS_CACHE"] = os.path.join(tempfile.mkdtemp(), "c.json")
 import kis  # noqa: E402
 
 kis.MIN_GAP = 0
+kis._gap[0] = 0
 KST = dt.timezone(dt.timedelta(hours=9))
 CALLS = {"token": 0, "rate": 0}
 ok = fail = 0

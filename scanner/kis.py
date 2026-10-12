@@ -19,12 +19,14 @@ import urllib.request
 BASE = "https://openapi.koreainvestment.com:9443"
 KST = dt.timezone(dt.timedelta(hours=9))
 TOKEN_FILE = os.environ.get("KIS_TOKEN_FILE", "/tmp/kis_token.json")
-MIN_GAP = 1 / 15          # 초당 15건 이하로
+MIN_GAP = 1 / 15          # 초당 15건 이하로 시작
+MAX_GAP = 0.5             # 한도 초과가 나면 간격을 늘려 감 (신규 앱키는 한도가 더 낮을 수 있음)
 STATS = {"calls": 0, "ok": 0, "err": {}}   # 진단용 (키·토큰 없음)
 
 _lock = threading.Lock()
 _last = [0.0]
 _token = [None]
+_gap = [MIN_GAP]
 
 
 def enabled():
@@ -88,7 +90,7 @@ def get(path, tr_id, params, tries=3):
     url = BASE + path + "?" + urllib.parse.urlencode(params)
     for i in range(tries):
         with _lock:                       # 전역 호출 간격
-            wait = _last[0] + MIN_GAP - time.time()
+            wait = _last[0] + _gap[0] - time.time()
             if wait > 0:
                 time.sleep(wait)
             _last[0] = time.time()
@@ -114,7 +116,10 @@ def get(path, tr_id, params, tries=3):
             return res
         code = str(res.get("msg_cd") or "?")
         _err(f"{tr_id}:{code}")
-        if code == "EGW00201":            # 초당 거래건수 초과 → 잠깐 쉬고 다시
+        if code == "EGW00201":            # 초당 거래건수 초과 → 간격을 넓히고 잠깐 쉬고 다시
+            with _lock:
+                _gap[0] = min(MAX_GAP, _gap[0] * 1.5)
+            STATS["gap"] = round(_gap[0], 3)
             time.sleep(1.0 + i)
             continue
         if code in ("EGW00123", "EGW00121"):   # 토큰 만료/무효 → 새로 발급
