@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-12 21:20",
+ "generatedAt": "2026-10-13 03:14",
  "events": [
   {
    "date": "2026-01-01",
@@ -1339,7 +1339,7 @@ window.DASH.calendar = {
    "title": "미국 기존주택판매",
    "time": "23:00",
    "result": [
-    "예상 3.97M · 이전 -2.0%"
+    "예상 3.96M · 이전 3.98M"
    ]
   },
   {
@@ -1971,6 +1971,16 @@ window.DASH.calendar = {
    ]
   },
   {
+   "date": "2026-11-02",
+   "type": "econ",
+   "market": "US",
+   "title": "S&P글로벌 제조업 PMI",
+   "time": "23:45",
+   "result": [
+    "이전 55.9"
+   ]
+  },
+  {
    "date": "2026-11-03",
    "type": "earnings",
    "market": "US",
@@ -1986,6 +1996,16 @@ window.DASH.calendar = {
    "title": "슈퍼마이크로 실적 발표",
    "result": [
     "EPS 예상 $0.94"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "type": "econ",
+   "market": "US",
+   "title": "ISM 제조업",
+   "time": "00:00",
+   "result": [
+    "이전 54.5"
    ]
   },
   {

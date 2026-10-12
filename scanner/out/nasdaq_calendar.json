@@ -340,9 +340,9 @@
   "title": "미국 기존주택판매",
   "level": "macro",
   "kind": "econ",
-  "consensus": "3.97M",
+  "consensus": "3.96M",
   "actual": "",
-  "previous": "-2.0%"
+  "previous": "3.98M"
  },
  {
   "date": "2026-10-14",
@@ -1085,6 +1085,16 @@
   "previous": "52.1"
  },
  {
+  "date": "2026-11-02",
+  "time": "23:45",
+  "title": "S&P글로벌 제조업 PMI",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "55.9"
+ },
+ {
   "date": "2026-11-03",
   "time": "",
   "title": "AMD 실적 발표",
@@ -1116,6 +1126,16 @@
   "epsForecast": "$1.98",
   "eps": "",
   "surprise": ""
+ },
+ {
+  "date": "2026-11-03",
+  "time": "00:00",
+  "title": "ISM 제조업",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "54.5"
  },
  {
   "date": "2026-11-04",
