@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-12 17:32",
+ "asOf": "2026-10-12 18:25",
  "window": "15:20~15:40",
- "status": "전 종목 2420개 중 후보 50개 점검 (기준 일봉 2026-10-08)",
+ "status": "전 종목 2419개 중 후보 47개 점검 (기준 일봉 2026-10-08)",
  "types": [
   {
    "id": "A",
@@ -29,10 +29,10 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "자동차부품",
        "after": {
-        "price": 57600.0,
-        "pct": 0.52
+        "price": 57700.0,
+        "pct": 0.7
        },
-       "marcap": 3681,
+       "marcap": 3688,
        "prevClose": 57300.0,
        "changePct": 1.4,
        "value": 88,
@@ -297,18 +297,18 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2420,
-  "candidates": 50,
-  "bars": 50,
-  "naverBars": 50,
+  "quotes": 2419,
+  "candidates": 47,
+  "bars": 47,
+  "naverBars": 47,
   "kisBars": 0,
   "a1": {
-   "후보": 45,
+   "후보": 42,
    "분봉지연": 0,
    "사유": {
-    "고가에서 멂": 39,
-    "등락률·거래대금 미달": 3,
-    "막판 거래량 비중 부족": 3
+    "고가에서 멂": 37,
+    "막판 거래량 비중 부족": 3,
+    "등락률·거래대금 미달": 2
    },
    "수급자료": 0,
    "막판비중_중앙값": 0.03,
