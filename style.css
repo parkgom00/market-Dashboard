@@ -284,39 +284,3 @@ details{margin-top:6px;font-size:13px} details summary{cursor:pointer;color:var(
 .useg .seg { margin: 0; }
 .usmini { margin: 0 0 10px; }
 .useg .rulefilter { margin: 6px 0 0; }
-
-/* 중장기: 도구줄·요약·핵심 5종목·접는 목록 */
-.toolbar { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: none; }
-.toolbar::-webkit-scrollbar { display: none; }
-.toolbar button { flex: none; border: 1px solid var(--line); background: var(--card); color: var(--text); border-radius: 999px; padding: 5px 11px; font-size: 13px; cursor: pointer; }
-.toolbar button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
-.toolbar .sep { flex: none; width: 1px; background: var(--line); margin: 3px 1px; }
-.lsum { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin: 0 0 12px; }
-.lsum div { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 8px 4px; text-align: center; }
-.lsum b { display: block; font-size: 20px; }
-.lsum span { font-size: 12px; color: var(--sub); }
-.lsum .newc { color: #e5484d; } .lsum .goodc { color: #16a34a; }
-.top5 .t5 { display: grid; grid-template-columns: 26px 1fr auto; gap: 4px 8px; align-items: center; padding: 9px 0; border-top: 1px solid var(--line); }
-.top5 .t5:first-of-type { border-top: 0; }
-.top5 .rk { font-size: 18px; text-align: center; color: var(--sub); font-weight: 700; }
-.top5 .why { grid-column: 2 / 4; font-size: 12.5px; color: var(--sub); line-height: 1.45; }
-.nmrow { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
-.nmrow .nm { font-weight: 700; color: var(--text); text-decoration: none; }
-.stars { color: #f5a524; font-size: 12px; letter-spacing: -1px; } .stars i { font-style: normal; color: var(--line); }
-.pill { display: inline-block; font-size: 11px; font-weight: 700; color: #fff; border-radius: 6px; padding: 0 5px; line-height: 17px; margin-left: 2px; }
-.newtag { display: inline-block; font-size: 10.5px; font-weight: 800; color: #fff; background: #e5484d; border-radius: 5px; padding: 0 4px; line-height: 16px; }
-.mktag { font-size: 10.5px; border: 1px solid var(--line); border-radius: 5px; padding: 0 4px; color: var(--sub); }
-.px { text-align: right; font-size: 13px; line-height: 1.3; white-space: nowrap; } .px b { display: block; font-size: 14px; }
-.tierhd { margin: 16px 0 4px; display: flex; align-items: baseline; justify-content: space-between; }
-.tierhd h3 { margin: 0; font-size: 15px; }
-.lcard { padding: 2px 14px; }
-.lrow { border-top: 1px solid var(--line); }
-.lrow:first-child { border-top: 0; }
-.lrow summary { list-style: none; display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; padding: 9px 0; cursor: pointer; }
-.lrow summary::-webkit-details-marker { display: none; }
-.lrow .sub { font-size: 12px; color: var(--sub); }
-.lrow[open] { background: var(--bg); margin: 0 -14px; padding: 0 14px; }
-.lrow .detail { font-size: 12.5px; color: var(--sub); padding: 0 0 10px; line-height: 1.6; }
-.lrow .detail .note2 { color: var(--text); margin: 4px 0; }
-.rulesbox summary { font-weight: 600; cursor: pointer; }
-.useg .rulefilter { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-bottom: 0; } .useg .rulefilter button { flex: none; }

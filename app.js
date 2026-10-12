@@ -699,177 +699,68 @@
   }
 
   /* ---------- 4장: 중장기 ---------- */
-  // 점수(0~100) = 규칙 신뢰도 + 겹친 규칙 + 거래대금 + 시총 + 오늘 등락 + 신규. 별 1개 = 20점
-  var TIER = [
-    { icon: "✅", name: "검증된 신호", desc: "5년 백테스트에서 20일 수익이 시장보다 0.5%p 이상 나았던 규칙", pts: 35 },
-    { icon: "🔸", name: "보통 신호", desc: "시장과 비슷했던 규칙 · 🧪 = 수급 이력이 없어 아직 검증 전", pts: 20 },
-    { icon: "⚠️", name: "참고용", desc: "백테스트에서 시장보다 1.5%p 넘게 약했던 규칙", pts: 8 }];
-  function longScore(s, tierOf) {
-    var best = Math.min.apply(null, (s.matched || []).map(tierOf));
-    var sc = TIER[best].pts + 10 * ((s.matched || []).length - 1);
-    if (s.value) sc += Math.min(15, Math.max(0, 5 * Math.log10(s.value)));                 // 거래대금(억)
-    if (s.marcap) sc += Math.min(10, Math.max(0, 4 * Math.log10(s.marcap / 300)));        // 시총(억)
-    var pc = Number(s.changePct);
-    if (s.changePct != null) sc += pc >= 0 && pc <= 8 ? 5 : pc < -4 ? -8 : 0;
-    if (s.new) sc += 5;
-    return { tier: best, score: Math.max(0, Math.min(100, Math.round(sc))) };
-  }
   function renderLong() {
     var root = $("#tab-long");
     var L = D.longterm || {};
     var market = "kr";
     var view = "swing";      // swing = 스윙 투자, long = 중장기 투자
     try { view = sessionStorage.getItem("longView") || "swing"; } catch (e) {}
-    var sortBy = "score", filter = "", onlyNew = false, mkOnly = "", bigOnly = false, openTier = {};
     var maText = function (v) { return v ? num(v) : "-"; };
-    var EXC = ((L.ruleStats || {}).excess20) || {};
-    var tierOf = function (id) { var x = EXC[id]; return x == null ? 1 : x >= 0.5 ? 0 : x >= -1.5 ? 1 : 2; };
-    var STARS = "★★★★★";
 
     function draw() {
-      var isSwing = view === "swing", isKR = market === "kr";
+      var isSwing = view === "swing";
       var rules = (isSwing ? L.swingRules : L.rules) || [];
       var letters = isSwing ? LETTER.map(function (x) { return x.toUpperCase(); }) : LETTER;
-      var idx = {}; rules.forEach(function (r, i) { idx[r.id] = i; });
-      var info = (L.scanInfo || {})[market];
-      var raw = (isSwing ? (L.swing || {})[market] : L[market]) || [];
-      var items = raw.map(function (s) {
-        var v = isKR ? withQuote(s, info && info.asOf) : (function () { var o = {}; for (var k in s) o[k] = s[k]; o.priceLabel = "종가"; return o; })();
-        var r = longScore(v, tierOf); v.tier = r.tier; v.score = r.score; return v;
-      });
-      var pill = function (m) {
-        var i = idx[m] == null ? 0 : idx[m];
-        return '<span class="pill rt-' + i + '" title="' + esc((rules[i] || {}).label || m) + '">' + (letters[i] || "?") + (EXC[m] == null ? "🧪" : "") + "</span>";
-      };
-      var pills = function (s) { return (s.matched || []).map(pill).join(""); };
-      var stars = function (sc) { var n = Math.max(1, Math.min(5, Math.ceil(sc / 20))); return '<span class="stars" title="점수 ' + sc + '">' + STARS.slice(0, n) + '<i>' + STARS.slice(n) + "</i></span>"; };
-      var price = function (s) {
-        var pc = Number(s.changePct), c = s.changePct == null ? "flat" : pc > 0 ? "up" : pc < 0 ? "down" : "flat";
-        return '<div class="px"><b class="' + c + '">' + num(s.close) + "</b>" + (s.changePct != null ? '<span class="' + c + '">' + (pc > 0 ? "▲+" : pc < 0 ? "▼" : "") + pc.toFixed(2) + "%</span>" : "") + "</div>";
-      };
-      var newTag = function (s) { return s.new ? '<span class="newtag">NEW</span>' : ""; };
-      var mkTag = function (s) { return s.market ? '<span class="mktag">' + esc(s.market) + "</span>" : ""; };
-      var link = function (s) {
-        return isKR ? "https://m.stock.naver.com/domestic/stock/" + encodeURIComponent(s.code) + "/chart" : "https://finance.yahoo.com/chart/" + encodeURIComponent(s.code);
-      };
-
-      // ── 상단 ──
+      var ruleLabel = {};
+      var ruleIds = rules.map(function (r) { return r.id; });
+      rules.forEach(function (r) { ruleLabel[r.id] = r.label; });
       var h = seg([{ id: "swing", label: "🌊 ① 스윙 투자" }, { id: "long", label: "🌳 ② 중장기 투자" }], view, "data-vw");
-      var tb = function (attr, val, on, label) { return '<button type="button" ' + attr + '="' + val + '" class="' + (on ? "on" : "") + '">' + label + "</button>"; };
-      var cnt = {};
-      items.forEach(function (s) { (s.matched || []).forEach(function (m) { cnt[m] = (cnt[m] || 0) + 1; }); });
-      h += '<div class="useg"><div class="toolbar">' + tb("data-mk", "kr", isKR, "🇰🇷 국내") + tb("data-mk", "us", !isKR, "🇺🇸 미국") + '<span class="sep"></span>' +
-        tb("data-so", "score", sortBy === "score", "⭐ 점수순") + tb("data-so", "pct", sortBy === "pct", "📈 등락률") +
-        (isKR ? tb("data-so", "value", sortBy === "value", "💰 거래대금") + tb("data-so", "marcap", sortBy === "marcap", "🏢 시총") : "") + '<span class="sep"></span>' +
-        tb("data-tg", "new", onlyNew, "🆕 신규만") +
-        (isKR ? tb("data-tg", "KOSPI", mkOnly === "KOSPI", "KOSPI") + tb("data-tg", "KOSDAQ", mkOnly === "KOSDAQ", "KOSDAQ") + tb("data-tg", "big", bigOnly, "시총 1천억↑") : "") +
-        "</div>" + (items.length ? '<div class="rulefilter">' + [tb("data-rf", "", !filter, "전체 " + items.length)].concat(rules.map(function (r, i) {
-          return tb("data-rf", r.id, filter === r.id, '<span class="rtag rt-' + i + '">' + letters[i] + "</span> " + (cnt[r.id] || 0));
-        })).join("") + "</div>" : "") + "</div>";
-
       h += "<h2>" + (isSwing ? "스윙 투자" : "중장기 투자") + "</h2>";
+      h += '<div class="card"><h3>적용 규칙</h3><ul class="plain">' +
+        rules.map(function (r, i) { return '<li><span class="rtag rt-' + i + '">' + letters[i] + "</span> <b>" + esc(r.label) + "</b> — " + esc(r.desc) + "</li>"; }).join("") + "</ul></div>";
+      h += '<div class="useg">' + seg([{ id: "kr", label: "🇰🇷 국내" }, { id: "us", label: "🇺🇸 미국" }], market, "data-mk") + "@@RF@@</div>";
+      var info = (L.scanInfo || {})[market];
+      var items = (isSwing ? (L.swing || {})[market] : L[market]) || [];
       if (info && info.scanned) {
-        h += '<div class="muted" style="margin:-8px 0 8px">기준일 ' + esc(info.asOf) + " · " + num(info.scanned) + "개 종목 스캔" +
-          (isKR && D.quotes && D.quotes.asOf ? " · 현재가 " + esc(D.quotes.asOf) : "") + "</div>";
+        h += '<div class="muted" style="margin:-4px 0 8px">기준일 ' + esc(info.asOf) + " · " + num(info.scanned) + "개 종목 스캔 · " + items.length + "개 충족" +
+          (market === "kr" && D.quotes && D.quotes.asOf ? " · 현재가 " + esc(D.quotes.asOf) : "") + "</div>";
       }
-      if (L.scanInfo && !(info && info.scanned)) { root.innerHTML = h + '<div class="card empty">아직 이 시장의 스캔 결과가 없습니다.</div>' + rulesBox(); return; }
-      if (isSwing && !L.swing) { root.innerHTML = h + '<div class="card empty">스윙 스캔 결과가 아직 없습니다.</div>' + rulesBox(); return; }
-      if (!items.length) { root.innerHTML = h + '<div class="card empty">조건을 충족한 종목이 없습니다.</div>' + rulesBox(); return; }
-
-      var prevAsOf = (L.prevAsOf || {})[market];
-      var nNew = items.filter(function (x) { return x.new; }).length;
-      h += '<div class="lsum"><div><b>' + items.length + "</b><span>전체 충족</span></div>" +
-        '<div><b class="newc">' + (prevAsOf ? nNew : "-") + "</b><span>🆕 신규" + (prevAsOf ? " (" + esc(prevAsOf.slice(5).replace("-", "/")) + " 대비)" : "") + "</span></div>" +
-        '<div><b class="goodc">' + items.filter(function (x) { return x.tier === 0; }).length + "</b><span>✅ 검증된 신호</span></div></div>";
-
-      // ── 걸러보기·정렬 ──
-      var shown = items.filter(function (s) {
-        return (!filter || (s.matched || []).indexOf(filter) >= 0) && (!onlyNew || s.new) && (!mkOnly || s.market === mkOnly) && (!bigOnly || (s.marcap || 0) >= 1000);
-      });
-      var key = { score: "score", pct: "changePct", value: "value", marcap: "marcap" }[sortBy];
-      shown.sort(function (a, b) { return (Number(b[key]) || -1e9) - (Number(a[key]) || -1e9) || b.score - a.score; });
-      var plain = !filter && !onlyNew && !mkOnly && !bigOnly && sortBy === "score";
-
-      // ── 오늘 먼저 볼 5종목 (걸러보기 없을 때만) ──
-      if (plain && shown.length > 5) {
-        h += '<div class="card top5"><h3>⭐ 오늘 먼저 볼 5종목</h3><div class="muted" style="margin-bottom:2px">규칙 신뢰도 · 겹친 규칙 수 · 거래대금 · 시총 · 오늘 등락 · 신규 여부로 매긴 점수 순 <a href="#" data-why="1">점수 기준 ›</a></div>' +
-          shown.slice(0, 5).map(function (s, i) {
-            var why = String(s.note || "").split(" / ")[0];
-            return '<div class="t5"><div class="rk">' + ["🥇", "🥈", "🥉", "4", "5"][i] + '</div><div><div class="nmrow"><a class="nm" href="' + link(s) + '" target="_blank" rel="noopener noreferrer">' + esc(s.name) + "</a>" + newTag(s) + mkTag(s) +
-              "</div><div>" + stars(s.score) + " " + pills(s) + "</div></div>" + price(s) + '<div class="why">💡 ' + esc(why.length > 80 ? why.slice(0, 78) + "…" : why) + "</div></div>";
-          }).join("") + "</div>";
-      }
-
-      // ── 목록: 한 줄 요약, 누르면 펼침 ──
-      var row = function (s) {
-        var chips = "";
-        if (s.krRank) chips += '<span class="chip krr">🇰🇷 ' + esc(s.krRank) + "</span>";
-        (s.themes || []).forEach(function (t) { chips += '<span class="chip thm">🔥 ' + esc(t) + "</span>"; });
-        var pc = Number(s.changePct), dir = s.changePct == null ? "flat" : pc > 0 ? "up" : pc < 0 ? "down" : "flat";
-        var sub = [s.market, s.sector && s.sector !== "기타" ? s.sector : "", s.marcap ? "시총 " + won억(s.marcap) : ""].filter(Boolean).map(esc).join(" · ");
-        return '<details class="lrow"><summary><div><div class="nmrow"><span class="nm">' + esc(s.name) + "</span>" + newTag(s) + pills(s) + "</div>" +
-          '<div class="sub">' + sub + (sub ? " · " : "") + stars(s.score) + "</div></div>" + price(s) + "</summary>" +
-          '<div class="detail">' + (chips ? "<div>" + chips + "</div>" : "") +
-          (s.prevClose ? '<span class="lbl">전일종가</span> <span class="blk">' + num(s.prevClose) + '</span> → <span class="lbl">' + esc(s.priceLabel || "종가") + '</span> <b class="' + dir + '">' + num(s.close) + "</b>" : "") +
-          (s.value ? " · 거래대금 " + won억(s.value) : "") + "<br>" +
-          (isSwing ? "10일선 " + maText(s.ma10) + " · 20일선 " + maText(s.ma20) + " · 60일선 " + maText(s.ma60) : "240일선 " + maText(s.ma240) + " · 480일선 " + maText(s.ma480)) +
-          "<br>" + (s.matched || []).map(function (m) { var i = idx[m] || 0; return '<span class="rlabel rl-' + i + '">' + esc((rules[i] || {}).label || m) + "</span>"; }).join("") +
-          '<div class="note2">' + esc(s.note || "") + "</div>" +
-          '<a href="' + link(s) + '" target="_blank" rel="noopener noreferrer">📈 차트 보기</a> <span class="meta">' + esc(s.code) + " · 점수 " + s.score + "</span></div></details>";
-      };
-      var listBlock = function (list, tierKey, firstN) {
-        var open = !!openTier[tierKey];
-        var n = open ? list.length : firstN;
-        var html = list.length && n ? '<div class="card lcard">' + list.slice(0, n).map(row).join("") + "</div>" : "";
-        if (list.length > n) html += '<button type="button" class="morebtn" data-tier="' + tierKey + '">' + (n ? (list.length - n) + "개 더보기 ▼" : "⚠️ 참고용 " + list.length + "개 펼치기 ▼") + "</button>";
-        else if (open && list.length > firstN) html += '<button type="button" class="morebtn" data-tier="' + tierKey + '">접기 ▲</button>';
-        return html;
-      };
-      if (!shown.length) h += '<div class="card empty">조건에 맞는 종목이 없습니다.</div>';
-      else if (plain) {
-        TIER.forEach(function (t, k) {
-          var list = shown.filter(function (x) { return x.tier === k; });
-          if (!list.length) return;
-          var rn = rules.filter(function (r) { return tierOf(r.id) === k; }).map(function (r) { return letters[idx[r.id]]; }).join("·");
-          h += '<div class="tierhd"><h3>' + t.icon + " " + t.name + " " + list.length + '</h3><span class="meta">' + (rn ? "규칙 " + rn : "") + '</span></div><div class="muted" style="margin:-2px 0 6px">' + t.desc + "</div>";
-          h += listBlock(list, view + market + k, k === 2 ? 0 : 8);
-        });
+      if (L.scanInfo && !(info && info.scanned)) {
+        h += '<div class="card empty">아직 이 시장의 스캔 결과가 없습니다.</div>';
+      } else if (isSwing && !L.swing) {
+        h += '<div class="card empty">스윙 스캔 결과가 아직 없습니다. 다음 장 마감 스캔부터 채워집니다.</div>';
+      } else if (!items.length) {
+        h += '<div class="card empty">조건을 충족한 종목이 없습니다.</div>';
       } else {
-        h += '<div class="muted" style="margin:4px 0 6px">' + shown.length + "개 · " + ({ score: "점수", pct: "등락률", value: "거래대금", marcap: "시총" })[sortBy] + " 순</div>";
-        h += listBlock(shown, view + market + "f" + filter + onlyNew + mkOnly + bigOnly + sortBy, 30);
-      }
-      root.innerHTML = h + rulesBox();
-
-      function rulesBox() {
-        return '<details class="card rulesbox"' + (whyOpen ? " open" : "") + '><summary>ℹ️ 규칙 설명 · 점수 기준</summary><ul class="plain">' +
+        // 규칙별 개수 (눌러서 걸러 보기)
+        var cnt = {};
+        items.forEach(function (s) { (s.matched || []).forEach(function (m) { cnt[m] = (cnt[m] || 0) + 1; }); });
+        var rf = '<div class="rulefilter">' + ['<button type="button" data-rf="" class="' + (!filter ? "on" : "") + '">전체 ' + items.length + "</button>"].concat(
           rules.map(function (r, i) {
-            var x = EXC[r.id];
-            return '<li><span class="rtag rt-' + i + '">' + letters[i] + "</span> " + TIER[tierOf(r.id)].icon + " <b>" + esc(r.label) + "</b> — " + esc(r.desc) +
-              ' <span class="meta">(백테스트 20일 시장 대비 ' + (x == null ? "검증 전" : (x > 0 ? "+" : "") + x.toFixed(2) + "%p") + ")</span></li>";
-          }).join("") + "</ul>" +
-          '<div class="sub-title">⭐ 점수 기준 (0~100점, 별 1개 = 20점)</div><ul class="plain">' +
-          "<li>규칙 신뢰도: 걸린 규칙 중 가장 좋은 등급 기준 ✅ 35점 · 🔸 20점 · ⚠️ 8점</li>" +
-          "<li>겹친 규칙: 규칙이 하나 더 겹칠 때마다 +10점</li>" +
-          "<li>거래대금: 10억 5점 · 100억 10점 · 1,000억 이상 15점 (국내만)</li>" +
-          "<li>시가총액: 3,000억 4점 · 3조 8점 · 5.6조 이상 10점 (국내만)</li>" +
-          "<li>오늘 등락: 0~+8%면 +5점, -4%보다 더 빠지면 -8점</li>" +
-          "<li>신규(전 거래일 목록에 없던 종목): +5점</li></ul>" +
-          '<div class="muted">점수는 우선순위를 정하기 위한 참고값이며 수익을 보장하지 않습니다.</div></details>';
+            return '<button type="button" data-rf="' + esc(r.id) + '" class="' + (filter === r.id ? "on" : "") + '"><span class="rtag rt-' + i + '">' + letters[i] + "</span> " + (cnt[r.id] || 0) + "</button>";
+          })).join("") + "</div>";
+        h = h.replace("@@RF@@", rf);
+        var shown = filter ? items.filter(function (s) { return (s.matched || []).indexOf(filter) >= 0; }) : items;
+        h += shown.length ? '<div class="card">' + shown.map(function (s) {
+          var tags = (s.matched || []).map(function (m) {
+            var i = Math.max(0, ruleIds.indexOf(m));
+            return { k: i, text: letters[i] || "?", title: ruleLabel[m] || m };
+          });
+          var v = market === "kr" ? withQuote(s, info && info.asOf) : s;
+          return stockCard(v, tags, market === "kr", v.priceLabel || "종가") +
+            '<div class="meta">' + (isSwing ? "10일선 " + maText(s.ma10) + " · 20일선 " + maText(s.ma20) + " · 60일선 " + maText(s.ma60)
+                                            : "240일선 " + maText(s.ma240) + " · 480일선 " + maText(s.ma480)) + "</div>" +
+            (s.note ? '<div class="meta">' + esc(s.note) + "</div>" : "") + "</div>";
+        }).join("") + "</div>" : '<div class="card empty">이 규칙에 해당하는 종목이 없습니다.</div>';
       }
+      root.innerHTML = h.replace("@@RF@@", "");
     }
-    var whyOpen = false;
+    var filter = "";
     root.addEventListener("click", function (ev) {
-      var t = ev.target;
-      var v = t.closest("[data-vw]"), mk = t.closest("[data-mk]"), so = t.closest("[data-so]"), tg = t.closest("[data-tg]"), rf = t.closest("[data-rf]"), ti = t.closest("[data-tier]"), wy = t.closest("[data-why]");
-      if (wy) { ev.preventDefault(); whyOpen = true; draw(); var bx = root.querySelector(".rulesbox"); if (bx) bx.scrollIntoView({ behavior: "smooth" }); return; }
-      if (v) { view = v.getAttribute("data-vw"); filter = ""; try { sessionStorage.setItem("longView", view); } catch (e) {} }
-      else if (mk) { market = mk.getAttribute("data-mk"); filter = ""; mkOnly = ""; bigOnly = false; if (market === "us" && (sortBy === "value" || sortBy === "marcap")) sortBy = "score"; }
-      else if (so) sortBy = so.getAttribute("data-so");
-      else if (tg) { var g = tg.getAttribute("data-tg"); if (g === "new") onlyNew = !onlyNew; else if (g === "big") bigOnly = !bigOnly; else mkOnly = mkOnly === g ? "" : g; }
-      else if (rf) filter = rf.getAttribute("data-rf");
-      else if (ti) { var k = ti.getAttribute("data-tier"); openTier[k] = !openTier[k]; }
-      else return;
-      draw();
+      var b = ev.target.closest("[data-mk]"), v = ev.target.closest("[data-vw]"), f = ev.target.closest("[data-rf]");
+      if (v) { view = v.getAttribute("data-vw"); filter = ""; try { sessionStorage.setItem("longView", view); } catch (e) {} draw(); }
+      else if (b) { market = b.getAttribute("data-mk"); filter = ""; draw(); }
+      else if (f) { filter = f.getAttribute("data-rf"); draw(); }
     });
     draw();
   }
