@@ -284,3 +284,5 @@ details{margin-top:6px;font-size:13px} details summary{cursor:pointer;color:var(
 .useg .seg { margin: 0; }
 .usmini { margin: 0 0 10px; }
 .useg .rulefilter { margin: 6px 0 0; }
+.stars { color: #f5a524; font-size: 12px; letter-spacing: -1px; } .stars i { font-style: normal; color: var(--line); }
+.medal { font-size: 17px; margin-right: 3px; }

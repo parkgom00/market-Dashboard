@@ -673,7 +673,7 @@
     var code = s.code || "";
     var link = isKR ? "https://m.stock.naver.com/domestic/stock/" + encodeURIComponent(code) + "/chart"
                     : "https://finance.yahoo.com/chart/" + encodeURIComponent(code);
-    var h = '<div class="stock"><div class="row"><div><span class="nm">' + esc(s.name) + '</span> ' +
+    var h = '<div class="stock"><div class="row"><div>' + (s._medal || "") + '<span class="nm">' + esc(s.name) + '</span> ' + (s._stars || "") +
       '<a class="chartlink" href="' + link + '" target="_blank" rel="noopener noreferrer" title="차트 보기">📈</a> ' +
       '<span class="meta">' + esc(code) + "</span></div></div>";
     if ((tags || []).length) h += '<div class="tagrow">' + tags.map(function (t) {
@@ -699,6 +699,22 @@
   }
 
   /* ---------- 4장: 중장기 ---------- */
+  // 별점(0~100점, 별 1개 = 20점) = 규칙 신뢰도 + 겹친 규칙 + 거래대금 + 시총 + 오늘 등락 + 신규
+  function longScore(s, exc) {
+    var tierOf = function (id) { var x = exc[id]; return x == null ? 1 : x >= 0.5 ? 0 : x >= -1.5 ? 1 : 2; };
+    var best = Math.min.apply(null, (s.matched || []).map(tierOf).concat([2]));
+    var sc = [35, 20, 8][best] + 10 * Math.max(0, (s.matched || []).length - 1);
+    if (s.value) sc += Math.min(15, Math.max(0, 5 * Math.log10(s.value)));            // 거래대금(억)
+    if (s.marcap) sc += Math.min(10, Math.max(0, 4 * Math.log10(s.marcap / 300)));   // 시총(억)
+    var pc = Number(s.changePct);
+    if (s.changePct != null) sc += pc >= 0 && pc <= 8 ? 5 : pc < -4 ? -8 : 0;
+    if (s.new) sc += 5;
+    return Math.max(0, Math.min(100, Math.round(sc)));
+  }
+  function starsHtml(sc) {
+    var n = Math.max(1, Math.min(5, Math.ceil(sc / 20)));
+    return '<span class="stars" title="점수 ' + sc + '점">' + "★★★★★".slice(0, n) + "<i>" + "★★★★★".slice(n) + "</i></span> ";
+  }
   function renderLong() {
     var root = $("#tab-long");
     var L = D.longterm || {};
@@ -740,13 +756,23 @@
             return '<button type="button" data-rf="' + esc(r.id) + '" class="' + (filter === r.id ? "on" : "") + '"><span class="rtag rt-' + i + '">' + letters[i] + "</span> " + (cnt[r.id] || 0) + "</button>";
           })).join("") + "</div>";
         h = h.replace("@@RF@@", rf);
-        var shown = filter ? items.filter(function (s) { return (s.matched || []).indexOf(filter) >= 0; }) : items;
-        h += shown.length ? '<div class="card">' + shown.map(function (s) {
+        var exc = ((L.ruleStats || {}).excess20) || {};
+        var scored = items.map(function (s) {
+          var v = market === "kr" ? withQuote(s, info && info.asOf) : s;
+          return { s: s, v: v, sc: longScore(v, exc) };
+        }).sort(function (a, b) { return b.sc - a.sc; });
+        scored.forEach(function (o, i) { o.rank = i; });
+        var shownO = filter ? scored.filter(function (o) { return (o.s.matched || []).indexOf(filter) >= 0; }) : scored;
+        h += shownO.length ? '<div class="card">' + shownO.map(function (o) {
+          var s = o.s;
           var tags = (s.matched || []).map(function (m) {
             var i = Math.max(0, ruleIds.indexOf(m));
             return { k: i, text: letters[i] || "?", title: ruleLabel[m] || m };
           });
-          var v = market === "kr" ? withQuote(s, info && info.asOf) : s;
+          var v = {};
+          for (var k in o.v) v[k] = o.v[k];
+          v._stars = starsHtml(o.sc);
+          if (o.rank < 3) v._medal = '<span class="medal">' + ["🥇", "🥈", "🥉"][o.rank] + "</span>";
           return stockCard(v, tags, market === "kr", v.priceLabel || "종가") +
             '<div class="meta">' + (isSwing ? "10일선 " + maText(s.ma10) + " · 20일선 " + maText(s.ma20) + " · 60일선 " + maText(s.ma60)
                                             : "240일선 " + maText(s.ma240) + " · 480일선 " + maText(s.ma480)) + "</div>" +
