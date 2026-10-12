@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-12 15:26",
+ "asOf": "2026-10-12 15:30",
  "window": "15:20~15:40",
- "status": "전 종목 2420개 중 후보 49개 점검 (기준 일봉 2026-10-08)",
+ "status": "전 종목 2418개 중 후보 49개 점검 (기준 일봉 2026-10-08)",
  "types": [
   {
    "id": "A",
@@ -25,15 +25,15 @@ window.DASH.shortterm = {
       {
        "code": "354320",
        "name": "알멕",
-       "close": 56900.0,
+       "close": 58100.0,
        "market": "KOSDAQ",
        "sector": "자동차부품",
        "after": null,
-       "marcap": 3637,
+       "marcap": 3713,
        "prevClose": 57300.0,
-       "changePct": -0.7,
-       "value": 86,
-       "note": "전일 +12.8% 급등 · 오늘 거래량 전일의 39% · 도지(몸통 11%) · 10일선 46,075 / 20일선 41,622 위 마감"
+       "changePct": 1.4,
+       "value": 87,
+       "note": "전일 +12.8% 급등 · 오늘 거래량 전일의 39% · 도지(몸통 22%) · 10일선 46,195 / 20일선 41,682 위 마감"
       }
      ]
     },
@@ -332,7 +332,7 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2420,
+  "quotes": 2418,
   "candidates": 49,
   "bars": 49,
   "naverBars": 0,
@@ -345,16 +345,16 @@ window.DASH.shortterm = {
     "막판 거래량 비중 부족": 3
    },
    "수급자료": 44,
-   "막판비중_중앙값": 0.023,
-   "막판비중_최대": 0.176
+   "막판비중_중앙값": 0.018,
+   "막판비중_최대": 0.104
   },
   "kis": {
-   "calls": 157,
+   "calls": 159,
    "ok": 142,
    "err": {
-    "FHKST01010100:EGW00201": 5,
-    "FHKST03010200:EGW00201": 9,
-    "HHPTJ04160200:EGW00201": 1
+    "FHKST01010100:EGW00201": 8,
+    "FHKST03010200:EGW00201": 6,
+    "HHPTJ04160200:EGW00201": 3
    }
   }
  },
