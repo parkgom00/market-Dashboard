@@ -1,0 +1,17 @@
+name: D램 현물가 확인 (임시)
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          (cd scanner && python dram.py --save) | tee scanner/out/dram_log.txt
+          bash scanner/commit_data.sh || true

@@ -146,6 +146,18 @@ def build_indices(changes: dict) -> list:
     return out
 
 
+def dram_rows() -> list:
+    """D램 현물가(DRAMeXchange). 원자재 묶음 끝에 붙인다. 실패하면 빈 목록."""
+    try:
+        import dram
+        rows, upd = dram.fetch()
+    except Exception:
+        return []
+    return [{"group": "원자재·기타", "name": r["name"], "kind": "usd", "close": round(r["avg"], 3), "changePct": round(r["changePct"], 2),
+             "changeText": f"${r['avg']:,.3f} ({r['changePct']:+.2f}%)", "note": f"현물 평균가 · {upd} 대만시간" if upd else "현물 평균가"}
+            for r in rows]
+
+
 def build_sectors(changes: dict) -> list:
     return [{"group": s["group"], "name": s["name"], "symbol": s["symbol"], "kr": s.get("kr", ""),
              "changePct": round(changes[s["symbol"]]["pct"], 2)} for s in SECTORS if s["symbol"] in changes]
@@ -172,7 +184,7 @@ def build_payload(all_changes: dict, th_changes: dict, themes: list) -> dict:
     return {
         "asOf": as_of_text(date) if date else "",
         "forDate": date,
-        "indices": build_indices(all_changes),
+        "indices": build_indices(all_changes) + dram_rows(),
         "sectors": build_sectors(all_changes),
         "summary": load_summary(date) if date else [],
         "brief": brief,
