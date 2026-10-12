@@ -317,6 +317,51 @@ def write_rotation(hist, as_of):
     print(f"테마 순환매: 테마 {res['themeCount']}개, 기준일 {as_of}")
 
 
+def mark_new(res, m):
+    """전 거래일 목록에 없던 종목에 new=True. 같은 날 다시 돌려도 전 거래일 목록과 비교하도록 따로 보관한다."""
+    cur = os.path.join(OUT, f"longterm_{m}.json")
+    keep = os.path.join(OUT, f"longterm_{m}_prev_codes.json")
+    prev = None
+    try:
+        with open(cur, encoding="utf-8") as f:
+            old = json.load(f)
+        if old.get("asOf") and old["asOf"] < res["asOf"]:
+            prev = {"asOf": old["asOf"], "items": [x["code"] for x in old.get("items", [])],
+                    "swing": [x["code"] for x in old.get("swing", [])]}
+            with open(keep, "w", encoding="utf-8") as f:
+                json.dump(prev, f)
+    except Exception:
+        pass
+    if prev is None:
+        try:
+            with open(keep, encoding="utf-8") as f:
+                prev = json.load(f)
+            if not (prev.get("asOf") and prev["asOf"] < res["asOf"]):
+                prev = None
+        except Exception:
+            prev = None
+    if not prev:
+        return
+    for key in ("items", "swing"):
+        seen = set(prev.get(key, []))
+        for x in res.get(key, []):
+            x["new"] = x["code"] not in seen
+    res["prevAsOf"] = prev["asOf"]
+
+
+def rule_stats():
+    """5년 백테스트의 규칙별 20일 시장 대비 초과수익(%p). 화면의 신뢰도 등급·점수에 쓴다."""
+    try:
+        with open(os.path.join(OUT, "backtest.json"), encoding="utf-8") as f:
+            bt = json.load(f)
+        out = {}
+        for k, v in bt.get("rules", {}).items():
+            out["S5" if k == "S5p" else k] = v["d20"]["excess"]
+        return {"excess20": out, "period": bt.get("period")}
+    except Exception:
+        return {}
+
+
 def build_js():
     def load(m):
         path = os.path.join(OUT, f"longterm_{m}.json")
@@ -337,6 +382,8 @@ def build_js():
         "scanInfo": {"kr": {"asOf": kr["asOf"], "scanned": kr["scanned"]},
                      "us": {"asOf": us["asOf"], "scanned": us["scanned"]}},
         "kr": kr["items"], "us": us["items"],
+        "prevAsOf": {"kr": kr.get("prevAsOf", ""), "us": us.get("prevAsOf", "")},
+        "ruleStats": rule_stats(),
     }
     with open(DATA_JS, "w", encoding="utf-8") as f:
         f.write("// 자동 생성 파일 (scanner/run_scan.py). 직접 고치지 마세요.\n")
@@ -354,6 +401,7 @@ def main():
     for m in (["kr", "us"] if a.market == "all" else [a.market]):
         print(f"[{m}] 스캔 시작 {dt.datetime.now():%H:%M:%S}")
         res = scan_market(m, a.limit)
+        mark_new(res, m)
         with open(os.path.join(OUT, f"longterm_{m}.json"), "w", encoding="utf-8") as f:
             json.dump(res, f, ensure_ascii=False)
         print(f"[{m}] 기준일 {res['asOf']}, 스캔 {res['scanned']}개, 조건 충족 {len(res['items'])}개")
