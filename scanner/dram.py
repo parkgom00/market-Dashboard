@@ -49,8 +49,8 @@ def fetch():
         rows, upd = parse(raw)
         if not rows:
             t = page_text(raw)
-            i = max(0, t.find("Spot"))
-            print("D램 표를 찾지 못함. 페이지 일부:", t[i:i + 600])
+            i = max(0, t.find("DDR5 16Gb"))
+            print("D램 표를 찾지 못함. 페이지 일부:", t[max(0, i - 300):i + 900])
         return rows, upd
     except Exception as e:
         print("D램 현물가 조회 실패:", type(e).__name__, e)
