@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-13 05:29",
+ "asOf": "2026-10-13 07:26",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[10월13일 #장시작전] 중국 CXMT의 메모리 추격에 美 반도체주 급락… 뉴욕증시 혼조 마감  \"진짜 위기인가, 일시적 노이즈인가?’",
+     "publishedAt": "2026-10-13 06:23",
+     "url": "https://www.youtube.com/watch?v=dIKtUN7xS2g"
+    },
     {
      "title": "[#찐시황]  “오늘 주가 폭락 너무 심했다!” 장 막판 선물 7,500억 쓸어담은 외국인… 내일 증시  반등 신호 인가?  ㅣ이권희 대표",
      "publishedAt": "2026-10-12 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#글로벌인사이트]  이번 삼성전자 실적은 시작일 뿐… D램 점유율 확대 / 다음 실적이 더 무서운 이유  ㅣ세미콘 리서치랩 노근창 대표",
      "publishedAt": "2026-10-12 16:00",
      "url": "https://www.youtube.com/watch?v=taLlHGhdf8k"
-    },
-    {
-     "title": "[#긴급시황] 나스닥 선물은 오르는데 한국 증시만 급락장 / 자사주 매입 끝난 삼성전자, ‘진짜 바닥’은 언제일까? ㅣ이주현 대표",
-     "publishedAt": "2026-10-12 15:00",
-     "url": "https://www.youtube.com/watch?v=gg6xzd8T3OU"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) 정말 메모리 반도체 끝났나? 갈길 많이 남았다",
+     "publishedAt": "2026-10-13 05:51",
+     "url": "https://www.youtube.com/watch?v=D_dbPhVVCf0"
+    },
     {
      "title": "(아이온큐) 적은 포트폴리오로 지분을 늘려가자!!!",
      "publishedAt": "2026-10-12 14:36",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(팔란티어) 대중이 욕하고 떠날때가 바닥이다!!!",
      "publishedAt": "2026-10-10 17:11",
      "url": "https://www.youtube.com/watch?v=mSdBlPoqpWM"
-    },
-    {
-     "title": "(시황분석) 시장이 4년연속 상승후 5년연속 상승할 확률은?",
-     "publishedAt": "2026-10-10 06:50",
-     "url": "https://www.youtube.com/watch?v=u7x-uCwfWNo"
     }
    ]
   },
@@ -105,19 +105,19 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 13일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-10-13 07:05",
+     "url": "https://www.youtube.com/watch?v=0vjckCp4EQ4"
+    },
+    {
      "title": "트럼프는 중간선거전에 이란과의 전쟁을 끝낼수 있을까?!",
      "publishedAt": "2026-10-13 02:00",
      "url": "https://www.youtube.com/watch?v=Ku3-ZEE8seQ"
     },
     {
-     "title": "유튜브 월가에서 현시점 마이크론이 저평가 됐다는 이유",
+     "title": "월가에서 현시점 마이크론이 저평가 됐다는 이유",
      "publishedAt": "2026-10-13 01:00",
      "url": "https://www.youtube.com/watch?v=gknGDs_po98"
-    },
-    {
-     "title": "금 지금 매수하기전에 꼭 봐야하는 투자포인트",
-     "publishedAt": "2026-10-13 00:00",
-     "url": "https://www.youtube.com/watch?v=K00R4oKBVho"
     },
     {
      "title": "삼성전자 107조 벌었는데 도대체 왜 또 빠질까?!",
