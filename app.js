@@ -440,7 +440,7 @@
   function rankList(items, extra) {
     if (!items || !items.length) return '<div class="muted">데이터가 없습니다.</div>';
     return items.map(function (s, i) {
-      return '<div class="rank"><div class="no">' + (i + 1) + '</div><div class="mid"><div class="nm">' + esc(s.name) + '</div>' +
+      return '<div class="rank"><div class="no">' + (i < 3 ? ["🥇", "🥈", "🥉"][i] : i + 1) + '</div><div class="mid"><div class="nm">' + esc(s.name) + '</div>' +
         '<div class="meta">' + esc(s.code) + (s.price != null ? " · " + num(s.price) : "") + "</div></div>" +
         '<div class="rt">' + pctText(s.changePct) + (extra ? '<div class="meta">' + extra(s) + "</div>" : "") + "</div></div>";
     }).join("");
@@ -470,7 +470,7 @@
 
     // 1) 돈이 들어온 테마
     var list = (R.inflow || {})[rotPeriod] || [];
-    h += '<div class="card"><h3>돈이 들어온 테마</h3>' +
+    h += '<div class="card"><h3>💸 돈이 들어온 테마</h3>' +
       seg([{ id: "1", label: "오늘" }, { id: "3", label: "최근 3일" }, { id: "5", label: "최근 5일" }], rotPeriod, "data-rp") +
       (list.length ? list.map(function (t, i) {
         return '<details class="rotrow"><summary><span class="shrank">' + (i + 1) + '</span><span class="rn">' + esc(t.name) + "</span>" +
@@ -483,7 +483,7 @@
       '<div class="muted" style="margin-top:6px">오르면서 거래대금이 평소(직전 20일 평균)보다 늘어난 테마 순서입니다. 줄을 누르면 오늘 거래대금이 큰 종목이 보입니다.</div></div>';
 
     // 2) 날짜별 주도 테마
-    h += '<div class="card"><h3>순환매 흐름 · 날짜별 주도 테마</h3>' + (R.daily || []).map(function (d) {
+    h += '<div class="card"><h3>🌊 순환매 흐름 · 날짜별 주도 테마</h3>' + (R.daily || []).map(function (d) {
       return '<div class="rotday"><span class="rd">' + md(d.date) + "</span><div>" + (d.top.length ? d.top.map(function (t, i) {
         return '<span class="uschip" style="background:' + heatColor(t.ret, 6) + '">' + ["①", "②", "③"][i] + " <b>" + esc(t.name) + "</b> " + sgn(t.ret) + " · " + t.ratio.toFixed(1) + "배</span>";
       }).join("") : '<span class="meta">뚜렷한 주도 테마 없음</span>') + "</div></div>";
@@ -491,7 +491,7 @@
 
     // 3) 히트맵
     if ((R.heat || []).length) {
-      h += '<div class="card"><h3>주도 테마 일별 등락 (최근 ' + R.days.length + '거래일)</h3><div class="rotgrid" style="grid-template-columns:minmax(96px,1.6fr) repeat(' + R.days.length + ',1fr)">' +
+      h += '<div class="card"><h3>🗓️ 주도 테마 일별 등락 (최근 ' + R.days.length + '거래일)</h3><div class="rotgrid" style="grid-template-columns:minmax(96px,1.6fr) repeat(' + R.days.length + ',1fr)">' +
         "<span></span>" + R.days.map(function (d) { return '<span class="rh">' + d.slice(8) + "</span>"; }).join("") +
         R.heat.map(function (t) {
           return '<span class="rname">' + esc(t.name) + "</span>" + t.rets.map(function (v, i) {
@@ -504,7 +504,7 @@
     // 4) 돈이 빠진 테마
     var out = (R.outflow || {})[rotPeriod] || [];
     if (out.length) {
-      h += '<div class="card"><h3>돈이 빠진 테마</h3>' + out.map(function (t) {
+      h += '<div class="card"><h3>📉 돈이 빠진 테마</h3>' + out.map(function (t) {
         return '<div class="rotrow plain"><span class="rn">' + esc(t.name) + '</span><span class="rv"><b class="down">' + sgn(t.ret) + '</b><span class="meta">거래대금 ' + t.ratio.toFixed(1) + "배 · " + won억(t.amt) + "</span></span></div>";
       }).join("") + "</div>";
     }
@@ -515,22 +515,22 @@
     var root = $("#tab-live");
     var L = D.live || {};
     var m = L[liveMarket] || {};
-    var h = sampleNote(L) + '<div class="live-head"><h2>실시간 특징주</h2>' +
+    var h = sampleNote(L) + '<div class="live-head"><h2>🔥 실시간 특징주</h2>' +
       '<button type="button" class="refresh' + (liveStatus.indexOf("실패") === 0 ? " err" : "") + '" id="live-refresh"' + (liveBusy ? " disabled" : "") + '>' +
       (liveBusy ? "불러오는 중…" : "↻ 새로고침") + "</button></div>";
     h += '<div class="muted" style="margin-bottom:8px">데이터 기준 ' + esc(L.asOf || "-") + (liveStatus ? " · " + esc(liveStatus) : "") + "</div>";
-    h += seg([{ id: "kr", label: "국내" }, { id: "us", label: "미국" }, { id: "rot", label: "테마 순환매" }], liveMarket, "data-lm");
+    h += '<div class="useg">' + seg([{ id: "kr", label: "🇰🇷 국내" }, { id: "us", label: "🇺🇸 미국" }, { id: "rot", label: "🔄 테마 순환매" }], liveMarket, "data-lm") + "</div>";
     if (liveMarket === "rot") { root.innerHTML = h + rotationHtml(); return; }
 
-    if (m.gainers) h += '<div class="card"><h3>등락률 상위</h3>' + rankBlock("gainers", m.gainers) + "</div>";
+    if (m.gainers) h += '<div class="card"><h3>🚀 등락률 상위</h3>' + rankBlock("gainers", m.gainers) + "</div>";
     if (m.value) {
-      h += '<div class="card"><h3>거래대금 상위</h3>' + rankBlock("value", m.value, function (s) {
+      h += '<div class="card"><h3>💰 거래대금 상위</h3>' + rankBlock("value", m.value, function (s) {
         return s.valueEok != null ? num(s.valueEok) + "억" : "";
       }) + "</div>";
     }
 
     if (m.themes) {
-      h += '<div class="card"><h3>테마별 강약</h3><div class="note">' +
+      h += '<div class="card"><h3>🎯 테마별 강약</h3><div class="note">' +
         '<span class="lg"><i style="background:var(--strong)"></i>강함 ' + (LIVE_STRONG > 0 ? "+" : "") + LIVE_STRONG + "% 이상</span>" +
         '<span class="lg"><i style="background:var(--weak)"></i>약함 ' + LIVE_WEAK + "% 이하</span></div>";
       m.themes.map(function (t) {
@@ -538,7 +538,7 @@
         var avg = st.length ? st.reduce(function (a, s) { return a + (Number(s.changePct) || 0); }, 0) / st.length : 0;
         return { t: t, st: st, avg: t.rate != null ? Number(t.rate) : avg };
       }).sort(function (a, b) { return b.avg - a.avg; }).forEach(function (o) {
-        h += '<div style="margin-bottom:12px"><div class="theme-head"><b>' + esc(o.t.name) + "</b>" + (o.t.total ? '<span class="meta"> 상승 ' + o.t.rise + "/" + o.t.total + "</span>" : "") + pctText(o.avg) + "</div>" +
+        h += '<div style="margin-bottom:12px"><div class="theme-head"><b>' + (o.avg >= LIVE_STRONG ? "🔥 " : o.avg <= LIVE_WEAK ? "🧊 " : "") + esc(o.t.name) + "</b>" + (o.t.total ? '<span class="meta"> 상승 ' + o.t.rise + "/" + o.t.total + "</span>" : "") + pctText(o.avg) + "</div>" +
           o.st.map(function (s) {
             return '<span class="sc ' + strengthClass(s.changePct) + '"><b>' + esc(s.name) + "</b> " + (Number(s.changePct) > 0 ? "+" : "") + (Number(s.changePct) || 0).toFixed(1) + "%</span>";
           }).join("") + "</div>";
@@ -714,11 +714,11 @@
       var ruleLabel = {};
       var ruleIds = rules.map(function (r) { return r.id; });
       rules.forEach(function (r) { ruleLabel[r.id] = r.label; });
-      var h = seg([{ id: "swing", label: "① 스윙 투자" }, { id: "long", label: "② 중장기 투자" }], view, "data-vw");
+      var h = seg([{ id: "swing", label: "🌊 ① 스윙 투자" }, { id: "long", label: "🌳 ② 중장기 투자" }], view, "data-vw");
       h += "<h2>" + (isSwing ? "스윙 투자" : "중장기 투자") + "</h2>";
       h += '<div class="card"><h3>적용 규칙</h3><ul class="plain">' +
         rules.map(function (r, i) { return '<li><span class="rtag rt-' + i + '">' + letters[i] + "</span> <b>" + esc(r.label) + "</b> — " + esc(r.desc) + "</li>"; }).join("") + "</ul></div>";
-      h += seg([{ id: "kr", label: "국내" }, { id: "us", label: "미국" }], market, "data-mk");
+      h += '<div class="useg">' + seg([{ id: "kr", label: "🇰🇷 국내" }, { id: "us", label: "🇺🇸 미국" }], market, "data-mk") + "@@RF@@</div>";
       var info = (L.scanInfo || {})[market];
       var items = (isSwing ? (L.swing || {})[market] : L[market]) || [];
       if (info && info.scanned) {
@@ -735,10 +735,11 @@
         // 규칙별 개수 (눌러서 걸러 보기)
         var cnt = {};
         items.forEach(function (s) { (s.matched || []).forEach(function (m) { cnt[m] = (cnt[m] || 0) + 1; }); });
-        h += '<div class="rulefilter">' + ['<button type="button" data-rf="" class="' + (!filter ? "on" : "") + '">전체 ' + items.length + "</button>"].concat(
+        var rf = '<div class="rulefilter">' + ['<button type="button" data-rf="" class="' + (!filter ? "on" : "") + '">전체 ' + items.length + "</button>"].concat(
           rules.map(function (r, i) {
             return '<button type="button" data-rf="' + esc(r.id) + '" class="' + (filter === r.id ? "on" : "") + '"><span class="rtag rt-' + i + '">' + letters[i] + "</span> " + (cnt[r.id] || 0) + "</button>";
           })).join("") + "</div>";
+        h = h.replace("@@RF@@", rf);
         var shown = filter ? items.filter(function (s) { return (s.matched || []).indexOf(filter) >= 0; }) : items;
         h += shown.length ? '<div class="card">' + shown.map(function (s) {
           var tags = (s.matched || []).map(function (m) {
@@ -752,7 +753,7 @@
             (s.note ? '<div class="meta">' + esc(s.note) + "</div>" : "") + "</div>";
         }).join("") + "</div>" : '<div class="card empty">이 규칙에 해당하는 종목이 없습니다.</div>';
       }
-      root.innerHTML = h;
+      root.innerHTML = h.replace("@@RF@@", "");
     }
     var filter = "";
     root.addEventListener("click", function (ev) {
@@ -775,7 +776,8 @@
     function draw() {
       var t = types.filter(function (x) { return x.id === typeId; })[0];
       var h = sampleNote(S) + "<h2>단기 트레이딩</h2>";
-      h += seg(types.map(function (x) { return { id: x.id, label: x.id + " " + (x.name || "") }; }), typeId, "data-ty");
+      var TI = { A: "⏰ ", B: "🚀 ", C: "📈 " };
+      h += '<div class="useg">' + seg(types.map(function (x) { return { id: x.id, label: (TI[x.id] || "") + x.id + " " + (x.name || "") }; }), typeId, "data-ty") + "</div>";
       if (!t) {
         h += '<div class="card empty">등록된 유형이 없습니다.</div>';
         root.innerHTML = h; return;
