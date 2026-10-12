@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-12 16:21",
+ "asOf": "2026-10-12 17:32",
  "window": "15:20~15:40",
- "status": "전 종목 2420개 중 후보 48개 점검 (기준 일봉 2026-10-08)",
+ "status": "전 종목 2420개 중 후보 50개 점검 (기준 일봉 2026-10-08)",
  "types": [
   {
    "id": "A",
@@ -29,14 +29,14 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "자동차부품",
        "after": {
-        "price": 57500.0,
-        "pct": 0.35
+        "price": 57600.0,
+        "pct": 0.52
        },
-       "marcap": 3675,
+       "marcap": 3681,
        "prevClose": 57300.0,
        "changePct": 1.4,
        "value": 88,
-       "note": "전일 +12.8% 급등 · 오늘 거래량 전일의 39% · 도지(몸통 22%) · 10일선 46,195 / 20일선 41,682 위 마감"
+       "note": "전일 +12.8% 급등 · 오늘 거래량 전일의 40% · 도지(몸통 22%) · 10일선 46,195 / 20일선 41,682 위 마감"
       }
      ]
     },
@@ -298,16 +298,16 @@ window.DASH.shortterm = {
  ],
  "diag": {
   "quotes": 2420,
-  "candidates": 48,
-  "bars": 48,
-  "naverBars": 48,
+  "candidates": 50,
+  "bars": 50,
+  "naverBars": 50,
   "kisBars": 0,
   "a1": {
-   "후보": 43,
+   "후보": 45,
    "분봉지연": 0,
    "사유": {
     "고가에서 멂": 39,
-    "등락률·거래대금 미달": 1,
+    "등락률·거래대금 미달": 3,
     "막판 거래량 비중 부족": 3
    },
    "수급자료": 0,
