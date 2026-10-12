@@ -192,12 +192,17 @@
   function capText(b) { return b >= 1000 ? "$" + (b / 1000).toFixed(2) + "T" : "$" + Math.round(b) + "B"; }
 
   /* ---------- 2장: 미국장 ---------- */
+  var usView = "mkt";
+  try { usView = localStorage.getItem("usView") || "mkt"; } catch (e) { /* 저장소 없음 */ }
+  if (["mkt", "brief", "theme"].indexOf(usView) < 0) usView = "mkt";
   function renderUS() {
     var root = $("#tab-us");
     var u = D.usmarket || {};
     var br = u.brief || null;
     var h = sampleNote(u) + "<h2>미국장 마감 &amp; 국장 대응</h2>";
     h += '<div class="muted" style="margin:-6px 0 10px">' + esc(u.asOf || "") + (u.staleNote ? " · " + esc(u.staleNote) : "") + "</div>";
+
+    var head = h; h = "";
 
     // 1) 지수·금리·환율·원자재
     var groups = [];
@@ -212,6 +217,8 @@
         return '<div class="card"><div class="nm">' + esc(i.name) + "</div>" + chg + (i.close ? '<div class="nm">' + num(i.close) + (i.kind === "yield" ? "%" : "") + "</div>" : "") + "</div>";
       }).join("") + "</div>";
     });
+
+    var pIdx = h; h = "";
 
     // 1-2) 간밤 미국장 요약·시황 (한국경제TV #당잠사 영상을 AI 가 요약)
     var dj = D.dangjamsa || {};
@@ -231,6 +238,8 @@
         (dj.status ? esc(dj.status) : "아직 요약이 만들어지지 않았습니다.") +
         (dj.url ? ' <a href="' + safeUrl(dj.url) + '" target="_blank" rel="noopener noreferrer">오늘 방송 보기 ›</a>' : "") + "</div></div>";
     }
+
+    var pDj = h; h = "";
 
     // 2) 히트맵 (S&P 500 시총 상위: 네모 크기 = 시가총액, 색 = 등락률)
     var hm = u.heatmap && (u.heatmap.items || []).length ? u.heatmap : null;
@@ -266,6 +275,8 @@
         }).join("") + heatLegend() + '<div class="muted">업종 대표 ETF의 전일 대비 등락률입니다. 작은 글씨는 연결되는 국내 업종입니다.</div></div>';
     }
 
+    var pMkt = h; h = "";
+
     // 4) AI 브리핑 (있을 때만)
     if (br) {
       h += '<div class="card"><h3>간밤 미국장 이슈</h3><p class="para">' + esc(br.usMarket) + "</p>" +
@@ -290,6 +301,8 @@
     } else if ((u.summary || []).length) {
       h += '<div class="card"><h3>어제 미국장 이슈</h3><ul class="plain">' + u.summary.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul></div>";
     }
+
+    var pBrief = h; h = "";
 
     // 5) 미국 주도 테마 → 국내 관련주
     var STR = ["", "●○○ 테마 동조", "●●○ 같은 업황", "●●● 직접 연관"];
@@ -323,6 +336,8 @@
       h += '<div class="muted" style="margin:6px 0 14px">테마 등락률은 미국 대표 종목의 평균입니다. 연결 로직과 국내 관련주는 미리 정리해 둔 일반적인 산업 연결이며 그날의 뉴스를 반영한 추천이 아닙니다. 국내 종목 옆 숫자는 오늘 현재가입니다.</div>';
     }
 
+    var pTheme = h; h = "";
+
     // 5-2) 서학개미 TOP 50 (예탁결제원 세이브로)
     var sh = u.seohak;
     if (sh && ((sh.hold || []).length || (sh.netbuy || []).length)) {
@@ -347,6 +362,8 @@
         '<div class="muted" style="margin-top:6px">출처: 한국예탁결제원 세이브로(외화증권 종목별 내역). 오른쪽 숫자는 직전 미국장 등락률입니다. ETF를 뺀 종목은 중장기 스캔 대상에 자동으로 포함됩니다.</div></div>';
     }
 
+    var pSeohak = h; h = "";
+
     // 6) AI가 그날 뉴스로 찾은 연결 (브리핑이 만들어진 날만)
     if (br && (br.connections || []).length) {
       h += "<h2>AI가 찾은 오늘의 연결</h2>";
@@ -362,12 +379,36 @@
       });
       h += '<div class="muted">AI가 검색으로 추정한 연결이라 실제 투자 전 확인이 필요합니다.</div>';
     }
+    var pConn = h; h = "";
     if (!br && u.briefStatus) {
       h += '<details class="weakbox"><summary>AI 브리핑은 아직 만들어지지 않았습니다</summary><div class="muted">' + esc(u.briefStatus) + "</div></details>";
     }
+    var pStatus = h;
+    // 화면 나누기: ① 시장(지수·히트맵·업종·서학개미) ② 간밤 요약(당잠사·AI 이슈) ③ 테마 → 국내 관련주
+    var mini = "";
+    if (usView !== "mkt" && (u.indices || []).length) {      // 다른 화면에서도 주요 지수는 한 줄로
+      mini = '<div class="uschips usmini">' + u.indices.filter(function (i) { return ["나스닥", "S&P 500", "다우", "필라델피아 반도체", "원/달러"].indexOf(i.name) >= 0; }).map(function (i) {
+        return '<span class="uschip" style="background:' + heatColor(i.changePct) + '"><b>' + esc(i.name) + "</b> " + (i.changePct > 0 ? "+" : "") + Number(i.changePct || 0).toFixed(2) + "%</span>";
+      }).join("") + "</div>";
+    }
+    var nTheme = (u.themes || []).length;
+    h = head + '<div class="useg">' + seg([{ id: "mkt", label: "📊 시장" }, { id: "brief", label: "📰 간밤 요약" },
+      { id: "theme", label: "🔗 테마·관련주" + (nTheme ? " " + nTheme : "") }], usView, "data-uv") + "</div>" + mini;
+    if (usView === "brief") h += pDj + pBrief + pStatus;
+    else if (usView === "theme") h += (pTheme || '<div class="card empty">아직 테마 자료가 없습니다.</div>') + pConn;
+    else h += pIdx + pMkt + pSeohak;
     if (!(u.indices || []).length) h += '<div class="card empty">아직 수집된 데이터가 없습니다.</div>';
     root.innerHTML = h;
     root.onclick = function (ev) {
+      var uv = ev.target.closest("[data-uv]");
+      if (uv) {
+        usView = uv.getAttribute("data-uv");
+        try { localStorage.setItem("usView", usView); } catch (e) { /* 저장 안 돼도 화면은 동작 */ }
+        renderUS();
+        var tb = root.querySelector(".useg");
+        if (tb && tb.getBoundingClientRect().top < 0) tb.scrollIntoView();
+        return;
+      }
       var sb = ev.target.closest("[data-sh]");
       if (sb) {
         var which = sb.getAttribute("data-sh");
