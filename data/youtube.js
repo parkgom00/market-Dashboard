@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-13 15:36",
+ "asOf": "2026-10-13 17:32",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,29 +9,29 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
+     "title": "힘겨운 한국증시… 주도주는 반드시 온다? / 살아남는 사람이 돈 번다… 2차전지 급락, 지금 가장 중요한 ‘이것’ㅣ 황유현 팀장",
+     "publishedAt": "2026-10-13 17:00",
+     "url": "https://www.youtube.com/watch?v=w8pimQ334Dk"
+    },
+    {
+     "title": "[#글로벌인사이트] 중국 CXMT 위협론.. 2018년 반도체 주가 폭락, 또 반복될까? / 엔비디아는 신고가인데 삼전·SK하닉은 왜?ㅣ세미콘 리서치랩 노근창 대표",
+     "publishedAt": "2026-10-13 16:00",
+     "url": "https://www.youtube.com/watch?v=i-LdOIkW_ZA"
+    },
+    {
      "title": "[#긴급시황] “-7% 코스피 폭락!” 한국 증시만 유독 무너진 이유… 외국인 매도 폭탄, 진짜 악재는 따로 있나?  | 박근형 부장",
-     "publishedAt": "2026-10-13 14:36",
+     "publishedAt": "2026-10-13 14:15",
      "url": "https://www.youtube.com/watch?v=_3F-Src6l2Q"
     },
     {
      "title": "오늘은 관망 하세요... 중국 CXMT발 노이즈?  삼전·SK하이닉스 진짜 경계할 건 ‘美국채 5%ㅣ이권희 대표",
-     "publishedAt": "2026-10-13 12:30",
+     "publishedAt": "2026-10-13 12:00",
      "url": "https://www.youtube.com/watch?v=Gwu7w_svNak"
     },
     {
      "title": "[10월13일 #장시작전] 중국 CXMT의 메모리 추격에 美 반도체주 급락… 뉴욕증시 혼조 마감  \"진짜 위기인가, 일시적 노이즈인가?’",
      "publishedAt": "2026-10-13 11:27",
      "url": "https://www.youtube.com/watch?v=dIKtUN7xS2g"
-    },
-    {
-     "title": "삼전·하닉 흔든 중국 CXMT 쇼크… 차세대 D램 기술력 진짜 위협인가? / 반도체 폭락장의 진실 ㅣ 이주연 대표",
-     "publishedAt": "2026-10-13 10:31",
-     "url": "https://www.youtube.com/watch?v=deJpw1Q8hm0"
-    },
-    {
-     "title": "[#찐시황]  “오늘 주가 폭락 너무 심했다!” 장 막판 선물 7,500억 쓸어담은 외국인… 내일 증시  반등 신호 인가?  ㅣ이권희 대표",
-     "publishedAt": "2026-10-12 20:00",
-     "url": "https://www.youtube.com/watch?v=Qx2fzi3p8Kg"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(반도체) 지금 던지고 가야하나?",
+     "publishedAt": "2026-10-13 16:16",
+     "url": "https://www.youtube.com/watch?v=wsC6aM7tSk4"
+    },
     {
      "title": "(시황분석) 정말 메모리 반도체 끝났나? 갈길 많이 남았다",
      "publishedAt": "2026-10-13 05:51",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(관심종목) 주식은 처음 살때 깊히있게 고민하고 들어가야 좋은 주식이라도 고점에 안들어간다",
      "publishedAt": "2026-10-11 06:53",
      "url": "https://www.youtube.com/watch?v=Dp5U02khx44"
-    },
-    {
-     "title": "(팔란티어) 대중이 욕하고 떠날때가 바닥이다!!!",
-     "publishedAt": "2026-10-10 17:11",
-     "url": "https://www.youtube.com/watch?v=mSdBlPoqpWM"
     }
    ]
   },
@@ -93,9 +93,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=1jiX4quCdTg"
     },
     {
-     "title": "[몰아보기] 반도체 소부장 전략 AtoZ? 한 방에 정리!!",
-     "publishedAt": "2026-10-04",
-     "url": "https://www.youtube.com/watch?v=2VsqPGX9ovY"
+     "title": "[실전 투자 스터디] 미국 매크로 봐야하는 단 한 가지 이유",
+     "publishedAt": "2026-10-06 18:00",
+     "url": "https://www.youtube.com/watch?v=W6uO9N2Dttk"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "트럼프는 중간선거 전에 이란과의 전쟁을 끝낼까",
-     "publishedAt": "2026-10-12 21:40",
-     "url": "https://www.youtube.com/watch?v=SWGYpEh9g0A"
+     "title": "AI가 결국 성공할수 밖에 없는 진짜 이유",
+     "publishedAt": "2026-10-13 17:25",
+     "url": "https://www.youtube.com/watch?v=-X1BqiEoVpI"
     },
     {
-     "title": "다음주 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-10-10",
-     "url": "https://www.youtube.com/watch?v=PYO9NW-X05w"
+     "title": "한국에 들어오는 외국인 투자자들은 개인 투자자일까?!",
+     "publishedAt": "2026-10-13 15:51",
+     "url": "https://www.youtube.com/watch?v=nvreB4szf8M"
     },
     {
-     "title": "삼성전자, 지금이 저가 매수 기회일까?!",
-     "publishedAt": "2026-10-09",
-     "url": "https://www.youtube.com/watch?v=MCu7HRunY4s"
+     "title": "코스피 하락장은 도대체 언제 끝날까?!",
+     "publishedAt": "2026-10-13 14:23",
+     "url": "https://www.youtube.com/watch?v=Mm-GvdfCgGc"
     },
     {
-     "title": "경제사냥꾼 종목 분석기, 내 종목 하나만 끝까지 파고듭니다",
-     "publishedAt": "2026-10-09",
-     "url": "https://www.youtube.com/watch?v=xcKCkQF5I04"
+     "title": "10월 13일 미국장 열리기 전 꼭 알아야 하는 '미장 시황' 투자 포인트",
+     "publishedAt": "2026-10-13 13:04",
+     "url": "https://www.youtube.com/watch?v=Lb_4zJrDvUo"
     },
     {
-     "title": "초보자가 꼭 봐야하는 'AI 주식' 매수 타이밍",
-     "publishedAt": "2026-10-08",
-     "url": "https://www.youtube.com/watch?v=jvs7I0j1oSE"
+     "title": "삼전닉스 중국한테 진짜 따라잡힐까?!",
+     "publishedAt": "2026-10-13 11:55",
+     "url": "https://www.youtube.com/watch?v=o7EzJ3ipWiU"
     }
    ]
   },
@@ -137,9 +137,19 @@ window.DASH.youtube = {
    "handle": "@김단테",
    "videos": [
     {
-     "title": "또 메모리만 패는 나스닥",
+     "title": "코스피 역대급 대폭락의 3가지 이유 #코스피 #CXMT #삼성전자",
+     "publishedAt": "2026-10-13 14:36",
+     "url": "https://www.youtube.com/watch?v=YfnyQJ5FTOA"
+    },
+    {
+     "title": "또 메모리만 패는 증시",
      "publishedAt": "2026-10-13 03:07",
      "url": "https://www.youtube.com/watch?v=4Wt_PZqM5ZE"
+    },
+    {
+     "title": "코스피 코스닥 폭락의 주범 #코스피 #코스닥 #OpenAI",
+     "publishedAt": "2026-10-12 17:27",
+     "url": "https://www.youtube.com/watch?v=-aQybbK5sCI"
     },
     {
      "title": "OpenAI의 매출 200억 달러가 사라졌다??",
@@ -150,16 +160,6 @@ window.DASH.youtube = {
      "title": "엔비디아가 숨기고 싶은 진짜 리스크",
      "publishedAt": "2026-10-09 02:34",
      "url": "https://www.youtube.com/watch?v=X2zIotF_JEY"
-    },
-    {
-     "title": "나스닥 연일 신고가의 진짜 이유",
-     "publishedAt": "2026-10-07",
-     "url": "https://www.youtube.com/watch?v=ffpwNQMKSv4"
-    },
-    {
-     "title": "AI 에이전트 최종승자 결국 여기입니다.",
-     "publishedAt": "2026-10-04",
-     "url": "https://www.youtube.com/watch?v=UnZF4mvPjMY"
     }
    ]
   },
@@ -172,11 +172,6 @@ window.DASH.youtube = {
      "title": "AI투자 판도 조용히 바뀌는 중? 부진했던 빅테크, 팔란티어의 수상한 신고가",
      "publishedAt": "2026-10-12 21:12",
      "url": "https://www.youtube.com/watch?v=ILs31CN-_VA"
-    },
-    {
-     "title": "지금은 2003년? AI인프라 다음 노려라?/스페이스X 통신까지 진출, 본격 랠리 시작?/이때는 증시도 위험? 월가 초고수의 경고",
-     "publishedAt": "2026-10-12",
-     "url": "https://www.youtube.com/watch?v=b414IoVg0To"
     },
     {
      "title": "AI사이클 더 큰 한 방 남았다? 증시 의심의 벽 뚫고 올라갈까",
@@ -192,6 +187,11 @@ window.DASH.youtube = {
      "title": "끌로드, 챗GPT가 주식투자도 대신해준다? AI 실생활 침투 가속화의 수혜주들",
      "publishedAt": "2026-10-07 21:05",
      "url": "https://www.youtube.com/watch?v=bL2q1ZfwdJA"
+    },
+    {
+     "title": "2년만에 재결합한 머스크와 트럼프, 두 거물 화해의 수혜주들",
+     "publishedAt": "2026-10-06 17:30",
+     "url": "https://www.youtube.com/watch?v=ha4-lyhvafM"
     }
    ]
   }
