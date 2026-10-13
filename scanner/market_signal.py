@@ -89,6 +89,62 @@ def follow_through(bars, i):
     return {"state": "none", "ok": False, "text": "최근 25일 안에 새 저점이 없어 해당 없음"}
 
 
+def kis_index(iscd, days=420):
+    """한국투자 업종 일봉 (코스피 0001, 코스닥 1001). 100개씩 거꾸로 받아 이어 붙임."""
+    import kis
+    if not kis.enabled():
+        return []
+    got, end = {}, dt.datetime.now(KST)
+    stop = end - dt.timedelta(days=days)
+    for _ in range(6):
+        start = end - dt.timedelta(days=140)
+        r = kis.get("/uapi/domestic-stock/v1/quotations/inquire-daily-indexchartprice", "FHKUP03500100",
+                    {"FID_COND_MRKT_DIV_CODE": "U", "FID_INPUT_ISCD": iscd, "FID_INPUT_DATE_1": start.strftime("%Y%m%d"),
+                     "FID_INPUT_DATE_2": end.strftime("%Y%m%d"), "FID_PERIOD_DIV_CODE": "D"})
+        rows = (r or {}).get("output2") or []
+        n0 = len(got)
+        for x in rows:
+            d = str(x.get("stck_bsop_date") or "")
+            try:
+                bar = {"date": f"{d[:4]}-{d[4:6]}-{d[6:]}", "o": float(x["bstp_nmix_oprc"]), "h": float(x["bstp_nmix_hgpr"]),
+                       "l": float(x["bstp_nmix_lwpr"]), "c": float(x["bstp_nmix_prpr"]), "v": float(x.get("acml_vol") or 0)}
+            except (KeyError, TypeError, ValueError):
+                continue
+            if len(d) == 8 and bar["c"] > 0:
+                got[bar["date"]] = bar
+        if len(got) == n0:
+            break
+        oldest = min(got)
+        end = dt.datetime.strptime(oldest, "%Y-%m-%d").replace(tzinfo=KST) - dt.timedelta(days=1)
+        if end < stop:
+            break
+    return [got[k] for k in sorted(got)]
+
+
+def load_index(fetch):
+    """코스피·코스닥 일봉. 장마감 작업(fetch=True)은 한국투자에서 받아 저장, 아침 작업은 저장본 사용. 안 되면 FinanceDataReader."""
+    path = os.path.join(OUT, "index_bars.json")
+    src = {}
+    if fetch:
+        try:
+            src = {"kospi": kis_index("0001"), "kosdaq": kis_index("1001")}
+            if len(src["kospi"]) >= 210 and len(src["kosdaq"]) >= 210:
+                with open(path, "w", encoding="utf-8") as f:
+                    json.dump(src, f, separators=(",", ":"))
+                return src, "한국투자"
+        except Exception as e:
+            print("한국투자 지수 실패:", type(e).__name__, e)
+    try:
+        with open(path, encoding="utf-8") as f:
+            src = json.load(f)
+        if len(src.get("kospi", [])) >= 210:
+            return src, "저장본(한국투자)"
+    except Exception:
+        pass
+    start = (dt.datetime.now(KST) - dt.timedelta(days=500)).strftime("%Y-%m-%d")
+    return {"kospi": index_series("KS11", start), "kosdaq": index_series("KQ11", start)}, "FinanceDataReader"
+
+
 # ───────────── 미국·환율 (yfinance) ─────────────
 def yf_series(sym):
     import yfinance as yf
@@ -256,9 +312,9 @@ def chart(bars, n=120):
 
 def main(fetch_flows=False):
     now = dt.datetime.now(KST)
-    start = (now - dt.timedelta(days=500)).strftime("%Y-%m-%d")
     diag = {}
-    kospi, kosdaq = index_series("KS11", start), index_series("KQ11", start)
+    idx, diag["indexSource"] = load_index(fetch_flows)
+    kospi, kosdaq = idx["kospi"], idx["kosdaq"]
     drop_today = (now.hour, now.minute) < (15, 40)
     if drop_today:   # 장중에는 오늘 봉이 미완성이라 뺀다
         today = now.strftime("%Y-%m-%d")
@@ -285,7 +341,7 @@ def main(fetch_flows=False):
     if fetch_flows:
         try:
             got, info = kis_flows()
-            diag["flows"] = info
+            diag["flows"] = {k: v for k, v in info.items() if k != "sample"} if isinstance(info, dict) else info
             if got:
                 flows.update(got)
                 with open(flows_path, "w", encoding="utf-8") as f:
