@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-13 07:26",
+ "asOf": "2026-10-13 09:40",
  "channels": [
   {
    "name": "815머니톡",
@@ -93,9 +93,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=1jiX4quCdTg"
     },
     {
-     "title": "[실전 투자 스터디] 미국 매크로 봐야하는 단 한 가지 이유",
-     "publishedAt": "2026-10-06 18:00",
-     "url": "https://www.youtube.com/watch?v=W6uO9N2Dttk"
+     "title": "[몰아보기] 반도체 소부장 전략 AtoZ? 한 방에 정리!!",
+     "publishedAt": "2026-10-04",
+     "url": "https://www.youtube.com/watch?v=2VsqPGX9ovY"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "10월 13일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-10-13 07:05",
-     "url": "https://www.youtube.com/watch?v=0vjckCp4EQ4"
+     "title": "트럼프는 중간선거 전에 이란과의 전쟁을 끝낼까",
+     "publishedAt": "2026-10-12 21:40",
+     "url": "https://www.youtube.com/watch?v=SWGYpEh9g0A"
     },
     {
-     "title": "트럼프는 중간선거전에 이란과의 전쟁을 끝낼수 있을까?!",
-     "publishedAt": "2026-10-13 02:00",
-     "url": "https://www.youtube.com/watch?v=Ku3-ZEE8seQ"
+     "title": "다음주 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-10-10",
+     "url": "https://www.youtube.com/watch?v=PYO9NW-X05w"
     },
     {
-     "title": "월가에서 현시점 마이크론이 저평가 됐다는 이유",
-     "publishedAt": "2026-10-13 01:00",
-     "url": "https://www.youtube.com/watch?v=gknGDs_po98"
+     "title": "삼성전자, 지금이 저가 매수 기회일까?!",
+     "publishedAt": "2026-10-09",
+     "url": "https://www.youtube.com/watch?v=MCu7HRunY4s"
     },
     {
-     "title": "삼성전자 107조 벌었는데 도대체 왜 또 빠질까?!",
-     "publishedAt": "2026-10-12 23:30",
-     "url": "https://www.youtube.com/watch?v=D79mLAf2wXE"
+     "title": "경제사냥꾼 종목 분석기, 내 종목 하나만 끝까지 파고듭니다",
+     "publishedAt": "2026-10-09",
+     "url": "https://www.youtube.com/watch?v=xcKCkQF5I04"
     },
     {
-     "title": "10월 12일 미국장 열리기 전 꼭 알아야 하는 '미장 시황' 투자 포인트",
-     "publishedAt": "2026-10-12 22:47",
-     "url": "https://www.youtube.com/watch?v=btxXzulHHAY"
+     "title": "초보자가 꼭 봐야하는 'AI 주식' 매수 타이밍",
+     "publishedAt": "2026-10-08",
+     "url": "https://www.youtube.com/watch?v=jvs7I0j1oSE"
     }
    ]
   },
@@ -142,11 +142,6 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=4Wt_PZqM5ZE"
     },
     {
-     "title": "코스피 코스닥 폭락의 주범 #코스피 #코스닥 #OpenAI",
-     "publishedAt": "2026-10-12 17:27",
-     "url": "https://www.youtube.com/watch?v=-aQybbK5sCI"
-    },
-    {
      "title": "OpenAI의 매출 200억 달러가 사라졌다??",
      "publishedAt": "2026-10-09 03:22",
      "url": "https://www.youtube.com/watch?v=k1Ysumyvyio"
@@ -157,9 +152,14 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=X2zIotF_JEY"
     },
     {
-     "title": "삼성전자 역대급 실적에도 반응이 싸늘한 이유 #삼성전자 #코스피 #하이닉스",
-     "publishedAt": "2026-10-08 13:34",
-     "url": "https://www.youtube.com/watch?v=ILoaqN3AI6Y"
+     "title": "나스닥 연일 신고가의 진짜 이유",
+     "publishedAt": "2026-10-07",
+     "url": "https://www.youtube.com/watch?v=ffpwNQMKSv4"
+    },
+    {
+     "title": "AI 에이전트 최종승자 결국 여기입니다.",
+     "publishedAt": "2026-10-04",
+     "url": "https://www.youtube.com/watch?v=UnZF4mvPjMY"
     }
    ]
   },
