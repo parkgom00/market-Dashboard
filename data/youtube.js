@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-13 11:28",
+ "asOf": "2026-10-13 13:30",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,14 +9,19 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
-     "title": "삼전·하닉 흔든 중국 CXMT 쇼크… 차세대 D램 기술력 진짜 위협인가? / 반도체 폭락장의 진실 ㅣ 이주연 대표",
-     "publishedAt": "2026-10-13 10:31",
-     "url": "https://www.youtube.com/watch?v=deJpw1Q8hm0"
+     "title": "오늘은 관망 하세요... 중국 CXMT발 노이즈?  삼전·SK하이닉스 진짜 경계할 건 ‘美국채 5%ㅣ이권희 대표",
+     "publishedAt": "2026-10-13 12:30",
+     "url": "https://www.youtube.com/watch?v=Gwu7w_svNak"
     },
     {
      "title": "[10월13일 #장시작전] 중국 CXMT의 메모리 추격에 美 반도체주 급락… 뉴욕증시 혼조 마감  \"진짜 위기인가, 일시적 노이즈인가?’",
      "publishedAt": "2026-10-13 11:27",
      "url": "https://www.youtube.com/watch?v=dIKtUN7xS2g"
+    },
+    {
+     "title": "삼전·하닉 흔든 중국 CXMT 쇼크… 차세대 D램 기술력 진짜 위협인가? / 반도체 폭락장의 진실 ㅣ 이주연 대표",
+     "publishedAt": "2026-10-13 10:31",
+     "url": "https://www.youtube.com/watch?v=deJpw1Q8hm0"
     },
     {
      "title": "[#찐시황]  “오늘 주가 폭락 너무 심했다!” 장 막판 선물 7,500억 쓸어담은 외국인… 내일 증시  반등 신호 인가?  ㅣ이권희 대표",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] “이렇게까지 빠질 이유가 있나?” 1,850개 종목 하락장  / 외국인이 2.5조 투매한 진짜 이유  | 황유현 팀장",
      "publishedAt": "2026-10-12 18:30",
      "url": "https://www.youtube.com/watch?v=2RlqUZVUnK8"
-    },
-    {
-     "title": "[#긴급인터뷰]  삼성전자·SK하이닉스 주가 급락… 우리가 모르는 악재가 있나? / 외국인 매수 다시 시작될 결정적 신호는 ‘이것’  | 이형수 대표",
-     "publishedAt": "2026-10-12 17:00",
-     "url": "https://www.youtube.com/watch?v=pY5g8L07pjE"
     }
    ]
   },
@@ -93,9 +93,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=1jiX4quCdTg"
     },
     {
-     "title": "[실전 투자 스터디] 미국 매크로 봐야하는 단 한 가지 이유",
-     "publishedAt": "2026-10-06 18:00",
-     "url": "https://www.youtube.com/watch?v=W6uO9N2Dttk"
+     "title": "[몰아보기] 반도체 소부장 전략 AtoZ? 한 방에 정리!!",
+     "publishedAt": "2026-10-04",
+     "url": "https://www.youtube.com/watch?v=2VsqPGX9ovY"
     }
    ]
   },
@@ -142,11 +142,6 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=4Wt_PZqM5ZE"
     },
     {
-     "title": "코스피 코스닥 폭락의 주범 #코스피 #코스닥 #OpenAI",
-     "publishedAt": "2026-10-12 17:27",
-     "url": "https://www.youtube.com/watch?v=-aQybbK5sCI"
-    },
-    {
      "title": "OpenAI의 매출 200억 달러가 사라졌다??",
      "publishedAt": "2026-10-09 03:22",
      "url": "https://www.youtube.com/watch?v=k1Ysumyvyio"
@@ -157,9 +152,14 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=X2zIotF_JEY"
     },
     {
-     "title": "삼성전자 역대급 실적에도 반응이 싸늘한 이유 #삼성전자 #코스피 #하이닉스",
-     "publishedAt": "2026-10-08 13:34",
-     "url": "https://www.youtube.com/watch?v=ILoaqN3AI6Y"
+     "title": "나스닥 연일 신고가의 진짜 이유",
+     "publishedAt": "2026-10-07",
+     "url": "https://www.youtube.com/watch?v=ffpwNQMKSv4"
+    },
+    {
+     "title": "AI 에이전트 최종승자 결국 여기입니다.",
+     "publishedAt": "2026-10-04",
+     "url": "https://www.youtube.com/watch?v=UnZF4mvPjMY"
     }
    ]
   },
