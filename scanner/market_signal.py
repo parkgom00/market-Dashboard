@@ -21,6 +21,7 @@ DIST_DROP = -0.2        # 분산일: 지수 -0.2% 이하 하락 + 거래량 전�
 DIST_WIN = 25           # 최근 25거래일 안에서 센다
 DIST_YELLOW, DIST_RED = 3, 5
 FTD_MIN_DAY, FTD_PCT = 4, 1.5   # 반등 확인일: 저점 뒤 4일째 이후 +1.5% 이상 + 거래량 증가
+FTD_MAX_DAY, FTD_LOOK = 15, 20  # 저점 = 최근 20거래일 최저 종가, 확인일은 저점 뒤 15일째까지만 인정
 BREADTH_GREEN, BREADTH_RED = 50, 30   # 20일선 위 종목 비율(%)
 VIX_GREEN, VIX_RED = 18, 25
 FX_RED, FX_YELLOW = 2.0, 0.7          # 원/달러 20일 상승률(%)
@@ -74,19 +75,22 @@ def dist_days(bars, i):
 
 
 def follow_through(bars, i):
-    """최근 40일 최저 종가 이후 반등 확인일(FTD)이 있었는지."""
-    lo_i = min(range(max(0, i - 39), i + 1), key=lambda k: bars[k]["c"])
+    """지금 조정의 저점(최근 20거래일 최저 종가) 뒤에 반등 확인일(FTD)이 나왔는지. 오닐 기준: 저점 뒤 4~15일째."""
+    lo_i = min(range(max(0, i - FTD_LOOK + 1), i + 1), key=lambda k: bars[k]["c"])
     days_since = i - lo_i
+    lo_txt = bars[lo_i]["date"][5:].replace("-", "/")
     if days_since == 0:
-        return {"state": "low", "text": "오늘 최근 40일 최저 종가 · 반등 시작 전", "ok": False}
-    for k in range(lo_i + FTD_MIN_DAY, i + 1):
+        return {"state": "low", "ok": False, "text": f"오늘이 최근 {FTD_LOOK}일 최저 종가 · 반등 시작 전"}
+    for k in range(lo_i + FTD_MIN_DAY, min(i, lo_i + FTD_MAX_DAY) + 1):
         p = (bars[k]["c"] / bars[k - 1]["c"] - 1) * 100
         if p >= FTD_PCT and bars[k]["v"] > bars[k - 1]["v"]:
             return {"state": "ftd", "date": bars[k]["date"], "ok": True,
-                    "text": f"{bars[k]['date'][5:].replace('-', '/')} 반등 확인일 (저점 뒤 {k - lo_i}일째 +{p:.1f}%, 거래량 증가)"}
-    if days_since <= 25:
-        return {"state": "attempt", "ok": False, "text": f"저점({bars[lo_i]['date'][5:].replace('-', '/')}) 뒤 {days_since}일째 · 확인일(+{FTD_PCT}% & 거래량 증가) 대기"}
-    return {"state": "none", "ok": False, "text": "최근 25일 안에 새 저점이 없어 해당 없음"}
+                    "text": f"{bars[k]['date'][5:].replace('-', '/')} 반등 확인일 (저점 {lo_txt} 뒤 {k - lo_i}일째 +{p:.1f}%, 거래량 증가)"}
+    if days_since < FTD_MIN_DAY:
+        return {"state": "attempt", "ok": False, "text": f"저점({lo_txt}) 뒤 {days_since}일째 · {FTD_MIN_DAY}일째부터 확인일(+{FTD_PCT}% & 거래량 증가) 확인"}
+    if days_since <= FTD_MAX_DAY:
+        return {"state": "attempt", "ok": False, "text": f"저점({lo_txt}) 뒤 {days_since}일째 · 확인일(+{FTD_PCT}% & 거래량 증가) 아직 없음"}
+    return {"state": "none", "ok": False, "text": f"저점({lo_txt}) 뒤 {FTD_MAX_DAY}일 안에 확인일 없음"}
 
 
 def kis_index(iscd, days=420):
