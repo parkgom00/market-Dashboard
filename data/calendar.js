@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-13 15:17",
+ "generatedAt": "2026-10-13 21:18",
  "events": [
   {
    "date": "2026-01-01",
@@ -1859,7 +1859,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "일라이릴리 실적 발표",
    "result": [
-    "EPS 예상 $9.83",
+    "EPS 예상 $7.54",
     "장 시작 전"
    ]
   },
