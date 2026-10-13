@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-13 19:30",
+ "asOf": "2026-10-13 21:36",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황]  “비정상적인 투매의 진실!” 현물 5조 던지고 선물 4,000억 쓸어담았다… 장 막판 돌변한 외국인의 속내 (증시폭락) 박현상 이사",
+     "publishedAt": "2026-10-13 20:00",
+     "url": "https://www.youtube.com/watch?v=9M5TRRXKqo0"
+    },
     {
      "title": "[#긴급인터뷰] 검은 화요일... 한국 증시만 더 추락한 이유 / 폭락한 삼성전자·SK하이닉스... 지금 살까, 팔까?  | 김민수 대표",
      "publishedAt": "2026-10-13 18:30",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] “-7% 코스피 폭락!” 한국 증시만 유독 무너진 이유… 외국인 매도 폭탄, 진짜 악재는 따로 있나?  | 박근형 부장",
      "publishedAt": "2026-10-13 14:15",
      "url": "https://www.youtube.com/watch?v=_3F-Src6l2Q"
-    },
-    {
-     "title": "오늘은 관망 하세요... 중국 CXMT발 노이즈?  삼전·SK하이닉스 진짜 경계할 건 ‘美국채 5%ㅣ이권희 대표",
-     "publishedAt": "2026-10-13 12:00",
-     "url": "https://www.youtube.com/watch?v=Gwu7w_svNak"
     }
    ]
   },
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 13일 외국인이 한국인 몰래 매수한 종목 정체",
+     "publishedAt": "2026-10-13 20:59",
+     "url": "https://www.youtube.com/watch?v=dzDBnAjcvHU"
+    },
+    {
+     "title": "외국인이 코스피를 계속 팔고 있는 진짜 이유",
+     "publishedAt": "2026-10-13 20:12",
+     "url": "https://www.youtube.com/watch?v=Bla7gUB1hQM"
+    },
+    {
      "title": "한국투자자가 미국 중간선거 예측 하는 방법",
      "publishedAt": "2026-10-13 19:21",
      "url": "https://www.youtube.com/watch?v=JjXkIhYSn4E"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "한국에 들어오는 외국인 투자자들은 개인 투자자일까?!",
      "publishedAt": "2026-10-13 15:51",
      "url": "https://www.youtube.com/watch?v=nvreB4szf8M"
-    },
-    {
-     "title": "코스피 하락장은 도대체 언제 끝날까?!",
-     "publishedAt": "2026-10-13 14:23",
-     "url": "https://www.youtube.com/watch?v=Mm-GvdfCgGc"
-    },
-    {
-     "title": "10월 13일 미국장 열리기 전 꼭 알아야 하는 '미장 시황' 투자 포인트",
-     "publishedAt": "2026-10-13 13:04",
-     "url": "https://www.youtube.com/watch?v=Lb_4zJrDvUo"
     }
    ]
   },
@@ -136,6 +136,11 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
+    {
+     "title": "코스피가 무너진 근본적인 이유 (CXMT 아님)",
+     "publishedAt": "2026-10-13 21:23",
+     "url": "https://www.youtube.com/watch?v=hzomN7wiW_8"
+    },
     {
      "title": "코스피 역대급 대폭락의 3가지 이유 #코스피 #CXMT #삼성전자",
      "publishedAt": "2026-10-13 14:36",
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "OpenAI의 매출 200억 달러가 사라졌다??",
      "publishedAt": "2026-10-09 03:22",
      "url": "https://www.youtube.com/watch?v=k1Ysumyvyio"
-    },
-    {
-     "title": "엔비디아가 숨기고 싶은 진짜 리스크",
-     "publishedAt": "2026-10-09 02:34",
-     "url": "https://www.youtube.com/watch?v=X2zIotF_JEY"
     }
    ]
   },
@@ -168,6 +168,11 @@ window.DASH.youtube = {
    "channelId": "UCC3yfxS5qC6PCwDzetUuEWg",
    "handle": "@sosumonkey",
    "videos": [
+    {
+     "title": "스페이스X의 반격 시작? 머스크의 호언장담 현실 될까",
+     "publishedAt": "2026-10-13 20:11",
+     "url": "https://www.youtube.com/watch?v=_LOD9GYd1Qk"
+    },
     {
      "title": "AI투자 판도 조용히 바뀌는 중? 부진했던 빅테크, 팔란티어의 수상한 신고가",
      "publishedAt": "2026-10-12 21:12",
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "끌로드, 챗GPT가 주식투자도 대신해준다? AI 실생활 침투 가속화의 수혜주들",
      "publishedAt": "2026-10-07 21:05",
      "url": "https://www.youtube.com/watch?v=bL2q1ZfwdJA"
-    },
-    {
-     "title": "2년만에 재결합한 머스크와 트럼프, 두 거물 화해의 수혜주들",
-     "publishedAt": "2026-10-06 17:30",
-     "url": "https://www.youtube.com/watch?v=ha4-lyhvafM"
     }
    ]
   }
