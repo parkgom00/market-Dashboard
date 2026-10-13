@@ -98,6 +98,16 @@
         lineChart(S.breadth.map(function (b) { return [b.date, b.pct]; }), { h: 140, min: 0, max: 100, series: [{ i: 1, color: "#0f6fde", w: 2, name: "20일선 위 종목 %" }], guides: [{ y: 50, label: "50%" }, { y: 30, label: "30%" }], fmt: function (v) { return Math.round(v) + "%"; } }) +
         '<div class="muted">50% 위면 대부분 종목이 오르는 장, 30% 아래면 대부분이 빠지는 장입니다. 지수보다 먼저 꺾이거나 먼저 돌아서는 경우가 많습니다.</div></div>';
     }
+    var bt = S.bottom || [];
+    if (bt.length) {
+      var hitN = bt.filter(function (x) { return x.hit; }).length;
+      var lvl = hitN >= 6 ? ["극단적 바닥권", "good"] : hitN >= 4 ? ["바닥권 징후 뚜렷", "good"] : hitN >= 2 ? ["일부 과매도", ""] : ["바닥권 아님", ""];
+      h += '<div class="card"><h3>🧭 바닥권 징후 (코스피) <span class="sig-cnt' + (lvl[1] ? " good" : "") + '">' + hitN + " / " + bt.length + " · " + lvl[0] + "</span></h3>" +
+        '<div class="muted" style="margin-bottom:6px">"여기가 바닥"이 아니라 "팔 사람이 많이 팔았다"는 흔적입니다. 하락장에서 여러 번 나올 수 있으니, 해당 수가 많아도 아주 작게 나눠서만 보고 위의 "다시 들어갈 때 신호"로 확인하세요.</div>' +
+        bt.map(function (x) {
+          return '<div class="sig-row ' + (x.hit ? "red" : "off") + '"><span class="sig-dot">' + (x.hit ? "🔥" : "⬜") + '</span><div class="sig-txt"><b>' + esc(x.title) + "</b><span>" + esc(x.text) + '</span></div><span class="sig-val">' + esc(x.value) + "</span></div>";
+        }).join("") + "</div>";
+    }
     h += '<details class="card rulesbox"><summary>ℹ️ 신호등은 이렇게 정합니다</summary><ul class="plain">' +
       "<li>🔴 쉬기: 코스피 추세와 시장 폭이 둘 다 빨강이거나, 빨강 신호가 5개 이상</li>" +
       "<li>🟢 공격 가능: 코스피 추세와 시장 폭이 초록이고 빨강이 1개 이하</li><li>🟡 조심: 그 밖의 경우</li>" +

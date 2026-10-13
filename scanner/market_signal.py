@@ -303,7 +303,73 @@ def evaluate(day, kospi, kosdaq, breadth, us, flows):
         if len(fd) == 3:
             re.append({"title": "외국인 순매수 전환", "ok": all(flows[d]["f"] > 0 for d in fd),
                        "text": "최근 3일 외국인 " + " · ".join(f"{flows[d]['f']:+,.0f}억" for d in fd)})
-    return {"overall": overall, "reds": reds, "yellows": yell, "signals": sig, "reentry": re}
+    return {"overall": overall, "reds": reds, "yellows": yell, "signals": sig, "reentry": re,
+            "bottom": bottom_signs(ik, kospi, bi, breadth, us, flows, day)}
+
+
+def rsi(cs, n=14):
+    if len(cs) <= n:
+        return None
+    g = [max(0.0, cs[i] - cs[i - 1]) for i in range(1, len(cs))]
+    l = [max(0.0, cs[i - 1] - cs[i]) for i in range(1, len(cs))]
+    ag, al = sum(g[:n]) / n, sum(l[:n]) / n
+    for i in range(n, len(g)):
+        ag, al = (ag * (n - 1) + g[i]) / n, (al * (n - 1) + l[i]) / n
+    return 100.0 if al == 0 else 100 - 100 / (1 + ag / al)
+
+
+def bottom_signs(ik, kospi, bi, breadth, us, flows, day):
+    """바닥권 징후 (코스피 기준). 바닥 '확인'이 아니라 '팔 사람이 많이 팔았다'는 흔적."""
+    out = []
+    if ik is None or ik < 60:
+        return out
+    bars = kospi[:ik + 1]
+    cs = [b["c"] for b in bars]
+    c, m20 = cs[-1], sum(cs[-20:]) / 20
+    gap = (c / m20 - 1) * 100
+    out.append({"title": "20일선 이격도", "hit": gap <= -8, "value": f"{gap:+.1f}%", "text": "-8% 이하면 단기간에 과하게 빠진 상태"})
+    r = rsi(cs[-120:])
+    if r is not None:
+        out.append({"title": "RSI(14) 과매도", "hit": r <= 30, "value": f"{r:.0f}", "text": "30 이하 과매도 · 20 이하 극단적 과매도"})
+    hi = max(cs[-60:])
+    dd = (c / hi - 1) * 100
+    out.append({"title": "60일 고점 대비 낙폭", "hit": dd <= -10, "value": f"{dd:.1f}%", "text": f"고점 {hi:,.0f} 대비 · -10% 조정, -20% 이하는 약세장 수준"})
+    vav = sum(b["v"] for b in bars[-21:-1]) / 20 if len(bars) > 21 else 0
+    clim = None
+    for b0, b1 in zip(bars[-6:-1], bars[-5:]):
+        p = (b1["c"] / b0["c"] - 1) * 100
+        if vav and p <= -2 and b1["v"] >= vav * 1.5:
+            clim = (b1["date"], p, b1["v"] / vav)
+    out.append({"title": "투매 거래량", "hit": bool(clim),
+                "value": f"{clim[2]:.1f}배" if clim else "-",
+                "text": (f"{clim[0][5:].replace('-', '/')} {clim[1]:+.1f}% 급락에 거래량 평소의 {clim[2]:.1f}배" if clim else "최근 5일 중 -2%↓ 급락 + 거래량 평소 1.5배↑ 인 날 없음")})
+    if bi is not None:
+        rec = breadth[max(0, bi - 4):bi + 1]
+        worst = max(rec, key=lambda x: x["down"] / x["n"] if x["n"] else 0)
+        dp = worst["down"] / worst["n"] * 100 if worst["n"] else 0
+        out.append({"title": "하락 종목 90% 이상인 날", "hit": dp >= 90, "value": f"{dp:.0f}%",
+                    "text": f"최근 5일 중 가장 많이 빠진 날({worst['date'][5:].replace('-', '/')}) 전 종목의 {dp:.0f}% 하락 · 90% 넘으면 투매"})
+        pa = breadth[bi]["above20"] / breadth[bi]["n"] * 100 if breadth[bi]["n"] else 0
+        out.append({"title": "20일선 위 종목 극단적 감소", "hit": pa <= 15, "value": f"{pa:.0f}%", "text": "15% 이하면 극단적 공포 (대부분 종목이 무너진 상태)"})
+        lows = [x["newLow"] for x in breadth[max(0, bi - 9):bi + 1]]
+        peak = max(lows) if lows else 0
+        last3 = sum(lows[-3:]) / 3 if len(lows) >= 3 else 0
+        out.append({"title": "신저가 종목 정점 통과", "hit": peak >= 50 and lows.index(peak) < len(lows) - 1 and last3 < peak * 0.6,
+                    "value": f"{lows[-1]}개", "text": f"최근 10일 최다 {peak}개 · 정점 뒤 최근 3일 평균이 정점의 60% 아래로 줄면 해당"})
+    vx = us.get("vix") or []
+    j = last_before(vx, day)
+    if j is not None:
+        mx = max(v for _, v in vx[max(0, j - 20):j + 1])
+        out.append({"title": "VIX 급등 후 꺾임", "hit": mx >= 25 and vx[j][1] <= mx * 0.85, "value": f"{vx[j][1]:.1f}",
+                    "text": f"최근 20일 최고 {mx:.1f} · 25 넘게 치솟았다가 15% 이상 내려오면 해당"})
+    if flows:
+        fd = sorted(d for d in flows if d <= day)[-15:]
+        if len(fd) >= 6:
+            worst_sell = min(flows[d]["f"] for d in fd)
+            last3 = sum(flows[d]["f"] for d in fd[-3:]) / 3
+            out.append({"title": "외국인 매도 둔화", "hit": worst_sell <= -5000 and last3 > worst_sell * 0.4,
+                        "value": f"{last3:+,.0f}억", "text": f"최근 3일 평균 · 최근 15일 최대 순매도 {worst_sell:+,.0f}억의 40% 아래로 줄면 해당"})
+    return out
 
 
 def chart(bars, n=120):
