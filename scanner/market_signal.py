@@ -80,7 +80,7 @@ def follow_through(bars, i):
     days_since = i - lo_i
     lo_txt = bars[lo_i]["date"][5:].replace("-", "/")
     if days_since == 0:
-        return {"state": "low", "ok": False, "text": f"오늘이 최근 {FTD_LOOK}일 최저 종가 · 반등 시작 전"}
+        return {"state": "low", "ok": False, "text": f"기준일({lo_txt})이 최근 {FTD_LOOK}일 최저 종가 · 반등 시작 전"}
     for k in range(lo_i + FTD_MIN_DAY, min(i, lo_i + FTD_MAX_DAY) + 1):
         p = (bars[k]["c"] / bars[k - 1]["c"] - 1) * 100
         if p >= FTD_PCT and bars[k]["v"] > bars[k - 1]["v"]:
