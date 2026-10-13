@@ -340,9 +340,9 @@
   "title": "미국 기존주택판매",
   "level": "macro",
   "kind": "econ",
-  "consensus": "3.95M",
-  "actual": "",
-  "previous": "3.98M"
+  "consensus": "-0.8%",
+  "actual": "1.5%",
+  "previous": "-3.2%"
  },
  {
   "date": "2026-10-14",
@@ -361,7 +361,7 @@
   "title": "중국 CPI",
   "level": "macro",
   "kind": "econ",
-  "consensus": "1.0%",
+  "consensus": "0.3%",
   "actual": "",
   "previous": "0.4%"
  },
@@ -371,7 +371,7 @@
   "title": "미국 CPI",
   "level": "major",
   "kind": "econ",
-  "consensus": "3.6%",
+  "consensus": "336.65",
   "actual": "",
   "previous": "0.32%"
  },
@@ -1234,6 +1234,16 @@
   "epsForecast": "$1.47",
   "eps": "",
   "surprise": ""
+ },
+ {
+  "date": "2026-11-04",
+  "time": "00:00",
+  "title": "JOLTS 구인",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "7.079M"
  },
  {
   "date": "2026-11-05",

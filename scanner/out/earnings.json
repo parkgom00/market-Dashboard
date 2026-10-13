@@ -162,18 +162,6 @@
   "title": "팔란티어 실적 발표 (예정)"
  },
  {
-  "date": "2026-10-13",
-  "type": "earnings",
-  "market": "US",
-  "title": "JP모건 실적 발표 (예정)"
- },
- {
-  "date": "2026-10-13",
-  "type": "earnings",
-  "market": "US",
-  "title": "골드만삭스 실적 발표 (예정)"
- },
- {
   "date": "2026-10-28",
   "type": "earnings",
   "market": "US",
@@ -222,12 +210,6 @@
   "title": "일라이릴리 실적 발표 (예정)"
  },
  {
-  "date": "2026-10-13",
-  "type": "earnings",
-  "market": "US",
-  "title": "유나이티드헬스 실적 발표 (예정)"
- },
- {
   "date": "2026-10-28",
   "type": "earnings",
   "market": "KR",
@@ -246,7 +228,7 @@
   "title": "SK하이닉스 실적 발표 (예정)"
  },
  {
-  "date": "2026-10-30",
+  "date": "2026-10-28",
   "type": "earnings",
   "market": "KR",
   "title": "LG전자 확정실적·컨퍼런스콜 (예정)"
