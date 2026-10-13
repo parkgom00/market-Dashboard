@@ -27,6 +27,13 @@ jobs:
         if: ${{ !cancelled() }}
         working-directory: scanner
         run: python collect_kr.py
+      - name: 시장 신호등 (지수·시장 폭·외국인 수급·미국 지표)
+        if: ${{ !cancelled() }}
+        working-directory: scanner
+        env:
+          KIS_APP_KEY: ${{ secrets.KIS_APP_KEY }}
+          KIS_APP_SECRET: ${{ secrets.KIS_APP_SECRET }}
+        run: python market_signal.py --flows || true
       - name: 변경된 데이터 저장
         if: ${{ !cancelled() }}
         run: bash scanner/commit_data.sh

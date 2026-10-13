@@ -37,6 +37,79 @@
     }).join("") + "</div>";
   }
 
+  /* ---------- 캘린더 탭 안: 시장 신호등 ---------- */
+  var SIG_LABEL = { green: ["공격 가능", "추세와 시장 폭이 모두 괜찮습니다. 규칙대로 매매해도 되는 구간입니다."],
+    yellow: ["조심", "신호가 섞여 있습니다. 비중을 줄이고 확실한 종목만 작게 보세요."],
+    red: ["쉬기", "하락 신호가 겹쳐 있습니다. 새로 사지 말고 아래 '다시 들어갈 때 신호'를 기다리세요."] };
+  var sigChartKey = "kospi";
+  function lineChart(rows, opts) {
+    // rows: [[date, v1, v2, ...]]; opts.series: [{i, color, w, name}], opts.guides: [{y, label}]
+    var W = 340, H = opts.h || 170, pl = 4, pr = 44, pt = 8, pb = 18;
+    var vals = [];
+    rows.forEach(function (r) { opts.series.forEach(function (s) { if (r[s.i] != null) vals.push(r[s.i]); }); });
+    (opts.guides || []).forEach(function (g) { vals.push(g.y); });
+    var mn = Math.min.apply(null, vals), mx = Math.max.apply(null, vals);
+    if (opts.min != null) mn = opts.min; if (opts.max != null) mx = opts.max;
+    var pad = (mx - mn) * 0.06 || 1; mn -= pad; mx += pad;
+    var x = function (i) { return pl + (W - pl - pr) * i / Math.max(1, rows.length - 1); };
+    var y = function (v) { return pt + (H - pt - pb) * (1 - (v - mn) / (mx - mn)); };
+    var svg = '<svg viewBox="0 0 ' + W + " " + H + '" class="lchart" preserveAspectRatio="none">';
+    (opts.guides || []).forEach(function (g) {
+      svg += '<line x1="' + pl + '" x2="' + (W - pr) + '" y1="' + y(g.y).toFixed(1) + '" y2="' + y(g.y).toFixed(1) + '" class="lc-guide"/><text x="' + (W - pr + 3) + '" y="' + (y(g.y) + 4).toFixed(1) + '" class="lc-lbl">' + esc(g.label) + "</text>";
+    });
+    opts.series.forEach(function (s) {
+      var pts = [];
+      rows.forEach(function (r, i) { if (r[s.i] != null) pts.push(x(i).toFixed(1) + "," + y(r[s.i]).toFixed(1)); });
+      svg += '<polyline fill="none" stroke="' + s.color + '" stroke-width="' + (s.w || 1.4) + '" points="' + pts.join(" ") + '"/>';
+    });
+    var last = rows[rows.length - 1], s0 = opts.series[0];
+    if (last && last[s0.i] != null) svg += '<circle cx="' + x(rows.length - 1).toFixed(1) + '" cy="' + y(last[s0.i]).toFixed(1) + '" r="3" fill="' + s0.color + '"/><text x="' + (W - pr + 3) + '" y="' + (y(last[s0.i]) + 4).toFixed(1) + '" class="lc-lbl b">' + (opts.fmt ? opts.fmt(last[s0.i]) : num(Math.round(last[s0.i]))) + "</text>";
+    svg += '<text x="' + pl + '" y="' + (H - 4) + '" class="lc-lbl">' + esc(String(rows[0][0]).slice(5).replace("-", "/")) + '</text><text x="' + (W - pr) + '" y="' + (H - 4) + '" class="lc-lbl" text-anchor="end">' + esc(String(last[0]).slice(5).replace("-", "/")) + "</text>";
+    return svg + "</svg>" + '<div class="lc-legend">' + opts.series.map(function (s) { return '<span><i style="background:' + s.color + '"></i>' + esc(s.name) + "</span>"; }).join("") + "</div>";
+  }
+  function signalHtml() {
+    var S = D.signal;
+    if (!S || !S.overall) return '<div class="card empty">아직 신호등 자료가 없습니다. 평일 장 마감 스캔(16:30 무렵) 뒤에 만들어집니다.</div>';
+    var L = SIG_LABEL[S.overall];
+    var h = '<div class="sig-hero ' + S.overall + '"><div class="sig-lamps">' + ["red", "yellow", "green"].map(function (c) { return '<i class="' + c + (c === S.overall ? " on" : "") + '"></i>'; }).join("") + "</div>" +
+      '<div class="sig-main"><div class="sig-word">' + L[0] + '</div><div class="sig-desc">' + L[1] + '</div><div class="sig-meta">' + esc(S.asOf) + " 장 마감 기준 · 빨강 " + S.reds + "개 · 노랑 " + S.yellows + "개</div></div></div>";
+    if ((S.history || []).length) {
+      h += '<div class="card"><h3>🗓️ 최근 ' + S.history.length + "거래일 신호등</h3>" + '<div class="sig-hist">' + S.history.map(function (x) {
+        return '<i class="' + x.overall + '" title="' + esc(x.date) + " · " + SIG_LABEL[x.overall][0] + '"></i>';
+      }).join("") + '</div><div class="sig-histlbl"><span>' + esc(S.history[0].date.slice(5).replace("-", "/")) + "</span><span>오늘</span></div></div>";
+    }
+    var ico = { green: "🟢", yellow: "🟡", red: "🔴" };
+    h += '<div class="card"><h3>📉 하락을 피하는 신호</h3><div class="muted" style="margin-bottom:6px">빨강이 많을수록 쉬어야 할 때입니다.</div>' + (S.signals || []).map(function (x) {
+      return '<div class="sig-row ' + x.light + '"><span class="sig-dot">' + ico[x.light] + '</span><div class="sig-txt"><b>' + esc(x.title) + "</b><span>" + esc(x.text) + '</span></div><span class="sig-val">' + esc(x.value) + "</span></div>";
+    }).join("") + "</div>";
+    var okN = (S.reentry || []).filter(function (x) { return x.ok; }).length;
+    h += '<div class="card"><h3>📈 다시 들어갈 때 신호 <span class="sig-cnt' + (okN >= 4 ? " good" : "") + '">' + okN + " / " + (S.reentry || []).length + " 충족</span></h3>" +
+      '<div class="muted" style="margin-bottom:6px">바닥을 맞히려 하지 말고, 이 중 4개 이상 켜질 때 조금씩 들어가는 것을 권합니다.</div>' + (S.reentry || []).map(function (x) {
+        return '<div class="sig-row ' + (x.ok ? "green" : "off") + '"><span class="sig-dot">' + (x.ok ? "✅" : "⬜") + '</span><div class="sig-txt"><b>' + esc(x.title) + "</b><span>" + esc(x.text) + "</span></div></div>";
+      }).join("") + "</div>";
+    var ch = (S.charts || {})[sigChartKey] || [];
+    if (ch.length) {
+      h += '<div class="card"><h3>📊 지수 차트 · 이동평균선</h3>' + seg([{ id: "kospi", label: "코스피" }, { id: "kosdaq", label: "코스닥" }], sigChartKey, "data-sc") +
+        lineChart(ch, { series: [{ i: 1, color: "var(--text)", w: 2, name: "지수" }, { i: 2, color: "#f59f00", name: "20일선" }, { i: 3, color: "#16a34a", name: "60일선" }, { i: 4, color: "#7c3aed", name: "200일선" }] }) +
+        '<div class="muted">지수가 60일선·200일선 아래에 있고 60일선이 꺾여 내려가면 하락 추세입니다.</div></div>';
+    }
+    if ((S.breadth || []).length > 2) {
+      h += '<div class="card"><h3>🌊 시장 폭 · 20일선 위 종목 비율</h3>' +
+        lineChart(S.breadth.map(function (b) { return [b.date, b.pct]; }), { h: 140, min: 0, max: 100, series: [{ i: 1, color: "#0f6fde", w: 2, name: "20일선 위 종목 %" }], guides: [{ y: 50, label: "50%" }, { y: 30, label: "30%" }], fmt: function (v) { return Math.round(v) + "%"; } }) +
+        '<div class="muted">50% 위면 대부분 종목이 오르는 장, 30% 아래면 대부분이 빠지는 장입니다. 지수보다 먼저 꺾이거나 먼저 돌아서는 경우가 많습니다.</div></div>';
+    }
+    h += '<details class="card rulesbox"><summary>ℹ️ 신호등은 이렇게 정합니다</summary><ul class="plain">' +
+      "<li>🔴 쉬기: 코스피 추세와 시장 폭이 둘 다 빨강이거나, 빨강 신호가 5개 이상</li>" +
+      "<li>🟢 공격 가능: 코스피 추세와 시장 폭이 초록이고 빨강이 1개 이하</li><li>🟡 조심: 그 밖의 경우</li>" +
+      "<li>추세: 지수가 60일선·200일선 위 + 60일선 상승이면 초록, 둘 다 아래이거나 200일선 아래에서 60일선이 꺾이면 빨강</li>" +
+      "<li>분산일: 최근 25일 중 -0.2% 이상 하락 + 거래량 증가한 날 3일↑ 노랑, 5일↑ 빨강 (윌리엄 오닐)</li>" +
+      "<li>시장 폭: 20일선 위 종목 50%↑ 초록, 30%↓ 빨강 · 외국인: 코스피 5일 순매수 -1조↓ 빨강</li>" +
+      "<li>원/달러 20일 +2%↑ 빨강 · 간밤 반도체·EWY -2.5%↓ 빨강 · VIX 25↑ 빨강</li>" +
+      "<li>반등 확인일: 최근 40일 저점 뒤 4일째 이후 코스피 +1.5%↑ & 거래량 증가</li></ul>" +
+      '<div class="muted">시장 상태를 보여주는 참고 도구이며 앞날을 예측하거나 매매를 권하는 것이 아닙니다.</div></details>';
+    return h;
+  }
+
   /* ---------- 1장: 캘린더 ---------- */
   var TYPE = {
     holiday: "휴장", econ: "경제지표", earnings: "실적", event: "이벤트"
@@ -52,8 +125,14 @@
 
     function eventsOn(date) { return events.filter(function (e) { return e.date === date; }); }
     var calType = "", calMajor = false, calOpen = {};
+    var calView = "cal";
+    try { calView = localStorage.getItem("calView") === "sig" ? "sig" : "cal"; } catch (e) { /* 저장소 없음 */ }
 
+    function calSeg() {
+      return '<div class="useg">' + seg([{ id: "cal", label: "📅 일정" }, { id: "sig", label: "🚦 시장 신호등" }], calView, "data-cv") + "</div>";
+    }
     function draw() {
+      if (calView === "sig") { root.innerHTML = calSeg() + signalHtml(); return; }
       var first = new Date(year, month, 1).getDay();
       var days = new Date(year, month + 1, 0).getDate();
       var h = '<div class="cal-head"><button type="button" data-nav="-1" aria-label="이전 달">‹</button>' +
@@ -134,7 +213,7 @@
       });
       h += "</div>";
 
-      root.innerHTML = '<h2>마켓 캘린더</h2>' + h;
+      root.innerHTML = calSeg() + '<h2>마켓 캘린더</h2>' + h;
     }
 
     function evRow(e, withDate) {
@@ -151,6 +230,9 @@
       if (w) calOpen[w.getAttribute("data-wk")] = w.open;
     }, true);
     root.addEventListener("click", function (ev) {
+      var cv = ev.target.closest("[data-cv]"), sc = ev.target.closest("[data-sc]");
+      if (cv) { calView = cv.getAttribute("data-cv"); try { localStorage.setItem("calView", calView); } catch (e) { /* 무시 */ } draw(); return; }
+      if (sc) { sigChartKey = sc.getAttribute("data-sc"); draw(); return; }
       var ct = ev.target.closest("[data-ct]"), cm = ev.target.closest("[data-cm]");
       if (ct) { calType = ct.getAttribute("data-ct"); draw(); return; }
       if (cm) { calMajor = !calMajor; draw(); return; }

@@ -28,6 +28,10 @@ jobs:
       - name: 중장기 스캔 (미국 S&P 500 + 나스닥 100)
         working-directory: scanner
         run: python run_scan.py --market us
+      - name: 시장 신호등 갱신 (간밤 미국 반도체·EWY·VIX 반영)
+        if: ${{ !cancelled() }}
+        working-directory: scanner
+        run: python market_signal.py || true
       - name: 변경된 데이터 저장
         if: ${{ !cancelled() }}
         run: bash scanner/commit_data.sh

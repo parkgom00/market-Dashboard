@@ -143,8 +143,15 @@ def scan_market(market: str, limit: int = 0):
     l5_cands = []
     base = {}
     hist = {}      # 테마 순환매 계산용: 최근 33일의 (종가, 거래대금)
+    import breadth
+    br = breadth.Breadth() if market == "kr" else None
     for code, df in gen:
         scanned += 1
+        if br is not None:
+            try:
+                br.add(df)
+            except Exception:
+                pass
         as_of = max(as_of, df.index[-1].strftime("%Y-%m-%d"))
         value20 = (df["close"] * df["volume"]).tail(20).mean()
         if market == "kr":
@@ -269,6 +276,13 @@ def scan_market(market: str, limit: int = 0):
             print(f"정배열 + 수급 유입: 정배열 {len(cand)}개 중 {len(tf)}개")
         except Exception as e:
             print("정배열 + 수급 확인 실패:", type(e).__name__, e)
+
+    if br is not None:
+        try:
+            bs = br.save(os.path.join(OUT, "breadth_kr.json"))
+            print("시장 폭:", bs[-1] if bs else "없음")
+        except Exception as e:
+            print("시장 폭 저장 실패:", type(e).__name__, e)
 
     def fresh(rows):
         late = [x["code"] for x in rows if x["_d"] < as_of]
