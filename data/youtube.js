@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-13 09:40",
+ "asOf": "2026-10-13 11:28",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,8 +9,13 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
+     "title": "삼전·하닉 흔든 중국 CXMT 쇼크… 차세대 D램 기술력 진짜 위협인가? / 반도체 폭락장의 진실 ㅣ 이주연 대표",
+     "publishedAt": "2026-10-13 10:31",
+     "url": "https://www.youtube.com/watch?v=deJpw1Q8hm0"
+    },
+    {
      "title": "[10월13일 #장시작전] 중국 CXMT의 메모리 추격에 美 반도체주 급락… 뉴욕증시 혼조 마감  \"진짜 위기인가, 일시적 노이즈인가?’",
-     "publishedAt": "2026-10-13 06:23",
+     "publishedAt": "2026-10-13 11:27",
      "url": "https://www.youtube.com/watch?v=dIKtUN7xS2g"
     },
     {
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급인터뷰]  삼성전자·SK하이닉스 주가 급락… 우리가 모르는 악재가 있나? / 외국인 매수 다시 시작될 결정적 신호는 ‘이것’  | 이형수 대표",
      "publishedAt": "2026-10-12 17:00",
      "url": "https://www.youtube.com/watch?v=pY5g8L07pjE"
-    },
-    {
-     "title": "[#글로벌인사이트]  이번 삼성전자 실적은 시작일 뿐… D램 점유율 확대 / 다음 실적이 더 무서운 이유  ㅣ세미콘 리서치랩 노근창 대표",
-     "publishedAt": "2026-10-12 16:00",
-     "url": "https://www.youtube.com/watch?v=taLlHGhdf8k"
     }
    ]
   },
@@ -93,9 +93,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=1jiX4quCdTg"
     },
     {
-     "title": "[몰아보기] 반도체 소부장 전략 AtoZ? 한 방에 정리!!",
-     "publishedAt": "2026-10-04",
-     "url": "https://www.youtube.com/watch?v=2VsqPGX9ovY"
+     "title": "[실전 투자 스터디] 미국 매크로 봐야하는 단 한 가지 이유",
+     "publishedAt": "2026-10-06 18:00",
+     "url": "https://www.youtube.com/watch?v=W6uO9N2Dttk"
     }
    ]
   },
@@ -142,6 +142,11 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=4Wt_PZqM5ZE"
     },
     {
+     "title": "코스피 코스닥 폭락의 주범 #코스피 #코스닥 #OpenAI",
+     "publishedAt": "2026-10-12 17:27",
+     "url": "https://www.youtube.com/watch?v=-aQybbK5sCI"
+    },
+    {
      "title": "OpenAI의 매출 200억 달러가 사라졌다??",
      "publishedAt": "2026-10-09 03:22",
      "url": "https://www.youtube.com/watch?v=k1Ysumyvyio"
@@ -152,14 +157,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=X2zIotF_JEY"
     },
     {
-     "title": "나스닥 연일 신고가의 진짜 이유",
-     "publishedAt": "2026-10-07",
-     "url": "https://www.youtube.com/watch?v=ffpwNQMKSv4"
-    },
-    {
-     "title": "AI 에이전트 최종승자 결국 여기입니다.",
-     "publishedAt": "2026-10-04",
-     "url": "https://www.youtube.com/watch?v=UnZF4mvPjMY"
+     "title": "삼성전자 역대급 실적에도 반응이 싸늘한 이유 #삼성전자 #코스피 #하이닉스",
+     "publishedAt": "2026-10-08 13:34",
+     "url": "https://www.youtube.com/watch?v=ILoaqN3AI6Y"
     }
    ]
   },
@@ -172,6 +172,11 @@ window.DASH.youtube = {
      "title": "AI투자 판도 조용히 바뀌는 중? 부진했던 빅테크, 팔란티어의 수상한 신고가",
      "publishedAt": "2026-10-12 21:12",
      "url": "https://www.youtube.com/watch?v=ILs31CN-_VA"
+    },
+    {
+     "title": "지금은 2003년? AI인프라 다음 노려라?/스페이스X 통신까지 진출, 본격 랠리 시작?/이때는 증시도 위험? 월가 초고수의 경고",
+     "publishedAt": "2026-10-12",
+     "url": "https://www.youtube.com/watch?v=b414IoVg0To"
     },
     {
      "title": "AI사이클 더 큰 한 방 남았다? 증시 의심의 벽 뚫고 올라갈까",
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "끌로드, 챗GPT가 주식투자도 대신해준다? AI 실생활 침투 가속화의 수혜주들",
      "publishedAt": "2026-10-07 21:05",
      "url": "https://www.youtube.com/watch?v=bL2q1ZfwdJA"
-    },
-    {
-     "title": "2년만에 재결합한 머스크와 트럼프, 두 거물 화해의 수혜주들",
-     "publishedAt": "2026-10-06 17:30",
-     "url": "https://www.youtube.com/watch?v=ha4-lyhvafM"
     }
    ]
   }
