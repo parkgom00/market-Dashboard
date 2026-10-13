@@ -15,25 +15,25 @@ window.DASH.usmarket = {
    "group": "주가지수",
    "name": "S&P 500",
    "kind": "index",
-   "close": 7805.45,
-   "changePct": -0.02,
-   "changeText": "7,805.45 (-0.02%)"
+   "close": 7807.24,
+   "changePct": -0.06,
+   "changeText": "7,807.24 (-0.06%)"
   },
   {
    "group": "주가지수",
    "name": "다우",
    "kind": "index",
-   "close": 51670.1,
-   "changePct": -0.35,
-   "changeText": "51,670.10 (-0.35%)"
+   "close": 51850.55,
+   "changePct": 0.38,
+   "changeText": "51,850.55 (+0.38%)"
   },
   {
    "group": "주가지수",
    "name": "러셀 2000",
    "kind": "index",
-   "close": 2783.37,
-   "changePct": -0.4,
-   "changeText": "2,783.37 (-0.40%)"
+   "close": 2794.48,
+   "changePct": -0.45,
+   "changeText": "2,794.48 (-0.45%)"
   },
   {
    "group": "주가지수",
@@ -47,9 +47,9 @@ window.DASH.usmarket = {
    "group": "주가지수",
    "name": "VIX 공포지수",
    "kind": "plain",
-   "close": 15.27,
-   "changePct": 0.39,
-   "changeText": "15.27 (+0.39%)"
+   "close": 15.21,
+   "changePct": 2.49,
+   "changeText": "15.21 (+2.49%)"
   },
   {
    "group": "주가지수",
@@ -89,41 +89,41 @@ window.DASH.usmarket = {
    "group": "금리·환율",
    "name": "원/달러",
    "kind": "plain",
-   "close": 1339.41,
-   "changePct": -0.11,
-   "changeText": "1,339.41 (-0.11%)"
+   "close": 1342.12,
+   "changePct": 0.6,
+   "changeText": "1,342.12 (+0.60%)"
   },
   {
    "group": "금리·환율",
    "name": "엔/달러",
    "kind": "plain",
    "close": 158.34,
-   "changePct": 0.08,
-   "changeText": "158.34 (+0.08%)"
+   "changePct": -0.11,
+   "changeText": "158.34 (-0.11%)"
   },
   {
    "group": "원자재·기타",
    "name": "WTI 유가",
    "kind": "usd",
-   "close": 94.7,
-   "changePct": 1.02,
-   "changeText": "94.70 (+1.02%)"
+   "close": 94.61,
+   "changePct": 0.93,
+   "changeText": "94.61 (+0.93%)"
   },
   {
    "group": "원자재·기타",
    "name": "브렌트유",
    "kind": "usd",
-   "close": 106.26,
-   "changePct": -0.37,
-   "changeText": "106.26 (-0.37%)"
+   "close": 106.16,
+   "changePct": -0.46,
+   "changeText": "106.16 (-0.46%)"
   },
   {
    "group": "원자재·기타",
    "name": "금",
    "kind": "usd",
-   "close": 4184.3,
-   "changePct": -0.15,
-   "changeText": "4,184.30 (-0.15%)"
+   "close": 4184.9,
+   "changePct": -0.14,
+   "changeText": "4,184.90 (-0.14%)"
   },
   {
    "group": "원자재·기타",
@@ -137,9 +137,9 @@ window.DASH.usmarket = {
    "group": "원자재·기타",
    "name": "비트코인",
    "kind": "usd",
-   "close": 83463.04,
-   "changePct": 2.08,
-   "changeText": "83,463.04 (+2.08%)"
+   "close": 83176.43,
+   "changePct": 1.73,
+   "changeText": "83,176.43 (+1.73%)"
   },
   {
    "group": "원자재·기타",
