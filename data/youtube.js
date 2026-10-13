@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-13 13:30",
+ "asOf": "2026-10-13 15:36",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급시황] “-7% 코스피 폭락!” 한국 증시만 유독 무너진 이유… 외국인 매도 폭탄, 진짜 악재는 따로 있나?  | 박근형 부장",
+     "publishedAt": "2026-10-13 14:36",
+     "url": "https://www.youtube.com/watch?v=_3F-Src6l2Q"
+    },
     {
      "title": "오늘은 관망 하세요... 중국 CXMT발 노이즈?  삼전·SK하이닉스 진짜 경계할 건 ‘美국채 5%ㅣ이권희 대표",
      "publishedAt": "2026-10-13 12:30",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#찐시황]  “오늘 주가 폭락 너무 심했다!” 장 막판 선물 7,500억 쓸어담은 외국인… 내일 증시  반등 신호 인가?  ㅣ이권희 대표",
      "publishedAt": "2026-10-12 20:00",
      "url": "https://www.youtube.com/watch?v=Qx2fzi3p8Kg"
-    },
-    {
-     "title": "[#긴급시황] “이렇게까지 빠질 이유가 있나?” 1,850개 종목 하락장  / 외국인이 2.5조 투매한 진짜 이유  | 황유현 팀장",
-     "publishedAt": "2026-10-12 18:30",
-     "url": "https://www.youtube.com/watch?v=2RlqUZVUnK8"
     }
    ]
   },
