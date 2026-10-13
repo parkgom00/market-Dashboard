@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-13 23:32",
+ "asOf": "2026-10-14 01:31",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "삼전·닉스 지금 저평가 된 이유",
+     "publishedAt": "2026-10-14 01:00",
+     "url": "https://www.youtube.com/watch?v=J8FMVeQyHY4"
+    },
+    {
+     "title": "삼성전자, 하이닉스가 지금 저평가된 진짜 이유",
+     "publishedAt": "2026-10-14 00:00",
+     "url": "https://www.youtube.com/watch?v=RN0wu87jnxA"
+    },
+    {
      "title": "월가에서 현시점 샌디스크가 저평가 됐다는 이유",
      "publishedAt": "2026-10-13 23:00",
      "url": "https://www.youtube.com/watch?v=Fp2lOGeSoy8"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "10월 13일 외국인이 한국인 몰래 매수한 종목 정체",
      "publishedAt": "2026-10-13 20:59",
      "url": "https://www.youtube.com/watch?v=dzDBnAjcvHU"
-    },
-    {
-     "title": "외국인이 코스피를 계속 팔고 있는 진짜 이유",
-     "publishedAt": "2026-10-13 20:12",
-     "url": "https://www.youtube.com/watch?v=Bla7gUB1hQM"
-    },
-    {
-     "title": "한국투자자가 미국 중간선거 예측 하는 방법",
-     "publishedAt": "2026-10-13 19:21",
-     "url": "https://www.youtube.com/watch?v=JjXkIhYSn4E"
     }
    ]
   },
