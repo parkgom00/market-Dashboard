@@ -340,7 +340,7 @@
   "title": "미국 기존주택판매",
   "level": "macro",
   "kind": "econ",
-  "consensus": "3.96M",
+  "consensus": "3.95M",
   "actual": "",
   "previous": "3.98M"
  },
@@ -1136,6 +1136,16 @@
   "consensus": "",
   "actual": "",
   "previous": "54.5"
+ },
+ {
+  "date": "2026-11-03",
+  "time": "08:00",
+  "title": "한국 CPI",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "0.3%"
  },
  {
   "date": "2026-11-04",
