@@ -67,36 +67,36 @@
  ],
  "minute": [
   {
-   "localDateTime": "20261013151100",
-   "currentPrice": 230750.0,
-   "openPrice": 230750.0,
-   "highPrice": 231000.0,
-   "lowPrice": 230500.0,
-   "accumulatedTradingVolume": 48501
+   "localDateTime": "20261013151600",
+   "currentPrice": 232500.0,
+   "openPrice": 232000.0,
+   "highPrice": 232500.0,
+   "lowPrice": 231500.0,
+   "accumulatedTradingVolume": 95234
   },
   {
-   "localDateTime": "20261013151200",
-   "currentPrice": 231250.0,
-   "openPrice": 230750.0,
-   "highPrice": 231500.0,
-   "lowPrice": 230750.0,
-   "accumulatedTradingVolume": 82625
+   "localDateTime": "20261013151700",
+   "currentPrice": 232000.0,
+   "openPrice": 232500.0,
+   "highPrice": 232500.0,
+   "lowPrice": 231500.0,
+   "accumulatedTradingVolume": 82743
   },
   {
-   "localDateTime": "20261013151300",
-   "currentPrice": 231500.0,
-   "openPrice": 231500.0,
-   "highPrice": 231500.0,
-   "lowPrice": 231000.0,
-   "accumulatedTradingVolume": 42199
+   "localDateTime": "20261013151800",
+   "currentPrice": 232500.0,
+   "openPrice": 231750.0,
+   "highPrice": 232500.0,
+   "lowPrice": 231500.0,
+   "accumulatedTradingVolume": 54866
   },
   {
-   "localDateTime": "20261013151400",
-   "currentPrice": 231250.0,
-   "openPrice": 231250.0,
-   "highPrice": 231500.0,
-   "lowPrice": 231250.0,
-   "accumulatedTradingVolume": 247
+   "localDateTime": "20261013151900",
+   "currentPrice": 232000.0,
+   "openPrice": 232000.0,
+   "highPrice": 232500.0,
+   "lowPrice": 232000.0,
+   "accumulatedTradingVolume": 2348
   }
  ],
  "integration": {
@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "DS투자증권",
     "tit": "사상 최초 DRAM 분기 매출 100조원 상회",
-    "rcnt": "12513",
+    "rcnt": "12535",
     "wdt": "20261012"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "하나증권",
     "tit": "강한 DRAM 가격. LPDDR 공급 부족 심화",
-    "rcnt": "8627",
+    "rcnt": "8641",
     "wdt": "20261012"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "유진투자증권",
     "tit": "눈높이를 높이는 구간",
-    "rcnt": "7214",
+    "rcnt": "7227",
     "wdt": "20261012"
    }
   ],
@@ -222,17 +222,17 @@
     "reutersCode": "000660",
     "stockName": "SK하이닉스",
     "sosok": "0",
-    "closePrice": "1,436,000",
-    "compareToPreviousClosePrice": "-169,000",
+    "closePrice": "1,443,000",
+    "compareToPreviousClosePrice": "-162,000",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "fluctuationsRatio": "-10.53",
+    "fluctuationsRatio": "-10.09",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "1,048,987,036",
+    "marketValue": "1,054,100,482",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
@@ -260,17 +260,17 @@
     "reutersCode": "402340",
     "stockName": "SK스퀘어",
     "sosok": "0",
-    "closePrice": "852,000",
-    "compareToPreviousClosePrice": "-132,000",
+    "closePrice": "856,000",
+    "compareToPreviousClosePrice": "-128,000",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "fluctuationsRatio": "-13.41",
+    "fluctuationsRatio": "-13.01",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "112,399,246",
+    "marketValue": "112,926,942",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
@@ -298,17 +298,17 @@
     "reutersCode": "042700",
     "stockName": "한미반도체",
     "sosok": "0",
-    "closePrice": "229,000",
-    "compareToPreviousClosePrice": "-19,500",
+    "closePrice": "228,500",
+    "compareToPreviousClosePrice": "-20,000",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "fluctuationsRatio": "-7.85",
+    "fluctuationsRatio": "-8.05",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "21,826,493",
+    "marketValue": "21,778,837",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
