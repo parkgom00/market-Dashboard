@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-13 17:32",
+ "asOf": "2026-10-13 19:30",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급인터뷰] 검은 화요일... 한국 증시만 더 추락한 이유 / 폭락한 삼성전자·SK하이닉스... 지금 살까, 팔까?  | 김민수 대표",
+     "publishedAt": "2026-10-13 18:30",
+     "url": "https://www.youtube.com/watch?v=4tAmP-lePRI"
+    },
     {
      "title": "힘겨운 한국증시… 주도주는 반드시 온다? / 살아남는 사람이 돈 번다… 2차전지 급락, 지금 가장 중요한 ‘이것’ㅣ 황유현 팀장",
      "publishedAt": "2026-10-13 17:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "오늘은 관망 하세요... 중국 CXMT발 노이즈?  삼전·SK하이닉스 진짜 경계할 건 ‘美국채 5%ㅣ이권희 대표",
      "publishedAt": "2026-10-13 12:00",
      "url": "https://www.youtube.com/watch?v=Gwu7w_svNak"
-    },
-    {
-     "title": "[10월13일 #장시작전] 중국 CXMT의 메모리 추격에 美 반도체주 급락… 뉴욕증시 혼조 마감  \"진짜 위기인가, 일시적 노이즈인가?’",
-     "publishedAt": "2026-10-13 11:27",
-     "url": "https://www.youtube.com/watch?v=dIKtUN7xS2g"
     }
    ]
   },
@@ -73,6 +73,21 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "[긴급 편성] 반도체 폭락 이유? 체크할 반등 트리거는?",
+     "publishedAt": "2026-10-13 19:09",
+     "url": "https://www.youtube.com/watch?v=6VDcX0bLZiw"
+    },
+    {
+     "title": "[실전 투자 스터디] 여전한 숏티지, 그런데 주가는 왜?",
+     "publishedAt": "2026-10-13 18:00",
+     "url": "https://www.youtube.com/watch?v=wC6Tlj8KjeY"
+    },
+    {
+     "title": "[특집] AI 인프라에서 뜨는 전력과 광학, 국내 핵심 수혜주는?",
+     "publishedAt": "2026-10-13 17:30",
+     "url": "https://www.youtube.com/watch?v=bzDBLehWGVI"
+    },
+    {
      "title": "신고가 뚫는 해외 기판 업체들, 이제 국내 기업들 순서?",
      "publishedAt": "2026-10-09 19:00",
      "url": "https://www.youtube.com/watch?v=LcDcoSxobt0"
@@ -81,21 +96,6 @@ window.DASH.youtube = {
      "title": "[특집] 반도체 소부장 지각 변동, 지금은 이 주도주 흐름을 봐야 합니다!!",
      "publishedAt": "2026-10-08 19:00",
      "url": "https://www.youtube.com/watch?v=RF4B2IsSxiY"
-    },
-    {
-     "title": "파운드리 시장 큰 손으로 부상한 이 업계? 돈이 쏟아진다!!",
-     "publishedAt": "2026-10-07 19:00",
-     "url": "https://www.youtube.com/watch?v=CWuoPW-5Cow"
-    },
-    {
-     "title": "4분기 테크 시장, 메모리 빅2 vs 반도체 소부장 어디 쪽에 무게?",
-     "publishedAt": "2026-10-07 14:00",
-     "url": "https://www.youtube.com/watch?v=1jiX4quCdTg"
-    },
-    {
-     "title": "[실전 투자 스터디] 미국 매크로 봐야하는 단 한 가지 이유",
-     "publishedAt": "2026-10-06 18:00",
-     "url": "https://www.youtube.com/watch?v=W6uO9N2Dttk"
     }
    ]
   },
@@ -104,6 +104,11 @@ window.DASH.youtube = {
    "channelId": "UC7usMJDHmtbs_oegmzQKKMA",
    "handle": "@경제사냥꾼",
    "videos": [
+    {
+     "title": "한국투자자가 미국 중간선거 예측 하는 방법",
+     "publishedAt": "2026-10-13 19:21",
+     "url": "https://www.youtube.com/watch?v=JjXkIhYSn4E"
+    },
     {
      "title": "AI가 결국 성공할수 밖에 없는 진짜 이유",
      "publishedAt": "2026-10-13 17:25",
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "10월 13일 미국장 열리기 전 꼭 알아야 하는 '미장 시황' 투자 포인트",
      "publishedAt": "2026-10-13 13:04",
      "url": "https://www.youtube.com/watch?v=Lb_4zJrDvUo"
-    },
-    {
-     "title": "삼전닉스 중국한테 진짜 따라잡힐까?!",
-     "publishedAt": "2026-10-13 11:55",
-     "url": "https://www.youtube.com/watch?v=o7EzJ3ipWiU"
     }
    ]
   },
