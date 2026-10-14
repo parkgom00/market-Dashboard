@@ -309,7 +309,7 @@
   "kind": "earnings",
   "note": "장 시작 전",
   "epsForecast": "$5.94",
-  "eps": "",
+  "eps": "$5.07",
   "surprise": ""
  },
  {
@@ -320,7 +320,7 @@
   "kind": "earnings",
   "note": "장 시작 전",
   "epsForecast": "$12.90",
-  "eps": "",
+  "eps": "$12.25",
   "surprise": ""
  },
  {
@@ -331,7 +331,7 @@
   "kind": "earnings",
   "note": "장 시작 전",
   "epsForecast": "$4.12",
-  "eps": "",
+  "eps": "$2.92",
   "surprise": ""
  },
  {
@@ -362,7 +362,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "0.3%",
-  "actual": "",
+  "actual": "0.2%",
   "previous": "0.4%"
  },
  {
