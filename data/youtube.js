@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-14 21:47",
+ "asOf": "2026-10-14 23:38",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 14일 외국인이 한국인 몰래 매수한 종목 정체",
+     "publishedAt": "2026-10-14 23:30",
+     "url": "https://www.youtube.com/watch?v=j92xugSdcQo"
+    },
+    {
+     "title": "코스피가 내년에 1만 갈 수 있다는 이유",
+     "publishedAt": "2026-10-14 22:00",
+     "url": "https://www.youtube.com/watch?v=U6SoT3GAIMk"
+    },
+    {
      "title": "월가에서 현시점 버티브가 저평가 됐다는 이유",
      "publishedAt": "2026-10-14 21:00",
      "url": "https://www.youtube.com/watch?v=Y1vFnPjlTlM"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "상승장보다 지금 같은 하락장이 기회인 이유",
      "publishedAt": "2026-10-14 19:08",
      "url": "https://www.youtube.com/watch?v=HMUYD3fGTBE"
-    },
-    {
-     "title": "10월 14일 우리가 꼭 알고 있어야 할, 저평가 'AI 데이터센터' 소형주",
-     "publishedAt": "2026-10-14 17:06",
-     "url": "https://www.youtube.com/watch?v=0oR5qDA6zJM"
-    },
-    {
-     "title": "이재용이 폭락장에 삼성전자 '지분' 늘린 진짜 이유",
-     "publishedAt": "2026-10-14 15:58",
-     "url": "https://www.youtube.com/watch?v=x7QERWYw9KA"
     }
    ]
   },
