@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-14 19:40",
+ "asOf": "2026-10-14 21:47",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황]  “정말 화나는 하루” 잘 오르던 증시가 갑자기 꺾인 진짜 이유 / 외국인 선물에 언제까지 휘둘릴까? | 이지환 대표",
+     "publishedAt": "2026-10-14 20:00",
+     "url": "https://www.youtube.com/watch?v=5OMTQD4L_sU"
+    },
     {
      "title": "[#긴급인터뷰]  “조선주 수주는 6년 만의 최고!” 그런데 주가는 왜 무너지나? / 시장이 모르는 악재가 있는 걸까? ㅣ엄경아 연구위원",
      "publishedAt": "2026-10-14 18:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#글로벌인사이트]  삼전·SK하닉 폭락, 중국 CXMT는 핑계였나? / 외인이 한국 반도체만 파는 진짜 이유… 7월 폭락과 닮은 ‘반등 신호’ㅣ세미콘 리서치랩 노근창 대표",
      "publishedAt": "2026-10-14 14:00",
      "url": "https://www.youtube.com/watch?v=xvBCcCtChJU"
-    },
-    {
-     "title": "“7월 폭락장과 너무 닮았다!” 삼전·SK하닉 급락의 진실… 상승 직전 외국인의 ‘마지막 털기’일까? ㅣ이권희 대표",
-     "publishedAt": "2026-10-14 12:00",
-     "url": "https://www.youtube.com/watch?v=GQCp-6jytdo"
     }
    ]
   },
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "월가에서 현시점 버티브가 저평가 됐다는 이유",
+     "publishedAt": "2026-10-14 21:00",
+     "url": "https://www.youtube.com/watch?v=Y1vFnPjlTlM"
+    },
+    {
+     "title": "상승장 보다 지금 같은 하락장이 기회인 이유",
+     "publishedAt": "2026-10-14 20:00",
+     "url": "https://www.youtube.com/watch?v=73d2_Ubt7Cg"
+    },
+    {
      "title": "상승장보다 지금 같은 하락장이 기회인 이유",
      "publishedAt": "2026-10-14 19:08",
      "url": "https://www.youtube.com/watch?v=HMUYD3fGTBE"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "이재용이 폭락장에 삼성전자 '지분' 늘린 진짜 이유",
      "publishedAt": "2026-10-14 15:58",
      "url": "https://www.youtube.com/watch?v=x7QERWYw9KA"
-    },
-    {
-     "title": "10월 14일 미국장 열리기 전 꼭 알아야 하는 '미장 시황' 투자 포인트",
-     "publishedAt": "2026-10-14 13:37",
-     "url": "https://www.youtube.com/watch?v=41lO-d6V0Eg"
-    },
-    {
-     "title": "지금, 기관이 개미 몰래 현대차 담는 진짜 이유",
-     "publishedAt": "2026-10-14 11:51",
-     "url": "https://www.youtube.com/watch?v=mV6LGftXeAk"
     }
    ]
   },
@@ -169,6 +169,11 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
+     "title": "금리 5.5%가 증시 충격 마지노선? 월가 초고수들의 경고, 대비해야 할까",
+     "publishedAt": "2026-10-14 20:39",
+     "url": "https://www.youtube.com/watch?v=PrEHp2DoRVU"
+    },
+    {
      "title": "스페이스X의 반격 시작? 머스크의 호언장담 현실 될까",
      "publishedAt": "2026-10-13 20:11",
      "url": "https://www.youtube.com/watch?v=_LOD9GYd1Qk"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "올해 메모리 놓친 사람 주목? AI 반도체 다음 격전지가 될 투자처",
      "publishedAt": "2026-10-08 19:17",
      "url": "https://www.youtube.com/watch?v=MjEc_J9gYko"
-    },
-    {
-     "title": "끌로드, 챗GPT가 주식투자도 대신해준다? AI 실생활 침투 가속화의 수혜주들",
-     "publishedAt": "2026-10-07 21:05",
-     "url": "https://www.youtube.com/watch?v=bL2q1ZfwdJA"
     }
    ]
   }
