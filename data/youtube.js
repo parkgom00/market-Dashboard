@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-14 11:37",
+ "asOf": "2026-10-14 13:41",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“7월 폭락장과 너무 닮았다!” 삼전·SK하닉 급락의 진실… 상승 직전 외국인의 ‘마지막 털기’일까? ㅣ이권희 대표",
+     "publishedAt": "2026-10-14 12:41",
+     "url": "https://www.youtube.com/watch?v=GQCp-6jytdo"
+    },
     {
      "title": "삼성전자 2.6조 증여, 하필 지금 왜? / 삼전·SK하닉 바닥 신호 나왔나… 신용융자 26조가 불안한 이유ㅣ 이주연 대표",
      "publishedAt": "2026-10-14 10:37",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급인터뷰] 검은 화요일... 한국 증시만 더 추락한 이유 / 폭락한 삼성전자·SK하이닉스... 지금 살까, 팔까?  | 김민수 대표",
      "publishedAt": "2026-10-13 18:30",
      "url": "https://www.youtube.com/watch?v=4tAmP-lePRI"
-    },
-    {
-     "title": "힘겨운 한국증시… 주도주는 반드시 온다? / 살아남는 사람이 돈 번다… 2차전지 급락, 지금 가장 중요한 ‘이것’ㅣ 황유현 팀장",
-     "publishedAt": "2026-10-13 17:00",
-     "url": "https://www.youtube.com/watch?v=w8pimQ334Dk"
     }
    ]
   },
