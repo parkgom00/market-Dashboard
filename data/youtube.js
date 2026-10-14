@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-14 07:37",
+ "asOf": "2026-10-14 09:48",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[10월14일 #장시작전] 美 반도체 5일 연속 하락… 뉴욕증시 약세, 연준 발언에 낙폭 축소 / 오늘도 외국인 매도 폭탄 쏟아질까?",
+     "publishedAt": "2026-10-14 09:45",
+     "url": "https://www.youtube.com/watch?v=VQkxdRx1m5k"
+    },
     {
      "title": "[#찐시황]  “비정상적인 투매의 진실!” 현물 5조 던지고 선물 4,000억 쓸어담았다… 장 막판 돌변한 외국인의 속내 (증시폭락) 박현상 이사",
      "publishedAt": "2026-10-13 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#글로벌인사이트] 중국 CXMT 위협론.. 2018년 반도체 주가 폭락, 또 반복될까? / 엔비디아는 신고가인데 삼전·SK하닉은 왜?ㅣ세미콘 리서치랩 노근창 대표",
      "publishedAt": "2026-10-13 16:00",
      "url": "https://www.youtube.com/watch?v=i-LdOIkW_ZA"
-    },
-    {
-     "title": "[#긴급시황] “-7% 코스피 폭락!” 한국 증시만 유독 무너진 이유… 외국인 매도 폭탄, 진짜 악재는 따로 있나?  | 박근형 부장",
-     "publishedAt": "2026-10-13 14:15",
-     "url": "https://www.youtube.com/watch?v=_3F-Src6l2Q"
     }
    ]
   },
