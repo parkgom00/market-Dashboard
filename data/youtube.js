@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-14 09:48",
+ "asOf": "2026-10-14 11:37",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "삼성전자 2.6조 증여, 하필 지금 왜? / 삼전·SK하닉 바닥 신호 나왔나… 신용융자 26조가 불안한 이유ㅣ 이주연 대표",
+     "publishedAt": "2026-10-14 10:37",
+     "url": "https://www.youtube.com/watch?v=ZCkanp3c5to"
+    },
     {
      "title": "[10월14일 #장시작전] 美 반도체 5일 연속 하락… 뉴욕증시 약세, 연준 발언에 낙폭 축소 / 오늘도 외국인 매도 폭탄 쏟아질까?",
      "publishedAt": "2026-10-14 09:45",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "힘겨운 한국증시… 주도주는 반드시 온다? / 살아남는 사람이 돈 번다… 2차전지 급락, 지금 가장 중요한 ‘이것’ㅣ 황유현 팀장",
      "publishedAt": "2026-10-13 17:00",
      "url": "https://www.youtube.com/watch?v=w8pimQ334Dk"
-    },
-    {
-     "title": "[#글로벌인사이트] 중국 CXMT 위협론.. 2018년 반도체 주가 폭락, 또 반복될까? / 엔비디아는 신고가인데 삼전·SK하닉은 왜?ㅣ세미콘 리서치랩 노근창 대표",
-     "publishedAt": "2026-10-13 16:00",
-     "url": "https://www.youtube.com/watch?v=i-LdOIkW_ZA"
     }
    ]
   },
