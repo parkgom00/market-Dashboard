@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-14 15:27",
+ "generatedAt": "2026-10-14 21:29",
  "events": [
   {
    "date": "2026-01-01",
@@ -374,7 +374,7 @@ window.DASH.calendar = {
    "time": "21:30",
    "result": [
     "미국 CPI: 예상 336.65 · 이전 0.32%",
-    "미국 근원 CPI: 예상 2.5% · 이전 337.77"
+    "미국 근원 CPI: 예상 0.2% · 이전 337.77"
    ]
   },
   {
@@ -1308,8 +1308,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "JP모건 실적 발표",
    "result": [
-    "EPS 실제 $5.07 (예상 $5.94)",
-    "장 시작 전"
+    "EPS 실제 $5.75 (예상 $5.94) · 서프라이즈 -3.2%"
    ]
   },
   {
@@ -1318,8 +1317,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "골드만삭스 실적 발표",
    "result": [
-    "EPS 실제 $12.25 (예상 $12.90)",
-    "장 시작 전"
+    "EPS 실제 $17.01 (예상 $12.90) · 서프라이즈 31.86%"
    ]
   },
   {
@@ -1328,8 +1326,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "유나이티드헬스 실적 발표",
    "result": [
-    "EPS 실제 $2.92 (예상 $4.12)",
-    "장 시작 전"
+    "EPS 실제 $4.69 (예상 $4.12) · 서프라이즈 13.83%"
    ]
   },
   {
@@ -1602,6 +1599,16 @@ window.DASH.calendar = {
    "date": "2026-10-22",
    "type": "earnings",
    "market": "US",
+   "title": "메타 실적 발표",
+   "result": [
+    "EPS 예상 $6.39",
+    "장마감 후(한국 다음 날 새벽)"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "type": "earnings",
+   "market": "US",
    "title": "인텔 실적 발표",
    "result": [
     "EPS 예상 $0.27"
@@ -1613,7 +1620,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "테슬라 실적 발표",
    "result": [
-    "EPS 예상 $0.22",
+    "EPS 예상 $0.21",
     "장마감 후(한국 다음 날 새벽)"
    ]
   },
@@ -1662,7 +1669,7 @@ window.DASH.calendar = {
    "title": "미시간 소비심리",
    "time": "23:00",
    "result": [
-    "이전 46.3"
+    "예상 46.3 · 이전 48.1"
    ]
   },
   {
@@ -2034,15 +2041,6 @@ window.DASH.calendar = {
    "title": "KLA 실적 발표",
    "result": [
     "EPS 예상 $1.18"
-   ]
-  },
-  {
-   "date": "2026-11-04",
-   "type": "earnings",
-   "market": "US",
-   "title": "메타 실적 발표",
-   "result": [
-    "EPS 예상 $6.39"
    ]
   },
   {

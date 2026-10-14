@@ -307,10 +307,10 @@
   "title": "JP모건 실적 발표",
   "level": "earnings",
   "kind": "earnings",
-  "note": "장 시작 전",
+  "note": "",
   "epsForecast": "$5.94",
-  "eps": "$5.07",
-  "surprise": ""
+  "eps": "$5.75",
+  "surprise": "-3.2"
  },
  {
   "date": "2026-10-13",
@@ -318,10 +318,10 @@
   "title": "골드만삭스 실적 발표",
   "level": "earnings",
   "kind": "earnings",
-  "note": "장 시작 전",
+  "note": "",
   "epsForecast": "$12.90",
-  "eps": "$12.25",
-  "surprise": ""
+  "eps": "$17.01",
+  "surprise": "31.86"
  },
  {
   "date": "2026-10-13",
@@ -329,10 +329,10 @@
   "title": "유나이티드헬스 실적 발표",
   "level": "earnings",
   "kind": "earnings",
-  "note": "장 시작 전",
+  "note": "",
   "epsForecast": "$4.12",
-  "eps": "$2.92",
-  "surprise": ""
+  "eps": "$4.69",
+  "surprise": "13.83"
  },
  {
   "date": "2026-10-13",
@@ -391,7 +391,7 @@
   "title": "미국 근원 CPI",
   "level": "major",
   "kind": "econ",
-  "consensus": "2.5%",
+  "consensus": "0.2%",
   "actual": "",
   "previous": "337.77"
  },
@@ -631,6 +631,17 @@
  {
   "date": "2026-10-22",
   "time": "",
+  "title": "메타 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "장마감 후(한국 다음 날 새벽)",
+  "epsForecast": "$6.39",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-10-22",
+  "time": "",
   "title": "인텔 실적 발표",
   "level": "earnings",
   "kind": "earnings",
@@ -646,7 +657,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$0.22",
+  "epsForecast": "$0.21",
   "eps": "",
   "surprise": ""
  },
@@ -696,9 +707,9 @@
   "title": "미시간 소비심리",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "46.3",
   "actual": "",
-  "previous": "46.3"
+  "previous": "48.1"
  },
  {
   "date": "2026-10-26",
@@ -1123,7 +1134,18 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$1.98",
+  "epsForecast": "$1.99",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-11-03",
+  "time": "",
+  "title": "팔란티어 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "장마감 후(한국 다음 날 새벽)",
+  "epsForecast": "$0.34",
   "eps": "",
   "surprise": ""
  },

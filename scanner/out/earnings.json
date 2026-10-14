@@ -162,6 +162,18 @@
   "title": "팔란티어 실적 발표 (예정)"
  },
  {
+  "date": "2027-01-14",
+  "type": "earnings",
+  "market": "US",
+  "title": "JP모건 실적 발표 (예정)"
+ },
+ {
+  "date": "2027-01-19",
+  "type": "earnings",
+  "market": "US",
+  "title": "골드만삭스 실적 발표 (예정)"
+ },
+ {
   "date": "2026-10-28",
   "type": "earnings",
   "market": "US",
@@ -208,6 +220,12 @@
   "type": "earnings",
   "market": "US",
   "title": "일라이릴리 실적 발표 (예정)"
+ },
+ {
+  "date": "2027-01-26",
+  "type": "earnings",
+  "market": "US",
+  "title": "유나이티드헬스 실적 발표 (예정)"
  },
  {
   "date": "2026-10-28",
