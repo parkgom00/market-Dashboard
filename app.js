@@ -949,6 +949,11 @@
     draw();
   }
 
+  function kstToday() {
+    var d = new Date(Date.now() + 9 * 3600 * 1000);
+    return d.toISOString().slice(0, 10);
+  }
+
   /* ---------- 5장: 단기 (유형 A 종가배팅주: 세부 A1·A2·A3, 각 5종목) ---------- */
   function renderShort() {
     var root = $("#tab-short");
@@ -974,6 +979,8 @@
             (S.status ? '<div class="muted">' + esc(S.status) + "</div>" : "")
           : t.window
             ? '<div class="muted">확인 시간대 ' + esc(t.window) + " · 갱신 " + esc(t.asOf || "-") + "</div>" +
+              (t.asOf && String(t.asOf).slice(0, 10) < kstToday()
+                ? '<div class="phase">📌 지금 보이는 건 ' + esc(String(t.asOf).slice(5, 16).replace("-", "/")) + " 결과입니다. 오늘 첫 판정은 10:00에 계산을 시작해 2~3분 뒤 화면에 올라옵니다.</div>" : "") +
               (t.status ? '<div class="muted">' + esc(t.status) + "</div>" : "")
             : '<div class="muted">기준일 ' + esc(t.asOf || "-") + " (종가 기준)</div>") + "</div>";
       cur_asof = t.asOf || "";
@@ -1000,7 +1007,9 @@
       var af = s.after && Math.abs(s.after.price - s.close) > 1e-9 ? s.after : null;
       var isB = String(id).charAt(0) === "B";
       if (isB) s = withQuote(s, cur_asof);      // 유형 B 는 일봉(종가) 기준이라 장중에는 현재가를 덧씌운다
-      return stockCard(s, id ? [{ k: i, text: id, title: (subName || "") }] : [], true, isB ? (s.priceLabel || "종가") : (s.after ? "종가" : "현재가")) +
+      var isC = String(id).charAt(0) === "C";
+      var label = isB ? (s.priceLabel || "종가") : isC ? "판정가(" + String(cur_asof).slice(11, 16) + ")" : (s.after ? "종가" : "현재가");
+      return stockCard(s, id ? [{ k: i, text: id, title: (subName || "") }] : [], true, label) +
         (af ? '<div class="meta">마감 후 현재가(시간외) <b class="' + (af.pct > 0 ? "up" : af.pct < 0 ? "down" : "flat") + '">' + num(af.price) + " " +
           (af.pct > 0 ? "+" : "") + af.pct.toFixed(2) + "%</b></div>" : "") +
         (s.note ? '<div class="meta">' + esc(s.note) + "</div>" : "") + "</div>";

@@ -42,10 +42,21 @@ def _http(req, timeout=15):
         return json.loads(r.read().decode())
 
 
+_tok_lock = threading.Lock()
+
+
 def token(force=False):
-    """접근토큰. 실패하면 None."""
+    """접근토큰. 실패하면 None. 여러 스레드가 동시에 불러도 발급은 한 번만 (동시 발급은 403 으로 거절됨)."""
     if not enabled():
         return None
+    old = _token[0]
+    with _tok_lock:
+        if force and _token[0] and _token[0] != old:    # 기다리는 사이 다른 스레드가 이미 새로 받음
+            return _token[0]
+        return _token_locked(force)
+
+
+def _token_locked(force):
     if _token[0] and not force:
         return _token[0]
     if not force:
