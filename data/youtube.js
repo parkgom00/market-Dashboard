@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-15 05:36",
+ "asOf": "2026-10-15 07:36",
  "channels": [
   {
    "name": "815머니톡",
@@ -41,6 +41,11 @@ window.DASH.youtube = {
    "handle": "@orlandocampus",
    "videos": [
     {
+     "title": "(시황분석) 주식던지고 채권 사야하나?",
+     "publishedAt": "2026-10-15 06:51",
+     "url": "https://www.youtube.com/watch?v=AkUUIwYgxJ8"
+    },
+    {
      "title": "(삼전닉스,마이크론) 단기와 장기 매매를 구별하자!!!",
      "publishedAt": "2026-10-14 14:43",
      "url": "https://www.youtube.com/watch?v=oTic0U13E9I"
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 정말 메모리 반도체 끝났나? 갈길 많이 남았다",
      "publishedAt": "2026-10-13 05:51",
      "url": "https://www.youtube.com/watch?v=D_dbPhVVCf0"
-    },
-    {
-     "title": "(아이온큐) 적은 포트폴리오로 지분을 늘려가자!!!",
-     "publishedAt": "2026-10-12 14:36",
-     "url": "https://www.youtube.com/watch?v=V9jR2L6lSDs"
     }
    ]
   },
@@ -106,28 +106,28 @@ window.DASH.youtube = {
    "videos": [
     {
      "title": "코스피가 내년에 1만 갈 수 있다는 이유",
-     "publishedAt": "2026-10-15 01:00",
-     "url": "https://www.youtube.com/watch?v=hQs7h5bNy-Y"
-    },
-    {
-     "title": "10월 14일 외국인이 한국인 몰래 매수한 종목 정체",
-     "publishedAt": "2026-10-14 23:30",
-     "url": "https://www.youtube.com/watch?v=j92xugSdcQo"
-    },
-    {
-     "title": "코스피가 내년에 1만 갈 수 있다는 이유",
      "publishedAt": "2026-10-14 22:00",
      "url": "https://www.youtube.com/watch?v=U6SoT3GAIMk"
     },
     {
-     "title": "월가에서 현시점 버티브가 저평가 됐다는 이유",
-     "publishedAt": "2026-10-14 21:00",
-     "url": "https://www.youtube.com/watch?v=Y1vFnPjlTlM"
+     "title": "상승장보다 지금 같은 하락장이 기회인 이유",
+     "publishedAt": "2026-10-14 19:36",
+     "url": "https://www.youtube.com/watch?v=HMUYD3fGTBE"
     },
     {
-     "title": "상승장 보다 지금 같은 하락장이 기회인 이유",
-     "publishedAt": "2026-10-14 20:00",
-     "url": "https://www.youtube.com/watch?v=73d2_Ubt7Cg"
+     "title": "삼성전자, 하이닉스가 지금 저평가된 진짜 이유",
+     "publishedAt": "2026-10-14",
+     "url": "https://www.youtube.com/watch?v=RN0wu87jnxA"
+    },
+    {
+     "title": "외국인이 코스피를 계속 팔고 있는 진짜 이유",
+     "publishedAt": "2026-10-14",
+     "url": "https://www.youtube.com/watch?v=Bla7gUB1hQM"
+    },
+    {
+     "title": "트럼프는 중간선거 전에 이란과의 전쟁을 끝낼까",
+     "publishedAt": "2026-10-13",
+     "url": "https://www.youtube.com/watch?v=SWGYpEh9g0A"
     }
    ]
   },
@@ -137,19 +137,9 @@ window.DASH.youtube = {
    "handle": "@김단테",
    "videos": [
     {
-     "title": "코스피 장막판에 다시 떨어진 이유 #코스피 #ASML #하이닉스",
-     "publishedAt": "2026-10-14 15:49",
-     "url": "https://www.youtube.com/watch?v=gLcwg1PGbcg"
-    },
-    {
      "title": "코스피가 무너진 근본적인 이유 (CXMT 아님)",
      "publishedAt": "2026-10-13 21:23",
      "url": "https://www.youtube.com/watch?v=hzomN7wiW_8"
-    },
-    {
-     "title": "코스피 역대급 대폭락의 3가지 이유 #코스피 #CXMT #삼성전자",
-     "publishedAt": "2026-10-13 14:36",
-     "url": "https://www.youtube.com/watch?v=YfnyQJ5FTOA"
     },
     {
      "title": "또 메모리만 패는 증시",
@@ -157,9 +147,19 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=4Wt_PZqM5ZE"
     },
     {
-     "title": "코스피 코스닥 폭락의 주범 #코스피 #코스닥 #OpenAI",
-     "publishedAt": "2026-10-12 17:27",
-     "url": "https://www.youtube.com/watch?v=-aQybbK5sCI"
+     "title": "OpenAI의 매출 200억 달러가 사라졌다??",
+     "publishedAt": "2026-10-09",
+     "url": "https://www.youtube.com/watch?v=k1Ysumyvyio"
+    },
+    {
+     "title": "엔비디아가 숨기고 싶은 진짜 리스크",
+     "publishedAt": "2026-10-09",
+     "url": "https://www.youtube.com/watch?v=X2zIotF_JEY"
+    },
+    {
+     "title": "나스닥 연일 신고가의 진짜 이유",
+     "publishedAt": "2026-10-07",
+     "url": "https://www.youtube.com/watch?v=ffpwNQMKSv4"
     }
    ]
   },
