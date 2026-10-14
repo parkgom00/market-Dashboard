@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-14 17:40",
+ "asOf": "2026-10-14 19:40",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급인터뷰]  “조선주 수주는 6년 만의 최고!” 그런데 주가는 왜 무너지나? / 시장이 모르는 악재가 있는 걸까? ㅣ엄경아 연구위원",
+     "publishedAt": "2026-10-14 18:00",
+     "url": "https://www.youtube.com/watch?v=4_kIgua4ZA0"
+    },
     {
      "title": "반도체보다 이익 증가율 높아진다? 2차전지주 다시 봐야 하는 이유 / 조선·방산·원전 지금 팔까? | 김민수 대표",
      "publishedAt": "2026-10-14 16:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“7월 폭락장과 너무 닮았다!” 삼전·SK하닉 급락의 진실… 상승 직전 외국인의 ‘마지막 털기’일까? ㅣ이권희 대표",
      "publishedAt": "2026-10-14 12:00",
      "url": "https://www.youtube.com/watch?v=GQCp-6jytdo"
-    },
-    {
-     "title": "삼성전자 2.6조 증여, 하필 지금 왜? / 삼전·SK하닉 바닥 신호 나왔나… 신용융자 26조가 불안한 이유ㅣ 이주연 대표",
-     "publishedAt": "2026-10-14 10:33",
-     "url": "https://www.youtube.com/watch?v=ZCkanp3c5to"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "상승장보다 지금 같은 하락장이 기회인 이유",
+     "publishedAt": "2026-10-14 19:08",
+     "url": "https://www.youtube.com/watch?v=HMUYD3fGTBE"
+    },
+    {
      "title": "10월 14일 우리가 꼭 알고 있어야 할, 저평가 'AI 데이터센터' 소형주",
      "publishedAt": "2026-10-14 17:06",
      "url": "https://www.youtube.com/watch?v=0oR5qDA6zJM"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "지금, 기관이 개미 몰래 현대차 담는 진짜 이유",
      "publishedAt": "2026-10-14 11:51",
      "url": "https://www.youtube.com/watch?v=mV6LGftXeAk"
-    },
-    {
-     "title": "10월 14일 코스피 오늘은 폭락할까??",
-     "publishedAt": "2026-10-14 08:04",
-     "url": "https://www.youtube.com/watch?v=4q1LijREraU"
     }
    ]
   },
