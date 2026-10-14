@@ -372,7 +372,7 @@
   "level": "major",
   "kind": "econ",
   "consensus": "336.65",
-  "actual": "",
+  "actual": "0.59%",
   "previous": "0.32%"
  },
  {
@@ -392,7 +392,7 @@
   "level": "major",
   "kind": "econ",
   "consensus": "0.2%",
-  "actual": "",
+  "actual": "338.90",
   "previous": "337.77"
  },
  {
@@ -464,7 +464,7 @@
   "kind": "econ",
   "consensus": "49.85B",
   "actual": "",
-  "previous": "49.85B"
+  "previous": "34.79B"
  },
  {
   "date": "2026-10-15",
@@ -484,7 +484,7 @@
   "kind": "econ",
   "consensus": "83.5%",
   "actual": "",
-  "previous": "83.5%"
+  "previous": "68.7%"
  },
  {
   "date": "2026-10-15",
@@ -492,7 +492,7 @@
   "title": "미국 PPI",
   "level": "macro",
   "kind": "econ",
-  "consensus": "0.5%",
+  "consensus": "5.3%",
   "actual": "",
   "previous": "0.3%"
  },
@@ -502,7 +502,7 @@
   "title": "미국 근원 PPI",
   "level": "macro",
   "kind": "econ",
-  "consensus": "0.3%",
+  "consensus": "4.4%",
   "actual": "",
   "previous": "4.6%"
  },
@@ -522,7 +522,7 @@
   "title": "미국 신규 실업수당 청구",
   "level": "macro",
   "kind": "econ",
-  "consensus": "195K",
+  "consensus": "199K",
   "actual": "",
   "previous": "197K"
  },
@@ -532,7 +532,7 @@
   "title": "필라델피아 연은지수",
   "level": "macro",
   "kind": "econ",
-  "consensus": "26.5",
+  "consensus": "28.2",
   "actual": "",
   "previous": "37.8"
  },
@@ -1134,7 +1134,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$1.99",
+  "epsForecast": "$1.98",
   "eps": "",
   "surprise": ""
  },
@@ -1268,6 +1268,36 @@
   "previous": "7.079M"
  },
  {
+  "date": "2026-11-04",
+  "time": "22:15",
+  "title": "ADP 민간고용",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "90K"
+ },
+ {
+  "date": "2026-11-04",
+  "time": "22:30",
+  "title": "미국 무역수지",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "-105.60B"
+ },
+ {
+  "date": "2026-11-04",
+  "time": "23:45",
+  "title": "S&P글로벌 서비스업 PMI",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "58.8"
+ },
+ {
   "date": "2026-11-05",
   "time": "",
   "title": "ARM 실적 발표",
@@ -1277,6 +1307,16 @@
   "epsForecast": "$0.22",
   "eps": "",
   "surprise": ""
+ },
+ {
+  "date": "2026-11-05",
+  "time": "00:00",
+  "title": "ISM 서비스업",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "54.9"
  },
  {
   "date": "2026-11-13",

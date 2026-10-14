@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-14 21:29",
+ "generatedAt": "2026-10-15 03:28",
  "events": [
   {
    "date": "2026-01-01",
@@ -373,8 +373,8 @@ window.DASH.calendar = {
    "title": "미국 소비자물가지수(CPI) 발표 · 9월분 (한국시간 저녁)",
    "time": "21:30",
    "result": [
-    "미국 CPI: 예상 336.65 · 이전 0.32%",
-    "미국 근원 CPI: 예상 0.2% · 이전 337.77"
+    "미국 CPI: 실제 0.59% · 예상 336.65 · 이전 0.32%",
+    "미국 근원 CPI: 실제 338.90 · 예상 0.2% · 이전 337.77"
    ]
   },
   {
@@ -441,7 +441,7 @@ window.DASH.calendar = {
    "title": "한화에어로스페이스 실적 발표 (예정)"
   },
   {
-   "date": "2026-11-05",
+   "date": "2026-11-03",
    "type": "earnings",
    "market": "KR",
    "title": "LG에너지솔루션 실적 발표 (예정)"
@@ -1433,7 +1433,7 @@ window.DASH.calendar = {
    "title": "한국 무역수지",
    "time": "09:00",
    "result": [
-    "예상 49.85B · 이전 49.85B"
+    "예상 49.85B · 이전 34.79B"
    ]
   },
   {
@@ -1454,7 +1454,7 @@ window.DASH.calendar = {
    "time": "09:00",
    "major": true,
    "result": [
-    "예상 83.5% · 이전 83.5%"
+    "예상 83.5% · 이전 68.7%"
    ]
   },
   {
@@ -1464,7 +1464,7 @@ window.DASH.calendar = {
    "title": "미국 PPI",
    "time": "21:30",
    "result": [
-    "예상 0.5% · 이전 0.3%"
+    "예상 5.3% · 이전 0.3%"
    ]
   },
   {
@@ -1474,7 +1474,7 @@ window.DASH.calendar = {
    "title": "미국 근원 PPI",
    "time": "21:30",
    "result": [
-    "예상 0.3% · 이전 4.6%"
+    "예상 4.4% · 이전 4.6%"
    ]
   },
   {
@@ -1494,7 +1494,7 @@ window.DASH.calendar = {
    "title": "미국 신규 실업수당 청구",
    "time": "21:30",
    "result": [
-    "예상 195K · 이전 197K"
+    "예상 199K · 이전 197K"
    ]
   },
   {
@@ -1504,7 +1504,7 @@ window.DASH.calendar = {
    "title": "필라델피아 연은지수",
    "time": "21:30",
    "result": [
-    "예상 26.5 · 이전 37.8"
+    "예상 28.2 · 이전 37.8"
    ]
   },
   {
@@ -2060,6 +2060,46 @@ window.DASH.calendar = {
    "time": "00:00",
    "result": [
     "이전 7.079M"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "type": "econ",
+   "market": "US",
+   "title": "ADP 민간고용",
+   "time": "22:15",
+   "result": [
+    "이전 90K"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 무역수지",
+   "time": "22:30",
+   "result": [
+    "이전 -105.60B"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "type": "econ",
+   "market": "US",
+   "title": "S&P글로벌 서비스업 PMI",
+   "time": "23:45",
+   "result": [
+    "이전 58.8"
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "type": "econ",
+   "market": "US",
+   "title": "ISM 서비스업",
+   "time": "00:00",
+   "result": [
+    "이전 54.9"
    ]
   },
   {
