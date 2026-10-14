@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-14 15:45",
+ "asOf": "2026-10-14 15:49",
  "window": "15:20~15:40",
  "status": "전 종목 2421개 중 후보 101개 점검 (기준 일봉 2026-10-13)",
  "types": [
@@ -15,7 +15,24 @@ window.DASH.shortterm = {
      "id": "A1",
      "name": "장 마감 직전 대형수급 + 당일 고가 마감",
      "desc": "마감 직전 외국인·기관 순매수(거래대금의 3% 이상)가 몰리고, 고가 대비 0.5% 이내로 마감하는 종목",
-     "kr": []
+     "kr": [
+      {
+       "code": "161390",
+       "name": "한국타이어앤테크놀로지",
+       "close": 62700.0,
+       "market": "KOSPI",
+       "sector": "자동차부품",
+       "after": {
+        "price": 62700.0,
+        "pct": 2.12
+       },
+       "marcap": 77670,
+       "prevClose": 61400.0,
+       "changePct": 2.12,
+       "value": 176,
+       "note": "고가 마감권(고가 대비 0.48% 아래) · 막판 20분 거래량 비중 17% · 수급 자료 확인 전"
+      }
+     ]
     },
     {
      "id": "A2",
@@ -28,7 +45,10 @@ window.DASH.shortterm = {
        "close": 5660.0,
        "market": "KOSDAQ",
        "sector": "생명과학도구및서비스",
-       "after": null,
+       "after": {
+        "price": 5660.0,
+        "pct": -4.87
+       },
        "marcap": 987,
        "prevClose": 5950.0,
        "changePct": -4.87,
@@ -48,12 +68,15 @@ window.DASH.shortterm = {
        "close": 15930.0,
        "market": "KOSDAQ",
        "sector": "기계",
-       "after": null,
+       "after": {
+        "price": 15930.0,
+        "pct": 26.93
+       },
        "marcap": 3066,
        "prevClose": 12550.0,
        "changePct": 26.93,
-       "value": 805,
-       "note": "바닥권(250일 범위 하단 16%) · 거래대금 805억(20일 평균의 4.8배) · 장대양봉(+25.5%) · 240일선 13,242, 480일선 10,497 돌파"
+       "value": 806,
+       "note": "바닥권(250일 범위 하단 16%) · 거래대금 806억(20일 평균의 4.8배) · 장대양봉(+25.5%) · 240일선 13,242, 480일선 10,497 돌파"
       },
       {
        "code": "010580",
@@ -61,7 +84,10 @@ window.DASH.shortterm = {
        "close": 2670.0,
        "market": "KOSPI",
        "sector": "자동차부품",
-       "after": null,
+       "after": {
+        "price": 2670.0,
+        "pct": 29.93
+       },
        "marcap": 2970,
        "prevClose": 2055.0,
        "changePct": 29.93,
@@ -74,7 +100,10 @@ window.DASH.shortterm = {
        "close": 224000.0,
        "market": "KOSPI",
        "sector": "도로와철도운송",
-       "after": null,
+       "after": {
+        "price": 224000.0,
+        "pct": 29.78
+       },
        "marcap": 3201,
        "prevClose": 172600.0,
        "changePct": 29.78,
@@ -305,26 +334,22 @@ window.DASH.shortterm = {
   "quotes": 2421,
   "candidates": 101,
   "bars": 101,
-  "naverBars": 0,
-  "kisBars": 101,
+  "naverBars": 101,
+  "kisBars": 0,
   "a1": {
    "후보": 100,
    "분봉지연": 0,
    "사유": {
     "고가에서 멂": 95,
-    "막판 거래량 비중 부족": 5
+    "ok(수급 자료 없음)": 1,
+    "막판 거래량 비중 부족": 4
    },
-   "수급자료": 99,
-   "막판비중_중앙값": 0.023,
-   "막판비중_최대": 0.202
-  },
-  "kis": {
-   "calls": 302,
-   "ok": 302,
-   "err": {}
+   "수급자료": 0,
+   "막판비중_중앙값": 0.038,
+   "막판비중_최대": 0.207
   }
  },
  "flowConfirmed": false,
- "flowKind": "장중 추정",
- "phase": "장중 · 외국인·기관 장중 추정 가집계(한국투자) 반영 · 확정 수급은 마감 후 다시 반영"
+ "flowKind": "",
+ "phase": "장 마감 후 · 정규장 종가 기준 · 수급 자료는 아직 공개 전"
 };
