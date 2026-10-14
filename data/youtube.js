@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-14 13:41",
+ "asOf": "2026-10-14 15:48",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급시황]  지금 섣불리 사지 마세요… 외국인 매도 아직 끝 아니다? / 연기금도 매수 못 하는 이유 (한국증시, 주도주) 이건희 대표",
+     "publishedAt": "2026-10-14 15:00",
+     "url": "https://www.youtube.com/watch?v=0htt1I_btRQ"
+    },
+    {
+     "title": "[#글로벌인사이트]  삼전·SK하닉 폭락, 중국 CXMT는 핑계였나? / 외인이 한국 반도체만 파는 진짜 이유… 7월 폭락과 닮은 ‘반등 신호’ㅣ세미콘 리서치랩 노근창 대표",
+     "publishedAt": "2026-10-14 14:48",
+     "url": "https://www.youtube.com/watch?v=xvBCcCtChJU"
+    },
     {
      "title": "“7월 폭락장과 너무 닮았다!” 삼전·SK하닉 급락의 진실… 상승 직전 외국인의 ‘마지막 털기’일까? ㅣ이권희 대표",
      "publishedAt": "2026-10-14 12:41",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "[10월14일 #장시작전] 美 반도체 5일 연속 하락… 뉴욕증시 약세, 연준 발언에 낙폭 축소 / 오늘도 외국인 매도 폭탄 쏟아질까?",
      "publishedAt": "2026-10-14 09:45",
      "url": "https://www.youtube.com/watch?v=VQkxdRx1m5k"
-    },
-    {
-     "title": "[#찐시황]  “비정상적인 투매의 진실!” 현물 5조 던지고 선물 4,000억 쓸어담았다… 장 막판 돌변한 외국인의 속내 (증시폭락) 박현상 이사",
-     "publishedAt": "2026-10-13 20:00",
-     "url": "https://www.youtube.com/watch?v=9M5TRRXKqo0"
-    },
-    {
-     "title": "[#긴급인터뷰] 검은 화요일... 한국 증시만 더 추락한 이유 / 폭락한 삼성전자·SK하이닉스... 지금 살까, 팔까?  | 김민수 대표",
-     "publishedAt": "2026-10-13 18:30",
-     "url": "https://www.youtube.com/watch?v=4tAmP-lePRI"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(삼전닉스,마이크론) 단기와 장기 매매를 구별하자!!!",
+     "publishedAt": "2026-10-14 14:48",
+     "url": "https://www.youtube.com/watch?v=oTic0U13E9I"
+    },
     {
      "title": "(시황분석) 금리 6%이하에서는 주가는 달린다!!!",
      "publishedAt": "2026-10-14 06:37",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(아이온큐) 적은 포트폴리오로 지분을 늘려가자!!!",
      "publishedAt": "2026-10-12 14:36",
      "url": "https://www.youtube.com/watch?v=V9jR2L6lSDs"
-    },
-    {
-     "title": "(주간시황) 다음주 실적장세로 인해 섹터 로테이션 일어나나?",
-     "publishedAt": "2026-10-11 19:24",
-     "url": "https://www.youtube.com/watch?v=wFNXBW5KQe8"
     }
    ]
   },
