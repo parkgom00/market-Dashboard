@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-15 19:40",
+ "asOf": "2026-10-15 21:49",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황]  아.. 2018년 주가 폭락과 너무 닮았다!  코스피 마지막 투매인가? / 돈은 채권으로 탈출… 외인 장 막판 선물 1.2조 매수의 진실ㅣ황유현 팀장",
+     "publishedAt": "2026-10-15 20:00",
+     "url": "https://www.youtube.com/watch?v=mgup71sy8Gs"
+    },
     {
      "title": "AI는 전기가 부족하고 미국은 군함이 부족하다… 두 위기의 수혜는 K-조선주·엔진주?  | 엄경아 연구위원",
      "publishedAt": "2026-10-15 18:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "코스피 5,500선이 무너지면 위험하다? / AI 데이터센터 ‘부채 폭탄’ 터지나… 증시 진짜 위기는 지금부터? ㅣ이권희 대표",
      "publishedAt": "2026-10-15 13:17",
      "url": "https://www.youtube.com/watch?v=ysvA5mzUlRY"
-    },
-    {
-     "title": "코스피 전저점 지켜낼까? 美 반도체주 폭락의 진실 / 삼전·하닉 어디까지 빠지나?ㅣ 이주연 대표",
-     "publishedAt": "2026-10-15 10:55",
-     "url": "https://www.youtube.com/watch?v=p9wp0oGdPJ0"
     }
    ]
   },
@@ -105,6 +105,21 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 15일 외국인이 한국인 몰래 매수한 종목 정체",
+     "publishedAt": "2026-10-15 21:00",
+     "url": "https://www.youtube.com/watch?v=d4sOSnhQE0s"
+    },
+    {
+     "title": "국민연금이 '외국인 ATM' 소리 듣는 진짜 이유",
+     "publishedAt": "2026-10-15 20:00",
+     "url": "https://www.youtube.com/watch?v=rqRUtIITFqg"
+    },
+    {
+     "title": "미국이 금리를 또 올리면 코스피는 어떻게 될까?!",
+     "publishedAt": "2026-10-15 19:41",
+     "url": "https://www.youtube.com/watch?v=h04X6O4_fhQ"
+    },
+    {
      "title": "현대차 실적 발표 전, 꼭 봐야 할 '주가 패턴'",
      "publishedAt": "2026-10-15 17:57",
      "url": "https://www.youtube.com/watch?v=Fqd7VyoFqxM"
@@ -113,21 +128,6 @@ window.DASH.youtube = {
      "title": "10월 15일 꼭 알고 있어야 할, 저평가 'AI 반도체 장비' 소형주",
      "publishedAt": "2026-10-15 16:52",
      "url": "https://www.youtube.com/watch?v=tH_TYVwAmic"
-    },
-    {
-     "title": "10월 15일 미국장 열리기 전 꼭 알아야 하는 '미장 시황' 투자 포인트",
-     "publishedAt": "2026-10-15 14:58",
-     "url": "https://www.youtube.com/watch?v=05nQVoi86x0"
-    },
-    {
-     "title": "삼성전자는 '1월 주주환원' 전까지 못 오를까?!",
-     "publishedAt": "2026-10-15 12:15",
-     "url": "https://www.youtube.com/watch?v=OOhtu0gFXfE"
-    },
-    {
-     "title": "10월 15일 오늘 코스피 어디까지 떨어질까?!",
-     "publishedAt": "2026-10-15 08:01",
-     "url": "https://www.youtube.com/watch?v=epd420GTwe8"
     }
    ]
   },
