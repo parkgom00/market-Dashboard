@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-16 05:37",
+ "asOf": "2026-10-16 07:37",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[10월16일 #장시작전] 美국채금리 하락에 뉴욕증시 상승… 필반도체 -0.9%에도 마이크론 2% 반등 / 오늘 삼전·하닉도 살아날까?",
+     "publishedAt": "2026-10-16 06:29",
+     "url": "https://www.youtube.com/watch?v=OnKk3tZ7ulk"
+    },
     {
      "title": "[#찐시황]  아.. 2018년 주가 폭락과 너무 닮았다!  코스피 마지막 투매인가? / 돈은 채권으로 탈출… 외인 장 막판 선물 1.2조 매수의 진실ㅣ황유현 팀장",
      "publishedAt": "2026-10-15 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#글로벌인사이트]  ASML 장비 없어서 못 파는데… 삼성전자·SK하이닉스 주가는 왜 폭락하나? / 외국인이 반도체주 투매하는 진짜 이유 ㅣ세미콘 리서치랩 노근창 대표",
      "publishedAt": "2026-10-15 15:00",
      "url": "https://www.youtube.com/watch?v=0C4J2SPhsDA"
-    },
-    {
-     "title": "코스피 5,500선이 무너지면 위험하다? / AI 데이터센터 ‘부채 폭탄’ 터지나… 증시 진짜 위기는 지금부터? ㅣ이권희 대표",
-     "publishedAt": "2026-10-15 13:17",
-     "url": "https://www.youtube.com/watch?v=ysvA5mzUlRY"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) 중소형주는 저점 바닥인가?",
+     "publishedAt": "2026-10-16 05:41",
+     "url": "https://www.youtube.com/watch?v=_qmg2Xk8RzY"
+    },
     {
      "title": "(아이온큐) 주가희석으로 보는 적정주가는?",
      "publishedAt": "2026-10-15 14:28",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 금리 6%이하에서는 주가는 달린다!!!",
      "publishedAt": "2026-10-14 06:29",
      "url": "https://www.youtube.com/watch?v=N7uBIM7RR2k"
-    },
-    {
-     "title": "(반도체) 지금 던지고 가야하나?",
-     "publishedAt": "2026-10-13 16:16",
-     "url": "https://www.youtube.com/watch?v=wsC6aM7tSk4"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 16일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-10-16 07:04",
+     "url": "https://www.youtube.com/watch?v=v2N5urNCy38"
+    },
+    {
      "title": "반토막 난 현대일렉트릭 지금이 저평가일까?!",
      "publishedAt": "2026-10-15 22:00",
      "url": "https://www.youtube.com/watch?v=OdH29V5o4do"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "미국이 금리를 또 올리면 코스피는 어떻게 될까?!",
      "publishedAt": "2026-10-15 19:41",
      "url": "https://www.youtube.com/watch?v=h04X6O4_fhQ"
-    },
-    {
-     "title": "현대차 실적 발표 전, 꼭 봐야 할 '주가 패턴'",
-     "publishedAt": "2026-10-15 17:57",
-     "url": "https://www.youtube.com/watch?v=Fqd7VyoFqxM"
     }
    ]
   },
