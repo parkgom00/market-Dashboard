@@ -2,6 +2,6 @@
 window.DASH = window.DASH || {};
 window.DASH.meta = {
   title: "마켓 대시보드",
-  updatedAt: "2026-10-16 07:56",
+  updatedAt: "2026-10-16 08:09",
   isSample: false // 탭별 샘플 표시는 각 data 파일의 sample: true 로 합니다
 };
