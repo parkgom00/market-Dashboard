@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-15 07:36",
+ "asOf": "2026-10-15 09:47",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[10월15일 #장시작전] 美 9월 CPI 3.7% ‘물가 쇼크’… 뉴욕증시·AI주 급락 / 필라델피아 반도체 -4.3%, 오늘 삼전·하닉 괜찮을까?",
+     "publishedAt": "2026-10-15 09:45",
+     "url": "https://www.youtube.com/watch?v=1Qb72noBOGc"
+    },
     {
      "title": "[#찐시황]  “정말 화나는 하루” 잘 오르던 증시가 갑자기 꺾인 진짜 이유 / 외국인 선물에 언제까지 휘둘릴까? | 이지환 대표",
      "publishedAt": "2026-10-14 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황]  지금 섣불리 사지 마세요… 외국인 매도 아직 끝 아니다? / 연기금도 매수 못 하는 이유 (한국증시, 주도주) 이건희 대표",
      "publishedAt": "2026-10-14 15:00",
      "url": "https://www.youtube.com/watch?v=0htt1I_btRQ"
-    },
-    {
-     "title": "[#글로벌인사이트]  삼전·SK하닉 폭락, 중국 CXMT는 핑계였나? / 외인이 한국 반도체만 파는 진짜 이유… 7월 폭락과 닮은 ‘반등 신호’ㅣ세미콘 리서치랩 노근창 대표",
-     "publishedAt": "2026-10-14 14:00",
-     "url": "https://www.youtube.com/watch?v=xvBCcCtChJU"
     }
    ]
   },
@@ -78,11 +78,6 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=6VDcX0bLZiw"
     },
     {
-     "title": "[실전 투자 스터디] 여전한 숏티지, 그런데 주가는 왜?",
-     "publishedAt": "2026-10-13 18:00",
-     "url": "https://www.youtube.com/watch?v=wC6Tlj8KjeY"
-    },
-    {
      "title": "[특집] AI 인프라에서 뜨는 전력과 광학, 국내 핵심 수혜주는?",
      "publishedAt": "2026-10-13 17:30",
      "url": "https://www.youtube.com/watch?v=bzDBLehWGVI"
@@ -96,6 +91,11 @@ window.DASH.youtube = {
      "title": "[특집] 반도체 소부장 지각 변동, 지금은 이 주도주 흐름을 봐야 합니다!!",
      "publishedAt": "2026-10-08 19:00",
      "url": "https://www.youtube.com/watch?v=RF4B2IsSxiY"
+    },
+    {
+     "title": "파운드리 시장 큰 손으로 부상한 이 업계? 돈이 쏟아진다!!",
+     "publishedAt": "2026-10-08",
+     "url": "https://www.youtube.com/watch?v=CWuoPW-5Cow"
     }
    ]
   },
@@ -184,14 +184,14 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=ILs31CN-_VA"
     },
     {
+     "title": "지금은 2003년? AI인프라 다음 노려라?/스페이스X 통신까지 진출, 본격 랠리 시작?/이때는 증시도 위험? 월가 초고수의 경고",
+     "publishedAt": "2026-10-12",
+     "url": "https://www.youtube.com/watch?v=b414IoVg0To"
+    },
+    {
      "title": "AI사이클 더 큰 한 방 남았다? 증시 의심의 벽 뚫고 올라갈까",
      "publishedAt": "2026-10-09 18:36",
      "url": "https://www.youtube.com/watch?v=Ob5TSrJbxbs"
-    },
-    {
-     "title": "올해 메모리 놓친 사람 주목? AI 반도체 다음 격전지가 될 투자처",
-     "publishedAt": "2026-10-08 19:17",
-     "url": "https://www.youtube.com/watch?v=MjEc_J9gYko"
     }
    ]
   }
