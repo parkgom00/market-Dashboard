@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-15 15:08",
+ "asOf": "2026-10-15 15:11",
  "window": "15:20~15:40",
- "status": "전 종목 2415개 중 후보 22개 점검 (기준 일봉 2026-10-14)",
+ "status": "전 종목 2414개 중 후보 22개 점검 (기준 일봉 2026-10-14)",
  "types": [
   {
    "id": "A",
@@ -19,15 +19,15 @@ window.DASH.shortterm = {
       {
        "code": "032640",
        "name": "LG유플러스",
-       "close": 15030.0,
+       "close": 15040.0,
        "market": "KOSPI",
        "sector": "무선통신서비스",
        "after": null,
-       "marcap": 63791,
+       "marcap": 63834,
        "prevClose": 14700.0,
-       "changePct": 2.24,
-       "value": 172,
-       "note": "고가 마감권(고가 대비 0.13% 아래) · 막판 20분 거래량 비중 14% · 외국인 +11억 · 기관 +27억 (합계 거래대금의 22%) · 장중 추정 가집계"
+       "changePct": 2.31,
+       "value": 175,
+       "note": "고가 마감권(고가 대비 0.07% 아래) · 막판 20분 거래량 비중 14% · 외국인 +11억 · 기관 +27억 (합계 거래대금의 22%) · 장중 추정 가집계"
       }
      ]
     },
@@ -157,7 +157,7 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2415,
+  "quotes": 2414,
   "candidates": 22,
   "bars": 22,
   "naverBars": 0,
@@ -171,7 +171,7 @@ window.DASH.shortterm = {
     "막판 거래량 비중 부족": 1
    },
    "수급자료": 18,
-   "막판비중_중앙값": 0.055,
+   "막판비중_중앙값": 0.063,
    "막판비중_최대": 0.136
   },
   "kis": {
