@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-15 17:41",
+ "asOf": "2026-10-15 19:40",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "AI는 전기가 부족하고 미국은 군함이 부족하다… 두 위기의 수혜는 K-조선주·엔진주?  | 엄경아 연구위원",
+     "publishedAt": "2026-10-15 18:00",
+     "url": "https://www.youtube.com/watch?v=AUug7VB1_rQ"
+    },
     {
      "title": "[#긴급시황] 검은 목요일 “코스피 8% 폭락장!” 외국인 5조 투매에 장중 5,500선 붕괴… 다음 지지선은 어디인가? | 이권희 대표",
      "publishedAt": "2026-10-15 16:30",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "코스피 전저점 지켜낼까? 美 반도체주 폭락의 진실 / 삼전·하닉 어디까지 빠지나?ㅣ 이주연 대표",
      "publishedAt": "2026-10-15 10:55",
      "url": "https://www.youtube.com/watch?v=p9wp0oGdPJ0"
-    },
-    {
-     "title": "[10월15일 #장시작전] 美 9월 CPI 3.7% ‘물가 쇼크’… 뉴욕증시·AI주 급락 / 필라델피아 반도체 -4.3%, 오늘 삼전·하닉 괜찮을까?",
-     "publishedAt": "2026-10-15 10:09",
-     "url": "https://www.youtube.com/watch?v=1Qb72noBOGc"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "현대차 실적 발표 전, 꼭 봐야 할 '주가 패턴'",
+     "publishedAt": "2026-10-15 17:57",
+     "url": "https://www.youtube.com/watch?v=Fqd7VyoFqxM"
+    },
+    {
      "title": "10월 15일 꼭 알고 있어야 할, 저평가 'AI 반도체 장비' 소형주",
      "publishedAt": "2026-10-15 16:52",
      "url": "https://www.youtube.com/watch?v=tH_TYVwAmic"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "10월 15일 오늘 코스피 어디까지 떨어질까?!",
      "publishedAt": "2026-10-15 08:01",
      "url": "https://www.youtube.com/watch?v=epd420GTwe8"
-    },
-    {
-     "title": "10월 15일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-10-15 07:30",
-     "url": "https://www.youtube.com/watch?v=9XDu4_bPwdA"
     }
    ]
   },
