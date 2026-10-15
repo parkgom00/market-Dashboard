@@ -352,7 +352,7 @@
   "kind": "earnings",
   "note": "장 시작 전",
   "epsForecast": "$12.47",
-  "eps": "",
+  "eps": "$6.41",
   "surprise": ""
  },
  {
@@ -463,7 +463,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "49.85B",
-  "actual": "",
+  "actual": "49.97B",
   "previous": "34.79B"
  },
  {
@@ -473,8 +473,8 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "26.0%",
-  "actual": "",
-  "previous": "26.0%"
+  "actual": "26.0%",
+  "previous": "22.4%"
  },
  {
   "date": "2026-10-15",
@@ -483,7 +483,7 @@
   "level": "major",
   "kind": "econ",
   "consensus": "83.5%",
-  "actual": "",
+  "actual": "83.7%",
   "previous": "68.7%"
  },
  {
@@ -514,7 +514,7 @@
   "kind": "econ",
   "consensus": "0.3%",
   "actual": "",
-  "previous": "1.1%"
+  "previous": "1.2%"
  },
  {
   "date": "2026-10-15",
@@ -1042,7 +1042,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "34.79B"
+  "previous": "49.97B"
  },
  {
   "date": "2026-11-01",
@@ -1052,7 +1052,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "22.4%"
+  "previous": "26.0%"
  },
  {
   "date": "2026-11-01",
@@ -1062,7 +1062,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "68.7%"
+  "previous": "83.7%"
  },
  {
   "date": "2026-11-02",
@@ -1134,7 +1134,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$1.98",
+  "epsForecast": "$1.99",
   "eps": "",
   "surprise": ""
  },
@@ -1317,6 +1317,16 @@
   "consensus": "",
   "actual": "",
   "previous": "54.9"
+ },
+ {
+  "date": "2026-11-05",
+  "time": "08:00",
+  "title": "한국 경상수지",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "46.11B"
  },
  {
   "date": "2026-11-13",
