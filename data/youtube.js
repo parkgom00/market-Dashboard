@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-15 21:49",
+ "asOf": "2026-10-15 23:41",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "현대차 실적 발표 전에 꼭 알아야 할 주가 패턴",
+     "publishedAt": "2026-10-15 23:00",
+     "url": "https://www.youtube.com/watch?v=ci4xM1HR2RA"
+    },
+    {
+     "title": "반토막 난 현대일렉트릭 지금이 저평가일까?!",
+     "publishedAt": "2026-10-15 22:00",
+     "url": "https://www.youtube.com/watch?v=OdH29V5o4do"
+    },
+    {
      "title": "10월 15일 외국인이 한국인 몰래 매수한 종목 정체",
      "publishedAt": "2026-10-15 21:00",
      "url": "https://www.youtube.com/watch?v=d4sOSnhQE0s"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "미국이 금리를 또 올리면 코스피는 어떻게 될까?!",
      "publishedAt": "2026-10-15 19:41",
      "url": "https://www.youtube.com/watch?v=h04X6O4_fhQ"
-    },
-    {
-     "title": "현대차 실적 발표 전, 꼭 봐야 할 '주가 패턴'",
-     "publishedAt": "2026-10-15 17:57",
-     "url": "https://www.youtube.com/watch?v=Fqd7VyoFqxM"
-    },
-    {
-     "title": "10월 15일 꼭 알고 있어야 할, 저평가 'AI 반도체 장비' 소형주",
-     "publishedAt": "2026-10-15 16:52",
-     "url": "https://www.youtube.com/watch?v=tH_TYVwAmic"
     }
    ]
   },
