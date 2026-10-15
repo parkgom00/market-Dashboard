@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-16 01:40",
+ "asOf": "2026-10-16 03:44",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,11 +105,6 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "현대차 실적 발표 전에 꼭 알아야 할 주가 패턴",
-     "publishedAt": "2026-10-15 23:00",
-     "url": "https://www.youtube.com/watch?v=ci4xM1HR2RA"
-    },
-    {
      "title": "반토막 난 현대일렉트릭 지금이 저평가일까?!",
      "publishedAt": "2026-10-15 22:00",
      "url": "https://www.youtube.com/watch?v=OdH29V5o4do"
@@ -128,6 +123,11 @@ window.DASH.youtube = {
      "title": "미국이 금리를 또 올리면 코스피는 어떻게 될까?!",
      "publishedAt": "2026-10-15 19:41",
      "url": "https://www.youtube.com/watch?v=h04X6O4_fhQ"
+    },
+    {
+     "title": "현대차 실적 발표 전, 꼭 봐야 할 '주가 패턴'",
+     "publishedAt": "2026-10-15 17:57",
+     "url": "https://www.youtube.com/watch?v=Fqd7VyoFqxM"
     }
    ]
   },
@@ -136,6 +136,11 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
+    {
+     "title": "코스피 반등 시작하나?",
+     "publishedAt": "2026-10-16 02:38",
+     "url": "https://www.youtube.com/watch?v=6Qd_w8GyLp4"
+    },
     {
      "title": "코스피 6000도 깨버린 3가지 이유 #코스피 #코어위브 #앤트로픽",
      "publishedAt": "2026-10-15 09:18",
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "코스피 역대급 대폭락의 3가지 이유 #코스피 #CXMT #삼성전자",
      "publishedAt": "2026-10-13 14:36",
      "url": "https://www.youtube.com/watch?v=YfnyQJ5FTOA"
-    },
-    {
-     "title": "또 메모리만 패는 증시",
-     "publishedAt": "2026-10-13 03:07",
-     "url": "https://www.youtube.com/watch?v=4Wt_PZqM5ZE"
     }
    ]
   },
