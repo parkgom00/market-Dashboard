@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-15 09:47",
+ "asOf": "2026-10-15 11:37",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "코스피 전저점 지켜낼까? 美 반도체주 폭락의 진실 / 삼전·하닉 어디까지 빠지나?ㅣ 이주연 대표",
+     "publishedAt": "2026-10-15 10:55",
+     "url": "https://www.youtube.com/watch?v=p9wp0oGdPJ0"
+    },
     {
      "title": "[10월15일 #장시작전] 美 9월 CPI 3.7% ‘물가 쇼크’… 뉴욕증시·AI주 급락 / 필라델피아 반도체 -4.3%, 오늘 삼전·하닉 괜찮을까?",
      "publishedAt": "2026-10-15 09:45",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "반도체보다 이익 증가율 높아진다? 2차전지주 다시 봐야 하는 이유 / 조선·방산·원전 지금 팔까? | 김민수 대표",
      "publishedAt": "2026-10-14 16:00",
      "url": "https://www.youtube.com/watch?v=W_MGWBS0nZQ"
-    },
-    {
-     "title": "[#긴급시황]  지금 섣불리 사지 마세요… 외국인 매도 아직 끝 아니다? / 연기금도 매수 못 하는 이유 (한국증시, 주도주) 이건희 대표",
-     "publishedAt": "2026-10-14 15:00",
-     "url": "https://www.youtube.com/watch?v=0htt1I_btRQ"
     }
    ]
   },
