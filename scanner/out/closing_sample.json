@@ -67,36 +67,36 @@
  ],
  "minute": [
   {
-   "localDateTime": "20261015151800",
-   "currentPrice": 210500.0,
-   "openPrice": 210000.0,
-   "highPrice": 211000.0,
-   "lowPrice": 210000.0,
-   "accumulatedTradingVolume": 130615
-  },
-  {
-   "localDateTime": "20261015151900",
-   "currentPrice": 210000.0,
-   "openPrice": 210500.0,
-   "highPrice": 210500.0,
-   "lowPrice": 209500.0,
-   "accumulatedTradingVolume": 73061
-  },
-  {
-   "localDateTime": "20261015153000",
-   "currentPrice": 210000.0,
-   "openPrice": 210000.0,
-   "highPrice": 210000.0,
-   "lowPrice": 210000.0,
-   "accumulatedTradingVolume": 2380168
-  },
-  {
    "localDateTime": "20261015154000",
    "currentPrice": 210000.0,
    "openPrice": 210000.0,
    "highPrice": 210000.0,
    "lowPrice": 210000.0,
-   "accumulatedTradingVolume": 31041
+   "accumulatedTradingVolume": 31146
+  },
+  {
+   "localDateTime": "20261015154100",
+   "currentPrice": 210000.0,
+   "openPrice": 210000.0,
+   "highPrice": 210000.0,
+   "lowPrice": 210000.0,
+   "accumulatedTradingVolume": 573
+  },
+  {
+   "localDateTime": "20261015154200",
+   "currentPrice": 210000.0,
+   "openPrice": 210000.0,
+   "highPrice": 210000.0,
+   "lowPrice": 210000.0,
+   "accumulatedTradingVolume": 132
+  },
+  {
+   "localDateTime": "20261015154300",
+   "currentPrice": 210000.0,
+   "openPrice": 210000.0,
+   "highPrice": 210000.0,
+   "lowPrice": 210000.0,
+   "accumulatedTradingVolume": 1145
   }
  ],
  "integration": {
@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "DS투자증권",
     "tit": "사상 최초 DRAM 분기 매출 100조원 상회",
-    "rcnt": "21431",
+    "rcnt": "21444",
     "wdt": "20261012"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "하나증권",
     "tit": "강한 DRAM 가격. LPDDR 공급 부족 심화",
-    "rcnt": "13270",
+    "rcnt": "13274",
     "wdt": "20261012"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "유진투자증권",
     "tit": "눈높이를 높이는 구간",
-    "rcnt": "11051",
+    "rcnt": "11057",
     "wdt": "20261012"
    }
   ],
