@@ -350,10 +350,10 @@
   "title": "ASML 실적 발표",
   "level": "earnings",
   "kind": "earnings",
-  "note": "장 시작 전",
+  "note": "",
   "epsForecast": "$12.47",
-  "eps": "$6.41",
-  "surprise": ""
+  "eps": "$14.89",
+  "surprise": "19.41"
  },
  {
   "date": "2026-10-14",
@@ -635,7 +635,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$6.39",
+  "epsForecast": "$6.35",
   "eps": "",
   "surprise": ""
  },
@@ -738,7 +738,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장 시작 전",
-  "epsForecast": "($0.15)",
+  "epsForecast": "($0.16)",
   "eps": "",
   "surprise": ""
  },
@@ -938,7 +938,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장 시작 전",
-  "epsForecast": "$7.54",
+  "epsForecast": "$6.40",
   "eps": "",
   "surprise": ""
  },
@@ -1391,6 +1391,28 @@
   "kind": "earnings",
   "note": "",
   "epsForecast": "$2.41",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-12-09",
+  "time": "",
+  "title": "어도비 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "",
+  "epsForecast": "$5.11",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-12-09",
+  "time": "",
+  "title": "오라클 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "",
+  "epsForecast": "$1.57",
   "eps": "",
   "surprise": ""
  },

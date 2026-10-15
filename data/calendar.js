@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-15 15:28",
+ "generatedAt": "2026-10-15 21:27",
  "events": [
   {
    "date": "2026-01-01",
@@ -502,22 +502,10 @@ window.DASH.calendar = {
    "title": "브로드컴 실적 발표 (예정)"
   },
   {
-   "date": "2026-12-10",
-   "type": "earnings",
-   "market": "US",
-   "title": "어도비 실적 발표 (예정)"
-  },
-  {
    "date": "2026-12-11",
    "type": "earnings",
    "market": "US",
    "title": "코스트코 실적 발표 (예정)"
-  },
-  {
-   "date": "2026-12-15",
-   "type": "earnings",
-   "market": "US",
-   "title": "오라클 실적 발표 (예정)"
   },
   {
    "date": "2026-12-23",
@@ -1345,8 +1333,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "ASML 실적 발표",
    "result": [
-    "EPS 실제 $6.41 (예상 $12.47)",
-    "장 시작 전"
+    "EPS 실제 $14.89 (예상 $12.47) · 서프라이즈 19.41%"
    ]
   },
   {
@@ -1601,7 +1588,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "메타 실적 발표",
    "result": [
-    "EPS 예상 $6.39",
+    "EPS 예상 $6.35",
     "장마감 후(한국 다음 날 새벽)"
    ]
   },
@@ -1698,7 +1685,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "보잉 실적 발표",
    "result": [
-    "EPS 예상 ($0.15)",
+    "EPS 예상 ($0.16)",
     "장 시작 전"
    ]
   },
@@ -1866,7 +1853,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "일라이릴리 실적 발표",
    "result": [
-    "EPS 예상 $7.54",
+    "EPS 예상 $6.40",
     "장 시작 전"
    ]
   },
@@ -2166,6 +2153,24 @@ window.DASH.calendar = {
    "title": "세일즈포스 실적 발표",
    "result": [
     "EPS 예상 $2.41"
+   ]
+  },
+  {
+   "date": "2026-12-09",
+   "type": "earnings",
+   "market": "US",
+   "title": "어도비 실적 발표",
+   "result": [
+    "EPS 예상 $5.11"
+   ]
+  },
+  {
+   "date": "2026-12-09",
+   "type": "earnings",
+   "market": "US",
+   "title": "오라클 실적 발표",
+   "result": [
+    "EPS 예상 $1.57"
    ]
   },
   {
