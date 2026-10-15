@@ -493,7 +493,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "5.3%",
-  "actual": "",
+  "actual": "0.5%",
   "previous": "0.3%"
  },
  {
@@ -503,8 +503,8 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "4.4%",
-  "actual": "",
-  "previous": "4.6%"
+  "actual": "5.0%",
+  "previous": "4.8%"
  },
  {
   "date": "2026-10-15",
@@ -513,8 +513,8 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "0.3%",
-  "actual": "",
-  "previous": "1.2%"
+  "actual": "0.2%",
+  "previous": "1.1%"
  },
  {
   "date": "2026-10-15",
@@ -523,8 +523,8 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "199K",
-  "actual": "",
-  "previous": "197K"
+  "actual": "199K",
+  "previous": "198K"
  },
  {
   "date": "2026-10-15",
@@ -533,7 +533,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "28.2",
-  "actual": "",
+  "actual": "20.9",
   "previous": "37.8"
  },
  {
@@ -562,7 +562,7 @@
   "title": "미국 수입물가",
   "level": "macro",
   "kind": "econ",
-  "consensus": "0.6%",
+  "consensus": "0.9%",
   "actual": "",
   "previous": "0.7%"
  },
@@ -1327,6 +1327,16 @@
   "consensus": "",
   "actual": "",
   "previous": "46.11B"
+ },
+ {
+  "date": "2026-11-05",
+  "time": "22:30",
+  "title": "미국 생산성",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "1.4%"
  },
  {
   "date": "2026-11-13",

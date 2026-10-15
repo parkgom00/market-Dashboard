@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-15 21:27",
+ "generatedAt": "2026-10-16 03:26",
  "events": [
   {
    "date": "2026-01-01",
@@ -1451,7 +1451,7 @@ window.DASH.calendar = {
    "title": "미국 PPI",
    "time": "21:30",
    "result": [
-    "예상 5.3% · 이전 0.3%"
+    "실제 0.5% · 예상 5.3% · 이전 0.3%"
    ]
   },
   {
@@ -1461,7 +1461,7 @@ window.DASH.calendar = {
    "title": "미국 근원 PPI",
    "time": "21:30",
    "result": [
-    "예상 4.4% · 이전 4.6%"
+    "실제 5.0% · 예상 4.4% · 이전 4.8%"
    ]
   },
   {
@@ -1471,7 +1471,7 @@ window.DASH.calendar = {
    "title": "미국 소매판매",
    "time": "21:30",
    "result": [
-    "예상 0.3% · 이전 1.2%"
+    "실제 0.2% · 예상 0.3% · 이전 1.1%"
    ]
   },
   {
@@ -1481,7 +1481,7 @@ window.DASH.calendar = {
    "title": "미국 신규 실업수당 청구",
    "time": "21:30",
    "result": [
-    "예상 199K · 이전 197K"
+    "실제 199K · 예상 199K · 이전 198K"
    ]
   },
   {
@@ -1491,7 +1491,7 @@ window.DASH.calendar = {
    "title": "필라델피아 연은지수",
    "time": "21:30",
    "result": [
-    "예상 28.2 · 이전 37.8"
+    "실제 20.9 · 예상 28.2 · 이전 37.8"
    ]
   },
   {
@@ -1519,7 +1519,7 @@ window.DASH.calendar = {
    "title": "미국 수입물가",
    "time": "21:30",
    "result": [
-    "예상 0.6% · 이전 0.7%"
+    "예상 0.9% · 이전 0.7%"
    ]
   },
   {
@@ -2097,6 +2097,16 @@ window.DASH.calendar = {
    "time": "08:00",
    "result": [
     "이전 46.11B"
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 생산성",
+   "time": "22:30",
+   "result": [
+    "이전 1.4%"
    ]
   },
   {
