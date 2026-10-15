@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-15 11:37",
+ "asOf": "2026-10-15 13:38",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "코스피 5,500선이 무너지면 위험하다? / AI 데이터센터 ‘부채 폭탄’ 터지나… 증시 진짜 위기는 지금부터? ㅣ이권희 대표",
+     "publishedAt": "2026-10-15 13:17",
+     "url": "https://www.youtube.com/watch?v=ysvA5mzUlRY"
+    },
     {
      "title": "코스피 전저점 지켜낼까? 美 반도체주 폭락의 진실 / 삼전·하닉 어디까지 빠지나?ㅣ 이주연 대표",
      "publishedAt": "2026-10-15 10:55",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급인터뷰]  “조선주 수주는 6년 만의 최고!” 그런데 주가는 왜 무너지나? / 시장이 모르는 악재가 있는 걸까? ㅣ엄경아 연구위원",
      "publishedAt": "2026-10-14 18:00",
      "url": "https://www.youtube.com/watch?v=4_kIgua4ZA0"
-    },
-    {
-     "title": "반도체보다 이익 증가율 높아진다? 2차전지주 다시 봐야 하는 이유 / 조선·방산·원전 지금 팔까? | 김민수 대표",
-     "publishedAt": "2026-10-14 16:00",
-     "url": "https://www.youtube.com/watch?v=W_MGWBS0nZQ"
     }
    ]
   },
