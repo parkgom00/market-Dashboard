@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-15 18:34",
+ "asOf": "2026-10-15 19:36",
  "window": "15:20~15:40",
- "status": "전 종목 2421개 중 후보 24개 점검 (기준 일봉 2026-10-14)",
+ "status": "전 종목 2420개 중 후보 29개 점검 (기준 일봉 2026-10-14)",
  "types": [
   {
    "id": "A",
@@ -23,13 +23,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "무선통신서비스",
        "after": {
-        "price": 15040.0,
-        "pct": 2.31
+        "price": 15030.0,
+        "pct": 2.24
        },
-       "marcap": 63834,
+       "marcap": 63791,
        "prevClose": 14700.0,
        "changePct": 2.52,
-       "value": 199,
+       "value": 200,
        "note": "고가 마감권(고가 대비 0.20% 아래) · 막판 20분 거래량 비중 11% · 수급 자료 확인 전"
       }
      ]
@@ -160,22 +160,22 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2421,
-  "candidates": 24,
-  "bars": 24,
-  "naverBars": 24,
+  "quotes": 2420,
+  "candidates": 29,
+  "bars": 29,
+  "naverBars": 29,
   "kisBars": 0,
   "a1": {
-   "후보": 21,
+   "후보": 26,
    "분봉지연": 0,
    "사유": {
     "막판 거래량 비중 부족": 5,
-    "고가에서 멂": 12,
-    "등락률·거래대금 미달": 3,
+    "등락률·거래대금 미달": 7,
+    "고가에서 멂": 13,
     "ok(수급 자료 없음)": 1
    },
    "수급자료": 0,
-   "막판비중_중앙값": 0.042,
+   "막판비중_중앙값": 0.061,
    "막판비중_최대": 0.138
   }
  },
