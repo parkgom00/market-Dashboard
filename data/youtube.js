@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-15 13:38",
+ "asOf": "2026-10-15 15:47",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#글로벌인사이트]  ASML 장비 없어서 못 파는데… 삼성전자·SK하이닉스 주가는 왜 폭락하나? / 외국인이 반도체주 투매하는 진짜 이유 ㅣ세미콘 리서치랩 노근창 대표",
+     "publishedAt": "2026-10-15 15:00",
+     "url": "https://www.youtube.com/watch?v=0C4J2SPhsDA"
+    },
     {
      "title": "코스피 5,500선이 무너지면 위험하다? / AI 데이터센터 ‘부채 폭탄’ 터지나… 증시 진짜 위기는 지금부터? ㅣ이권희 대표",
      "publishedAt": "2026-10-15 13:17",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#찐시황]  “정말 화나는 하루” 잘 오르던 증시가 갑자기 꺾인 진짜 이유 / 외국인 선물에 언제까지 휘둘릴까? | 이지환 대표",
      "publishedAt": "2026-10-14 20:00",
      "url": "https://www.youtube.com/watch?v=5OMTQD4L_sU"
-    },
-    {
-     "title": "[#긴급인터뷰]  “조선주 수주는 6년 만의 최고!” 그런데 주가는 왜 무너지나? / 시장이 모르는 악재가 있는 걸까? ㅣ엄경아 연구위원",
-     "publishedAt": "2026-10-14 18:00",
-     "url": "https://www.youtube.com/watch?v=4_kIgua4ZA0"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(아이온큐) 주가희석으로 보는 적정주가는?",
+     "publishedAt": "2026-10-15 14:46",
+     "url": "https://www.youtube.com/watch?v=r71GyPWe4S0"
+    },
     {
      "title": "(시황분석) 주식던지고 채권 사야하나?",
      "publishedAt": "2026-10-15 06:51",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(반도체) 지금 던지고 가야하나?",
      "publishedAt": "2026-10-13 16:16",
      "url": "https://www.youtube.com/watch?v=wsC6aM7tSk4"
-    },
-    {
-     "title": "(시황분석) 정말 메모리 반도체 끝났나? 갈길 많이 남았다",
-     "publishedAt": "2026-10-13 05:51",
-     "url": "https://www.youtube.com/watch?v=D_dbPhVVCf0"
     }
    ]
   },
