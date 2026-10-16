@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-16 19:39",
+ "asOf": "2026-10-16 21:47",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황] “증시는 반등했지만 아직 안심하지 마라!” 외국인 매도는 끝나지 않았다? / 다음 주 한국 증시 흔들 ‘결정적 변수’ | 김동엽 대표",
+     "publishedAt": "2026-10-16 20:00",
+     "url": "https://www.youtube.com/watch?v=-bZ0Elcoxz4"
+    },
     {
      "title": "[#긴급인터뷰]  7거래일 폭락 후 반등… 진짜 바닥 찍었나? / 다음 주 더 큰 복병, ‘다중 바닥’ 경계해야 하는 이유 (주가폭락) 유창희 대표",
      "publishedAt": "2026-10-16 17:30",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“외국인은 왜 선물 3조를 쓸어담았나?” 코스피 바닥 신호 나왔다? / 삼성전자·SK하이닉스 폭락이 과도했던 이유 ㅣ이권희 대표",
      "publishedAt": "2026-10-16 12:39",
      "url": "https://www.youtube.com/watch?v=9258XsknjEw"
-    },
-    {
-     "title": "“코스피 폭락 하루 만에 대반전!” 美국채금리 급락·야간선물 4% 급등… 삼전·SK하닉 드디어 반격 시작되나?  ㅣ 이주연 대표",
-     "publishedAt": "2026-10-16 10:01",
-     "url": "https://www.youtube.com/watch?v=78YuBtdqQDI"
     }
    ]
   },
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 16일 미국장 열리기 전 꼭 알아야 하는 '미장 시황' 투자 포인트",
+     "publishedAt": "2026-10-16 21:21",
+     "url": "https://www.youtube.com/watch?v=6wYHnWJYCtg"
+    },
+    {
+     "title": "하늘 나는 자동차 공개한 테슬라.. 주가 오를까?!",
+     "publishedAt": "2026-10-16 20:19",
+     "url": "https://www.youtube.com/watch?v=xPQ2aQrqsi0"
+    },
+    {
      "title": "월가에서 현시점 QQQ가 저평가 됐다는 이유",
      "publishedAt": "2026-10-16 19:09",
      "url": "https://www.youtube.com/watch?v=gqeSqgWv9Jg"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "연준 의장 케빈워시가 'AI 망할 수 없다고 확신'하는 이유",
      "publishedAt": "2026-10-16 17:22",
      "url": "https://www.youtube.com/watch?v=CIF7S8E3lDg"
-    },
-    {
-     "title": "전력주는 AI가 폭락해도 끝나지 않는 이유",
-     "publishedAt": "2026-10-16 16:12",
-     "url": "https://www.youtube.com/watch?v=NPODvGCIxOg"
-    },
-    {
-     "title": "한국 정부는 이번 폭락을 왜 못 막을까?!",
-     "publishedAt": "2026-10-16 14:37",
-     "url": "https://www.youtube.com/watch?v=XFGv2lo4k2I"
     }
    ]
   },
