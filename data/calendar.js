@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-16 09:21",
+ "generatedAt": "2026-10-16 15:27",
  "events": [
   {
    "date": "2026-01-01",
@@ -1399,7 +1399,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "TSMC 실적 발표",
    "result": [
-    "EPS 예상 $4.45",
+    "EPS 실제 $2.92 (예상 $4.45)",
     "장 시작 전"
    ]
   },
@@ -1501,7 +1501,7 @@ window.DASH.calendar = {
    "title": "한국 실업률",
    "time": "08:00",
    "result": [
-    "이전 2.7%"
+    "실제 2.6% · 이전 2.7%"
    ]
   },
   {
@@ -1627,7 +1627,10 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 신규 실업수당 청구",
-   "time": "21:30"
+   "time": "21:30",
+   "result": [
+    "이전 199K"
+   ]
   },
   {
    "date": "2026-10-23",

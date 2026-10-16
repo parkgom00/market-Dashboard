@@ -443,7 +443,7 @@
   "kind": "earnings",
   "note": "장 시작 전",
   "epsForecast": "$4.45",
-  "eps": "",
+  "eps": "$2.92",
   "surprise": ""
  },
  {
@@ -543,7 +543,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "",
-  "actual": "",
+  "actual": "2.6%",
   "previous": "2.7%"
  },
  {
@@ -679,7 +679,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": ""
+  "previous": "199K"
  },
  {
   "date": "2026-10-23",
