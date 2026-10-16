@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-16 11:37",
+ "asOf": "2026-10-16 13:38",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“외국인은 왜 선물 3조를 쓸어담았나?” 코스피 바닥 신호 나왔다? / 삼성전자·SK하이닉스 폭락이 과도했던 이유 ㅣ이권희 대표",
+     "publishedAt": "2026-10-16 12:40",
+     "url": "https://www.youtube.com/watch?v=9258XsknjEw"
+    },
     {
      "title": "“코스피 폭락 하루 만에 대반전!” 美국채금리 급락·야간선물 4% 급등… 삼전·SK하닉 드디어 반격 시작되나?  ㅣ 이주연 대표",
      "publishedAt": "2026-10-16 10:37",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "AI는 전기가 부족하고 미국은 군함이 부족하다… 두 위기의 수혜는 K-조선주·엔진주?  | 엄경아 연구위원",
      "publishedAt": "2026-10-15 18:00",
      "url": "https://www.youtube.com/watch?v=AUug7VB1_rQ"
-    },
-    {
-     "title": "[#긴급시황] 검은 목요일 “코스피 8% 폭락장!” 외국인 5조 투매에 장중 5,500선 붕괴… 다음 지지선은 어디인가? | 이권희 대표",
-     "publishedAt": "2026-10-15 16:30",
-     "url": "https://www.youtube.com/watch?v=9NIk_TZKuS0"
     }
    ]
   },
