@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-16 21:47",
+ "asOf": "2026-10-16 23:41",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 16일 외국인이 한국인 몰래 매수한 종목 정체",
+     "publishedAt": "2026-10-16 23:00",
+     "url": "https://www.youtube.com/watch?v=HIRFLjalCK4"
+    },
+    {
      "title": "10월 16일 미국장 열리기 전 꼭 알아야 하는 '미장 시황' 투자 포인트",
      "publishedAt": "2026-10-16 21:21",
      "url": "https://www.youtube.com/watch?v=6wYHnWJYCtg"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(10.19~10.23)",
      "publishedAt": "2026-10-16 18:12",
      "url": "https://www.youtube.com/watch?v=-743r-0N1Qs"
-    },
-    {
-     "title": "연준 의장 케빈워시가 'AI 망할 수 없다고 확신'하는 이유",
-     "publishedAt": "2026-10-16 17:22",
-     "url": "https://www.youtube.com/watch?v=CIF7S8E3lDg"
     }
    ]
   },
