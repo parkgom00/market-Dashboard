@@ -563,7 +563,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "0.9%",
-  "actual": "",
+  "actual": "8.1%",
   "previous": "7.0%"
  },
  {
@@ -573,8 +573,8 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "0.4%",
-  "actual": "",
-  "previous": "0.0%"
+  "actual": "2.25%",
+  "previous": "1.62%"
  },
  {
   "date": "2026-10-20",
@@ -582,7 +582,7 @@
   "title": "미국 건축허가",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "1.400M",
   "actual": "",
   "previous": "-2.1%"
  },
@@ -592,7 +592,7 @@
   "title": "미국 주택착공",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "1.300M",
   "actual": "",
   "previous": "-2.6%"
  },
@@ -687,7 +687,7 @@
   "title": "S&P글로벌 서비스업 PMI",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "57.9",
   "actual": "",
   "previous": "58.8"
  },
@@ -697,7 +697,7 @@
   "title": "S&P글로벌 제조업 PMI",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "55.6",
   "actual": "",
   "previous": "55.9"
  },
@@ -979,7 +979,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "",
-  "epsForecast": "$3.92",
+  "epsForecast": "$3.93",
   "eps": "",
   "surprise": ""
  },
@@ -1337,6 +1337,36 @@
   "consensus": "",
   "actual": "",
   "previous": "1.4%"
+ },
+ {
+  "date": "2026-11-06",
+  "time": "22:30",
+  "title": "미국 비농업 고용",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "46K"
+ },
+ {
+  "date": "2026-11-06",
+  "time": "22:30",
+  "title": "미국 실업률",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "4.2%"
+ },
+ {
+  "date": "2026-11-07",
+  "time": "00:00",
+  "title": "미시간 소비심리",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "48.1"
  },
  {
   "date": "2026-11-13",

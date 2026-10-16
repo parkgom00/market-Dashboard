@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-16 21:27",
+ "generatedAt": "2026-10-17 03:24",
  "events": [
   {
    "date": "2026-01-01",
@@ -456,7 +456,12 @@ window.DASH.calendar = {
    "date": "2026-11-06",
    "type": "econ",
    "market": "US",
-   "title": "미국 고용보고서 발표 · 10월분 (한국시간 저녁)"
+   "title": "미국 고용보고서 발표 · 10월분 (한국시간 저녁)",
+   "time": "22:30",
+   "result": [
+    "미국 비농업 고용: 이전 46K",
+    "미국 실업률: 이전 4.2%"
+   ]
   },
   {
    "date": "2026-11-10",
@@ -1506,7 +1511,7 @@ window.DASH.calendar = {
    "title": "미국 수입물가",
    "time": "21:30",
    "result": [
-    "예상 0.9% · 이전 7.0%"
+    "실제 8.1% · 예상 0.9% · 이전 7.0%"
    ]
   },
   {
@@ -1516,7 +1521,7 @@ window.DASH.calendar = {
    "title": "미국 산업생산",
    "time": "22:15",
    "result": [
-    "예상 0.4% · 이전 0.0%"
+    "실제 2.25% · 예상 0.4% · 이전 1.62%"
    ]
   },
   {
@@ -1526,7 +1531,7 @@ window.DASH.calendar = {
    "title": "미국 건축허가",
    "time": "21:30",
    "result": [
-    "이전 -2.1%"
+    "예상 1.400M · 이전 -2.1%"
    ]
   },
   {
@@ -1536,7 +1541,7 @@ window.DASH.calendar = {
    "title": "미국 주택착공",
    "time": "21:30",
    "result": [
-    "이전 -2.6%"
+    "예상 1.300M · 이전 -2.6%"
    ]
   },
   {
@@ -1626,7 +1631,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 서비스업 PMI",
    "time": "22:45",
    "result": [
-    "이전 58.8"
+    "예상 57.9 · 이전 58.8"
    ]
   },
   {
@@ -1636,7 +1641,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 제조업 PMI",
    "time": "22:45",
    "result": [
-    "이전 55.9"
+    "예상 55.6 · 이전 55.9"
    ]
   },
   {
@@ -1853,7 +1858,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "엑슨모빌 실적 발표",
    "result": [
-    "EPS 예상 $3.92"
+    "EPS 예상 $3.93"
    ]
   },
   {
@@ -2097,6 +2102,16 @@ window.DASH.calendar = {
    "time": "22:30",
    "result": [
     "이전 1.4%"
+   ]
+  },
+  {
+   "date": "2026-11-07",
+   "type": "econ",
+   "market": "US",
+   "title": "미시간 소비심리",
+   "time": "00:00",
+   "result": [
+    "이전 48.1"
    ]
   },
   {
