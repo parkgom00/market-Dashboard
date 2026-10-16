@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "DS투자증권",
     "tit": "사상 최초 DRAM 분기 매출 100조원 상회",
-    "rcnt": "25622",
+    "rcnt": "25727",
     "wdt": "20261012"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "하나증권",
     "tit": "강한 DRAM 가격. LPDDR 공급 부족 심화",
-    "rcnt": "15293",
+    "rcnt": "15352",
     "wdt": "20261012"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "유진투자증권",
     "tit": "눈높이를 높이는 구간",
-    "rcnt": "12737",
+    "rcnt": "12787",
     "wdt": "20261012"
    }
   ],
@@ -260,17 +260,17 @@
     "reutersCode": "402340",
     "stockName": "SK스퀘어",
     "sosok": "0",
-    "closePrice": "782,000",
-    "compareToPreviousClosePrice": "17,000",
+    "closePrice": "780,000",
+    "compareToPreviousClosePrice": "15,000",
     "compareToPreviousPrice": {
      "code": "2",
      "text": "상승",
      "name": "RISING"
     },
-    "fluctuationsRatio": "2.22",
+    "fluctuationsRatio": "1.96",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "103,164,566",
+    "marketValue": "102,900,718",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
@@ -298,17 +298,17 @@
     "reutersCode": "042700",
     "stockName": "한미반도체",
     "sosok": "0",
-    "closePrice": "209,500",
-    "compareToPreviousClosePrice": "17,300",
+    "closePrice": "209,000",
+    "compareToPreviousClosePrice": "16,800",
     "compareToPreviousPrice": {
      "code": "2",
      "text": "상승",
      "name": "RISING"
     },
-    "fluctuationsRatio": "9.00",
+    "fluctuationsRatio": "8.74",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "19,967,905",
+    "marketValue": "19,920,249",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
