@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-17 01:38",
+ "asOf": "2026-10-17 03:42",
  "channels": [
   {
    "name": "815머니톡",
@@ -137,6 +137,11 @@ window.DASH.youtube = {
    "handle": "@김단테",
    "videos": [
     {
+     "title": "AI 주식들은 이제 끝?",
+     "publishedAt": "2026-10-17 02:52",
+     "url": "https://www.youtube.com/watch?v=CviFrBH_K2M"
+    },
+    {
      "title": "코스피 대반등 오늘부터 시작? #코스피 #하이닉스 #코어위브",
      "publishedAt": "2026-10-16 15:25",
      "url": "https://www.youtube.com/watch?v=TIwhuO72AFU"
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "코스피 장막판에 다시 떨어진 이유 #코스피 #ASML #하이닉스",
      "publishedAt": "2026-10-14 15:49",
      "url": "https://www.youtube.com/watch?v=gLcwg1PGbcg"
-    },
-    {
-     "title": "코스피가 무너진 근본적인 이유 (CXMT 아님)",
-     "publishedAt": "2026-10-13 21:23",
-     "url": "https://www.youtube.com/watch?v=hzomN7wiW_8"
     }
    ]
   },
