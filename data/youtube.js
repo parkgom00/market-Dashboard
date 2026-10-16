@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-16 09:47",
+ "asOf": "2026-10-16 11:37",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“코스피 폭락 하루 만에 대반전!” 美국채금리 급락·야간선물 4% 급등… 삼전·SK하닉 드디어 반격 시작되나?  ㅣ 이주연 대표",
+     "publishedAt": "2026-10-16 10:37",
+     "url": "https://www.youtube.com/watch?v=78YuBtdqQDI"
+    },
     {
      "title": "[10월16일 #장시작전] 美국채금리 하락에 뉴욕증시 상승… 필반도체 -0.9%에도 마이크론 2% 반등 / 오늘 삼전·하닉도 살아날까?",
      "publishedAt": "2026-10-16 06:29",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] 검은 목요일 “코스피 8% 폭락장!” 외국인 5조 투매에 장중 5,500선 붕괴… 다음 지지선은 어디인가? | 이권희 대표",
      "publishedAt": "2026-10-15 16:30",
      "url": "https://www.youtube.com/watch?v=9NIk_TZKuS0"
-    },
-    {
-     "title": "[#글로벌인사이트]  ASML 장비 없어서 못 파는데… 삼성전자·SK하이닉스 주가는 왜 폭락하나? / 외국인이 반도체주 투매하는 진짜 이유 ㅣ세미콘 리서치랩 노근창 대표",
-     "publishedAt": "2026-10-15 15:00",
-     "url": "https://www.youtube.com/watch?v=0C4J2SPhsDA"
     }
    ]
   },
