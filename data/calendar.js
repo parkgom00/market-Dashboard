@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-16 15:27",
+ "generatedAt": "2026-10-16 21:27",
  "events": [
   {
    "date": "2026-01-01",
@@ -494,18 +494,6 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 소비자물가지수(CPI) 발표 · 11월분 (한국시간 저녁)"
-  },
-  {
-   "date": "2026-12-10",
-   "type": "earnings",
-   "market": "US",
-   "title": "브로드컴 실적 발표 (예정)"
-  },
-  {
-   "date": "2026-12-11",
-   "type": "earnings",
-   "market": "US",
-   "title": "코스트코 실적 발표 (예정)"
   },
   {
    "date": "2026-12-23",
@@ -1399,8 +1387,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "TSMC 실적 발표",
    "result": [
-    "EPS 실제 $2.92 (예상 $4.45)",
-    "장 시작 전"
+    "EPS 실제 $4.60 (예상 $4.45) · 서프라이즈 3.37%"
    ]
   },
   {
@@ -1519,7 +1506,7 @@ window.DASH.calendar = {
    "title": "미국 수입물가",
    "time": "21:30",
    "result": [
-    "예상 0.9% · 이전 0.7%"
+    "예상 0.9% · 이전 7.0%"
    ]
   },
   {
@@ -1529,7 +1516,7 @@ window.DASH.calendar = {
    "title": "미국 산업생산",
    "time": "22:15",
    "result": [
-    "예상 0.4% · 이전 1.42%"
+    "예상 0.4% · 이전 0.0%"
    ]
   },
   {
@@ -1588,7 +1575,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "메타 실적 발표",
    "result": [
-    "EPS 예상 $6.35",
+    "EPS 예상 $6.67",
     "장마감 후(한국 다음 날 새벽)"
    ]
   },
@@ -1688,7 +1675,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "보잉 실적 발표",
    "result": [
-    "EPS 예상 ($0.16)",
+    "EPS 예상 ($0.17)",
     "장 시작 전"
    ]
   },
@@ -1856,7 +1843,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "일라이릴리 실적 발표",
    "result": [
-    "EPS 예상 $6.40",
+    "EPS 예상 $5.38",
     "장 시작 전"
    ]
   },
@@ -1866,7 +1853,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "엑슨모빌 실적 발표",
    "result": [
-    "EPS 예상 $3.93"
+    "EPS 예상 $3.92"
    ]
   },
   {
@@ -2039,7 +2026,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "퀄컴 실적 발표",
    "result": [
-    "EPS 예상 $1.47"
+    "EPS 예상 $1.46"
    ]
   },
   {
@@ -2128,7 +2115,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "엔비디아 실적 발표",
    "result": [
-    "EPS 예상 $2.47"
+    "EPS 예상 $2.48"
    ]
   },
   {
@@ -2193,6 +2180,24 @@ window.DASH.calendar = {
    "title": "FOMC 금리결정",
    "time": "04:00",
    "major": true
+  },
+  {
+   "date": "2026-12-10",
+   "type": "earnings",
+   "market": "US",
+   "title": "브로드컴 실적 발표",
+   "result": [
+    "EPS 예상 $3.45"
+   ]
+  },
+  {
+   "date": "2026-12-10",
+   "type": "earnings",
+   "market": "US",
+   "title": "코스트코 실적 발표",
+   "result": [
+    "EPS 예상 $4.87"
+   ]
   },
   {
    "date": "2026-12-18",

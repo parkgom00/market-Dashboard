@@ -441,10 +441,10 @@
   "title": "TSMC 실적 발표",
   "level": "earnings",
   "kind": "earnings",
-  "note": "장 시작 전",
+  "note": "",
   "epsForecast": "$4.45",
-  "eps": "$2.92",
-  "surprise": ""
+  "eps": "$4.60",
+  "surprise": "3.37"
  },
  {
   "date": "2026-10-15",
@@ -564,7 +564,7 @@
   "kind": "econ",
   "consensus": "0.9%",
   "actual": "",
-  "previous": "0.7%"
+  "previous": "7.0%"
  },
  {
   "date": "2026-10-16",
@@ -574,7 +574,7 @@
   "kind": "econ",
   "consensus": "0.4%",
   "actual": "",
-  "previous": "1.42%"
+  "previous": "0.0%"
  },
  {
   "date": "2026-10-20",
@@ -635,7 +635,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$6.35",
+  "epsForecast": "$6.67",
   "eps": "",
   "surprise": ""
  },
@@ -738,7 +738,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장 시작 전",
-  "epsForecast": "($0.16)",
+  "epsForecast": "($0.17)",
   "eps": "",
   "surprise": ""
  },
@@ -938,7 +938,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장 시작 전",
-  "epsForecast": "$6.40",
+  "epsForecast": "$5.38",
   "eps": "",
   "surprise": ""
  },
@@ -979,7 +979,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "",
-  "epsForecast": "$3.93",
+  "epsForecast": "$3.92",
   "eps": "",
   "surprise": ""
  },
@@ -990,7 +990,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$0.27",
+  "epsForecast": "$0.28",
   "eps": "",
   "surprise": ""
  },
@@ -1253,7 +1253,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "",
-  "epsForecast": "$1.47",
+  "epsForecast": "$1.46",
   "eps": "",
   "surprise": ""
  },
@@ -1356,7 +1356,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "",
-  "epsForecast": "$2.47",
+  "epsForecast": "$2.48",
   "eps": "",
   "surprise": ""
  },
@@ -1435,6 +1435,28 @@
   "consensus": "",
   "actual": "",
   "previous": ""
+ },
+ {
+  "date": "2026-12-10",
+  "time": "",
+  "title": "브로드컴 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "",
+  "epsForecast": "$3.45",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-12-10",
+  "time": "",
+  "title": "코스트코 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "",
+  "epsForecast": "$4.87",
+  "eps": "",
+  "surprise": ""
  },
  {
   "date": "2026-12-10",
