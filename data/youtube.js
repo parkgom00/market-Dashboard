@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-16 17:40",
+ "asOf": "2026-10-16 19:39",
  "channels": [
   {
    "name": "815머니톡",
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "시원하게 반등 못하는 반도체, 지금 주목할 지표는?",
+     "publishedAt": "2026-10-16 19:00",
+     "url": "https://www.youtube.com/watch?v=t6Vw2rGohjc"
+    },
+    {
      "title": "[실전 투자 스터디] 지금 경제 좋은 거 아닌가요?",
      "publishedAt": "2026-10-16 17:00",
      "url": "https://www.youtube.com/watch?v=ddXdwor9k0Y"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[특집] AI 인프라에서 뜨는 전력과 광학, 국내 핵심 수혜주는?",
      "publishedAt": "2026-10-13 17:30",
      "url": "https://www.youtube.com/watch?v=bzDBLehWGVI"
-    },
-    {
-     "title": "신고가 뚫는 해외 기판 업체들, 이제 국내 기업들 순서?",
-     "publishedAt": "2026-10-09 19:00",
-     "url": "https://www.youtube.com/watch?v=LcDcoSxobt0"
     }
    ]
   },
@@ -104,6 +104,16 @@ window.DASH.youtube = {
    "channelId": "UC7usMJDHmtbs_oegmzQKKMA",
    "handle": "@경제사냥꾼",
    "videos": [
+    {
+     "title": "월가에서 현시점 QQQ가 저평가 됐다는 이유",
+     "publishedAt": "2026-10-16 19:09",
+     "url": "https://www.youtube.com/watch?v=gqeSqgWv9Jg"
+    },
+    {
+     "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(10.19~10.23)",
+     "publishedAt": "2026-10-16 18:12",
+     "url": "https://www.youtube.com/watch?v=-743r-0N1Qs"
+    },
     {
      "title": "연준 의장 케빈워시가 'AI 망할 수 없다고 확신'하는 이유",
      "publishedAt": "2026-10-16 17:22",
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "한국 정부는 이번 폭락을 왜 못 막을까?!",
      "publishedAt": "2026-10-16 14:37",
      "url": "https://www.youtube.com/watch?v=XFGv2lo4k2I"
-    },
-    {
-     "title": "10월 16일 우리가 꼭 알고 있어야 할, 저평가 'AI 반도체' 소형주",
-     "publishedAt": "2026-10-16 13:09",
-     "url": "https://www.youtube.com/watch?v=-AfGT2RDqkI"
-    },
-    {
-     "title": "미국이 금리 또 올리면, 코스피는 주가 어떻게 될까?!",
-     "publishedAt": "2026-10-16 11:42",
-     "url": "https://www.youtube.com/watch?v=zY3j0q9nb48"
     }
    ]
   },
