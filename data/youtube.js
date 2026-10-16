@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-16 13:38",
+ "asOf": "2026-10-16 15:46",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급시황] “큰손들 강제청산 당했나?” 코스피 5,200이 마지막 바닥일까? / 외국인이 한국 주식 안 사는 진짜 이유 3가지  | 박근형 부장",
+     "publishedAt": "2026-10-16 14:46",
+     "url": "https://www.youtube.com/watch?v=iyzrHL9CvpA"
+    },
     {
      "title": "“외국인은 왜 선물 3조를 쓸어담았나?” 코스피 바닥 신호 나왔다? / 삼성전자·SK하이닉스 폭락이 과도했던 이유 ㅣ이권희 대표",
      "publishedAt": "2026-10-16 12:40",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#찐시황]  아.. 2018년 주가 폭락과 너무 닮았다!  코스피 마지막 투매인가? / 돈은 채권으로 탈출… 외인 장 막판 선물 1.2조 매수의 진실ㅣ황유현 팀장",
      "publishedAt": "2026-10-15 20:00",
      "url": "https://www.youtube.com/watch?v=mgup71sy8Gs"
-    },
-    {
-     "title": "AI는 전기가 부족하고 미국은 군함이 부족하다… 두 위기의 수혜는 K-조선주·엔진주?  | 엄경아 연구위원",
-     "publishedAt": "2026-10-15 18:00",
-     "url": "https://www.youtube.com/watch?v=AUug7VB1_rQ"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(아이온큐) 반등이유는?  (구독자요청) 실스큐:LAES",
+     "publishedAt": "2026-10-16 14:46",
+     "url": "https://www.youtube.com/watch?v=uGScCmmeDQ0"
+    },
     {
      "title": "(시황분석) 중소형주는 저점 바닥인가?",
      "publishedAt": "2026-10-16 05:41",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(삼전닉스,마이크론) 단기와 장기 매매를 구별하자!!!",
      "publishedAt": "2026-10-14 14:43",
      "url": "https://www.youtube.com/watch?v=oTic0U13E9I"
-    },
-    {
-     "title": "(시황분석) 금리 6%이하에서는 주가는 달린다!!!",
-     "publishedAt": "2026-10-14 06:29",
-     "url": "https://www.youtube.com/watch?v=N7uBIM7RR2k"
     }
    ]
   },
