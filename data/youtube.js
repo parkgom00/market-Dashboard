@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-17 05:37",
+ "asOf": "2026-10-17 07:36",
  "channels": [
   {
    "name": "815머니톡",
@@ -41,6 +41,11 @@ window.DASH.youtube = {
    "handle": "@orlandocampus",
    "videos": [
     {
+     "title": "(시황분석) 지금하락의 원인은 신용인데 신용이 해결되어야만 장이간다.",
+     "publishedAt": "2026-10-17 05:33",
+     "url": "https://www.youtube.com/watch?v=kEncCsE1sEA"
+    },
+    {
      "title": "(아이온큐) 반등이유는?  (구독자요청) 실스큐:LAES",
      "publishedAt": "2026-10-16 14:41",
      "url": "https://www.youtube.com/watch?v=uGScCmmeDQ0"
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 주식던지고 채권 사야하나?",
      "publishedAt": "2026-10-15 06:51",
      "url": "https://www.youtube.com/watch?v=AkUUIwYgxJ8"
-    },
-    {
-     "title": "(삼전닉스,마이크론) 단기와 장기 매매를 구별하자!!!",
-     "publishedAt": "2026-10-14 14:43",
-     "url": "https://www.youtube.com/watch?v=oTic0U13E9I"
     }
    ]
   },
