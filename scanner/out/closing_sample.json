@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "DS투자증권",
     "tit": "사상 최초 DRAM 분기 매출 100조원 상회",
-    "rcnt": "25456",
+    "rcnt": "25550",
     "wdt": "20261012"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "하나증권",
     "tit": "강한 DRAM 가격. LPDDR 공급 부족 심화",
-    "rcnt": "15205",
+    "rcnt": "15255",
     "wdt": "20261012"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "유진투자증권",
     "tit": "눈높이를 높이는 구간",
-    "rcnt": "12670",
+    "rcnt": "12712",
     "wdt": "20261012"
    }
   ],
@@ -260,17 +260,17 @@
     "reutersCode": "402340",
     "stockName": "SK스퀘어",
     "sosok": "0",
-    "closePrice": "785,000",
-    "compareToPreviousClosePrice": "20,000",
+    "closePrice": "784,000",
+    "compareToPreviousClosePrice": "19,000",
     "compareToPreviousPrice": {
      "code": "2",
      "text": "상승",
      "name": "RISING"
     },
-    "fluctuationsRatio": "2.61",
+    "fluctuationsRatio": "2.48",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "103,560,338",
+    "marketValue": "103,428,414",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
