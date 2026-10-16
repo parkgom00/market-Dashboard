@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-16 15:44",
+ "asOf": "2026-10-16 15:49",
  "window": "15:20~15:40",
  "status": "전 종목 2421개 중 후보 234개 점검 (기준 일봉 2026-10-15)",
  "types": [
@@ -28,11 +28,14 @@ window.DASH.shortterm = {
        "close": 20900.0,
        "market": "KOSDAQ",
        "sector": "소프트웨어",
-       "after": null,
+       "after": {
+        "price": 20900.0,
+        "pct": 0.72
+       },
        "marcap": 2321,
        "prevClose": 20750.0,
        "changePct": 0.72,
-       "value": 802,
+       "value": 803,
        "note": "전일 +15.7% 급등 · 오늘 거래량 전일의 30% · 도지(몸통 19%) · 10일선 16,374 / 20일선 13,932 위 마감"
       }
      ]
@@ -48,7 +51,10 @@ window.DASH.shortterm = {
        "close": 70100.0,
        "market": "KOSDAQ",
        "sector": "건강관리장비와용품",
-       "after": null,
+       "after": {
+        "price": 70100.0,
+        "pct": 23.63
+       },
        "marcap": 18906,
        "prevClose": 56700.0,
        "changePct": 23.63,
@@ -367,26 +373,22 @@ window.DASH.shortterm = {
   "quotes": 2421,
   "candidates": 234,
   "bars": 150,
-  "naverBars": 0,
-  "kisBars": 150,
+  "naverBars": 150,
+  "kisBars": 0,
   "a1": {
    "후보": 148,
    "분봉지연": 0,
    "사유": {
     "고가에서 멂": 144,
-    "막판 거래량 비중 부족": 4
+    "등락률·거래대금 미달": 1,
+    "막판 거래량 비중 부족": 3
    },
-   "수급자료": 148,
-   "막판비중_중앙값": 0.028,
-   "막판비중_최대": 0.209
-  },
-  "kis": {
-   "calls": 448,
-   "ok": 448,
-   "err": {}
+   "수급자료": 0,
+   "막판비중_중앙값": 0.058,
+   "막판비중_최대": 0.488
   }
  },
  "flowConfirmed": false,
- "flowKind": "장중 추정",
- "phase": "장중 · 외국인·기관 장중 추정 가집계(한국투자) 반영 · 확정 수급은 마감 후 다시 반영"
+ "flowKind": "",
+ "phase": "장 마감 후 · 정규장 종가 기준 · 수급 자료는 아직 공개 전"
 };
