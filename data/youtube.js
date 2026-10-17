@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-17 21:39",
+ "asOf": "2026-10-17 23:33",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "시장의 투자심리를 읽는 2가지 방법",
+     "publishedAt": "2026-10-17 22:33",
+     "url": "https://www.youtube.com/watch?v=samZ3DPJ3I4"
+    },
+    {
      "title": "투자자들이 꼭 알아야 하는 다음 주, 미국 투자 포인트(10.19~10.23)",
      "publishedAt": "2026-10-17 20:02",
      "url": "https://www.youtube.com/watch?v=HUk6v2EgUy4"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "10월 16일 외국인이 한국인 몰래 매수한 종목 정체",
      "publishedAt": "2026-10-16 23:00",
      "url": "https://www.youtube.com/watch?v=HIRFLjalCK4"
-    },
-    {
-     "title": "10월 16일 미국장 열리기 전 꼭 알아야 하는 '미장 시황' 투자 포인트",
-     "publishedAt": "2026-10-16 21:21",
-     "url": "https://www.youtube.com/watch?v=6wYHnWJYCtg"
     }
    ]
   },
