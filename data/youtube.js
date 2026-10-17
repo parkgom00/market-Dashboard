@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-17 19:34",
+ "asOf": "2026-10-17 21:39",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황]  “월요일 증시 어떻게 될까?!” 美 반도체 9연속 하락 / 외국인이 한국 반도체 팔고 사는 것은?    | 이주연 대표",
+     "publishedAt": "2026-10-17 20:00",
+     "url": "https://www.youtube.com/watch?v=N6WiklH0TIs"
+    },
     {
      "title": "SK하이닉스 실적 좋아도 주가 못 오르나? / 2027년 반도체 피크아웃 우려의 실체  | 유창희 대표",
      "publishedAt": "2026-10-17 17:30",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#찐시황] “증시는 반등했지만 아직 안심하지 마라!” 외국인 매도는 끝나지 않았다? / 다음 주 한국 증시 흔들 ‘결정적 변수’ | 김동엽 대표",
      "publishedAt": "2026-10-16 20:00",
      "url": "https://www.youtube.com/watch?v=-bZ0Elcoxz4"
-    },
-    {
-     "title": "[#긴급인터뷰]  7거래일 폭락 후 반등… 진짜 바닥 찍었나? / 다음 주 더 큰 복병, ‘다중 바닥’ 경계해야 하는 이유 (주가폭락) 유창희 대표",
-     "publishedAt": "2026-10-16 17:30",
-     "url": "https://www.youtube.com/watch?v=oIyKi4495kc"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(관심종목) 반도체 빠질때 담아야 할 섹터와 종목은?",
+     "publishedAt": "2026-10-17 19:30",
+     "url": "https://www.youtube.com/watch?v=M1mfa9uyM8U"
+    },
     {
      "title": "(시황분석) 지금하락의 원인은 신용인데 신용이 해결되어야만 장이간다.",
      "publishedAt": "2026-10-17 05:33",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(아이온큐) 주가희석으로 보는 적정주가는?",
      "publishedAt": "2026-10-15 14:28",
      "url": "https://www.youtube.com/watch?v=r71GyPWe4S0"
-    },
-    {
-     "title": "(시황분석) 주식던지고 채권 사야하나?",
-     "publishedAt": "2026-10-15 06:51",
-     "url": "https://www.youtube.com/watch?v=AkUUIwYgxJ8"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "투자자들이 꼭 알아야 하는 다음 주, 미국 투자 포인트(10.19~10.23)",
+     "publishedAt": "2026-10-17 20:02",
+     "url": "https://www.youtube.com/watch?v=HUk6v2EgUy4"
+    },
+    {
      "title": "코스피, 지금이 진짜 바닥일까?!",
      "publishedAt": "2026-10-17 18:44",
      "url": "https://www.youtube.com/watch?v=ftX09B5goJc"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "10월 16일 미국장 열리기 전 꼭 알아야 하는 '미장 시황' 투자 포인트",
      "publishedAt": "2026-10-16 21:21",
      "url": "https://www.youtube.com/watch?v=6wYHnWJYCtg"
-    },
-    {
-     "title": "하늘 나는 자동차 공개한 테슬라.. 주가 오를까?!",
-     "publishedAt": "2026-10-16 20:19",
-     "url": "https://www.youtube.com/watch?v=xPQ2aQrqsi0"
     }
    ]
   },
