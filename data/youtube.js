@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-17 09:48",
+ "asOf": "2026-10-17 11:36",
  "channels": [
   {
    "name": "815머니톡",
@@ -142,24 +142,24 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=CviFrBH_K2M"
     },
     {
-     "title": "코스피 대반등 오늘부터 시작? #코스피 #하이닉스 #코어위브",
-     "publishedAt": "2026-10-16 15:25",
-     "url": "https://www.youtube.com/watch?v=TIwhuO72AFU"
-    },
-    {
      "title": "코스피 반등 시작하나?",
      "publishedAt": "2026-10-16 02:38",
      "url": "https://www.youtube.com/watch?v=6Qd_w8GyLp4"
     },
     {
-     "title": "코스피 6000도 깨버린 3가지 이유 #코스피 #코어위브 #앤트로픽",
-     "publishedAt": "2026-10-15 09:18",
-     "url": "https://www.youtube.com/watch?v=3RI0N4H66sY"
+     "title": "코스피가 무너진 근본적인 이유 (CXMT 아님)",
+     "publishedAt": "2026-10-14",
+     "url": "https://www.youtube.com/watch?v=hzomN7wiW_8"
     },
     {
-     "title": "코스피 장막판에 다시 떨어진 이유 #코스피 #ASML #하이닉스",
-     "publishedAt": "2026-10-14 15:49",
-     "url": "https://www.youtube.com/watch?v=gLcwg1PGbcg"
+     "title": "또 메모리만 패는 증시",
+     "publishedAt": "2026-10-13",
+     "url": "https://www.youtube.com/watch?v=4Wt_PZqM5ZE"
+    },
+    {
+     "title": "OpenAI의 매출 200억 달러가 사라졌다??",
+     "publishedAt": "2026-10-09",
+     "url": "https://www.youtube.com/watch?v=k1Ysumyvyio"
     }
    ]
   },
