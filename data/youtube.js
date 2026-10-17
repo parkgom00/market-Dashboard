@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-17 17:36",
+ "asOf": "2026-10-17 19:34",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "코스피, 지금이 진짜 바닥일까?!",
+     "publishedAt": "2026-10-17 18:44",
+     "url": "https://www.youtube.com/watch?v=ftX09B5goJc"
+    },
+    {
      "title": "투자자들이 꼭 알아야 하는 다음 주, 한국 투자 포인트(10.19~10.23)",
      "publishedAt": "2026-10-17 15:12",
      "url": "https://www.youtube.com/watch?v=NBN9hzDsfNo"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "하늘 나는 자동차 공개한 테슬라.. 주가 오를까?!",
      "publishedAt": "2026-10-16 20:19",
      "url": "https://www.youtube.com/watch?v=xPQ2aQrqsi0"
-    },
-    {
-     "title": "월가에서 현시점 QQQ가 저평가 됐다는 이유",
-     "publishedAt": "2026-10-16 19:09",
-     "url": "https://www.youtube.com/watch?v=gqeSqgWv9Jg"
     }
    ]
   },
