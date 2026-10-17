@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-17 13:36",
+ "asOf": "2026-10-17 15:42",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[특집 라이브] 종목상담 / “월요일 장이 무섭다!” 나스닥 급락 충격… 내 주식 어떻게 해야 하나? | 이주연, 이주현, 임수열",
+     "publishedAt": "2026-10-17 14:42",
+     "url": "https://www.youtube.com/watch?v=4_MkVCM3y-o"
+    },
     {
      "title": "“돈 없이 수조 원 선물 거래?” 외국인에게 유리한 한국증시의 충격적 구조… 미국도 안 하는 제도, 금융당국은 왜 안 바꾸나?ㅣ이지환 대표",
      "publishedAt": "2026-10-17 08:48",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#글로벌인사이트]  “반도체 폭락장 또 오나?” 삼성전자·SK하이닉스 흔들 마지막 변수… 앤트로픽·TSMC 리스크 총점검 ㅣ세미콘 리서치랩 노근창 대표",
      "publishedAt": "2026-10-16 16:00",
      "url": "https://www.youtube.com/watch?v=7eZkWzoJwPk"
-    },
-    {
-     "title": "[#긴급시황] “큰손들 강제청산 당했나?” 코스피 5,200이 마지막 바닥일까? / 외국인이 한국 주식 안 사는 진짜 이유 3가지  | 박근형 부장",
-     "publishedAt": "2026-10-16 14:30",
-     "url": "https://www.youtube.com/watch?v=iyzrHL9CvpA"
     }
    ]
   },
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "[특집] 폭락은 주도주를 바꾼다! 지금 바통을 이을 섹터는?",
+     "publishedAt": "2026-10-17 14:42",
+     "url": "https://www.youtube.com/watch?v=RIhgSFHArHU"
+    },
+    {
      "title": "시원하게 반등 못하는 반도체, 지금 주목할 지표는?",
      "publishedAt": "2026-10-16 19:00",
      "url": "https://www.youtube.com/watch?v=t6Vw2rGohjc"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "신고가 뚫는 해외 기판 업체들, 이제 국내 기업들 순서?",
      "publishedAt": "2026-10-10",
      "url": "https://www.youtube.com/watch?v=LcDcoSxobt0"
-    },
-    {
-     "title": "[특집] 반도체 소부장 지각 변동, 지금은 이 주도주 흐름을 봐야 합니다!!",
-     "publishedAt": "2026-10-09",
-     "url": "https://www.youtube.com/watch?v=RF4B2IsSxiY"
     }
    ]
   },
