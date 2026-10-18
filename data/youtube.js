@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-19 05:34",
+ "asOf": "2026-10-19 07:33",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[10월19일 #장시작전] “겨우 반등했는데 또 악재!” AI 부채 경고등에 美 반도체주 급락·나스닥 하락 / 오늘 삼전·SK하닉 어쩌나?",
+     "publishedAt": "2026-10-19 06:10",
+     "url": "https://www.youtube.com/watch?v=1vqeyoLI1G8"
+    },
     {
      "title": "[#찐시황]  “나스닥 급락, AI 부채 위험 재점화?” 다음 주 한국증시 어디로 갈까… 삼성전자·SK하이닉스 또 흔들리나? | 미래에셋자산운용 최창규 이사",
      "publishedAt": "2026-10-18 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“헤지펀드 롱·숏 동시 청산 공포!” 코스피 진짜 바닥은 어디인가? / 삼성전자·SK하이닉스 지금 팔아야 하나, 버텨야 하나?  ㅣ 이주현 대표",
      "publishedAt": "2026-10-18 09:06",
      "url": "https://www.youtube.com/watch?v=p-A2qeyYZvg"
-    },
-    {
-     "title": "[#찐시황]  “월요일 증시 어떻게 될까?!” 美 반도체 9연속 하락 / 외국인이 한국 반도체 팔고 사는 것은?    | 이주연 대표",
-     "publishedAt": "2026-10-17 20:00",
-     "url": "https://www.youtube.com/watch?v=N6WiklH0TIs"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 19일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-10-19 07:04",
+     "url": "https://www.youtube.com/watch?v=3hvmhwZ6lgQ"
+    },
+    {
      "title": "현대차, 정말 2년을 버텨야 다시 오를까?!",
      "publishedAt": "2026-10-18 12:00",
      "url": "https://www.youtube.com/watch?v=QPzm3gj76q8"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "투자자들이 꼭 알아야 하는 다음 주, 미국 투자 포인트(10.19~10.23)",
      "publishedAt": "2026-10-17 20:02",
      "url": "https://www.youtube.com/watch?v=HUk6v2EgUy4"
-    },
-    {
-     "title": "코스피, 지금이 진짜 바닥일까?!",
-     "publishedAt": "2026-10-17 18:44",
-     "url": "https://www.youtube.com/watch?v=ftX09B5goJc"
     }
    ]
   },
