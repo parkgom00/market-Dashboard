@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-18 19:34",
+ "asOf": "2026-10-18 21:40",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황]  “나스닥 급락, AI 부채 위험 재점화?” 다음 주 한국증시 어디로 갈까… 삼성전자·SK하이닉스 또 흔들리나? | 미래에셋자산운용 최창규 이사",
+     "publishedAt": "2026-10-18 20:00",
+     "url": "https://www.youtube.com/watch?v=A5LZFk6AYf4"
+    },
     {
      "title": "“솔리다임 상장이 SK하이닉스에 독이 되나?” 외국인은 하닉 팔고 삼성전자 사들이나… 삼전 주가 어디까지 갈까?ㅣ이지환 대표",
      "publishedAt": "2026-10-18 17:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#찐시황]  “월요일 증시 어떻게 될까?!” 美 반도체 9연속 하락 / 외국인이 한국 반도체 팔고 사는 것은?    | 이주연 대표",
      "publishedAt": "2026-10-17 20:00",
      "url": "https://www.youtube.com/watch?v=N6WiklH0TIs"
-    },
-    {
-     "title": "SK하이닉스 실적 좋아도 주가 못 오르나? / 2027년 반도체 피크아웃 우려의 실체  | 유창희 대표",
-     "publishedAt": "2026-10-17 17:30",
-     "url": "https://www.youtube.com/watch?v=KC325ejEias"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(주간시황) 들고있는 주식을 지금 매도 하지말자!!!",
+     "publishedAt": "2026-10-18 19:49",
+     "url": "https://www.youtube.com/watch?v=dnHTo3-FbgE"
+    },
     {
      "title": "(반도체) 지금은 레버리지 하기에는 보상대비 위험이 더크다!!!",
      "publishedAt": "2026-10-18 08:25",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(아이온큐) 반등이유는?  (구독자요청) 실스큐:LAES",
      "publishedAt": "2026-10-16 14:41",
      "url": "https://www.youtube.com/watch?v=uGScCmmeDQ0"
-    },
-    {
-     "title": "(시황분석) 중소형주는 저점 바닥인가?",
-     "publishedAt": "2026-10-16 05:41",
-     "url": "https://www.youtube.com/watch?v=_qmg2Xk8RzY"
     }
    ]
   },
@@ -169,11 +169,6 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
-     "title": "AI 약한고리 결국 터진다? 극단적 공포 구간 진입/올 연말까진 기회, 내년이 진짜 위기?",
-     "publishedAt": "2026-10-18 19:14",
-     "url": "https://www.youtube.com/watch?v=A7B-vm2lGps"
-    },
-    {
      "title": "금리 5.5%가 증시 충격 마지노선? 월가 초고수들의 경고, 대비해야 할까",
      "publishedAt": "2026-10-14 20:39",
      "url": "https://www.youtube.com/watch?v=PrEHp2DoRVU"
@@ -192,6 +187,11 @@ window.DASH.youtube = {
      "title": "AI사이클 더 큰 한 방 남았다? 증시 의심의 벽 뚫고 올라갈까",
      "publishedAt": "2026-10-09 18:36",
      "url": "https://www.youtube.com/watch?v=Ob5TSrJbxbs"
+    },
+    {
+     "title": "올해 메모리 놓친 사람 주목? AI 반도체 다음 격전지가 될 투자처",
+     "publishedAt": "2026-10-08 19:17",
+     "url": "https://www.youtube.com/watch?v=MjEc_J9gYko"
     }
    ]
   }
