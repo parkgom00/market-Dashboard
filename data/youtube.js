@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-18 21:40",
+ "asOf": "2026-10-18 23:33",
  "channels": [
   {
    "name": "815머니톡",
@@ -41,7 +41,7 @@ window.DASH.youtube = {
    "handle": "@orlandocampus",
    "videos": [
     {
-     "title": "(주간시황) 들고있는 주식을 지금 매도 하지말자!!!",
+     "title": "(주간시황) 신용으로 꺽이는 장이기에 현금과 이익이 나는 종목은 던지지 말자!!!",
      "publishedAt": "2026-10-18 19:49",
      "url": "https://www.youtube.com/watch?v=dnHTo3-FbgE"
     },
