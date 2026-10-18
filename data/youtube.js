@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-18 09:48",
+ "asOf": "2026-10-18 11:35",
  "channels": [
   {
    "name": "815머니톡",
@@ -83,9 +83,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=t6Vw2rGohjc"
     },
     {
-     "title": "[특집] AI 인프라에서 뜨는 전력과 광학, 국내 핵심 수혜주는?",
-     "publishedAt": "2026-10-14",
-     "url": "https://www.youtube.com/watch?v=bzDBLehWGVI"
+     "title": "[실전 투자 스터디] 지금 경제 좋은 거 아닌가요?",
+     "publishedAt": "2026-10-16 17:00",
+     "url": "https://www.youtube.com/watch?v=ddXdwor9k0Y"
     },
     {
      "title": "[긴급 편성] 반도체 폭락 이유? 체크할 반등 트리거는?",
@@ -93,9 +93,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=6VDcX0bLZiw"
     },
     {
-     "title": "신고가 뚫는 해외 기판 업체들, 이제 국내 기업들 순서?",
-     "publishedAt": "2026-10-10",
-     "url": "https://www.youtube.com/watch?v=LcDcoSxobt0"
+     "title": "[실전 투자 스터디] 여전한 숏티지, 그런데 주가는 왜?",
+     "publishedAt": "2026-10-13 18:00",
+     "url": "https://www.youtube.com/watch?v=wC6Tlj8KjeY"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "SK하이닉스는 왜 삼성전자보다 더 크게 무너질까?!",
+     "publishedAt": "2026-10-18 09:00",
+     "url": "https://www.youtube.com/watch?v=aU3MRZlD1Co"
+    },
+    {
+     "title": "시장의 투자심리를 읽는 2가지 방법",
+     "publishedAt": "2026-10-17 22:33",
+     "url": "https://www.youtube.com/watch?v=samZ3DPJ3I4"
+    },
+    {
+     "title": "투자자들이 꼭 알아야 하는 다음 주, 미국 투자 포인트(10.19~10.23)",
+     "publishedAt": "2026-10-17 20:02",
+     "url": "https://www.youtube.com/watch?v=HUk6v2EgUy4"
+    },
+    {
      "title": "코스피, 지금이 진짜 바닥일까?!",
      "publishedAt": "2026-10-17 18:44",
      "url": "https://www.youtube.com/watch?v=ftX09B5goJc"
     },
     {
-     "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(10.19~10.23)",
-     "publishedAt": "2026-10-17",
-     "url": "https://www.youtube.com/watch?v=-743r-0N1Qs"
-    },
-    {
-     "title": "미국이 금리를 또 올리면 코스피는 어떻게 될까?!",
-     "publishedAt": "2026-10-16",
-     "url": "https://www.youtube.com/watch?v=h04X6O4_fhQ"
-    },
-    {
-     "title": "코스피가 내년에 1만 갈 수 있다는 이유",
-     "publishedAt": "2026-10-15",
-     "url": "https://www.youtube.com/watch?v=U6SoT3GAIMk"
-    },
-    {
-     "title": "상승장보다 지금 같은 하락장이 기회인 이유",
-     "publishedAt": "2026-10-15",
-     "url": "https://www.youtube.com/watch?v=HMUYD3fGTBE"
+     "title": "투자자들이 꼭 알아야 하는 다음 주, 한국 투자 포인트(10.19~10.23)",
+     "publishedAt": "2026-10-17 15:12",
+     "url": "https://www.youtube.com/watch?v=NBN9hzDsfNo"
     }
    ]
   },
