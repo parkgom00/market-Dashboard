@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-18 17:36",
+ "asOf": "2026-10-18 19:34",
  "channels": [
   {
    "name": "815머니톡",
@@ -169,6 +169,11 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
+     "title": "AI 약한고리 결국 터진다? 극단적 공포 구간 진입/올 연말까진 기회, 내년이 진짜 위기?",
+     "publishedAt": "2026-10-18 19:14",
+     "url": "https://www.youtube.com/watch?v=A7B-vm2lGps"
+    },
+    {
      "title": "금리 5.5%가 증시 충격 마지노선? 월가 초고수들의 경고, 대비해야 할까",
      "publishedAt": "2026-10-14 20:39",
      "url": "https://www.youtube.com/watch?v=PrEHp2DoRVU"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "AI사이클 더 큰 한 방 남았다? 증시 의심의 벽 뚫고 올라갈까",
      "publishedAt": "2026-10-09 18:36",
      "url": "https://www.youtube.com/watch?v=Ob5TSrJbxbs"
-    },
-    {
-     "title": "올해 메모리 놓친 사람 주목? AI 반도체 다음 격전지가 될 투자처",
-     "publishedAt": "2026-10-08 19:17",
-     "url": "https://www.youtube.com/watch?v=MjEc_J9gYko"
     }
    ]
   }
