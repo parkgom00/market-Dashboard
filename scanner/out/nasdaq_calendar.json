@@ -582,7 +582,7 @@
   "title": "미국 건축허가",
   "level": "macro",
   "kind": "econ",
-  "consensus": "1.400M",
+  "consensus": "1.390M",
   "actual": "",
   "previous": "-2.1%"
  },
@@ -677,7 +677,7 @@
   "title": "미국 신규 실업수당 청구",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "200K",
   "actual": "",
   "previous": "199K"
  },
@@ -687,7 +687,7 @@
   "title": "S&P글로벌 서비스업 PMI",
   "level": "macro",
   "kind": "econ",
-  "consensus": "57.9",
+  "consensus": "58.0",
   "actual": "",
   "previous": "58.8"
  },
@@ -697,7 +697,7 @@
   "title": "S&P글로벌 제조업 PMI",
   "level": "macro",
   "kind": "econ",
-  "consensus": "55.6",
+  "consensus": "55.5",
   "actual": "",
   "previous": "55.9"
  },

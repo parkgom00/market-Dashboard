@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-18 03:18",
+ "generatedAt": "2026-10-18 09:21",
  "events": [
   {
    "date": "2026-01-01",
@@ -1531,7 +1531,7 @@ window.DASH.calendar = {
    "title": "미국 건축허가",
    "time": "21:30",
    "result": [
-    "예상 1.400M · 이전 -2.1%"
+    "예상 1.390M · 이전 -2.1%"
    ]
   },
   {
@@ -1621,7 +1621,7 @@ window.DASH.calendar = {
    "title": "미국 신규 실업수당 청구",
    "time": "21:30",
    "result": [
-    "이전 199K"
+    "예상 200K · 이전 199K"
    ]
   },
   {
@@ -1631,7 +1631,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 서비스업 PMI",
    "time": "22:45",
    "result": [
-    "예상 57.9 · 이전 58.8"
+    "예상 58.0 · 이전 58.8"
    ]
   },
   {
@@ -1641,7 +1641,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 제조업 PMI",
    "time": "22:45",
    "result": [
-    "예상 55.6 · 이전 55.9"
+    "예상 55.5 · 이전 55.9"
    ]
   },
   {
