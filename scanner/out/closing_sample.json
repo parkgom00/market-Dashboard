@@ -67,36 +67,36 @@
  ],
  "minute": [
   {
-   "localDateTime": "20261019150300",
-   "currentPrice": 216750.0,
-   "openPrice": 216000.0,
-   "highPrice": 217000.0,
-   "lowPrice": 215750.0,
-   "accumulatedTradingVolume": 77555
+   "localDateTime": "20261019150700",
+   "currentPrice": 217500.0,
+   "openPrice": 217500.0,
+   "highPrice": 218000.0,
+   "lowPrice": 217000.0,
+   "accumulatedTradingVolume": 53356
   },
   {
-   "localDateTime": "20261019150400",
-   "currentPrice": 217000.0,
-   "openPrice": 216750.0,
-   "highPrice": 217500.0,
-   "lowPrice": 216500.0,
-   "accumulatedTradingVolume": 139852
+   "localDateTime": "20261019150800",
+   "currentPrice": 217500.0,
+   "openPrice": 217750.0,
+   "highPrice": 218000.0,
+   "lowPrice": 217500.0,
+   "accumulatedTradingVolume": 23114
   },
   {
-   "localDateTime": "20261019150500",
-   "currentPrice": 217000.0,
-   "openPrice": 217000.0,
-   "highPrice": 217500.0,
-   "lowPrice": 216500.0,
-   "accumulatedTradingVolume": 48044
+   "localDateTime": "20261019150900",
+   "currentPrice": 217500.0,
+   "openPrice": 217500.0,
+   "highPrice": 218000.0,
+   "lowPrice": 217000.0,
+   "accumulatedTradingVolume": 63870
   },
   {
-   "localDateTime": "20261019150600",
-   "currentPrice": 217000.0,
-   "openPrice": 216750.0,
-   "highPrice": 217000.0,
-   "lowPrice": 216750.0,
-   "accumulatedTradingVolume": 161
+   "localDateTime": "20261019151000",
+   "currentPrice": 218000.0,
+   "openPrice": 218000.0,
+   "highPrice": 218000.0,
+   "lowPrice": 218000.0,
+   "accumulatedTradingVolume": 584
   }
  ],
  "integration": {
@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "DS투자증권",
     "tit": "사상 최초 DRAM 분기 매출 100조원 상회",
-    "rcnt": "30993",
+    "rcnt": "31010",
     "wdt": "20261012"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "하나증권",
     "tit": "강한 DRAM 가격. LPDDR 공급 부족 심화",
-    "rcnt": "18143",
+    "rcnt": "18153",
     "wdt": "20261012"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "유진투자증권",
     "tit": "눈높이를 높이는 구간",
-    "rcnt": "14975",
+    "rcnt": "14983",
     "wdt": "20261012"
    }
   ],
@@ -260,17 +260,17 @@
     "reutersCode": "402340",
     "stockName": "SK스퀘어",
     "sosok": "0",
-    "closePrice": "767,000",
-    "compareToPreviousClosePrice": "-17,000",
+    "closePrice": "770,000",
+    "compareToPreviousClosePrice": "-14,000",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "fluctuationsRatio": "-2.17",
+    "fluctuationsRatio": "-1.79",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "101,185,706",
+    "marketValue": "101,581,478",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
@@ -298,17 +298,17 @@
     "reutersCode": "042700",
     "stockName": "한미반도체",
     "sosok": "0",
-    "closePrice": "209,000",
-    "compareToPreviousClosePrice": "-1,000",
+    "closePrice": "211,000",
+    "compareToPreviousClosePrice": "1,000",
     "compareToPreviousPrice": {
-     "code": "5",
-     "text": "하락",
-     "name": "FALLING"
+     "code": "2",
+     "text": "상승",
+     "name": "RISING"
     },
-    "fluctuationsRatio": "-0.48",
+    "fluctuationsRatio": "0.48",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "19,920,249",
+    "marketValue": "20,110,874",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
