@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-19 09:49",
+ "asOf": "2026-10-19 11:36",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“지금 싸다고 덥석 사지 마세요!” 코스피 극단적 공포 구간… 진짜 바닥 확인할 결정적 신호  | 이주연 대표",
+     "publishedAt": "2026-10-19 11:04",
+     "url": "https://www.youtube.com/watch?v=DzDHvvKcPH4"
+    },
     {
      "title": "[10월19일 #장시작전] “겨우 반등했는데 또 악재!” AI 부채 경고등에 美 반도체주 급락·나스닥 하락 / 오늘 삼전·SK하닉 어쩌나?",
      "publishedAt": "2026-10-19 06:10",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“AI 부채 폭탄보다 더 무서운 게 터진다?” 헤지펀드 연쇄 청산 공포… 삼성전자·SK하이닉스 급락의 진짜 이유 ㅣ 이주연 대표",
      "publishedAt": "2026-10-18 12:00",
      "url": "https://www.youtube.com/watch?v=_v8rV9CnW5Q"
-    },
-    {
-     "title": "“헤지펀드 롱·숏 동시 청산 공포!” 코스피 진짜 바닥은 어디인가? / 삼성전자·SK하이닉스 지금 팔아야 하나, 버텨야 하나?  ㅣ 이주현 대표",
-     "publishedAt": "2026-10-18 09:06",
-     "url": "https://www.youtube.com/watch?v=p-A2qeyYZvg"
     }
    ]
   },
