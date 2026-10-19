@@ -1369,6 +1369,16 @@
   "previous": "48.1"
  },
  {
+  "date": "2026-11-09",
+  "time": "10:30",
+  "title": "중국 CPI",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "0.2%"
+ },
+ {
   "date": "2026-11-13",
   "time": "",
   "title": "어플라이드머티리얼즈 실적 발표",
