@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-19 17:15",
+ "asOf": "2026-10-19 16:45",
  "window": "15:20~15:40",
- "status": "전 종목 2419개 중 후보 174개 점검 (기준 일봉 2026-10-16)",
+ "status": "전 종목 2420개 중 후보 167개 점검 (기준 일봉 2026-10-16)",
  "types": [
   {
    "id": "A",
@@ -23,13 +23,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "복합기업",
        "after": {
-        "price": 1082000.0,
-        "pct": 5.66
+        "price": 1077000.0,
+        "pct": 5.18
        },
-       "marcap": 175217,
+       "marcap": 174408,
        "prevClose": 1024000.0,
        "changePct": 4.59,
-       "value": 992,
+       "value": 989,
        "note": "고가 마감권(고가 대비 0.28% 아래) · 막판 20분 거래량 비중 24% · 수급 자료 확인 전"
       },
       {
@@ -39,10 +39,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "손해보험",
        "after": {
-        "price": 603000.0,
-        "pct": 2.9
+        "price": 602000.0,
+        "pct": 2.73
        },
-       "marcap": 269224,
+       "marcap": 268778,
        "prevClose": 586000.0,
        "changePct": 3.58,
        "value": 390,
@@ -77,7 +77,7 @@ window.DASH.shortterm = {
        "marcap": 191441,
        "prevClose": 265000.0,
        "changePct": 2.45,
-       "value": 408,
+       "value": 407,
        "note": "고가 마감권(고가 대비 0.00% 아래) · 막판 20분 거래량 비중 20% · 수급 자료 확인 전"
       },
       {
@@ -87,13 +87,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "우주항공과국방",
        "after": {
-        "price": 100600.0,
-        "pct": 3.82
+        "price": 99900.0,
+        "pct": 3.1
        },
-       "marcap": 109797,
+       "marcap": 109033,
        "prevClose": 96900.0,
        "changePct": 3.92,
-       "value": 649,
+       "value": 643,
        "note": "고가 마감권(고가 대비 0.30% 아래) · 막판 20분 거래량 비중 16% · 수급 자료 확인 전"
       }
      ]
@@ -110,13 +110,13 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "건강관리장비와용품",
        "after": {
-        "price": 43550.0,
-        "pct": -0.11
+        "price": 43950.0,
+        "pct": 0.8
        },
-       "marcap": 10999,
+       "marcap": 11100,
        "prevClose": 43600.0,
        "changePct": 0.92,
-       "value": 208,
+       "value": 207,
        "note": "전일 +31.9% 급등 · 오늘 거래량 전일의 43% · 도지(몸통 13%) · 10일선 37,450 / 20일선 33,858 위 마감"
       },
       {
@@ -126,13 +126,13 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "기계",
        "after": {
-        "price": 16950.0,
-        "pct": 0.47
+        "price": 16990.0,
+        "pct": 0.71
        },
-       "marcap": 3262,
+       "marcap": 3270,
        "prevClose": 16870.0,
        "changePct": 0.83,
-       "value": 593,
+       "value": 591,
        "note": "전일 +12.6% 급등 · 오늘 거래량 전일의 43% · 도지(몸통 23%) · 10일선 14,779 / 20일선 14,108 위 마감"
       }
      ]
@@ -150,7 +150,7 @@ window.DASH.shortterm = {
    "name": "전고점 돌파",
    "timeframe": "일봉",
    "desc": "52주 신고가(또는 3년 내 최고가)를 찍고 하락했던 전고점을 다시 넘어서는 종목. 장 마감 후 종가 기준으로 하루 한 번 갱신됩니다.",
-   "asOf": "2026-10-16",
+   "asOf": "2026-10-19",
    "subtypes": [
     {
      "id": "B1",
@@ -162,19 +162,38 @@ window.DASH.shortterm = {
        "name": "HT로보틱스",
        "market": "KOSDAQ",
        "sector": "기타 금속 가공제품 제조업",
-       "marcap": 2387,
+       "marcap": 2395,
        "themes": [],
        "krRank": "",
-       "prevClose": 7150.0,
-       "changePct": 25.73,
-       "value": 2772,
-       "close": 8990.0,
-       "ma10": 6580.0,
-       "ma20": 5843.25,
-       "ma60": 4846.08,
-       "ma240": 4079.12,
-       "ma480": 3387.52,
-       "note": "05/15 3년 내 최고가(이후 -63.9% 조정)를 오늘 돌파 · 장대양봉 +21.0%, 거래량 5.4배 · 전고점 대비 +22.5%"
+       "prevClose": 8830.0,
+       "changePct": 2.49,
+       "value": 1545,
+       "close": 9050.0,
+       "ma10": 6861.0,
+       "ma20": 6046.25,
+       "ma60": 4947.33,
+       "ma240": 4101.25,
+       "ma480": 3399.94,
+       "note": "05/15 3년 내 최고가(이후 -63.9% 조정)를 1일 전 돌파 · 장대양봉 +18.8%, 거래량 5.6배 · 전고점 대비 +23.3%"
+      },
+      {
+       "code": "010580",
+       "name": "에스엠벡셀",
+       "market": "KOSPI",
+       "sector": "자동차 신품 부품 제조업",
+       "marcap": 4495,
+       "themes": [],
+       "krRank": "",
+       "prevClose": 3150.0,
+       "changePct": 28.25,
+       "value": 1081,
+       "close": 4040.0,
+       "ma10": 2611.0,
+       "ma20": 2585.25,
+       "ma60": 1993.88,
+       "ma240": 2091.9,
+       "ma480": 1751.01,
+       "note": "10/23 3년 내 최고가(이후 -62.2% 조정)를 오늘 돌파 · 장대양봉 +28.9%, 거래량 4.2배 · 전고점 대비 +15.6%"
       }
      ]
     },
@@ -442,8 +461,8 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2419,
-  "candidates": 174,
+  "quotes": 2420,
+  "candidates": 167,
   "bars": 150,
   "naverBars": 150,
   "kisBars": 0,
@@ -451,13 +470,13 @@ window.DASH.shortterm = {
    "후보": 147,
    "분봉지연": 0,
    "사유": {
-    "등락률·거래대금 미달": 11,
-    "막판 거래량 비중 부족": 53,
+    "막판 거래량 비중 부족": 58,
     "고가에서 멂": 65,
-    "ok(수급 자료 없음)": 18
+    "등락률·거래대금 미달": 4,
+    "ok(수급 자료 없음)": 20
    },
    "수급자료": 0,
-   "막판비중_중앙값": 0.054,
+   "막판비중_중앙값": 0.057,
    "막판비중_최대": 0.24
   }
  },
