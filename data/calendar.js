@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-19 21:29",
+ "generatedAt": "2026-10-20 03:26",
  "events": [
   {
    "date": "2026-01-01",
@@ -1284,6 +1284,16 @@ window.DASH.calendar = {
    ]
   },
   {
+   "date": "2026-10-12",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 기존주택판매",
+   "time": "23:00",
+   "result": [
+    "실제 1.5% · 예상 -0.8% · 이전 -3.2%"
+   ]
+  },
+  {
    "date": "2026-10-13",
    "type": "earnings",
    "market": "US",
@@ -1308,6 +1318,16 @@ window.DASH.calendar = {
    "title": "유나이티드헬스 실적 발표",
    "result": [
     "EPS 실제 $4.69 (예상 $4.12) · 서프라이즈 13.83%"
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "type": "econ",
+   "market": "CN",
+   "title": "중국 CPI",
+   "time": "10:30",
+   "result": [
+    "실제 0.2% · 예상 0.3% · 이전 0.4%"
    ]
   },
   {

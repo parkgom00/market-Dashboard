@@ -302,6 +302,16 @@
   "previous": "48.1"
  },
  {
+  "date": "2026-10-12",
+  "time": "23:00",
+  "title": "미국 기존주택판매",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "-0.8%",
+  "actual": "1.5%",
+  "previous": "-3.2%"
+ },
+ {
   "date": "2026-10-13",
   "time": "",
   "title": "JP모건 실적 발표",
@@ -333,6 +343,16 @@
   "epsForecast": "$4.12",
   "eps": "$4.69",
   "surprise": "13.83"
+ },
+ {
+  "date": "2026-10-13",
+  "time": "10:30",
+  "title": "중국 CPI",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "0.3%",
+  "actual": "0.2%",
+  "previous": "0.4%"
  },
  {
   "date": "2026-10-13",
