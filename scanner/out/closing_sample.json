@@ -67,36 +67,36 @@
  ],
  "minute": [
   {
-   "localDateTime": "20261019151200",
-   "currentPrice": 217000.0,
+   "localDateTime": "20261019151600",
+   "currentPrice": 217500.0,
    "openPrice": 217750.0,
    "highPrice": 218000.0,
-   "lowPrice": 217000.0,
-   "accumulatedTradingVolume": 54400
-  },
-  {
-   "localDateTime": "20261019151300",
-   "currentPrice": 217000.0,
-   "openPrice": 217000.0,
-   "highPrice": 217500.0,
-   "lowPrice": 217000.0,
-   "accumulatedTradingVolume": 13613
-  },
-  {
-   "localDateTime": "20261019151400",
-   "currentPrice": 217000.0,
-   "openPrice": 217500.0,
-   "highPrice": 217500.0,
-   "lowPrice": 217000.0,
-   "accumulatedTradingVolume": 18440
-  },
-  {
-   "localDateTime": "20261019151500",
-   "currentPrice": 217500.0,
-   "openPrice": 217500.0,
-   "highPrice": 217500.0,
    "lowPrice": 217500.0,
-   "accumulatedTradingVolume": 13
+   "accumulatedTradingVolume": 26232
+  },
+  {
+   "localDateTime": "20261019151700",
+   "currentPrice": 217750.0,
+   "openPrice": 217500.0,
+   "highPrice": 218000.0,
+   "lowPrice": 217500.0,
+   "accumulatedTradingVolume": 32834
+  },
+  {
+   "localDateTime": "20261019151800",
+   "currentPrice": 218250.0,
+   "openPrice": 217750.0,
+   "highPrice": 218500.0,
+   "lowPrice": 217500.0,
+   "accumulatedTradingVolume": 110372
+  },
+  {
+   "localDateTime": "20261019151900",
+   "currentPrice": 218000.0,
+   "openPrice": 218250.0,
+   "highPrice": 218250.0,
+   "lowPrice": 218000.0,
+   "accumulatedTradingVolume": 509
   }
  ],
  "integration": {
@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "DS투자증권",
     "tit": "사상 최초 DRAM 분기 매출 100조원 상회",
-    "rcnt": "31022",
+    "rcnt": "31036",
     "wdt": "20261012"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "하나증권",
     "tit": "강한 DRAM 가격. LPDDR 공급 부족 심화",
-    "rcnt": "18158",
+    "rcnt": "18164",
     "wdt": "20261012"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "유진투자증권",
     "tit": "눈높이를 높이는 구간",
-    "rcnt": "14988",
+    "rcnt": "14993",
     "wdt": "20261012"
    }
   ],
@@ -222,17 +222,17 @@
     "reutersCode": "000660",
     "stockName": "SK하이닉스",
     "sosok": "0",
-    "closePrice": "1,270,000",
-    "compareToPreviousClosePrice": "-2,000",
+    "closePrice": "1,274,000",
+    "compareToPreviousClosePrice": "2,000",
     "compareToPreviousPrice": {
-     "code": "5",
-     "text": "하락",
-     "name": "FALLING"
+     "code": "2",
+     "text": "상승",
+     "name": "RISING"
     },
-    "fluctuationsRatio": "-0.16",
+    "fluctuationsRatio": "0.16",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "927,725,303",
+    "marketValue": "930,647,273",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
@@ -260,17 +260,17 @@
     "reutersCode": "402340",
     "stockName": "SK스퀘어",
     "sosok": "0",
-    "closePrice": "767,000",
-    "compareToPreviousClosePrice": "-17,000",
+    "closePrice": "773,000",
+    "compareToPreviousClosePrice": "-11,000",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "fluctuationsRatio": "-2.17",
+    "fluctuationsRatio": "-1.40",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "101,185,706",
+    "marketValue": "101,977,250",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
@@ -298,17 +298,17 @@
     "reutersCode": "042700",
     "stockName": "한미반도체",
     "sosok": "0",
-    "closePrice": "211,000",
-    "compareToPreviousClosePrice": "1,000",
+    "closePrice": "211,500",
+    "compareToPreviousClosePrice": "1,500",
     "compareToPreviousPrice": {
      "code": "2",
      "text": "상승",
      "name": "RISING"
     },
-    "fluctuationsRatio": "0.48",
+    "fluctuationsRatio": "0.71",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "20,110,874",
+    "marketValue": "20,158,530",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
