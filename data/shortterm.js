@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-19 15:52",
+ "asOf": "2026-10-19 16:45",
  "window": "15:20~15:40",
- "status": "전 종목 2420개 중 후보 168개 점검 (기준 일봉 2026-10-16)",
+ "status": "전 종목 2420개 중 후보 167개 점검 (기준 일봉 2026-10-16)",
  "types": [
   {
    "id": "A",
@@ -23,13 +23,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "복합기업",
        "after": {
-        "price": 1071000.0,
-        "pct": 4.59
+        "price": 1077000.0,
+        "pct": 5.18
        },
-       "marcap": 173436,
+       "marcap": 174408,
        "prevClose": 1024000.0,
        "changePct": 4.59,
-       "value": 986,
+       "value": 989,
        "note": "고가 마감권(고가 대비 0.28% 아래) · 막판 20분 거래량 비중 24% · 수급 자료 확인 전"
       },
       {
@@ -39,13 +39,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "손해보험",
        "after": {
-        "price": 607000.0,
-        "pct": 3.58
+        "price": 602000.0,
+        "pct": 2.73
        },
-       "marcap": 271010,
+       "marcap": 268778,
        "prevClose": 586000.0,
        "changePct": 3.58,
-       "value": 388,
+       "value": 390,
        "note": "고가 마감권(고가 대비 0.49% 아래) · 막판 20분 거래량 비중 23% · 수급 자료 확인 전"
       },
       {
@@ -55,10 +55,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "증권",
        "after": {
-        "price": 157200.0,
-        "pct": 3.56
+        "price": 156800.0,
+        "pct": 3.29
        },
-       "marcap": 87601,
+       "marcap": 87378,
        "prevClose": 151800.0,
        "changePct": 3.56,
        "value": 211,
@@ -71,13 +71,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "조선",
        "after": {
-        "price": 271500.0,
-        "pct": 2.45
+        "price": 270500.0,
+        "pct": 2.08
        },
-       "marcap": 192149,
+       "marcap": 191441,
        "prevClose": 265000.0,
        "changePct": 2.45,
-       "value": 406,
+       "value": 407,
        "note": "고가 마감권(고가 대비 0.00% 아래) · 막판 20분 거래량 비중 20% · 수급 자료 확인 전"
       },
       {
@@ -87,13 +87,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "우주항공과국방",
        "after": {
-        "price": 100700.0,
-        "pct": 3.92
+        "price": 99900.0,
+        "pct": 3.1
        },
-       "marcap": 109906,
+       "marcap": 109033,
        "prevClose": 96900.0,
        "changePct": 3.92,
-       "value": 642,
+       "value": 643,
        "note": "고가 마감권(고가 대비 0.30% 아래) · 막판 20분 거래량 비중 16% · 수급 자료 확인 전"
       }
      ]
@@ -110,13 +110,13 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "건강관리장비와용품",
        "after": {
-        "price": 44000.0,
-        "pct": 0.92
+        "price": 43950.0,
+        "pct": 0.8
        },
-       "marcap": 11112,
+       "marcap": 11100,
        "prevClose": 43600.0,
        "changePct": 0.92,
-       "value": 206,
+       "value": 207,
        "note": "전일 +31.9% 급등 · 오늘 거래량 전일의 43% · 도지(몸통 13%) · 10일선 37,450 / 20일선 33,858 위 마감"
       },
       {
@@ -126,13 +126,13 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "기계",
        "after": {
-        "price": 17010.0,
-        "pct": 0.83
+        "price": 16990.0,
+        "pct": 0.71
        },
-       "marcap": 3274,
+       "marcap": 3270,
        "prevClose": 16870.0,
        "changePct": 0.83,
-       "value": 586,
+       "value": 591,
        "note": "전일 +12.6% 급등 · 오늘 거래량 전일의 43% · 도지(몸통 23%) · 10일선 14,779 / 20일선 14,108 위 마감"
       }
      ]
@@ -443,7 +443,7 @@ window.DASH.shortterm = {
  ],
  "diag": {
   "quotes": 2420,
-  "candidates": 168,
+  "candidates": 167,
   "bars": 150,
   "naverBars": 150,
   "kisBars": 0,
@@ -451,12 +451,13 @@ window.DASH.shortterm = {
    "후보": 147,
    "분봉지연": 0,
    "사유": {
-    "막판 거래량 비중 부족": 59,
+    "막판 거래량 비중 부족": 58,
     "고가에서 멂": 65,
-    "ok(수급 자료 없음)": 23
+    "등락률·거래대금 미달": 4,
+    "ok(수급 자료 없음)": 20
    },
    "수급자료": 0,
-   "막판비중_중앙값": 0.059,
+   "막판비중_중앙값": 0.057,
    "막판비중_최대": 0.24
   }
  },
