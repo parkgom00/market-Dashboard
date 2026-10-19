@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-20 01:41",
+ "asOf": "2026-10-20 03:46",
  "channels": [
   {
    "name": "815머니톡",
@@ -137,6 +137,11 @@ window.DASH.youtube = {
    "handle": "@김단테",
    "videos": [
     {
+     "title": "나스닥 상승의 진짜 이유",
+     "publishedAt": "2026-10-20 02:31",
+     "url": "https://www.youtube.com/watch?v=wSmkhWHEYNM"
+    },
+    {
      "title": "또 다른 AI 펀드 청산? 코어위브 위기 전염? AI 주식 최악의 시나리오로 가나?",
      "publishedAt": "2026-10-17 15:42",
      "url": "https://www.youtube.com/watch?v=NhSEP0KFais"
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "코스피 반등 시작하나?",
      "publishedAt": "2026-10-16 02:38",
      "url": "https://www.youtube.com/watch?v=6Qd_w8GyLp4"
-    },
-    {
-     "title": "코스피 6000도 깨버린 3가지 이유 #코스피 #코어위브 #앤트로픽",
-     "publishedAt": "2026-10-15 09:18",
-     "url": "https://www.youtube.com/watch?v=3RI0N4H66sY"
     }
    ]
   },
