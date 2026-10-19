@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-19 17:46",
+ "asOf": "2026-10-19 19:39",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급시황] 대형주 상승 추세가 깨졌다… 이제 하락장을 인정할 때? / 삼성전자·SK하이닉스 반등의 마지막 희망은 ‘이것’ ㅣ황유현 팀장",
+     "publishedAt": "2026-10-19 19:00",
+     "url": "https://www.youtube.com/watch?v=i5H-IjPquog"
+    },
+    {
+     "title": "[#긴급인터뷰]  SK하이닉스,삼성전자  이번 주 운명 갈린다… 반도체 대반격 시작할 ‘단 하나의 신호 ㅣ김장열 센터장",
+     "publishedAt": "2026-10-19 18:00",
+     "url": "https://www.youtube.com/watch?v=z7cEcb6h6QA"
+    },
     {
      "title": "“삼성전자·SK하닉 지금 던지면 헤지펀드만 웃는다?” AI 반도체 숏 베팅 뒤집힐 결정적 신호… 반격 언제 시작되나? | 노근창 대표",
      "publishedAt": "2026-10-19 17:00",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "“7월 폭락장과 너무 닮았다!” 메타 실적 발표 전후 증시 대반전 올까? / 삼성전자·SK하이닉스 공포가 과도한 이유   | 이권희 대표",
      "publishedAt": "2026-10-19 14:16",
      "url": "https://www.youtube.com/watch?v=vzoLkHo0xkw"
-    },
-    {
-     "title": "[10월19일 #장시작전] “겨우 반등했는데 또 악재!” AI 부채 경고등에 美 반도체주 급락·나스닥 하락 / 오늘 삼전·SK하닉 어쩌나?",
-     "publishedAt": "2026-10-19 12:17",
-     "url": "https://www.youtube.com/watch?v=1vqeyoLI1G8"
-    },
-    {
-     "title": "“지금 싸다고 덥석 사지 마세요!” 코스피 극단적 공포 구간… 진짜 바닥 확인할 결정적 신호  | 이주연 대표",
-     "publishedAt": "2026-10-19 11:04",
-     "url": "https://www.youtube.com/watch?v=DzDHvvKcPH4"
     }
    ]
   },
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "[특집] AI 우려 커져도 상승하는 이 부품? 서학개미가 지금 주목해야 할 섹터?",
+     "publishedAt": "2026-10-19 19:00",
+     "url": "https://www.youtube.com/watch?v=jhUlmQjMYE0"
+    },
+    {
      "title": "[특집] 폭락은 주도주를 바꾼다! 지금 바통을 이을 섹터는?",
      "publishedAt": "2026-10-17 14:00",
      "url": "https://www.youtube.com/watch?v=RIhgSFHArHU"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[긴급 편성] 반도체 폭락 이유? 체크할 반등 트리거는?",
      "publishedAt": "2026-10-13 19:09",
      "url": "https://www.youtube.com/watch?v=6VDcX0bLZiw"
-    },
-    {
-     "title": "[실전 투자 스터디] 여전한 숏티지, 그런데 주가는 왜?",
-     "publishedAt": "2026-10-13 18:00",
-     "url": "https://www.youtube.com/watch?v=wC6Tlj8KjeY"
     }
    ]
   },
@@ -104,6 +104,16 @@ window.DASH.youtube = {
    "channelId": "UC7usMJDHmtbs_oegmzQKKMA",
    "handle": "@경제사냥꾼",
    "videos": [
+    {
+     "title": "삼전닉스 대항마?.. 정작 주가 -32% 폭락중인 창신메모리 근황",
+     "publishedAt": "2026-10-19 18:30",
+     "url": "https://www.youtube.com/watch?v=aVPBMeWKUJw"
+    },
+    {
+     "title": "하이닉스 100만 원도 깨질까?!",
+     "publishedAt": "2026-10-19 18:00",
+     "url": "https://www.youtube.com/watch?v=IX7YpYL2g5c"
+    },
     {
      "title": "지금 '하락장'에서 주식을 담아야 하는 진짜 이유",
      "publishedAt": "2026-10-19 16:23",
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "코어위브 사건에 반도체 주가가 흔들리는 진짜 이유",
      "publishedAt": "2026-10-19 11:45",
      "url": "https://www.youtube.com/watch?v=lfyyDcPCors"
-    },
-    {
-     "title": "10월 19일 코스피 오늘 얼마나 떨어질까?!",
-     "publishedAt": "2026-10-19 08:14",
-     "url": "https://www.youtube.com/watch?v=WCvvFRO3I9o"
-    },
-    {
-     "title": "10월 19일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-10-19 07:04",
-     "url": "https://www.youtube.com/watch?v=3hvmhwZ6lgQ"
     }
    ]
   },
