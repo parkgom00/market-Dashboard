@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-19 07:33",
+ "asOf": "2026-10-19 09:49",
  "channels": [
   {
    "name": "815머니톡",
@@ -83,9 +83,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=t6Vw2rGohjc"
     },
     {
-     "title": "[실전 투자 스터디] 지금 경제 좋은 거 아닌가요?",
-     "publishedAt": "2026-10-16 17:00",
-     "url": "https://www.youtube.com/watch?v=ddXdwor9k0Y"
+     "title": "[특집] AI 인프라에서 뜨는 전력과 광학, 국내 핵심 수혜주는?",
+     "publishedAt": "2026-10-14",
+     "url": "https://www.youtube.com/watch?v=bzDBLehWGVI"
     },
     {
      "title": "[긴급 편성] 반도체 폭락 이유? 체크할 반등 트리거는?",
@@ -93,9 +93,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=6VDcX0bLZiw"
     },
     {
-     "title": "[실전 투자 스터디] 여전한 숏티지, 그런데 주가는 왜?",
-     "publishedAt": "2026-10-13 18:00",
-     "url": "https://www.youtube.com/watch?v=wC6Tlj8KjeY"
+     "title": "신고가 뚫는 해외 기판 업체들, 이제 국내 기업들 순서?",
+     "publishedAt": "2026-10-10",
+     "url": "https://www.youtube.com/watch?v=LcDcoSxobt0"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "10월 19일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-10-19 07:04",
-     "url": "https://www.youtube.com/watch?v=3hvmhwZ6lgQ"
+     "title": "코스피, 지금이 진짜 바닥일까?!",
+     "publishedAt": "2026-10-18",
+     "url": "https://www.youtube.com/watch?v=ftX09B5goJc"
     },
     {
-     "title": "현대차, 정말 2년을 버텨야 다시 오를까?!",
-     "publishedAt": "2026-10-18 12:00",
-     "url": "https://www.youtube.com/watch?v=QPzm3gj76q8"
+     "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(10.19~10.23)",
+     "publishedAt": "2026-10-17",
+     "url": "https://www.youtube.com/watch?v=-743r-0N1Qs"
     },
     {
-     "title": "SK하이닉스는 왜 삼성전자보다 더 크게 무너질까?!",
-     "publishedAt": "2026-10-18 09:00",
-     "url": "https://www.youtube.com/watch?v=aU3MRZlD1Co"
+     "title": "미국이 금리를 또 올리면 코스피는 어떻게 될까?!",
+     "publishedAt": "2026-10-16",
+     "url": "https://www.youtube.com/watch?v=h04X6O4_fhQ"
     },
     {
-     "title": "시장의 투자심리를 읽는 2가지 방법",
-     "publishedAt": "2026-10-17 22:33",
-     "url": "https://www.youtube.com/watch?v=samZ3DPJ3I4"
+     "title": "코스피가 내년에 1만 갈 수 있다는 이유",
+     "publishedAt": "2026-10-15",
+     "url": "https://www.youtube.com/watch?v=U6SoT3GAIMk"
     },
     {
-     "title": "투자자들이 꼭 알아야 하는 다음 주, 미국 투자 포인트(10.19~10.23)",
-     "publishedAt": "2026-10-17 20:02",
-     "url": "https://www.youtube.com/watch?v=HUk6v2EgUy4"
+     "title": "상승장보다 지금 같은 하락장이 기회인 이유",
+     "publishedAt": "2026-10-15",
+     "url": "https://www.youtube.com/watch?v=HMUYD3fGTBE"
     }
    ]
   },
@@ -147,19 +147,19 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=CviFrBH_K2M"
     },
     {
-     "title": "코스피 대반등 오늘부터 시작? #코스피 #하이닉스 #코어위브",
-     "publishedAt": "2026-10-16 15:25",
-     "url": "https://www.youtube.com/watch?v=TIwhuO72AFU"
-    },
-    {
      "title": "코스피 반등 시작하나?",
      "publishedAt": "2026-10-16 02:38",
      "url": "https://www.youtube.com/watch?v=6Qd_w8GyLp4"
     },
     {
-     "title": "코스피 6000도 깨버린 3가지 이유 #코스피 #코어위브 #앤트로픽",
-     "publishedAt": "2026-10-15 09:18",
-     "url": "https://www.youtube.com/watch?v=3RI0N4H66sY"
+     "title": "코스피가 무너진 근본적인 이유 (CXMT 아님)",
+     "publishedAt": "2026-10-14",
+     "url": "https://www.youtube.com/watch?v=hzomN7wiW_8"
+    },
+    {
+     "title": "또 메모리만 패는 증시",
+     "publishedAt": "2026-10-13",
+     "url": "https://www.youtube.com/watch?v=4Wt_PZqM5ZE"
     }
    ]
   },
@@ -168,6 +168,11 @@ window.DASH.youtube = {
    "channelId": "UCC3yfxS5qC6PCwDzetUuEWg",
    "handle": "@sosumonkey",
    "videos": [
+    {
+     "title": "AI 약한고리 결국 터진다? 극단적 공포 구간 진입/올 연말까진 기회, 내년이 진짜 위기?",
+     "publishedAt": "2026-10-18 21:49",
+     "url": "https://www.youtube.com/watch?v=A7B-vm2lGps"
+    },
     {
      "title": "금리 5.5%가 증시 충격 마지노선? 월가 초고수들의 경고, 대비해야 할까",
      "publishedAt": "2026-10-14 20:39",
@@ -184,14 +189,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=ILs31CN-_VA"
     },
     {
-     "title": "AI사이클 더 큰 한 방 남았다? 증시 의심의 벽 뚫고 올라갈까",
-     "publishedAt": "2026-10-09 18:36",
-     "url": "https://www.youtube.com/watch?v=Ob5TSrJbxbs"
-    },
-    {
-     "title": "올해 메모리 놓친 사람 주목? AI 반도체 다음 격전지가 될 투자처",
-     "publishedAt": "2026-10-08 19:17",
-     "url": "https://www.youtube.com/watch?v=MjEc_J9gYko"
+     "title": "지금은 2003년? AI인프라 다음 노려라?/스페이스X 통신까지 진출, 본격 랠리 시작?/이때는 증시도 위험? 월가 초고수의 경고",
+     "publishedAt": "2026-10-12",
+     "url": "https://www.youtube.com/watch?v=b414IoVg0To"
     }
    ]
   }
