@@ -2,6 +2,22 @@
  "trend": [
   {
    "itemCode": "005930",
+   "bizdate": "20261008",
+   "foreignerPureBuyQuant": "-1,307,041",
+   "foreignerHoldRatio": "46.35%",
+   "organPureBuyQuant": "-4,087,636",
+   "individualPureBuyQuant": "+5,259,380",
+   "closePrice": "263,000",
+   "compareToPreviousClosePrice": "-5,500",
+   "compareToPreviousPrice": {
+    "code": "5",
+    "text": "하락",
+    "name": "FALLING"
+   },
+   "accumulatedTradingVolume": "21,259,056"
+  },
+  {
+   "itemCode": "005930",
    "bizdate": "20261007",
    "foreignerPureBuyQuant": "-118,283",
    "foreignerHoldRatio": "46.38%",
@@ -47,22 +63,6 @@
     "name": "UNCHANGED"
    },
    "accumulatedTradingVolume": "11,501,250"
-  },
-  {
-   "itemCode": "005930",
-   "bizdate": "20261001",
-   "foreignerPureBuyQuant": "-758,236",
-   "foreignerHoldRatio": "46.41%",
-   "organPureBuyQuant": "+46,127",
-   "individualPureBuyQuant": "-1,292,880",
-   "closePrice": "274,500",
-   "compareToPreviousClosePrice": "6,000",
-   "compareToPreviousPrice": {
-    "code": "2",
-    "text": "상승",
-    "name": "RISING"
-   },
-   "accumulatedTradingVolume": "13,741,073"
   }
  ],
  "minute": [
@@ -123,7 +123,7 @@
    {
     "code": "highPrice",
     "key": "고가",
-    "value": "223,000",
+    "value": "224,000",
     "compareToPreviousPrice": {
      "code": "2",
      "text": "상승",
@@ -135,6 +135,22 @@
   "description": null,
   "etfKeyIndicator": null,
   "dealTrendInfos": [
+   {
+    "itemCode": "005930",
+    "bizdate": "20261019",
+    "foreignerPureBuyQuant": "+1,241,581",
+    "foreignerHoldRatio": "46.01%",
+    "organPureBuyQuant": "-42,900",
+    "individualPureBuyQuant": "-880,224",
+    "closePrice": "223,500",
+    "compareToPreviousClosePrice": "8,000",
+    "compareToPreviousPrice": {
+     "code": "2",
+     "text": "상승",
+     "name": "RISING"
+    },
+    "accumulatedTradingVolume": "17,077,532"
+   },
    {
     "itemCode": "005930",
     "bizdate": "20261016",
@@ -166,22 +182,6 @@
      "name": "FALLING"
     },
     "accumulatedTradingVolume": "34,330,565"
-   },
-   {
-    "itemCode": "005930",
-    "bizdate": "20261014",
-    "foreignerPureBuyQuant": "-829,758",
-    "foreignerHoldRatio": "46.16%",
-    "organPureBuyQuant": "+310,050",
-    "individualPureBuyQuant": "+505,494",
-    "closePrice": "234,500",
-    "compareToPreviousClosePrice": "2,500",
-    "compareToPreviousPrice": {
-     "code": "2",
-     "text": "상승",
-     "name": "RISING"
-    },
-    "accumulatedTradingVolume": "19,009,052"
    }
   ],
   "researches": [
@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "DS투자증권",
     "tit": "사상 최초 DRAM 분기 매출 100조원 상회",
-    "rcnt": "31771",
+    "rcnt": "32005",
     "wdt": "20261012"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "하나증권",
     "tit": "강한 DRAM 가격. LPDDR 공급 부족 심화",
-    "rcnt": "18493",
+    "rcnt": "18615",
     "wdt": "20261012"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "유진투자증권",
     "tit": "눈높이를 높이는 구간",
-    "rcnt": "15248",
+    "rcnt": "15350",
     "wdt": "20261012"
    }
   ],
@@ -222,17 +222,17 @@
     "reutersCode": "000660",
     "stockName": "SK하이닉스",
     "sosok": "0",
-    "closePrice": "1,295,000",
-    "compareToPreviousClosePrice": "23,000",
+    "closePrice": "1,304,000",
+    "compareToPreviousClosePrice": "32,000",
     "compareToPreviousPrice": {
      "code": "2",
      "text": "상승",
      "name": "RISING"
     },
-    "fluctuationsRatio": "1.81",
+    "fluctuationsRatio": "2.52",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "945,987,612",
+    "marketValue": "952,562,043",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
@@ -260,17 +260,17 @@
     "reutersCode": "402340",
     "stockName": "SK스퀘어",
     "sosok": "0",
-    "closePrice": "795,000",
-    "compareToPreviousClosePrice": "11,000",
+    "closePrice": "802,000",
+    "compareToPreviousClosePrice": "18,000",
     "compareToPreviousPrice": {
      "code": "2",
      "text": "상승",
      "name": "RISING"
     },
-    "fluctuationsRatio": "1.40",
+    "fluctuationsRatio": "2.30",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "104,879,578",
+    "marketValue": "105,803,046",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
@@ -298,17 +298,17 @@
     "reutersCode": "042700",
     "stockName": "한미반도체",
     "sosok": "0",
-    "closePrice": "216,000",
-    "compareToPreviousClosePrice": "6,000",
+    "closePrice": "216,500",
+    "compareToPreviousClosePrice": "6,500",
     "compareToPreviousPrice": {
      "code": "2",
      "text": "상승",
      "name": "RISING"
     },
-    "fluctuationsRatio": "2.86",
+    "fluctuationsRatio": "3.10",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "20,587,435",
+    "marketValue": "20,635,091",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
