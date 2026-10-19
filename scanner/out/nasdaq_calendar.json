@@ -594,7 +594,7 @@
   "kind": "econ",
   "consensus": "1.300M",
   "actual": "",
-  "previous": "-2.6%"
+  "previous": "1.275M"
  },
  {
   "date": "2026-10-21",
@@ -635,7 +635,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$6.67",
+  "epsForecast": "$6.54",
   "eps": "",
   "surprise": ""
  },
@@ -657,7 +657,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$0.21",
+  "epsForecast": "$0.22",
   "eps": "",
   "surprise": ""
  },
@@ -975,10 +975,21 @@
  {
   "date": "2026-10-30",
   "time": "",
+  "title": "아마존 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "장마감 후(한국 다음 날 새벽)",
+  "epsForecast": "$2.01",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-10-30",
+  "time": "",
   "title": "엑슨모빌 실적 발표",
   "level": "earnings",
   "kind": "earnings",
-  "note": "",
+  "note": "장 시작 전",
   "epsForecast": "$3.92",
   "eps": "",
   "surprise": ""
@@ -1134,7 +1145,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$1.99",
+  "epsForecast": "$2",
   "eps": "",
   "surprise": ""
  },
@@ -1176,7 +1187,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$1.66",
+  "epsForecast": "$1.67",
   "eps": "",
   "surprise": ""
  },
@@ -1396,7 +1407,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "",
-  "epsForecast": "$2.48",
+  "epsForecast": "$2.49",
   "eps": "",
   "surprise": ""
  },
