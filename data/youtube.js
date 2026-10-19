@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-19 21:47",
+ "asOf": "2026-10-19 23:43",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "2차전지 다음 역대급 상승장 올 수 있다는, '차세대 배터리' 정체",
+     "publishedAt": "2026-10-19 22:30",
+     "url": "https://www.youtube.com/watch?v=fuakdFOmECw"
+    },
+    {
      "title": "10월 19일 미국장 열리기 전 꼭 알아야 하는 '미장 시황' 투자 포인트",
      "publishedAt": "2026-10-19 21:11",
      "url": "https://www.youtube.com/watch?v=5NAb0kmo98U"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "삼전닉스 대항마?.. 정작 주가 -32% 폭락중인 창신메모리 근황",
      "publishedAt": "2026-10-19 18:30",
      "url": "https://www.youtube.com/watch?v=aVPBMeWKUJw"
-    },
-    {
-     "title": "하이닉스 100만 원도 깨질까?!",
-     "publishedAt": "2026-10-19 18:00",
-     "url": "https://www.youtube.com/watch?v=IX7YpYL2g5c"
     }
    ]
   },
