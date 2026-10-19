@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-19 13:40",
+ "asOf": "2026-10-19 15:50",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“7월 폭락장과 너무 닮았다!” 메타 실적 발표 전후 증시 대반전 올까? / 삼성전자·SK하이닉스 공포가 과도한 이유   | 이권희 대표",
+     "publishedAt": "2026-10-19 14:50",
+     "url": "https://www.youtube.com/watch?v=vzoLkHo0xkw"
+    },
     {
      "title": "“지금 싸다고 덥석 사지 마세요!” 코스피 극단적 공포 구간… 진짜 바닥 확인할 결정적 신호  | 이주연 대표",
      "publishedAt": "2026-10-19 11:04",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“솔리다임 상장이 SK하이닉스에 독이 되나?” 외국인은 하닉 팔고 삼성전자 사들이나… 삼전 주가 어디까지 갈까?ㅣ이지환 대표",
      "publishedAt": "2026-10-18 17:00",
      "url": "https://www.youtube.com/watch?v=TT1koVS5fOo"
-    },
-    {
-     "title": "“AI 부채 폭탄보다 더 무서운 게 터진다?” 헤지펀드 연쇄 청산 공포… 삼성전자·SK하이닉스 급락의 진짜 이유 ㅣ 이주연 대표",
-     "publishedAt": "2026-10-18 12:00",
-     "url": "https://www.youtube.com/watch?v=_v8rV9CnW5Q"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(상승 가능종목) 실적과 이익이 나는 소프트종목은 눈여겨보자!!!",
+     "publishedAt": "2026-10-19 14:50",
+     "url": "https://www.youtube.com/watch?v=6GAu97XsTb4"
+    },
     {
      "title": "(주간시황) 신용으로 꺽이는 장이기에 현금과 이익이 나는 종목은 던지지 말자!!!",
      "publishedAt": "2026-10-18 19:49",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 지금하락의 원인은 신용인데 신용이 해결되어야만 장이간다.",
      "publishedAt": "2026-10-17 05:33",
      "url": "https://www.youtube.com/watch?v=kEncCsE1sEA"
-    },
-    {
-     "title": "(아이온큐) 반등이유는?  (구독자요청) 실스큐:LAES",
-     "publishedAt": "2026-10-16 14:41",
-     "url": "https://www.youtube.com/watch?v=uGScCmmeDQ0"
     }
    ]
   },
