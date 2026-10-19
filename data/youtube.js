@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-20 05:38",
+ "asOf": "2026-10-20 07:36",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[10월 20일 #장시작전] 미국 반도체 드디어 반등! 8거래일 만에 상승 전환 / SK하이닉스 ADR 4.67% 급등, 오늘 코스피도?",
+     "publishedAt": "2026-10-20 06:12",
+     "url": "https://www.youtube.com/watch?v=jvODfkdzjYw"
+    },
     {
      "title": "[#찐시황]  “외국인 7,500억 매수에 코스피 반등!” 하지만 아직 안심할 때 아니다… 내일 꼭 확인해야 할 ‘이 신호’  ㅣ이권희 대표",
      "publishedAt": "2026-10-19 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“삼성전자·SK하닉 지금 던지면 헤지펀드만 웃는다?” AI 반도체 숏 베팅 뒤집힐 결정적 신호… 반격 언제 시작되나? | 노근창 대표",
      "publishedAt": "2026-10-19 17:00",
      "url": "https://www.youtube.com/watch?v=NUiMyWpRYCA"
-    },
-    {
-     "title": "[#긴급시황] “코스피 드디어 돌아섰다!”  폭락장 공포를 뒤집은 반등의 진짜 이유 / AI 반도체 공포 이제 끝났나? l  박근형 부장",
-     "publishedAt": "2026-10-19 16:00",
-     "url": "https://www.youtube.com/watch?v=VZNOx1FMOfo"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) 전강후약으로 아직 매수강도가 크지 않다!!!",
+     "publishedAt": "2026-10-20 06:13",
+     "url": "https://www.youtube.com/watch?v=_UVdEsutD0o"
+    },
     {
      "title": "(상승 가능종목) 실적과 이익이 나는 소프트종목은 눈여겨보자!!!",
      "publishedAt": "2026-10-19 14:40",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(관심종목) 반도체 빠질때 담아야 할 섹터와 종목은?",
      "publishedAt": "2026-10-17 19:30",
      "url": "https://www.youtube.com/watch?v=M1mfa9uyM8U"
-    },
-    {
-     "title": "(시황분석) 지금하락의 원인은 신용인데 신용이 해결되어야만 장이간다.",
-     "publishedAt": "2026-10-17 05:33",
-     "url": "https://www.youtube.com/watch?v=kEncCsE1sEA"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 20일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-10-20 07:09",
+     "url": "https://www.youtube.com/watch?v=5BK0zpU1Tjg"
+    },
+    {
      "title": "2차전지 다음 역대급 상승장 올 수 있다는, '차세대 배터리' 정체",
      "publishedAt": "2026-10-19 22:30",
      "url": "https://www.youtube.com/watch?v=fuakdFOmECw"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "10월 19일 외국인이 한국인 몰래 매수한 종목 정체",
      "publishedAt": "2026-10-19 20:20",
      "url": "https://www.youtube.com/watch?v=dc593erWm2k"
-    },
-    {
-     "title": "삼전닉스 대항마?.. 정작 주가 -32% 폭락중인 창신메모리 근황",
-     "publishedAt": "2026-10-19 18:30",
-     "url": "https://www.youtube.com/watch?v=aVPBMeWKUJw"
     }
    ]
   },
