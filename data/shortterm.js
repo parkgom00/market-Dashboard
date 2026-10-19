@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-19 17:44",
+ "asOf": "2026-10-19 18:37",
  "window": "15:20~15:40",
- "status": "전 종목 2418개 중 후보 186개 점검 (기준 일봉 2026-10-16)",
+ "status": "전 종목 2420개 중 후보 167개 점검 (기준 일봉 2026-10-16)",
  "types": [
   {
    "id": "A",
@@ -23,30 +23,14 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "복합기업",
        "after": {
-        "price": 1087000.0,
-        "pct": 6.15
+        "price": 1079000.0,
+        "pct": 5.37
        },
-       "marcap": 176027,
+       "marcap": 174731,
        "prevClose": 1024000.0,
        "changePct": 4.59,
-       "value": 996,
+       "value": 1004,
        "note": "고가 마감권(고가 대비 0.28% 아래) · 막판 20분 거래량 비중 24% · 수급 자료 확인 전"
-      },
-      {
-       "code": "000810",
-       "name": "삼성화재",
-       "close": 607000.0,
-       "market": "KOSPI",
-       "sector": "손해보험",
-       "after": {
-        "price": 603000.0,
-        "pct": 2.9
-       },
-       "marcap": 269224,
-       "prevClose": 586000.0,
-       "changePct": 3.58,
-       "value": 390,
-       "note": "고가 마감권(고가 대비 0.49% 아래) · 막판 20분 거래량 비중 23% · 수급 자료 확인 전"
       },
       {
        "code": "071050",
@@ -55,29 +39,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "증권",
        "after": {
-        "price": 157000.0,
-        "pct": 3.43
+        "price": 155700.0,
+        "pct": 2.57
        },
-       "marcap": 87490,
+       "marcap": 86765,
        "prevClose": 151800.0,
        "changePct": 3.56,
-       "value": 211,
-       "note": "고가 마감권(고가 대비 0.00% 아래) · 막판 20분 거래량 비중 20% · 수급 자료 확인 전"
-      },
-      {
-       "code": "009540",
-       "name": "HD한국조선해양",
-       "close": 271500.0,
-       "market": "KOSPI",
-       "sector": "조선",
-       "after": {
-        "price": 271000.0,
-        "pct": 2.26
-       },
-       "marcap": 191795,
-       "prevClose": 265000.0,
-       "changePct": 2.45,
-       "value": 408,
+       "value": 212,
        "note": "고가 마감권(고가 대비 0.00% 아래) · 막판 20분 거래량 비중 20% · 수급 자료 확인 전"
       },
       {
@@ -87,14 +55,46 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "우주항공과국방",
        "after": {
-        "price": 100300.0,
-        "pct": 3.51
+        "price": 99800.0,
+        "pct": 2.99
        },
-       "marcap": 109470,
+       "marcap": 108924,
        "prevClose": 96900.0,
        "changePct": 3.92,
-       "value": 650,
+       "value": 653,
        "note": "고가 마감권(고가 대비 0.30% 아래) · 막판 20분 거래량 비중 16% · 수급 자료 확인 전"
+      },
+      {
+       "code": "006800",
+       "name": "미래에셋증권",
+       "close": 26350.0,
+       "market": "KOSPI",
+       "sector": "증권",
+       "after": {
+        "price": 26350.0,
+        "pct": 2.73
+       },
+       "marcap": 143086,
+       "prevClose": 25650.0,
+       "changePct": 2.73,
+       "value": 195,
+       "note": "고가 마감권(고가 대비 0.19% 아래) · 막판 20분 거래량 비중 15% · 수급 자료 확인 전"
+      },
+      {
+       "code": "005490",
+       "name": "POSCO홀딩스",
+       "close": 314500.0,
+       "market": "KOSPI",
+       "sector": "철강",
+       "after": {
+        "price": 309500.0,
+        "pct": 4.38
+       },
+       "marcap": 245253,
+       "prevClose": 296500.0,
+       "changePct": 6.07,
+       "value": 931,
+       "note": "고가 마감권(고가 대비 0.16% 아래) · 막판 20분 거래량 비중 15% · 수급 자료 확인 전"
       }
      ]
     },
@@ -110,13 +110,13 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "건강관리장비와용품",
        "after": {
-        "price": 44000.0,
-        "pct": 0.92
+        "price": 43750.0,
+        "pct": 0.34
        },
-       "marcap": 11112,
+       "marcap": 11049,
        "prevClose": 43600.0,
        "changePct": 0.92,
-       "value": 209,
+       "value": 210,
        "note": "전일 +31.9% 급등 · 오늘 거래량 전일의 44% · 도지(몸통 13%) · 10일선 37,450 / 20일선 33,858 위 마감"
       },
       {
@@ -126,14 +126,14 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "기계",
        "after": {
-        "price": 16980.0,
-        "pct": 0.65
+        "price": 17030.0,
+        "pct": 0.95
        },
-       "marcap": 3268,
+       "marcap": 3278,
        "prevClose": 16870.0,
        "changePct": 0.83,
-       "value": 596,
-       "note": "전일 +12.6% 급등 · 오늘 거래량 전일의 43% · 도지(몸통 23%) · 10일선 14,779 / 20일선 14,108 위 마감"
+       "value": 601,
+       "note": "전일 +12.6% 급등 · 오늘 거래량 전일의 44% · 도지(몸통 23%) · 10일선 14,779 / 20일선 14,108 위 마감"
       }
      ]
     },
@@ -461,8 +461,8 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2418,
-  "candidates": 186,
+  "quotes": 2420,
+  "candidates": 167,
   "bars": 150,
   "naverBars": 150,
   "kisBars": 0,
@@ -470,13 +470,13 @@ window.DASH.shortterm = {
    "후보": 147,
    "분봉지연": 0,
    "사유": {
-    "등락률·거래대금 미달": 19,
-    "막판 거래량 비중 부족": 51,
-    "고가에서 멂": 59,
-    "ok(수급 자료 없음)": 18
+    "등락률·거래대금 미달": 10,
+    "막판 거래량 비중 부족": 57,
+    "고가에서 멂": 63,
+    "ok(수급 자료 없음)": 17
    },
    "수급자료": 0,
-   "막판비중_중앙값": 0.057,
+   "막판비중_중앙값": 0.054,
    "막판비중_최대": 0.24
   }
  },
