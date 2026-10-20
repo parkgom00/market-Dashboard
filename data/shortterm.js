@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-20 15:17",
+ "asOf": "2026-10-20 15:20",
  "window": "15:20~15:40",
- "status": "전 종목 2419개 중 후보 33개 점검 (기준 일봉 2026-10-19)",
+ "status": "전 종목 2409개 중 후보 33개 점검 (기준 일봉 2026-10-19)",
  "types": [
   {
    "id": "A",
@@ -39,15 +39,15 @@ window.DASH.shortterm = {
       {
        "code": "005870",
        "name": "휴니드",
-       "close": 4710.0,
+       "close": 4700.0,
        "market": "KOSPI",
        "sector": "우주항공과국방",
        "after": null,
-       "marcap": 665,
+       "marcap": 663,
        "prevClose": 4835.0,
-       "changePct": -2.59,
-       "value": 57,
-       "note": "전일 +16.3% 급등 · 오늘 거래량 전일의 42% · 도지(몸통 18%) · 10일선 4,320 / 20일선 4,390 위 마감"
+       "changePct": -2.79,
+       "value": 58,
+       "note": "전일 +16.3% 급등 · 오늘 거래량 전일의 42% · 도지(몸통 20%) · 10일선 4,319 / 20일선 4,389 위 마감"
       }
      ]
     },
@@ -303,7 +303,7 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2419,
+  "quotes": 2409,
   "candidates": 33,
   "bars": 33,
   "naverBars": 0,
@@ -317,7 +317,7 @@ window.DASH.shortterm = {
     "막판 거래량 비중 부족": 1
    },
    "수급자료": 28,
-   "막판비중_중앙값": 0.031,
+   "막판비중_중앙값": 0.029,
    "막판비중_최대": 0.255
   },
   "kis": {
