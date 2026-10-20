@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-20 19:34",
+ "asOf": "2026-10-20 21:04",
  "window": "15:20~15:40",
- "status": "전 종목 2420개 중 후보 33개 점검 (기준 일봉 2026-10-19)",
+ "status": "전 종목 2420개 중 후보 31개 점검 (기준 일봉 2026-10-19)",
  "types": [
   {
    "id": "A",
@@ -29,14 +29,14 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "우주항공과국방",
        "after": {
-        "price": 4630.0,
-        "pct": -4.24
+        "price": 4685.0,
+        "pct": -3.1
        },
-       "marcap": 654,
+       "marcap": 661,
        "prevClose": 4835.0,
        "changePct": -2.79,
        "value": 60,
-       "note": "전일 +16.3% 급등 · 오늘 거래량 전일의 43% · 도지(몸통 20%) · 10일선 4,319 / 20일선 4,389 위 마감"
+       "note": "전일 +16.3% 급등 · 오늘 거래량 전일의 44% · 도지(몸통 20%) · 10일선 4,319 / 20일선 4,389 위 마감"
       }
      ]
     },
@@ -274,24 +274,24 @@ window.DASH.shortterm = {
  ],
  "diag": {
   "quotes": 2420,
-  "candidates": 33,
-  "bars": 33,
-  "naverBars": 33,
+  "candidates": 31,
+  "bars": 31,
+  "naverBars": 31,
   "kisBars": 0,
   "a1": {
-   "후보": 28,
+   "후보": 26,
    "분봉지연": 0,
    "사유": {
-    "고가에서 멂": 25,
+    "고가에서 멂": 23,
     "등락률·거래대금 미달": 1,
     "막판 거래량 비중 부족": 2
    },
-   "수급자료": 0,
-   "막판비중_중앙값": 0.021,
+   "수급자료": 26,
+   "막판비중_중앙값": 0.019,
    "막판비중_최대": 0.097
   }
  },
- "flowConfirmed": false,
- "flowKind": "",
- "phase": "장 마감 후 · 정규장 종가 기준 · 수급 자료는 아직 공개 전"
+ "flowConfirmed": true,
+ "flowKind": "확정",
+ "phase": "장 마감 후 · 정규장 종가 기준 · 외국인·기관 수급 반영"
 };
