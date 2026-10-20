@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-20 07:36",
+ "asOf": "2026-10-20 09:49",
  "channels": [
   {
    "name": "815머니톡",
@@ -88,9 +88,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=t6Vw2rGohjc"
     },
     {
-     "title": "[실전 투자 스터디] 지금 경제 좋은 거 아닌가요?",
-     "publishedAt": "2026-10-16 17:00",
-     "url": "https://www.youtube.com/watch?v=ddXdwor9k0Y"
+     "title": "[특집] AI 인프라에서 뜨는 전력과 광학, 국내 핵심 수혜주는?",
+     "publishedAt": "2026-10-14",
+     "url": "https://www.youtube.com/watch?v=bzDBLehWGVI"
     },
     {
      "title": "[긴급 편성] 반도체 폭락 이유? 체크할 반등 트리거는?",
@@ -104,6 +104,11 @@ window.DASH.youtube = {
    "channelId": "UC7usMJDHmtbs_oegmzQKKMA",
    "handle": "@경제사냥꾼",
    "videos": [
+    {
+     "title": "10월 20일 오늘 코스피 어떻게 흘러갈까!?",
+     "publishedAt": "2026-10-20 08:11",
+     "url": "https://www.youtube.com/watch?v=4JYx-F0sx5s"
+    },
     {
      "title": "10월 20일 투자자들이 꼭 알아야 하는 투자 포인트",
      "publishedAt": "2026-10-20 07:09",
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "주식은 하락장에 구매해야 하는 이유",
      "publishedAt": "2026-10-19 21:00",
      "url": "https://www.youtube.com/watch?v=-RE4CcDxPBg"
-    },
-    {
-     "title": "10월 19일 외국인이 한국인 몰래 매수한 종목 정체",
-     "publishedAt": "2026-10-19 20:20",
-     "url": "https://www.youtube.com/watch?v=dc593erWm2k"
     }
    ]
   },
@@ -152,14 +152,14 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=CviFrBH_K2M"
     },
     {
-     "title": "코스피 대반등 오늘부터 시작? #코스피 #하이닉스 #코어위브",
-     "publishedAt": "2026-10-16 15:25",
-     "url": "https://www.youtube.com/watch?v=TIwhuO72AFU"
-    },
-    {
      "title": "코스피 반등 시작하나?",
      "publishedAt": "2026-10-16 02:38",
      "url": "https://www.youtube.com/watch?v=6Qd_w8GyLp4"
+    },
+    {
+     "title": "코스피가 무너진 근본적인 이유 (CXMT 아님)",
+     "publishedAt": "2026-10-14",
+     "url": "https://www.youtube.com/watch?v=hzomN7wiW_8"
     }
    ]
   },
@@ -172,6 +172,11 @@ window.DASH.youtube = {
      "title": "AI인프라 약한 고리 결국 터진다? 극단적 공포 진입, 이번에도 기회일까",
      "publishedAt": "2026-10-19 20:01",
      "url": "https://www.youtube.com/watch?v=quJTDt4JGpU"
+    },
+    {
+     "title": "AI 약한고리 결국 터진다? 극단적 공포 구간 진입/올 연말까진 기회, 내년이 진짜 위기?",
+     "publishedAt": "2026-10-19",
+     "url": "https://www.youtube.com/watch?v=A7B-vm2lGps"
     },
     {
      "title": "금리 5.5%가 증시 충격 마지노선? 월가 초고수들의 경고, 대비해야 할까",
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "AI투자 판도 조용히 바뀌는 중? 부진했던 빅테크, 팔란티어의 수상한 신고가",
      "publishedAt": "2026-10-12 21:12",
      "url": "https://www.youtube.com/watch?v=ILs31CN-_VA"
-    },
-    {
-     "title": "AI사이클 더 큰 한 방 남았다? 증시 의심의 벽 뚫고 올라갈까",
-     "publishedAt": "2026-10-09 18:36",
-     "url": "https://www.youtube.com/watch?v=Ob5TSrJbxbs"
     }
    ]
   }
