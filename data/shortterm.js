@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-20 18:33",
+ "asOf": "2026-10-20 19:34",
  "window": "15:20~15:40",
- "status": "전 종목 2420개 중 후보 35개 점검 (기준 일봉 2026-10-19)",
+ "status": "전 종목 2420개 중 후보 33개 점검 (기준 일봉 2026-10-19)",
  "types": [
   {
    "id": "A",
@@ -29,10 +29,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "우주항공과국방",
        "after": {
-        "price": 4645.0,
-        "pct": -3.93
+        "price": 4630.0,
+        "pct": -4.24
        },
-       "marcap": 656,
+       "marcap": 654,
        "prevClose": 4835.0,
        "changePct": -2.79,
        "value": 60,
@@ -274,16 +274,16 @@ window.DASH.shortterm = {
  ],
  "diag": {
   "quotes": 2420,
-  "candidates": 35,
-  "bars": 35,
-  "naverBars": 35,
+  "candidates": 33,
+  "bars": 33,
+  "naverBars": 33,
   "kisBars": 0,
   "a1": {
-   "후보": 30,
+   "후보": 28,
    "분봉지연": 0,
    "사유": {
-    "고가에서 멂": 26,
-    "등락률·거래대금 미달": 2,
+    "고가에서 멂": 25,
+    "등락률·거래대금 미달": 1,
     "막판 거래량 비중 부족": 2
    },
    "수급자료": 0,
