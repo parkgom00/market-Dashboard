@@ -7,20 +7,20 @@
    "reutersCode": "005930",
    "stockName": "삼성전자",
    "sosok": "0",
-   "closePrice": "209,500",
-   "compareToPreviousClosePrice": "-8,500",
+   "closePrice": "210,250",
+   "compareToPreviousClosePrice": "-7,750",
    "compareToPreviousPrice": {
     "code": "5",
     "text": "하락",
     "name": "FALLING"
    },
-   "fluctuationsRatio": "-3.90",
-   "accumulatedTradingVolume": "9,186,485",
-   "accumulatedTradingValue": "1,964,697",
-   "accumulatedTradingValueKrwHangeul": "1조 9,647억원",
-   "localTradedAt": "2026-10-20T13:29:20+09:00",
-   "marketValue": "12,247,954",
-   "marketValueHangeul": "1,224조 7,954억원",
+   "fluctuationsRatio": "-3.56",
+   "accumulatedTradingVolume": "10,555,798",
+   "accumulatedTradingValue": "2,252,005",
+   "accumulatedTradingValueKrwHangeul": "2조 2,520억원",
+   "localTradedAt": "2026-10-20T14:03:21+09:00",
+   "marketValue": "12,291,801",
+   "marketValueHangeul": "1,229조 1,801억원",
    "nav": "N/A",
    "threeMonthEarningRate": "N/A",
    "marketStatus": "OPEN",
@@ -52,31 +52,31 @@
    "overMarketPriceInfo": {
     "tradingSessionType": "REGULAR_MARKET",
     "overMarketStatus": "OPEN",
-    "overPrice": "209,500",
+    "overPrice": "210,500",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "compareToPreviousClosePrice": "-8,500",
-    "fluctuationsRatio": "-3.90",
-    "localTradedAt": "2026-10-20T13:30:01.928+09:00",
+    "compareToPreviousClosePrice": "-7,500",
+    "fluctuationsRatio": "-3.44",
+    "localTradedAt": "2026-10-20T14:03:25.148+09:00",
     "tradeStopType": {
      "code": "1",
      "text": "운영.Trading",
      "name": "TRADING"
     },
-    "overPriceRaw": "209500",
-    "compareToPreviousClosePriceRaw": "-8500"
+    "overPriceRaw": "210500",
+    "compareToPreviousClosePriceRaw": "-7500"
    },
    "stockMiniImageChart": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/005930_interest.png",
    "itemLogoUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/stock/Stock005930.svg",
    "itemLogoPngUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock005930.png",
-   "closePriceRaw": "209500",
-   "compareToPreviousClosePriceRaw": "-8500",
-   "accumulatedTradingVolumeRaw": "9186485",
-   "accumulatedTradingValueRaw": "1964697000000",
-   "marketValueRaw": "1224795368376000"
+   "closePriceRaw": "210250",
+   "compareToPreviousClosePriceRaw": "-7750",
+   "accumulatedTradingVolumeRaw": "10555798",
+   "accumulatedTradingValueRaw": "2252005000000",
+   "marketValueRaw": "1229180077332000"
   },
   {
    "stockType": "domestic",
@@ -93,10 +93,10 @@
     "name": "FALLING"
    },
    "fluctuationsRatio": "-5.09",
-   "accumulatedTradingVolume": "2,365,744",
-   "accumulatedTradingValue": "2,896,416",
-   "accumulatedTradingValueKrwHangeul": "2조 8,964억원",
-   "localTradedAt": "2026-10-20T13:30:00+09:00",
+   "accumulatedTradingVolume": "2,524,378",
+   "accumulatedTradingValue": "3,089,028",
+   "accumulatedTradingValueKrwHangeul": "3조 890억원",
+   "localTradedAt": "2026-10-20T14:03:22+09:00",
    "marketValue": "8,853,567",
    "marketValueHangeul": "885조 3,567억원",
    "nav": "N/A",
@@ -130,30 +130,30 @@
    "overMarketPriceInfo": {
     "tradingSessionType": "REGULAR_MARKET",
     "overMarketStatus": "OPEN",
-    "overPrice": "1,209,000",
+    "overPrice": "1,213,000",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "compareToPreviousClosePrice": "-68,000",
-    "fluctuationsRatio": "-5.32",
-    "localTradedAt": "2026-10-20T13:30:01.928+09:00",
+    "compareToPreviousClosePrice": "-64,000",
+    "fluctuationsRatio": "-5.01",
+    "localTradedAt": "2026-10-20T14:03:25.148+09:00",
     "tradeStopType": {
      "code": "1",
      "text": "운영.Trading",
      "name": "TRADING"
     },
-    "overPriceRaw": "1209000",
-    "compareToPreviousClosePriceRaw": "-68000"
+    "overPriceRaw": "1213000",
+    "compareToPreviousClosePriceRaw": "-64000"
    },
    "stockMiniImageChart": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/000660_interest.png",
    "itemLogoUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/stock/Stock000660.svg",
    "itemLogoPngUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock000660.png",
    "closePriceRaw": "1212000",
    "compareToPreviousClosePriceRaw": "-65000",
-   "accumulatedTradingVolumeRaw": "2365744",
-   "accumulatedTradingValueRaw": "2896416000000",
+   "accumulatedTradingVolumeRaw": "2524378",
+   "accumulatedTradingValueRaw": "3089028000000",
    "marketValueRaw": "885356746380000"
   },
   {
@@ -171,10 +171,10 @@
     "name": "FALLING"
    },
    "fluctuationsRatio": "-3.34",
-   "accumulatedTradingVolume": "2,003,327",
-   "accumulatedTradingValue": "337,019",
-   "accumulatedTradingValueKrwHangeul": "3,370억원",
-   "localTradedAt": "2026-10-20T13:29:20+09:00",
+   "accumulatedTradingVolume": "2,227,095",
+   "accumulatedTradingValue": "373,969",
+   "accumulatedTradingValueKrwHangeul": "3,740억원",
+   "localTradedAt": "2026-10-20T14:03:20+09:00",
    "marketValue": "1,325,517",
    "marketValueHangeul": "132조 5,517억원",
    "nav": "N/A",
@@ -210,8 +210,8 @@
    "itemLogoPngUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock005935.png",
    "closePriceRaw": "165200",
    "compareToPreviousClosePriceRaw": "-5700",
-   "accumulatedTradingVolumeRaw": "2003327",
-   "accumulatedTradingValueRaw": "337019000000",
+   "accumulatedTradingVolumeRaw": "2227095",
+   "accumulatedTradingValueRaw": "373969000000",
    "marketValueRaw": "132551722735600"
   }
  ],
@@ -223,20 +223,20 @@
    "reutersCode": "196170",
    "stockName": "알테오젠",
    "sosok": "1",
-   "closePrice": "231,500",
-   "compareToPreviousClosePrice": "-7,500",
+   "closePrice": "231,000",
+   "compareToPreviousClosePrice": "-8,000",
    "compareToPreviousPrice": {
     "code": "5",
     "text": "하락",
     "name": "FALLING"
    },
-   "fluctuationsRatio": "-3.14",
-   "accumulatedTradingVolume": "142,600",
-   "accumulatedTradingValue": "33,069",
-   "accumulatedTradingValueKrwHangeul": "331억원",
-   "localTradedAt": "2026-10-20T13:30:18+09:00",
-   "marketValue": "161,252",
-   "marketValueHangeul": "16조 1,252억원",
+   "fluctuationsRatio": "-3.35",
+   "accumulatedTradingVolume": "152,757",
+   "accumulatedTradingValue": "35,417",
+   "accumulatedTradingValueKrwHangeul": "354억원",
+   "localTradedAt": "2026-10-20T14:03:17+09:00",
+   "marketValue": "160,903",
+   "marketValueHangeul": "16조 903억원",
    "nav": "N/A",
    "threeMonthEarningRate": "N/A",
    "marketStatus": "OPEN",
@@ -268,31 +268,31 @@
    "overMarketPriceInfo": {
     "tradingSessionType": "REGULAR_MARKET",
     "overMarketStatus": "OPEN",
-    "overPrice": "231,500",
+    "overPrice": "231,000",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "compareToPreviousClosePrice": "-7,500",
-    "fluctuationsRatio": "-3.14",
-    "localTradedAt": "2026-10-20T13:30:35.91+09:00",
+    "compareToPreviousClosePrice": "-8,000",
+    "fluctuationsRatio": "-3.35",
+    "localTradedAt": "2026-10-20T14:03:54.352+09:00",
     "tradeStopType": {
      "code": "1",
      "text": "운영.Trading",
      "name": "TRADING"
     },
-    "overPriceRaw": "231500",
-    "compareToPreviousClosePriceRaw": "-7500"
+    "overPriceRaw": "231000",
+    "compareToPreviousClosePriceRaw": "-8000"
    },
    "stockMiniImageChart": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/196170_interest.png",
    "itemLogoUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/stock/Stock196170.svg",
    "itemLogoPngUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock196170.png",
-   "closePriceRaw": "231500",
-   "compareToPreviousClosePriceRaw": "-7500",
-   "accumulatedTradingVolumeRaw": "142600",
-   "accumulatedTradingValueRaw": "33069000000",
-   "marketValueRaw": "16125163289500"
+   "closePriceRaw": "231000",
+   "compareToPreviousClosePriceRaw": "-8000",
+   "accumulatedTradingVolumeRaw": "152757",
+   "accumulatedTradingValueRaw": "35417000000",
+   "marketValueRaw": "16090335723000"
   },
   {
    "stockType": "domestic",
@@ -301,20 +301,20 @@
    "reutersCode": "086520",
    "stockName": "에코프로",
    "sosok": "1",
-   "closePrice": "84,100",
-   "compareToPreviousClosePrice": "-6,300",
+   "closePrice": "83,900",
+   "compareToPreviousClosePrice": "-6,500",
    "compareToPreviousPrice": {
     "code": "5",
     "text": "하락",
     "name": "FALLING"
    },
-   "fluctuationsRatio": "-6.97",
-   "accumulatedTradingVolume": "654,619",
-   "accumulatedTradingValue": "56,398",
-   "accumulatedTradingValueKrwHangeul": "564억원",
-   "localTradedAt": "2026-10-20T13:30:20+09:00",
-   "marketValue": "114,188",
-   "marketValueHangeul": "11조 4,188억원",
+   "fluctuationsRatio": "-7.19",
+   "accumulatedTradingVolume": "699,724",
+   "accumulatedTradingValue": "60,186",
+   "accumulatedTradingValueKrwHangeul": "602억원",
+   "localTradedAt": "2026-10-20T14:03:20+09:00",
+   "marketValue": "113,916",
+   "marketValueHangeul": "11조 3,916억원",
    "nav": "N/A",
    "threeMonthEarningRate": "N/A",
    "marketStatus": "OPEN",
@@ -346,31 +346,31 @@
    "overMarketPriceInfo": {
     "tradingSessionType": "REGULAR_MARKET",
     "overMarketStatus": "OPEN",
-    "overPrice": "84,100",
+    "overPrice": "83,900",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "compareToPreviousClosePrice": "-6,300",
-    "fluctuationsRatio": "-6.97",
-    "localTradedAt": "2026-10-20T13:30:35.91+09:00",
+    "compareToPreviousClosePrice": "-6,500",
+    "fluctuationsRatio": "-7.19",
+    "localTradedAt": "2026-10-20T14:03:54.352+09:00",
     "tradeStopType": {
      "code": "1",
      "text": "운영.Trading",
      "name": "TRADING"
     },
-    "overPriceRaw": "84100",
-    "compareToPreviousClosePriceRaw": "-6300"
+    "overPriceRaw": "83900",
+    "compareToPreviousClosePriceRaw": "-6500"
    },
    "stockMiniImageChart": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/086520_interest.png",
    "itemLogoUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/stock/Stock086520.svg",
    "itemLogoPngUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock086520.png",
-   "closePriceRaw": "84100",
-   "compareToPreviousClosePriceRaw": "-6300",
-   "accumulatedTradingVolumeRaw": "654619",
-   "accumulatedTradingValueRaw": "56398000000",
-   "marketValueRaw": "11418774383200"
+   "closePriceRaw": "83900",
+   "compareToPreviousClosePriceRaw": "-6500",
+   "accumulatedTradingVolumeRaw": "699724",
+   "accumulatedTradingValueRaw": "60186000000",
+   "marketValueRaw": "11391619152800"
   },
   {
    "stockType": "domestic",
@@ -379,20 +379,20 @@
    "reutersCode": "247540",
    "stockName": "에코프로비엠",
    "sosok": "1",
-   "closePrice": "106,400",
-   "compareToPreviousClosePrice": "-9,400",
+   "closePrice": "105,900",
+   "compareToPreviousClosePrice": "-9,900",
    "compareToPreviousPrice": {
     "code": "5",
     "text": "하락",
     "name": "FALLING"
    },
-   "fluctuationsRatio": "-8.12",
-   "accumulatedTradingVolume": "335,686",
-   "accumulatedTradingValue": "36,610",
-   "accumulatedTradingValueKrwHangeul": "366억원",
-   "localTradedAt": "2026-10-20T13:30:20+09:00",
-   "marketValue": "104,092",
-   "marketValueHangeul": "10조 4,092억원",
+   "fluctuationsRatio": "-8.55",
+   "accumulatedTradingVolume": "360,420",
+   "accumulatedTradingValue": "39,236",
+   "accumulatedTradingValueKrwHangeul": "392억원",
+   "localTradedAt": "2026-10-20T14:03:20+09:00",
+   "marketValue": "103,602",
+   "marketValueHangeul": "10조 3,602억원",
    "nav": "N/A",
    "threeMonthEarningRate": "N/A",
    "marketStatus": "OPEN",
@@ -424,31 +424,31 @@
    "overMarketPriceInfo": {
     "tradingSessionType": "REGULAR_MARKET",
     "overMarketStatus": "OPEN",
-    "overPrice": "106,500",
+    "overPrice": "105,800",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "compareToPreviousClosePrice": "-9,300",
-    "fluctuationsRatio": "-8.03",
-    "localTradedAt": "2026-10-20T13:30:35.91+09:00",
+    "compareToPreviousClosePrice": "-10,000",
+    "fluctuationsRatio": "-8.64",
+    "localTradedAt": "2026-10-20T14:03:54.352+09:00",
     "tradeStopType": {
      "code": "1",
      "text": "운영.Trading",
      "name": "TRADING"
     },
-    "overPriceRaw": "106500",
-    "compareToPreviousClosePriceRaw": "-9300"
+    "overPriceRaw": "105800",
+    "compareToPreviousClosePriceRaw": "-10000"
    },
    "stockMiniImageChart": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/247540_interest.png",
    "itemLogoUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/stock/Stock247540.svg",
    "itemLogoPngUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock247540.png",
-   "closePriceRaw": "106400",
-   "compareToPreviousClosePriceRaw": "-9400",
-   "accumulatedTradingVolumeRaw": "335686",
-   "accumulatedTradingValueRaw": "36610000000",
-   "marketValueRaw": "10409158177600"
+   "closePriceRaw": "105900",
+   "compareToPreviousClosePriceRaw": "-9900",
+   "accumulatedTradingVolumeRaw": "360420",
+   "accumulatedTradingValueRaw": "39236000000",
+   "marketValueRaw": "10360242960600"
   }
  ]
 }
