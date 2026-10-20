@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-20 13:37",
+ "asOf": "2026-10-20 15:44",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급시황] “코스피 또 무너졌다!” 지금 저가 매수하면 위험한 이유 / 진짜 바닥 확인할 결정적 신호는 ‘이것’ㅣ 박근형 부장",
+     "publishedAt": "2026-10-20 15:30",
+     "url": "https://www.youtube.com/watch?v=8xcN_i6wiDI"
+    },
+    {
+     "title": "[#긴급시황] 코스피 쌍바닥 찍을까? 아니면 추가 폭락장? / 금융위기급 외인 매도, 언제 매수로 돌아서나ㅣ 한지영 연구위원",
+     "publishedAt": "2026-10-20 14:44",
+     "url": "https://www.youtube.com/watch?v=wLK6xqk6QjU"
+    },
     {
      "title": "유가·환율·금리까지 요동친다… 불안한 한국 증시에서 삼성전자 로봇 수혜주가 뜨는 이유 | 이권희 대표",
      "publishedAt": "2026-10-20 13:00",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "[10월 20일 #장시작전] 실적·환율 다 버티는데 밀리는 시장외국인·기관 동시 매도, 왜",
      "publishedAt": "2026-10-20 06:12",
      "url": "https://www.youtube.com/watch?v=jvODfkdzjYw"
-    },
-    {
-     "title": "[#찐시황]  “외국인 7,500억 매수에 코스피 반등!” 하지만 아직 안심할 때 아니다… 내일 꼭 확인해야 할 ‘이 신호’  ㅣ이권희 대표",
-     "publishedAt": "2026-10-19 20:00",
-     "url": "https://www.youtube.com/watch?v=ze2AY2vMBVE"
-    },
-    {
-     "title": "[#긴급시황] 대형주 상승 추세가 깨졌다… 이제 하락장을 인정할 때? / 삼성전자·SK하이닉스 반등의 마지막 희망은 ‘이것’ ㅣ황유현 팀장",
-     "publishedAt": "2026-10-19 19:00",
-     "url": "https://www.youtube.com/watch?v=i5H-IjPquog"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(반도체) 신규 매수는 신중히 하자!!!",
+     "publishedAt": "2026-10-20 15:15",
+     "url": "https://www.youtube.com/watch?v=V6mS10sN944"
+    },
     {
      "title": "(시황분석) 전강후약으로 아직 매수강도가 크지 않다!!!",
      "publishedAt": "2026-10-20 06:13",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(반도체) 지금은 레버리지 하기에는 보상대비 위험이 더크다!!!",
      "publishedAt": "2026-10-18 08:25",
      "url": "https://www.youtube.com/watch?v=T3MYdIT_kUw"
-    },
-    {
-     "title": "(관심종목) 반도체 빠질때 담아야 할 섹터와 종목은?",
-     "publishedAt": "2026-10-17 19:30",
-     "url": "https://www.youtube.com/watch?v=M1mfa9uyM8U"
     }
    ]
   },
