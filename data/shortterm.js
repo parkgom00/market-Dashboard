@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-20 15:46",
+ "asOf": "2026-10-20 15:49",
  "window": "15:20~15:40",
  "status": "전 종목 2420개 중 후보 37개 점검 (기준 일봉 2026-10-19)",
  "types": [
@@ -28,7 +28,10 @@ window.DASH.shortterm = {
        "close": 4700.0,
        "market": "KOSPI",
        "sector": "우주항공과국방",
-       "after": null,
+       "after": {
+        "price": 4700.0,
+        "pct": -2.79
+       },
        "marcap": 663,
        "prevClose": 4835.0,
        "changePct": -2.79,
@@ -292,8 +295,8 @@ window.DASH.shortterm = {
   "quotes": 2420,
   "candidates": 37,
   "bars": 37,
-  "naverBars": 0,
-  "kisBars": 37,
+  "naverBars": 37,
+  "kisBars": 0,
   "a1": {
    "후보": 32,
    "분봉지연": 0,
@@ -301,17 +304,12 @@ window.DASH.shortterm = {
     "고가에서 멂": 30,
     "막판 거래량 비중 부족": 2
    },
-   "수급자료": 32,
-   "막판비중_중앙값": 0.015,
-   "막판비중_최대": 0.094
-  },
-  "kis": {
-   "calls": 106,
-   "ok": 106,
-   "err": {}
+   "수급자료": 0,
+   "막판비중_중앙값": 0.021,
+   "막판비중_최대": 0.097
   }
  },
  "flowConfirmed": false,
- "flowKind": "장중 추정",
- "phase": "장중 · 외국인·기관 장중 추정 가집계(한국투자) 반영 · 확정 수급은 마감 후 다시 반영"
+ "flowKind": "",
+ "phase": "장 마감 후 · 정규장 종가 기준 · 수급 자료는 아직 공개 전"
 };
