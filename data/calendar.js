@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-20 21:27",
+ "generatedAt": "2026-10-21 03:28",
  "events": [
   {
    "date": "2026-01-01",
@@ -467,7 +467,12 @@ window.DASH.calendar = {
    "date": "2026-11-10",
    "type": "econ",
    "market": "US",
-   "title": "미국 소비자물가지수(CPI) 발표 · 10월분 (한국시간 저녁)"
+   "title": "미국 소비자물가지수(CPI) 발표 · 10월분 (한국시간 저녁)",
+   "time": "22:30",
+   "result": [
+    "미국 CPI: 이전 0.59%",
+    "미국 근원 CPI: 이전 338.90"
+   ]
   },
   {
    "date": "2026-11-25",
@@ -1551,7 +1556,7 @@ window.DASH.calendar = {
    "title": "미국 건축허가",
    "time": "21:30",
    "result": [
-    "예상 1.390M · 이전 -2.1%"
+    "실제 -0.2% · 예상 -1.3% · 이전 -2.1%"
    ]
   },
   {
@@ -1561,7 +1566,7 @@ window.DASH.calendar = {
    "title": "미국 주택착공",
    "time": "21:30",
    "result": [
-    "예상 1.300M · 이전 1.275M"
+    "실제 1.221M · 예상 1.300M · 이전 1.288M"
    ]
   },
   {
