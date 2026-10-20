@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-20 19:37",
+ "asOf": "2026-10-20 21:47",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황] “정말 더러운 장이다!” 반등 기대하던 투자자 두 번 죽인 한국 증시… 이성의 끈마저 놓게 만든 증시 폭락 | 박현상 이사",
+     "publishedAt": "2026-10-20 20:00",
+     "url": "https://www.youtube.com/watch?v=bfKrpBXeUac"
+    },
     {
      "title": "“AI 버블 붕괴 공포에 삼성전자·SK하이닉스 급락!” 그런데 빅테크는 HBM을 비싸도 살 수밖에 없는 이유 ㅣ이화진 차장",
      "publishedAt": "2026-10-20 19:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#글로벌인사이트]  SK하이닉스, 삼성전자 폭락, 2018년 악몽 다시 오나? / 이번에는 다르다는 증거 3가지 / 2차전지 반등의 진짜 이유  | 노근창 대표",
      "publishedAt": "2026-10-20 16:30",
      "url": "https://www.youtube.com/watch?v=R3snJQfZACo"
-    },
-    {
-     "title": "[#긴급시황] “코스피 또 무너졌다!” 지금 저가 매수하면 위험한 이유 / 진짜 바닥 확인할 결정적 신호는 ‘이것’ㅣ 박근형 부장",
-     "publishedAt": "2026-10-20 15:30",
-     "url": "https://www.youtube.com/watch?v=8xcN_i6wiDI"
     }
    ]
   },
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "프랑스 정부 몰락과 폭력 시위, 남 얘기가 아닌 이유",
+     "publishedAt": "2026-10-20 21:30",
+     "url": "https://www.youtube.com/watch?v=ST8_0kMgOf0"
+    },
+    {
+     "title": "삼성전자가 하이닉스보다 먼저 살아날 수 있다는 이유",
+     "publishedAt": "2026-10-20 20:20",
+     "url": "https://www.youtube.com/watch?v=fConph_PrIo"
+    },
+    {
      "title": "'반도체 가격'을 보면, 주가 상승과 하락이 보이는 이유",
      "publishedAt": "2026-10-20 19:33",
      "url": "https://www.youtube.com/watch?v=7KwNgF6f-YQ"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "10월 20일 미국장 열리기 전 꼭 알아야 하는 '미장 시황' 투자 포인트",
      "publishedAt": "2026-10-20 16:59",
      "url": "https://www.youtube.com/watch?v=URArKOWUiIo"
-    },
-    {
-     "title": "주식 전문가들이 현시점, 효성중공업이 저평가 됐다는 이유",
-     "publishedAt": "2026-10-20 15:00",
-     "url": "https://www.youtube.com/watch?v=cv1EBdtASbU"
-    },
-    {
-     "title": "10월 20일 우리가 꼭 알고 있어야 할, 저평가 'AI 냉각' 소형주",
-     "publishedAt": "2026-10-20 13:50",
-     "url": "https://www.youtube.com/watch?v=1siuvZPTl74"
     }
    ]
   },
