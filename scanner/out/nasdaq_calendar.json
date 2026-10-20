@@ -795,6 +795,16 @@
  },
  {
   "date": "2026-10-27",
+  "time": "21:00",
+  "title": "미국 건축허가",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "-2.1%"
+ },
+ {
+  "date": "2026-10-27",
   "time": "21:30",
   "title": "미국 내구재 주문",
   "level": "macro",
@@ -971,6 +981,16 @@
   "consensus": "",
   "actual": "",
   "previous": "4.00%"
+ },
+ {
+  "date": "2026-10-29",
+  "time": "03:30",
+  "title": "FOMC 기자회견",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": ""
  },
  {
   "date": "2026-10-29",

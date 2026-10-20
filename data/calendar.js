@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-20 15:28",
+ "generatedAt": "2026-10-20 21:27",
  "events": [
   {
    "date": "2026-01-01",
@@ -1737,6 +1737,16 @@ window.DASH.calendar = {
    "date": "2026-10-27",
    "type": "econ",
    "market": "US",
+   "title": "미국 건축허가",
+   "time": "21:00",
+   "result": [
+    "이전 -2.1%"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "type": "econ",
+   "market": "US",
    "title": "미국 내구재 주문",
    "time": "21:30",
    "result": [
@@ -1871,6 +1881,14 @@ window.DASH.calendar = {
     "EPS 예상 $5.38",
     "장 시작 전"
    ]
+  },
+  {
+   "date": "2026-10-29",
+   "type": "econ",
+   "market": "US",
+   "title": "FOMC 기자회견",
+   "time": "03:30",
+   "major": true
   },
   {
    "date": "2026-10-30",
