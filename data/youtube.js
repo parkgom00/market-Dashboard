@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-20 09:49",
+ "asOf": "2026-10-20 11:36",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,7 +9,12 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
-     "title": "[10월 20일 #장시작전] 미국 반도체 드디어 반등! 8거래일 만에 상승 전환 / SK하이닉스 ADR 4.67% 급등, 오늘 코스피도?",
+     "title": "AI 부채 폭탄 터진다더니… 골드만삭스는 코어위브 사라? / 엔비디아·메타가 판 뒤집나  | 이주연 대표",
+     "publishedAt": "2026-10-20 11:11",
+     "url": "https://www.youtube.com/watch?v=aVCebOfGmXk"
+    },
+    {
+     "title": "[10월 20일 #장시작전] 실적·환율 다 버티는데 밀리는 시장외국인·기관 동시 매도, 왜",
      "publishedAt": "2026-10-20 06:12",
      "url": "https://www.youtube.com/watch?v=jvODfkdzjYw"
     },
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급인터뷰]  SK하이닉스,삼성전자  이번 주 운명 갈린다… 반도체 대반격 시작할 ‘단 하나의 신호 ㅣ김장열 센터장",
      "publishedAt": "2026-10-19 18:00",
      "url": "https://www.youtube.com/watch?v=z7cEcb6h6QA"
-    },
-    {
-     "title": "“삼성전자·SK하닉 지금 던지면 헤지펀드만 웃는다?” AI 반도체 숏 베팅 뒤집힐 결정적 신호… 반격 언제 시작되나? | 노근창 대표",
-     "publishedAt": "2026-10-19 17:00",
-     "url": "https://www.youtube.com/watch?v=NUiMyWpRYCA"
     }
    ]
   },
@@ -88,9 +88,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=t6Vw2rGohjc"
     },
     {
-     "title": "[특집] AI 인프라에서 뜨는 전력과 광학, 국내 핵심 수혜주는?",
-     "publishedAt": "2026-10-14",
-     "url": "https://www.youtube.com/watch?v=bzDBLehWGVI"
+     "title": "[실전 투자 스터디] 지금 경제 좋은 거 아닌가요?",
+     "publishedAt": "2026-10-16 17:00",
+     "url": "https://www.youtube.com/watch?v=ddXdwor9k0Y"
     },
     {
      "title": "[긴급 편성] 반도체 폭락 이유? 체크할 반등 트리거는?",
@@ -104,6 +104,11 @@ window.DASH.youtube = {
    "channelId": "UC7usMJDHmtbs_oegmzQKKMA",
    "handle": "@경제사냥꾼",
    "videos": [
+    {
+     "title": "트럼프가 중간선거에서 지면 삼전닉스는 위험할까?!",
+     "publishedAt": "2026-10-20 11:04",
+     "url": "https://www.youtube.com/watch?v=S60pMqXcJIs"
+    },
     {
      "title": "10월 20일 오늘 코스피 어떻게 흘러갈까!?",
      "publishedAt": "2026-10-20 08:11",
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "10월 19일 미국장 열리기 전 꼭 알아야 하는 '미장 시황' 투자 포인트",
      "publishedAt": "2026-10-19 21:11",
      "url": "https://www.youtube.com/watch?v=5NAb0kmo98U"
-    },
-    {
-     "title": "주식은 하락장에 구매해야 하는 이유",
-     "publishedAt": "2026-10-19 21:00",
-     "url": "https://www.youtube.com/watch?v=-RE4CcDxPBg"
     }
    ]
   },
@@ -152,14 +152,14 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=CviFrBH_K2M"
     },
     {
+     "title": "코스피 대반등 오늘부터 시작? #코스피 #하이닉스 #코어위브",
+     "publishedAt": "2026-10-16 15:25",
+     "url": "https://www.youtube.com/watch?v=TIwhuO72AFU"
+    },
+    {
      "title": "코스피 반등 시작하나?",
      "publishedAt": "2026-10-16 02:38",
      "url": "https://www.youtube.com/watch?v=6Qd_w8GyLp4"
-    },
-    {
-     "title": "코스피가 무너진 근본적인 이유 (CXMT 아님)",
-     "publishedAt": "2026-10-14",
-     "url": "https://www.youtube.com/watch?v=hzomN7wiW_8"
     }
    ]
   },
@@ -172,11 +172,6 @@ window.DASH.youtube = {
      "title": "AI인프라 약한 고리 결국 터진다? 극단적 공포 진입, 이번에도 기회일까",
      "publishedAt": "2026-10-19 20:01",
      "url": "https://www.youtube.com/watch?v=quJTDt4JGpU"
-    },
-    {
-     "title": "AI 약한고리 결국 터진다? 극단적 공포 구간 진입/올 연말까진 기회, 내년이 진짜 위기?",
-     "publishedAt": "2026-10-19",
-     "url": "https://www.youtube.com/watch?v=A7B-vm2lGps"
     },
     {
      "title": "금리 5.5%가 증시 충격 마지노선? 월가 초고수들의 경고, 대비해야 할까",
@@ -192,6 +187,11 @@ window.DASH.youtube = {
      "title": "AI투자 판도 조용히 바뀌는 중? 부진했던 빅테크, 팔란티어의 수상한 신고가",
      "publishedAt": "2026-10-12 21:12",
      "url": "https://www.youtube.com/watch?v=ILs31CN-_VA"
+    },
+    {
+     "title": "AI사이클 더 큰 한 방 남았다? 증시 의심의 벽 뚫고 올라갈까",
+     "publishedAt": "2026-10-09 18:36",
+     "url": "https://www.youtube.com/watch?v=Ob5TSrJbxbs"
     }
    ]
   }
