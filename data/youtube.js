@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-20 21:47",
+ "asOf": "2026-10-20 23:40",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "지금 '삼성일가'가, 폭락장에 '중앙일보' 인수전 뛰어든 이유",
+     "publishedAt": "2026-10-20 23:00",
+     "url": "https://www.youtube.com/watch?v=vQNxSKvZnSo"
+    },
+    {
+     "title": "10월 20일 외국인이 한국인 몰래 매수한 종목 정체",
+     "publishedAt": "2026-10-20 22:00",
+     "url": "https://www.youtube.com/watch?v=RNhBiqwRJf0"
+    },
+    {
      "title": "프랑스 정부 몰락과 폭력 시위, 남 얘기가 아닌 이유",
      "publishedAt": "2026-10-20 21:30",
      "url": "https://www.youtube.com/watch?v=ST8_0kMgOf0"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "'반도체 가격'을 보면, 주가 상승과 하락이 보이는 이유",
      "publishedAt": "2026-10-20 19:33",
      "url": "https://www.youtube.com/watch?v=7KwNgF6f-YQ"
-    },
-    {
-     "title": "폭락장, 더 이상 살 돈 없다면.. 지금 뭘 해야 할까?!",
-     "publishedAt": "2026-10-20 18:05",
-     "url": "https://www.youtube.com/watch?v=togHOCRSpjM"
-    },
-    {
-     "title": "10월 20일 미국장 열리기 전 꼭 알아야 하는 '미장 시황' 투자 포인트",
-     "publishedAt": "2026-10-20 16:59",
-     "url": "https://www.youtube.com/watch?v=URArKOWUiIo"
     }
    ]
   },
