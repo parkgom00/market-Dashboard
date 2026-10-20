@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-20 16:37",
+ "asOf": "2026-10-20 17:09",
  "window": "15:20~15:40",
- "status": "전 종목 2413개 중 후보 34개 점검 (기준 일봉 2026-10-19)",
+ "status": "전 종목 2420개 중 후보 32개 점검 (기준 일봉 2026-10-19)",
  "types": [
   {
    "id": "A",
@@ -29,10 +29,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "우주항공과국방",
        "after": {
-        "price": 4655.0,
-        "pct": -3.72
+        "price": 4650.0,
+        "pct": -3.83
        },
-       "marcap": 657,
+       "marcap": 656,
        "prevClose": 4835.0,
        "changePct": -2.79,
        "value": 59,
@@ -292,21 +292,21 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2413,
-  "candidates": 34,
-  "bars": 34,
-  "naverBars": 34,
+  "quotes": 2420,
+  "candidates": 32,
+  "bars": 32,
+  "naverBars": 32,
   "kisBars": 0,
   "a1": {
-   "후보": 29,
+   "후보": 27,
    "분봉지연": 0,
    "사유": {
-    "고가에서 멂": 26,
+    "고가에서 멂": 24,
     "막판 거래량 비중 부족": 2,
     "등락률·거래대금 미달": 1
    },
    "수급자료": 0,
-   "막판비중_중앙값": 0.026,
+   "막판비중_중앙값": 0.021,
    "막판비중_최대": 0.097
   }
  },

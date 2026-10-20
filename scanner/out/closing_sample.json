@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "DS투자증권",
     "tit": "사상 최초 DRAM 분기 매출 100조원 상회",
-    "rcnt": "34405",
+    "rcnt": "34480",
     "wdt": "20261012"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "하나증권",
     "tit": "강한 DRAM 가격. LPDDR 공급 부족 심화",
-    "rcnt": "19978",
+    "rcnt": "20017",
     "wdt": "20261012"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "유진투자증권",
     "tit": "눈높이를 높이는 구간",
-    "rcnt": "16497",
+    "rcnt": "16525",
     "wdt": "20261012"
    }
   ],
@@ -222,17 +222,17 @@
     "reutersCode": "000660",
     "stockName": "SK하이닉스",
     "sosok": "0",
-    "closePrice": "1,213,000",
-    "compareToPreviousClosePrice": "-64,000",
+    "closePrice": "1,205,000",
+    "compareToPreviousClosePrice": "-72,000",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "fluctuationsRatio": "-5.01",
+    "fluctuationsRatio": "-5.64",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "886,087,238",
+    "marketValue": "880,243,299",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
@@ -260,17 +260,17 @@
     "reutersCode": "402340",
     "stockName": "SK스퀘어",
     "sosok": "0",
-    "closePrice": "736,000",
-    "compareToPreviousClosePrice": "-44,000",
+    "closePrice": "732,000",
+    "compareToPreviousClosePrice": "-48,000",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "fluctuationsRatio": "-5.64",
+    "fluctuationsRatio": "-6.15",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "97,096,062",
+    "marketValue": "96,568,366",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
@@ -298,17 +298,17 @@
     "reutersCode": "042700",
     "stockName": "한미반도체",
     "sosok": "0",
-    "closePrice": "198,800",
-    "compareToPreviousClosePrice": "-13,200",
+    "closePrice": "198,600",
+    "compareToPreviousClosePrice": "-13,400",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "fluctuationsRatio": "-6.23",
+    "fluctuationsRatio": "-6.32",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "18,948,065",
+    "marketValue": "18,929,002",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
