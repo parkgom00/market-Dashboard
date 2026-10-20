@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-21 05:39",
+ "asOf": "2026-10-21 07:36",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[10월21일 #장시작전] “다우 1% 상승·스페이스X 깜짝 실적!” 뉴욕증시는 버티는데 한국증시만 왜 더 무너지나?",
+     "publishedAt": "2026-10-21 06:14",
+     "url": "https://www.youtube.com/watch?v=5ZHrjZm4alM"
+    },
     {
      "title": "[#찐시황] “정말 더러운 장이다!” 반등 기대하던 투자자 두 번 죽인 한국 증시… 이성의 끈마저 놓게 만든 증시 폭락 | 박현상 이사",
      "publishedAt": "2026-10-20 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] “한국증시만 왜 무너지나?” 금융위기급 주가 폭락… 진짜 원인은 딱 4가지ㅣ김민수 대표",
      "publishedAt": "2026-10-20 17:30",
      "url": "https://www.youtube.com/watch?v=WwBxo1w7SO4"
-    },
-    {
-     "title": "[#글로벌인사이트]  SK하이닉스, 삼성전자 폭락, 2018년 악몽 다시 오나? / 이번에는 다르다는 증거 3가지 / 2차전지 반등의 진짜 이유  | 노근창 대표",
-     "publishedAt": "2026-10-20 16:30",
-     "url": "https://www.youtube.com/watch?v=R3snJQfZACo"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) 실적을 기다리며 눈치보는 장세이다!!!",
+     "publishedAt": "2026-10-21 05:32",
+     "url": "https://www.youtube.com/watch?v=yiNf8AHjiks"
+    },
     {
      "title": "(반도체) 신규 매수는 신중히 하자!!!",
      "publishedAt": "2026-10-20 15:15",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(주간시황) 신용으로 꺽이는 장이기에 현금과 이익이 나는 종목은 던지지 말자!!!",
      "publishedAt": "2026-10-18 19:49",
      "url": "https://www.youtube.com/watch?v=dnHTo3-FbgE"
-    },
-    {
-     "title": "(반도체) 지금은 레버리지 하기에는 보상대비 위험이 더크다!!!",
-     "publishedAt": "2026-10-18 08:25",
-     "url": "https://www.youtube.com/watch?v=T3MYdIT_kUw"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 21일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-10-21 07:04",
+     "url": "https://www.youtube.com/watch?v=pLzzMemCNrk"
+    },
+    {
      "title": "지금 '삼성일가'가, 폭락장에 '중앙일보' 인수전 뛰어든 이유",
      "publishedAt": "2026-10-20 23:00",
      "url": "https://www.youtube.com/watch?v=vQNxSKvZnSo"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "삼성전자가 하이닉스보다 먼저 살아날 수 있다는 이유",
      "publishedAt": "2026-10-20 20:20",
      "url": "https://www.youtube.com/watch?v=fConph_PrIo"
-    },
-    {
-     "title": "'반도체 가격'을 보면, 주가 상승과 하락이 보이는 이유",
-     "publishedAt": "2026-10-20 19:33",
-     "url": "https://www.youtube.com/watch?v=7KwNgF6f-YQ"
     }
    ]
   },
