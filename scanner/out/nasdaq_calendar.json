@@ -618,6 +618,17 @@
  },
  {
   "date": "2026-10-20",
+  "time": "",
+  "title": "넷플릭스 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "",
+  "epsForecast": "$0.82",
+  "eps": "$0.87",
+  "surprise": "6.1"
+ },
+ {
+  "date": "2026-10-20",
   "time": "21:30",
   "title": "미국 건축허가",
   "level": "macro",
@@ -675,7 +686,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$6.54",
+  "epsForecast": "$4.98",
   "eps": "",
   "surprise": ""
  },
@@ -778,7 +789,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장 시작 전",
-  "epsForecast": "($0.17)",
+  "epsForecast": "($0.21)",
   "eps": "",
   "surprise": ""
  },
@@ -819,7 +830,7 @@
   "title": "미국 건축허가",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "-0.2%",
   "actual": "",
   "previous": "-2.1%"
  },
@@ -933,7 +944,18 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "-132.07B"
+  "previous": "-132.60B"
+ },
+ {
+  "date": "2026-10-29",
+  "time": "",
+  "title": "KLA 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "장마감 후(한국 다음 날 새벽)",
+  "epsForecast": "$1.18",
+  "eps": "",
+  "surprise": ""
  },
  {
   "date": "2026-10-29",
@@ -942,7 +964,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장 시작 전",
-  "epsForecast": "$5.13",
+  "epsForecast": "$5.14",
   "eps": "",
   "surprise": ""
  },
@@ -1080,7 +1102,17 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "0.2%"
+  "previous": "3.0%"
+ },
+ {
+  "date": "2026-10-29",
+  "time": "21:30",
+  "title": "미국 신규 실업수당 청구",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": ""
  },
  {
   "date": "2026-10-30",
@@ -1089,7 +1121,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$2.01",
+  "epsForecast": "$2.02",
   "eps": "",
   "surprise": ""
  },
@@ -1100,7 +1132,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장 시작 전",
-  "epsForecast": "$3.92",
+  "epsForecast": "$3.93",
   "eps": "",
   "surprise": ""
  },
@@ -1297,7 +1329,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$1.67",
+  "epsForecast": "$1.68",
   "eps": "",
   "surprise": ""
  },
@@ -1426,6 +1458,17 @@
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
   "epsForecast": "$0.22",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-11-05",
+  "time": "",
+  "title": "퀄컴 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "장마감 후(한국 다음 날 새벽)",
+  "epsForecast": "$1.46",
   "eps": "",
   "surprise": ""
  },
@@ -1588,7 +1631,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장 시작 전",
-  "epsForecast": "$0.63",
+  "epsForecast": "$0.64",
   "eps": "",
   "surprise": ""
  },

@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-21 15:29",
+ "generatedAt": "2026-10-21 21:29",
  "events": [
   {
    "date": "2026-01-01",
@@ -431,7 +431,7 @@ window.DASH.calendar = {
    "time": "21:30",
    "result": [
     "미국 PCE: 이전 3.4%",
-    "미국 근원 PCE: 이전 0.2%"
+    "미국 근원 PCE: 이전 3.0%"
    ]
   },
   {
@@ -1571,6 +1571,15 @@ window.DASH.calendar = {
   },
   {
    "date": "2026-10-20",
+   "type": "earnings",
+   "market": "US",
+   "title": "넷플릭스 실적 발표",
+   "result": [
+    "EPS 실제 $0.87 (예상 $0.82) · 서프라이즈 6.1%"
+   ]
+  },
+  {
+   "date": "2026-10-20",
    "type": "econ",
    "market": "US",
    "title": "미국 건축허가",
@@ -1587,16 +1596,6 @@ window.DASH.calendar = {
    "time": "21:30",
    "result": [
     "실제 -5.2% · 예상 1.9% · 이전 -5.9%"
-   ]
-  },
-  {
-   "date": "2026-10-21",
-   "type": "earnings",
-   "market": "US",
-   "title": "넷플릭스 실적 발표",
-   "result": [
-    "EPS 실제 $0.59 (예상 $0.82)",
-    "장마감 후(한국 다음 날 새벽)"
    ]
   },
   {
@@ -1625,7 +1624,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "메타 실적 발표",
    "result": [
-    "EPS 예상 $6.54",
+    "EPS 예상 $4.98",
     "장마감 후(한국 다음 날 새벽)"
    ]
   },
@@ -1725,7 +1724,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "보잉 실적 발표",
    "result": [
-    "EPS 예상 ($0.17)",
+    "EPS 예상 ($0.21)",
     "장 시작 전"
    ]
   },
@@ -1765,7 +1764,7 @@ window.DASH.calendar = {
    "title": "미국 건축허가",
    "time": "21:00",
    "result": [
-    "이전 -2.1%"
+    "예상 -0.2% · 이전 -2.1%"
    ]
   },
   {
@@ -1858,7 +1857,17 @@ window.DASH.calendar = {
    "title": "미국 무역수지",
    "time": "21:30",
    "result": [
-    "이전 -132.07B"
+    "이전 -132.60B"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "type": "earnings",
+   "market": "US",
+   "title": "KLA 실적 발표",
+   "result": [
+    "EPS 예상 $1.18",
+    "장마감 후(한국 다음 날 새벽)"
    ]
   },
   {
@@ -1867,7 +1876,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "마스터카드 실적 발표",
    "result": [
-    "EPS 예상 $5.13",
+    "EPS 예상 $5.14",
     "장 시작 전"
    ]
   },
@@ -1966,12 +1975,19 @@ window.DASH.calendar = {
    "major": true
   },
   {
+   "date": "2026-10-29",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 신규 실업수당 청구",
+   "time": "21:30"
+  },
+  {
    "date": "2026-10-30",
    "type": "earnings",
    "market": "US",
    "title": "엑슨모빌 실적 발표",
    "result": [
-    "EPS 예상 $3.92",
+    "EPS 예상 $3.93",
     "장 시작 전"
    ]
   },
@@ -2128,15 +2144,6 @@ window.DASH.calendar = {
    "title": "ARM 실적 발표",
    "result": [
     "EPS 예상 $0.22"
-   ]
-  },
-  {
-   "date": "2026-11-04",
-   "type": "earnings",
-   "market": "US",
-   "title": "KLA 실적 발표",
-   "result": [
-    "EPS 예상 $1.18"
    ]
   },
   {
@@ -2305,7 +2312,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "월마트 실적 발표",
    "result": [
-    "EPS 예상 $0.63",
+    "EPS 예상 $0.64",
     "장 시작 전"
    ]
   },
