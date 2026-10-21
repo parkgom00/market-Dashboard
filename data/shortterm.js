@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-21 15:45",
+ "asOf": "2026-10-21 15:50",
  "window": "15:20~15:40",
  "status": "전 종목 2422개 중 후보 148개 점검 (기준 일봉 2026-10-20)",
  "types": [
@@ -15,7 +15,56 @@ window.DASH.shortterm = {
      "id": "A1",
      "name": "장 마감 직전 대형수급 + 당일 고가 마감",
      "desc": "마감 직전 외국인·기관 순매수(거래대금의 3% 이상)가 몰리고, 고가 대비 0.5% 이내로 마감하는 종목",
-     "kr": []
+     "kr": [
+      {
+       "code": "006260",
+       "name": "LS",
+       "close": 231500.0,
+       "market": "KOSPI",
+       "sector": "전기장비",
+       "after": {
+        "price": 231500.0,
+        "pct": 5.47
+       },
+       "marcap": 72228,
+       "prevClose": 219500.0,
+       "changePct": 5.47,
+       "value": 312,
+       "note": "고가 마감권(고가 대비 0.22% 아래) · 막판 20분 거래량 비중 14% · 수급 자료 확인 전"
+      },
+      {
+       "code": "032830",
+       "name": "삼성생명",
+       "close": 245000.0,
+       "market": "KOSPI",
+       "sector": "생명보험",
+       "after": {
+        "price": 245000.0,
+        "pct": 3.38
+       },
+       "marcap": 490000,
+       "prevClose": 237000.0,
+       "changePct": 3.38,
+       "value": 506,
+       "note": "고가 마감권(고가 대비 0.20% 아래) · 막판 20분 거래량 비중 14% · 수급 자료 확인 전"
+      },
+      {
+       "code": "382800",
+       "name": "지앤비에스 에코",
+       "close": 6130.0,
+       "market": "KOSDAQ",
+       "sector": "반도체와반도체장비",
+       "after": {
+        "price": 6130.0,
+        "pct": 10.05
+       },
+       "marcap": 1951,
+       "prevClose": 5570.0,
+       "changePct": 10.05,
+       "value": 77,
+       "note": "고가 마감권(고가 대비 0.00% 아래) · 막판 20분 거래량 비중 12% · 수급 자료 확인 전"
+      }
+     ]
     },
     {
      "id": "A2",
@@ -34,7 +83,10 @@ window.DASH.shortterm = {
        "close": 10190.0,
        "market": "KOSPI",
        "sector": "자동차부품",
-       "after": null,
+       "after": {
+        "price": 10190.0,
+        "pct": 17.8
+       },
        "marcap": 5347,
        "prevClose": 8650.0,
        "changePct": 17.8,
@@ -285,28 +337,22 @@ window.DASH.shortterm = {
   "quotes": 2422,
   "candidates": 148,
   "bars": 148,
-  "naverBars": 0,
-  "kisBars": 148,
+  "naverBars": 148,
+  "kisBars": 0,
   "a1": {
    "후보": 147,
    "분봉지연": 0,
    "사유": {
     "고가에서 멂": 135,
-    "막판 거래량 비중 부족": 12
+    "ok(수급 자료 없음)": 3,
+    "막판 거래량 비중 부족": 9
    },
-   "수급자료": 147,
-   "막판비중_중앙값": 0.019,
-   "막판비중_최대": 0.084
-  },
-  "kis": {
-   "calls": 444,
-   "ok": 443,
-   "err": {
-    "FHKST01010100:EGW00201": 1
-   }
+   "수급자료": 0,
+   "막판비중_중앙값": 0.033,
+   "막판비중_최대": 0.178
   }
  },
  "flowConfirmed": false,
- "flowKind": "장중 추정",
- "phase": "장중 · 외국인·기관 장중 추정 가집계(한국투자) 반영 · 확정 수급은 마감 후 다시 반영"
+ "flowKind": "",
+ "phase": "장 마감 후 · 정규장 종가 기준 · 수급 자료는 아직 공개 전"
 };
