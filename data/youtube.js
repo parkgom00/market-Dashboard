@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-21 19:39",
+ "asOf": "2026-10-21 21:47",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황] “외국인 9,300억 폭풍 매수!” 삼성전자 4일 연속 순매수… 반도체 주도주 부활하나? / 내일 증시 판 바꿀 결정적 변수ㅣ오로라 투자자문 이지환 대표",
+     "publishedAt": "2026-10-21 20:00",
+     "url": "https://www.youtube.com/watch?v=akEJ_RecjWA"
+    },
     {
      "title": "[#긴급인터뷰]  “코스피 급반등, 진짜 바닥은 아직 아니다?” 삼성전자·SK하이닉스 다시 주도주 될까 / 코어위브 신용위험 아직 안 끝났다  | KB증권  유영화 차장",
      "publishedAt": "2026-10-21 19:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] “지금 반등에 덥석 사지 마세요!”  조금씩 현금 확보하고 ‘이 신호’ 나올 때 매수하세요  (주가상승) 이건희 대표",
      "publishedAt": "2026-10-21 15:30",
      "url": "https://www.youtube.com/watch?v=rUG_SjCM5Go"
-    },
-    {
-     "title": "[#글로벌인사이트]  AI 끝났다더니 코어위브 급등!  삼성전자·SK하이닉스 실적은 거짓말 안 한다 / 램리서치가 중요한 이유ㅣ세미콘리서치 랩 노근창 대표",
-     "publishedAt": "2026-10-21 14:30",
-     "url": "https://www.youtube.com/watch?v=EwIuHwwAxlg"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "스페이스X가 로켓보다 AI 사업에 더 많은 돈을 쓰는 이유",
+     "publishedAt": "2026-10-21 20:02",
+     "url": "https://www.youtube.com/watch?v=mKbboQXLmQ0"
+    },
+    {
      "title": "10월 21일 외국인이 한국인 몰래 매수한 종목 정체",
      "publishedAt": "2026-10-21 19:02",
      "url": "https://www.youtube.com/watch?v=ZEtSs7901nU"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "10월 21일 미국장 열리기 전 꼭 알아야 하는 '미장 시황' 투자 포인트",
      "publishedAt": "2026-10-21 14:08",
      "url": "https://www.youtube.com/watch?v=ZIAmv-svE70"
-    },
-    {
-     "title": "10월 21일 우리가 꼭 알고 있어야 할, 저평가 'AI 반도체' 소형주",
-     "publishedAt": "2026-10-21 13:00",
-     "url": "https://www.youtube.com/watch?v=8ootY32OxY0"
     }
    ]
   },
