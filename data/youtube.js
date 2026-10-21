@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-22 05:38",
+ "asOf": "2026-10-22 07:37",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[10월22일 #장시작전] 뉴욕증시 반등! 필반도체 1.97% 상승.. 메타 매출급증에 시간외 급등, 삼전·SK하닉 오늘도 상승?",
+     "publishedAt": "2026-10-22 06:12",
+     "url": "https://www.youtube.com/watch?v=M8qrv8Wl5do"
+    },
     {
      "title": "[#찐시황] “외국인 9,300억 폭풍 매수!” 삼성전자 4일 연속 순매수… 반도체 주도주 부활하나? / 내일 증시 판 바꿀 결정적 변수ㅣ오로라 투자자문 이지환 대표",
      "publishedAt": "2026-10-21 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“지금 1억 있다면 이 주식 삽니다!” 코스피 폭락 후 대반등… 진짜 큰 돈은 급락장에서 버는 이유ㅣ김민수 대표",
      "publishedAt": "2026-10-21 16:30",
      "url": "https://www.youtube.com/watch?v=VYYm8S5XFpU"
-    },
-    {
-     "title": "[#긴급시황] “지금 반등에 덥석 사지 마세요!”  조금씩 현금 확보하고 ‘이 신호’ 나올 때 매수하세요  (주가상승) 이건희 대표",
-     "publishedAt": "2026-10-21 15:30",
-     "url": "https://www.youtube.com/watch?v=rUG_SjCM5Go"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) 신용문제 보다는 기술병목에 집중하자!!!",
+     "publishedAt": "2026-10-22 05:26",
+     "url": "https://www.youtube.com/watch?v=P8w33I1uKiE"
+    },
     {
      "title": "(반도체) 매수와 매도세가 강하게 싸운다!!!",
      "publishedAt": "2026-10-21 14:33",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 전강후약으로 아직 매수강도가 크지 않다!!!",
      "publishedAt": "2026-10-20 06:13",
      "url": "https://www.youtube.com/watch?v=_UVdEsutD0o"
-    },
-    {
-     "title": "(상승 가능종목) 실적과 이익이 나는 소프트종목은 눈여겨보자!!!",
-     "publishedAt": "2026-10-19 14:40",
-     "url": "https://www.youtube.com/watch?v=6GAu97XsTb4"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 22일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-10-22 06:45",
+     "url": "https://www.youtube.com/watch?v=2NVBahZ9rGU"
+    },
+    {
      "title": "코스피 바닥에서 시작된 '실적 시즌' 투자 포인트는?",
      "publishedAt": "2026-10-21 22:30",
      "url": "https://www.youtube.com/watch?v=lhYvgDJUKNM"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "주가가 다시 오르기 시작할 때, 절대 놓치면 안 되는 것",
      "publishedAt": "2026-10-21 17:23",
      "url": "https://www.youtube.com/watch?v=f_EUpVZ2BSw"
-    },
-    {
-     "title": "월가에서 스페이스X 역대급 실적에도 아직 '저평가'라는 이유",
-     "publishedAt": "2026-10-21 15:52",
-     "url": "https://www.youtube.com/watch?v=e3WRUs1O8UM"
     }
    ]
   },
