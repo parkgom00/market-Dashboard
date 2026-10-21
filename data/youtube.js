@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-21 07:36",
+ "asOf": "2026-10-21 09:48",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,7 +9,7 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
-     "title": "[10월21일 #장시작전] “다우 1% 상승·스페이스X 깜짝 실적!” 뉴욕증시는 버티는데 한국증시만 왜 더 무너지나?",
+     "title": "[10월21일 #장시작전] 10월 수출 105.4% 급증·반도체 222% 폭발! / 코스피 5,700 돌파, 삼전·하닉 급등의 진짜 이유",
      "publishedAt": "2026-10-21 06:14",
      "url": "https://www.youtube.com/watch?v=5ZHrjZm4alM"
     },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 21일 오늘 코스피 어떻게 흘러갈까?!",
+     "publishedAt": "2026-10-21 08:03",
+     "url": "https://www.youtube.com/watch?v=uauaA1i2xgc"
+    },
+    {
      "title": "10월 21일 투자자들이 꼭 알아야 하는 투자 포인트",
      "publishedAt": "2026-10-21 07:04",
      "url": "https://www.youtube.com/watch?v=pLzzMemCNrk"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "프랑스 정부 몰락과 폭력 시위, 남 얘기가 아닌 이유",
      "publishedAt": "2026-10-20 21:30",
      "url": "https://www.youtube.com/watch?v=ST8_0kMgOf0"
-    },
-    {
-     "title": "삼성전자가 하이닉스보다 먼저 살아날 수 있다는 이유",
-     "publishedAt": "2026-10-20 20:20",
-     "url": "https://www.youtube.com/watch?v=fConph_PrIo"
     }
    ]
   },
