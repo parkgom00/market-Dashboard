@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-21 13:38",
+ "asOf": "2026-10-21 15:46",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급시황] “지금 반등에 덥석 사지 마세요!”  조금씩 현금 확보하고 ‘이 신호’ 나올 때 매수하세요  (주가상승) 이건희 대표",
+     "publishedAt": "2026-10-21 15:30",
+     "url": "https://www.youtube.com/watch?v=rUG_SjCM5Go"
+    },
+    {
+     "title": "[#글로벌인사이트]  AI 끝났다더니 코어위브 급등!  삼성전자·SK하이닉스 실적은 거짓말 안 한다 / 램리서치가 중요한 이유ㅣ세미콘리서치 랩 노근창 대표",
+     "publishedAt": "2026-10-21 14:46",
+     "url": "https://www.youtube.com/watch?v=EwIuHwwAxlg"
+    },
     {
      "title": "“욕까지 나왔던 어제의 급락장!” 외국인은 왜 삼성전자는 사고 SK하이닉스는 팔았나? / 반도체 주가 흐름 달라질까? ㅣ 이권희 대표",
      "publishedAt": "2026-10-21 13:00",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "코스피 드디어 바닥 찍었나? 반등장 어디까지 오를까? / 스페이스X 흑자 전환에 빅테크 투자 지속론 힘 받나ㅣ 이주연 대표",
      "publishedAt": "2026-10-21 10:37",
      "url": "https://www.youtube.com/watch?v=pEcF6UhXJZA"
-    },
-    {
-     "title": "[10월21일 #장시작전] 10월 수출 105.4% 급증·반도체 222% 폭발! / 코스피 5,700 돌파, 삼전·하닉 급등의 진짜 이유",
-     "publishedAt": "2026-10-21 06:14",
-     "url": "https://www.youtube.com/watch?v=5ZHrjZm4alM"
-    },
-    {
-     "title": "[#찐시황] “정말 더러운 장이다!” 반등 기대하던 투자자 두 번 죽인 한국 증시… 이성의 끈마저 놓게 만든 증시 폭락 | 박현상 이사",
-     "publishedAt": "2026-10-20 20:00",
-     "url": "https://www.youtube.com/watch?v=bfKrpBXeUac"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(반도체) 매수와 매도세가 강하게 싸운다!!!",
+     "publishedAt": "2026-10-21 14:46",
+     "url": "https://www.youtube.com/watch?v=cAjPgPS53Po"
+    },
     {
      "title": "(시황분석) 실적을 기다리며 눈치보는 장세이다!!!",
      "publishedAt": "2026-10-21 05:32",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(상승 가능종목) 실적과 이익이 나는 소프트종목은 눈여겨보자!!!",
      "publishedAt": "2026-10-19 14:40",
      "url": "https://www.youtube.com/watch?v=6GAu97XsTb4"
-    },
-    {
-     "title": "(주간시황) 신용으로 꺽이는 장이기에 현금과 이익이 나는 종목은 던지지 말자!!!",
-     "publishedAt": "2026-10-18 19:49",
-     "url": "https://www.youtube.com/watch?v=dnHTo3-FbgE"
     }
    ]
   },
@@ -179,11 +179,6 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=quJTDt4JGpU"
     },
     {
-     "title": "AI 약한고리 결국 터진다? 극단적 공포 구간 진입/올 연말까진 기회, 내년이 진짜 위기?",
-     "publishedAt": "2026-10-19",
-     "url": "https://www.youtube.com/watch?v=A7B-vm2lGps"
-    },
-    {
      "title": "금리 5.5%가 증시 충격 마지노선? 월가 초고수들의 경고, 대비해야 할까",
      "publishedAt": "2026-10-14 20:39",
      "url": "https://www.youtube.com/watch?v=PrEHp2DoRVU"
@@ -192,6 +187,11 @@ window.DASH.youtube = {
      "title": "스페이스X의 반격 시작? 머스크의 호언장담 현실 될까",
      "publishedAt": "2026-10-13 20:11",
      "url": "https://www.youtube.com/watch?v=_LOD9GYd1Qk"
+    },
+    {
+     "title": "AI투자 판도 조용히 바뀌는 중? 부진했던 빅테크, 팔란티어의 수상한 신고가",
+     "publishedAt": "2026-10-12 21:12",
+     "url": "https://www.youtube.com/watch?v=ILs31CN-_VA"
     }
    ]
   }
