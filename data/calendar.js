@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-21 09:24",
+ "generatedAt": "2026-10-21 15:29",
  "events": [
   {
    "date": "2026-01-01",
@@ -384,12 +384,6 @@ window.DASH.calendar = {
    "title": "삼성바이오로직스 실적 발표 (예정)"
   },
   {
-   "date": "2026-10-26",
-   "type": "earnings",
-   "market": "KR",
-   "title": "POSCO홀딩스 실적 발표 (예정)"
-  },
-  {
    "date": "2026-10-27",
    "type": "earnings",
    "market": "KR",
@@ -406,6 +400,12 @@ window.DASH.calendar = {
    "type": "earnings",
    "market": "KR",
    "title": "삼성전자 확정실적·컨퍼런스콜 (예정)"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "earnings",
+   "market": "KR",
+   "title": "한화에어로스페이스 실적 발표 (예정)"
   },
   {
    "date": "2026-10-29",
@@ -435,10 +435,10 @@ window.DASH.calendar = {
    ]
   },
   {
-   "date": "2026-10-30",
+   "date": "2026-11-02",
    "type": "earnings",
    "market": "KR",
-   "title": "한화에어로스페이스 실적 발표 (예정)"
+   "title": "POSCO홀딩스 실적 발표 (예정)"
   },
   {
    "date": "2026-11-03",
@@ -1495,6 +1495,16 @@ window.DASH.calendar = {
    "date": "2026-10-15",
    "type": "econ",
    "market": "US",
+   "title": "미국 수입물가",
+   "time": "21:30",
+   "result": [
+    "실제 8.1% · 예상 0.9% · 이전 7.0%"
+   ]
+  },
+  {
+   "date": "2026-10-15",
+   "type": "econ",
+   "market": "US",
    "title": "미국 신규 실업수당 청구",
    "time": "21:30",
    "result": [
@@ -1509,6 +1519,16 @@ window.DASH.calendar = {
    "time": "21:30",
    "result": [
     "실제 20.9 · 예상 28.2 · 이전 37.8"
+   ]
+  },
+  {
+   "date": "2026-10-15",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 산업생산",
+   "time": "22:15",
+   "result": [
+    "실제 2.25% · 예상 0.4% · 이전 1.62%"
    ]
   },
   {
@@ -1566,7 +1586,7 @@ window.DASH.calendar = {
    "title": "미국 주택착공",
    "time": "21:30",
    "result": [
-    "실제 1.221M · 예상 1.300M · 이전 1.288M"
+    "실제 -5.2% · 예상 1.9% · 이전 -5.9%"
    ]
   },
   {
@@ -1575,7 +1595,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "넷플릭스 실적 발표",
    "result": [
-    "EPS 예상 $0.82",
+    "EPS 실제 $0.59 (예상 $0.82)",
     "장마감 후(한국 다음 날 새벽)"
    ]
   },
@@ -2192,10 +2212,42 @@ window.DASH.calendar = {
    "date": "2026-11-05",
    "type": "econ",
    "market": "US",
+   "title": "미국 비농업 고용",
+   "time": "22:30",
+   "major": true,
+   "result": [
+    "이전 46K"
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "type": "econ",
+   "market": "US",
    "title": "미국 생산성",
    "time": "22:30",
    "result": [
     "이전 1.4%"
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 실업률",
+   "time": "22:30",
+   "major": true,
+   "result": [
+    "이전 4.2%"
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "type": "econ",
+   "market": "US",
+   "title": "미시간 소비심리",
+   "time": "00:00",
+   "result": [
+    "이전 48.1"
    ]
   },
   {
@@ -2216,6 +2268,16 @@ window.DASH.calendar = {
    "time": "10:30",
    "result": [
     "이전 0.2%"
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 실업률",
+   "time": "08:00",
+   "result": [
+    "이전 2.6%"
    ]
   },
   {

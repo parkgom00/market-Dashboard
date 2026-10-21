@@ -539,6 +539,16 @@
  {
   "date": "2026-10-15",
   "time": "21:30",
+  "title": "미국 수입물가",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "0.9%",
+  "actual": "8.1%",
+  "previous": "7.0%"
+ },
+ {
+  "date": "2026-10-15",
+  "time": "21:30",
   "title": "미국 신규 실업수당 청구",
   "level": "macro",
   "kind": "econ",
@@ -555,6 +565,16 @@
   "consensus": "28.2",
   "actual": "20.9",
   "previous": "37.8"
+ },
+ {
+  "date": "2026-10-15",
+  "time": "22:15",
+  "title": "미국 산업생산",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "0.4%",
+  "actual": "2.25%",
+  "previous": "1.62%"
  },
  {
   "date": "2026-10-16",
@@ -612,9 +632,9 @@
   "title": "미국 주택착공",
   "level": "macro",
   "kind": "econ",
-  "consensus": "1.300M",
-  "actual": "1.221M",
-  "previous": "1.288M"
+  "consensus": "1.9%",
+  "actual": "-5.2%",
+  "previous": "-5.9%"
  },
  {
   "date": "2026-10-21",
@@ -624,7 +644,7 @@
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
   "epsForecast": "$0.82",
-  "eps": "",
+  "eps": "$0.59",
   "surprise": ""
  },
  {
@@ -1432,12 +1452,42 @@
  {
   "date": "2026-11-05",
   "time": "22:30",
+  "title": "미국 비농업 고용",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "46K"
+ },
+ {
+  "date": "2026-11-05",
+  "time": "22:30",
   "title": "미국 생산성",
   "level": "macro",
   "kind": "econ",
   "consensus": "",
   "actual": "",
   "previous": "1.4%"
+ },
+ {
+  "date": "2026-11-05",
+  "time": "22:30",
+  "title": "미국 실업률",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "4.2%"
+ },
+ {
+  "date": "2026-11-06",
+  "time": "00:00",
+  "title": "미시간 소비심리",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "48.1"
  },
  {
   "date": "2026-11-06",
@@ -1498,6 +1548,16 @@
   "consensus": "",
   "actual": "",
   "previous": "338.90"
+ },
+ {
+  "date": "2026-11-11",
+  "time": "08:00",
+  "title": "한국 실업률",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "2.6%"
  },
  {
   "date": "2026-11-13",

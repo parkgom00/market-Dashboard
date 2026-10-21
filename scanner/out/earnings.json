@@ -132,6 +132,12 @@
   "title": "델 실적 발표 (예정)"
  },
  {
+  "date": "2026-10-21",
+  "type": "earnings",
+  "market": "US",
+  "title": "넷플릭스 실적 발표 (예정)"
+ },
+ {
   "date": "2026-12-03",
   "type": "earnings",
   "market": "US",
@@ -276,13 +282,13 @@
   "title": "삼성바이오로직스 실적 발표 (예정)"
  },
  {
-  "date": "2026-10-30",
+  "date": "2026-10-29",
   "type": "earnings",
   "market": "KR",
   "title": "한화에어로스페이스 실적 발표 (예정)"
  },
  {
-  "date": "2026-10-26",
+  "date": "2026-11-02",
   "type": "earnings",
   "market": "KR",
   "title": "POSCO홀딩스 실적 발표 (예정)"
