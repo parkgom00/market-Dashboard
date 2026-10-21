@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-21 21:29",
+ "generatedAt": "2026-10-22 03:26",
  "events": [
   {
    "date": "2026-01-01",
@@ -376,12 +376,6 @@ window.DASH.calendar = {
     "미국 CPI: 실제 0.59% · 예상 336.65 · 이전 0.32%",
     "미국 근원 CPI: 실제 338.90 · 예상 0.2% · 이전 337.77"
    ]
-  },
-  {
-   "date": "2026-10-21",
-   "type": "earnings",
-   "market": "KR",
-   "title": "삼성바이오로직스 실적 발표 (예정)"
   },
   {
    "date": "2026-10-27",
@@ -1655,7 +1649,7 @@ window.DASH.calendar = {
    "time": "10:00",
    "major": true,
    "result": [
-    "이전 3.00%"
+    "예상 3.00% · 이전 3.00%"
    ]
   },
   {
