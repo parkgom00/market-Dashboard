@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-21 15:09",
+ "asOf": "2026-10-21 15:14",
  "window": "15:20~15:40",
- "status": "전 종목 2419개 중 후보 137개 점검 (기준 일봉 2026-10-20)",
+ "status": "전 종목 2418개 중 후보 138개 점검 (기준 일봉 2026-10-20)",
  "types": [
   {
    "id": "A",
@@ -25,15 +25,15 @@ window.DASH.shortterm = {
       {
        "code": "030960",
        "name": "양지사",
-       "close": 6630.0,
+       "close": 6620.0,
        "market": "KOSDAQ",
        "sector": "상업서비스와공급품",
        "after": null,
-       "marcap": 1059,
+       "marcap": 1058,
        "prevClose": 6710.0,
-       "changePct": -1.19,
+       "changePct": -1.34,
        "value": 242,
-       "note": "전일 +19.3% 급등 · 오늘 거래량 전일의 39% · 도지(몸통 30%) · 10일선 5,460 / 20일선 5,127 위 마감"
+       "note": "전일 +19.3% 급등 · 오늘 거래량 전일의 39% · 도지(몸통 28%) · 10일선 5,458 / 20일선 5,126 위 마감"
       }
      ]
     },
@@ -282,29 +282,27 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2419,
-  "candidates": 137,
-  "bars": 137,
+  "quotes": 2418,
+  "candidates": 138,
+  "bars": 138,
   "naverBars": 0,
-  "kisBars": 137,
+  "kisBars": 138,
   "a1": {
-   "후보": 136,
+   "후보": 137,
    "분봉지연": 0,
    "사유": {
     "고가에서 멂": 128,
-    "막판 거래량 비중 부족": 6,
-    "외국인·기관 순매수 부족": 2
+    "막판 거래량 비중 부족": 8,
+    "외국인·기관 순매수 부족": 1
    },
-   "수급자료": 136,
+   "수급자료": 137,
    "막판비중_중앙값": 0.038,
-   "막판비중_최대": 0.357
+   "막판비중_최대": 0.339
   },
   "kis": {
-   "calls": 411,
-   "ok": 410,
-   "err": {
-    "HHPTJ04160200:RemoteDisconnected": 1
-   }
+   "calls": 413,
+   "ok": 413,
+   "err": {}
   }
  },
  "flowConfirmed": false,
