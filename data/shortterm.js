@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-21 15:32",
+ "asOf": "2026-10-21 15:36",
  "window": "15:20~15:40",
- "status": "전 종목 2413개 중 후보 148개 점검 (기준 일봉 2026-10-20)",
+ "status": "전 종목 2422개 중 후보 148개 점검 (기준 일봉 2026-10-20)",
  "types": [
   {
    "id": "A",
@@ -282,7 +282,7 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2413,
+  "quotes": 2422,
   "candidates": 148,
   "bars": 148,
   "naverBars": 0,
@@ -299,12 +299,9 @@ window.DASH.shortterm = {
    "막판비중_최대": 0.084
   },
   "kis": {
-   "calls": 445,
+   "calls": 443,
    "ok": 443,
-   "err": {
-    "FHKST03010200:EGW00201": 1,
-    "FHKST01010100:EGW00201": 1
-   }
+   "err": {}
   }
  },
  "flowConfirmed": false,
