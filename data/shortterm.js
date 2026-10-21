@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-21 15:50",
+ "asOf": "2026-10-21 16:39",
  "window": "15:20~15:40",
- "status": "전 종목 2422개 중 후보 148개 점검 (기준 일봉 2026-10-20)",
+ "status": "전 종목 2420개 중 후보 147개 점검 (기준 일봉 2026-10-20)",
  "types": [
   {
    "id": "A",
@@ -23,13 +23,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "전기장비",
        "after": {
-        "price": 231500.0,
-        "pct": 5.47
+        "price": 230500.0,
+        "pct": 5.01
        },
-       "marcap": 72228,
+       "marcap": 71916,
        "prevClose": 219500.0,
        "changePct": 5.47,
-       "value": 312,
+       "value": 313,
        "note": "고가 마감권(고가 대비 0.22% 아래) · 막판 20분 거래량 비중 14% · 수급 자료 확인 전"
       },
       {
@@ -39,10 +39,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "생명보험",
        "after": {
-        "price": 245000.0,
-        "pct": 3.38
+        "price": 244000.0,
+        "pct": 2.95
        },
-       "marcap": 490000,
+       "marcap": 488000,
        "prevClose": 237000.0,
        "changePct": 3.38,
        "value": 506,
@@ -55,13 +55,13 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "반도체와반도체장비",
        "after": {
-        "price": 6130.0,
-        "pct": 10.05
+        "price": 6150.0,
+        "pct": 10.41
        },
-       "marcap": 1951,
+       "marcap": 1958,
        "prevClose": 5570.0,
        "changePct": 10.05,
-       "value": 77,
+       "value": 78,
        "note": "고가 마감권(고가 대비 0.00% 아래) · 막판 20분 거래량 비중 12% · 수급 자료 확인 전"
       }
      ]
@@ -84,14 +84,14 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "자동차부품",
        "after": {
-        "price": 10190.0,
-        "pct": 17.8
+        "price": 10130.0,
+        "pct": 17.11
        },
-       "marcap": 5347,
+       "marcap": 5315,
        "prevClose": 8650.0,
        "changePct": 17.8,
-       "value": 680,
-       "note": "바닥권(250일 범위 하단 33%) · 거래대금 680억(20일 평균의 12.4배) · 장대양봉(+13.1%) · 240일선 9,010, 480일선 9,240 돌파"
+       "value": 704,
+       "note": "바닥권(250일 범위 하단 33%) · 거래대금 704억(20일 평균의 12.8배) · 장대양봉(+13.1%) · 240일선 9,010, 480일선 9,240 돌파"
       }
      ]
     }
@@ -334,21 +334,22 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2422,
-  "candidates": 148,
-  "bars": 148,
-  "naverBars": 148,
+  "quotes": 2420,
+  "candidates": 147,
+  "bars": 147,
+  "naverBars": 147,
   "kisBars": 0,
   "a1": {
-   "후보": 147,
+   "후보": 146,
    "분봉지연": 0,
    "사유": {
-    "고가에서 멂": 135,
+    "고가에서 멂": 129,
     "ok(수급 자료 없음)": 3,
-    "막판 거래량 비중 부족": 9
+    "막판 거래량 비중 부족": 9,
+    "등락률·거래대금 미달": 5
    },
    "수급자료": 0,
-   "막판비중_중앙값": 0.033,
+   "막판비중_중앙값": 0.032,
    "막판비중_최대": 0.178
   }
  },
