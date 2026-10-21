@@ -634,7 +634,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "",
-  "actual": "",
+  "actual": "7.7%",
   "previous": "7.9%"
  },
  {
@@ -888,6 +888,26 @@
  {
   "date": "2026-10-28",
   "time": "21:30",
+  "title": "미국 PCE",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "3.4%"
+ },
+ {
+  "date": "2026-10-28",
+  "time": "21:30",
+  "title": "미국 근원 PCE",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "0.2%"
+ },
+ {
+  "date": "2026-10-28",
+  "time": "21:30",
   "title": "미국 무역수지",
   "level": "macro",
   "kind": "econ",
@@ -986,6 +1006,36 @@
   "date": "2026-10-29",
   "time": "03:30",
   "title": "FOMC 기자회견",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": ""
+ },
+ {
+  "date": "2026-10-29",
+  "time": "08:00",
+  "title": "한국 산업생산",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "-4.8%"
+ },
+ {
+  "date": "2026-10-29",
+  "time": "08:00",
+  "title": "한국 소매판매",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "-1.8%"
+ },
+ {
+  "date": "2026-10-29",
+  "time": "12:00",
+  "title": "BOJ 금리결정",
   "level": "major",
   "kind": "econ",
   "consensus": "",

@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-21 03:28",
+ "generatedAt": "2026-10-21 09:24",
  "events": [
   {
    "date": "2026-01-01",
@@ -1586,7 +1586,7 @@ window.DASH.calendar = {
    "title": "한국 PPI",
    "time": "06:00",
    "result": [
-    "이전 7.9%"
+    "실제 7.7% · 이전 7.9%"
    ]
   },
   {
@@ -1813,6 +1813,28 @@ window.DASH.calendar = {
    "date": "2026-10-28",
    "type": "econ",
    "market": "US",
+   "title": "미국 PCE",
+   "time": "21:30",
+   "major": true,
+   "result": [
+    "이전 3.4%"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 근원 PCE",
+   "time": "21:30",
+   "major": true,
+   "result": [
+    "이전 0.2%"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "type": "econ",
+   "market": "US",
    "title": "미국 무역수지",
    "time": "21:30",
    "result": [
@@ -1893,6 +1915,34 @@ window.DASH.calendar = {
    "market": "US",
    "title": "FOMC 기자회견",
    "time": "03:30",
+   "major": true
+  },
+  {
+   "date": "2026-10-29",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 산업생산",
+   "time": "08:00",
+   "result": [
+    "이전 -4.8%"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 소매판매",
+   "time": "08:00",
+   "result": [
+    "이전 -1.8%"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "type": "econ",
+   "market": "JP",
+   "title": "BOJ 금리결정",
+   "time": "12:00",
    "major": true
   },
   {
