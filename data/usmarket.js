@@ -81,65 +81,65 @@ window.DASH.usmarket = {
    "group": "금리·환율",
    "name": "달러 인덱스",
    "kind": "plain",
-   "close": 101.69,
-   "changePct": -0.04,
-   "changeText": "101.69 (-0.04%)"
+   "close": 101.71,
+   "changePct": -0.02,
+   "changeText": "101.71 (-0.02%)"
   },
   {
    "group": "금리·환율",
    "name": "원/달러",
    "kind": "plain",
-   "close": 1326.19,
-   "changePct": 0.17,
-   "changeText": "1,326.19 (+0.17%)"
+   "close": 1326.33,
+   "changePct": 0.18,
+   "changeText": "1,326.33 (+0.18%)"
   },
   {
    "group": "금리·환율",
    "name": "엔/달러",
    "kind": "plain",
-   "close": 158.13,
-   "changePct": -0.09,
-   "changeText": "158.13 (-0.09%)"
+   "close": 158.12,
+   "changePct": -0.1,
+   "changeText": "158.12 (-0.10%)"
   },
   {
    "group": "원자재·기타",
    "name": "WTI 유가",
    "kind": "usd",
-   "close": 97.94,
-   "changePct": -3.78,
-   "changeText": "97.94 (-3.78%)"
+   "close": 97.99,
+   "changePct": -3.73,
+   "changeText": "97.99 (-3.73%)"
   },
   {
    "group": "원자재·기타",
    "name": "브렌트유",
    "kind": "usd",
-   "close": 110.05,
-   "changePct": 1.16,
-   "changeText": "110.05 (+1.16%)"
+   "close": 110.01,
+   "changePct": 1.12,
+   "changeText": "110.01 (+1.12%)"
   },
   {
    "group": "원자재·기타",
    "name": "금",
    "kind": "usd",
-   "close": 4147.4,
-   "changePct": 0.12,
-   "changeText": "4,147.40 (+0.12%)"
+   "close": 4141.4,
+   "changePct": -0.03,
+   "changeText": "4,141.40 (-0.03%)"
   },
   {
    "group": "원자재·기타",
    "name": "구리",
    "kind": "usd",
    "close": 6.55,
-   "changePct": -0.2,
-   "changeText": "6.55 (-0.20%)"
+   "changePct": -0.26,
+   "changeText": "6.55 (-0.26%)"
   },
   {
    "group": "원자재·기타",
    "name": "비트코인",
    "kind": "usd",
-   "close": 84290.87,
-   "changePct": 1.63,
-   "changeText": "84,290.87 (+1.63%)"
+   "close": 84163.18,
+   "changePct": 1.47,
+   "changeText": "84,163.18 (+1.47%)"
   },
   {
    "group": "원자재·기타",
@@ -1655,7 +1655,7 @@ window.DASH.usmarket = {
     "name": "Darkiris Inc-Cl A",
     "usd": 3625616,
     "etf": false,
-    "changePct": -16.7
+    "changePct": -98.33
    }
   ]
  },
