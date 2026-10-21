@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-21 21:47",
+ "asOf": "2026-10-21 23:41",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "코스피 바닥에서 시작된 '실적 시즌' 투자 포인트는?",
+     "publishedAt": "2026-10-21 22:30",
+     "url": "https://www.youtube.com/watch?v=lhYvgDJUKNM"
+    },
+    {
      "title": "스페이스X가 로켓보다 AI 사업에 더 많은 돈을 쓰는 이유",
      "publishedAt": "2026-10-21 20:02",
      "url": "https://www.youtube.com/watch?v=mKbboQXLmQ0"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "월가에서 스페이스X 역대급 실적에도 아직 '저평가'라는 이유",
      "publishedAt": "2026-10-21 15:52",
      "url": "https://www.youtube.com/watch?v=e3WRUs1O8UM"
-    },
-    {
-     "title": "10월 21일 미국장 열리기 전 꼭 알아야 하는 '미장 시황' 투자 포인트",
-     "publishedAt": "2026-10-21 14:08",
-     "url": "https://www.youtube.com/watch?v=ZIAmv-svE70"
     }
    ]
   },
