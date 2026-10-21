@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-21 09:48",
+ "asOf": "2026-10-21 11:37",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "코스피 20% 폭락, 지금 손절하면 후회한다? / 팔더라도 7,000선에서 팔아야 하는 이유ㅣ 한지영 연구위원",
+     "publishedAt": "2026-10-21 11:31",
+     "url": "https://www.youtube.com/watch?v=KWH0_uW8zJQ"
+    },
+    {
+     "title": "코스피 드디어 바닥 찍었나? 반등장 어디까지 오를까? / 스페이스X 흑자 전환에 빅테크 투자 지속론 힘 받나ㅣ 이주연 대표",
+     "publishedAt": "2026-10-21 10:37",
+     "url": "https://www.youtube.com/watch?v=pEcF6UhXJZA"
+    },
     {
      "title": "[10월21일 #장시작전] 10월 수출 105.4% 급증·반도체 222% 폭발! / 코스피 5,700 돌파, 삼전·하닉 급등의 진짜 이유",
      "publishedAt": "2026-10-21 06:14",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "“AI 버블 붕괴 공포에 삼성전자·SK하이닉스 급락!” 그런데 빅테크는 HBM을 비싸도 살 수밖에 없는 이유 ㅣ이화진 차장",
      "publishedAt": "2026-10-20 19:00",
      "url": "https://www.youtube.com/watch?v=mca1-gNxK2c"
-    },
-    {
-     "title": "코스피 바닥 찾는 결정적 지표 1가지… 급락장 이후 주도주 판이 뒤집힌다ㅣ 황유현 팀장",
-     "publishedAt": "2026-10-20 18:30",
-     "url": "https://www.youtube.com/watch?v=GcET0e6DCzE"
-    },
-    {
-     "title": "[#긴급시황] “한국증시만 왜 무너지나?” 금융위기급 주가 폭락… 진짜 원인은 딱 4가지ㅣ김민수 대표",
-     "publishedAt": "2026-10-20 17:30",
-     "url": "https://www.youtube.com/watch?v=WwBxo1w7SO4"
     }
    ]
   },
@@ -78,11 +78,6 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=3iCJnDb1Zug"
     },
     {
-     "title": "[실전 투자 스터디] 반도체 주가가 회복 가능한 이유",
-     "publishedAt": "2026-10-20 18:00",
-     "url": "https://www.youtube.com/watch?v=QWDnnbKFiQo"
-    },
-    {
      "title": "[특집] 불과 5달 만에 시장 전망치 2배 이상 증가한 이 부품? AI 인프라 핵심으로 우뚝!!",
      "publishedAt": "2026-10-19 19:00",
      "url": "https://www.youtube.com/watch?v=jhUlmQjMYE0"
@@ -96,6 +91,11 @@ window.DASH.youtube = {
      "title": "시원하게 반등 못하는 반도체, 지금 주목할 지표는?",
      "publishedAt": "2026-10-16 19:00",
      "url": "https://www.youtube.com/watch?v=t6Vw2rGohjc"
+    },
+    {
+     "title": "[긴급 편성] 반도체 폭락 이유? 체크할 반등 트리거는?",
+     "publishedAt": "2026-10-14",
+     "url": "https://www.youtube.com/watch?v=6VDcX0bLZiw"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "10월 21일 오늘 코스피 어떻게 흘러갈까?!",
-     "publishedAt": "2026-10-21 08:03",
-     "url": "https://www.youtube.com/watch?v=uauaA1i2xgc"
-    },
-    {
-     "title": "10월 21일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-10-21 07:04",
-     "url": "https://www.youtube.com/watch?v=pLzzMemCNrk"
-    },
-    {
-     "title": "지금 '삼성일가'가, 폭락장에 '중앙일보' 인수전 뛰어든 이유",
-     "publishedAt": "2026-10-20 23:00",
-     "url": "https://www.youtube.com/watch?v=vQNxSKvZnSo"
-    },
-    {
-     "title": "10월 20일 외국인이 한국인 몰래 매수한 종목 정체",
-     "publishedAt": "2026-10-20 22:00",
-     "url": "https://www.youtube.com/watch?v=RNhBiqwRJf0"
-    },
-    {
      "title": "프랑스 정부 몰락과 폭력 시위, 남 얘기가 아닌 이유",
      "publishedAt": "2026-10-20 21:30",
      "url": "https://www.youtube.com/watch?v=ST8_0kMgOf0"
+    },
+    {
+     "title": "'반도체 가격'을 보면, 주가 상승과 하락이 보이는 이유",
+     "publishedAt": "2026-10-20 19:37",
+     "url": "https://www.youtube.com/watch?v=7KwNgF6f-YQ"
+    },
+    {
+     "title": "주식은 하락장에 구매해야 하는 이유",
+     "publishedAt": "2026-10-20",
+     "url": "https://www.youtube.com/watch?v=-RE4CcDxPBg"
+    },
+    {
+     "title": "하이닉스 100만 원도 깨질까?!",
+     "publishedAt": "2026-10-20",
+     "url": "https://www.youtube.com/watch?v=IX7YpYL2g5c"
+    },
+    {
+     "title": "코스피, 지금이 진짜 바닥일까?!",
+     "publishedAt": "2026-10-18",
+     "url": "https://www.youtube.com/watch?v=ftX09B5goJc"
     }
    ]
   },
