@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-22 17:44",
+ "asOf": "2026-10-22 19:38",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급인터뷰]  “외국인 매도 폭탄 언제 끝나나?” 끝없이 추락하는 한국증시… 큰 돈이 다시 몰려올 결정적 신호는 ‘이것’ ㅣ우리은행 WM그룹 박석현 부부장",
+     "publishedAt": "2026-10-22 19:00",
+     "url": "https://www.youtube.com/watch?v=2oMNRHt-mLg"
+    },
     {
      "title": "“삼성전자·SK하이닉스 이렇게 싼데 왜 못 사나?” 외국인 큰 손마저 매수 주저… 한국 증시가 무서운 진짜 이유 ㅣKB증권 유영화 차장",
      "publishedAt": "2026-10-22 17:30",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] “또 급락한 한국 증시!” 시장이 두려워하는 진짜 악재는? / 위기인가, 과장된 공포인가? ㅣ 박근형 부장",
      "publishedAt": "2026-10-22 14:00",
      "url": "https://www.youtube.com/watch?v=X4X5VKlkZcc"
-    },
-    {
-     "title": "코스피 올랐다 내렸다 반복… 언제까지 이럴까? / 진짜 상승장 시작되는 시점은 ‘이때’  | 이권희 대표",
-     "publishedAt": "2026-10-22 12:30",
-     "url": "https://www.youtube.com/watch?v=MZqoM-as_Ak"
     }
    ]
   },
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "[월간 안테나] 엔비디아가 기존 유리기판 표준을 거부한 이유는?",
+     "publishedAt": "2026-10-22 19:00",
+     "url": "https://www.youtube.com/watch?v=b8EigcmmAYc"
+    },
+    {
      "title": "[월간 안테나] 엔비디아에 이어 삼성전자도 참전, 첨단 패키징 판이 바뀐다!!",
      "publishedAt": "2026-10-21 19:00",
      "url": "https://www.youtube.com/watch?v=m7qCEyIg7s0"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[실전 투자 스터디] 반도체 주가가 회복 가능한 이유",
      "publishedAt": "2026-10-20 18:00",
      "url": "https://www.youtube.com/watch?v=QWDnnbKFiQo"
-    },
-    {
-     "title": "[특집] 불과 5달 만에 시장 전망치 2배 이상 증가한 이 부품? AI 인프라 핵심으로 우뚝!!",
-     "publishedAt": "2026-10-19 19:00",
-     "url": "https://www.youtube.com/watch?v=jhUlmQjMYE0"
     }
    ]
   },
@@ -104,6 +104,11 @@ window.DASH.youtube = {
    "channelId": "UC7usMJDHmtbs_oegmzQKKMA",
    "handle": "@경제사냥꾼",
    "videos": [
+    {
+     "title": "월가에서 현시점 인텔이 저평가 됐다는 이유",
+     "publishedAt": "2026-10-22 19:06",
+     "url": "https://www.youtube.com/watch?v=ecVQhQSiqas"
+    },
     {
      "title": "10월 22일 미국장 열리기 전 꼭 알아야 하는 '미장 시황' 투자 포인트",
      "publishedAt": "2026-10-22 17:43",
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "한국정부가, 하이닉스 중복상장을 진짜 막을 수 있다는 이유",
      "publishedAt": "2026-10-22 10:06",
      "url": "https://www.youtube.com/watch?v=EOOCr5HCof8"
-    },
-    {
-     "title": "10월 22일 오늘 코스피, 과연 어떻게 흘러갈까?",
-     "publishedAt": "2026-10-22 07:56",
-     "url": "https://www.youtube.com/watch?v=GJ4qhsYAO6M"
     }
    ]
   },
