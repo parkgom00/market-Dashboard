@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-22 21:47",
+ "asOf": "2026-10-22 23:41",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "코스피 재평가 구간 진입, 하락장 때 매수해야 하는 이유",
+     "publishedAt": "2026-10-22 23:00",
+     "url": "https://www.youtube.com/watch?v=qNPxRnb0w9g"
+    },
+    {
+     "title": "물타기를 하면 안 되는 주식들 공통점 3가지",
+     "publishedAt": "2026-10-22 22:30",
+     "url": "https://www.youtube.com/watch?v=DcdoCBojO6c"
+    },
+    {
      "title": "10월 22일 외국인이 한국인 몰래 매수한 '종목' 정체",
      "publishedAt": "2026-10-22 21:30",
      "url": "https://www.youtube.com/watch?v=MdPKdek7Ch4"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "월가에서 현시점 인텔이 저평가 됐다는 이유",
      "publishedAt": "2026-10-22 19:06",
      "url": "https://www.youtube.com/watch?v=ecVQhQSiqas"
-    },
-    {
-     "title": "10월 22일 미국장 열리기 전 꼭 알아야 하는 '미장 시황' 투자 포인트",
-     "publishedAt": "2026-10-22 17:43",
-     "url": "https://www.youtube.com/watch?v=kWYAjRCmw_k"
-    },
-    {
-     "title": "엔비디아, AI 데이터센터 건설을 '6개월→14일'로 단축 시켜버린 방법",
-     "publishedAt": "2026-10-22 15:20",
-     "url": "https://www.youtube.com/watch?v=QZlLiMc110I"
     }
    ]
   },
@@ -136,6 +136,11 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
+    {
+     "title": "진퇴양난에 빠진 미국 증시",
+     "publishedAt": "2026-10-22 21:58",
+     "url": "https://www.youtube.com/watch?v=4sdi2vGvY8k"
+    },
     {
      "title": "꿈도 희망도 없는 한국 증시 #코스피 #하이닉스 #후티반군",
      "publishedAt": "2026-10-22 15:34",
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "나스닥 상승의 진짜 이유",
      "publishedAt": "2026-10-20 02:31",
      "url": "https://www.youtube.com/watch?v=wSmkhWHEYNM"
-    },
-    {
-     "title": "또 다른 AI 펀드 청산? 코어위브 위기 전염? AI 주식 최악의 시나리오로 가나?",
-     "publishedAt": "2026-10-17 15:42",
-     "url": "https://www.youtube.com/watch?v=NhSEP0KFais"
     }
    ]
   },
