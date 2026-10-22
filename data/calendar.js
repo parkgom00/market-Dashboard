@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-22 21:30",
+ "generatedAt": "2026-10-23 03:25",
  "events": [
   {
    "date": "2026-01-01",
@@ -1662,7 +1662,7 @@ window.DASH.calendar = {
    "title": "미국 신규 실업수당 청구",
    "time": "21:30",
    "result": [
-    "예상 200K · 이전 199K"
+    "실제 194K · 예상 200K · 이전 200K"
    ]
   },
   {
@@ -2295,6 +2295,16 @@ window.DASH.calendar = {
    "result": [
     "EPS 예상 $4.06",
     "장마감 후(한국 다음 날 새벽)"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 기존주택판매",
+   "time": "00:00",
+   "result": [
+    "이전 1.5%"
    ]
   },
   {
