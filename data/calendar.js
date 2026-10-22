@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-22 09:23",
+ "generatedAt": "2026-10-22 15:30",
  "events": [
   {
    "date": "2026-01-01",
@@ -442,12 +442,6 @@ window.DASH.calendar = {
   },
   {
    "date": "2026-11-06",
-   "type": "earnings",
-   "market": "KR",
-   "title": "NAVER 실적 발표 (예정)"
-  },
-  {
-   "date": "2026-11-06",
    "type": "econ",
    "market": "US",
    "title": "미국 고용보고서 발표 · 10월분 (한국시간 저녁)",
@@ -467,6 +461,12 @@ window.DASH.calendar = {
     "미국 CPI: 이전 0.59%",
     "미국 근원 CPI: 이전 338.90"
    ]
+  },
+  {
+   "date": "2026-11-12",
+   "type": "earnings",
+   "market": "KR",
+   "title": "NAVER 실적 발표 (예정)"
   },
   {
    "date": "2026-11-25",
@@ -1608,7 +1608,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "램리서치 실적 발표",
    "result": [
-    "EPS 예상 $2.17",
+    "EPS 실제 $1.26 (예상 $2.17)",
     "장마감 후(한국 다음 날 새벽)"
    ]
   },
@@ -1618,7 +1618,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "메타 실적 발표",
    "result": [
-    "EPS 예상 $4.98",
+    "EPS 실제 $7.25 (예상 $4.98)",
     "장마감 후(한국 다음 날 새벽)"
    ]
   },
@@ -1637,7 +1637,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "테슬라 실적 발표",
    "result": [
-    "EPS 예상 $0.22",
+    "EPS 실제 $0.37 (예상 $0.22)",
     "장마감 후(한국 다음 날 새벽)"
    ]
   },
@@ -1649,7 +1649,7 @@ window.DASH.calendar = {
    "time": "10:00",
    "major": true,
    "result": [
-    "예상 3.00% · 이전 3.00%"
+    "실제 3.00% · 예상 3.00% · 이전 3.00%"
    ]
   },
   {

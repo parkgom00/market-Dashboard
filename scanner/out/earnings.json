@@ -42,6 +42,18 @@
   "title": "아마존 실적 발표 (예정)"
  },
  {
+  "date": "2026-10-22",
+  "type": "earnings",
+  "market": "US",
+  "title": "메타 실적 발표 (예정)"
+ },
+ {
+  "date": "2026-10-22",
+  "type": "earnings",
+  "market": "US",
+  "title": "테슬라 실적 발표 (예정)"
+ },
+ {
   "date": "2027-01-14",
   "type": "earnings",
   "market": "US",
@@ -88,6 +100,12 @@
   "type": "earnings",
   "market": "US",
   "title": "어플라이드머티리얼즈 실적 발표 (예정)"
+ },
+ {
+  "date": "2026-10-22",
+  "type": "earnings",
+  "market": "US",
+  "title": "램리서치 실적 발표 (예정)"
  },
  {
   "date": "2026-10-29",
@@ -252,7 +270,7 @@
   "title": "현대차 실적 발표 (예정)"
  },
  {
-  "date": "2026-11-06",
+  "date": "2026-11-12",
   "type": "earnings",
   "market": "KR",
   "title": "NAVER 실적 발표 (예정)"
