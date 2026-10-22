@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-22 19:38",
+ "asOf": "2026-10-22 21:47",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황] “목요일 급락장, 뒤통수 세게 맞았다!” 매크로 앞에선 실적도 소용없다 / 지금 현금을 아껴야 하는 이유 | 황유현 팀장",
+     "publishedAt": "2026-10-22 20:00",
+     "url": "https://www.youtube.com/watch?v=DIc0wqglRKg"
+    },
     {
      "title": "[#긴급인터뷰]  “외국인 매도 폭탄 언제 끝나나?” 끝없이 추락하는 한국증시… 큰 돈이 다시 몰려올 결정적 신호는 ‘이것’ ㅣ우리은행 WM그룹 박석현 부부장",
      "publishedAt": "2026-10-22 19:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#글로벌인사이트]  “메타·테슬라 실적이 보여준 반전!” AI 투자 아직 끝나지 않았다… 삼성전자·SK하이닉스 반도체 성장을 의심하지 않는 이유 | 노근창 대표",
      "publishedAt": "2026-10-22 15:36",
      "url": "https://www.youtube.com/watch?v=AGLtTdv1YlM"
-    },
-    {
-     "title": "[#긴급시황] “또 급락한 한국 증시!” 시장이 두려워하는 진짜 악재는? / 위기인가, 과장된 공포인가? ㅣ 박근형 부장",
-     "publishedAt": "2026-10-22 14:00",
-     "url": "https://www.youtube.com/watch?v=X4X5VKlkZcc"
     }
    ]
   },
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 22일 외국인이 한국인 몰래 매수한 '종목' 정체",
+     "publishedAt": "2026-10-22 21:30",
+     "url": "https://www.youtube.com/watch?v=MdPKdek7Ch4"
+    },
+    {
+     "title": "11월만 되면, 주식이 유독 '더 많이 오르는' 진짜 이유",
+     "publishedAt": "2026-10-22 20:03",
+     "url": "https://www.youtube.com/watch?v=7bx5ZoOuNc4"
+    },
+    {
      "title": "월가에서 현시점 인텔이 저평가 됐다는 이유",
      "publishedAt": "2026-10-22 19:06",
      "url": "https://www.youtube.com/watch?v=ecVQhQSiqas"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "엔비디아, AI 데이터센터 건설을 '6개월→14일'로 단축 시켜버린 방법",
      "publishedAt": "2026-10-22 15:20",
      "url": "https://www.youtube.com/watch?v=QZlLiMc110I"
-    },
-    {
-     "title": "젠슨황이 공장까지 지어 준다는, 저평가 '한국 AI부품주' 정체",
-     "publishedAt": "2026-10-22 13:25",
-     "url": "https://www.youtube.com/watch?v=Ave3cDhSH4M"
-    },
-    {
-     "title": "한국정부가, 하이닉스 중복상장을 진짜 막을 수 있다는 이유",
-     "publishedAt": "2026-10-22 10:06",
-     "url": "https://www.youtube.com/watch?v=EOOCr5HCof8"
     }
    ]
   },
