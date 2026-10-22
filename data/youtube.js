@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-23 05:37",
+ "asOf": "2026-10-23 07:35",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[10월23일 #장시작전]  “다시 떠오른 AI 버블론” 나스닥 -2.6%·필반도체 -6.7% 급락 /  솔리다임 미 상장 전격 철회.. 삼전·하닉 오늘 운명은?",
+     "publishedAt": "2026-10-23 06:22",
+     "url": "https://www.youtube.com/watch?v=YvvRwkOLOmY"
+    },
     {
      "title": "[#찐시황] “목요일 급락장, 뒤통수 세게 맞았다!” 매크로 앞에선 실적도 소용없다 / 지금 현금을 아껴야 하는 이유 | 황유현 팀장",
      "publishedAt": "2026-10-22 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황]  “급등 하루 만에 다시 주가 급락!” 삼성전자·SK하이닉스 자사주 매입도 끝… 지금 증시를 떠나야 할 때인가? ㅣ이화진 차장",
      "publishedAt": "2026-10-22 16:30",
      "url": "https://www.youtube.com/watch?v=Jtydqpfvw2s"
-    },
-    {
-     "title": "[#글로벌인사이트]  “메타·테슬라 실적이 보여준 반전!” AI 투자 아직 끝나지 않았다… 삼성전자·SK하이닉스 반도체 성장을 의심하지 않는 이유 | 노근창 대표",
-     "publishedAt": "2026-10-22 15:36",
-     "url": "https://www.youtube.com/watch?v=AGLtTdv1YlM"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) 반도체 하락으로 방향 잡았나?",
+     "publishedAt": "2026-10-23 06:22",
+     "url": "https://www.youtube.com/watch?v=aZuQkCzceXc"
+    },
     {
      "title": "(테슬라) 실적은 나쁘지 않지만 지금 가격을 정당화 하기에는 부족하다",
      "publishedAt": "2026-10-22 15:37",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 실적을 기다리며 눈치보는 장세이다!!!",
      "publishedAt": "2026-10-21 05:32",
      "url": "https://www.youtube.com/watch?v=yiNf8AHjiks"
-    },
-    {
-     "title": "(반도체) 신규 매수는 신중히 하자!!!",
-     "publishedAt": "2026-10-20 15:15",
-     "url": "https://www.youtube.com/watch?v=V6mS10sN944"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 23일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-10-23 06:54",
+     "url": "https://www.youtube.com/watch?v=JTiMdYazffA"
+    },
+    {
      "title": "코스피 재평가 구간 진입, 하락장 때 매수해야 하는 이유",
      "publishedAt": "2026-10-22 23:00",
      "url": "https://www.youtube.com/watch?v=qNPxRnb0w9g"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "11월만 되면, 주식이 유독 '더 많이 오르는' 진짜 이유",
      "publishedAt": "2026-10-22 20:03",
      "url": "https://www.youtube.com/watch?v=7bx5ZoOuNc4"
-    },
-    {
-     "title": "월가에서 현시점 인텔이 저평가 됐다는 이유",
-     "publishedAt": "2026-10-22 19:06",
-     "url": "https://www.youtube.com/watch?v=ecVQhQSiqas"
     }
    ]
   },
