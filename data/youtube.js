@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-22 07:37",
+ "asOf": "2026-10-22 09:49",
  "channels": [
   {
    "name": "815머니톡",
@@ -78,24 +78,24 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=m7qCEyIg7s0"
     },
     {
-     "title": "[실전 투자 스터디] 지금 현금 가지고 있으면 뭐 살 건가요?",
-     "publishedAt": "2026-10-21 18:30",
-     "url": "https://www.youtube.com/watch?v=bNqpk8Iz3o4"
-    },
-    {
      "title": "[또 긴급편성] 반도체 물린 분들 냉정하게 들어보세요!!",
      "publishedAt": "2026-10-20 19:03",
      "url": "https://www.youtube.com/watch?v=3iCJnDb1Zug"
     },
     {
-     "title": "[실전 투자 스터디] 반도체 주가가 회복 가능한 이유",
-     "publishedAt": "2026-10-20 18:00",
-     "url": "https://www.youtube.com/watch?v=QWDnnbKFiQo"
-    },
-    {
      "title": "[특집] 불과 5달 만에 시장 전망치 2배 이상 증가한 이 부품? AI 인프라 핵심으로 우뚝!!",
      "publishedAt": "2026-10-19 19:00",
      "url": "https://www.youtube.com/watch?v=jhUlmQjMYE0"
+    },
+    {
+     "title": "[특집] 폭락은 주도주를 바꾼다! 지금 바통을 이을 섹터는?",
+     "publishedAt": "2026-10-18",
+     "url": "https://www.youtube.com/watch?v=RIhgSFHArHU"
+    },
+    {
+     "title": "시원하게 반등 못하는 반도체, 지금 주목할 지표는?",
+     "publishedAt": "2026-10-17",
+     "url": "https://www.youtube.com/watch?v=t6Vw2rGohjc"
     }
    ]
   },
@@ -104,11 +104,6 @@ window.DASH.youtube = {
    "channelId": "UC7usMJDHmtbs_oegmzQKKMA",
    "handle": "@경제사냥꾼",
    "videos": [
-    {
-     "title": "10월 22일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-10-22 06:45",
-     "url": "https://www.youtube.com/watch?v=2NVBahZ9rGU"
-    },
     {
      "title": "코스피 바닥에서 시작된 '실적 시즌' 투자 포인트는?",
      "publishedAt": "2026-10-21 22:30",
@@ -120,14 +115,19 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=mKbboQXLmQ0"
     },
     {
-     "title": "10월 21일 외국인이 한국인 몰래 매수한 종목 정체",
-     "publishedAt": "2026-10-21 19:02",
-     "url": "https://www.youtube.com/watch?v=ZEtSs7901nU"
+     "title": "프랑스 정부 몰락과 폭력 시위, 남 얘기가 아닌 이유",
+     "publishedAt": "2026-10-21",
+     "url": "https://www.youtube.com/watch?v=ST8_0kMgOf0"
     },
     {
-     "title": "주가가 다시 오르기 시작할 때, 절대 놓치면 안 되는 것",
-     "publishedAt": "2026-10-21 17:23",
-     "url": "https://www.youtube.com/watch?v=f_EUpVZ2BSw"
+     "title": "'반도체 가격'을 보면, 주가 상승과 하락이 보이는 이유",
+     "publishedAt": "2026-10-21",
+     "url": "https://www.youtube.com/watch?v=7KwNgF6f-YQ"
+    },
+    {
+     "title": "주식은 하락장에 구매해야 하는 이유",
+     "publishedAt": "2026-10-20",
+     "url": "https://www.youtube.com/watch?v=-RE4CcDxPBg"
     }
    ]
   },
@@ -136,16 +136,6 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
-    {
-     "title": "일론머스크 \"AI 수요 뜨겁다\" #일론머스크 #삼성전자 #코스피",
-     "publishedAt": "2026-10-21 13:23",
-     "url": "https://www.youtube.com/watch?v=WIGzYxeHs2I"
-    },
-    {
-     "title": "오늘 코스피 하락이 더 문제인 이유 #코스피 #하이닉스 #삼성전자",
-     "publishedAt": "2026-10-20 15:31",
-     "url": "https://www.youtube.com/watch?v=9qWj9i7aNjI"
-    },
     {
      "title": "나스닥 상승의 진짜 이유",
      "publishedAt": "2026-10-20 02:31",
@@ -160,6 +150,16 @@ window.DASH.youtube = {
      "title": "AI 주식들은 이제 끝?",
      "publishedAt": "2026-10-17 02:52",
      "url": "https://www.youtube.com/watch?v=CviFrBH_K2M"
+    },
+    {
+     "title": "코스피 반등 시작하나?",
+     "publishedAt": "2026-10-16",
+     "url": "https://www.youtube.com/watch?v=6Qd_w8GyLp4"
+    },
+    {
+     "title": "코스피가 무너진 근본적인 이유 (CXMT 아님)",
+     "publishedAt": "2026-10-14",
+     "url": "https://www.youtube.com/watch?v=hzomN7wiW_8"
     }
    ]
   },
@@ -179,6 +179,11 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=quJTDt4JGpU"
     },
     {
+     "title": "AI 약한고리 결국 터진다? 극단적 공포 구간 진입/올 연말까진 기회, 내년이 진짜 위기?",
+     "publishedAt": "2026-10-19",
+     "url": "https://www.youtube.com/watch?v=A7B-vm2lGps"
+    },
+    {
      "title": "금리 5.5%가 증시 충격 마지노선? 월가 초고수들의 경고, 대비해야 할까",
      "publishedAt": "2026-10-14 20:39",
      "url": "https://www.youtube.com/watch?v=PrEHp2DoRVU"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "스페이스X의 반격 시작? 머스크의 호언장담 현실 될까",
      "publishedAt": "2026-10-13 20:11",
      "url": "https://www.youtube.com/watch?v=_LOD9GYd1Qk"
-    },
-    {
-     "title": "AI투자 판도 조용히 바뀌는 중? 부진했던 빅테크, 팔란티어의 수상한 신고가",
-     "publishedAt": "2026-10-12 21:12",
-     "url": "https://www.youtube.com/watch?v=ILs31CN-_VA"
     }
    ]
   }
