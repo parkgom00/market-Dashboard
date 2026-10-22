@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-22 13:37",
+ "asOf": "2026-10-22 15:47",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#글로벌인사이트]  “메타·테슬라 실적이 보여준 반전!” AI 투자 아직 끝나지 않았다… 삼성전자·SK하이닉스 반도체 성장을 의심하지 않는 이유 | 노근창 대표",
+     "publishedAt": "2026-10-22 15:36",
+     "url": "https://www.youtube.com/watch?v=AGLtTdv1YlM"
+    },
+    {
+     "title": "[#긴급시황] “또 급락한 한국 증시!” 시장이 두려워하는 진짜 악재는? / 위기인가, 과장된 공포인가? ㅣ 박근형 부장",
+     "publishedAt": "2026-10-22 14:46",
+     "url": "https://www.youtube.com/watch?v=X4X5VKlkZcc"
+    },
     {
      "title": "코스피 올랐다 내렸다 반복… 언제까지 이럴까? / 진짜 상승장 시작되는 시점은 ‘이때’  | 이권희 대표",
      "publishedAt": "2026-10-22 12:37",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "[10월22일 #장시작전] 뉴욕증시 반등! 필반도체 1.97% 상승.. 메타 매출급증에 시간외 급등, 삼전·SK하닉 오늘도 상승?",
      "publishedAt": "2026-10-22 06:12",
      "url": "https://www.youtube.com/watch?v=M8qrv8Wl5do"
-    },
-    {
-     "title": "[#찐시황] “외국인 9,300억 폭풍 매수!” 삼성전자 4일 연속 순매수… 반도체 주도주 부활하나? / 내일 증시 판 바꿀 결정적 변수ㅣ오로라 투자자문 이지환 대표",
-     "publishedAt": "2026-10-21 20:00",
-     "url": "https://www.youtube.com/watch?v=akEJ_RecjWA"
-    },
-    {
-     "title": "[#긴급인터뷰]  “코스피 급반등, 진짜 바닥은 아직 아니다?” 삼성전자·SK하이닉스 다시 주도주 될까 / 코어위브 신용위험 아직 안 끝났다  | KB증권  유영화 차장",
-     "publishedAt": "2026-10-21 19:00",
-     "url": "https://www.youtube.com/watch?v=_xhMKReKqD4"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(테슬라) 실적은 나쁘지 않지만 지금 가격을 정당화 하기에는 부족하다",
+     "publishedAt": "2026-10-22 15:38",
+     "url": "https://www.youtube.com/watch?v=aM_7lDT9kBs"
+    },
     {
      "title": "(시황분석) 신용문제 보다는 기술병목에 집중하자!!!",
      "publishedAt": "2026-10-22 05:26",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(반도체) 신규 매수는 신중히 하자!!!",
      "publishedAt": "2026-10-20 15:15",
      "url": "https://www.youtube.com/watch?v=V6mS10sN944"
-    },
-    {
-     "title": "(시황분석) 전강후약으로 아직 매수강도가 크지 않다!!!",
-     "publishedAt": "2026-10-20 06:13",
-     "url": "https://www.youtube.com/watch?v=_UVdEsutD0o"
     }
    ]
   },
