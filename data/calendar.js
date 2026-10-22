@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-22 15:30",
+ "generatedAt": "2026-10-22 21:30",
  "events": [
   {
    "date": "2026-01-01",
@@ -424,7 +424,7 @@ window.DASH.calendar = {
    "title": "미국 PCE 물가지수 발표 · 9월분 (한국시간 저녁)",
    "time": "21:30",
    "result": [
-    "미국 PCE: 이전 3.4%",
+    "미국 PCE: 이전 0.3%",
     "미국 근원 PCE: 이전 3.0%"
    ]
   },
@@ -552,6 +552,12 @@ window.DASH.calendar = {
    "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 마틴 루서 킹 데이"
+  },
+  {
+   "date": "2027-01-20",
+   "type": "earnings",
+   "market": "KR",
+   "title": "삼성바이오로직스 실적 발표 (예정)"
   },
   {
    "date": "2027-01-28",
@@ -1594,6 +1600,33 @@ window.DASH.calendar = {
   },
   {
    "date": "2026-10-21",
+   "type": "earnings",
+   "market": "US",
+   "title": "램리서치 실적 발표",
+   "result": [
+    "EPS 실제 $2.20 (예상 $2.17) · 서프라이즈 1.38%"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "type": "earnings",
+   "market": "US",
+   "title": "메타 실적 발표",
+   "result": [
+    "EPS 실제 $7.40 (예상 $6.52) · 서프라이즈 13.5%"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "type": "earnings",
+   "market": "US",
+   "title": "테슬라 실적 발표",
+   "result": [
+    "EPS 실제 $0.20 (예상 $0.22) · 서프라이즈 -9.09%"
+   ]
+  },
+  {
+   "date": "2026-10-21",
    "type": "econ",
    "market": "KR",
    "title": "한국 PPI",
@@ -1606,39 +1639,9 @@ window.DASH.calendar = {
    "date": "2026-10-22",
    "type": "earnings",
    "market": "US",
-   "title": "램리서치 실적 발표",
-   "result": [
-    "EPS 실제 $1.26 (예상 $2.17)",
-    "장마감 후(한국 다음 날 새벽)"
-   ]
-  },
-  {
-   "date": "2026-10-22",
-   "type": "earnings",
-   "market": "US",
-   "title": "메타 실적 발표",
-   "result": [
-    "EPS 실제 $7.25 (예상 $4.98)",
-    "장마감 후(한국 다음 날 새벽)"
-   ]
-  },
-  {
-   "date": "2026-10-22",
-   "type": "earnings",
-   "market": "US",
    "title": "인텔 실적 발표",
    "result": [
     "EPS 예상 $0.27"
-   ]
-  },
-  {
-   "date": "2026-10-22",
-   "type": "earnings",
-   "market": "US",
-   "title": "테슬라 실적 발표",
-   "result": [
-    "EPS 실제 $0.37 (예상 $0.22)",
-    "장마감 후(한국 다음 날 새벽)"
    ]
   },
   {
@@ -1669,7 +1672,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 서비스업 PMI",
    "time": "22:45",
    "result": [
-    "예상 58.0 · 이전 58.8"
+    "예상 57.9 · 이전 58.8"
    ]
   },
   {
@@ -1679,7 +1682,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 제조업 PMI",
    "time": "22:45",
    "result": [
-    "예상 55.5 · 이전 55.9"
+    "예상 55.4 · 이전 55.9"
    ]
   },
   {
@@ -1689,7 +1692,7 @@ window.DASH.calendar = {
    "title": "미시간 소비심리",
    "time": "23:00",
    "result": [
-    "예상 46.3 · 이전 46.3"
+    "예상 46.3 · 이전 48.1"
    ]
   },
   {
@@ -1758,7 +1761,7 @@ window.DASH.calendar = {
    "title": "미국 건축허가",
    "time": "21:00",
    "result": [
-    "예상 -0.2% · 이전 -2.1%"
+    "예상 1.400M · 이전 1.403M"
    ]
   },
   {
@@ -1981,7 +1984,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "엑슨모빌 실적 발표",
    "result": [
-    "EPS 예상 $3.93",
+    "EPS 예상 $3.96",
     "장 시작 전"
    ]
   },
@@ -2011,7 +2014,10 @@ window.DASH.calendar = {
    "market": "JP",
    "title": "BOJ 금리결정",
    "time": "12:00",
-   "major": true
+   "major": true,
+   "result": [
+    "이전 1.25%"
+   ]
   },
   {
    "date": "2026-10-31",
