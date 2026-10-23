@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-23 17:41",
+ "asOf": "2026-10-23 19:37",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“개인은 공포에 팔고 고래는 폭풍 매집!” 비트코인 8만 달러… 다음 목표는 10만 달러?   l 타임레버리지 문창훈 작가",
+     "publishedAt": "2026-10-23 19:00",
+     "url": "https://www.youtube.com/watch?v=7OLFwra5cuI"
+    },
     {
      "title": "“솔리다임 상장 중단, SK하이닉스 악재 해소되나?” 삼성전자까지 대형 호재일까 / 현대차 반등은 언제 시작될까?  l 메리츠증권 이화진 차장",
      "publishedAt": "2026-10-23 17:30",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] “금리 떨어졌는데 주가는 왜 폭락?” 메타·반도체주 급락의 진실 / AI 자본조달 위기 다시 터지나ㅣ 박근형 부장",
      "publishedAt": "2026-10-23 13:49",
      "url": "https://www.youtube.com/watch?v=_ub_X-xe8eQ"
-    },
-    {
-     "title": "[10월23일 #장시작전]  나스닥 폭락에도 버티는 코스피, 외국인 떠나고 기관 돌아온다? |  오현진 팀장, 윤진 대표 , 박근형 부장",
-     "publishedAt": "2026-10-23 13:05",
-     "url": "https://www.youtube.com/watch?v=YvvRwkOLOmY"
     }
    ]
   },
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "90% vs 60%? HBM 베이스 다이 주도권 경쟁 갈렸다!!",
+     "publishedAt": "2026-10-23 19:00",
+     "url": "https://www.youtube.com/watch?v=w_fNqMsFc8k"
+    },
+    {
      "title": "[월간 안테나] 엔비디아가 기존 유리기판 표준을 거부한 이유는?",
      "publishedAt": "2026-10-22 19:00",
      "url": "https://www.youtube.com/watch?v=b8EigcmmAYc"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[또 긴급편성] 반도체 물린 분들 냉정하게 들어보세요!!",
      "publishedAt": "2026-10-20 19:03",
      "url": "https://www.youtube.com/watch?v=3iCJnDb1Zug"
-    },
-    {
-     "title": "[실전 투자 스터디] 반도체 주가가 회복 가능한 이유",
-     "publishedAt": "2026-10-20 18:00",
-     "url": "https://www.youtube.com/watch?v=QWDnnbKFiQo"
     }
    ]
   },
@@ -104,6 +104,16 @@ window.DASH.youtube = {
    "channelId": "UC7usMJDHmtbs_oegmzQKKMA",
    "handle": "@경제사냥꾼",
    "videos": [
+    {
+     "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(10.26~10.30)",
+     "publishedAt": "2026-10-23 19:28",
+     "url": "https://www.youtube.com/watch?v=mJGcENdLVOQ"
+    },
+    {
+     "title": "월가에서 현시점 네비우스가 저평가 됐다는 이유",
+     "publishedAt": "2026-10-23 18:40",
+     "url": "https://www.youtube.com/watch?v=RmGFspxOa1Q"
+    },
     {
      "title": "이재용이 '삼성반도체' 분할 상장을 절대 안하는 진짜 이유",
      "publishedAt": "2026-10-23 16:07",
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "앞으로 나올수 있는 하이닉스 호재와 악재는 뭘까?",
      "publishedAt": "2026-10-23 12:02",
      "url": "https://www.youtube.com/watch?v=ZUbMfxaogvc"
-    },
-    {
-     "title": "SK 최태원이 솔리다임 상장을 '철회'한 진짜 이유",
-     "publishedAt": "2026-10-23 09:42",
-     "url": "https://www.youtube.com/watch?v=w0bXQ0IXvmE"
-    },
-    {
-     "title": "10월 23일 오늘 코스피 어디까지 떨어질까?!",
-     "publishedAt": "2026-10-23 08:00",
-     "url": "https://www.youtube.com/watch?v=xpSbfDPXnlQ"
     }
    ]
   },
