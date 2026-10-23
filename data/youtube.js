@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-23 09:51",
+ "asOf": "2026-10-23 11:37",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,7 +9,7 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
-     "title": "[10월23일 #장시작전]  “다시 떠오른 AI 버블론” 나스닥 -2.6%·필반도체 -6.7% 급락 /  솔리다임 미 상장 전격 철회.. 삼전·하닉 오늘 운명은?",
+     "title": "[10월23일 #장시작전]  나스닥 폭락에도 버티는 코스피, 외국인 떠나고 기관 돌아온다? |  오현진 팀장, 윤진 대표 , 박근형 부장",
      "publishedAt": "2026-10-23 06:22",
      "url": "https://www.youtube.com/watch?v=YvvRwkOLOmY"
     },
@@ -137,6 +137,11 @@ window.DASH.youtube = {
    "handle": "@김단테",
    "videos": [
     {
+     "title": "이번 폭락보다 더 큰 문제가 있습니다.",
+     "publishedAt": "2026-10-23 10:37",
+     "url": "https://www.youtube.com/watch?v=88JuhT1pxag"
+    },
+    {
      "title": "진퇴양난에 빠진 미국 증시",
      "publishedAt": "2026-10-22 21:58",
      "url": "https://www.youtube.com/watch?v=4sdi2vGvY8k"
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "AI 주식들은 이제 끝?",
      "publishedAt": "2026-10-17",
      "url": "https://www.youtube.com/watch?v=CviFrBH_K2M"
-    },
-    {
-     "title": "코스피 반등 시작하나?",
-     "publishedAt": "2026-10-16",
-     "url": "https://www.youtube.com/watch?v=6Qd_w8GyLp4"
     }
    ]
   },
