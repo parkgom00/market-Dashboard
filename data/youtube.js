@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-23 13:37",
+ "asOf": "2026-10-23 15:45",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급시황]  오늘 벌써 1조 투매한 외인... 왜? / 삼성전자·SK하이닉스 지금 팔면 후회할까… 하락장 끝나는 ‘이 신호’ | 이주현 대표",
+     "publishedAt": "2026-10-23 15:00",
+     "url": "https://www.youtube.com/watch?v=A807kmRZIsM"
+    },
+    {
+     "title": "[#긴급시황] “금리 떨어졌는데 주가는 왜 폭락?” 메타·반도체주 급락의 진실 / AI 자본조달 위기 다시 터지나ㅣ 박근형 부장",
+     "publishedAt": "2026-10-23 14:45",
+     "url": "https://www.youtube.com/watch?v=_ub_X-xe8eQ"
+    },
     {
      "title": "“솔리다임 상장 검토 중단!” SK하이닉스 악재 해소되나? / 美 반도체 -6.7% 폭락에도 돈이 몰리는 곳은?  | 이주연 대표",
      "publishedAt": "2026-10-23 12:37",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "[#찐시황] “목요일 급락장, 뒤통수 세게 맞았다!” 매크로 앞에선 실적도 소용없다 / 지금 현금을 아껴야 하는 이유 | 황유현 팀장",
      "publishedAt": "2026-10-22 20:00",
      "url": "https://www.youtube.com/watch?v=DIc0wqglRKg"
-    },
-    {
-     "title": "[#긴급인터뷰]  “외국인 매도 폭탄 언제 끝나나?” 끝없이 추락하는 한국증시… 큰 돈이 다시 몰려올 결정적 신호는 ‘이것’ ㅣ우리은행 WM그룹 박석현 부부장",
-     "publishedAt": "2026-10-22 19:00",
-     "url": "https://www.youtube.com/watch?v=2oMNRHt-mLg"
-    },
-    {
-     "title": "“삼성전자·SK하이닉스 이렇게 싼데 왜 못 사나?” 외국인 큰 손마저 매수 주저… 한국 증시가 무서운 진짜 이유 ㅣKB증권 유영화 차장",
-     "publishedAt": "2026-10-22 17:30",
-     "url": "https://www.youtube.com/watch?v=f3JtIGxOZEQ"
     }
    ]
   },
