@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-23 21:45",
+ "asOf": "2026-10-23 23:45",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 23일 외국인이 한국인 몰래 매수한 종목 정체",
+     "publishedAt": "2026-10-23 22:30",
+     "url": "https://www.youtube.com/watch?v=QJhfCvGiGnU"
+    },
+    {
      "title": "10월 23일 미국장 열리기 전 꼭 알아야 하는 '미장 시황' 투자 포인트",
      "publishedAt": "2026-10-23 21:30",
      "url": "https://www.youtube.com/watch?v=UcOMutnpjIs"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "이재용이 '삼성반도체' 분할 상장을 절대 안하는 진짜 이유",
      "publishedAt": "2026-10-23 16:07",
      "url": "https://www.youtube.com/watch?v=aj1UyWufBUI"
-    },
-    {
-     "title": "10월 23일 우리가 꼭 알고 있어야 할, 저평가 'AI 클라우드' 소형주",
-     "publishedAt": "2026-10-23 14:16",
-     "url": "https://www.youtube.com/watch?v=fpIb2YShIKU"
     }
    ]
   },
