@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-23 11:37",
+ "asOf": "2026-10-23 13:37",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“솔리다임 상장 검토 중단!” SK하이닉스 악재 해소되나? / 美 반도체 -6.7% 폭락에도 돈이 몰리는 곳은?  | 이주연 대표",
+     "publishedAt": "2026-10-23 12:37",
+     "url": "https://www.youtube.com/watch?v=MYrtuWBZZBM"
+    },
     {
      "title": "[10월23일 #장시작전]  나스닥 폭락에도 버티는 코스피, 외국인 떠나고 기관 돌아온다? |  오현진 팀장, 윤진 대표 , 박근형 부장",
      "publishedAt": "2026-10-23 06:22",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“삼성전자·SK하이닉스 이렇게 싼데 왜 못 사나?” 외국인 큰 손마저 매수 주저… 한국 증시가 무서운 진짜 이유 ㅣKB증권 유영화 차장",
      "publishedAt": "2026-10-22 17:30",
      "url": "https://www.youtube.com/watch?v=f3JtIGxOZEQ"
-    },
-    {
-     "title": "[#긴급시황]  “급등 하루 만에 다시 주가 급락!” 삼성전자·SK하이닉스 자사주 매입도 끝… 지금 증시를 떠나야 할 때인가? ㅣ이화진 차장",
-     "publishedAt": "2026-10-22 16:30",
-     "url": "https://www.youtube.com/watch?v=Jtydqpfvw2s"
     }
    ]
   },
