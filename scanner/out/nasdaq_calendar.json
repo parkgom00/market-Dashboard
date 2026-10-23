@@ -863,9 +863,9 @@
   "title": "미국 건축허가",
   "level": "macro",
   "kind": "econ",
-  "consensus": "1.400M",
+  "consensus": "-0.2%",
   "actual": "",
-  "previous": "1.403M"
+  "previous": "-2.1%"
  },
  {
   "date": "2026-10-27",
@@ -1675,7 +1675,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "1.5%"
+  "previous": "3.99M"
  },
  {
   "date": "2026-11-18",
