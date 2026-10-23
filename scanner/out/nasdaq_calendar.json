@@ -772,7 +772,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "57.9",
-  "actual": "",
+  "actual": "57.9",
   "previous": "58.8"
  },
  {
@@ -782,7 +782,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "55.4",
-  "actual": "",
+  "actual": "56.0",
   "previous": "55.9"
  },
  {
@@ -792,7 +792,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "46.3",
-  "actual": "",
+  "actual": "48.0",
   "previous": "48.1"
  },
  {
@@ -1299,7 +1299,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "55.9"
+  "previous": "56.0"
  },
  {
   "date": "2026-11-03",
@@ -1502,7 +1502,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "58.8"
+  "previous": "57.9"
  },
  {
   "date": "2026-11-05",
@@ -1614,7 +1614,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "48.1"
+  "previous": "48.0"
  },
  {
   "date": "2026-11-09",
@@ -1676,6 +1676,26 @@
   "consensus": "",
   "actual": "",
   "previous": "3.99M"
+ },
+ {
+  "date": "2026-11-13",
+  "time": "22:30",
+  "title": "미국 PPI",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "0.5%"
+ },
+ {
+  "date": "2026-11-13",
+  "time": "22:30",
+  "title": "미국 근원 PPI",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "5.0%"
  },
  {
   "date": "2026-11-18",

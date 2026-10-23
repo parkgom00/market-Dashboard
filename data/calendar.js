@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-23 21:23",
+ "generatedAt": "2026-10-24 03:25",
  "events": [
   {
    "date": "2026-01-01",
@@ -1672,7 +1672,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 서비스업 PMI",
    "time": "22:45",
    "result": [
-    "예상 57.9 · 이전 58.8"
+    "실제 57.9 · 예상 57.9 · 이전 58.8"
    ]
   },
   {
@@ -1682,7 +1682,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 제조업 PMI",
    "time": "22:45",
    "result": [
-    "예상 55.4 · 이전 55.9"
+    "실제 56.0 · 예상 55.4 · 이전 55.9"
    ]
   },
   {
@@ -1692,7 +1692,7 @@ window.DASH.calendar = {
    "title": "미시간 소비심리",
    "time": "23:00",
    "result": [
-    "예상 46.3 · 이전 48.1"
+    "실제 48.0 · 예상 46.3 · 이전 48.1"
    ]
   },
   {
@@ -2109,7 +2109,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 제조업 PMI",
    "time": "23:45",
    "result": [
-    "이전 55.9"
+    "이전 56.0"
    ]
   },
   {
@@ -2205,7 +2205,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 서비스업 PMI",
    "time": "23:45",
    "result": [
-    "이전 58.8"
+    "이전 57.9"
    ]
   },
   {
@@ -2277,7 +2277,7 @@ window.DASH.calendar = {
    "title": "미시간 소비심리",
    "time": "00:00",
    "result": [
-    "이전 48.1"
+    "이전 48.0"
    ]
   },
   {
@@ -2318,6 +2318,26 @@ window.DASH.calendar = {
    "time": "00:00",
    "result": [
     "이전 3.99M"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 PPI",
+   "time": "22:30",
+   "result": [
+    "이전 0.5%"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 근원 PPI",
+   "time": "22:30",
+   "result": [
+    "이전 5.0%"
    ]
   },
   {
