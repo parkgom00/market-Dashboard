@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-23 03:25",
+ "generatedAt": "2026-10-23 09:36",
  "events": [
   {
    "date": "2026-01-01",
@@ -1833,7 +1833,7 @@ window.DASH.calendar = {
    "time": "21:30",
    "major": true,
    "result": [
-    "이전 3.4%"
+    "이전 0.3%"
    ]
   },
   {
@@ -1844,7 +1844,7 @@ window.DASH.calendar = {
    "time": "21:30",
    "major": true,
    "result": [
-    "이전 0.2%"
+    "이전 3.0%"
    ]
   },
   {
@@ -1856,6 +1856,13 @@ window.DASH.calendar = {
    "result": [
     "이전 -132.07B"
    ]
+  },
+  {
+   "date": "2026-10-28",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 신규 실업수당 청구",
+   "time": "21:30"
   },
   {
    "date": "2026-10-29",
@@ -1969,7 +1976,10 @@ window.DASH.calendar = {
    "market": "JP",
    "title": "BOJ 금리결정",
    "time": "12:00",
-   "major": true
+   "major": true,
+   "result": [
+    "이전 1.25%"
+   ]
   },
   {
    "date": "2026-10-29",

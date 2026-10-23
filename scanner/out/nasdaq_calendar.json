@@ -957,7 +957,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "3.4%"
+  "previous": "0.3%"
  },
  {
   "date": "2026-10-28",
@@ -967,7 +967,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "0.2%"
+  "previous": "3.0%"
  },
  {
   "date": "2026-10-28",
@@ -978,6 +978,16 @@
   "consensus": "",
   "actual": "",
   "previous": "-132.07B"
+ },
+ {
+  "date": "2026-10-28",
+  "time": "21:30",
+  "title": "미국 신규 실업수당 청구",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": ""
  },
  {
   "date": "2026-10-29",
@@ -1115,7 +1125,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": ""
+  "previous": "1.25%"
  },
  {
   "date": "2026-10-29",
