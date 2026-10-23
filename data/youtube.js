@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-23 19:37",
+ "asOf": "2026-10-23 21:45",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황] “증시 극적인 대 반전!” 그런데 아직 안심할 수 없다… 대공황 폭락장에서도 돈 번 사람들의 비밀ㅣ김동엽 대표",
+     "publishedAt": "2026-10-23 20:00",
+     "url": "https://www.youtube.com/watch?v=Zf1zPKS3gmU"
+    },
     {
      "title": "“개인은 공포에 팔고 고래는 폭풍 매집!” 비트코인 8만 달러… 다음 목표는 10만 달러?   l 타임레버리지 문창훈 작가",
      "publishedAt": "2026-10-23 19:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황]  오늘 벌써 1조 투매한 외인... 왜? / 삼성전자·SK하이닉스 지금 팔면 후회할까… 하락장 끝나는 ‘이 신호’ | 이주현 대표",
      "publishedAt": "2026-10-23 15:00",
      "url": "https://www.youtube.com/watch?v=A807kmRZIsM"
-    },
-    {
-     "title": "[#긴급시황] “금리 떨어졌는데 주가는 왜 폭락?” 메타·반도체주 급락의 진실 / AI 자본조달 위기 다시 터지나ㅣ 박근형 부장",
-     "publishedAt": "2026-10-23 13:49",
-     "url": "https://www.youtube.com/watch?v=_ub_X-xe8eQ"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 23일 미국장 열리기 전 꼭 알아야 하는 '미장 시황' 투자 포인트",
+     "publishedAt": "2026-10-23 21:30",
+     "url": "https://www.youtube.com/watch?v=UcOMutnpjIs"
+    },
+    {
      "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(10.26~10.30)",
      "publishedAt": "2026-10-23 19:28",
      "url": "https://www.youtube.com/watch?v=mJGcENdLVOQ"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "10월 23일 우리가 꼭 알고 있어야 할, 저평가 'AI 클라우드' 소형주",
      "publishedAt": "2026-10-23 14:16",
      "url": "https://www.youtube.com/watch?v=fpIb2YShIKU"
-    },
-    {
-     "title": "앞으로 나올수 있는 하이닉스 호재와 악재는 뭘까?",
-     "publishedAt": "2026-10-23 12:02",
-     "url": "https://www.youtube.com/watch?v=ZUbMfxaogvc"
     }
    ]
   },
