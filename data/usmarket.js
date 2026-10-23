@@ -137,9 +137,9 @@ window.DASH.usmarket = {
    "group": "원자재·기타",
    "name": "비트코인",
    "kind": "usd",
-   "close": 80469.21,
-   "changePct": -1.04,
-   "changeText": "80,469.21 (-1.04%)"
+   "close": 80934.54,
+   "changePct": -0.46,
+   "changeText": "80,934.54 (-0.46%)"
   },
   {
    "group": "원자재·기타",
