@@ -863,9 +863,9 @@
   "title": "미국 건축허가",
   "level": "macro",
   "kind": "econ",
-  "consensus": "-0.2%",
+  "consensus": "1.400M",
   "actual": "",
-  "previous": "-2.1%"
+  "previous": "1.403M"
  },
  {
   "date": "2026-10-27",
@@ -873,7 +873,7 @@
   "title": "미국 내구재 주문",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "1.6%",
   "actual": "",
   "previous": "-0.1%"
  },
@@ -903,7 +903,7 @@
   "title": "미국 소비자신뢰",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "80.5",
   "actual": "",
   "previous": "81.9"
  },
@@ -913,7 +913,7 @@
   "title": "미국 신규주택판매",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "652K",
   "actual": "",
   "previous": "6.4%"
  },
@@ -975,7 +975,7 @@
   "title": "미국 무역수지",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "-125.40B",
   "actual": "",
   "previous": "-132.07B"
  },
@@ -1083,7 +1083,7 @@
   "title": "FOMC 금리결정",
   "level": "major",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "4.00%",
   "actual": "",
   "previous": "4.00%"
  },
@@ -1135,7 +1135,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "0.3%"
+  "previous": "3.4%"
  },
  {
   "date": "2026-10-29",
@@ -1143,7 +1143,7 @@
   "title": "미국 근원 PCE",
   "level": "major",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "0.3%",
   "actual": "",
   "previous": "3.0%"
  },
@@ -1155,7 +1155,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": ""
+  "previous": "194K"
  },
  {
   "date": "2026-10-30",
@@ -1216,7 +1216,7 @@
   "title": "BOJ 금리결정",
   "level": "major",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "1.25%",
   "actual": "",
   "previous": "1.25%"
  },
@@ -1438,7 +1438,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$0.94",
+  "epsForecast": "$1.04",
   "eps": "",
   "surprise": ""
  },
@@ -1804,6 +1804,17 @@
   "kind": "earnings",
   "note": "",
   "epsForecast": "$37.93",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-12-17",
+  "time": "",
+  "title": "나이키 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "",
+  "epsForecast": "$0.36",
   "eps": "",
   "surprise": ""
  },

@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-23 15:29",
+ "generatedAt": "2026-10-23 21:23",
  "events": [
   {
    "date": "2026-01-01",
@@ -414,7 +414,7 @@ window.DASH.calendar = {
    "title": "FOMC 금리 결정 발표 (한국시간 새벽, 미국 10/28)",
    "time": "03:00",
    "result": [
-    "FOMC 금리결정: 이전 4.00%"
+    "FOMC 금리결정: 예상 4.00% · 이전 4.00%"
    ]
   },
   {
@@ -424,8 +424,8 @@ window.DASH.calendar = {
    "title": "미국 PCE 물가지수 발표 · 9월분 (한국시간 저녁)",
    "time": "21:30",
    "result": [
-    "미국 PCE: 이전 0.3%",
-    "미국 근원 PCE: 이전 3.0%"
+    "미국 PCE: 이전 3.4%",
+    "미국 근원 PCE: 예상 0.3% · 이전 3.0%"
    ]
   },
   {
@@ -1761,7 +1761,7 @@ window.DASH.calendar = {
    "title": "미국 건축허가",
    "time": "21:00",
    "result": [
-    "예상 -0.2% · 이전 -2.1%"
+    "예상 1.400M · 이전 1.403M"
    ]
   },
   {
@@ -1771,7 +1771,7 @@ window.DASH.calendar = {
    "title": "미국 내구재 주문",
    "time": "21:30",
    "result": [
-    "이전 -0.1%"
+    "예상 1.6% · 이전 -0.1%"
    ]
   },
   {
@@ -1801,7 +1801,7 @@ window.DASH.calendar = {
    "title": "미국 소비자신뢰",
    "time": "23:00",
    "result": [
-    "이전 81.9"
+    "예상 80.5 · 이전 81.9"
    ]
   },
   {
@@ -1811,7 +1811,7 @@ window.DASH.calendar = {
    "title": "미국 신규주택판매",
    "time": "23:00",
    "result": [
-    "이전 6.4%"
+    "예상 652K · 이전 6.4%"
    ]
   },
   {
@@ -1854,7 +1854,7 @@ window.DASH.calendar = {
    "title": "미국 무역수지",
    "time": "21:30",
    "result": [
-    "이전 -132.07B"
+    "예상 -125.40B · 이전 -132.07B"
    ]
   },
   {
@@ -1986,7 +1986,10 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 신규 실업수당 청구",
-   "time": "21:30"
+   "time": "21:30",
+   "result": [
+    "이전 194K"
+   ]
   },
   {
    "date": "2026-10-30",
@@ -2026,7 +2029,7 @@ window.DASH.calendar = {
    "time": "12:00",
    "major": true,
    "result": [
-    "이전 1.25%"
+    "예상 1.25% · 이전 1.25%"
    ]
   },
   {
