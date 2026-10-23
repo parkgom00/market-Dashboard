@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-23 17:39",
+ "asOf": "2026-10-23 18:34",
  "window": "15:20~15:40",
- "status": "전 종목 2417개 중 후보 56개 점검 (기준 일봉 2026-10-22)",
+ "status": "전 종목 2418개 중 후보 54개 점검 (기준 일봉 2026-10-22)",
  "types": [
   {
    "id": "A",
@@ -55,13 +55,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "반도체와반도체장비",
        "after": {
-        "price": 772000.0,
-        "pct": 2.8
+        "price": 767000.0,
+        "pct": 2.13
        },
-       "marcap": 1018453,
+       "marcap": 1011857,
        "prevClose": 751000.0,
        "changePct": 3.2,
-       "value": 4618,
+       "value": 4630,
        "note": "고가 마감권(고가 대비 0.26% 아래) · 막판 20분 거래량 비중 10% · 수급 자료 확인 전"
       }
      ]
@@ -78,13 +78,13 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "IT서비스",
        "after": {
-        "price": 3630.0,
-        "pct": -7.87
+        "price": 3660.0,
+        "pct": -7.11
        },
-       "marcap": 567,
+       "marcap": 571,
        "prevClose": 3940.0,
        "changePct": -5.96,
-       "value": 131,
+       "value": 132,
        "note": "전일 +12.6% 급등 · 오늘 거래량 전일의 34% · 도지(몸통 28%) · 10일선 3,327 / 20일선 3,435 위 마감"
       }
      ]
@@ -242,16 +242,16 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2417,
-  "candidates": 56,
-  "bars": 56,
-  "naverBars": 56,
+  "quotes": 2418,
+  "candidates": 54,
+  "bars": 54,
+  "naverBars": 54,
   "kisBars": 0,
   "a1": {
-   "후보": 54,
+   "후보": 52,
    "분봉지연": 0,
    "사유": {
-    "고가에서 멂": 36,
+    "고가에서 멂": 34,
     "ok(수급 자료 없음)": 3,
     "막판 거래량 비중 부족": 11,
     "등락률·거래대금 미달": 4
