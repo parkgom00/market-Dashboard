@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-24 23:35",
+ "asOf": "2026-10-25 01:36",
  "channels": [
   {
    "name": "815머니톡",
@@ -41,7 +41,7 @@ window.DASH.youtube = {
    "handle": "@orlandocampus",
    "videos": [
     {
-     "title": "(반도체) 3배 레버리지로 성공할 확률인 과연?",
+     "title": "(반도체) 3배 레버리지로 성공할 확률은 과연?",
      "publishedAt": "2026-10-24 23:19",
      "url": "https://www.youtube.com/watch?v=ysS-wbvCH6c"
     },
