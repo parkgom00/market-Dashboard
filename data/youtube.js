@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-24 19:35",
+ "asOf": "2026-10-24 21:42",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황] 삼성전자·SK하이닉스 드디어 반격하나? 주가 폭락 끝낼 ‘초대형 이벤트’가 다가온다  | 주식황금돼지 이건희 대표",
+     "publishedAt": "2026-10-24 20:00",
+     "url": "https://www.youtube.com/watch?v=6MRxfCgJ3XU"
+    },
     {
      "title": "“이번 폭락장, 정말 공포를 느꼈다!” 바닥권인데도 불안감이 사라지지 않는 이유 / 삼성전자·SK하이닉스 다음 주 운명 갈린다ㅣ이영훈 이사",
      "publishedAt": "2026-10-24 17:30",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#찐시황] “증시 극적인 대 반전!” 그런데 아직 안심할 수 없다… 대공황 폭락장에서도 돈 번 사람들의 비밀ㅣ김동엽 대표",
      "publishedAt": "2026-10-23 20:00",
      "url": "https://www.youtube.com/watch?v=Zf1zPKS3gmU"
-    },
-    {
-     "title": "“개인은 공포에 팔고 고래는 폭풍 매집!” 비트코인 8만 달러… 다음 목표는 10만 달러?   l 타임레버리지 문창훈 작가",
-     "publishedAt": "2026-10-23 19:00",
-     "url": "https://www.youtube.com/watch?v=7OLFwra5cuI"
     }
    ]
   },
