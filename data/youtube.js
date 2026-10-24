@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-24 17:37",
+ "asOf": "2026-10-24 19:35",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“이번 폭락장, 정말 공포를 느꼈다!” 바닥권인데도 불안감이 사라지지 않는 이유 / 삼성전자·SK하이닉스 다음 주 운명 갈린다ㅣ이영훈 이사",
+     "publishedAt": "2026-10-24 17:30",
+     "url": "https://www.youtube.com/watch?v=qNyqnAJ1LeI"
+    },
     {
      "title": "“실적은 역대급인데 왜 팔아치우나?” 헤지펀드 반도체 매도의 진실 / 삼성전자·SK하이닉스 찐 반등 시점은?ㅣ 블랙퀀트에쿼티 윤 진 대표",
      "publishedAt": "2026-10-24 16:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“개인은 공포에 팔고 고래는 폭풍 매집!” 비트코인 8만 달러… 다음 목표는 10만 달러?   l 타임레버리지 문창훈 작가",
      "publishedAt": "2026-10-23 19:00",
      "url": "https://www.youtube.com/watch?v=7OLFwra5cuI"
-    },
-    {
-     "title": "“솔리다임 상장 중단, SK하이닉스 악재 해소되나?” 삼성전자까지 대형 호재일까 / 현대차 반등은 언제 시작될까?  l 메리츠증권 이화진 차장",
-     "publishedAt": "2026-10-23 17:30",
-     "url": "https://www.youtube.com/watch?v=tfy3r8taP6o"
     }
    ]
   },
