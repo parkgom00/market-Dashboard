@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-24 13:36",
+ "asOf": "2026-10-24 15:42",
  "channels": [
   {
    "name": "815머니톡",
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "[월간 안테나] 1인당 8GB, 시장이 간과한 D램 수요?",
+     "publishedAt": "2026-10-24 14:42",
+     "url": "https://www.youtube.com/watch?v=EWJY8pk_rgc"
+    },
+    {
      "title": "90% vs 60%? HBM 베이스 다이 주도권 경쟁 갈렸다!!",
      "publishedAt": "2026-10-23 19:00",
      "url": "https://www.youtube.com/watch?v=w_fNqMsFc8k"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[또 긴급편성] 반도체 물린 분들 냉정하게 들어보세요!!",
      "publishedAt": "2026-10-20 19:03",
      "url": "https://www.youtube.com/watch?v=3iCJnDb1Zug"
-    },
-    {
-     "title": "[특집] 불과 5달 만에 시장 전망치 2배 이상 증가한 이 부품? AI 인프라 핵심으로 우뚝!!",
-     "publishedAt": "2026-10-20",
-     "url": "https://www.youtube.com/watch?v=jhUlmQjMYE0"
     }
    ]
   },
@@ -137,6 +137,11 @@ window.DASH.youtube = {
    "handle": "@김단테",
    "videos": [
     {
+     "title": "드릴 말씀이 있습니다.",
+     "publishedAt": "2026-10-24 13:42",
+     "url": "https://www.youtube.com/watch?v=Zn6yIuZUG5E"
+    },
+    {
      "title": "이번 폭락보다 더 큰 문제가 있습니다.",
      "publishedAt": "2026-10-23 10:09",
      "url": "https://www.youtube.com/watch?v=88JuhT1pxag"
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "또 다른 AI 펀드 청산? 코어위브 위기 전염? AI 주식 최악의 시나리오로 가나?",
      "publishedAt": "2026-10-18",
      "url": "https://www.youtube.com/watch?v=NhSEP0KFais"
-    },
-    {
-     "title": "AI 주식들은 이제 끝?",
-     "publishedAt": "2026-10-17",
-     "url": "https://www.youtube.com/watch?v=CviFrBH_K2M"
     }
    ]
   },
