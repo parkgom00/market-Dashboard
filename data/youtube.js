@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-24 21:42",
+ "asOf": "2026-10-24 23:35",
  "channels": [
   {
    "name": "815머니톡",
@@ -41,6 +41,11 @@ window.DASH.youtube = {
    "handle": "@orlandocampus",
    "videos": [
     {
+     "title": "(반도체) 3배 레버리지로 성공할 확률인 과연?",
+     "publishedAt": "2026-10-24 23:19",
+     "url": "https://www.youtube.com/watch?v=ysS-wbvCH6c"
+    },
+    {
      "title": "(시황분석) 유가 폭등이 시장전반의 심리를 불안하게 만든다.",
      "publishedAt": "2026-10-24 08:51",
      "url": "https://www.youtube.com/watch?v=THEMlFZF4Ss"
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 신용문제 보다는 기술병목에 집중하자!!!",
      "publishedAt": "2026-10-22 05:26",
      "url": "https://www.youtube.com/watch?v=P8w33I1uKiE"
-    },
-    {
-     "title": "(반도체) 매수와 매도세가 강하게 싸운다!!!",
-     "publishedAt": "2026-10-21 14:33",
-     "url": "https://www.youtube.com/watch?v=cAjPgPS53Po"
     }
    ]
   },
