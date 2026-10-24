@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-24 15:42",
+ "asOf": "2026-10-24 17:37",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,8 +9,13 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
+     "title": "“실적은 역대급인데 왜 팔아치우나?” 헤지펀드 반도체 매도의 진실 / 삼성전자·SK하이닉스 찐 반등 시점은?ㅣ 블랙퀀트에쿼티 윤 진 대표",
+     "publishedAt": "2026-10-24 16:00",
+     "url": "https://www.youtube.com/watch?v=JaLRHTG_Kks"
+    },
+    {
      "title": "“다음 주가 진짜 고비다!” 폭풍 매도 속 삼성전자 700만 주 쓸어담은 외국인… 지금 과감한 결단이 필요한 이유 ㅣ오로라 투자 자문 이지환 대표",
-     "publishedAt": "2026-10-24 08:53",
+     "publishedAt": "2026-10-24 08:30",
      "url": "https://www.youtube.com/watch?v=opGzmrmCnYs"
     },
     {
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“솔리다임 상장 중단, SK하이닉스 악재 해소되나?” 삼성전자까지 대형 호재일까 / 현대차 반등은 언제 시작될까?  l 메리츠증권 이화진 차장",
      "publishedAt": "2026-10-23 17:30",
      "url": "https://www.youtube.com/watch?v=tfy3r8taP6o"
-    },
-    {
-     "title": "[#글로벌인사이트] “엔비디아도 없어서 못 구한다?” 한국 핵심 부품의 정체 / 일론 머스크, AI데이터센터  가격 상승에 베팅한 이유 (삼성전기) 노근창 대표",
-     "publishedAt": "2026-10-23 16:00",
-     "url": "https://www.youtube.com/watch?v=Cm7DCct7Xbw"
     }
    ]
   },
@@ -42,7 +42,7 @@ window.DASH.youtube = {
    "videos": [
     {
      "title": "(시황분석) 유가 폭등이 시장전반의 심리를 불안하게 만든다.",
-     "publishedAt": "2026-10-24 08:53",
+     "publishedAt": "2026-10-24 08:51",
      "url": "https://www.youtube.com/watch?v=THEMlFZF4Ss"
     },
     {
@@ -74,7 +74,7 @@ window.DASH.youtube = {
    "videos": [
     {
      "title": "[월간 안테나] 1인당 8GB, 시장이 간과한 D램 수요?",
-     "publishedAt": "2026-10-24 14:42",
+     "publishedAt": "2026-10-24 14:00",
      "url": "https://www.youtube.com/watch?v=EWJY8pk_rgc"
     },
     {
@@ -93,9 +93,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=m7qCEyIg7s0"
     },
     {
-     "title": "[또 긴급편성] 반도체 물린 분들 냉정하게 들어보세요!!",
-     "publishedAt": "2026-10-20 19:03",
-     "url": "https://www.youtube.com/watch?v=3iCJnDb1Zug"
+     "title": "[실전 투자 스터디] 지금 현금 가지고 있으면 뭐 살 건가요?",
+     "publishedAt": "2026-10-21 18:30",
+     "url": "https://www.youtube.com/watch?v=bNqpk8Iz3o4"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "요즘 한국시장이, 계속 미국 시장 '하락'에 끌려다니는 이유",
+     "publishedAt": "2026-10-24 16:00",
+     "url": "https://www.youtube.com/watch?v=Sl-xaZDGZXM"
+    },
+    {
+     "title": "투자자들이 꼭 알아야 하는 다음 주 미국 투자 포인트(10.26~10.30)",
+     "publishedAt": "2026-10-24 13:00",
+     "url": "https://www.youtube.com/watch?v=7ZFGxk2nbiE"
+    },
+    {
      "title": "하락장, 상승장 아무 영향 안 받고 기초자산 불리는 방법",
-     "publishedAt": "2026-10-24 10:36",
+     "publishedAt": "2026-10-24 10:00",
      "url": "https://www.youtube.com/watch?v=VYqLOZkGBIw"
     },
     {
-     "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(10.26~10.30)",
-     "publishedAt": "2026-10-23 19:28",
-     "url": "https://www.youtube.com/watch?v=mJGcENdLVOQ"
+     "title": "투자자들이 꼭 알아야 하는 다음 주 한국 투자 포인트(10.26~10.30)",
+     "publishedAt": "2026-10-24 09:38",
+     "url": "https://www.youtube.com/watch?v=FgZ_AtNbN9Y"
     },
     {
-     "title": "코스피 재평가 구간 진입, 하락장 때 매수해야 하는 이유",
-     "publishedAt": "2026-10-23",
-     "url": "https://www.youtube.com/watch?v=qNPxRnb0w9g"
-    },
-    {
-     "title": "11월만 되면, 주식이 유독 '더 많이 오르는' 진짜 이유",
-     "publishedAt": "2026-10-23",
-     "url": "https://www.youtube.com/watch?v=7bx5ZoOuNc4"
-    },
-    {
-     "title": "코스피 바닥에서 시작된 '실적 시즌' 투자 포인트는?",
-     "publishedAt": "2026-10-22",
-     "url": "https://www.youtube.com/watch?v=lhYvgDJUKNM"
+     "title": "10월 23일 외국인이 한국인 몰래 매수한 종목 정체",
+     "publishedAt": "2026-10-23 22:30",
+     "url": "https://www.youtube.com/watch?v=QJhfCvGiGnU"
     }
    ]
   },
@@ -138,8 +138,13 @@ window.DASH.youtube = {
    "videos": [
     {
      "title": "드릴 말씀이 있습니다.",
-     "publishedAt": "2026-10-24 13:42",
+     "publishedAt": "2026-10-24 13:41",
      "url": "https://www.youtube.com/watch?v=Zn6yIuZUG5E"
+    },
+    {
+     "title": "메타가 촉발한 AI 버블론! #메타 #코스피 #솔리다임",
+     "publishedAt": "2026-10-23 11:23",
+     "url": "https://www.youtube.com/watch?v=Ifr6_OYsEBI"
     },
     {
      "title": "이번 폭락보다 더 큰 문제가 있습니다.",
@@ -152,14 +157,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=4sdi2vGvY8k"
     },
     {
-     "title": "나스닥 상승의 진짜 이유",
-     "publishedAt": "2026-10-20",
-     "url": "https://www.youtube.com/watch?v=wSmkhWHEYNM"
-    },
-    {
-     "title": "또 다른 AI 펀드 청산? 코어위브 위기 전염? AI 주식 최악의 시나리오로 가나?",
-     "publishedAt": "2026-10-18",
-     "url": "https://www.youtube.com/watch?v=NhSEP0KFais"
+     "title": "꿈도 희망도 없는 한국 증시 #코스피 #하이닉스 #후티반군",
+     "publishedAt": "2026-10-22 15:34",
+     "url": "https://www.youtube.com/watch?v=EYFp7ANi5zo"
     }
    ]
   },
@@ -179,11 +179,6 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=quJTDt4JGpU"
     },
     {
-     "title": "AI 약한고리 결국 터진다? 극단적 공포 구간 진입/올 연말까진 기회, 내년이 진짜 위기?",
-     "publishedAt": "2026-10-19",
-     "url": "https://www.youtube.com/watch?v=A7B-vm2lGps"
-    },
-    {
      "title": "금리 5.5%가 증시 충격 마지노선? 월가 초고수들의 경고, 대비해야 할까",
      "publishedAt": "2026-10-14 20:39",
      "url": "https://www.youtube.com/watch?v=PrEHp2DoRVU"
@@ -192,6 +187,11 @@ window.DASH.youtube = {
      "title": "스페이스X의 반격 시작? 머스크의 호언장담 현실 될까",
      "publishedAt": "2026-10-13 20:11",
      "url": "https://www.youtube.com/watch?v=_LOD9GYd1Qk"
+    },
+    {
+     "title": "AI투자 판도 조용히 바뀌는 중? 부진했던 빅테크, 팔란티어의 수상한 신고가",
+     "publishedAt": "2026-10-12 21:12",
+     "url": "https://www.youtube.com/watch?v=ILs31CN-_VA"
     }
    ]
   }
