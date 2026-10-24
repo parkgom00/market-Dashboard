@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-24 09:53",
+ "asOf": "2026-10-24 11:36",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "하락장, 상승장 아무 영향 안 받고 기초자산 불리는 방법",
+     "publishedAt": "2026-10-24 10:36",
+     "url": "https://www.youtube.com/watch?v=VYqLOZkGBIw"
+    },
+    {
      "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(10.26~10.30)",
      "publishedAt": "2026-10-23 19:28",
      "url": "https://www.youtube.com/watch?v=mJGcENdLVOQ"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "코스피 바닥에서 시작된 '실적 시즌' 투자 포인트는?",
      "publishedAt": "2026-10-22",
      "url": "https://www.youtube.com/watch?v=lhYvgDJUKNM"
-    },
-    {
-     "title": "스페이스X가 로켓보다 AI 사업에 더 많은 돈을 쓰는 이유",
-     "publishedAt": "2026-10-22",
-     "url": "https://www.youtube.com/watch?v=mKbboQXLmQ0"
     }
    ]
   },
