@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-25 19:36",
+ "asOf": "2026-10-25 21:41",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황]  “외국인이 수상하다!” 현물 1조 팔고 선물은 매수… 삼성전자·SK하이닉스  다음 주 운명 갈린다 | 미래에셋자산운용 최창규 이사",
+     "publishedAt": "2026-10-25 20:00",
+     "url": "https://www.youtube.com/watch?v=b2my6Nq32rs"
+    },
     {
      "title": "반도체 소부장 아직 끝나지 않았다! / ESS 내년 실적 개선, 2차전지 지금이 매수 기회일까?ㅣ이영훈 이사",
      "publishedAt": "2026-10-25 17:30",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#찐시황] 삼성전자·SK하이닉스 드디어 반격하나? 주가 폭락 끝낼 ‘초대형 이벤트’가 다가온다  | 주식황금돼지 이건희 대표",
      "publishedAt": "2026-10-24 20:00",
      "url": "https://www.youtube.com/watch?v=6MRxfCgJ3XU"
-    },
-    {
-     "title": "“이번 폭락장, 정말 공포를 느꼈다!” 바닥권인데도 불안감이 사라지지 않는 이유 / 삼성전자·SK하이닉스 다음 주 운명 갈린다ㅣ이영훈 이사",
-     "publishedAt": "2026-10-24 17:30",
-     "url": "https://www.youtube.com/watch?v=qNyqnAJ1LeI"
     }
    ]
   },
@@ -169,11 +169,6 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
-     "title": "갑자기 자금줄 뚝? 불확실 최고조 구간 올까/월가 은둔 초고수의 예언, 또 적중할까/주식 안팔아도 세금 낸다? 억만장자세 실현될까/키덜트 덕에 부활한 장난감 회사들",
-     "publishedAt": "2026-10-25 18:54",
-     "url": "https://www.youtube.com/watch?v=l7G-dkgkDEk"
-    },
-    {
      "title": "\"1999년 붕괴 직전과 완벽히 똑같다\" 월가 초고수의 변심, 적중할까",
      "publishedAt": "2026-10-20 19:22",
      "url": "https://www.youtube.com/watch?v=JFtx8IXlz5c"
@@ -192,6 +187,11 @@ window.DASH.youtube = {
      "title": "스페이스X의 반격 시작? 머스크의 호언장담 현실 될까",
      "publishedAt": "2026-10-13 20:11",
      "url": "https://www.youtube.com/watch?v=_LOD9GYd1Qk"
+    },
+    {
+     "title": "AI투자 판도 조용히 바뀌는 중? 부진했던 빅테크, 팔란티어의 수상한 신고가",
+     "publishedAt": "2026-10-12 21:12",
+     "url": "https://www.youtube.com/watch?v=ILs31CN-_VA"
     }
    ]
   }
