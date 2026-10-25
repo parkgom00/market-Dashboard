@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-25 15:43",
+ "asOf": "2026-10-25 17:37",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,8 +9,18 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
+     "title": "반도체 소부장 아직 끝나지 않았다! / ESS 내년 실적 개선, 2차전지 지금이 매수 기회일까?ㅣ이영훈 이사",
+     "publishedAt": "2026-10-25 17:30",
+     "url": "https://www.youtube.com/watch?v=Xxu5sqHcCbA"
+    },
+    {
+     "title": "“중국 반도체 치킨게임 시작되나?” 메모리 가격 전쟁에 삼성전자·SK하이닉스 비상… 최후의 승자는 누구?ㅣ 블랙퀀트에쿼티 윤 진 대표",
+     "publishedAt": "2026-10-25 16:00",
+     "url": "https://www.youtube.com/watch?v=5v_OgboQYx8"
+    },
+    {
      "title": "HBM은 SK하이닉스, 온디바이스 AI는 삼성전자? / AI 반도체 주도권 대 역전 시작된다ㅣ오로라투자자문 이지환 대표",
-     "publishedAt": "2026-10-25 08:45",
+     "publishedAt": "2026-10-25 08:30",
      "url": "https://www.youtube.com/watch?v=JcLYlAz5sJY"
     },
     {
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "“이번 폭락장, 정말 공포를 느꼈다!” 바닥권인데도 불안감이 사라지지 않는 이유 / 삼성전자·SK하이닉스 다음 주 운명 갈린다ㅣ이영훈 이사",
      "publishedAt": "2026-10-24 17:30",
      "url": "https://www.youtube.com/watch?v=qNyqnAJ1LeI"
-    },
-    {
-     "title": "“실적은 역대급인데 왜 팔아치우나?” 헤지펀드 반도체 매도의 진실 / 삼성전자·SK하이닉스 찐 반등 시점은?ㅣ 블랙퀀트에쿼티 윤 진 대표",
-     "publishedAt": "2026-10-24 16:00",
-     "url": "https://www.youtube.com/watch?v=JaLRHTG_Kks"
-    },
-    {
-     "title": "“다음 주가 진짜 고비다!” 폭풍 매도 속 삼성전자 700만 주 쓸어담은 외국인… 지금 과감한 결단이 필요한 이유 ㅣ오로라 투자 자문 이지환 대표",
-     "publishedAt": "2026-10-24 08:30",
-     "url": "https://www.youtube.com/watch?v=opGzmrmCnYs"
     }
    ]
   },
@@ -74,7 +74,7 @@ window.DASH.youtube = {
    "videos": [
     {
      "title": "[몰아보기] 첨단 패키징 시장 판을 흔들 삼성의 무기는?",
-     "publishedAt": "2026-10-25 14:43",
+     "publishedAt": "2026-10-25 14:00",
      "url": "https://www.youtube.com/watch?v=jYJuujSfUa4"
     },
     {
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "AI절대 안 망한다, 삼전닉스가 준비하는 '차세대 메모리' 정체",
+     "publishedAt": "2026-10-25 14:00",
+     "url": "https://www.youtube.com/watch?v=05eN_Yk6JNg"
+    },
+    {
+     "title": "하락장에서 '분할매수'가 한 번에 사는 것보다 유리한 이유",
+     "publishedAt": "2026-10-25 10:00",
+     "url": "https://www.youtube.com/watch?v=ui4LK9daC8w"
+    },
+    {
+     "title": "요즘 한국시장이, 계속 미국 시장 '하락'에 끌려다니는 이유",
+     "publishedAt": "2026-10-24 16:00",
+     "url": "https://www.youtube.com/watch?v=Sl-xaZDGZXM"
+    },
+    {
+     "title": "투자자들이 꼭 알아야 하는 다음 주 미국 투자 포인트(10.26~10.30)",
+     "publishedAt": "2026-10-24 13:00",
+     "url": "https://www.youtube.com/watch?v=7ZFGxk2nbiE"
+    },
+    {
      "title": "하락장, 상승장 아무 영향 안 받고 기초자산 불리는 방법",
      "publishedAt": "2026-10-24 10:00",
      "url": "https://www.youtube.com/watch?v=VYqLOZkGBIw"
-    },
-    {
-     "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(10.26~10.30)",
-     "publishedAt": "2026-10-24",
-     "url": "https://www.youtube.com/watch?v=mJGcENdLVOQ"
-    },
-    {
-     "title": "코스피 재평가 구간 진입, 하락장 때 매수해야 하는 이유",
-     "publishedAt": "2026-10-23",
-     "url": "https://www.youtube.com/watch?v=qNPxRnb0w9g"
-    },
-    {
-     "title": "11월만 되면, 주식이 유독 '더 많이 오르는' 진짜 이유",
-     "publishedAt": "2026-10-23",
-     "url": "https://www.youtube.com/watch?v=7bx5ZoOuNc4"
-    },
-    {
-     "title": "코스피 바닥에서 시작된 '실적 시즌' 투자 포인트는?",
-     "publishedAt": "2026-10-22",
-     "url": "https://www.youtube.com/watch?v=lhYvgDJUKNM"
     }
    ]
   },
@@ -142,6 +142,11 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=Zn6yIuZUG5E"
     },
     {
+     "title": "메타가 촉발한 AI 버블론! #메타 #코스피 #솔리다임",
+     "publishedAt": "2026-10-23 11:23",
+     "url": "https://www.youtube.com/watch?v=Ifr6_OYsEBI"
+    },
+    {
      "title": "이번 폭락보다 더 큰 문제가 있습니다.",
      "publishedAt": "2026-10-23 10:09",
      "url": "https://www.youtube.com/watch?v=88JuhT1pxag"
@@ -152,14 +157,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=4sdi2vGvY8k"
     },
     {
-     "title": "나스닥 상승의 진짜 이유",
-     "publishedAt": "2026-10-20",
-     "url": "https://www.youtube.com/watch?v=wSmkhWHEYNM"
-    },
-    {
-     "title": "또 다른 AI 펀드 청산? 코어위브 위기 전염? AI 주식 최악의 시나리오로 가나?",
-     "publishedAt": "2026-10-18",
-     "url": "https://www.youtube.com/watch?v=NhSEP0KFais"
+     "title": "꿈도 희망도 없는 한국 증시 #코스피 #하이닉스 #후티반군",
+     "publishedAt": "2026-10-22 15:34",
+     "url": "https://www.youtube.com/watch?v=EYFp7ANi5zo"
     }
    ]
   },
@@ -179,11 +179,6 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=quJTDt4JGpU"
     },
     {
-     "title": "AI 약한고리 결국 터진다? 극단적 공포 구간 진입/올 연말까진 기회, 내년이 진짜 위기?",
-     "publishedAt": "2026-10-19",
-     "url": "https://www.youtube.com/watch?v=A7B-vm2lGps"
-    },
-    {
      "title": "금리 5.5%가 증시 충격 마지노선? 월가 초고수들의 경고, 대비해야 할까",
      "publishedAt": "2026-10-14 20:39",
      "url": "https://www.youtube.com/watch?v=PrEHp2DoRVU"
@@ -192,6 +187,11 @@ window.DASH.youtube = {
      "title": "스페이스X의 반격 시작? 머스크의 호언장담 현실 될까",
      "publishedAt": "2026-10-13 20:11",
      "url": "https://www.youtube.com/watch?v=_LOD9GYd1Qk"
+    },
+    {
+     "title": "AI투자 판도 조용히 바뀌는 중? 부진했던 빅테크, 팔란티어의 수상한 신고가",
+     "publishedAt": "2026-10-12 21:12",
+     "url": "https://www.youtube.com/watch?v=ILs31CN-_VA"
     }
    ]
   }
