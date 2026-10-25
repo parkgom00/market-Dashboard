@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-25 17:37",
+ "asOf": "2026-10-25 19:36",
  "channels": [
   {
    "name": "815머니톡",
@@ -41,6 +41,11 @@ window.DASH.youtube = {
    "handle": "@orlandocampus",
    "videos": [
     {
+     "title": "(주간시황) 다음주 금리와 빅테크 실적이 반등을 나오게 하나?",
+     "publishedAt": "2026-10-25 19:22",
+     "url": "https://www.youtube.com/watch?v=rzw22vOHhFU"
+    },
+    {
      "title": "(반도체) 3배 레버리지로 성공할 확률은 과연?",
      "publishedAt": "2026-10-24 23:19",
      "url": "https://www.youtube.com/watch?v=ysS-wbvCH6c"
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(테슬라) 실적은 나쁘지 않지만 지금 가격을 정당화 하기에는 부족하다",
      "publishedAt": "2026-10-22 15:37",
      "url": "https://www.youtube.com/watch?v=aM_7lDT9kBs"
-    },
-    {
-     "title": "(시황분석) 신용문제 보다는 기술병목에 집중하자!!!",
-     "publishedAt": "2026-10-22 05:26",
-     "url": "https://www.youtube.com/watch?v=P8w33I1uKiE"
     }
    ]
   },
@@ -169,6 +169,11 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
+     "title": "갑자기 자금줄 뚝? 불확실 최고조 구간 올까/월가 은둔 초고수의 예언, 또 적중할까/주식 안팔아도 세금 낸다? 억만장자세 실현될까/키덜트 덕에 부활한 장난감 회사들",
+     "publishedAt": "2026-10-25 18:54",
+     "url": "https://www.youtube.com/watch?v=l7G-dkgkDEk"
+    },
+    {
      "title": "\"1999년 붕괴 직전과 완벽히 똑같다\" 월가 초고수의 변심, 적중할까",
      "publishedAt": "2026-10-20 19:22",
      "url": "https://www.youtube.com/watch?v=JFtx8IXlz5c"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "스페이스X의 반격 시작? 머스크의 호언장담 현실 될까",
      "publishedAt": "2026-10-13 20:11",
      "url": "https://www.youtube.com/watch?v=_LOD9GYd1Qk"
-    },
-    {
-     "title": "AI투자 판도 조용히 바뀌는 중? 부진했던 빅테크, 팔란티어의 수상한 신고가",
-     "publishedAt": "2026-10-12 21:12",
-     "url": "https://www.youtube.com/watch?v=ILs31CN-_VA"
     }
    ]
   }
