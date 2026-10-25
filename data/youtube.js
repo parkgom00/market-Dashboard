@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-26 05:33",
+ "asOf": "2026-10-26 07:32",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[10월26일 #장시작전]  중동 긴장에 국제유가 급등! 뉴욕증시 하락 / 골드만, 코스피 목표 9,000으로 낮춘 이유",
+     "publishedAt": "2026-10-26 06:21",
+     "url": "https://www.youtube.com/watch?v=SmQsB8Yzo9E"
+    },
     {
      "title": "[#찐시황]  “외국인이 수상하다!” 현물 1조 팔고 선물은 매수… 삼성전자·SK하이닉스  다음 주 운명 갈린다 | 미래에셋자산운용 최창규 이사",
      "publishedAt": "2026-10-25 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "HBM은 SK하이닉스, 온디바이스 AI는 삼성전자? / AI 반도체 주도권 대 역전 시작된다ㅣ오로라투자자문 이지환 대표",
      "publishedAt": "2026-10-25 08:30",
      "url": "https://www.youtube.com/watch?v=JcLYlAz5sJY"
-    },
-    {
-     "title": "[#찐시황] 삼성전자·SK하이닉스 드디어 반격하나? 주가 폭락 끝낼 ‘초대형 이벤트’가 다가온다  | 주식황금돼지 이건희 대표",
-     "publishedAt": "2026-10-24 20:00",
-     "url": "https://www.youtube.com/watch?v=6MRxfCgJ3XU"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 26일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-10-26 07:04",
+     "url": "https://www.youtube.com/watch?v=OrJ9e0pzTlE"
+    },
+    {
      "title": "AI절대 안 망한다, 삼전닉스가 준비하는 '차세대 메모리' 정체",
      "publishedAt": "2026-10-25 14:00",
      "url": "https://www.youtube.com/watch?v=05eN_Yk6JNg"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "투자자들이 꼭 알아야 하는 다음 주 미국 투자 포인트(10.26~10.30)",
      "publishedAt": "2026-10-24 13:00",
      "url": "https://www.youtube.com/watch?v=7ZFGxk2nbiE"
-    },
-    {
-     "title": "하락장, 상승장 아무 영향 안 받고 기초자산 불리는 방법",
-     "publishedAt": "2026-10-24 10:00",
-     "url": "https://www.youtube.com/watch?v=VYqLOZkGBIw"
     }
    ]
   },
