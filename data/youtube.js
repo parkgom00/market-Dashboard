@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-25 13:37",
+ "asOf": "2026-10-25 15:43",
  "channels": [
   {
    "name": "815머니톡",
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "[몰아보기] 첨단 패키징 시장 판을 흔들 삼성의 무기는?",
+     "publishedAt": "2026-10-25 14:43",
+     "url": "https://www.youtube.com/watch?v=jYJuujSfUa4"
+    },
+    {
      "title": "[월간 안테나] 1인당 8GB, 시장이 간과한 D램 수요?",
      "publishedAt": "2026-10-24 14:00",
      "url": "https://www.youtube.com/watch?v=EWJY8pk_rgc"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[월간 안테나] 엔비디아에 이어 삼성전자도 참전, 첨단 패키징 판이 바뀐다!!",
      "publishedAt": "2026-10-21 19:00",
      "url": "https://www.youtube.com/watch?v=m7qCEyIg7s0"
-    },
-    {
-     "title": "[또 긴급편성] 반도체 물린 분들 냉정하게 들어보세요!!",
-     "publishedAt": "2026-10-21",
-     "url": "https://www.youtube.com/watch?v=3iCJnDb1Zug"
     }
    ]
   },
