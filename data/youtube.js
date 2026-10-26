@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-26 13:40",
+ "asOf": "2026-10-26 15:50",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급시황] “외국인은 오늘 삼전·하닉 3천억 던졌는데…” 글로벌 펀드는 저점에서 사들인다? / 삼성전자·SK하이닉스 진짜 바닥인가? ㅣ박근형 부장",
+     "publishedAt": "2026-10-26 15:00",
+     "url": "https://www.youtube.com/watch?v=FovHBZ8ZCzU"
+    },
     {
      "title": "[#긴급시황] “삼전·하닉 왜 이렇게 힘이 없나?” 하락장 끝나가나, 추가 폭락 시작인가? ㅣ이주현 대표",
      "publishedAt": "2026-10-26 13:33",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[10월26일 #장시작전] 유가부담·美선거 vs AI 메모리·특별배당…시장 방향 어디로",
      "publishedAt": "2026-10-26 06:21",
      "url": "https://www.youtube.com/watch?v=SmQsB8Yzo9E"
-    },
-    {
-     "title": "[#찐시황]  “외국인이 수상하다!” 현물 1조 팔고 선물은 매수… 삼성전자·SK하이닉스  다음 주 운명 갈린다 | 미래에셋자산운용 최창규 이사",
-     "publishedAt": "2026-10-25 20:00",
-     "url": "https://www.youtube.com/watch?v=b2my6Nq32rs"
     }
    ]
   },
