@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-26 07:32",
+ "asOf": "2026-10-26 09:59",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "10월 26일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-10-26 07:04",
-     "url": "https://www.youtube.com/watch?v=OrJ9e0pzTlE"
+     "title": "하락장, 상승장 아무 영향 안 받고 기초자산 불리는 방법",
+     "publishedAt": "2026-10-25",
+     "url": "https://www.youtube.com/watch?v=VYqLOZkGBIw"
     },
     {
-     "title": "AI절대 안 망한다, 삼전닉스가 준비하는 '차세대 메모리' 정체",
-     "publishedAt": "2026-10-25 14:00",
-     "url": "https://www.youtube.com/watch?v=05eN_Yk6JNg"
+     "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(10.26~10.30)",
+     "publishedAt": "2026-10-24",
+     "url": "https://www.youtube.com/watch?v=mJGcENdLVOQ"
     },
     {
-     "title": "하락장에서 '분할매수'가 한 번에 사는 것보다 유리한 이유",
-     "publishedAt": "2026-10-25 10:00",
-     "url": "https://www.youtube.com/watch?v=ui4LK9daC8w"
+     "title": "코스피 재평가 구간 진입, 하락장 때 매수해야 하는 이유",
+     "publishedAt": "2026-10-23",
+     "url": "https://www.youtube.com/watch?v=qNPxRnb0w9g"
     },
     {
-     "title": "요즘 한국시장이, 계속 미국 시장 '하락'에 끌려다니는 이유",
-     "publishedAt": "2026-10-24 16:00",
-     "url": "https://www.youtube.com/watch?v=Sl-xaZDGZXM"
+     "title": "11월만 되면, 주식이 유독 '더 많이 오르는' 진짜 이유",
+     "publishedAt": "2026-10-23",
+     "url": "https://www.youtube.com/watch?v=7bx5ZoOuNc4"
     },
     {
-     "title": "투자자들이 꼭 알아야 하는 다음 주 미국 투자 포인트(10.26~10.30)",
-     "publishedAt": "2026-10-24 13:00",
-     "url": "https://www.youtube.com/watch?v=7ZFGxk2nbiE"
+     "title": "코스피 바닥에서 시작된 '실적 시즌' 투자 포인트는?",
+     "publishedAt": "2026-10-22",
+     "url": "https://www.youtube.com/watch?v=lhYvgDJUKNM"
     }
    ]
   },
@@ -142,11 +142,6 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=Zn6yIuZUG5E"
     },
     {
-     "title": "메타가 촉발한 AI 버블론! #메타 #코스피 #솔리다임",
-     "publishedAt": "2026-10-23 11:23",
-     "url": "https://www.youtube.com/watch?v=Ifr6_OYsEBI"
-    },
-    {
      "title": "이번 폭락보다 더 큰 문제가 있습니다.",
      "publishedAt": "2026-10-23 10:09",
      "url": "https://www.youtube.com/watch?v=88JuhT1pxag"
@@ -157,9 +152,14 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=4sdi2vGvY8k"
     },
     {
-     "title": "꿈도 희망도 없는 한국 증시 #코스피 #하이닉스 #후티반군",
-     "publishedAt": "2026-10-22 15:34",
-     "url": "https://www.youtube.com/watch?v=EYFp7ANi5zo"
+     "title": "나스닥 상승의 진짜 이유",
+     "publishedAt": "2026-10-20",
+     "url": "https://www.youtube.com/watch?v=wSmkhWHEYNM"
+    },
+    {
+     "title": "또 다른 AI 펀드 청산? 코어위브 위기 전염? AI 주식 최악의 시나리오로 가나?",
+     "publishedAt": "2026-10-18",
+     "url": "https://www.youtube.com/watch?v=NhSEP0KFais"
     }
    ]
   },
@@ -168,6 +168,11 @@ window.DASH.youtube = {
    "channelId": "UCC3yfxS5qC6PCwDzetUuEWg",
    "handle": "@sosumonkey",
    "videos": [
+    {
+     "title": "갑자기 자금줄 뚝? 불확실 최고조 구간 올까/월가 은둔 초고수의 예언, 또 적중할까/주식 안팔아도 세금 낸다? 억만장자세 실현될까/키덜트 덕에 부활한 장난감 회사들",
+     "publishedAt": "2026-10-25 21:59",
+     "url": "https://www.youtube.com/watch?v=l7G-dkgkDEk"
+    },
     {
      "title": "\"1999년 붕괴 직전과 완벽히 똑같다\" 월가 초고수의 변심, 적중할까",
      "publishedAt": "2026-10-20 19:22",
@@ -179,19 +184,14 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=quJTDt4JGpU"
     },
     {
+     "title": "AI 약한고리 결국 터진다? 극단적 공포 구간 진입/올 연말까진 기회, 내년이 진짜 위기?",
+     "publishedAt": "2026-10-19",
+     "url": "https://www.youtube.com/watch?v=A7B-vm2lGps"
+    },
+    {
      "title": "금리 5.5%가 증시 충격 마지노선? 월가 초고수들의 경고, 대비해야 할까",
      "publishedAt": "2026-10-14 20:39",
      "url": "https://www.youtube.com/watch?v=PrEHp2DoRVU"
-    },
-    {
-     "title": "스페이스X의 반격 시작? 머스크의 호언장담 현실 될까",
-     "publishedAt": "2026-10-13 20:11",
-     "url": "https://www.youtube.com/watch?v=_LOD9GYd1Qk"
-    },
-    {
-     "title": "AI투자 판도 조용히 바뀌는 중? 부진했던 빅테크, 팔란티어의 수상한 신고가",
-     "publishedAt": "2026-10-12 21:12",
-     "url": "https://www.youtube.com/watch?v=ILs31CN-_VA"
     }
    ]
   }
