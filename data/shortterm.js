@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-26 19:42",
+ "asOf": "2026-10-26 22:57",
  "window": "15:20~15:40",
- "status": "전 종목 2415개 중 후보 50개 점검 (기준 일봉 2026-10-23)",
+ "status": "전 종목 2418개 중 후보 50개 점검 (기준 일봉 2026-10-23)",
  "types": [
   {
    "id": "A",
@@ -296,7 +296,7 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2415,
+  "quotes": 2418,
   "candidates": 50,
   "bars": 50,
   "naverBars": 50,
@@ -309,12 +309,12 @@ window.DASH.shortterm = {
     "고가에서 멂": 38,
     "막판 거래량 비중 부족": 3
    },
-   "수급자료": 0,
+   "수급자료": 49,
    "막판비중_중앙값": 0.024,
    "막판비중_최대": 0.131
   }
  },
- "flowConfirmed": false,
- "flowKind": "",
- "phase": "장 마감 후 · 정규장 종가 기준 · 수급 자료는 아직 공개 전"
+ "flowConfirmed": true,
+ "flowKind": "확정",
+ "phase": "장 마감 후 · 정규장 종가 기준 · 외국인·기관 수급 반영"
 };
