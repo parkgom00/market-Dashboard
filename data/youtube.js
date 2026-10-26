@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-27 03:51",
+ "asOf": "2026-10-27 05:40",
  "channels": [
   {
    "name": "815머니톡",
@@ -41,6 +41,11 @@ window.DASH.youtube = {
    "handle": "@orlandocampus",
    "videos": [
     {
+     "title": "(시황분석) 기술적 반등 vs 추세전환?",
+     "publishedAt": "2026-10-27 05:31",
+     "url": "https://www.youtube.com/watch?v=y4PkDIgK3d8"
+    },
+    {
      "title": "(주간시황) 다음주 금리와 빅테크 실적이 반등을 나오게 하나?",
      "publishedAt": "2026-10-25 19:22",
      "url": "https://www.youtube.com/watch?v=rzw22vOHhFU"
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 반도체 하락으로 방향 잡았나?",
      "publishedAt": "2026-10-23 06:22",
      "url": "https://www.youtube.com/watch?v=aZuQkCzceXc"
-    },
-    {
-     "title": "(테슬라) 실적은 나쁘지 않지만 지금 가격을 정당화 하기에는 부족하다",
-     "publishedAt": "2026-10-22 15:37",
-     "url": "https://www.youtube.com/watch?v=aM_7lDT9kBs"
     }
    ]
   },
