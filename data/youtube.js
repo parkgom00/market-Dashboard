@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-26 17:49",
+ "asOf": "2026-10-26 19:46",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급인터뷰]  “한국증시 완전히 그로기 상태!” 지금은 이 악물고 버텨야 할 때… 기간조정 끝나면 진짜 상승 시작될까? ㅣ황유현 팀장",
+     "publishedAt": "2026-10-26 18:06",
+     "url": "https://www.youtube.com/watch?v=FJ1hjD8lEFw"
+    },
     {
      "title": "[#긴급인터뷰] 코스피 9,000 시대 진짜 올 수 있을까? 삼성전자 지금이 바닥인가 / 로봇주 대반격 시작되나  | 이화진 차장",
      "publishedAt": "2026-10-26 17:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[10월26일 #장시작전] 유가부담·美선거 vs AI 메모리·특별배당…시장 방향 어디로",
      "publishedAt": "2026-10-26 12:17",
      "url": "https://www.youtube.com/watch?v=SmQsB8Yzo9E"
-    },
-    {
-     "title": "“이번 주만 버티면 될까?” 미국 중간선거 일주일 후 증시가 달라지는 이유ㅣ 이권희 대표",
-     "publishedAt": "2026-10-26 12:00",
-     "url": "https://www.youtube.com/watch?v=T6Vv6tHm7oU"
     }
    ]
   },
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "[아테네] 70년대 오일 달러 vs 2020년대 AI 달러. 돈이 흐르는 길은?",
+     "publishedAt": "2026-10-26 19:00",
+     "url": "https://www.youtube.com/watch?v=G8LcRhwEdS0"
+    },
+    {
      "title": "[몰아보기] 첨단 패키징 시장 판을 흔들 삼성의 무기는?",
      "publishedAt": "2026-10-25 14:00",
      "url": "https://www.youtube.com/watch?v=jYJuujSfUa4"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[월간 안테나] 엔비디아가 기존 유리기판 표준을 거부한 이유는?",
      "publishedAt": "2026-10-22 19:00",
      "url": "https://www.youtube.com/watch?v=b8EigcmmAYc"
-    },
-    {
-     "title": "[월간 안테나] 엔비디아에 이어 삼성전자도 참전, 첨단 패키징 판이 바뀐다!!",
-     "publishedAt": "2026-10-21 19:00",
-     "url": "https://www.youtube.com/watch?v=m7qCEyIg7s0"
     }
    ]
   },
@@ -105,6 +105,21 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 26일 외국인이 한국인 몰래 매수한 종목 정체",
+     "publishedAt": "2026-10-26 19:31",
+     "url": "https://www.youtube.com/watch?v=1MSw-vaaf9w"
+    },
+    {
+     "title": "골드만삭스가 코스피 전망을 '긴급하향'한 진짜 이유",
+     "publishedAt": "2026-10-26 18:53",
+     "url": "https://www.youtube.com/watch?v=c7PXJ4x52Tg"
+    },
+    {
+     "title": "골드만삭스가 코스피 전망을 '긴급하향'한 진짜 이유",
+     "publishedAt": "2026-10-26 18:17",
+     "url": "https://www.youtube.com/watch?v=z1g0WWuqjcU"
+    },
+    {
      "title": "월가에서 현시점 엔비디아가 저평가 됐다는 이유",
      "publishedAt": "2026-10-26 16:28",
      "url": "https://www.youtube.com/watch?v=g-sdj1NFcI8"
@@ -113,21 +128,6 @@ window.DASH.youtube = {
      "title": "오늘자 새롭게 '정의'된 코스피 7,000 반등 조건 3가지",
      "publishedAt": "2026-10-26 15:21",
      "url": "https://www.youtube.com/watch?v=MMvFsMXigfE"
-    },
-    {
-     "title": "10월 26일 우리가 꼭 알고 있어야 할, 저평가 'AI 로보택시' 소형주",
-     "publishedAt": "2026-10-26 13:48",
-     "url": "https://www.youtube.com/watch?v=JE4Y0MUTeKU"
-    },
-    {
-     "title": "똑같은 S&P500 ETF인데 배당금이 2배 차이 나는 진짜 이유",
-     "publishedAt": "2026-10-26 11:57",
-     "url": "https://www.youtube.com/watch?v=KUkRUGCL0yM"
-    },
-    {
-     "title": "10월 26일 오늘 코스피 어떻게 흘러갈까?!",
-     "publishedAt": "2026-10-26 08:06",
-     "url": "https://www.youtube.com/watch?v=Q72lPab6ydA"
     }
    ]
   },
