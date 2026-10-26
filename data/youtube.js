@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-27 05:40",
+ "asOf": "2026-10-27 07:39",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[10월27일 #장시작전]  앤트로픽 IPO가 AI 반도체 살렸다. 필반도체 2.8%·SK하닉 ADR 4% 급등 / 오늘 코스피 대반전?",
+     "publishedAt": "2026-10-27 06:15",
+     "url": "https://www.youtube.com/watch?v=ziTqu8RaANs"
+    },
     {
      "title": "[#찐시황] “금융위기급으로 무너지는 한국증시!” 현물 7000억 팔고 선물 7000억 산 외인… 큰손들조차 눈치 보는 진짜 이유 | 이권희 대표",
      "publishedAt": "2026-10-26 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] “외국인은 오늘 삼전·하닉 3천억 던졌는데…” 글로벌 펀드는 저점에서 사들인다? / 삼성전자·SK하이닉스 진짜 바닥인가? ㅣ박근형 부장",
      "publishedAt": "2026-10-26 15:00",
      "url": "https://www.youtube.com/watch?v=FovHBZ8ZCzU"
-    },
-    {
-     "title": "[#긴급시황] “삼전·하닉 왜 이렇게 힘이 없나?” 하락장 끝나가나, 추가 폭락 시작인가? ㅣ이주현 대표",
-     "publishedAt": "2026-10-26 13:32",
-     "url": "https://www.youtube.com/watch?v=R1F19-vwn30"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 27일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-10-27 06:56",
+     "url": "https://www.youtube.com/watch?v=hObPD9p6cBQ"
+    },
+    {
      "title": "AI 투자 줄인다더니, 한국 반도체로 53조 돈 몰리는 이유",
      "publishedAt": "2026-10-26 22:00",
      "url": "https://www.youtube.com/watch?v=WUTouUSy4LU"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "골드만삭스가 코스피 전망을 '긴급하향'한 진짜 이유",
      "publishedAt": "2026-10-26 18:17",
      "url": "https://www.youtube.com/watch?v=z1g0WWuqjcU"
-    },
-    {
-     "title": "월가에서 현시점 엔비디아가 저평가 됐다는 이유",
-     "publishedAt": "2026-10-26 16:28",
-     "url": "https://www.youtube.com/watch?v=g-sdj1NFcI8"
     }
    ]
   },
