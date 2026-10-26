@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-26 15:50",
+ "asOf": "2026-10-26 17:49",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,29 +9,29 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
+     "title": "[#긴급인터뷰] 코스피 9,000 시대 진짜 올 수 있을까? 삼성전자 지금이 바닥인가 / 로봇주 대반격 시작되나  | 이화진 차장",
+     "publishedAt": "2026-10-26 17:00",
+     "url": "https://www.youtube.com/watch?v=zDaianPk8zQ"
+    },
+    {
      "title": "[#긴급시황] “외국인은 오늘 삼전·하닉 3천억 던졌는데…” 글로벌 펀드는 저점에서 사들인다? / 삼성전자·SK하이닉스 진짜 바닥인가? ㅣ박근형 부장",
      "publishedAt": "2026-10-26 15:00",
      "url": "https://www.youtube.com/watch?v=FovHBZ8ZCzU"
     },
     {
      "title": "[#긴급시황] “삼전·하닉 왜 이렇게 힘이 없나?” 하락장 끝나가나, 추가 폭락 시작인가? ㅣ이주현 대표",
-     "publishedAt": "2026-10-26 13:33",
+     "publishedAt": "2026-10-26 13:32",
      "url": "https://www.youtube.com/watch?v=R1F19-vwn30"
     },
     {
-     "title": "“이번 주만 버티면 될까?” 미국 중간선거 일주일 후 증시가 달라지는 이유ㅣ 이권희 대표",
-     "publishedAt": "2026-10-26 12:40",
-     "url": "https://www.youtube.com/watch?v=T6Vv6tHm7oU"
-    },
-    {
-     "title": "SK하이닉스 특별배당 가능성 급부상! / 주주환원 확대가 주가 대반격의 신호탄 될까?ㅣ이주연 대표",
-     "publishedAt": "2026-10-26 10:40",
-     "url": "https://www.youtube.com/watch?v=kRMnPAC_ntw"
-    },
-    {
      "title": "[10월26일 #장시작전] 유가부담·美선거 vs AI 메모리·특별배당…시장 방향 어디로",
-     "publishedAt": "2026-10-26 06:21",
+     "publishedAt": "2026-10-26 12:17",
      "url": "https://www.youtube.com/watch?v=SmQsB8Yzo9E"
+    },
+    {
+     "title": "“이번 주만 버티면 될까?” 미국 중간선거 일주일 후 증시가 달라지는 이유ㅣ 이권희 대표",
+     "publishedAt": "2026-10-26 12:00",
+     "url": "https://www.youtube.com/watch?v=T6Vv6tHm7oU"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "하락장, 상승장 아무 영향 안 받고 기초자산 불리는 방법",
-     "publishedAt": "2026-10-25",
-     "url": "https://www.youtube.com/watch?v=VYqLOZkGBIw"
+     "title": "월가에서 현시점 엔비디아가 저평가 됐다는 이유",
+     "publishedAt": "2026-10-26 16:28",
+     "url": "https://www.youtube.com/watch?v=g-sdj1NFcI8"
     },
     {
-     "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(10.26~10.30)",
-     "publishedAt": "2026-10-24",
-     "url": "https://www.youtube.com/watch?v=mJGcENdLVOQ"
+     "title": "오늘자 새롭게 '정의'된 코스피 7,000 반등 조건 3가지",
+     "publishedAt": "2026-10-26 15:21",
+     "url": "https://www.youtube.com/watch?v=MMvFsMXigfE"
     },
     {
-     "title": "코스피 재평가 구간 진입, 하락장 때 매수해야 하는 이유",
-     "publishedAt": "2026-10-23",
-     "url": "https://www.youtube.com/watch?v=qNPxRnb0w9g"
+     "title": "10월 26일 우리가 꼭 알고 있어야 할, 저평가 'AI 로보택시' 소형주",
+     "publishedAt": "2026-10-26 13:48",
+     "url": "https://www.youtube.com/watch?v=JE4Y0MUTeKU"
     },
     {
-     "title": "11월만 되면, 주식이 유독 '더 많이 오르는' 진짜 이유",
-     "publishedAt": "2026-10-23",
-     "url": "https://www.youtube.com/watch?v=7bx5ZoOuNc4"
+     "title": "똑같은 S&P500 ETF인데 배당금이 2배 차이 나는 진짜 이유",
+     "publishedAt": "2026-10-26 11:57",
+     "url": "https://www.youtube.com/watch?v=KUkRUGCL0yM"
     },
     {
-     "title": "코스피 바닥에서 시작된 '실적 시즌' 투자 포인트는?",
-     "publishedAt": "2026-10-22",
-     "url": "https://www.youtube.com/watch?v=lhYvgDJUKNM"
+     "title": "10월 26일 오늘 코스피 어떻게 흘러갈까?!",
+     "publishedAt": "2026-10-26 08:06",
+     "url": "https://www.youtube.com/watch?v=Q72lPab6ydA"
     }
    ]
   },
@@ -147,6 +147,11 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=Zn6yIuZUG5E"
     },
     {
+     "title": "메타가 촉발한 AI 버블론! #메타 #코스피 #솔리다임",
+     "publishedAt": "2026-10-23 11:23",
+     "url": "https://www.youtube.com/watch?v=Ifr6_OYsEBI"
+    },
+    {
      "title": "이번 폭락보다 더 큰 문제가 있습니다.",
      "publishedAt": "2026-10-23 10:09",
      "url": "https://www.youtube.com/watch?v=88JuhT1pxag"
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "진퇴양난에 빠진 미국 증시",
      "publishedAt": "2026-10-22 21:58",
      "url": "https://www.youtube.com/watch?v=4sdi2vGvY8k"
-    },
-    {
-     "title": "나스닥 상승의 진짜 이유",
-     "publishedAt": "2026-10-20",
-     "url": "https://www.youtube.com/watch?v=wSmkhWHEYNM"
     }
    ]
   },
@@ -168,11 +168,6 @@ window.DASH.youtube = {
    "channelId": "UCC3yfxS5qC6PCwDzetUuEWg",
    "handle": "@sosumonkey",
    "videos": [
-    {
-     "title": "갑자기 자금줄 뚝? 불확실 최고조 구간 올까/월가 은둔 초고수의 예언, 또 적중할까/주식 안팔아도 세금 낸다? 억만장자세 실현될까/키덜트 덕에 부활한 장난감 회사들",
-     "publishedAt": "2026-10-25 21:59",
-     "url": "https://www.youtube.com/watch?v=l7G-dkgkDEk"
-    },
     {
      "title": "\"1999년 붕괴 직전과 완벽히 똑같다\" 월가 초고수의 변심, 적중할까",
      "publishedAt": "2026-10-20 19:22",
@@ -184,14 +179,19 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=quJTDt4JGpU"
     },
     {
-     "title": "AI 약한고리 결국 터진다? 극단적 공포 구간 진입/올 연말까진 기회, 내년이 진짜 위기?",
-     "publishedAt": "2026-10-19",
-     "url": "https://www.youtube.com/watch?v=A7B-vm2lGps"
-    },
-    {
      "title": "금리 5.5%가 증시 충격 마지노선? 월가 초고수들의 경고, 대비해야 할까",
      "publishedAt": "2026-10-14 20:39",
      "url": "https://www.youtube.com/watch?v=PrEHp2DoRVU"
+    },
+    {
+     "title": "스페이스X의 반격 시작? 머스크의 호언장담 현실 될까",
+     "publishedAt": "2026-10-13 20:11",
+     "url": "https://www.youtube.com/watch?v=_LOD9GYd1Qk"
+    },
+    {
+     "title": "AI투자 판도 조용히 바뀌는 중? 부진했던 빅테크, 팔란티어의 수상한 신고가",
+     "publishedAt": "2026-10-12 21:12",
+     "url": "https://www.youtube.com/watch?v=ILs31CN-_VA"
     }
    ]
   }
