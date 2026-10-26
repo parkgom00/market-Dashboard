@@ -702,6 +702,16 @@
   "previous": "7.9%"
  },
  {
+  "date": "2026-10-21",
+  "time": "21:30",
+  "title": "미국 신규 실업수당 청구",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "200K",
+  "actual": "194K",
+  "previous": "200K"
+ },
+ {
   "date": "2026-10-22",
   "time": "",
   "title": "램리서치 실적 발표",
@@ -883,7 +893,7 @@
   "title": "미국 무역수지",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "-130.80B",
   "actual": "",
   "previous": "-132.07B"
  },
@@ -945,9 +955,19 @@
   "title": "FOMC 금리결정",
   "level": "major",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "4.00%",
   "actual": "",
   "previous": "4.00%"
+ },
+ {
+  "date": "2026-10-28",
+  "time": "03:30",
+  "title": "FOMC 기자회견",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": ""
  },
  {
   "date": "2026-10-28",
@@ -1175,7 +1195,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장 시작 전",
-  "epsForecast": "$3.96",
+  "epsForecast": "$3.90",
   "eps": "",
   "surprise": ""
  },
@@ -1209,6 +1229,16 @@
   "consensus": "",
   "actual": "",
   "previous": "-1.8%"
+ },
+ {
+  "date": "2026-10-30",
+  "time": "10:30",
+  "title": "중국 제조업 PMI",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "50.5",
+  "actual": "",
+  "previous": "50.2"
  },
  {
   "date": "2026-10-30",
@@ -1366,6 +1396,36 @@
   "previous": "0.3%"
  },
  {
+  "date": "2026-11-03",
+  "time": "22:15",
+  "title": "ADP 민간고용",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "90K"
+ },
+ {
+  "date": "2026-11-03",
+  "time": "22:30",
+  "title": "미국 무역수지",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "-105.60B"
+ },
+ {
+  "date": "2026-11-03",
+  "time": "23:45",
+  "title": "S&P글로벌 서비스업 PMI",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "57.9"
+ },
+ {
   "date": "2026-11-04",
   "time": "",
   "title": "AMD 실적 발표",
@@ -1467,12 +1527,32 @@
  {
   "date": "2026-11-04",
   "time": "00:00",
+  "title": "ISM 서비스업",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "54.9"
+ },
+ {
+  "date": "2026-11-04",
+  "time": "00:00",
   "title": "JOLTS 구인",
   "level": "macro",
   "kind": "econ",
   "consensus": "",
   "actual": "",
   "previous": "7.079M"
+ },
+ {
+  "date": "2026-11-04",
+  "time": "08:00",
+  "title": "한국 경상수지",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "46.11B"
  },
  {
   "date": "2026-11-04",
@@ -1493,6 +1573,16 @@
   "consensus": "",
   "actual": "",
   "previous": "-105.60B"
+ },
+ {
+  "date": "2026-11-04",
+  "time": "22:30",
+  "title": "미국 생산성",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "1.4%"
  },
  {
   "date": "2026-11-04",
@@ -1584,7 +1674,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "48.1"
+  "previous": "48.0"
  },
  {
   "date": "2026-11-06",
@@ -1615,6 +1705,16 @@
   "consensus": "",
   "actual": "",
   "previous": "48.0"
+ },
+ {
+  "date": "2026-11-08",
+  "time": "10:30",
+  "title": "중국 CPI",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "0.2%"
  },
  {
   "date": "2026-11-09",

@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-26 15:32",
+ "generatedAt": "2026-10-26 23:23",
  "events": [
   {
    "date": "2026-01-01",
@@ -1636,6 +1636,16 @@ window.DASH.calendar = {
    ]
   },
   {
+   "date": "2026-10-21",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 신규 실업수당 청구",
+   "time": "21:30",
+   "result": [
+    "실제 194K · 예상 200K · 이전 200K"
+   ]
+  },
+  {
    "date": "2026-10-22",
    "type": "earnings",
    "market": "US",
@@ -1781,7 +1791,7 @@ window.DASH.calendar = {
    "title": "미국 무역수지",
    "time": "21:30",
    "result": [
-    "이전 -132.07B"
+    "예상 -130.80B · 이전 -132.07B"
    ]
   },
   {
@@ -1822,8 +1832,16 @@ window.DASH.calendar = {
    "time": "03:00",
    "major": true,
    "result": [
-    "이전 4.00%"
+    "예상 4.00% · 이전 4.00%"
    ]
+  },
+  {
+   "date": "2026-10-28",
+   "type": "econ",
+   "market": "US",
+   "title": "FOMC 기자회견",
+   "time": "03:30",
+   "major": true
   },
   {
    "date": "2026-10-28",
@@ -1997,7 +2015,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "엑슨모빌 실적 발표",
    "result": [
-    "EPS 예상 $3.96",
+    "EPS 예상 $3.90",
     "장 시작 전"
    ]
   },
@@ -2019,6 +2037,16 @@ window.DASH.calendar = {
    "time": "08:00",
    "result": [
     "이전 -1.8%"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "type": "econ",
+   "market": "CN",
+   "title": "중국 제조업 PMI",
+   "time": "10:30",
+   "result": [
+    "예상 50.5 · 이전 50.2"
    ]
   },
   {
@@ -2151,6 +2179,36 @@ window.DASH.calendar = {
    ]
   },
   {
+   "date": "2026-11-03",
+   "type": "econ",
+   "market": "US",
+   "title": "ADP 민간고용",
+   "time": "22:15",
+   "result": [
+    "이전 90K"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 무역수지",
+   "time": "22:30",
+   "result": [
+    "이전 -105.60B"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "type": "econ",
+   "market": "US",
+   "title": "S&P글로벌 서비스업 PMI",
+   "time": "23:45",
+   "result": [
+    "이전 57.9"
+   ]
+  },
+  {
    "date": "2026-11-04",
    "type": "earnings",
    "market": "US",
@@ -2172,10 +2230,30 @@ window.DASH.calendar = {
    "date": "2026-11-04",
    "type": "econ",
    "market": "US",
+   "title": "ISM 서비스업",
+   "time": "00:00",
+   "result": [
+    "이전 54.9"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "type": "econ",
+   "market": "US",
    "title": "JOLTS 구인",
    "time": "00:00",
    "result": [
     "이전 7.079M"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 경상수지",
+   "time": "08:00",
+   "result": [
+    "이전 46.11B"
    ]
   },
   {
@@ -2196,6 +2274,16 @@ window.DASH.calendar = {
    "time": "22:30",
    "result": [
     "이전 -105.60B"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 생산성",
+   "time": "22:30",
+   "result": [
+    "이전 1.4%"
    ]
   },
   {
@@ -2267,7 +2355,7 @@ window.DASH.calendar = {
    "title": "미시간 소비심리",
    "time": "00:00",
    "result": [
-    "이전 48.1"
+    "이전 48.0"
    ]
   },
   {
@@ -2278,6 +2366,16 @@ window.DASH.calendar = {
    "time": "00:00",
    "result": [
     "이전 48.0"
+   ]
+  },
+  {
+   "date": "2026-11-08",
+   "type": "econ",
+   "market": "CN",
+   "title": "중국 CPI",
+   "time": "10:30",
+   "result": [
+    "이전 0.2%"
    ]
   },
   {
