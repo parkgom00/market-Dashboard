@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-26 09:59",
+ "asOf": "2026-10-26 11:40",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,7 +9,12 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
-     "title": "[10월26일 #장시작전]  중동 긴장에 국제유가 급등! 뉴욕증시 하락 / 골드만, 코스피 목표 9,000으로 낮춘 이유",
+     "title": "SK하이닉스 특별배당 가능성 급부상! / 주주환원 확대가 주가 대반격의 신호탄 될까?ㅣ이주연 대표",
+     "publishedAt": "2026-10-26 10:40",
+     "url": "https://www.youtube.com/watch?v=kRMnPAC_ntw"
+    },
+    {
+     "title": "[10월26일 #장시작전] 유가부담·美선거 vs AI 메모리·특별배당…시장 방향 어디로",
      "publishedAt": "2026-10-26 06:21",
      "url": "https://www.youtube.com/watch?v=SmQsB8Yzo9E"
     },
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“중국 반도체 치킨게임 시작되나?” 메모리 가격 전쟁에 삼성전자·SK하이닉스 비상… 최후의 승자는 누구?ㅣ 블랙퀀트에쿼티 윤 진 대표",
      "publishedAt": "2026-10-25 16:00",
      "url": "https://www.youtube.com/watch?v=5v_OgboQYx8"
-    },
-    {
-     "title": "HBM은 SK하이닉스, 온디바이스 AI는 삼성전자? / AI 반도체 주도권 대 역전 시작된다ㅣ오로라투자자문 이지환 대표",
-     "publishedAt": "2026-10-25 08:30",
-     "url": "https://www.youtube.com/watch?v=JcLYlAz5sJY"
     }
    ]
   },
@@ -137,6 +137,11 @@ window.DASH.youtube = {
    "handle": "@김단테",
    "videos": [
     {
+     "title": "일론머스크 \"네오클라우드 대부분 망한다?\"",
+     "publishedAt": "2026-10-26 10:40",
+     "url": "https://www.youtube.com/watch?v=LgOIJMIgkUw"
+    },
+    {
      "title": "드릴 말씀이 있습니다.",
      "publishedAt": "2026-10-24 13:41",
      "url": "https://www.youtube.com/watch?v=Zn6yIuZUG5E"
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "나스닥 상승의 진짜 이유",
      "publishedAt": "2026-10-20",
      "url": "https://www.youtube.com/watch?v=wSmkhWHEYNM"
-    },
-    {
-     "title": "또 다른 AI 펀드 청산? 코어위브 위기 전염? AI 주식 최악의 시나리오로 가나?",
-     "publishedAt": "2026-10-18",
-     "url": "https://www.youtube.com/watch?v=NhSEP0KFais"
     }
    ]
   },
