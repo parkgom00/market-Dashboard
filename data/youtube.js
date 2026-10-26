@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-26 11:40",
+ "asOf": "2026-10-26 13:40",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급시황] “삼전·하닉 왜 이렇게 힘이 없나?” 하락장 끝나가나, 추가 폭락 시작인가? ㅣ이주현 대표",
+     "publishedAt": "2026-10-26 13:33",
+     "url": "https://www.youtube.com/watch?v=R1F19-vwn30"
+    },
+    {
+     "title": "“이번 주만 버티면 될까?” 미국 중간선거 일주일 후 증시가 달라지는 이유ㅣ 이권희 대표",
+     "publishedAt": "2026-10-26 12:40",
+     "url": "https://www.youtube.com/watch?v=T6Vv6tHm7oU"
+    },
     {
      "title": "SK하이닉스 특별배당 가능성 급부상! / 주주환원 확대가 주가 대반격의 신호탄 될까?ㅣ이주연 대표",
      "publishedAt": "2026-10-26 10:40",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "[#찐시황]  “외국인이 수상하다!” 현물 1조 팔고 선물은 매수… 삼성전자·SK하이닉스  다음 주 운명 갈린다 | 미래에셋자산운용 최창규 이사",
      "publishedAt": "2026-10-25 20:00",
      "url": "https://www.youtube.com/watch?v=b2my6Nq32rs"
-    },
-    {
-     "title": "반도체 소부장 아직 끝나지 않았다! / ESS 내년 실적 개선, 2차전지 지금이 매수 기회일까?ㅣ이영훈 이사",
-     "publishedAt": "2026-10-25 17:30",
-     "url": "https://www.youtube.com/watch?v=Xxu5sqHcCbA"
-    },
-    {
-     "title": "“중국 반도체 치킨게임 시작되나?” 메모리 가격 전쟁에 삼성전자·SK하이닉스 비상… 최후의 승자는 누구?ㅣ 블랙퀀트에쿼티 윤 진 대표",
-     "publishedAt": "2026-10-25 16:00",
-     "url": "https://www.youtube.com/watch?v=5v_OgboQYx8"
     }
    ]
   },
