@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-26 19:46",
+ "asOf": "2026-10-26 23:49",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황] “금융위기급으로 무너지는 한국증시!” 현물 7000억 팔고 선물 7000억 산 외인… 큰손들조차 눈치 보는 진짜 이유 | 이권희 대표",
+     "publishedAt": "2026-10-26 20:00",
+     "url": "https://www.youtube.com/watch?v=mHvjD8ax0uE"
+    },
     {
      "title": "[#긴급인터뷰]  “한국증시 완전히 그로기 상태!” 지금은 이 악물고 버텨야 할 때… 기간조정 끝나면 진짜 상승 시작될까? ㅣ황유현 팀장",
      "publishedAt": "2026-10-26 18:06",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] “삼전·하닉 왜 이렇게 힘이 없나?” 하락장 끝나가나, 추가 폭락 시작인가? ㅣ이주현 대표",
      "publishedAt": "2026-10-26 13:32",
      "url": "https://www.youtube.com/watch?v=R1F19-vwn30"
-    },
-    {
-     "title": "[10월26일 #장시작전] 유가부담·美선거 vs AI 메모리·특별배당…시장 방향 어디로",
-     "publishedAt": "2026-10-26 12:17",
-     "url": "https://www.youtube.com/watch?v=SmQsB8Yzo9E"
     }
    ]
   },
@@ -73,7 +73,7 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
-     "title": "[아테네] 70년대 오일 달러 vs 2020년대 AI 달러. 돈이 흐르는 길은?",
+     "title": "[아테네] 메모리로 번 돈이 여기로 흘러간다고?",
      "publishedAt": "2026-10-26 19:00",
      "url": "https://www.youtube.com/watch?v=G8LcRhwEdS0"
     },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "AI 투자 줄인다더니, 한국 반도체로 53조 돈 몰리는 이유",
+     "publishedAt": "2026-10-26 22:00",
+     "url": "https://www.youtube.com/watch?v=WUTouUSy4LU"
+    },
+    {
      "title": "10월 26일 외국인이 한국인 몰래 매수한 종목 정체",
      "publishedAt": "2026-10-26 19:31",
      "url": "https://www.youtube.com/watch?v=1MSw-vaaf9w"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "월가에서 현시점 엔비디아가 저평가 됐다는 이유",
      "publishedAt": "2026-10-26 16:28",
      "url": "https://www.youtube.com/watch?v=g-sdj1NFcI8"
-    },
-    {
-     "title": "오늘자 새롭게 '정의'된 코스피 7,000 반등 조건 3가지",
-     "publishedAt": "2026-10-26 15:21",
-     "url": "https://www.youtube.com/watch?v=MMvFsMXigfE"
     }
    ]
   },
@@ -169,6 +169,11 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
+     "title": "AI 자금줄 갑자기 뚝 끊겼다? 증시에 등장한 이상 신호, 경고일까",
+     "publishedAt": "2026-10-26 20:15",
+     "url": "https://www.youtube.com/watch?v=P4i9A1Woky8"
+    },
+    {
      "title": "\"1999년 붕괴 직전과 완벽히 똑같다\" 월가 초고수의 변심, 적중할까",
      "publishedAt": "2026-10-20 19:22",
      "url": "https://www.youtube.com/watch?v=JFtx8IXlz5c"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "스페이스X의 반격 시작? 머스크의 호언장담 현실 될까",
      "publishedAt": "2026-10-13 20:11",
      "url": "https://www.youtube.com/watch?v=_LOD9GYd1Qk"
-    },
-    {
-     "title": "AI투자 판도 조용히 바뀌는 중? 부진했던 빅테크, 팔란티어의 수상한 신고가",
-     "publishedAt": "2026-10-12 21:12",
-     "url": "https://www.youtube.com/watch?v=ILs31CN-_VA"
     }
    ]
   }
