@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-27 13:38",
+ "asOf": "2026-10-27 15:46",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급시황] “증시 드디어 반등 신호 나왔나?” 외국인이 현물·선물 동시에 쓸어담는 이유… 그래도 지금 서둘러 사면 안 되는 이유! |  박근형 부장",
+     "publishedAt": "2026-10-27 15:00",
+     "url": "https://www.youtube.com/watch?v=BXI_6ZyuLaI"
+    },
+    {
+     "title": "[#긴급시황] “반등 신호 떴다” 삼성전자·SK하이닉스 추세 전환 시작되나? / 2차 전지보다 더 강한 다음 주도주는? ㅣ 이주현 대표",
+     "publishedAt": "2026-10-27 14:46",
+     "url": "https://www.youtube.com/watch?v=cZrxTSWNrho"
+    },
     {
      "title": "“앤트로픽발 대형 호재에 반도체 대반격!” 삼성전자·SK하이닉스 쌍바닥 형성하나? / 2차전지까지 대형 호재 터졌다ㅣ 이권희 대표",
      "publishedAt": "2026-10-27 12:38",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "[10월27일 #장시작전] 삼전닉스로 오르는 코스피…개인은 매도 폭탄, 지금 팔 때?",
      "publishedAt": "2026-10-27 06:15",
      "url": "https://www.youtube.com/watch?v=ziTqu8RaANs"
-    },
-    {
-     "title": "[#찐시황] “금융위기급으로 무너지는 한국증시!” 현물 7000억 팔고 선물 7000억 산 외인… 큰손들조차 눈치 보는 진짜 이유 | 이권희 대표",
-     "publishedAt": "2026-10-26 20:00",
-     "url": "https://www.youtube.com/watch?v=mHvjD8ax0uE"
-    },
-    {
-     "title": "[#긴급인터뷰]  “한국증시 완전히 그로기 상태!” 지금은 이 악물고 버텨야 할 때… 기간조정 끝나면 진짜 상승 시작될까? ㅣ황유현 팀장",
-     "publishedAt": "2026-10-26 18:06",
-     "url": "https://www.youtube.com/watch?v=FJ1hjD8lEFw"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(아이온큐) 주식희석이 장기투자자에게 미치는 영향은?",
+     "publishedAt": "2026-10-27 14:46",
+     "url": "https://www.youtube.com/watch?v=onSgB3ZcPnA"
+    },
     {
      "title": "(시황분석) 기술적 반등 vs 추세전환?",
      "publishedAt": "2026-10-27 05:31",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 유가 폭등이 시장전반의 심리를 불안하게 만든다.",
      "publishedAt": "2026-10-24 08:51",
      "url": "https://www.youtube.com/watch?v=THEMlFZF4Ss"
-    },
-    {
-     "title": "(시황분석) 반도체 하락으로 방향 잡았나?",
-     "publishedAt": "2026-10-23 06:22",
-     "url": "https://www.youtube.com/watch?v=aZuQkCzceXc"
     }
    ]
   },
