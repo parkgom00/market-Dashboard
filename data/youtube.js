@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-28 05:41",
+ "asOf": "2026-10-28 07:40",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[10월28일 #장시작전] 뉴욕증시 상승·필반도체 3.6% 급등! / SK하이닉스 오늘 실적 발표, 깜짝 주주환원 카드 나올까?",
+     "publishedAt": "2026-10-28 06:23",
+     "url": "https://www.youtube.com/watch?v=qSfE6OUrnHo"
+    },
     {
      "title": "[#찐시황]  “코스피 급반등, 진짜 바닥 찍었나?” SK하이닉스 내일 실적 발표… 주가 방향 가를 ‘이것’  | 박현상 이사",
      "publishedAt": "2026-10-27 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“삼전·하닉 지금 바닥권은 맞지만 서둘러 사지 마라?” 2018년 폭락장과 닮은 흐름… 기간조정 얼마나 더 필요할까?   | 황유현 팀장",
      "publishedAt": "2026-10-27 16:00",
      "url": "https://www.youtube.com/watch?v=UNDflnY1dhc"
-    },
-    {
-     "title": "[#긴급시황] “증시 드디어 반등 신호 나왔나?” 외국인이 현물·선물 동시에 쓸어담는 이유… 그래도 지금 서둘러 사면 안 되는 이유! |  박근형 부장",
-     "publishedAt": "2026-10-27 15:00",
-     "url": "https://www.youtube.com/watch?v=BXI_6ZyuLaI"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) 신용으로 하락했던 장이 실적으로 만회되고 있다!!!",
+     "publishedAt": "2026-10-28 05:48",
+     "url": "https://www.youtube.com/watch?v=9O5d5sUb2OA"
+    },
     {
      "title": "(아이온큐) 주식희석이 장기투자자에게 미치는 영향은?",
      "publishedAt": "2026-10-27 14:25",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(반도체) 3배 레버리지로 성공할 확률은 과연?",
      "publishedAt": "2026-10-24 23:19",
      "url": "https://www.youtube.com/watch?v=ysS-wbvCH6c"
-    },
-    {
-     "title": "(시황분석) 유가 폭등이 시장전반의 심리를 불안하게 만든다.",
-     "publishedAt": "2026-10-24 08:51",
-     "url": "https://www.youtube.com/watch?v=THEMlFZF4Ss"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 28일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-10-28 06:47",
+     "url": "https://www.youtube.com/watch?v=oPdUbw6HJF4"
+    },
+    {
      "title": "미국 중간선거 전 전력주 투자자들이 꼭 알아야 하는 5가지",
      "publishedAt": "2026-10-27 23:58",
      "url": "https://www.youtube.com/watch?v=MvMsNcj80dk"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "미국 중간선거 전 2차전지 투자자들이 꼭 알아야 하는 5가지",
      "publishedAt": "2026-10-27 19:50",
      "url": "https://www.youtube.com/watch?v=cPsom3rLjjs"
-    },
-    {
-     "title": "GPT로 안 물리고 안전한 주식 구별하는 방법",
-     "publishedAt": "2026-10-27 19:23",
-     "url": "https://www.youtube.com/watch?v=6_sebDAjmwY"
     }
    ]
   },
