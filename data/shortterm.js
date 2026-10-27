@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-27 15:07",
+ "asOf": "2026-10-27 15:12",
  "window": "15:20~15:40",
- "status": "전 종목 2414개 중 후보 158개 점검 (기준 일봉 2026-10-26)",
+ "status": "전 종목 2416개 중 후보 160개 점검 (기준 일봉 2026-10-26)",
  "types": [
   {
    "id": "A",
@@ -25,28 +25,28 @@ window.DASH.shortterm = {
       {
        "code": "357880",
        "name": "SKAI",
-       "close": 1962.0,
+       "close": 1984.0,
        "market": "KOSDAQ",
        "sector": "IT서비스",
        "after": null,
-       "marcap": 1088,
+       "marcap": 1100,
        "prevClose": 1957.0,
-       "changePct": 0.26,
-       "value": 98,
-       "note": "전일 +16.9% 급등 · 오늘 거래량 전일의 26% · 도지(몸통 28%) · 10일선 1,652 / 20일선 1,709 위 마감"
+       "changePct": 1.38,
+       "value": 100,
+       "note": "전일 +16.9% 급등 · 오늘 거래량 전일의 26% · 도지(몸통 15%) · 10일선 1,654 / 20일선 1,710 위 마감"
       },
       {
        "code": "365660",
        "name": "레몬헬스케어",
-       "close": 3985.0,
+       "close": 3995.0,
        "market": "KOSDAQ",
        "sector": "건강관리업체및서비스",
        "after": null,
-       "marcap": 536,
+       "marcap": 538,
        "prevClose": 4040.0,
-       "changePct": -1.36,
+       "changePct": -1.11,
        "value": 67,
-       "note": "전일 +14.0% 급등 · 오늘 거래량 전일의 10% · 도지(몸통 9%) · 10일선 3,406 / 20일선 3,630 위 마감"
+       "note": "전일 +14.0% 급등 · 오늘 거래량 전일의 10% · 도지(몸통 13%) · 10일선 3,407 / 20일선 3,631 위 마감"
       }
      ]
     },
@@ -227,8 +227,8 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2414,
-  "candidates": 158,
+  "quotes": 2416,
+  "candidates": 160,
   "bars": 150,
   "naverBars": 0,
   "kisBars": 150,
@@ -236,17 +236,19 @@ window.DASH.shortterm = {
    "후보": 147,
    "분봉지연": 0,
    "사유": {
-    "고가에서 멂": 137,
-    "막판 거래량 비중 부족": 10
+    "고가에서 멂": 139,
+    "막판 거래량 비중 부족": 8
    },
    "수급자료": 147,
-   "막판비중_중앙값": 0.042,
-   "막판비중_최대": 0.713
+   "막판비중_중앙값": 0.045,
+   "막판비중_최대": 0.727
   },
   "kis": {
-   "calls": 447,
+   "calls": 450,
    "ok": 447,
-   "err": {}
+   "err": {
+    "FHKST01010100:EGW00201": 3
+   }
   }
  },
  "flowConfirmed": false,
