@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-27 19:43",
+ "asOf": "2026-10-27 21:48",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황]  “코스피 급반등, 진짜 바닥 찍었나?” SK하이닉스 내일 실적 발표… 주가 방향 가를 ‘이것’  | 박현상 이사",
+     "publishedAt": "2026-10-27 20:00",
+     "url": "https://www.youtube.com/watch?v=_xYx9qSNf7Y"
+    },
     {
      "title": "“하락장 끝내고 상승장으로 뒤집을 결정적 트리거는?”  삼전·SK하닉 주주환원 확대가 증시 상승의 신호탄 될까?ㅣNH투자증권 소진웅 과장",
      "publishedAt": "2026-10-27 19:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] “증시 드디어 반등 신호 나왔나?” 외국인이 현물·선물 동시에 쓸어담는 이유… 그래도 지금 서둘러 사면 안 되는 이유! |  박근형 부장",
      "publishedAt": "2026-10-27 15:00",
      "url": "https://www.youtube.com/watch?v=BXI_6ZyuLaI"
-    },
-    {
-     "title": "[#긴급시황] “반등 신호 떴다” 삼성전자·SK하이닉스 추세 전환 시작되나? / 2차 전지보다 더 강한 다음 주도주는? ㅣ 이주현 대표",
-     "publishedAt": "2026-10-27 14:00",
-     "url": "https://www.youtube.com/watch?v=cZrxTSWNrho"
     }
    ]
   },
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "미국 중간선거 전 방산주 투자자들이 꼭 알아야 하는 5가지",
+     "publishedAt": "2026-10-27 21:00",
+     "url": "https://www.youtube.com/watch?v=Rbd6XNy7cU8"
+    },
+    {
+     "title": "미국 중간선거 전 2차전지 투자자들이 꼭 알아야 하는 5가지",
+     "publishedAt": "2026-10-27 19:50",
+     "url": "https://www.youtube.com/watch?v=cPsom3rLjjs"
+    },
+    {
      "title": "GPT로 안 물리고 안전한 주식 구별하는 방법",
      "publishedAt": "2026-10-27 19:23",
      "url": "https://www.youtube.com/watch?v=6_sebDAjmwY"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "유튜브가 한국에만 비싸게 파는 이유",
      "publishedAt": "2026-10-27 16:09",
      "url": "https://www.youtube.com/watch?v=d1rskvuR8aM"
-    },
-    {
-     "title": "주식 이제 곧 역대급 상승장 온다",
-     "publishedAt": "2026-10-27 14:56",
-     "url": "https://www.youtube.com/watch?v=rvlvJm4MZnc"
-    },
-    {
-     "title": "10월 27일 오늘 코스피 어디까지 상승할까!?",
-     "publishedAt": "2026-10-27 07:53",
-     "url": "https://www.youtube.com/watch?v=E3UwBBtDJlM"
     }
    ]
   },
@@ -169,6 +169,11 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
+     "title": "큰 손들의 강제 주식 매도는 기회? 월가 변곡점 족집게 전망, 적중할까",
+     "publishedAt": "2026-10-27 20:27",
+     "url": "https://www.youtube.com/watch?v=WM76m1GByyg"
+    },
+    {
      "title": "AI 자금줄 갑자기 뚝 끊겼다? 증시에 등장한 이상 신호, 경고일까",
      "publishedAt": "2026-10-26 20:15",
      "url": "https://www.youtube.com/watch?v=P4i9A1Woky8"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "금리 5.5%가 증시 충격 마지노선? 월가 초고수들의 경고, 대비해야 할까",
      "publishedAt": "2026-10-14 20:39",
      "url": "https://www.youtube.com/watch?v=PrEHp2DoRVU"
-    },
-    {
-     "title": "스페이스X의 반격 시작? 머스크의 호언장담 현실 될까",
-     "publishedAt": "2026-10-13 20:11",
-     "url": "https://www.youtube.com/watch?v=_LOD9GYd1Qk"
     }
    ]
   }
