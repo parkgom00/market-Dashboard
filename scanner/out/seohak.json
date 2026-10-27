@@ -1,14 +1,14 @@
 {
- "generatedAt": "2026-10-27 09:11",
- "holdAsOf": "2026-10-23",
- "netPeriod": "2026-10-20~2026-10-26",
+ "generatedAt": "2026-10-28 08:00",
+ "holdAsOf": "2026-10-26",
+ "netPeriod": "2026-10-21~2026-10-27",
  "hold": [
   {
    "rank": 1,
    "isin": "US88160R1014",
    "ticker": "TSLA",
    "name": "TESLA INC",
-   "usd": 21665166480,
+   "usd": 22738772309,
    "etf": false
   },
   {
@@ -16,7 +16,7 @@
    "isin": "US67066G1040",
    "ticker": "NVDA",
    "name": "NVIDIA CORP",
-   "usd": 16961525555,
+   "usd": 17369744412,
    "etf": false
   },
   {
@@ -24,7 +24,7 @@
    "isin": "US02079K3059",
    "ticker": "GOOGL",
    "name": "ALPHABET INC CL A",
-   "usd": 8227934739,
+   "usd": 8138600042,
    "etf": false
   },
   {
@@ -32,23 +32,23 @@
    "isin": "US25459W4583",
    "ticker": "SOXL",
    "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
-   "usd": 5433150496,
+   "usd": 6447023728,
    "etf": true
   },
   {
    "rank": 5,
-   "isin": "US9229083632",
-   "ticker": "VOO",
-   "name": "VANGUARD SP 500 ETF",
-   "usd": 5405610517,
+   "isin": "US46090E1038",
+   "ticker": "QQQ",
+   "name": "INVESCO QQQ TRUST SRS 1 ETF",
+   "usd": 5468018008,
    "etf": true
   },
   {
    "rank": 6,
-   "isin": "US46090E1038",
-   "ticker": "QQQ",
-   "name": "INVESCO QQQ TRUST SRS 1 ETF",
-   "usd": 5394004485,
+   "isin": "US9229083632",
+   "ticker": "VOO",
+   "name": "VANGUARD SP 500 ETF",
+   "usd": 5457246811,
    "etf": true
   },
   {
@@ -56,7 +56,7 @@
    "isin": "US0378331005",
    "ticker": "AAPL",
    "name": "APPLE INC",
-   "usd": 5178344440,
+   "usd": 5117411979,
    "etf": false
   },
   {
@@ -64,7 +64,7 @@
    "isin": "US69608A1088",
    "ticker": "PLTR",
    "name": "PALANTIR TECHNOLOGIES INC CL A",
-   "usd": 4656872393,
+   "usd": 4695573465,
    "etf": false
   },
   {
@@ -72,7 +72,7 @@
    "isin": "US74347X8314",
    "ticker": "TQQQ",
    "name": "PROSHARES ULTRAPRO QQQ ETF",
-   "usd": 4158546312,
+   "usd": 4333530729,
    "etf": true
   },
   {
@@ -80,7 +80,7 @@
    "isin": "US8085247976",
    "ticker": "SCHD",
    "name": "SCHWAB US DIVIDEND EQUITY ETF",
-   "usd": 4141919205,
+   "usd": 4130972862,
    "etf": true
   },
   {
@@ -88,7 +88,7 @@
    "isin": "US5949181045",
    "ticker": "MSFT",
    "name": "MICROSOFT CORP",
-   "usd": 3838299430,
+   "usd": 3889517160,
    "etf": false
   },
   {
@@ -96,7 +96,7 @@
    "isin": "US5951121038",
    "ticker": "MU",
    "name": "MICRON TECHNOLOGY INC",
-   "usd": 3759492252,
+   "usd": 3851581231,
    "etf": false
   },
   {
@@ -104,39 +104,39 @@
    "isin": "US46138G6492",
    "ticker": "QQQM",
    "name": "INVESCO NASDAQ 100 ETF",
-   "usd": 3674670069,
+   "usd": 3731054310,
    "etf": true
   },
   {
    "rank": 14,
-   "isin": "US78462F1030",
-   "ticker": "SPY",
-   "name": "SPDR SP 500 ETF TRUST",
-   "usd": 3108606264,
+   "isin": "US74347R2067",
+   "ticker": "QLD",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "usd": 3157361880,
    "etf": true
   },
   {
    "rank": 15,
-   "isin": "US74347R2067",
-   "ticker": "QLD",
-   "name": "PROSHARES ULTRA QQQ ETF",
-   "usd": 3063760591,
+   "isin": "US78462F1030",
+   "ticker": "SPY",
+   "name": "SPDR SP 500 ETF TRUST",
+   "usd": 3130336170,
    "etf": true
   },
   {
    "rank": 16,
-   "isin": "US46222L1089",
-   "ticker": "IONQ",
-   "name": "IONQ INC",
-   "usd": 2929335576,
+   "isin": "US84615Q1031",
+   "ticker": "SPCX",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "usd": 2923056363,
    "etf": false
   },
   {
    "rank": 17,
-   "isin": "US84615Q1031",
-   "ticker": "SPCX",
-   "name": "SPACE EXPLORATION TECHN-CL A",
-   "usd": 2896674751,
+   "isin": "US46222L1089",
+   "ticker": "IONQ",
+   "name": "IONQ INC",
+   "usd": 2881299843,
    "etf": false
   },
   {
@@ -144,7 +144,7 @@
    "isin": "US11135F1012",
    "ticker": "AVGO",
    "name": "BROADCOM INC EXOF",
-   "usd": 2576784997,
+   "usd": 2634722375,
    "etf": false
   },
   {
@@ -152,7 +152,7 @@
    "isin": "US0231351067",
    "ticker": "AMZN",
    "name": "AMAZON.COM INC",
-   "usd": 2355213098,
+   "usd": 2362559332,
    "etf": false
   },
   {
@@ -160,7 +160,7 @@
    "isin": "US46436E7186",
    "ticker": "SGOV",
    "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
-   "usd": 2286855484,
+   "usd": 2289844249,
    "etf": true
   },
   {
@@ -168,23 +168,23 @@
    "isin": "US46654Q2030",
    "ticker": "JEPQ",
    "name": "J.P. MORGAN NASDAQ EQUITY PREMIUM INCOME ETF",
-   "usd": 1772971581,
+   "usd": 1802792754,
    "etf": true
   },
   {
    "rank": 22,
-   "isin": "US8740391003",
-   "ticker": "TSM",
-   "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD ADR",
-   "usd": 1762022102,
+   "isin": "US80004C2008",
+   "ticker": "SNDK",
+   "name": "SNDSK CRP ORD WI",
+   "usd": 1769025094,
    "etf": false
   },
   {
    "rank": 23,
-   "isin": "US80004C2008",
-   "ticker": "SNDK",
-   "name": "SNDSK CRP ORD WI",
-   "usd": 1755059093,
+   "isin": "US8740391003",
+   "ticker": "TSM",
+   "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD ADR",
+   "usd": 1739277899,
    "etf": false
   },
   {
@@ -192,7 +192,7 @@
    "isin": "US0079031078",
    "ticker": "AMD",
    "name": "ADVANCED MICRO DEVICES INC",
-   "usd": 1638217178,
+   "usd": 1680448770,
    "etf": false
   },
   {
@@ -200,39 +200,39 @@
    "isin": "US78464A8541",
    "ticker": "SPYM",
    "name": "SPDR PORTFOLIO SP 500 ETF",
-   "usd": 1590050186,
+   "usd": 1604562915,
    "etf": true
   },
   {
    "rank": 26,
-   "isin": "US02079K1079",
-   "ticker": "GOOG",
-   "name": "ALPHABET INC CL C CHAN",
-   "usd": 1424904621,
-   "etf": false
-  },
-  {
-   "rank": 27,
    "isin": "US25460G2865",
    "ticker": "TSLL",
    "name": "DIREXION DAILY TSLA BULL 2X SHARES",
-   "usd": 1368892265,
+   "usd": 1495086925,
    "etf": true
   },
   {
+   "rank": 27,
+   "isin": "US02079K1079",
+   "ticker": "GOOG",
+   "name": "ALPHABET INC CL C CHAN",
+   "usd": 1413765366,
+   "etf": false
+  },
+  {
    "rank": 28,
-   "isin": "US30303M1027",
-   "ticker": "META",
-   "name": "META PLATFORMS INC CL A",
-   "usd": 1362725384,
+   "isin": "US4581401001",
+   "ticker": "INTC",
+   "name": "INTEL CORP",
+   "usd": 1357989802,
    "etf": false
   },
   {
    "rank": 29,
-   "isin": "US4581401001",
-   "ticker": "INTC",
-   "name": "INTEL CORP",
-   "usd": 1321458334,
+   "isin": "US30303M1027",
+   "ticker": "META",
+   "name": "META PLATFORMS INC CL A",
+   "usd": 1336222710,
    "etf": false
   },
   {
@@ -240,7 +240,7 @@
    "isin": "US4642875235",
    "ticker": "SOXX",
    "name": "ISHARES SEMICONDUCTOR ETF",
-   "usd": 1302856628,
+   "usd": 1334502802,
    "etf": true
   },
   {
@@ -248,7 +248,7 @@
    "isin": "US5738741041",
    "ticker": "MRVL",
    "name": "MARVELL TECHNOLOGY INC",
-   "usd": 1097145141,
+   "usd": 1117095691,
    "etf": false
   },
   {
@@ -256,47 +256,47 @@
    "isin": "US5949724083",
    "ticker": "MSTR",
    "name": "MICROSTRATEGY INC CL A",
-   "usd": 926418849,
+   "usd": 885213283,
    "etf": false
   },
   {
    "rank": 33,
-   "isin": "US09175A2069",
-   "ticker": "BMNR",
-   "name": "BITMINE IMMERSION TECHNOLOGI",
-   "usd": 887129174,
-   "etf": false
+   "isin": "US92189F6768",
+   "ticker": "SMH",
+   "name": "VANECK SEMICONDUCTOR ETF CHAN",
+   "usd": 831010094,
+   "etf": true
   },
   {
    "rank": 34,
-   "isin": "US1725731079",
-   "ticker": "CRCL",
-   "name": "Circle Internet",
-   "usd": 824449490,
+   "isin": "US09175A2069",
+   "ticker": "BMNR",
+   "name": "BITMINE IMMERSION TECHNOLOGI",
+   "usd": 828560307,
    "etf": false
   },
   {
    "rank": 35,
-   "isin": "US92189F6768",
-   "ticker": "SMH",
-   "name": "VANECK SEMICONDUCTOR ETF CHAN",
-   "usd": 805780404,
-   "etf": true
+   "isin": "AU0000185993",
+   "ticker": "IREN",
+   "name": "IRIS ENERGY LTD",
+   "usd": 783994499,
+   "etf": false
   },
   {
    "rank": 36,
    "isin": "US78433H6751",
    "ticker": "QQQI",
    "name": "NEOS NASDAQ 100 HIGH INCOME ETF",
-   "usd": 769922175,
+   "usd": 783009866,
    "etf": true
   },
   {
    "rank": 37,
-   "isin": "AU0000185993",
-   "ticker": "IREN",
-   "name": "IRIS ENERGY LTD",
-   "usd": 761627252,
+   "isin": "US1725731079",
+   "ticker": "CRCL",
+   "name": "Circle Internet",
+   "usd": 765343366,
    "etf": false
   },
   {
@@ -304,7 +304,7 @@
    "isin": "US46641Q3323",
    "ticker": "JEPI",
    "name": "JP MORGAN EQUITY PREMIUM INCOME ETF",
-   "usd": 743258143,
+   "usd": 745556756,
    "etf": true
   },
   {
@@ -312,7 +312,7 @@
    "isin": "US0846707026",
    "ticker": "BRK-B",
    "name": "BERKSHIRE HATHAWAY INC CL B",
-   "usd": 716794699,
+   "usd": 729615519,
    "etf": false
   },
   {
@@ -320,7 +320,7 @@
    "isin": "US7731211089",
    "ticker": "RKLB",
    "name": "ROCKET LAB CORPORATION COM USD0.0001",
-   "usd": 676945722,
+   "usd": 692316091,
    "etf": false
   },
   {
@@ -328,7 +328,7 @@
    "isin": "US77926X3200",
    "ticker": "DRAM",
    "name": "ROUNDHILL MEMORY ETF",
-   "usd": 676157337,
+   "usd": 688822917,
    "etf": true
   },
   {
@@ -336,7 +336,7 @@
    "isin": "US4642872000",
    "ticker": "IVV",
    "name": "ISHARES CORE SP 500 ETF",
-   "usd": 671737959,
+   "usd": 676294134,
    "etf": true
   },
   {
@@ -344,7 +344,7 @@
    "isin": "USN070592100",
    "ticker": "ASML",
    "name": "ASML HOLDING NV ADR",
-   "usd": 664827390,
+   "usd": 672874337,
    "etf": false
   },
   {
@@ -352,55 +352,55 @@
    "isin": "US7561091049",
    "ticker": "O",
    "name": "REALTY INCOME CORP",
-   "usd": 651061448,
+   "usd": 651149000,
    "etf": false
   },
   {
    "rank": 45,
-   "isin": "US1912161007",
-   "ticker": "KO",
-   "name": "THE COCA COLA COMPANY",
-   "usd": 560430096,
+   "isin": "US0937121079",
+   "ticker": "BE",
+   "name": "BLOOM ENERGY CORP CL A",
+   "usd": 571698896,
    "etf": false
   },
   {
    "rank": 46,
-   "isin": "US4642874329",
-   "ticker": "TLT",
-   "name": "ISHARES 20+ YEAR TREASURY BOND ETF",
-   "usd": 540516171,
-   "etf": true
+   "isin": "US1912161007",
+   "ticker": "KO",
+   "name": "THE COCA COLA COMPANY",
+   "usd": 559791476,
+   "etf": false
   },
   {
    "rank": 47,
-   "isin": "US0937121079",
-   "ticker": "BE",
-   "name": "BLOOM ENERGY CORP CL A",
-   "usd": 528109904,
-   "etf": false
-  },
-  {
-   "rank": 48,
-   "isin": "US91324P1021",
-   "ticker": "UNH",
-   "name": "UNITEDHEALTH GROUP INC",
-   "usd": 508318421,
-   "etf": false
-  },
-  {
-   "rank": 49,
-   "isin": "US25461A3876",
-   "ticker": "KORU",
-   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL",
-   "usd": 501703583,
+   "isin": "US4642874329",
+   "ticker": "TLT",
+   "name": "ISHARES 20+ YEAR TREASURY BOND ETF",
+   "usd": 539545245,
    "etf": true
   },
   {
-   "rank": 50,
+   "rank": 48,
+   "isin": "US25461A3876",
+   "ticker": "KORU",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL",
+   "usd": 516769757,
+   "etf": true
+  },
+  {
+   "rank": 49,
    "isin": "US55024U1097",
    "ticker": "LITE",
    "name": "LUMENTUM HOLDINGS INC SOFF",
-   "usd": 501612931,
+   "usd": 512385847,
+   "etf": false
+  },
+  {
+   "rank": 50,
+   "isin": "US78392B2060",
+   "ticker": "SKHY",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "usd": 505028972,
    "etf": false
   }
  ],
@@ -410,7 +410,7 @@
    "isin": "US25459W4583",
    "ticker": "SOXL",
    "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
-   "usd": 513304389,
+   "usd": 264325125,
    "etf": true
   },
   {
@@ -418,23 +418,23 @@
    "isin": "US84615Q1031",
    "ticker": "SPCX",
    "name": "SPACE EXPLORATION TECHN-CL A",
-   "usd": 185848425,
+   "usd": 210238559,
    "etf": false
   },
   {
    "rank": 3,
-   "isin": "US74347X8314",
-   "ticker": "TQQQ",
-   "name": "PROSHARES ULTRAPRO QQQ ETF",
-   "usd": 107864097,
+   "isin": "US74347R2067",
+   "ticker": "QLD",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "usd": 94839143,
    "etf": true
   },
   {
    "rank": 4,
-   "isin": "US74347R2067",
-   "ticker": "QLD",
-   "name": "PROSHARES ULTRA QQQ ETF",
-   "usd": 105237780,
+   "isin": "US74347X8314",
+   "ticker": "TQQQ",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "usd": 92306604,
    "etf": true
   },
   {
@@ -442,191 +442,191 @@
    "isin": "US46138G6492",
    "ticker": "QQQM",
    "name": "INVESCO NASDAQ 100 ETF",
-   "usd": 65485041,
+   "usd": 60124202,
    "etf": true
   },
   {
    "rank": 6,
-   "isin": "US9229083632",
-   "ticker": "VOO",
-   "name": "VANGUARD SP 500 ETF",
-   "usd": 45285504,
-   "etf": true
+   "isin": "US0937121079",
+   "ticker": "BE",
+   "name": "BLOOM ENERGY CORP CL A",
+   "usd": 54300911,
+   "etf": false
   },
   {
    "rank": 7,
-   "isin": "AU0000185993",
-   "ticker": "IREN",
-   "name": "IRIS ENERGY LTD",
-   "usd": 43470867,
+   "isin": "US67066G1040",
+   "ticker": "NVDA",
+   "name": "NVIDIA CORP",
+   "usd": 48621266,
    "etf": false
   },
   {
    "rank": 8,
-   "isin": "US46222L1089",
-   "ticker": "IONQ",
-   "name": "IONQ INC",
-   "usd": 43059782,
-   "etf": false
-  },
-  {
-   "rank": 9,
    "isin": "US46090E1038",
    "ticker": "QQQ",
    "name": "INVESCO QQQ TRUST SRS 1 ETF",
-   "usd": 41587844,
+   "usd": 44615189,
+   "etf": true
+  },
+  {
+   "rank": 9,
+   "isin": "US9229083632",
+   "ticker": "VOO",
+   "name": "VANGUARD SP 500 ETF",
+   "usd": 43987743,
    "etf": true
   },
   {
    "rank": 10,
-   "isin": "US67066G1040",
-   "ticker": "NVDA",
-   "name": "NVIDIA CORP",
-   "usd": 37829943,
+   "isin": "AU0000185993",
+   "ticker": "IREN",
+   "name": "IRIS ENERGY LTD",
+   "usd": 41294326,
    "etf": false
   },
   {
    "rank": 11,
-   "isin": "US0937121079",
-   "ticker": "BE",
-   "name": "BLOOM ENERGY CORP CL A",
-   "usd": 35953592,
+   "isin": "US02079K3059",
+   "ticker": "GOOGL",
+   "name": "ALPHABET INC CL A",
+   "usd": 38089610,
    "etf": false
   },
   {
    "rank": 12,
-   "isin": "US46654Q2030",
-   "ticker": "JEPQ",
-   "name": "J.P. MORGAN NASDAQ EQUITY PREMIUM INCOME ETF",
-   "usd": 35502046,
-   "etf": true
+   "isin": "US46222L1089",
+   "ticker": "IONQ",
+   "name": "IONQ INC",
+   "usd": 35447611,
+   "etf": false
   },
   {
    "rank": 13,
-   "isin": "US02079K3059",
-   "ticker": "GOOGL",
-   "name": "ALPHABET INC CL A",
-   "usd": 24916232,
-   "etf": false
+   "isin": "US46654Q2030",
+   "ticker": "JEPQ",
+   "name": "J.P. MORGAN NASDAQ EQUITY PREMIUM INCOME ETF",
+   "usd": 33450213,
+   "etf": true
   },
   {
    "rank": 14,
-   "isin": "US5738741041",
-   "ticker": "MRVL",
-   "name": "MARVELL TECHNOLOGY INC",
-   "usd": 20873396,
-   "etf": false
+   "isin": "US4642875235",
+   "ticker": "SOXX",
+   "name": "ISHARES SEMICONDUCTOR ETF",
+   "usd": 21587928,
+   "etf": true
   },
   {
    "rank": 15,
-   "isin": "US78433H6751",
-   "ticker": "QQQI",
-   "name": "NEOS NASDAQ 100 HIGH INCOME ETF",
-   "usd": 20210372,
+   "isin": "US92189F6768",
+   "ticker": "SMH",
+   "name": "VANECK SEMICONDUCTOR ETF CHAN",
+   "usd": 16353414,
    "etf": true
   },
   {
    "rank": 16,
-   "isin": "US02079K1079",
-   "ticker": "GOOG",
-   "name": "ALPHABET INC CL C CHAN",
-   "usd": 15762044,
-   "etf": false
-  },
-  {
-   "rank": 17,
-   "isin": "US92189F6768",
-   "ticker": "SMH",
-   "name": "VANECK SEMICONDUCTOR ETF CHAN",
-   "usd": 15578812,
+   "isin": "US78433H6751",
+   "ticker": "QQQI",
+   "name": "NEOS NASDAQ 100 HIGH INCOME ETF",
+   "usd": 15990533,
    "etf": true
   },
   {
+   "rank": 17,
+   "isin": "US02079K1079",
+   "ticker": "GOOG",
+   "name": "ALPHABET INC CL C CHAN",
+   "usd": 15810780,
+   "etf": false
+  },
+  {
    "rank": 18,
-   "isin": "US78464A8541",
-   "ticker": "SPYM",
-   "name": "SPDR PORTFOLIO SP 500 ETF",
-   "usd": 14958044,
+   "isin": "US25461A3876",
+   "ticker": "KORU",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL",
+   "usd": 15378952,
    "etf": true
   },
   {
    "rank": 19,
-   "isin": "US4642875235",
-   "ticker": "SOXX",
-   "name": "ISHARES SEMICONDUCTOR ETF",
-   "usd": 13028130,
+   "isin": "US78464A8541",
+   "ticker": "SPYM",
+   "name": "SPDR PORTFOLIO SP 500 ETF",
+   "usd": 14925361,
    "etf": true
   },
   {
    "rank": 20,
-   "isin": "US33737A1088",
-   "ticker": "GRID",
-   "name": "FIRST TRUST NASDAQ CLEAN EDGE SMART GRID INFRA INDEX ETF",
-   "usd": 11227856,
-   "etf": true
-  },
-  {
-   "rank": 21,
-   "isin": "US0846707026",
-   "ticker": "BRK-B",
-   "name": "BERKSHIRE HATHAWAY INC CL B",
-   "usd": 9259243,
+   "isin": "US80004C2008",
+   "ticker": "SNDK",
+   "name": "SNDSK CRP ORD WI",
+   "usd": 11849762,
    "etf": false
   },
   {
+   "rank": 21,
+   "isin": "US33737A1088",
+   "ticker": "GRID",
+   "name": "FIRST TRUST NASDAQ CLEAN EDGE SMART GRID INFRA INDEX ETF",
+   "usd": 11137193,
+   "etf": true
+  },
+  {
    "rank": 22,
-   "isin": "US46436E7186",
-   "ticker": "SGOV",
-   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
-   "usd": 8580476,
+   "isin": "US81369Y2090",
+   "ticker": "XLV",
+   "name": "HEALTH CARE SELECT SECTOR SPDR FUND ETF",
+   "usd": 9241501,
    "etf": true
   },
   {
    "rank": 23,
-   "isin": "US21873S1087",
-   "ticker": "CRWV",
-   "name": "CoreWeave Inc",
-   "usd": 8467312,
-   "etf": false
+   "isin": "US74347R6696",
+   "ticker": "USD",
+   "name": "PROSHARES ULTRA SEMICONDUCTORS ETF",
+   "usd": 8987221,
+   "etf": true
   },
   {
    "rank": 24,
-   "isin": "MHY731181209",
-   "ticker": "RBNE",
-   "name": "ROBIN ENERGY LTD.",
-   "usd": 7877671,
+   "isin": "US21873S1087",
+   "ticker": "CRWV",
+   "name": "CoreWeave Inc",
+   "usd": 8963780,
    "etf": false
   },
   {
    "rank": 25,
-   "isin": "US38149W6306",
-   "ticker": "GPIQ",
-   "name": "GOLDMAN SACHS NASDAQ 100 CORE PREMIUM INCOME ETF",
-   "usd": 7811503,
-   "etf": true
-  },
-  {
-   "rank": 26,
-   "isin": "US74347R6696",
-   "ticker": "USD",
-   "name": "PROSHARES ULTRA SEMICONDUCTORS ETF",
-   "usd": 7789570,
-   "etf": true
-  },
-  {
-   "rank": 27,
-   "isin": "US7731211089",
-   "ticker": "RKLB",
-   "name": "ROCKET LAB CORPORATION COM USD0.0001",
-   "usd": 7581120,
+   "isin": "US0846707026",
+   "ticker": "BRK-B",
+   "name": "BERKSHIRE HATHAWAY INC CL B",
+   "usd": 8909434,
    "etf": false
   },
   {
+   "rank": 26,
+   "isin": "MHY731181209",
+   "ticker": "RBNE",
+   "name": "ROBIN ENERGY LTD.",
+   "usd": 8584184,
+   "etf": false
+  },
+  {
+   "rank": 27,
+   "isin": "US0636795421",
+   "ticker": "GDXU",
+   "name": "MicroSectors Gold Miners 3X Leveraged ETN",
+   "usd": 8042901,
+   "etf": true
+  },
+  {
    "rank": 28,
-   "isin": "US81369Y2090",
-   "ticker": "XLV",
-   "name": "HEALTH CARE SELECT SECTOR SPDR FUND ETF",
-   "usd": 7337039,
+   "isin": "US38149W6306",
+   "ticker": "GPIQ",
+   "name": "GOLDMAN SACHS NASDAQ 100 CORE PREMIUM INCOME ETF",
+   "usd": 7018072,
    "etf": true
   },
   {
@@ -634,176 +634,176 @@
    "isin": "US81369Y5069",
    "ticker": "XLE",
    "name": "ENERGY SELECT SECTOR SPDR ETF",
-   "usd": 7072753,
+   "usd": 6949504,
    "etf": true
   },
   {
    "rank": 30,
-   "isin": "US11135F1012",
-   "ticker": "AVGO",
-   "name": "BROADCOM INC EXOF",
-   "usd": 5987136,
+   "isin": "US5738741041",
+   "ticker": "MRVL",
+   "name": "MARVELL TECHNOLOGY INC",
+   "usd": 6706955,
    "etf": false
   },
   {
    "rank": 31,
-   "isin": "US02072L5654",
-   "ticker": "BOXX",
-   "name": "ALPHA ARCHITECT 1-3 MONTH BOX ETF",
-   "usd": 5981836,
+   "isin": "US4642867729",
+   "ticker": "EWY",
+   "name": "ISHARES MSCI SOUTH KOREA ETF",
+   "usd": 6582955,
    "etf": true
   },
   {
    "rank": 32,
-   "isin": "US78462F1030",
-   "ticker": "SPY",
-   "name": "SPDR SP 500 ETF TRUST",
-   "usd": 5788715,
+   "isin": "US74347Y6648",
+   "ticker": "BOIL",
+   "name": "PROSHARES ULTRA BLOOMBERG NA",
+   "usd": 6155885,
    "etf": true
   },
   {
    "rank": 33,
-   "isin": "US0636795421",
-   "ticker": "GDXU",
-   "name": "MicroSectors Gold Miners 3X Leveraged ETN",
-   "usd": 5170535,
-   "etf": true
+   "isin": "US0079031078",
+   "ticker": "AMD",
+   "name": "ADVANCED MICRO DEVICES INC",
+   "usd": 5512280,
+   "etf": false
   },
   {
    "rank": 34,
-   "isin": "US58933Y1055",
-   "ticker": "MRK",
-   "name": "MERCK N CO INC",
-   "usd": 5027299,
+   "isin": "US0231351067",
+   "ticker": "AMZN",
+   "name": "AMAZON.COM INC",
+   "usd": 5190643,
    "etf": false
   },
   {
    "rank": 35,
-   "isin": "US00123Q1040",
-   "ticker": "AGNC",
-   "name": "AGNC INVESTMENT CORP CHAN",
-   "usd": 4584201,
+   "isin": "US4180561072",
+   "ticker": "HAS",
+   "name": "HASBRO INC",
+   "usd": 4961753,
    "etf": false
   },
   {
    "rank": 36,
-   "isin": "US81369Y4070",
-   "ticker": "XLY",
-   "name": "CONSUMER DISCRETIONARY SELECT SECTOR SPDR FUND ETF",
-   "usd": 4580775,
-   "etf": true
-  },
-  {
-   "rank": 37,
-   "isin": "USN070592100",
-   "ticker": "ASML",
-   "name": "ASML HOLDING NV ADR",
-   "usd": 4444122,
+   "isin": "US98138H1014",
+   "ticker": "WDAY",
+   "name": "WORKDAY INC CL A",
+   "usd": 4814062,
    "etf": false
   },
   {
+   "rank": 37,
+   "isin": "US88636X2036",
+   "ticker": "MRNY",
+   "name": "TIDAL TRUST II YIELDMAX MRNA OPT INCOME ST",
+   "usd": 4680433,
+   "etf": true
+  },
+  {
    "rank": 38,
-   "isin": "US88636Y8883",
-   "ticker": "IRE",
-   "name": "DEFIAN DIY TT 2X LO IREN ETF",
-   "usd": 4435187,
+   "isin": "US78462F1030",
+   "ticker": "SPY",
+   "name": "SPDR SP 500 ETF TRUST",
+   "usd": 4600514,
    "etf": true
   },
   {
    "rank": 39,
-   "isin": "US0231351067",
-   "ticker": "AMZN",
-   "name": "AMAZON.COM INC",
-   "usd": 4430782,
+   "isin": "US7731211089",
+   "ticker": "RKLB",
+   "name": "ROCKET LAB CORPORATION COM USD0.0001",
+   "usd": 4519306,
    "etf": false
   },
   {
    "rank": 40,
-   "isin": "US4642867729",
-   "ticker": "EWY",
-   "name": "ISHARES MSCI SOUTH KOREA ETF",
-   "usd": 4413367,
+   "isin": "US88636Y8883",
+   "ticker": "IRE",
+   "name": "DEFIAN DIY TT 2X LO IREN ETF",
+   "usd": 4479089,
    "etf": true
   },
   {
    "rank": 41,
-   "isin": "US74347Y6648",
-   "ticker": "BOIL",
-   "name": "PROSHARES ULTRA BLOOMBERG NA",
-   "usd": 4395258,
-   "etf": true
+   "isin": "US04342Y1047",
+   "ticker": "ASAN",
+   "name": "ASANA INC CL A",
+   "usd": 4375923,
+   "etf": false
   },
   {
    "rank": 42,
-   "isin": "US98138H1014",
-   "ticker": "WDAY",
-   "name": "WORKDAY INC CL A",
-   "usd": 4222329,
+   "isin": "USN070592100",
+   "ticker": "ASML",
+   "name": "ASML HOLDING NV ADR",
+   "usd": 4357251,
    "etf": false
   },
   {
    "rank": 43,
-   "isin": "US33734X8469",
-   "ticker": "CIBR",
-   "name": "FIRST TRUST NASDAQ CYBERSECURITY ETF",
-   "usd": 4093030,
+   "isin": "US81369Y4070",
+   "ticker": "XLY",
+   "name": "CONSUMER DISCRETIONARY SELECT SECTOR SPDR FUND ETF",
+   "usd": 4078952,
    "etf": true
   },
   {
    "rank": 44,
-   "isin": "US46438T3095",
-   "ticker": "IQQ",
-   "name": "ISHARES NASDAQ 100 ETF",
-   "usd": 4047532,
+   "isin": "US09290C1036",
+   "ticker": "DYNF",
+   "name": "BLACKROCK US EQUITY FACTOR ROTATION ETF",
+   "usd": 4060118,
    "etf": true
   },
   {
    "rank": 45,
-   "isin": "US09290C1036",
-   "ticker": "DYNF",
-   "name": "BLACKROCK US EQUITY FACTOR ROTATION ETF",
-   "usd": 4024141,
-   "etf": true
+   "isin": "US00123Q1040",
+   "ticker": "AGNC",
+   "name": "AGNC INVESTMENT CORP CHAN",
+   "usd": 4052431,
+   "etf": false
   },
   {
    "rank": 46,
-   "isin": "US72352L1061",
-   "ticker": "PINS",
-   "name": "PINTEREST INC CL A",
-   "usd": 3987960,
-   "etf": false
-  },
-  {
-   "rank": 47,
-   "isin": "US0382221051",
-   "ticker": "AMAT",
-   "name": "APPLIED MATERIALS INC",
-   "usd": 3862732,
-   "etf": false
-  },
-  {
-   "rank": 48,
-   "isin": "US78468R3903",
-   "ticker": "QNDX",
-   "name": "STATE STREET SPDR PORTFOLIO NASDAQ 100 ETF",
-   "usd": 3827590,
+   "isin": "US33734X8469",
+   "ticker": "CIBR",
+   "name": "FIRST TRUST NASDAQ CYBERSECURITY ETF",
+   "usd": 4000860,
    "etf": true
   },
   {
+   "rank": 47,
+   "isin": "US4642874402",
+   "ticker": "IEF",
+   "name": "ISHARES 7-10 YEAR TREASURY BOND ETF",
+   "usd": 3994209,
+   "etf": true
+  },
+  {
+   "rank": 48,
+   "isin": "US72352L1061",
+   "ticker": "PINS",
+   "name": "PINTEREST INC CL A",
+   "usd": 3978785,
+   "etf": false
+  },
+  {
    "rank": 49,
-   "isin": "KYG9627R1157",
-   "ticker": "WFF",
-   "name": "WF Holding Ltd",
-   "usd": 3750648,
+   "isin": "US22788C1053",
+   "ticker": "CRWD",
+   "name": "CROWDSTRIKE HOLDINGS CL A ORD",
+   "usd": 3697815,
    "etf": false
   },
   {
    "rank": 50,
-   "isin": "US22160K1051",
-   "ticker": "COST",
-   "name": "COSTCO WHOLESALE CORP",
-   "usd": 3709009,
-   "etf": false
+   "isin": "US46438T3095",
+   "ticker": "IQQ",
+   "name": "ISHARES NASDAQ 100 ETF",
+   "usd": 3657740,
+   "etf": true
   }
  ]
 }
