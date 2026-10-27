@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-27 17:45",
+ "asOf": "2026-10-27 18:38",
  "window": "15:20~15:40",
- "status": "전 종목 2418개 중 후보 167개 점검 (기준 일봉 2026-10-26)",
+ "status": "전 종목 2416개 중 후보 173개 점검 (기준 일봉 2026-10-26)",
  "types": [
   {
    "id": "A",
@@ -23,13 +23,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "자동차부품",
        "after": {
-        "price": 40600.0,
-        "pct": 2.92
+        "price": 40500.0,
+        "pct": 2.66
        },
-       "marcap": 23755,
+       "marcap": 23697,
        "prevClose": 39450.0,
        "changePct": 3.55,
-       "value": 115,
+       "value": 116,
        "note": "고가 마감권(고가 대비 0.24% 아래) · 막판 20분 거래량 비중 68% · 수급 자료 확인 전"
       },
       {
@@ -39,13 +39,13 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "소프트웨어",
        "after": {
-        "price": 95200.0,
-        "pct": 18.7
+        "price": 96300.0,
+        "pct": 20.07
        },
-       "marcap": 10592,
+       "marcap": 10715,
        "prevClose": 80200.0,
        "changePct": 15.59,
-       "value": 285,
+       "value": 326,
        "note": "고가 마감권(고가 대비 0.32% 아래) · 막판 20분 거래량 비중 45% · 수급 자료 확인 전"
       },
       {
@@ -55,10 +55,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "화장품",
        "after": {
-        "price": 15310.0,
-        "pct": 5.51
+        "price": 15350.0,
+        "pct": 5.79
        },
-       "marcap": 3469,
+       "marcap": 3478,
        "prevClose": 14510.0,
        "changePct": 5.44,
        "value": 75,
@@ -71,13 +71,13 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "소프트웨어",
        "after": {
-        "price": 8190.0,
-        "pct": 23.72
+        "price": 8430.0,
+        "pct": 27.34
        },
-       "marcap": 1250,
+       "marcap": 1287,
        "prevClose": 6620.0,
        "changePct": 23.87,
-       "value": 603,
+       "value": 657,
        "note": "고가 마감권(고가 대비 0.00% 아래) · 막판 20분 거래량 비중 15% · 수급 자료 확인 전"
       }
      ]
@@ -94,30 +94,14 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "IT서비스",
        "after": {
-        "price": 1975.0,
-        "pct": 0.92
+        "price": 1956.0,
+        "pct": -0.05
        },
-       "marcap": 1095,
+       "marcap": 1085,
        "prevClose": 1957.0,
        "changePct": 2.1,
-       "value": 116,
-       "note": "전일 +16.9% 급등 · 오늘 거래량 전일의 30% · 도지(몸통 7%) · 10일선 1,656 / 20일선 1,711 위 마감"
-      },
-      {
-       "code": "365660",
-       "name": "레몬헬스케어",
-       "close": 3960.0,
-       "market": "KOSDAQ",
-       "sector": "건강관리업체및서비스",
-       "after": {
-        "price": 3955.0,
-        "pct": -2.1
-       },
-       "marcap": 532,
-       "prevClose": 4040.0,
-       "changePct": -1.98,
-       "value": 71,
-       "note": "전일 +14.0% 급등 · 오늘 거래량 전일의 11% · 도지(몸통 2%) · 10일선 3,404 / 20일선 3,629 위 마감"
+       "value": 119,
+       "note": "전일 +16.9% 급등 · 오늘 거래량 전일의 31% · 도지(몸통 7%) · 10일선 1,656 / 20일선 1,711 위 마감"
       }
      ]
     },
@@ -298,22 +282,22 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2418,
-  "candidates": 167,
+  "quotes": 2416,
+  "candidates": 173,
   "bars": 150,
   "naverBars": 150,
   "kisBars": 0,
   "a1": {
-   "후보": 148,
+   "후보": 149,
    "분봉지연": 0,
    "사유": {
-    "고가에서 멂": 135,
-    "등락률·거래대금 미달": 7,
+    "고가에서 멂": 131,
+    "등락률·거래대금 미달": 12,
     "ok(수급 자료 없음)": 4,
     "막판 거래량 비중 부족": 2
    },
    "수급자료": 0,
-   "막판비중_중앙값": 0.049,
+   "막판비중_중앙값": 0.046,
    "막판비중_최대": 0.716
   }
  },
