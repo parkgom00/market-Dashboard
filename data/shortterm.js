@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-27 15:49",
+ "asOf": "2026-10-27 16:41",
  "window": "15:20~15:40",
- "status": "전 종목 2419개 중 후보 161개 점검 (기준 일봉 2026-10-26)",
+ "status": "전 종목 2414개 중 후보 162개 점검 (기준 일봉 2026-10-26)",
  "types": [
   {
    "id": "A",
@@ -23,10 +23,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "자동차부품",
        "after": {
-        "price": 40850.0,
-        "pct": 3.55
+        "price": 40650.0,
+        "pct": 3.04
        },
-       "marcap": 23902,
+       "marcap": 23785,
        "prevClose": 39450.0,
        "changePct": 3.55,
        "value": 115,
@@ -39,13 +39,13 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "소프트웨어",
        "after": {
-        "price": 92700.0,
-        "pct": 15.59
+        "price": 92900.0,
+        "pct": 15.84
        },
-       "marcap": 10314,
+       "marcap": 10337,
        "prevClose": 80200.0,
        "changePct": 15.59,
-       "value": 221,
+       "value": 235,
        "note": "고가 마감권(고가 대비 0.32% 아래) · 막판 20분 거래량 비중 45% · 수급 자료 확인 전"
       },
       {
@@ -61,7 +61,7 @@ window.DASH.shortterm = {
        "marcap": 3467,
        "prevClose": 14510.0,
        "changePct": 5.44,
-       "value": 72,
+       "value": 74,
        "note": "고가 마감권(고가 대비 0.20% 아래) · 막판 20분 거래량 비중 27% · 수급 자료 확인 전"
       },
       {
@@ -71,13 +71,13 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "소프트웨어",
        "after": {
-        "price": 8200.0,
-        "pct": 23.87
+        "price": 8030.0,
+        "pct": 21.3
        },
-       "marcap": 1252,
+       "marcap": 1226,
        "prevClose": 6620.0,
        "changePct": 23.87,
-       "value": 520,
+       "value": 566,
        "note": "고가 마감권(고가 대비 0.00% 아래) · 막판 20분 거래량 비중 15% · 수급 자료 확인 전"
       }
      ]
@@ -94,14 +94,14 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "IT서비스",
        "after": {
-        "price": 1998.0,
-        "pct": 2.1
+        "price": 1979.0,
+        "pct": 1.12
        },
-       "marcap": 1108,
+       "marcap": 1097,
        "prevClose": 1957.0,
        "changePct": 2.1,
-       "value": 111,
-       "note": "전일 +16.9% 급등 · 오늘 거래량 전일의 29% · 도지(몸통 7%) · 10일선 1,656 / 20일선 1,711 위 마감"
+       "value": 114,
+       "note": "전일 +16.9% 급등 · 오늘 거래량 전일의 30% · 도지(몸통 7%) · 10일선 1,656 / 20일선 1,711 위 마감"
       },
       {
        "code": "365660",
@@ -110,13 +110,13 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "건강관리업체및서비스",
        "after": {
-        "price": 3960.0,
-        "pct": -1.98
+        "price": 3940.0,
+        "pct": -2.48
        },
-       "marcap": 533,
+       "marcap": 530,
        "prevClose": 4040.0,
        "changePct": -1.98,
-       "value": 69,
+       "value": 70,
        "note": "전일 +14.0% 급등 · 오늘 거래량 전일의 11% · 도지(몸통 2%) · 10일선 3,404 / 20일선 3,629 위 마감"
       }
      ]
@@ -298,8 +298,8 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2419,
-  "candidates": 161,
+  "quotes": 2414,
+  "candidates": 162,
   "bars": 150,
   "naverBars": 150,
   "kisBars": 0,
@@ -307,12 +307,13 @@ window.DASH.shortterm = {
    "후보": 148,
    "분봉지연": 0,
    "사유": {
-    "고가에서 멂": 142,
+    "고가에서 멂": 136,
+    "등락률·거래대금 미달": 6,
     "ok(수급 자료 없음)": 4,
     "막판 거래량 비중 부족": 2
    },
    "수급자료": 0,
-   "막판비중_중앙값": 0.05,
+   "막판비중_중앙값": 0.042,
    "막판비중_최대": 0.716
   }
  },
