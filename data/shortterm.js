@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-27 15:44",
+ "asOf": "2026-10-27 15:49",
  "window": "15:20~15:40",
  "status": "전 종목 2419개 중 후보 161개 점검 (기준 일봉 2026-10-26)",
  "types": [
@@ -17,17 +17,36 @@ window.DASH.shortterm = {
      "desc": "마감 직전 외국인·기관 순매수(거래대금의 3% 이상)가 몰리고, 고가 대비 0.5% 이내로 마감하는 종목",
      "kr": [
       {
+       "code": "007340",
+       "name": "DN오토모티브",
+       "close": 40850.0,
+       "market": "KOSPI",
+       "sector": "자동차부품",
+       "after": {
+        "price": 40850.0,
+        "pct": 3.55
+       },
+       "marcap": 23902,
+       "prevClose": 39450.0,
+       "changePct": 3.55,
+       "value": 115,
+       "note": "고가 마감권(고가 대비 0.24% 아래) · 막판 20분 거래량 비중 68% · 수급 자료 확인 전"
+      },
+      {
        "code": "053800",
        "name": "안랩",
        "close": 92700.0,
        "market": "KOSDAQ",
        "sector": "소프트웨어",
-       "after": null,
+       "after": {
+        "price": 92700.0,
+        "pct": 15.59
+       },
        "marcap": 10314,
        "prevClose": 80200.0,
        "changePct": 15.59,
        "value": 221,
-       "note": "고가 마감권(고가 대비 0.32% 아래) · 막판 20분 거래량 비중 35% · 외국인 +44억 · 기관 +0억 (합계 거래대금의 20%) · 장중 추정 가집계"
+       "note": "고가 마감권(고가 대비 0.32% 아래) · 막판 20분 거래량 비중 45% · 수급 자료 확인 전"
       },
       {
        "code": "003350",
@@ -35,12 +54,31 @@ window.DASH.shortterm = {
        "close": 15300.0,
        "market": "KOSPI",
        "sector": "화장품",
-       "after": null,
+       "after": {
+        "price": 15300.0,
+        "pct": 5.44
+       },
        "marcap": 3467,
        "prevClose": 14510.0,
        "changePct": 5.44,
        "value": 72,
-       "note": "고가 마감권(고가 대비 0.20% 아래) · 막판 20분 거래량 비중 26% · 외국인 +4억 · 기관 +3억 (합계 거래대금의 10%) · 장중 추정 가집계"
+       "note": "고가 마감권(고가 대비 0.20% 아래) · 막판 20분 거래량 비중 27% · 수급 자료 확인 전"
+      },
+      {
+       "code": "411080",
+       "name": "샌즈랩",
+       "close": 8200.0,
+       "market": "KOSDAQ",
+       "sector": "소프트웨어",
+       "after": {
+        "price": 8200.0,
+        "pct": 23.87
+       },
+       "marcap": 1252,
+       "prevClose": 6620.0,
+       "changePct": 23.87,
+       "value": 520,
+       "note": "고가 마감권(고가 대비 0.00% 아래) · 막판 20분 거래량 비중 15% · 수급 자료 확인 전"
       }
      ]
     },
@@ -55,7 +93,10 @@ window.DASH.shortterm = {
        "close": 1998.0,
        "market": "KOSDAQ",
        "sector": "IT서비스",
-       "after": null,
+       "after": {
+        "price": 1998.0,
+        "pct": 2.1
+       },
        "marcap": 1108,
        "prevClose": 1957.0,
        "changePct": 2.1,
@@ -68,7 +109,10 @@ window.DASH.shortterm = {
        "close": 3960.0,
        "market": "KOSDAQ",
        "sector": "건강관리업체및서비스",
-       "after": null,
+       "after": {
+        "price": 3960.0,
+        "pct": -1.98
+       },
        "marcap": 533,
        "prevClose": 4040.0,
        "changePct": -1.98,
@@ -257,28 +301,22 @@ window.DASH.shortterm = {
   "quotes": 2419,
   "candidates": 161,
   "bars": 150,
-  "naverBars": 0,
-  "kisBars": 150,
+  "naverBars": 150,
+  "kisBars": 0,
   "a1": {
    "후보": 148,
    "분봉지연": 0,
    "사유": {
     "고가에서 멂": 142,
-    "외국인·기관 순매수 부족": 1,
-    "막판 거래량 비중 부족": 3,
-    "ok(수급 확인)": 2
+    "ok(수급 자료 없음)": 4,
+    "막판 거래량 비중 부족": 2
    },
-   "수급자료": 148,
-   "막판비중_중앙값": 0.023,
-   "막판비중_최대": 0.35
-  },
-  "kis": {
-   "calls": 448,
-   "ok": 448,
-   "err": {}
+   "수급자료": 0,
+   "막판비중_중앙값": 0.05,
+   "막판비중_최대": 0.716
   }
  },
  "flowConfirmed": false,
- "flowKind": "장중 추정",
- "phase": "장중 · 외국인·기관 장중 추정 가집계(한국투자) 반영 · 확정 수급은 마감 후 다시 반영"
+ "flowKind": "",
+ "phase": "장 마감 후 · 정규장 종가 기준 · 수급 자료는 아직 공개 전"
 };
