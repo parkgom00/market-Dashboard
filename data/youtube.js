@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-27 15:46",
+ "asOf": "2026-10-27 17:47",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,29 +9,29 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
+     "title": "[#긴급인터뷰]  “지금 팔면 후회, 사면 물린다?” 삼성전자·SK하이닉스 진짜 매수 타이밍은 언제?ㅣ김민수 대표",
+     "publishedAt": "2026-10-27 17:30",
+     "url": "https://www.youtube.com/watch?v=HoJvid2LcSA"
+    },
+    {
+     "title": "“삼전·하닉 지금 바닥권은 맞지만 서둘러 사지 마라?” 2018년 폭락장과 닮은 흐름… 기간조정 얼마나 더 필요할까?   | 황유현 팀장",
+     "publishedAt": "2026-10-27 16:00",
+     "url": "https://www.youtube.com/watch?v=UNDflnY1dhc"
+    },
+    {
      "title": "[#긴급시황] “증시 드디어 반등 신호 나왔나?” 외국인이 현물·선물 동시에 쓸어담는 이유… 그래도 지금 서둘러 사면 안 되는 이유! |  박근형 부장",
      "publishedAt": "2026-10-27 15:00",
      "url": "https://www.youtube.com/watch?v=BXI_6ZyuLaI"
     },
     {
      "title": "[#긴급시황] “반등 신호 떴다” 삼성전자·SK하이닉스 추세 전환 시작되나? / 2차 전지보다 더 강한 다음 주도주는? ㅣ 이주현 대표",
-     "publishedAt": "2026-10-27 14:46",
+     "publishedAt": "2026-10-27 14:00",
      "url": "https://www.youtube.com/watch?v=cZrxTSWNrho"
     },
     {
      "title": "“앤트로픽발 대형 호재에 반도체 대반격!” 삼성전자·SK하이닉스 쌍바닥 형성하나? / 2차전지까지 대형 호재 터졌다ㅣ 이권희 대표",
-     "publishedAt": "2026-10-27 12:38",
+     "publishedAt": "2026-10-27 12:30",
      "url": "https://www.youtube.com/watch?v=_ZcHwcnrXR4"
-    },
-    {
-     "title": "“미국증시 급반전 신호 나왔다!” 한국증시도 대반격 시작되나? / SK하이닉스 실적 발표·주주환원 기대감까지 | 이주연 대표",
-     "publishedAt": "2026-10-27 11:08",
-     "url": "https://www.youtube.com/watch?v=k3speOewMeA"
-    },
-    {
-     "title": "[10월27일 #장시작전] 삼전닉스로 오르는 코스피…개인은 매도 폭탄, 지금 팔 때?",
-     "publishedAt": "2026-10-27 06:15",
-     "url": "https://www.youtube.com/watch?v=ziTqu8RaANs"
     }
    ]
   },
@@ -42,7 +42,7 @@ window.DASH.youtube = {
    "videos": [
     {
      "title": "(아이온큐) 주식희석이 장기투자자에게 미치는 영향은?",
-     "publishedAt": "2026-10-27 14:46",
+     "publishedAt": "2026-10-27 14:25",
      "url": "https://www.youtube.com/watch?v=onSgB3ZcPnA"
     },
     {
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "유튜브가 한국에만 비싸게 파는 이유",
+     "publishedAt": "2026-10-27 16:09",
+     "url": "https://www.youtube.com/watch?v=d1rskvuR8aM"
+    },
+    {
+     "title": "주식 이제 곧 역대급 상승장 온다",
+     "publishedAt": "2026-10-27 14:56",
+     "url": "https://www.youtube.com/watch?v=rvlvJm4MZnc"
+    },
+    {
+     "title": "10월 27일 오늘 코스피 어디까지 상승할까!?",
+     "publishedAt": "2026-10-27 07:53",
+     "url": "https://www.youtube.com/watch?v=E3UwBBtDJlM"
+    },
+    {
+     "title": "10월 27일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-10-27 06:56",
+     "url": "https://www.youtube.com/watch?v=hObPD9p6cBQ"
+    },
+    {
      "title": "AI 투자 줄인다더니, 한국 반도체로 53조 돈 몰리는 이유",
      "publishedAt": "2026-10-26 22:00",
      "url": "https://www.youtube.com/watch?v=WUTouUSy4LU"
-    },
-    {
-     "title": "골드만삭스가 코스피 전망을 '긴급하향'한 진짜 이유",
-     "publishedAt": "2026-10-26 18:53",
-     "url": "https://www.youtube.com/watch?v=c7PXJ4x52Tg"
-    },
-    {
-     "title": "하락장, 상승장 아무 영향 안 받고 기초자산 불리는 방법",
-     "publishedAt": "2026-10-24",
-     "url": "https://www.youtube.com/watch?v=VYqLOZkGBIw"
-    },
-    {
-     "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(10.26~10.30)",
-     "publishedAt": "2026-10-24",
-     "url": "https://www.youtube.com/watch?v=mJGcENdLVOQ"
-    },
-    {
-     "title": "코스피 재평가 구간 진입, 하락장 때 매수해야 하는 이유",
-     "publishedAt": "2026-10-23",
-     "url": "https://www.youtube.com/watch?v=qNPxRnb0w9g"
     }
    ]
   },
@@ -136,6 +136,11 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
+    {
+     "title": "앤트로픽의 '이것'이 코스피를 떡상시켰다고? #코스피 #앤트로픽 #하이닉스",
+     "publishedAt": "2026-10-27 13:27",
+     "url": "https://www.youtube.com/watch?v=e8OkkoMuoNU"
+    },
     {
      "title": "드디어 밝혀진 앤트로픽의 비밀. 심층분석 들어갑니다.",
      "publishedAt": "2026-10-27 00:48",
@@ -152,14 +157,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=Zn6yIuZUG5E"
     },
     {
-     "title": "이번 폭락보다 더 큰 문제가 있습니다.",
-     "publishedAt": "2026-10-23 10:09",
-     "url": "https://www.youtube.com/watch?v=88JuhT1pxag"
-    },
-    {
-     "title": "진퇴양난에 빠진 미국 증시",
-     "publishedAt": "2026-10-23",
-     "url": "https://www.youtube.com/watch?v=4sdi2vGvY8k"
+     "title": "메타가 촉발한 AI 버블론! #메타 #코스피 #솔리다임",
+     "publishedAt": "2026-10-23 11:23",
+     "url": "https://www.youtube.com/watch?v=Ifr6_OYsEBI"
     }
    ]
   },
@@ -174,11 +174,6 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=P4i9A1Woky8"
     },
     {
-     "title": "갑자기 자금줄 뚝? 불확실 최고조 구간 올까/월가 은둔 초고수의 예언, 또 적중할까/주식 안팔아도 세금 낸다? 억만장자세 실현될까/키덜트 덕에 부활한 장난감 회사들",
-     "publishedAt": "2026-10-26",
-     "url": "https://www.youtube.com/watch?v=l7G-dkgkDEk"
-    },
-    {
      "title": "\"1999년 붕괴 직전과 완벽히 똑같다\" 월가 초고수의 변심, 적중할까",
      "publishedAt": "2026-10-20 19:22",
      "url": "https://www.youtube.com/watch?v=JFtx8IXlz5c"
@@ -189,9 +184,14 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=quJTDt4JGpU"
     },
     {
-     "title": "AI 약한고리 결국 터진다? 극단적 공포 구간 진입/올 연말까진 기회, 내년이 진짜 위기?",
-     "publishedAt": "2026-10-19",
-     "url": "https://www.youtube.com/watch?v=A7B-vm2lGps"
+     "title": "금리 5.5%가 증시 충격 마지노선? 월가 초고수들의 경고, 대비해야 할까",
+     "publishedAt": "2026-10-14 20:39",
+     "url": "https://www.youtube.com/watch?v=PrEHp2DoRVU"
+    },
+    {
+     "title": "스페이스X의 반격 시작? 머스크의 호언장담 현실 될까",
+     "publishedAt": "2026-10-13 20:11",
+     "url": "https://www.youtube.com/watch?v=_LOD9GYd1Qk"
     }
    ]
   }
