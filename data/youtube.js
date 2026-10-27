@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-27 09:50",
+ "asOf": "2026-10-27 11:37",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,7 +9,12 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
-     "title": "[10월27일 #장시작전]  앤트로픽 IPO가 AI 반도체 살렸다. 필반도체 2.8%·SK하닉 ADR 4% 급등 / 오늘 코스피 대반전?",
+     "title": "“미국증시 급반전 신호 나왔다!” 한국증시도 대반격 시작되나? / SK하이닉스 실적 발표·주주환원 기대감까지 | 이주연 대표",
+     "publishedAt": "2026-10-27 11:08",
+     "url": "https://www.youtube.com/watch?v=k3speOewMeA"
+    },
+    {
+     "title": "[10월27일 #장시작전] 삼전닉스로 오르는 코스피…개인은 매도 폭탄, 지금 팔 때?",
      "publishedAt": "2026-10-27 06:15",
      "url": "https://www.youtube.com/watch?v=ziTqu8RaANs"
     },
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급인터뷰] 코스피 9,000 시대 진짜 올 수 있을까? 삼성전자 지금이 바닥인가 / 로봇주 대반격 시작되나  | 이화진 차장",
      "publishedAt": "2026-10-26 17:00",
      "url": "https://www.youtube.com/watch?v=zDaianPk8zQ"
-    },
-    {
-     "title": "[#긴급시황] “외국인은 오늘 삼전·하닉 3천억 던졌는데…” 글로벌 펀드는 저점에서 사들인다? / 삼성전자·SK하이닉스 진짜 바닥인가? ㅣ박근형 부장",
-     "publishedAt": "2026-10-26 15:00",
-     "url": "https://www.youtube.com/watch?v=FovHBZ8ZCzU"
     }
    ]
   },
@@ -152,14 +152,14 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=Zn6yIuZUG5E"
     },
     {
-     "title": "메타가 촉발한 AI 버블론! #메타 #코스피 #솔리다임",
-     "publishedAt": "2026-10-23 11:23",
-     "url": "https://www.youtube.com/watch?v=Ifr6_OYsEBI"
-    },
-    {
      "title": "이번 폭락보다 더 큰 문제가 있습니다.",
      "publishedAt": "2026-10-23 10:09",
      "url": "https://www.youtube.com/watch?v=88JuhT1pxag"
+    },
+    {
+     "title": "진퇴양난에 빠진 미국 증시",
+     "publishedAt": "2026-10-23",
+     "url": "https://www.youtube.com/watch?v=4sdi2vGvY8k"
     }
    ]
   },
@@ -174,6 +174,11 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=P4i9A1Woky8"
     },
     {
+     "title": "갑자기 자금줄 뚝? 불확실 최고조 구간 올까/월가 은둔 초고수의 예언, 또 적중할까/주식 안팔아도 세금 낸다? 억만장자세 실현될까/키덜트 덕에 부활한 장난감 회사들",
+     "publishedAt": "2026-10-26",
+     "url": "https://www.youtube.com/watch?v=l7G-dkgkDEk"
+    },
+    {
      "title": "\"1999년 붕괴 직전과 완벽히 똑같다\" 월가 초고수의 변심, 적중할까",
      "publishedAt": "2026-10-20 19:22",
      "url": "https://www.youtube.com/watch?v=JFtx8IXlz5c"
@@ -184,14 +189,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=quJTDt4JGpU"
     },
     {
-     "title": "금리 5.5%가 증시 충격 마지노선? 월가 초고수들의 경고, 대비해야 할까",
-     "publishedAt": "2026-10-14 20:39",
-     "url": "https://www.youtube.com/watch?v=PrEHp2DoRVU"
-    },
-    {
-     "title": "스페이스X의 반격 시작? 머스크의 호언장담 현실 될까",
-     "publishedAt": "2026-10-13 20:11",
-     "url": "https://www.youtube.com/watch?v=_LOD9GYd1Qk"
+     "title": "AI 약한고리 결국 터진다? 극단적 공포 구간 진입/올 연말까진 기회, 내년이 진짜 위기?",
+     "publishedAt": "2026-10-19",
+     "url": "https://www.youtube.com/watch?v=A7B-vm2lGps"
     }
    ]
   }
