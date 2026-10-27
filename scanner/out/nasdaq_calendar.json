@@ -873,9 +873,9 @@
   "title": "미국 건축허가",
   "level": "macro",
   "kind": "econ",
-  "consensus": "1.400M",
-  "actual": "",
-  "previous": "1.403M"
+  "consensus": "-0.2%",
+  "actual": "-0.4%",
+  "previous": "-2.1%"
  },
  {
   "date": "2026-10-27",
@@ -884,8 +884,8 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "2.0%",
-  "actual": "",
-  "previous": "0.0%"
+  "actual": "1.8%",
+  "previous": "0.1%"
  },
  {
   "date": "2026-10-27",
@@ -904,7 +904,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "0",
-  "actual": "",
+  "actual": "-2",
   "previous": "-2"
  },
  {
@@ -914,8 +914,8 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "81.2",
-  "actual": "",
-  "previous": "81.9"
+  "actual": "91.7",
+  "previous": "84.2"
  },
  {
   "date": "2026-10-27",
@@ -924,8 +924,8 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "651K",
-  "actual": "",
-  "previous": "6.4%"
+  "actual": "676K",
+  "previous": "680K"
  },
  {
   "date": "2026-10-28",
@@ -995,7 +995,7 @@
   "title": "미국 무역수지",
   "level": "macro",
   "kind": "econ",
-  "consensus": "-130.80B",
+  "consensus": "-130.40B",
   "actual": "",
   "previous": "-132.07B"
  },
@@ -1836,6 +1836,36 @@
   "consensus": "",
   "actual": "",
   "previous": "83.7%"
+ },
+ {
+  "date": "2026-11-17",
+  "time": "22:30",
+  "title": "미국 소매판매",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "0.2%"
+ },
+ {
+  "date": "2026-11-17",
+  "time": "22:30",
+  "title": "미국 수입물가",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "1.1%"
+ },
+ {
+  "date": "2026-11-17",
+  "time": "23:15",
+  "title": "미국 산업생산",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "2.25%"
  },
  {
   "date": "2026-11-18",

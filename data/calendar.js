@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-27 21:33",
+ "generatedAt": "2026-10-28 03:36",
  "events": [
   {
    "date": "2026-01-01",
@@ -376,12 +376,6 @@ window.DASH.calendar = {
     "미국 CPI: 실제 0.59% · 예상 336.65 · 이전 0.32%",
     "미국 근원 CPI: 실제 338.90 · 예상 0.2% · 이전 337.77"
    ]
-  },
-  {
-   "date": "2026-10-27",
-   "type": "earnings",
-   "market": "KR",
-   "title": "SK하이닉스 실적 발표 (예정)"
   },
   {
    "date": "2026-10-28",
@@ -1771,7 +1765,7 @@ window.DASH.calendar = {
    "title": "미국 건축허가",
    "time": "21:00",
    "result": [
-    "예상 1.400M · 이전 1.403M"
+    "실제 -0.4% · 예상 -0.2% · 이전 -2.1%"
    ]
   },
   {
@@ -1781,7 +1775,7 @@ window.DASH.calendar = {
    "title": "미국 내구재 주문",
    "time": "21:30",
    "result": [
-    "예상 2.0% · 이전 0.0%"
+    "실제 1.8% · 예상 2.0% · 이전 0.1%"
    ]
   },
   {
@@ -1801,7 +1795,7 @@ window.DASH.calendar = {
    "title": "리치먼드 연은지수",
    "time": "23:00",
    "result": [
-    "예상 0 · 이전 -2"
+    "실제 -2 · 예상 0 · 이전 -2"
    ]
   },
   {
@@ -1811,7 +1805,7 @@ window.DASH.calendar = {
    "title": "미국 소비자신뢰",
    "time": "23:00",
    "result": [
-    "예상 81.2 · 이전 81.9"
+    "실제 91.7 · 예상 81.2 · 이전 84.2"
    ]
   },
   {
@@ -1821,7 +1815,7 @@ window.DASH.calendar = {
    "title": "미국 신규주택판매",
    "time": "23:00",
    "result": [
-    "예상 651K · 이전 6.4%"
+    "실제 676K · 예상 651K · 이전 680K"
    ]
   },
   {
@@ -1872,7 +1866,7 @@ window.DASH.calendar = {
    "title": "미국 무역수지",
    "time": "21:30",
    "result": [
-    "예상 -130.80B · 이전 -132.07B"
+    "예상 -130.40B · 이전 -132.07B"
    ]
   },
   {
@@ -2477,6 +2471,36 @@ window.DASH.calendar = {
    "major": true,
    "result": [
     "이전 83.7%"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 소매판매",
+   "time": "22:30",
+   "result": [
+    "이전 0.2%"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 수입물가",
+   "time": "22:30",
+   "result": [
+    "이전 1.1%"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 산업생산",
+   "time": "23:15",
+   "result": [
+    "이전 2.25%"
    ]
   },
   {
