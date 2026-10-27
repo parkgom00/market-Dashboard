@@ -89,57 +89,57 @@ window.DASH.usmarket = {
    "group": "금리·환율",
    "name": "원/달러",
    "kind": "plain",
-   "close": 1326.33,
-   "changePct": 0.35,
-   "changeText": "1,326.33 (+0.35%)"
+   "close": 1326.29,
+   "changePct": 0.34,
+   "changeText": "1,326.29 (+0.34%)"
   },
   {
    "group": "금리·환율",
    "name": "엔/달러",
    "kind": "plain",
-   "close": 157.96,
-   "changePct": 0.72,
-   "changeText": "157.96 (+0.72%)"
+   "close": 157.99,
+   "changePct": 0.74,
+   "changeText": "157.99 (+0.74%)"
   },
   {
    "group": "원자재·기타",
    "name": "WTI 유가",
    "kind": "usd",
-   "close": 99.93,
-   "changePct": -1.8,
-   "changeText": "99.93 (-1.80%)"
+   "close": 99.91,
+   "changePct": -1.82,
+   "changeText": "99.91 (-1.82%)"
   },
   {
    "group": "원자재·기타",
    "name": "브렌트유",
    "kind": "usd",
-   "close": 109.43,
-   "changePct": -5.51,
-   "changeText": "109.43 (-5.51%)"
+   "close": 109.5,
+   "changePct": -5.45,
+   "changeText": "109.50 (-5.45%)"
   },
   {
    "group": "원자재·기타",
    "name": "금",
    "kind": "usd",
-   "close": 4076.9,
-   "changePct": 0.95,
-   "changeText": "4,076.90 (+0.95%)"
+   "close": 4075.8,
+   "changePct": 0.93,
+   "changeText": "4,075.80 (+0.93%)"
   },
   {
    "group": "원자재·기타",
    "name": "구리",
    "kind": "usd",
    "close": 6.66,
-   "changePct": 2.3,
-   "changeText": "6.66 (+2.30%)"
+   "changePct": 2.28,
+   "changeText": "6.66 (+2.28%)"
   },
   {
    "group": "원자재·기타",
    "name": "비트코인",
    "kind": "usd",
-   "close": 80793.67,
-   "changePct": 0.98,
-   "changeText": "80,793.67 (+0.98%)"
+   "close": 80810.93,
+   "changePct": 1.01,
+   "changeText": "80,810.93 (+1.01%)"
   },
   {
    "group": "원자재·기타",
