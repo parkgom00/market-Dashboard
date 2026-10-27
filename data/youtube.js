@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-27 21:48",
+ "asOf": "2026-10-27 23:52",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "미국 중간선거 전 로봇주 투자자들이 꼭 알아야 하는 5가지",
+     "publishedAt": "2026-10-27 22:30",
+     "url": "https://www.youtube.com/watch?v=w6m8Spw6Pd8"
+    },
+    {
      "title": "미국 중간선거 전 방산주 투자자들이 꼭 알아야 하는 5가지",
      "publishedAt": "2026-10-27 21:00",
      "url": "https://www.youtube.com/watch?v=Rbd6XNy7cU8"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "미국 중간선거 전 AI 투자자들이 꼭 알아야 하는 5가지",
      "publishedAt": "2026-10-27 18:36",
      "url": "https://www.youtube.com/watch?v=DNVmAdHSq-k"
-    },
-    {
-     "title": "유튜브가 한국에만 비싸게 파는 이유",
-     "publishedAt": "2026-10-27 16:09",
-     "url": "https://www.youtube.com/watch?v=d1rskvuR8aM"
     }
    ]
   },
