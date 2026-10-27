@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-27 11:37",
+ "asOf": "2026-10-27 13:38",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“앤트로픽발 대형 호재에 반도체 대반격!” 삼성전자·SK하이닉스 쌍바닥 형성하나? / 2차전지까지 대형 호재 터졌다ㅣ 이권희 대표",
+     "publishedAt": "2026-10-27 12:38",
+     "url": "https://www.youtube.com/watch?v=_ZcHwcnrXR4"
+    },
     {
      "title": "“미국증시 급반전 신호 나왔다!” 한국증시도 대반격 시작되나? / SK하이닉스 실적 발표·주주환원 기대감까지 | 이주연 대표",
      "publishedAt": "2026-10-27 11:08",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급인터뷰]  “한국증시 완전히 그로기 상태!” 지금은 이 악물고 버텨야 할 때… 기간조정 끝나면 진짜 상승 시작될까? ㅣ황유현 팀장",
      "publishedAt": "2026-10-26 18:06",
      "url": "https://www.youtube.com/watch?v=FJ1hjD8lEFw"
-    },
-    {
-     "title": "[#긴급인터뷰] 코스피 9,000 시대 진짜 올 수 있을까? 삼성전자 지금이 바닥인가 / 로봇주 대반격 시작되나  | 이화진 차장",
-     "publishedAt": "2026-10-26 17:00",
-     "url": "https://www.youtube.com/watch?v=zDaianPk8zQ"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "10월 27일 오늘 코스피 어디까지 상승할까!?",
-     "publishedAt": "2026-10-27 07:53",
-     "url": "https://www.youtube.com/watch?v=E3UwBBtDJlM"
-    },
-    {
-     "title": "10월 27일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-10-27 06:56",
-     "url": "https://www.youtube.com/watch?v=hObPD9p6cBQ"
-    },
-    {
      "title": "AI 투자 줄인다더니, 한국 반도체로 53조 돈 몰리는 이유",
      "publishedAt": "2026-10-26 22:00",
      "url": "https://www.youtube.com/watch?v=WUTouUSy4LU"
     },
     {
-     "title": "10월 26일 외국인이 한국인 몰래 매수한 종목 정체",
-     "publishedAt": "2026-10-26 19:31",
-     "url": "https://www.youtube.com/watch?v=1MSw-vaaf9w"
-    },
-    {
      "title": "골드만삭스가 코스피 전망을 '긴급하향'한 진짜 이유",
      "publishedAt": "2026-10-26 18:53",
      "url": "https://www.youtube.com/watch?v=c7PXJ4x52Tg"
+    },
+    {
+     "title": "하락장, 상승장 아무 영향 안 받고 기초자산 불리는 방법",
+     "publishedAt": "2026-10-24",
+     "url": "https://www.youtube.com/watch?v=VYqLOZkGBIw"
+    },
+    {
+     "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(10.26~10.30)",
+     "publishedAt": "2026-10-24",
+     "url": "https://www.youtube.com/watch?v=mJGcENdLVOQ"
+    },
+    {
+     "title": "코스피 재평가 구간 진입, 하락장 때 매수해야 하는 이유",
+     "publishedAt": "2026-10-23",
+     "url": "https://www.youtube.com/watch?v=qNPxRnb0w9g"
     }
    ]
   },
