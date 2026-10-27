@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-27 07:39",
+ "asOf": "2026-10-27 09:50",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "10월 27일 오늘 코스피 어디까지 상승할까!?",
+     "publishedAt": "2026-10-27 07:53",
+     "url": "https://www.youtube.com/watch?v=E3UwBBtDJlM"
+    },
+    {
      "title": "10월 27일 투자자들이 꼭 알아야 하는 투자 포인트",
      "publishedAt": "2026-10-27 06:56",
      "url": "https://www.youtube.com/watch?v=hObPD9p6cBQ"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "골드만삭스가 코스피 전망을 '긴급하향'한 진짜 이유",
      "publishedAt": "2026-10-26 18:53",
      "url": "https://www.youtube.com/watch?v=c7PXJ4x52Tg"
-    },
-    {
-     "title": "골드만삭스가 코스피 전망을 '긴급하향'한 진짜 이유",
-     "publishedAt": "2026-10-26 18:17",
-     "url": "https://www.youtube.com/watch?v=z1g0WWuqjcU"
     }
    ]
   },
