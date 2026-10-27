@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-27 15:40",
+ "asOf": "2026-10-27 15:44",
  "window": "15:20~15:40",
  "status": "전 종목 2419개 중 후보 161개 점검 (기준 일봉 2026-10-26)",
  "types": [
@@ -39,7 +39,7 @@ window.DASH.shortterm = {
        "marcap": 3467,
        "prevClose": 14510.0,
        "changePct": 5.44,
-       "value": 71,
+       "value": 72,
        "note": "고가 마감권(고가 대비 0.20% 아래) · 막판 20분 거래량 비중 26% · 외국인 +4억 · 기관 +3억 (합계 거래대금의 10%) · 장중 추정 가집계"
       }
      ]
