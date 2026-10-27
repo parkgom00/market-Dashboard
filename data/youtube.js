@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-27 23:52",
+ "asOf": "2026-10-28 01:51",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "미국 중간선거 전 전력주 투자자들이 꼭 알아야 하는 5가지",
+     "publishedAt": "2026-10-27 23:58",
+     "url": "https://www.youtube.com/watch?v=MvMsNcj80dk"
+    },
+    {
      "title": "미국 중간선거 전 로봇주 투자자들이 꼭 알아야 하는 5가지",
      "publishedAt": "2026-10-27 22:30",
      "url": "https://www.youtube.com/watch?v=w6m8Spw6Pd8"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "GPT로 안 물리고 안전한 주식 구별하는 방법",
      "publishedAt": "2026-10-27 19:23",
      "url": "https://www.youtube.com/watch?v=6_sebDAjmwY"
-    },
-    {
-     "title": "미국 중간선거 전 AI 투자자들이 꼭 알아야 하는 5가지",
-     "publishedAt": "2026-10-27 18:36",
-     "url": "https://www.youtube.com/watch?v=DNVmAdHSq-k"
     }
    ]
   },
