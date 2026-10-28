@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-29 05:46",
+ "asOf": "2026-10-29 07:45",
  "channels": [
   {
    "name": "815머니톡",
@@ -41,6 +41,11 @@ window.DASH.youtube = {
    "handle": "@orlandocampus",
    "videos": [
     {
+     "title": "(시황분석) 구글 capex 감소로 반도체 또 하락하나?",
+     "publishedAt": "2026-10-29 06:45",
+     "url": "https://www.youtube.com/watch?v=q5lsyb8OlN4"
+    },
+    {
      "title": "(삼전닉스,마이크론) 주가가 떨어진 이유가 펀더멘탈 붕괴가 아니면 팔 이유가 없다!!!",
      "publishedAt": "2026-10-28 14:10",
      "url": "https://www.youtube.com/watch?v=ajvY-w5DZPo"
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 기술적 반등 vs 추세전환?",
      "publishedAt": "2026-10-27 05:31",
      "url": "https://www.youtube.com/watch?v=y4PkDIgK3d8"
-    },
-    {
-     "title": "(주간시황) 다음주 금리와 빅테크 실적이 반등을 나오게 하나?",
-     "publishedAt": "2026-10-25 19:22",
-     "url": "https://www.youtube.com/watch?v=rzw22vOHhFU"
     }
    ]
   },
@@ -120,14 +120,14 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=J1sYj8GcFC8"
     },
     {
-     "title": "GPT로 지금 내 주식 '물타기'해도 되는지 계산하는 방법",
-     "publishedAt": "2026-10-28 18:42",
-     "url": "https://www.youtube.com/watch?v=II7gXbI2WAE"
-    },
-    {
      "title": "현시점, AI 종목들 앞으로 어떻게 흘러갈까?",
      "publishedAt": "2026-10-28 18:00",
      "url": "https://www.youtube.com/watch?v=S-UGAzw1eqQ"
+    },
+    {
+     "title": "앤트로픽 상장 이후, 벌어질 '주가 흐름' 전부 분석해왔습니다",
+     "publishedAt": "2026-10-28 16:45",
+     "url": "https://www.youtube.com/watch?v=6szgC9CddS0"
     }
    ]
   },
@@ -136,16 +136,6 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
-    {
-     "title": "하이닉스 폭등시킨 '2가지' #하이닉스 #코스피 #실적발표",
-     "publishedAt": "2026-10-28 11:56",
-     "url": "https://www.youtube.com/watch?v=femmgvp-_3A"
-    },
-    {
-     "title": "앤트로픽의 '이것'이 코스피를 떡상시켰다고? #코스피 #앤트로픽 #하이닉스",
-     "publishedAt": "2026-10-27 13:27",
-     "url": "https://www.youtube.com/watch?v=e8OkkoMuoNU"
-    },
     {
      "title": "드디어 밝혀진 앤트로픽의 비밀. 심층분석 들어갑니다.",
      "publishedAt": "2026-10-27 00:48",
@@ -160,6 +150,16 @@ window.DASH.youtube = {
      "title": "드릴 말씀이 있습니다.",
      "publishedAt": "2026-10-24 13:41",
      "url": "https://www.youtube.com/watch?v=Zn6yIuZUG5E"
+    },
+    {
+     "title": "이번 폭락보다 더 큰 문제가 있습니다.",
+     "publishedAt": "2026-10-24",
+     "url": "https://www.youtube.com/watch?v=88JuhT1pxag"
+    },
+    {
+     "title": "진퇴양난에 빠진 미국 증시",
+     "publishedAt": "2026-10-23",
+     "url": "https://www.youtube.com/watch?v=4sdi2vGvY8k"
     }
    ]
   },
@@ -184,14 +184,14 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=P4i9A1Woky8"
     },
     {
+     "title": "갑자기 자금줄 뚝? 불확실 최고조 구간 올까/월가 은둔 초고수의 예언, 또 적중할까/주식 안팔아도 세금 낸다? 억만장자세 실현될까/키덜트 덕에 부활한 장난감 회사들",
+     "publishedAt": "2026-10-26",
+     "url": "https://www.youtube.com/watch?v=l7G-dkgkDEk"
+    },
+    {
      "title": "\"1999년 붕괴 직전과 완벽히 똑같다\" 월가 초고수의 변심, 적중할까",
      "publishedAt": "2026-10-20 19:22",
      "url": "https://www.youtube.com/watch?v=JFtx8IXlz5c"
-    },
-    {
-     "title": "AI인프라 약한 고리 결국 터진다? 극단적 공포 진입, 이번에도 기회일까",
-     "publishedAt": "2026-10-19 20:01",
-     "url": "https://www.youtube.com/watch?v=quJTDt4JGpU"
     }
    ]
   }
