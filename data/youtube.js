@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-28 19:50",
+ "asOf": "2026-10-28 21:57",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황] “공매도 세력 결국 항복하나?” SK하이닉스 역대급 실적에 외국인 숏커버링 시작?ㅣ오로라 투자자문 이지환 대표",
+     "publishedAt": "2026-10-28 20:00",
+     "url": "https://www.youtube.com/watch?v=s7sXOG8EtGs"
+    },
     {
      "title": "[#긴급시황] “개인은 2.3조 투매, 큰손은 폭풍 매수!” 코스피 드디어 바닥 찍었나? / 2030년까지 HBM공급부족 | 이주연 대표",
      "publishedAt": "2026-10-28 18:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] “앤트로픽이 AI 거품론 뒤집었다!” 외국인 삼전·SK하닉 수천억 쓸어 담았다… 코스피 바닥 확인됐나? |  박근형 부장",
      "publishedAt": "2026-10-28 14:36",
      "url": "https://www.youtube.com/watch?v=ODQBIpQm_Yc"
-    },
-    {
-     "title": "“코스피 드디어 긴 터널 끝이 보인다!” SK하닉 100조 주주환원·네이버 호재까지… 상승장 시작되나?ㅣ이권희 대표",
-     "publishedAt": "2026-10-28 12:30",
-     "url": "https://www.youtube.com/watch?v=Wd2jXQClEbk"
     }
    ]
   },
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "투자자들이 꼭 알아야 하는, 2차전지와 자동차 섹터의 미래",
+     "publishedAt": "2026-10-28 21:50",
+     "url": "https://www.youtube.com/watch?v=rPLGJnY_o2k"
+    },
+    {
+     "title": "주가 폭등한 K화장품 종목들, 앞으로 어떻게 될까?",
+     "publishedAt": "2026-10-28 19:51",
+     "url": "https://www.youtube.com/watch?v=J1sYj8GcFC8"
+    },
+    {
      "title": "GPT로 지금 내 주식 '물타기'해도 되는지 계산하는 방법",
      "publishedAt": "2026-10-28 18:42",
      "url": "https://www.youtube.com/watch?v=II7gXbI2WAE"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "앤트로픽 상장 이후, 벌어질 '주가 흐름' 전부 분석해왔습니다",
      "publishedAt": "2026-10-28 16:26",
      "url": "https://www.youtube.com/watch?v=6szgC9CddS0"
-    },
-    {
-     "title": "SK하이닉스가 '60조 추가 주주환원'을 결정한 진짜 이유",
-     "publishedAt": "2026-10-28 15:59",
-     "url": "https://www.youtube.com/watch?v=KFuMrDfE1AA"
-    },
-    {
-     "title": "10월 28일 오늘 코스피 어떻게 흘러갈까?!",
-     "publishedAt": "2026-10-28 07:47",
-     "url": "https://www.youtube.com/watch?v=P9V3MmvIzy4"
     }
    ]
   },
@@ -169,6 +169,11 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
+     "title": "주식 안 팔아도 세금 내라? 사상 초유의 억만장자세 실험 현실 될까",
+     "publishedAt": "2026-10-28 20:54",
+     "url": "https://www.youtube.com/watch?v=_gMyqLP0928"
+    },
+    {
      "title": "큰 손들의 강제 주식 매도는 기회? 월가 변곡점 족집게 전망, 적중할까",
      "publishedAt": "2026-10-27 20:27",
      "url": "https://www.youtube.com/watch?v=WM76m1GByyg"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "AI인프라 약한 고리 결국 터진다? 극단적 공포 진입, 이번에도 기회일까",
      "publishedAt": "2026-10-19 20:01",
      "url": "https://www.youtube.com/watch?v=quJTDt4JGpU"
-    },
-    {
-     "title": "금리 5.5%가 증시 충격 마지노선? 월가 초고수들의 경고, 대비해야 할까",
-     "publishedAt": "2026-10-14 20:39",
-     "url": "https://www.youtube.com/watch?v=PrEHp2DoRVU"
     }
    ]
   }
