@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-28 21:36",
+ "generatedAt": "2026-10-29 03:36",
  "events": [
   {
    "date": "2026-01-01",
@@ -378,18 +378,6 @@ window.DASH.calendar = {
    ]
   },
   {
-   "date": "2026-10-28",
-   "type": "earnings",
-   "market": "KR",
-   "title": "LG전자 확정실적·컨퍼런스콜 (예정)"
-  },
-  {
-   "date": "2026-10-28",
-   "type": "earnings",
-   "market": "KR",
-   "title": "SK하이닉스 실적 발표 (예정)"
-  },
-  {
    "date": "2026-10-29",
    "type": "earnings",
    "market": "KR",
@@ -452,7 +440,7 @@ window.DASH.calendar = {
    "title": "미국 PCE 물가지수 발표 · 9월분 (한국시간 저녁)",
    "time": "21:30",
    "result": [
-    "미국 PCE: 예상 0.5% · 이전 3.4%",
+    "미국 PCE: 예상 3.6% · 이전 3.4%",
     "미국 근원 PCE: 예상 3.1% · 이전 3.0%"
    ]
   },
@@ -703,8 +691,20 @@ window.DASH.calendar = {
   {
    "date": "2027-01-27",
    "type": "earnings",
+   "market": "KR",
+   "title": "SK하이닉스 실적 발표 (예정)"
+  },
+  {
+   "date": "2027-01-27",
+   "type": "earnings",
    "market": "US",
    "title": "ASML 실적 발표 (예정)"
+  },
+  {
+   "date": "2027-01-27",
+   "type": "earnings",
+   "market": "US",
+   "title": "비자 실적 발표 (예정)"
   },
   {
    "date": "2027-01-28",
@@ -2018,7 +2018,7 @@ window.DASH.calendar = {
    "title": "미국 무역수지",
    "time": "21:30",
    "result": [
-    "예상 -130.40B · 이전 -132.07B"
+    "실제 -134.90B · 예상 -130.40B · 이전 -132.07B"
    ]
   },
   {
@@ -2084,7 +2084,7 @@ window.DASH.calendar = {
    "title": "한국 산업생산",
    "time": "08:00",
    "result": [
-    "이전 -4.8%"
+    "이전 -2.2%"
    ]
   },
   {
@@ -2545,6 +2545,26 @@ window.DASH.calendar = {
    "title": "엔비디아 실적 발표",
    "result": [
     "EPS 예상 $2.49"
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 건축허가",
+   "time": "22:30",
+   "result": [
+    "이전 -0.4%"
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 주택착공",
+   "time": "22:30",
+   "result": [
+    "이전 -5.2%"
    ]
   },
   {

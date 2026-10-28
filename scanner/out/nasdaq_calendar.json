@@ -996,7 +996,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "-130.40B",
-  "actual": "",
+  "actual": "-134.90B",
   "previous": "-132.07B"
  },
  {
@@ -1153,7 +1153,7 @@
   "title": "미국 PCE",
   "level": "major",
   "kind": "econ",
-  "consensus": "0.5%",
+  "consensus": "3.6%",
   "actual": "",
   "previous": "3.4%"
  },
@@ -1218,7 +1218,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "-4.8%"
+  "previous": "-2.2%"
  },
  {
   "date": "2026-10-30",
@@ -1887,6 +1887,26 @@
   "epsForecast": "$2.49",
   "eps": "",
   "surprise": ""
+ },
+ {
+  "date": "2026-11-18",
+  "time": "22:30",
+  "title": "미국 건축허가",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "-0.4%"
+ },
+ {
+  "date": "2026-11-18",
+  "time": "22:30",
+  "title": "미국 주택착공",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "-5.2%"
  },
  {
   "date": "2026-11-19",
