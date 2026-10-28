@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-28 10:00",
+ "asOf": "2026-10-28 11:50",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,9 +9,9 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
-     "title": "외국인 매도 끝나가나? SK하이닉스 반등, 이번엔 V자 가능할까?, 방산·전력주 급락, 중장기 기회로 바뀌는 순간ㅣ소진웅 과장",
-     "publishedAt": "2026-10-28 09:01",
-     "url": "https://www.youtube.com/watch?v=IikEvhvN_So"
+     "title": "“중국도 한국 반도체 없으면 안 된다?” 삼성전자·SK하이닉스에 SOS / 역대급 실적에 주주환원까지ㅣ이주연 대표",
+     "publishedAt": "2026-10-28 11:02",
+     "url": "https://www.youtube.com/watch?v=3iznxa8Kcq4"
     },
     {
      "title": "“HBM 다음은 피지컬 AI다!” 지금은 소외된 현대차… 미래 초대형 기회가 찾아오는 이유ㅣ아메리칸대학 학과장 이관후 교수",
