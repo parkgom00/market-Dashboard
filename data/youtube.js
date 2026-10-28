@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-28 15:57",
+ "asOf": "2026-10-28 17:54",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,28 +9,28 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
+     "title": "[#긴급시황] “삼성전자 진짜 무서운 건 지금부터!” D램 가격 65% 급등·HBM4 대반격 시작?  | 메리츠증권 이화진 차장",
+     "publishedAt": "2026-10-28 17:00",
+     "url": "https://www.youtube.com/watch?v=GAPD-RQXyhg"
+    },
+    {
+     "title": "“반도체주 다음은 어디?” 주주 환원으로 재평가 받는 삼전·SK하닉 / 내년 텐배거 후보 섹터는?   | 김민수 대표",
+     "publishedAt": "2026-10-28 16:00",
+     "url": "https://www.youtube.com/watch?v=VgbGKGyIwAk"
+    },
+    {
      "title": "[#긴급시황] “앤트로픽이 AI 거품론 뒤집었다!” 외국인 삼전·SK하닉 수천억 쓸어 담았다… 코스피 바닥 확인됐나? |  박근형 부장",
-     "publishedAt": "2026-10-28 14:57",
+     "publishedAt": "2026-10-28 14:36",
      "url": "https://www.youtube.com/watch?v=ODQBIpQm_Yc"
     },
     {
      "title": "“코스피 드디어 긴 터널 끝이 보인다!” SK하닉 100조 주주환원·네이버 호재까지… 상승장 시작되나?ㅣ이권희 대표",
-     "publishedAt": "2026-10-28 12:50",
+     "publishedAt": "2026-10-28 12:30",
      "url": "https://www.youtube.com/watch?v=Wd2jXQClEbk"
     },
     {
-     "title": "“중국도 한국 반도체 없으면 안 된다?” 삼성전자·SK하이닉스에 SOS / 역대급 실적에 주주환원까지ㅣ이주연 대표",
-     "publishedAt": "2026-10-28 11:02",
-     "url": "https://www.youtube.com/watch?v=3iznxa8Kcq4"
-    },
-    {
-     "title": "“HBM 다음은 피지컬 AI다!” 지금은 소외된 현대차… 미래 초대형 기회가 찾아오는 이유ㅣ아메리칸대학 학과장 이관후 교수",
-     "publishedAt": "2026-10-28 09:00",
-     "url": "https://www.youtube.com/watch?v=mWgUyeufdiE"
-    },
-    {
      "title": "[10월28일 #장시작전] 호실적도 못 믿겠다! 시장 방향 돌리고 코스피 6000 달성 언제쯤?",
-     "publishedAt": "2026-10-28 06:23",
+     "publishedAt": "2026-10-28 12:16",
      "url": "https://www.youtube.com/watch?v=qSfE6OUrnHo"
     }
    ]
@@ -42,7 +42,7 @@ window.DASH.youtube = {
    "videos": [
     {
      "title": "(삼전닉스,마이크론) 주가가 떨어진 이유가 펀더멘탈 붕괴가 아니면 팔 이유가 없다!!!",
-     "publishedAt": "2026-10-28 14:57",
+     "publishedAt": "2026-10-28 14:10",
      "url": "https://www.youtube.com/watch?v=ajvY-w5DZPo"
     },
     {
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "앤트로픽 상장 이후, 벌어질 '주가 흐름' 전부 분석해왔습니다",
+     "publishedAt": "2026-10-28 16:26",
+     "url": "https://www.youtube.com/watch?v=6szgC9CddS0"
+    },
+    {
+     "title": "SK하이닉스가 '60조 추가 주주환원'을 결정한 진짜 이유",
+     "publishedAt": "2026-10-28 15:59",
+     "url": "https://www.youtube.com/watch?v=KFuMrDfE1AA"
+    },
+    {
+     "title": "10월 28일 오늘 코스피 어떻게 흘러갈까?!",
+     "publishedAt": "2026-10-28 07:47",
+     "url": "https://www.youtube.com/watch?v=P9V3MmvIzy4"
+    },
+    {
+     "title": "10월 28일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-10-28 06:47",
+     "url": "https://www.youtube.com/watch?v=oPdUbw6HJF4"
+    },
+    {
      "title": "미국 중간선거 전 전력주 투자자들이 꼭 알아야 하는 5가지",
      "publishedAt": "2026-10-27 23:58",
      "url": "https://www.youtube.com/watch?v=MvMsNcj80dk"
-    },
-    {
-     "title": "미국 중간선거 전 로봇주 투자자들이 꼭 알아야 하는 5가지",
-     "publishedAt": "2026-10-27 22:30",
-     "url": "https://www.youtube.com/watch?v=w6m8Spw6Pd8"
-    },
-    {
-     "title": "미국 중간선거 전 방산주 투자자들이 꼭 알아야 하는 5가지",
-     "publishedAt": "2026-10-27 21:00",
-     "url": "https://www.youtube.com/watch?v=Rbd6XNy7cU8"
-    },
-    {
-     "title": "미국 중간선거 전 2차전지 투자자들이 꼭 알아야 하는 5가지",
-     "publishedAt": "2026-10-27 19:50",
-     "url": "https://www.youtube.com/watch?v=cPsom3rLjjs"
-    },
-    {
-     "title": "미국 중간선거 전 AI 투자자들이 꼭 알아야 하는 5가지",
-     "publishedAt": "2026-10-27 19:00",
-     "url": "https://www.youtube.com/watch?v=DNVmAdHSq-k"
     }
    ]
   },
@@ -136,6 +136,16 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
+    {
+     "title": "하이닉스 폭등시킨 '2가지' #하이닉스 #코스피 #실적발표",
+     "publishedAt": "2026-10-28 11:56",
+     "url": "https://www.youtube.com/watch?v=femmgvp-_3A"
+    },
+    {
+     "title": "앤트로픽의 '이것'이 코스피를 떡상시켰다고? #코스피 #앤트로픽 #하이닉스",
+     "publishedAt": "2026-10-27 13:27",
+     "url": "https://www.youtube.com/watch?v=e8OkkoMuoNU"
+    },
     {
      "title": "드디어 밝혀진 앤트로픽의 비밀. 심층분석 들어갑니다.",
      "publishedAt": "2026-10-27 00:48",
@@ -150,16 +160,6 @@ window.DASH.youtube = {
      "title": "드릴 말씀이 있습니다.",
      "publishedAt": "2026-10-24 13:41",
      "url": "https://www.youtube.com/watch?v=Zn6yIuZUG5E"
-    },
-    {
-     "title": "이번 폭락보다 더 큰 문제가 있습니다.",
-     "publishedAt": "2026-10-24",
-     "url": "https://www.youtube.com/watch?v=88JuhT1pxag"
-    },
-    {
-     "title": "진퇴양난에 빠진 미국 증시",
-     "publishedAt": "2026-10-23",
-     "url": "https://www.youtube.com/watch?v=4sdi2vGvY8k"
     }
    ]
   },
@@ -179,11 +179,6 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=P4i9A1Woky8"
     },
     {
-     "title": "갑자기 자금줄 뚝? 불확실 최고조 구간 올까/월가 은둔 초고수의 예언, 또 적중할까/주식 안팔아도 세금 낸다? 억만장자세 실현될까/키덜트 덕에 부활한 장난감 회사들",
-     "publishedAt": "2026-10-26",
-     "url": "https://www.youtube.com/watch?v=l7G-dkgkDEk"
-    },
-    {
      "title": "\"1999년 붕괴 직전과 완벽히 똑같다\" 월가 초고수의 변심, 적중할까",
      "publishedAt": "2026-10-20 19:22",
      "url": "https://www.youtube.com/watch?v=JFtx8IXlz5c"
@@ -192,6 +187,11 @@ window.DASH.youtube = {
      "title": "AI인프라 약한 고리 결국 터진다? 극단적 공포 진입, 이번에도 기회일까",
      "publishedAt": "2026-10-19 20:01",
      "url": "https://www.youtube.com/watch?v=quJTDt4JGpU"
+    },
+    {
+     "title": "금리 5.5%가 증시 충격 마지노선? 월가 초고수들의 경고, 대비해야 할까",
+     "publishedAt": "2026-10-14 20:39",
+     "url": "https://www.youtube.com/watch?v=PrEHp2DoRVU"
     }
    ]
   }
