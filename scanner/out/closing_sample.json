@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "DS투자증권",
     "tit": "사상 최초 DRAM 분기 매출 100조원 상회",
-    "rcnt": "50682",
+    "rcnt": "50778",
     "wdt": "20261012"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "하나증권",
     "tit": "강한 DRAM 가격. LPDDR 공급 부족 심화",
-    "rcnt": "28875",
+    "rcnt": "28911",
     "wdt": "20261012"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "유진투자증권",
     "tit": "눈높이를 높이는 구간",
-    "rcnt": "24248",
+    "rcnt": "24278",
     "wdt": "20261012"
    }
   ],
@@ -222,17 +222,17 @@
     "reutersCode": "000660",
     "stockName": "SK하이닉스",
     "sosok": "0",
-    "closePrice": "1,499,000",
-    "compareToPreviousClosePrice": "158,000",
+    "closePrice": "1,494,000",
+    "compareToPreviousClosePrice": "153,000",
     "compareToPreviousPrice": {
      "code": "2",
      "text": "상승",
      "name": "RISING"
     },
-    "fluctuationsRatio": "11.78",
+    "fluctuationsRatio": "11.41",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "1,095,008,055",
+    "marketValue": "1,091,355,593",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
@@ -260,17 +260,17 @@
     "reutersCode": "402340",
     "stockName": "SK스퀘어",
     "sosok": "0",
-    "closePrice": "925,000",
-    "compareToPreviousClosePrice": "97,000",
+    "closePrice": "922,000",
+    "compareToPreviousClosePrice": "94,000",
     "compareToPreviousPrice": {
      "code": "2",
      "text": "상승",
      "name": "RISING"
     },
-    "fluctuationsRatio": "11.71",
+    "fluctuationsRatio": "11.35",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "122,029,698",
+    "marketValue": "121,633,926",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
@@ -298,17 +298,17 @@
     "reutersCode": "042700",
     "stockName": "한미반도체",
     "sosok": "0",
-    "closePrice": "204,000",
-    "compareToPreviousClosePrice": "12,600",
+    "closePrice": "203,500",
+    "compareToPreviousClosePrice": "12,100",
     "compareToPreviousPrice": {
      "code": "2",
      "text": "상승",
      "name": "RISING"
     },
-    "fluctuationsRatio": "6.58",
+    "fluctuationsRatio": "6.32",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "19,443,688",
+    "marketValue": "19,396,032",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
