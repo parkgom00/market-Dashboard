@@ -1,8 +1,14 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-28 20:47",
+ "generatedAt": "2026-10-28 21:36",
  "events": [
+  {
+   "date": "2026-01-01",
+   "type": "holiday",
+   "market": "KR",
+   "title": "신정연휴 (증시 휴장)"
+  },
   {
    "date": "2026-01-01",
    "type": "holiday",
@@ -54,8 +60,32 @@ window.DASH.calendar = {
   {
    "date": "2026-02-16",
    "type": "holiday",
+   "market": "KR",
+   "title": "설날 전날 (증시 휴장)"
+  },
+  {
+   "date": "2026-02-16",
+   "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 대통령의 날"
+  },
+  {
+   "date": "2026-02-17",
+   "type": "holiday",
+   "market": "KR",
+   "title": "설날 (증시 휴장)"
+  },
+  {
+   "date": "2026-02-18",
+   "type": "holiday",
+   "market": "KR",
+   "title": "설날 다음날 (증시 휴장)"
+  },
+  {
+   "date": "2026-03-02",
+   "type": "holiday",
+   "market": "KR",
+   "title": "삼일절 대체 휴일 (증시 휴장)"
   },
   {
    "date": "2026-03-06",
@@ -121,7 +151,13 @@ window.DASH.calendar = {
    "date": "2026-05-01",
    "type": "holiday",
    "market": "KR",
-   "title": "근로자의 날 (증시 휴장)"
+   "title": "노동절 (증시 휴장)"
+  },
+  {
+   "date": "2026-05-05",
+   "type": "holiday",
+   "market": "KR",
+   "title": "어린이날 (증시 휴장)"
   },
   {
    "date": "2026-05-08",
@@ -138,6 +174,12 @@ window.DASH.calendar = {
   {
    "date": "2026-05-25",
    "type": "holiday",
+   "market": "KR",
+   "title": "부처님오신날 대체 휴일 (증시 휴장)"
+  },
+  {
+   "date": "2026-05-25",
+   "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 메모리얼 데이"
   },
@@ -146,6 +188,12 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 PCE 물가지수 발표 · 4월분 (한국시간 저녁)"
+  },
+  {
+   "date": "2026-06-03",
+   "type": "holiday",
+   "market": "KR",
+   "title": "지방선거일 (증시 휴장)"
   },
   {
    "date": "2026-06-05",
@@ -196,6 +244,12 @@ window.DASH.calendar = {
    "title": "미국 소비자물가지수(CPI) 발표 · 6월분 (한국시간 저녁)"
   },
   {
+   "date": "2026-07-17",
+   "type": "holiday",
+   "market": "KR",
+   "title": "제헌절 (증시 휴장)"
+  },
+  {
    "date": "2026-07-30",
    "type": "econ",
    "market": "US",
@@ -218,6 +272,12 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 소비자물가지수(CPI) 발표 · 7월분 (한국시간 저녁)"
+  },
+  {
+   "date": "2026-08-17",
+   "type": "holiday",
+   "market": "KR",
+   "title": "광복절 대체 휴일 (증시 휴장)"
   },
   {
    "date": "2026-08-26",
@@ -553,6 +613,12 @@ window.DASH.calendar = {
   {
    "date": "2026-12-25",
    "type": "holiday",
+   "market": "KR",
+   "title": "기독탄신일 (증시 휴장)"
+  },
+  {
+   "date": "2026-12-25",
+   "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 크리스마스"
   },
@@ -561,6 +627,12 @@ window.DASH.calendar = {
    "type": "holiday",
    "market": "KR",
    "title": "연말 휴장 (증시)"
+  },
+  {
+   "date": "2027-01-01",
+   "type": "holiday",
+   "market": "KR",
+   "title": "신정연휴 (증시 휴장)"
   },
   {
    "date": "2027-01-01",
@@ -623,6 +695,12 @@ window.DASH.calendar = {
    "title": "넷플릭스 실적 발표 (예정)"
   },
   {
+   "date": "2027-01-26",
+   "type": "earnings",
+   "market": "US",
+   "title": "보잉 실적 발표 (예정)"
+  },
+  {
    "date": "2027-01-27",
    "type": "earnings",
    "market": "US",
@@ -653,10 +731,28 @@ window.DASH.calendar = {
    "title": "테슬라 실적 발표 (예정)"
   },
   {
+   "date": "2027-02-08",
+   "type": "holiday",
+   "market": "KR",
+   "title": "설날 다음날 (증시 휴장)"
+  },
+  {
+   "date": "2027-02-09",
+   "type": "holiday",
+   "market": "KR",
+   "title": "설날 대체 휴일 (증시 휴장)"
+  },
+  {
    "date": "2027-02-15",
    "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 대통령의 날"
+  },
+  {
+   "date": "2027-03-01",
+   "type": "holiday",
+   "market": "KR",
+   "title": "삼일절 (증시 휴장)"
   },
   {
    "date": "2027-03-18",
@@ -675,6 +771,24 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "FOMC 금리 결정 발표 (한국시간 새벽, 미국 4/28)"
+  },
+  {
+   "date": "2027-05-03",
+   "type": "holiday",
+   "market": "KR",
+   "title": "노동절 대체 휴일 (증시 휴장)"
+  },
+  {
+   "date": "2027-05-05",
+   "type": "holiday",
+   "market": "KR",
+   "title": "어린이날 (증시 휴장)"
+  },
+  {
+   "date": "2027-05-13",
+   "type": "holiday",
+   "market": "KR",
+   "title": "부처님오신날 (증시 휴장)"
   },
   {
    "date": "2027-05-31",
@@ -701,10 +815,22 @@ window.DASH.calendar = {
    "title": "미국 증시 휴장 · 독립기념일 대체"
   },
   {
+   "date": "2027-07-19",
+   "type": "holiday",
+   "market": "KR",
+   "title": "제헌절 대체 휴일 (증시 휴장)"
+  },
+  {
    "date": "2027-07-29",
    "type": "econ",
    "market": "US",
    "title": "FOMC 금리 결정 발표 (한국시간 새벽, 미국 7/28)"
+  },
+  {
+   "date": "2027-08-16",
+   "type": "holiday",
+   "market": "KR",
+   "title": "광복절 대체 휴일 (증시 휴장)"
   },
   {
    "date": "2027-09-06",
@@ -713,10 +839,40 @@ window.DASH.calendar = {
    "title": "미국 증시 휴장 · 노동절"
   },
   {
+   "date": "2027-09-14",
+   "type": "holiday",
+   "market": "KR",
+   "title": "추석 전날 (증시 휴장)"
+  },
+  {
+   "date": "2027-09-15",
+   "type": "holiday",
+   "market": "KR",
+   "title": "추석 (증시 휴장)"
+  },
+  {
+   "date": "2027-09-16",
+   "type": "holiday",
+   "market": "KR",
+   "title": "추석 다음날 (증시 휴장)"
+  },
+  {
    "date": "2027-09-16",
    "type": "econ",
    "market": "US",
    "title": "FOMC 금리 결정 발표 (한국시간 새벽, 미국 9/15)"
+  },
+  {
+   "date": "2027-10-04",
+   "type": "holiday",
+   "market": "KR",
+   "title": "개천절 대체 휴일 (증시 휴장)"
+  },
+  {
+   "date": "2027-10-11",
+   "type": "holiday",
+   "market": "KR",
+   "title": "한글날 대체 휴일 (증시 휴장)"
   },
   {
    "date": "2027-10-28",
@@ -741,6 +897,12 @@ window.DASH.calendar = {
    "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 크리스마스 대체"
+  },
+  {
+   "date": "2027-12-27",
+   "type": "holiday",
+   "market": "KR",
+   "title": "기독탄신일 대체 휴일 (증시 휴장)"
   },
   {
    "date": "2027-12-31",
@@ -941,7 +1103,7 @@ window.DASH.calendar = {
    "title": "미국 옵션 만기일"
   },
   {
-   "date": "2027-05-13",
+   "date": "2027-05-12",
    "type": "event",
    "market": "KR",
    "title": "옵션 만기일"
@@ -1716,8 +1878,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "보잉 실적 발표",
    "result": [
-    "EPS 실제 ($7.47) (예상 ($0.21))",
-    "장 시작 전"
+    "EPS 실제 ($0.34) (예상 ($0.21)) · 서프라이즈 -61.9%"
    ]
   },
   {
@@ -1726,7 +1887,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "비자 실적 발표",
    "result": [
-    "EPS 예상 $3.43"
+    "EPS 실제 $3.48 (예상 $3.43) · 서프라이즈 1.46%"
    ]
   },
   {
@@ -2164,7 +2325,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 서비스업 PMI",
    "time": "23:45",
    "result": [
-    "이전 57.9"
+    "예상 57.9 · 이전 58.8"
    ]
   },
   {
@@ -2207,6 +2368,13 @@ window.DASH.calendar = {
    "result": [
     "이전 1.4%"
    ]
+  },
+  {
+   "date": "2026-11-05",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 신규 실업수당 청구",
+   "time": "22:30"
   },
   {
    "date": "2026-11-05",
