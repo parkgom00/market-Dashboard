@@ -833,7 +833,7 @@
   "kind": "earnings",
   "note": "장 시작 전",
   "epsForecast": "($0.21)",
-  "eps": "",
+  "eps": "($7.47)",
   "surprise": ""
  },
  {
@@ -923,9 +923,9 @@
   "title": "미국 신규주택판매",
   "level": "macro",
   "kind": "econ",
-  "consensus": "651K",
-  "actual": "676K",
-  "previous": "680K"
+  "consensus": "-4.5%",
+  "actual": "-0.6%",
+  "previous": "5.1%"
  },
  {
   "date": "2026-10-28",
@@ -935,7 +935,7 @@
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
   "epsForecast": "$3.43",
-  "eps": "",
+  "eps": "$2.98",
   "surprise": ""
  },
  {
@@ -1865,7 +1865,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "2.25%"
+  "previous": "0.7%"
  },
  {
   "date": "2026-11-18",

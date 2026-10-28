@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-28 09:33",
+ "generatedAt": "2026-10-28 15:35",
  "events": [
   {
    "date": "2026-01-01",
@@ -382,6 +382,12 @@ window.DASH.calendar = {
    "type": "earnings",
    "market": "KR",
    "title": "LG전자 확정실적·컨퍼런스콜 (예정)"
+  },
+  {
+   "date": "2026-10-28",
+   "type": "earnings",
+   "market": "KR",
+   "title": "SK하이닉스 실적 발표 (예정)"
   },
   {
    "date": "2026-10-28",
@@ -1725,7 +1731,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "보잉 실적 발표",
    "result": [
-    "EPS 예상 ($0.21)",
+    "EPS 실제 ($7.47) (예상 ($0.21))",
     "장 시작 전"
    ]
   },
@@ -1815,7 +1821,7 @@ window.DASH.calendar = {
    "title": "미국 신규주택판매",
    "time": "23:00",
    "result": [
-    "실제 676K · 예상 651K · 이전 680K"
+    "실제 -0.6% · 예상 -4.5% · 이전 5.1%"
    ]
   },
   {
@@ -2500,7 +2506,7 @@ window.DASH.calendar = {
    "title": "미국 산업생산",
    "time": "23:15",
    "result": [
-    "이전 2.25%"
+    "이전 0.7%"
    ]
   },
   {
