@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-28 21:57",
+ "asOf": "2026-10-28 23:57",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "은행+증권주 주가, 앞으로 어떻게 흘러갈까?",
+     "publishedAt": "2026-10-28 23:50",
+     "url": "https://www.youtube.com/watch?v=gUSn1eiLMuU"
+    },
+    {
      "title": "투자자들이 꼭 알아야 하는, 2차전지와 자동차 섹터의 미래",
      "publishedAt": "2026-10-28 21:50",
      "url": "https://www.youtube.com/watch?v=rPLGJnY_o2k"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "현시점, AI 종목들 앞으로 어떻게 흘러갈까?",
      "publishedAt": "2026-10-28 18:00",
      "url": "https://www.youtube.com/watch?v=S-UGAzw1eqQ"
-    },
-    {
-     "title": "앤트로픽 상장 이후, 벌어질 '주가 흐름' 전부 분석해왔습니다",
-     "publishedAt": "2026-10-28 16:26",
-     "url": "https://www.youtube.com/watch?v=6szgC9CddS0"
     }
    ]
   },
