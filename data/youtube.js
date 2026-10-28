@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-28 11:50",
+ "asOf": "2026-10-28 13:50",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“코스피 드디어 긴 터널 끝이 보인다!” SK하닉 100조 주주환원·네이버 호재까지… 상승장 시작되나?ㅣ이권희 대표",
+     "publishedAt": "2026-10-28 12:50",
+     "url": "https://www.youtube.com/watch?v=Wd2jXQClEbk"
+    },
     {
      "title": "“중국도 한국 반도체 없으면 안 된다?” 삼성전자·SK하이닉스에 SOS / 역대급 실적에 주주환원까지ㅣ이주연 대표",
      "publishedAt": "2026-10-28 11:02",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#찐시황]  “코스피 급반등, 진짜 바닥 찍었나?” SK하이닉스 내일 실적 발표… 주가 방향 가를 ‘이것’  | 박현상 이사",
      "publishedAt": "2026-10-27 20:00",
      "url": "https://www.youtube.com/watch?v=_xYx9qSNf7Y"
-    },
-    {
-     "title": "“하락장 끝내고 상승장으로 뒤집을 결정적 트리거는?”  삼전·SK하닉 주주환원 확대가 증시 상승의 신호탄 될까?ㅣNH투자증권 소진웅 과장",
-     "publishedAt": "2026-10-27 19:00",
-     "url": "https://www.youtube.com/watch?v=S1D7tyrIpmw"
     }
    ]
   },
