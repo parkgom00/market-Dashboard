@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-28 15:54",
+ "asOf": "2026-10-28 16:52",
  "window": "15:20~15:40",
- "status": "전 종목 2420개 중 후보 225개 점검 (기준 일봉 2026-10-27)",
+ "status": "전 종목 2418개 중 후보 231개 점검 (기준 일봉 2026-10-27)",
  "types": [
   {
    "id": "A",
@@ -23,13 +23,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "반도체와반도체장비",
        "after": {
-        "price": 203500.0,
-        "pct": 6.32
+        "price": 203000.0,
+        "pct": 6.06
        },
-       "marcap": 193960,
+       "marcap": 193484,
        "prevClose": 191400.0,
        "changePct": 6.32,
-       "value": 883,
+       "value": 888,
        "note": "고가 마감권(고가 대비 0.49% 아래) · 막판 20분 거래량 비중 13% · 수급 자료 확인 전"
       },
       {
@@ -39,13 +39,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "반도체와반도체장비",
        "after": {
-        "price": 100200.0,
-        "pct": 5.7
+        "price": 99900.0,
+        "pct": 5.38
        },
-       "marcap": 43592,
+       "marcap": 43461,
        "prevClose": 94800.0,
        "changePct": 5.7,
-       "value": 368,
+       "value": 371,
        "note": "고가 마감권(고가 대비 0.20% 아래) · 막판 20분 거래량 비중 13% · 수급 자료 확인 전"
       },
       {
@@ -55,13 +55,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "디스플레이패널",
        "after": {
-        "price": 7620.0,
-        "pct": 2.7
+        "price": 7600.0,
+        "pct": 2.43
        },
-       "marcap": 38100,
+       "marcap": 38000,
        "prevClose": 7420.0,
        "changePct": 2.7,
-       "value": 158,
+       "value": 159,
        "note": "고가 마감권(고가 대비 0.13% 아래) · 막판 20분 거래량 비중 13% · 수급 자료 확인 전"
       },
       {
@@ -71,13 +71,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "반도체와반도체장비",
        "after": {
-        "price": 242000.0,
-        "pct": 9.01
+        "price": 242500.0,
+        "pct": 9.23
        },
-       "marcap": 14147994,
+       "marcap": 14177226,
        "prevClose": 222000.0,
        "changePct": 9.01,
-       "value": 40062,
+       "value": 40245,
        "note": "고가 마감권(고가 대비 0.41% 아래) · 막판 20분 거래량 비중 13% · 수급 자료 확인 전"
       },
       {
@@ -87,13 +87,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "화장품",
        "after": {
-        "price": 289000.0,
-        "pct": 3.96
+        "price": 287500.0,
+        "pct": 3.42
        },
-       "marcap": 108196,
+       "marcap": 107635,
        "prevClose": 278000.0,
        "changePct": 3.96,
-       "value": 524,
+       "value": 526,
        "note": "고가 마감권(고가 대비 0.17% 아래) · 막판 20분 거래량 비중 10% · 수급 자료 확인 전"
       }
      ]
@@ -413,8 +413,8 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2420,
-  "candidates": 225,
+  "quotes": 2418,
+  "candidates": 231,
   "bars": 150,
   "naverBars": 150,
   "kisBars": 0,
@@ -422,9 +422,10 @@ window.DASH.shortterm = {
    "후보": 150,
    "분봉지연": 0,
    "사유": {
-    "고가에서 멂": 129,
+    "고가에서 멂": 127,
     "ok(수급 자료 없음)": 5,
-    "막판 거래량 비중 부족": 16
+    "막판 거래량 비중 부족": 16,
+    "등락률·거래대금 미달": 2
    },
    "수급자료": 0,
    "막판비중_중앙값": 0.045,
