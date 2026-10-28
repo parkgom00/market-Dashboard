@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-28 07:40",
+ "asOf": "2026-10-28 10:00",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,7 +9,17 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
-     "title": "[10월28일 #장시작전] 뉴욕증시 상승·필반도체 3.6% 급등! / SK하이닉스 오늘 실적 발표, 깜짝 주주환원 카드 나올까?",
+     "title": "외국인 매도 끝나가나? SK하이닉스 반등, 이번엔 V자 가능할까?, 방산·전력주 급락, 중장기 기회로 바뀌는 순간ㅣ소진웅 과장",
+     "publishedAt": "2026-10-28 09:01",
+     "url": "https://www.youtube.com/watch?v=IikEvhvN_So"
+    },
+    {
+     "title": "“HBM 다음은 피지컬 AI다!” 지금은 소외된 현대차… 미래 초대형 기회가 찾아오는 이유ㅣ아메리칸대학 학과장 이관후 교수",
+     "publishedAt": "2026-10-28 09:00",
+     "url": "https://www.youtube.com/watch?v=mWgUyeufdiE"
+    },
+    {
+     "title": "[10월28일 #장시작전] 호실적도 못 믿겠다! 시장 방향 돌리고 코스피 6000 달성 언제쯤?",
      "publishedAt": "2026-10-28 06:23",
      "url": "https://www.youtube.com/watch?v=qSfE6OUrnHo"
     },
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "“하락장 끝내고 상승장으로 뒤집을 결정적 트리거는?”  삼전·SK하닉 주주환원 확대가 증시 상승의 신호탄 될까?ㅣNH투자증권 소진웅 과장",
      "publishedAt": "2026-10-27 19:00",
      "url": "https://www.youtube.com/watch?v=S1D7tyrIpmw"
-    },
-    {
-     "title": "[#긴급인터뷰]  “지금 팔면 후회, 사면 물린다?” 삼성전자·SK하이닉스 진짜 매수 타이밍은 언제?ㅣ김민수 대표",
-     "publishedAt": "2026-10-27 17:30",
-     "url": "https://www.youtube.com/watch?v=HoJvid2LcSA"
-    },
-    {
-     "title": "“삼전·하닉 지금 바닥권은 맞지만 서둘러 사지 마라?” 2018년 폭락장과 닮은 흐름… 기간조정 얼마나 더 필요할까?   | 황유현 팀장",
-     "publishedAt": "2026-10-27 16:00",
-     "url": "https://www.youtube.com/watch?v=UNDflnY1dhc"
     }
    ]
   },
@@ -105,11 +105,6 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "10월 28일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-10-28 06:47",
-     "url": "https://www.youtube.com/watch?v=oPdUbw6HJF4"
-    },
-    {
      "title": "미국 중간선거 전 전력주 투자자들이 꼭 알아야 하는 5가지",
      "publishedAt": "2026-10-27 23:58",
      "url": "https://www.youtube.com/watch?v=MvMsNcj80dk"
@@ -128,6 +123,11 @@ window.DASH.youtube = {
      "title": "미국 중간선거 전 2차전지 투자자들이 꼭 알아야 하는 5가지",
      "publishedAt": "2026-10-27 19:50",
      "url": "https://www.youtube.com/watch?v=cPsom3rLjjs"
+    },
+    {
+     "title": "미국 중간선거 전 AI 투자자들이 꼭 알아야 하는 5가지",
+     "publishedAt": "2026-10-27 19:00",
+     "url": "https://www.youtube.com/watch?v=DNVmAdHSq-k"
     }
    ]
   },
@@ -136,11 +136,6 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
-    {
-     "title": "앤트로픽의 '이것'이 코스피를 떡상시켰다고? #코스피 #앤트로픽 #하이닉스",
-     "publishedAt": "2026-10-27 13:27",
-     "url": "https://www.youtube.com/watch?v=e8OkkoMuoNU"
-    },
     {
      "title": "드디어 밝혀진 앤트로픽의 비밀. 심층분석 들어갑니다.",
      "publishedAt": "2026-10-27 00:48",
@@ -157,9 +152,14 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=Zn6yIuZUG5E"
     },
     {
-     "title": "메타가 촉발한 AI 버블론! #메타 #코스피 #솔리다임",
-     "publishedAt": "2026-10-23 11:23",
-     "url": "https://www.youtube.com/watch?v=Ifr6_OYsEBI"
+     "title": "이번 폭락보다 더 큰 문제가 있습니다.",
+     "publishedAt": "2026-10-24",
+     "url": "https://www.youtube.com/watch?v=88JuhT1pxag"
+    },
+    {
+     "title": "진퇴양난에 빠진 미국 증시",
+     "publishedAt": "2026-10-23",
+     "url": "https://www.youtube.com/watch?v=4sdi2vGvY8k"
     }
    ]
   },
@@ -179,6 +179,11 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=P4i9A1Woky8"
     },
     {
+     "title": "갑자기 자금줄 뚝? 불확실 최고조 구간 올까/월가 은둔 초고수의 예언, 또 적중할까/주식 안팔아도 세금 낸다? 억만장자세 실현될까/키덜트 덕에 부활한 장난감 회사들",
+     "publishedAt": "2026-10-26",
+     "url": "https://www.youtube.com/watch?v=l7G-dkgkDEk"
+    },
+    {
      "title": "\"1999년 붕괴 직전과 완벽히 똑같다\" 월가 초고수의 변심, 적중할까",
      "publishedAt": "2026-10-20 19:22",
      "url": "https://www.youtube.com/watch?v=JFtx8IXlz5c"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "AI인프라 약한 고리 결국 터진다? 극단적 공포 진입, 이번에도 기회일까",
      "publishedAt": "2026-10-19 20:01",
      "url": "https://www.youtube.com/watch?v=quJTDt4JGpU"
-    },
-    {
-     "title": "금리 5.5%가 증시 충격 마지노선? 월가 초고수들의 경고, 대비해야 할까",
-     "publishedAt": "2026-10-14 20:39",
-     "url": "https://www.youtube.com/watch?v=PrEHp2DoRVU"
     }
    ]
   }
