@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-28 17:21",
+ "asOf": "2026-10-28 16:52",
  "window": "15:20~15:40",
- "status": "전 종목 2420개 중 후보 231개 점검 (기준 일봉 2026-10-27)",
+ "status": "전 종목 2418개 중 후보 231개 점검 (기준 일봉 2026-10-27)",
  "types": [
   {
    "id": "A",
@@ -23,13 +23,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "반도체와반도체장비",
        "after": {
-        "price": 204000.0,
-        "pct": 6.58
+        "price": 203000.0,
+        "pct": 6.06
        },
-       "marcap": 194437,
+       "marcap": 193484,
        "prevClose": 191400.0,
        "changePct": 6.32,
-       "value": 892,
+       "value": 888,
        "note": "고가 마감권(고가 대비 0.49% 아래) · 막판 20분 거래량 비중 13% · 수급 자료 확인 전"
       },
       {
@@ -39,13 +39,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "반도체와반도체장비",
        "after": {
-        "price": 100300.0,
-        "pct": 5.8
+        "price": 99900.0,
+        "pct": 5.38
        },
-       "marcap": 43635,
+       "marcap": 43461,
        "prevClose": 94800.0,
        "changePct": 5.7,
-       "value": 372,
+       "value": 371,
        "note": "고가 마감권(고가 대비 0.20% 아래) · 막판 20분 거래량 비중 13% · 수급 자료 확인 전"
       },
       {
@@ -55,13 +55,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "디스플레이패널",
        "after": {
-        "price": 7590.0,
-        "pct": 2.29
+        "price": 7600.0,
+        "pct": 2.43
        },
-       "marcap": 37950,
+       "marcap": 38000,
        "prevClose": 7420.0,
        "changePct": 2.7,
-       "value": 160,
+       "value": 159,
        "note": "고가 마감권(고가 대비 0.13% 아래) · 막판 20분 거래량 비중 13% · 수급 자료 확인 전"
       },
       {
@@ -71,13 +71,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "반도체와반도체장비",
        "after": {
-        "price": 244000.0,
-        "pct": 9.91
+        "price": 242500.0,
+        "pct": 9.23
        },
-       "marcap": 14264920,
+       "marcap": 14177226,
        "prevClose": 222000.0,
        "changePct": 9.01,
-       "value": 40675,
+       "value": 40245,
        "note": "고가 마감권(고가 대비 0.41% 아래) · 막판 20분 거래량 비중 13% · 수급 자료 확인 전"
       },
       {
@@ -87,13 +87,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "화장품",
        "after": {
-        "price": 288000.0,
-        "pct": 3.6
+        "price": 287500.0,
+        "pct": 3.42
        },
-       "marcap": 107822,
+       "marcap": 107635,
        "prevClose": 278000.0,
        "changePct": 3.96,
-       "value": 527,
+       "value": 526,
        "note": "고가 마감권(고가 대비 0.17% 아래) · 막판 20분 거래량 비중 10% · 수급 자료 확인 전"
       }
      ]
@@ -117,13 +117,52 @@ window.DASH.shortterm = {
    "name": "전고점 돌파",
    "timeframe": "일봉",
    "desc": "52주 신고가(또는 3년 내 최고가)를 찍고 하락했던 전고점을 다시 넘어서는 종목. 장 마감 후 종가 기준으로 하루 한 번 갱신됩니다.",
-   "asOf": "2026-10-27",
+   "asOf": "2026-10-28",
    "subtypes": [
     {
      "id": "B1",
      "name": "전고점 돌파 + 거래량 동반 장대양봉",
      "desc": "52주 신고가(3년치 자료 안에서 최고가면 '3년 내 최고가')를 찍고 -15% 이상 하락했던 전고점을 최근 2일 안에 종가로 돌파, 돌파일 몸통 +5% 이상·거래량 20일 평균의 2배 이상",
-     "kr": []
+     "kr": [
+      {
+       "code": "425420",
+       "name": "티에프이",
+       "market": "KOSDAQ",
+       "sector": "전자부품 제조업",
+       "marcap": 9964,
+       "themes": [],
+       "krRank": "",
+       "prevClose": 76200.0,
+       "changePct": 11.55,
+       "value": 516,
+       "close": 85000.0,
+       "ma10": 65150.0,
+       "ma20": 65335.0,
+       "ma60": 52101.67,
+       "ma240": 48225.21,
+       "ma480": 36398.0,
+       "note": "05/06 3년 내 최고가(이후 -69.8% 조정)를 오늘 돌파 · 장대양봉 +8.3%, 거래량 3.4배 · 전고점 대비 +9.4%"
+      },
+      {
+       "code": "012030",
+       "name": "DB",
+       "market": "KOSPI",
+       "sector": "컴퓨터 프로그래밍, 시스템 통합 및 관리업",
+       "marcap": 5039,
+       "themes": [],
+       "krRank": "",
+       "prevClose": 2380.0,
+       "changePct": 8.19,
+       "value": 79,
+       "close": 2575.0,
+       "ma10": 2307.0,
+       "ma20": 2193.95,
+       "ma60": 1757.02,
+       "ma240": 1723.17,
+       "ma480": 1551.24,
+       "note": "05/27 3년 내 최고가(이후 -50.6% 조정)를 오늘 돌파 · 장대양봉 +7.3%, 거래량 2.2배 · 전고점 대비 +1.2%"
+      }
+     ]
     },
     {
      "id": "B2",
@@ -413,7 +452,7 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2420,
+  "quotes": 2418,
   "candidates": 231,
   "bars": 150,
   "naverBars": 150,
@@ -422,9 +461,9 @@ window.DASH.shortterm = {
    "후보": 150,
    "분봉지연": 0,
    "사유": {
-    "고가에서 멂": 126,
+    "고가에서 멂": 127,
     "ok(수급 자료 없음)": 5,
-    "막판 거래량 비중 부족": 17,
+    "막판 거래량 비중 부족": 16,
     "등락률·거래대금 미달": 2
    },
    "수급자료": 0,
