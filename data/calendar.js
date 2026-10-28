@@ -1,14 +1,8 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-28 15:35",
+ "generatedAt": "2026-10-28 20:47",
  "events": [
-  {
-   "date": "2026-01-01",
-   "type": "holiday",
-   "market": "KR",
-   "title": "신정연휴 (증시 휴장)"
-  },
   {
    "date": "2026-01-01",
    "type": "holiday",
@@ -60,32 +54,8 @@ window.DASH.calendar = {
   {
    "date": "2026-02-16",
    "type": "holiday",
-   "market": "KR",
-   "title": "설날 전날 (증시 휴장)"
-  },
-  {
-   "date": "2026-02-16",
-   "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 대통령의 날"
-  },
-  {
-   "date": "2026-02-17",
-   "type": "holiday",
-   "market": "KR",
-   "title": "설날 (증시 휴장)"
-  },
-  {
-   "date": "2026-02-18",
-   "type": "holiday",
-   "market": "KR",
-   "title": "설날 다음날 (증시 휴장)"
-  },
-  {
-   "date": "2026-03-02",
-   "type": "holiday",
-   "market": "KR",
-   "title": "삼일절 대체 휴일 (증시 휴장)"
   },
   {
    "date": "2026-03-06",
@@ -151,13 +121,7 @@ window.DASH.calendar = {
    "date": "2026-05-01",
    "type": "holiday",
    "market": "KR",
-   "title": "노동절 (증시 휴장)"
-  },
-  {
-   "date": "2026-05-05",
-   "type": "holiday",
-   "market": "KR",
-   "title": "어린이날 (증시 휴장)"
+   "title": "근로자의 날 (증시 휴장)"
   },
   {
    "date": "2026-05-08",
@@ -174,12 +138,6 @@ window.DASH.calendar = {
   {
    "date": "2026-05-25",
    "type": "holiday",
-   "market": "KR",
-   "title": "부처님오신날 대체 휴일 (증시 휴장)"
-  },
-  {
-   "date": "2026-05-25",
-   "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 메모리얼 데이"
   },
@@ -188,12 +146,6 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 PCE 물가지수 발표 · 4월분 (한국시간 저녁)"
-  },
-  {
-   "date": "2026-06-03",
-   "type": "holiday",
-   "market": "KR",
-   "title": "지방선거일 (증시 휴장)"
   },
   {
    "date": "2026-06-05",
@@ -244,12 +196,6 @@ window.DASH.calendar = {
    "title": "미국 소비자물가지수(CPI) 발표 · 6월분 (한국시간 저녁)"
   },
   {
-   "date": "2026-07-17",
-   "type": "holiday",
-   "market": "KR",
-   "title": "제헌절 (증시 휴장)"
-  },
-  {
    "date": "2026-07-30",
    "type": "econ",
    "market": "US",
@@ -272,12 +218,6 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 소비자물가지수(CPI) 발표 · 7월분 (한국시간 저녁)"
-  },
-  {
-   "date": "2026-08-17",
-   "type": "holiday",
-   "market": "KR",
-   "title": "광복절 대체 휴일 (증시 휴장)"
   },
   {
    "date": "2026-08-26",
@@ -390,10 +330,10 @@ window.DASH.calendar = {
    "title": "SK하이닉스 실적 발표 (예정)"
   },
   {
-   "date": "2026-10-28",
+   "date": "2026-10-29",
    "type": "earnings",
    "market": "KR",
-   "title": "삼성전자 확정실적·컨퍼런스콜 (예정)"
+   "title": "삼성전자 확정실적·컨퍼런스콜"
   },
   {
    "date": "2026-10-29",
@@ -419,6 +359,34 @@ window.DASH.calendar = {
   },
   {
    "date": "2026-10-29",
+   "type": "earnings",
+   "market": "US",
+   "title": "KLA 실적 발표",
+   "time": "미국 10/28 장 마감 후"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "earnings",
+   "market": "US",
+   "title": "마스터카드 실적 발표",
+   "time": "미국 10/29 장 시작 전"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "earnings",
+   "market": "US",
+   "title": "마이크로소프트 실적 발표",
+   "time": "미국 10/28 장 마감 후"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "earnings",
+   "market": "US",
+   "title": "메타 실적 발표",
+   "time": "미국 10/28 장 마감 후 (예상)"
+  },
+  {
+   "date": "2026-10-29",
    "type": "econ",
    "market": "US",
    "title": "미국 PCE 물가지수 발표 · 9월분 (한국시간 저녁)",
@@ -427,6 +395,48 @@ window.DASH.calendar = {
     "미국 PCE: 예상 0.5% · 이전 3.4%",
     "미국 근원 PCE: 예상 3.1% · 이전 3.0%"
    ]
+  },
+  {
+   "date": "2026-10-29",
+   "type": "earnings",
+   "market": "US",
+   "title": "서비스나우 실적 발표",
+   "time": "미국 10/28 장 마감 후"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "earnings",
+   "market": "US",
+   "title": "알파벳 실적 발표",
+   "time": "미국 10/28 장 마감 후"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "earnings",
+   "market": "US",
+   "title": "일라이릴리 실적 발표",
+   "time": "미국 10/29 장 시작 전"
+  },
+  {
+   "date": "2026-10-30",
+   "type": "earnings",
+   "market": "US",
+   "title": "아마존 실적 발표",
+   "time": "미국 10/29 장 마감 후"
+  },
+  {
+   "date": "2026-10-30",
+   "type": "earnings",
+   "market": "US",
+   "title": "엑슨모빌 실적 발표",
+   "time": "미국 10/30 장 시작 전"
+  },
+  {
+   "date": "2026-10-30",
+   "type": "earnings",
+   "market": "US",
+   "title": "인텔 실적 발표",
+   "time": "미국 10/29 장 마감 후"
   },
   {
    "date": "2026-11-02",
@@ -439,6 +449,41 @@ window.DASH.calendar = {
    "type": "earnings",
    "market": "KR",
    "title": "LG에너지솔루션 실적 발표 (예정)"
+  },
+  {
+   "date": "2026-11-03",
+   "type": "earnings",
+   "market": "US",
+   "title": "애플 실적 발표",
+   "time": "미국 11/2 장 마감 후"
+  },
+  {
+   "date": "2026-11-03",
+   "type": "earnings",
+   "market": "US",
+   "title": "팔란티어 실적 발표",
+   "time": "미국 11/2 장 마감 후"
+  },
+  {
+   "date": "2026-11-04",
+   "type": "earnings",
+   "market": "US",
+   "title": "AMD 실적 발표",
+   "time": "미국 11/3 장 마감 후"
+  },
+  {
+   "date": "2026-11-04",
+   "type": "earnings",
+   "market": "US",
+   "title": "슈퍼마이크로 실적 발표",
+   "time": "미국 11/3 장 마감 후"
+  },
+  {
+   "date": "2026-11-05",
+   "type": "earnings",
+   "market": "US",
+   "title": "퀄컴 실적 발표",
+   "time": "미국 11/4 장 마감 후"
   },
   {
    "date": "2026-11-06",
@@ -508,12 +553,6 @@ window.DASH.calendar = {
   {
    "date": "2026-12-25",
    "type": "holiday",
-   "market": "KR",
-   "title": "기독탄신일 (증시 휴장)"
-  },
-  {
-   "date": "2026-12-25",
-   "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 크리스마스"
   },
@@ -522,12 +561,6 @@ window.DASH.calendar = {
    "type": "holiday",
    "market": "KR",
    "title": "연말 휴장 (증시)"
-  },
-  {
-   "date": "2027-01-01",
-   "type": "holiday",
-   "market": "KR",
-   "title": "신정연휴 (증시 휴장)"
   },
   {
    "date": "2027-01-01",
@@ -548,10 +581,34 @@ window.DASH.calendar = {
    "title": "삼성전자 잠정실적 (예상일·하루이틀 차이 가능)"
   },
   {
+   "date": "2027-01-12",
+   "type": "earnings",
+   "market": "US",
+   "title": "유나이티드헬스 실적 발표 (예정)"
+  },
+  {
+   "date": "2027-01-14",
+   "type": "earnings",
+   "market": "US",
+   "title": "JP모건 실적 발표 (예정)"
+  },
+  {
+   "date": "2027-01-14",
+   "type": "earnings",
+   "market": "US",
+   "title": "TSMC 실적 발표 (예정)"
+  },
+  {
    "date": "2027-01-18",
    "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 마틴 루서 킹 데이"
+  },
+  {
+   "date": "2027-01-19",
+   "type": "earnings",
+   "market": "US",
+   "title": "골드만삭스 실적 발표 (예정)"
   },
   {
    "date": "2027-01-20",
@@ -560,34 +617,46 @@ window.DASH.calendar = {
    "title": "삼성바이오로직스 실적 발표 (예정)"
   },
   {
+   "date": "2027-01-20",
+   "type": "earnings",
+   "market": "US",
+   "title": "넷플릭스 실적 발표 (예정)"
+  },
+  {
+   "date": "2027-01-27",
+   "type": "earnings",
+   "market": "US",
+   "title": "ASML 실적 발표 (예정)"
+  },
+  {
    "date": "2027-01-28",
    "type": "econ",
    "market": "US",
    "title": "FOMC 금리 결정 발표 (한국시간 새벽, 미국 1/27)"
   },
   {
-   "date": "2027-02-08",
-   "type": "holiday",
-   "market": "KR",
-   "title": "설날 다음날 (증시 휴장)"
+   "date": "2027-01-28",
+   "type": "earnings",
+   "market": "US",
+   "title": "램리서치 실적 발표 (예정)"
   },
   {
-   "date": "2027-02-09",
-   "type": "holiday",
-   "market": "KR",
-   "title": "설날 대체 휴일 (증시 휴장)"
+   "date": "2027-01-28",
+   "type": "earnings",
+   "market": "US",
+   "title": "메타 실적 발표 (예정)"
+  },
+  {
+   "date": "2027-01-28",
+   "type": "earnings",
+   "market": "US",
+   "title": "테슬라 실적 발표 (예정)"
   },
   {
    "date": "2027-02-15",
    "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 대통령의 날"
-  },
-  {
-   "date": "2027-03-01",
-   "type": "holiday",
-   "market": "KR",
-   "title": "삼일절 (증시 휴장)"
   },
   {
    "date": "2027-03-18",
@@ -606,24 +675,6 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "FOMC 금리 결정 발표 (한국시간 새벽, 미국 4/28)"
-  },
-  {
-   "date": "2027-05-03",
-   "type": "holiday",
-   "market": "KR",
-   "title": "노동절 대체 휴일 (증시 휴장)"
-  },
-  {
-   "date": "2027-05-05",
-   "type": "holiday",
-   "market": "KR",
-   "title": "어린이날 (증시 휴장)"
-  },
-  {
-   "date": "2027-05-13",
-   "type": "holiday",
-   "market": "KR",
-   "title": "부처님오신날 (증시 휴장)"
   },
   {
    "date": "2027-05-31",
@@ -650,22 +701,10 @@ window.DASH.calendar = {
    "title": "미국 증시 휴장 · 독립기념일 대체"
   },
   {
-   "date": "2027-07-19",
-   "type": "holiday",
-   "market": "KR",
-   "title": "제헌절 대체 휴일 (증시 휴장)"
-  },
-  {
    "date": "2027-07-29",
    "type": "econ",
    "market": "US",
    "title": "FOMC 금리 결정 발표 (한국시간 새벽, 미국 7/28)"
-  },
-  {
-   "date": "2027-08-16",
-   "type": "holiday",
-   "market": "KR",
-   "title": "광복절 대체 휴일 (증시 휴장)"
   },
   {
    "date": "2027-09-06",
@@ -674,40 +713,10 @@ window.DASH.calendar = {
    "title": "미국 증시 휴장 · 노동절"
   },
   {
-   "date": "2027-09-14",
-   "type": "holiday",
-   "market": "KR",
-   "title": "추석 전날 (증시 휴장)"
-  },
-  {
-   "date": "2027-09-15",
-   "type": "holiday",
-   "market": "KR",
-   "title": "추석 (증시 휴장)"
-  },
-  {
-   "date": "2027-09-16",
-   "type": "holiday",
-   "market": "KR",
-   "title": "추석 다음날 (증시 휴장)"
-  },
-  {
    "date": "2027-09-16",
    "type": "econ",
    "market": "US",
    "title": "FOMC 금리 결정 발표 (한국시간 새벽, 미국 9/15)"
-  },
-  {
-   "date": "2027-10-04",
-   "type": "holiday",
-   "market": "KR",
-   "title": "개천절 대체 휴일 (증시 휴장)"
-  },
-  {
-   "date": "2027-10-11",
-   "type": "holiday",
-   "market": "KR",
-   "title": "한글날 대체 휴일 (증시 휴장)"
   },
   {
    "date": "2027-10-28",
@@ -732,12 +741,6 @@ window.DASH.calendar = {
    "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 크리스마스 대체"
-  },
-  {
-   "date": "2027-12-27",
-   "type": "holiday",
-   "market": "KR",
-   "title": "기독탄신일 대체 휴일 (증시 휴장)"
   },
   {
    "date": "2027-12-31",
@@ -938,7 +941,7 @@ window.DASH.calendar = {
    "title": "미국 옵션 만기일"
   },
   {
-   "date": "2027-05-12",
+   "date": "2027-05-13",
    "type": "event",
    "market": "KR",
    "title": "옵션 만기일"
@@ -1611,15 +1614,6 @@ window.DASH.calendar = {
    "date": "2026-10-21",
    "type": "earnings",
    "market": "US",
-   "title": "메타 실적 발표",
-   "result": [
-    "EPS 실제 $7.40 (예상 $6.52) · 서프라이즈 13.5%"
-   ]
-  },
-  {
-   "date": "2026-10-21",
-   "type": "earnings",
-   "market": "US",
    "title": "테슬라 실적 발표",
    "result": [
     "EPS 실제 $0.20 (예상 $0.22) · 서프라이즈 -9.09%"
@@ -1643,15 +1637,6 @@ window.DASH.calendar = {
    "time": "21:30",
    "result": [
     "실제 194K · 예상 200K · 이전 200K"
-   ]
-  },
-  {
-   "date": "2026-10-22",
-   "type": "earnings",
-   "market": "US",
-   "title": "인텔 실적 발표",
-   "result": [
-    "EPS 예상 $0.27"
    ]
   },
   {
@@ -1884,84 +1869,6 @@ window.DASH.calendar = {
   },
   {
    "date": "2026-10-29",
-   "type": "earnings",
-   "market": "US",
-   "title": "KLA 실적 발표",
-   "result": [
-    "EPS 예상 $1.18",
-    "장마감 후(한국 다음 날 새벽)"
-   ]
-  },
-  {
-   "date": "2026-10-29",
-   "type": "earnings",
-   "market": "US",
-   "title": "마스터카드 실적 발표",
-   "result": [
-    "EPS 예상 $5.14",
-    "장 시작 전"
-   ]
-  },
-  {
-   "date": "2026-10-29",
-   "type": "earnings",
-   "market": "US",
-   "title": "마이크로소프트 실적 발표",
-   "result": [
-    "EPS 예상 $4.71",
-    "장마감 후(한국 다음 날 새벽)"
-   ]
-  },
-  {
-   "date": "2026-10-29",
-   "type": "earnings",
-   "market": "US",
-   "title": "서비스나우 실적 발표",
-   "result": [
-    "EPS 예상 $0.56",
-    "장마감 후(한국 다음 날 새벽)"
-   ]
-  },
-  {
-   "date": "2026-10-29",
-   "type": "earnings",
-   "market": "US",
-   "title": "아마존 실적 발표",
-   "result": [
-    "EPS 예상 $2.02"
-   ]
-  },
-  {
-   "date": "2026-10-29",
-   "type": "earnings",
-   "market": "US",
-   "title": "알파벳 실적 발표",
-   "result": [
-    "EPS 예상 $2.94",
-    "장마감 후(한국 다음 날 새벽)"
-   ]
-  },
-  {
-   "date": "2026-10-29",
-   "type": "earnings",
-   "market": "US",
-   "title": "애플 실적 발표",
-   "result": [
-    "EPS 예상 $1.98"
-   ]
-  },
-  {
-   "date": "2026-10-29",
-   "type": "earnings",
-   "market": "US",
-   "title": "일라이릴리 실적 발표",
-   "result": [
-    "EPS 예상 $5.38",
-    "장 시작 전"
-   ]
-  },
-  {
-   "date": "2026-10-29",
    "type": "econ",
    "market": "US",
    "title": "FOMC 기자회견",
@@ -2007,16 +1914,6 @@ window.DASH.calendar = {
    "time": "21:30",
    "result": [
     "예상 198K · 이전 194K"
-   ]
-  },
-  {
-   "date": "2026-10-30",
-   "type": "earnings",
-   "market": "US",
-   "title": "엑슨모빌 실적 발표",
-   "result": [
-    "EPS 예상 $3.90",
-    "장 시작 전"
    ]
   },
   {
@@ -2103,15 +2000,6 @@ window.DASH.calendar = {
   },
   {
    "date": "2026-11-02",
-   "type": "earnings",
-   "market": "US",
-   "title": "팔란티어 실적 발표",
-   "result": [
-    "EPS 예상 $0.34"
-   ]
-  },
-  {
-   "date": "2026-11-02",
    "type": "econ",
    "market": "KR",
    "title": "한국 제조업 PMI",
@@ -2138,24 +2026,6 @@ window.DASH.calendar = {
    "time": "23:45",
    "result": [
     "이전 56.0"
-   ]
-  },
-  {
-   "date": "2026-11-03",
-   "type": "earnings",
-   "market": "US",
-   "title": "AMD 실적 발표",
-   "result": [
-    "EPS 예상 $1.64"
-   ]
-  },
-  {
-   "date": "2026-11-03",
-   "type": "earnings",
-   "market": "US",
-   "title": "슈퍼마이크로 실적 발표",
-   "result": [
-    "EPS 예상 $0.94"
    ]
   },
   {
@@ -2225,15 +2095,6 @@ window.DASH.calendar = {
    "title": "ARM 실적 발표",
    "result": [
     "EPS 예상 $0.22"
-   ]
-  },
-  {
-   "date": "2026-11-04",
-   "type": "earnings",
-   "market": "US",
-   "title": "퀄컴 실적 발표",
-   "result": [
-    "EPS 예상 $1.46"
    ]
   },
   {
@@ -2597,6 +2458,24 @@ window.DASH.calendar = {
    "title": "코스트코 실적 발표",
    "result": [
     "EPS 예상 $4.87"
+   ]
+  },
+  {
+   "date": "2026-12-16",
+   "type": "earnings",
+   "market": "US",
+   "title": "마이크론 실적 발표",
+   "result": [
+    "EPS 예상 $37.93"
+   ]
+  },
+  {
+   "date": "2026-12-17",
+   "type": "earnings",
+   "market": "US",
+   "title": "나이키 실적 발표",
+   "result": [
+    "EPS 예상 $0.36"
    ]
   },
   {

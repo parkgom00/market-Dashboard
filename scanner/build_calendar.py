@@ -72,7 +72,7 @@ def merge(fixed, extra_lists, manual):
                 continue
             seen_holiday.add(key)
         ev = {"date": e["date"], "type": e["type"], "market": e.get("market", ""), "title": e["title"]}
-        for k in ("ind", "ref", "time", "major", "extra"):
+        for k in ("ind", "ref", "time", "major", "extra", "_manual"):
             if e.get(k):
                 ev[k] = e[k]
         events.append(ev)
@@ -173,22 +173,30 @@ def expiry_events(years, closed_kr):
     return out
 
 
-def dedupe_earnings(events):
-    """같은 날 같은 제목은 하나만 (자동 수집 + 수동 입력 중복 방지). 수동 입력(제목에 '(예정)' 없음)을 남김."""
-    best = {}
+def dedupe_earnings(events, window=20):
+    """같은 회사의 실적 일정이 20일 안에 둘 이상이면 하나만 (자동 수집 + 수동 입력 중복 방지).
+    수동 입력(제목에 '(예정)' 없음)을 남긴다. 다른 분기(20일 넘게 떨어진 날짜)는 따로 둔다."""
+    groups = {}
     for e in events:
         if e["type"] != "earnings":
             continue
-        name = e["title"].replace(" (예정)", "")
-        k = (e["market"], name)
-        if k in best:
-            old = best[k]
-            if "(예정)" in old["title"] and "(예정)" not in e["title"]:
-                best[k] = e
-            continue
-        best[k] = e
-    keep = set(id(v) for v in best.values())
-    return [e for e in events if e["type"] != "earnings" or id(e) in keep]
+        k = (e["market"], e["title"].replace(" (예정)", ""))
+        groups.setdefault(k, []).append(e)
+    drop = set()
+    for lst in groups.values():
+        lst.sort(key=lambda e: e["date"])
+        for i, e in enumerate(lst):
+            if id(e) in drop:
+                continue
+            for f in lst[i + 1:]:
+                if id(f) in drop or (date.fromisoformat(f["date"]) - date.fromisoformat(e["date"])).days > window:
+                    continue
+                rank = lambda x: 2 if x.get("_manual") else (0 if "(예정)" in x["title"] else 1)   # 수동 > 나스닥 > 자동 추정
+                loser = e if rank(e) < rank(f) else f
+                drop.add(id(loser))
+                if loser is e:
+                    break
+    return [e for e in events if id(e) not in drop]
 
 
 def build(target=TARGET, today=None):
@@ -196,13 +204,15 @@ def build(target=TARGET, today=None):
     years = [today.year, today.year + 1]
     events = merge(_read("calendar_fixed.json")["events"],
                    [library_holidays(years), krx_extra_closures(years)],
-                   _read("calendar_manual.json") + (_load_out("earnings.json") or []))
+                   [dict(x, _manual=True) for x in _read("calendar_manual.json")] + (_load_out("earnings.json") or []))
     closed_kr = {e["date"] for e in events if e["type"] == "holiday" and e.get("market") == "KR"}
     events += [x for x in expiry_events(years, closed_kr) if date.fromisoformat(x["date"]).weekday() < 6]
     events = attach_nasdaq(events, _load_out("nasdaq_calendar.json") or [])
     events = dedupe_earnings(events)
     events = drop_estimates(events)
     events = attach_results(events, _load_out("econ_results.json") or {}, today)
+    for e in events:
+        e.pop("_manual", None)
     payload = {"generatedAt": datetime.now(KST).strftime("%Y-%m-%d %H:%M"), "events": events}
     with open(target, "w", encoding="utf-8") as f:
         f.write("// 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.\n")
