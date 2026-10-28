@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-28 17:54",
+ "asOf": "2026-10-28 19:50",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급시황] “개인은 2.3조 투매, 큰손은 폭풍 매수!” 코스피 드디어 바닥 찍었나? / 2030년까지 HBM공급부족 | 이주연 대표",
+     "publishedAt": "2026-10-28 18:00",
+     "url": "https://www.youtube.com/watch?v=z89RVjLsVlE"
+    },
     {
      "title": "[#긴급시황] “삼성전자 진짜 무서운 건 지금부터!” D램 가격 65% 급등·HBM4 대반격 시작?  | 메리츠증권 이화진 차장",
      "publishedAt": "2026-10-28 17:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“코스피 드디어 긴 터널 끝이 보인다!” SK하닉 100조 주주환원·네이버 호재까지… 상승장 시작되나?ㅣ이권희 대표",
      "publishedAt": "2026-10-28 12:30",
      "url": "https://www.youtube.com/watch?v=Wd2jXQClEbk"
-    },
-    {
-     "title": "[10월28일 #장시작전] 호실적도 못 믿겠다! 시장 방향 돌리고 코스피 6000 달성 언제쯤?",
-     "publishedAt": "2026-10-28 12:16",
-     "url": "https://www.youtube.com/watch?v=qSfE6OUrnHo"
     }
    ]
   },
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "[아테네] 블랙홀처럼 돈 빨아들이는 AI, 메모리를 쥔 우리는 이렇게 됩니다!!",
+     "publishedAt": "2026-10-28 19:00",
+     "url": "https://www.youtube.com/watch?v=75wM2nKZxt4"
+    },
+    {
      "title": "[또 긴급] 반도체 반등 트리거 확인! 11월 흐름은?",
      "publishedAt": "2026-10-27 19:15",
      "url": "https://www.youtube.com/watch?v=pVUP9ay3quw"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[월간 안테나] 1인당 8GB, 시장이 간과한 D램 수요?",
      "publishedAt": "2026-10-24 14:00",
      "url": "https://www.youtube.com/watch?v=EWJY8pk_rgc"
-    },
-    {
-     "title": "90% vs 60%? HBM 베이스 다이 주도권 경쟁 갈렸다!!",
-     "publishedAt": "2026-10-23 19:00",
-     "url": "https://www.youtube.com/watch?v=w_fNqMsFc8k"
     }
    ]
   },
@@ -104,6 +104,16 @@ window.DASH.youtube = {
    "channelId": "UC7usMJDHmtbs_oegmzQKKMA",
    "handle": "@경제사냥꾼",
    "videos": [
+    {
+     "title": "GPT로 지금 내 주식 '물타기'해도 되는지 계산하는 방법",
+     "publishedAt": "2026-10-28 18:42",
+     "url": "https://www.youtube.com/watch?v=II7gXbI2WAE"
+    },
+    {
+     "title": "현시점, AI 종목들 앞으로 어떻게 흘러갈까?",
+     "publishedAt": "2026-10-28 18:00",
+     "url": "https://www.youtube.com/watch?v=S-UGAzw1eqQ"
+    },
     {
      "title": "앤트로픽 상장 이후, 벌어질 '주가 흐름' 전부 분석해왔습니다",
      "publishedAt": "2026-10-28 16:26",
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "10월 28일 오늘 코스피 어떻게 흘러갈까?!",
      "publishedAt": "2026-10-28 07:47",
      "url": "https://www.youtube.com/watch?v=P9V3MmvIzy4"
-    },
-    {
-     "title": "10월 28일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-10-28 06:47",
-     "url": "https://www.youtube.com/watch?v=oPdUbw6HJF4"
-    },
-    {
-     "title": "미국 중간선거 전 전력주 투자자들이 꼭 알아야 하는 5가지",
-     "publishedAt": "2026-10-27 23:58",
-     "url": "https://www.youtube.com/watch?v=MvMsNcj80dk"
     }
    ]
   },
