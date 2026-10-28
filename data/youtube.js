@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-28 13:50",
+ "asOf": "2026-10-28 15:57",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급시황] “앤트로픽이 AI 거품론 뒤집었다!” 외국인 삼전·SK하닉 수천억 쓸어 담았다… 코스피 바닥 확인됐나? |  박근형 부장",
+     "publishedAt": "2026-10-28 14:57",
+     "url": "https://www.youtube.com/watch?v=ODQBIpQm_Yc"
+    },
     {
      "title": "“코스피 드디어 긴 터널 끝이 보인다!” SK하닉 100조 주주환원·네이버 호재까지… 상승장 시작되나?ㅣ이권희 대표",
      "publishedAt": "2026-10-28 12:50",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[10월28일 #장시작전] 호실적도 못 믿겠다! 시장 방향 돌리고 코스피 6000 달성 언제쯤?",
      "publishedAt": "2026-10-28 06:23",
      "url": "https://www.youtube.com/watch?v=qSfE6OUrnHo"
-    },
-    {
-     "title": "[#찐시황]  “코스피 급반등, 진짜 바닥 찍었나?” SK하이닉스 내일 실적 발표… 주가 방향 가를 ‘이것’  | 박현상 이사",
-     "publishedAt": "2026-10-27 20:00",
-     "url": "https://www.youtube.com/watch?v=_xYx9qSNf7Y"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(삼전닉스,마이크론) 주가가 떨어진 이유가 펀더멘탈 붕괴가 아니면 팔 이유가 없다!!!",
+     "publishedAt": "2026-10-28 14:57",
+     "url": "https://www.youtube.com/watch?v=ajvY-w5DZPo"
+    },
     {
      "title": "(시황분석) 신용으로 하락했던 장이 실적으로 만회되고 있다!!!",
      "publishedAt": "2026-10-28 05:48",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(주간시황) 다음주 금리와 빅테크 실적이 반등을 나오게 하나?",
      "publishedAt": "2026-10-25 19:22",
      "url": "https://www.youtube.com/watch?v=rzw22vOHhFU"
-    },
-    {
-     "title": "(반도체) 3배 레버리지로 성공할 확률은 과연?",
-     "publishedAt": "2026-10-24 23:19",
-     "url": "https://www.youtube.com/watch?v=ysS-wbvCH6c"
     }
    ]
   },
