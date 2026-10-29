@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-29 16:54",
+ "asOf": "2026-10-29 17:55",
  "window": "15:20~15:40",
- "status": "전 종목 2416개 중 후보 39개 점검 (기준 일봉 2026-10-28)",
+ "status": "전 종목 2417개 중 후보 38개 점검 (기준 일봉 2026-10-28)",
  "types": [
   {
    "id": "A",
@@ -23,10 +23,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "은행",
        "after": {
-        "price": 118600.0,
-        "pct": 2.86
+        "price": 118700.0,
+        "pct": 2.95
        },
-       "marcap": 321370,
+       "marcap": 321641,
        "prevClose": 115300.0,
        "changePct": 3.82,
        "value": 811,
@@ -39,10 +39,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "은행",
        "after": {
-        "price": 15520.0,
-        "pct": 2.44
+        "price": 15510.0,
+        "pct": 2.38
        },
-       "marcap": 24578,
+       "marcap": 24562,
        "prevClose": 15150.0,
        "changePct": 3.04,
        "value": 107,
@@ -62,13 +62,13 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "반도체와반도체장비",
        "after": {
-        "price": 27950.0,
-        "pct": -0.18
+        "price": 27850.0,
+        "pct": -0.54
        },
-       "marcap": 21588,
+       "marcap": 21511,
        "prevClose": 28000.0,
        "changePct": 0.18,
-       "value": 687,
+       "value": 694,
        "note": "전일 +14.6% 급등 · 오늘 거래량 전일의 38% · 도지(몸통 29%) · 10일선 24,300 / 20일선 25,628 위 마감"
       }
      ]
@@ -326,22 +326,22 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2416,
-  "candidates": 39,
-  "bars": 39,
-  "naverBars": 39,
+  "quotes": 2417,
+  "candidates": 38,
+  "bars": 38,
+  "naverBars": 38,
   "kisBars": 0,
   "a1": {
-   "후보": 37,
+   "후보": 36,
    "분봉지연": 0,
    "사유": {
-    "고가에서 멂": 30,
+    "고가에서 멂": 29,
     "ok(수급 자료 없음)": 2,
-    "등락률·거래대금 미달": 3,
-    "막판 거래량 비중 부족": 2
+    "막판 거래량 비중 부족": 3,
+    "등락률·거래대금 미달": 2
    },
    "수급자료": 0,
-   "막판비중_중앙값": 0.02,
+   "막판비중_중앙값": 0.023,
    "막판비중_최대": 0.147
   }
  },
