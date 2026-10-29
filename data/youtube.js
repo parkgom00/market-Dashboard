@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-29 15:58",
+ "asOf": "2026-10-29 17:57",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,29 +9,29 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
+     "title": "[#긴급인터뷰] 삼성전자 실적 좋은데 왜 못 오르나? SK하이닉스와 결정적으로 다른 ‘이것’ / 현대차 지금 팔아야 할까? | 이화진 차장",
+     "publishedAt": "2026-10-29 17:00",
+     "url": "https://www.youtube.com/watch?v=VKRxBf2kyik"
+    },
+    {
      "title": "[#긴급시황]  “110조도 부족하다고?” 삼성전자 역대급 실적에도 주가 급락… 시장이 실망한 진짜 이유 / 지금이 저가 매수 기회인가? |  박근형 부장",
-     "publishedAt": "2026-10-29 15:31",
+     "publishedAt": "2026-10-29 15:30",
      "url": "https://www.youtube.com/watch?v=LZ2s9nu5MGs"
     },
     {
      "title": "“삼성전자 실적은 대박인데 주가는 급락!” SK하이닉스와 주주환원 뭐가 달랐나? ㅣ김장열 센터장",
-     "publishedAt": "2026-10-29 15:10",
+     "publishedAt": "2026-10-29 15:09",
      "url": "https://www.youtube.com/watch?v=A0EbSfABZvc"
     },
     {
      "title": "“오랜만에 터진 SK하이닉스 주가 급등!” 지금 팔면 후회할까? / 추가 매수해도 될까? | 유안타증권 박진희 부장",
-     "publishedAt": "2026-10-29 14:58",
+     "publishedAt": "2026-10-29 14:00",
      "url": "https://www.youtube.com/watch?v=2o1QS5GO9cI"
     },
     {
      "title": "“알파벳 실적 충격에 흔들리는 증시” 그런데 SK하이닉스는 왜 버티나? / 낙폭과대주 반등은 언제 시작될까? ㅣ이권희 대표",
-     "publishedAt": "2026-10-29 12:51",
+     "publishedAt": "2026-10-29 12:30",
      "url": "https://www.youtube.com/watch?v=vqqc5Xzc7EQ"
-    },
-    {
-     "title": "[10월29일 #장시작전] \"반도체만 가네\"… 코스피-코스닥 온도차 오늘 삼전 실적이 분위기 바꿀까",
-     "publishedAt": "2026-10-29 12:51",
-     "url": "https://www.youtube.com/watch?v=0OTgYFxqiA4"
     }
    ]
   },
@@ -42,12 +42,12 @@ window.DASH.youtube = {
    "videos": [
     {
      "title": "(구글,마소) 지금 구글과 마소 중에 투자해야 할 곳은?",
-     "publishedAt": "2026-10-29 15:11",
+     "publishedAt": "2026-10-29 15:10",
      "url": "https://www.youtube.com/watch?v=OpslIFF1uqc"
     },
     {
      "title": "(시황분석) 구글 capex 감소로 반도체 또 하락하나?",
-     "publishedAt": "2026-10-29 06:45",
+     "publishedAt": "2026-10-29 05:50",
      "url": "https://www.youtube.com/watch?v=q5lsyb8OlN4"
     },
     {
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "코스피 급상승과 하락, 개인 투자자가 빠지기 쉬운 함정",
+     "publishedAt": "2026-10-29 17:00",
+     "url": "https://www.youtube.com/watch?v=0Zz6Q3-FXN4"
+    },
+    {
+     "title": "국민연금 수령 65세 말고 '이때' 해야 되는 진짜 이유",
+     "publishedAt": "2026-10-29 16:35",
+     "url": "https://www.youtube.com/watch?v=OTUsM-_Mrdc"
+    },
+    {
+     "title": "삼성전자 투자자들이 앞으로 봐야할 '호재'와 '악재'",
+     "publishedAt": "2026-10-29 15:14",
+     "url": "https://www.youtube.com/watch?v=PF3sSyC89R8"
+    },
+    {
      "title": "2027년, 시장의 돈 버는 규칙이 달라질 수 있다는 이유",
-     "publishedAt": "2026-10-29 14:58",
+     "publishedAt": "2026-10-29 14:11",
      "url": "https://www.youtube.com/watch?v=nDeGYXPaMd8"
     },
     {
-     "title": "은행+증권주 주가, 앞으로 어떻게 흘러갈까?",
-     "publishedAt": "2026-10-28 23:50",
-     "url": "https://www.youtube.com/watch?v=gUSn1eiLMuU"
-    },
-    {
-     "title": "투자자들이 꼭 알아야 하는, 2차전지와 자동차 섹터의 미래",
-     "publishedAt": "2026-10-28 21:50",
-     "url": "https://www.youtube.com/watch?v=rPLGJnY_o2k"
-    },
-    {
-     "title": "주가 폭등한 K화장품 종목들, 앞으로 어떻게 될까?",
-     "publishedAt": "2026-10-28 19:51",
-     "url": "https://www.youtube.com/watch?v=J1sYj8GcFC8"
-    },
-    {
-     "title": "현시점, AI 종목들 앞으로 어떻게 흘러갈까?",
-     "publishedAt": "2026-10-28 18:00",
-     "url": "https://www.youtube.com/watch?v=S-UGAzw1eqQ"
+     "title": "삼성전자는 왜 주주환원을 '30조' 밖에 못한 걸까?",
+     "publishedAt": "2026-10-29 12:02",
+     "url": "https://www.youtube.com/watch?v=7-oQQbt7m74"
     }
    ]
   },
@@ -137,6 +137,21 @@ window.DASH.youtube = {
    "handle": "@김단테",
    "videos": [
     {
+     "title": "잘나가던 코스피 이것에 무너졌다. #코스피 #삼성전자 #증여세",
+     "publishedAt": "2026-10-29 11:43",
+     "url": "https://www.youtube.com/watch?v=GJw5DQPyBnM"
+    },
+    {
+     "title": "하이닉스 폭등시킨 '2가지' #하이닉스 #코스피 #실적발표",
+     "publishedAt": "2026-10-28 11:56",
+     "url": "https://www.youtube.com/watch?v=femmgvp-_3A"
+    },
+    {
+     "title": "앤트로픽의 '이것'이 코스피를 떡상시켰다고? #코스피 #앤트로픽 #하이닉스",
+     "publishedAt": "2026-10-27 13:27",
+     "url": "https://www.youtube.com/watch?v=e8OkkoMuoNU"
+    },
+    {
      "title": "드디어 밝혀진 앤트로픽의 비밀. 심층분석 들어갑니다.",
      "publishedAt": "2026-10-27 00:48",
      "url": "https://www.youtube.com/watch?v=n8zGtiTYxMI"
@@ -145,21 +160,6 @@ window.DASH.youtube = {
      "title": "일론머스크 \"네오클라우드 대부분 망한다?\"",
      "publishedAt": "2026-10-26 10:40",
      "url": "https://www.youtube.com/watch?v=LgOIJMIgkUw"
-    },
-    {
-     "title": "드릴 말씀이 있습니다.",
-     "publishedAt": "2026-10-24 13:41",
-     "url": "https://www.youtube.com/watch?v=Zn6yIuZUG5E"
-    },
-    {
-     "title": "이번 폭락보다 더 큰 문제가 있습니다.",
-     "publishedAt": "2026-10-24",
-     "url": "https://www.youtube.com/watch?v=88JuhT1pxag"
-    },
-    {
-     "title": "진퇴양난에 빠진 미국 증시",
-     "publishedAt": "2026-10-23",
-     "url": "https://www.youtube.com/watch?v=4sdi2vGvY8k"
     }
    ]
   },
@@ -184,14 +184,14 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=P4i9A1Woky8"
     },
     {
-     "title": "갑자기 자금줄 뚝? 불확실 최고조 구간 올까/월가 은둔 초고수의 예언, 또 적중할까/주식 안팔아도 세금 낸다? 억만장자세 실현될까/키덜트 덕에 부활한 장난감 회사들",
-     "publishedAt": "2026-10-26",
-     "url": "https://www.youtube.com/watch?v=l7G-dkgkDEk"
-    },
-    {
      "title": "\"1999년 붕괴 직전과 완벽히 똑같다\" 월가 초고수의 변심, 적중할까",
      "publishedAt": "2026-10-20 19:22",
      "url": "https://www.youtube.com/watch?v=JFtx8IXlz5c"
+    },
+    {
+     "title": "AI인프라 약한 고리 결국 터진다? 극단적 공포 진입, 이번에도 기회일까",
+     "publishedAt": "2026-10-19 20:01",
+     "url": "https://www.youtube.com/watch?v=quJTDt4JGpU"
     }
    ]
   }
