@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-29 15:56",
+ "asOf": "2026-10-29 16:54",
  "window": "15:20~15:40",
- "status": "전 종목 2417개 중 후보 51개 점검 (기준 일봉 2026-10-28)",
+ "status": "전 종목 2416개 중 후보 39개 점검 (기준 일봉 2026-10-28)",
  "types": [
   {
    "id": "A",
@@ -23,62 +23,14 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "은행",
        "after": {
-        "price": 119700.0,
-        "pct": 3.82
+        "price": 118600.0,
+        "pct": 2.86
        },
-       "marcap": 324351,
+       "marcap": 321370,
        "prevClose": 115300.0,
        "changePct": 3.82,
-       "value": 810,
+       "value": 811,
        "note": "고가 마감권(고가 대비 0.25% 아래) · 막판 20분 거래량 비중 14% · 수급 자료 확인 전"
-      },
-      {
-       "code": "033780",
-       "name": "KT&G",
-       "close": 193100.0,
-       "market": "KOSPI",
-       "sector": "담배",
-       "after": {
-        "price": 193100.0,
-        "pct": 2.66
-       },
-       "marcap": 200458,
-       "prevClose": 188100.0,
-       "changePct": 2.66,
-       "value": 642,
-       "note": "고가 마감권(고가 대비 0.10% 아래) · 막판 20분 거래량 비중 13% · 수급 자료 확인 전"
-      },
-      {
-       "code": "138930",
-       "name": "BNK금융지주",
-       "close": 13500.0,
-       "market": "KOSPI",
-       "sector": "은행",
-       "after": {
-        "price": 13500.0,
-        "pct": 2.12
-       },
-       "marcap": 41423,
-       "prevClose": 13220.0,
-       "changePct": 2.12,
-       "value": 189,
-       "note": "고가 마감권(고가 대비 0.00% 아래) · 막판 20분 거래량 비중 11% · 수급 자료 확인 전"
-      },
-      {
-       "code": "039490",
-       "name": "키움증권",
-       "close": 236500.0,
-       "market": "KOSPI",
-       "sector": "증권",
-       "after": {
-        "price": 236500.0,
-        "pct": 2.38
-       },
-       "marcap": 62030,
-       "prevClose": 231000.0,
-       "changePct": 2.38,
-       "value": 180,
-       "note": "고가 마감권(고가 대비 0.21% 아래) · 막판 20분 거래량 비중 11% · 수급 자료 확인 전"
       },
       {
        "code": "139130",
@@ -87,10 +39,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "은행",
        "after": {
-        "price": 15610.0,
-        "pct": 3.04
+        "price": 15520.0,
+        "pct": 2.44
        },
-       "marcap": 24721,
+       "marcap": 24578,
        "prevClose": 15150.0,
        "changePct": 3.04,
        "value": 107,
@@ -110,14 +62,14 @@ window.DASH.shortterm = {
        "market": "KOSDAQ",
        "sector": "반도체와반도체장비",
        "after": {
-        "price": 28050.0,
-        "pct": 0.18
+        "price": 27950.0,
+        "pct": -0.18
        },
-       "marcap": 21665,
+       "marcap": 21588,
        "prevClose": 28000.0,
        "changePct": 0.18,
-       "value": 679,
-       "note": "전일 +14.6% 급등 · 오늘 거래량 전일의 37% · 도지(몸통 29%) · 10일선 24,300 / 20일선 25,628 위 마감"
+       "value": 687,
+       "note": "전일 +14.6% 급등 · 오늘 거래량 전일의 38% · 도지(몸통 29%) · 10일선 24,300 / 20일선 25,628 위 마감"
       }
      ]
     },
@@ -373,21 +325,22 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2417,
-  "candidates": 51,
-  "bars": 51,
-  "naverBars": 51,
+  "quotes": 2416,
+  "candidates": 39,
+  "bars": 39,
+  "naverBars": 39,
   "kisBars": 0,
   "a1": {
-   "후보": 49,
+   "후보": 37,
    "분봉지연": 0,
    "사유": {
-    "고가에서 멂": 40,
-    "ok(수급 자료 없음)": 5,
-    "막판 거래량 비중 부족": 4
+    "고가에서 멂": 30,
+    "ok(수급 자료 없음)": 2,
+    "등락률·거래대금 미달": 3,
+    "막판 거래량 비중 부족": 2
    },
    "수급자료": 0,
-   "막판비중_중앙값": 0.026,
+   "막판비중_중앙값": 0.02,
    "막판비중_최대": 0.147
   }
  },
