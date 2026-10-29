@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-29 17:57",
+ "asOf": "2026-10-29 19:51",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급시황] 삼성전자 역대급 실적에도 급락.. 주주환원 발표 미룬  진짜 이유 / 체코 원전 시공계약 결렬… 수혜주 판 뒤집히나? | 이주연 대표",
+     "publishedAt": "2026-10-29 19:00",
+     "url": "https://www.youtube.com/watch?v=TBTKBtof3Ts"
+    },
+    {
+     "title": "110조 뿌리는데 왜? 삼성전자 급락의 진실 / 2028년 반도체 공급 부족 전망, 지금은 싸게 살 기회다! ㅣ김장열 센터장",
+     "publishedAt": "2026-10-29 18:00",
+     "url": "https://www.youtube.com/watch?v=TYFlo5nOMZc"
+    },
     {
      "title": "[#긴급인터뷰] 삼성전자 실적 좋은데 왜 못 오르나? SK하이닉스와 결정적으로 다른 ‘이것’ / 현대차 지금 팔아야 할까? | 이화진 차장",
      "publishedAt": "2026-10-29 17:00",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "“삼성전자 실적은 대박인데 주가는 급락!” SK하이닉스와 주주환원 뭐가 달랐나? ㅣ김장열 센터장",
      "publishedAt": "2026-10-29 15:09",
      "url": "https://www.youtube.com/watch?v=A0EbSfABZvc"
-    },
-    {
-     "title": "“오랜만에 터진 SK하이닉스 주가 급등!” 지금 팔면 후회할까? / 추가 매수해도 될까? | 유안타증권 박진희 부장",
-     "publishedAt": "2026-10-29 14:00",
-     "url": "https://www.youtube.com/watch?v=2o1QS5GO9cI"
-    },
-    {
-     "title": "“알파벳 실적 충격에 흔들리는 증시” 그런데 SK하이닉스는 왜 버티나? / 낙폭과대주 반등은 언제 시작될까? ㅣ이권희 대표",
-     "publishedAt": "2026-10-29 12:30",
-     "url": "https://www.youtube.com/watch?v=vqqc5Xzc7EQ"
     }
    ]
   },
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "[아테네] 금리 vs AI 성장, 결국 기회를 잡는 사람은 이들입니다!!",
+     "publishedAt": "2026-10-29 19:00",
+     "url": "https://www.youtube.com/watch?v=5mpk_ua0jyA"
+    },
+    {
      "title": "[아테네] 블랙홀처럼 돈 빨아들이는 AI, 메모리를 쥔 우리는 이렇게 됩니다!!",
      "publishedAt": "2026-10-28 19:00",
      "url": "https://www.youtube.com/watch?v=75wM2nKZxt4"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[몰아보기] 첨단 패키징 시장 판을 흔들 삼성의 무기는?",
      "publishedAt": "2026-10-25 14:00",
      "url": "https://www.youtube.com/watch?v=jYJuujSfUa4"
-    },
-    {
-     "title": "[월간 안테나] 1인당 8GB, 시장이 간과한 D램 수요?",
-     "publishedAt": "2026-10-24 14:00",
-     "url": "https://www.youtube.com/watch?v=EWJY8pk_rgc"
     }
    ]
   },
@@ -104,6 +104,16 @@ window.DASH.youtube = {
    "channelId": "UC7usMJDHmtbs_oegmzQKKMA",
    "handle": "@경제사냥꾼",
    "videos": [
+    {
+     "title": "이번 실적발표로 확인된, 반도체 전망 진짜 역대급입니다",
+     "publishedAt": "2026-10-29 19:00",
+     "url": "https://www.youtube.com/watch?v=fKb-mxpwg9M"
+    },
+    {
+     "title": "중간선거까지 D-5, 어떤 주식들이 오르고 내릴까??",
+     "publishedAt": "2026-10-29 18:10",
+     "url": "https://www.youtube.com/watch?v=qvslmy_PuX4"
+    },
     {
      "title": "코스피 급상승과 하락, 개인 투자자가 빠지기 쉬운 함정",
      "publishedAt": "2026-10-29 17:00",
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "삼성전자 투자자들이 앞으로 봐야할 '호재'와 '악재'",
      "publishedAt": "2026-10-29 15:14",
      "url": "https://www.youtube.com/watch?v=PF3sSyC89R8"
-    },
-    {
-     "title": "2027년, 시장의 돈 버는 규칙이 달라질 수 있다는 이유",
-     "publishedAt": "2026-10-29 14:11",
-     "url": "https://www.youtube.com/watch?v=nDeGYXPaMd8"
-    },
-    {
-     "title": "삼성전자는 왜 주주환원을 '30조' 밖에 못한 걸까?",
-     "publishedAt": "2026-10-29 12:02",
-     "url": "https://www.youtube.com/watch?v=7-oQQbt7m74"
     }
    ]
   },
@@ -169,6 +169,11 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
+     "title": "큰 손이 된 키덜트 덕에 주식도 부활? 장난감 사는 어른 시대의 수혜주들",
+     "publishedAt": "2026-10-29 19:40",
+     "url": "https://www.youtube.com/watch?v=MXwB5P9mJxA"
+    },
+    {
      "title": "주식 안 팔아도 세금 내라? 사상 초유의 억만장자세 실험 현실 될까",
      "publishedAt": "2026-10-28 20:54",
      "url": "https://www.youtube.com/watch?v=_gMyqLP0928"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "\"1999년 붕괴 직전과 완벽히 똑같다\" 월가 초고수의 변심, 적중할까",
      "publishedAt": "2026-10-20 19:22",
      "url": "https://www.youtube.com/watch?v=JFtx8IXlz5c"
-    },
-    {
-     "title": "AI인프라 약한 고리 결국 터진다? 극단적 공포 진입, 이번에도 기회일까",
-     "publishedAt": "2026-10-19 20:01",
-     "url": "https://www.youtube.com/watch?v=quJTDt4JGpU"
     }
    ]
   }
