@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-29 21:59",
+ "asOf": "2026-10-29 23:59",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "12월 금리 인상 확률 85%, 미국 증시가 오르는 이유",
+     "publishedAt": "2026-10-29 23:00",
+     "url": "https://www.youtube.com/watch?v=9JAv6eHUUG8"
+    },
+    {
      "title": "월가에서 중간선거 끝나면 가장 많이 오를수 있다는 AI 종목",
      "publishedAt": "2026-10-29 21:30",
      "url": "https://www.youtube.com/watch?v=baVwu1kNRPE"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "이번 실적발표로 확인된, 반도체 전망 진짜 역대급입니다",
      "publishedAt": "2026-10-29 19:00",
      "url": "https://www.youtube.com/watch?v=fKb-mxpwg9M"
-    },
-    {
-     "title": "중간선거까지 D-5, 어떤 주식들이 오르고 내릴까??",
-     "publishedAt": "2026-10-29 18:10",
-     "url": "https://www.youtube.com/watch?v=qvslmy_PuX4"
     }
    ]
   },
