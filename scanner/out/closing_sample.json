@@ -67,36 +67,36 @@
  ],
  "minute": [
   {
-   "localDateTime": "20261029151900",
-   "currentPrice": 232000.0,
-   "openPrice": 232000.0,
-   "highPrice": 232500.0,
-   "lowPrice": 232000.0,
-   "accumulatedTradingVolume": 19825
-  },
-  {
-   "localDateTime": "20261029153000",
-   "currentPrice": 232000.0,
-   "openPrice": 232000.0,
-   "highPrice": 232000.0,
-   "lowPrice": 232000.0,
-   "accumulatedTradingVolume": 1421216
-  },
-  {
-   "localDateTime": "20261029154000",
-   "currentPrice": 232000.0,
-   "openPrice": 232000.0,
-   "highPrice": 232000.0,
-   "lowPrice": 232000.0,
-   "accumulatedTradingVolume": 15340
-  },
-  {
    "localDateTime": "20261029154100",
    "currentPrice": 232000.0,
    "openPrice": 232000.0,
    "highPrice": 232000.0,
    "lowPrice": 232000.0,
    "accumulatedTradingVolume": 19
+  },
+  {
+   "localDateTime": "20261029154200",
+   "currentPrice": 232000.0,
+   "openPrice": 232000.0,
+   "highPrice": 232000.0,
+   "lowPrice": 232000.0,
+   "accumulatedTradingVolume": 8
+  },
+  {
+   "localDateTime": "20261029154300",
+   "currentPrice": 232000.0,
+   "openPrice": 232000.0,
+   "highPrice": 232000.0,
+   "lowPrice": 232000.0,
+   "accumulatedTradingVolume": 35
+  },
+  {
+   "localDateTime": "20261029154400",
+   "currentPrice": 232000.0,
+   "openPrice": 232000.0,
+   "highPrice": 232000.0,
+   "lowPrice": 232000.0,
+   "accumulatedTradingVolume": 9
   }
  ],
  "integration": {
@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "DS투자증권",
     "tit": "사상 최초 DRAM 분기 매출 100조원 상회",
-    "rcnt": "55170",
+    "rcnt": "55174",
     "wdt": "20261012"
    },
    {
