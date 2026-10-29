@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-29 15:35",
+ "asOf": "2026-10-29 15:38",
  "window": "15:20~15:40",
  "status": "전 종목 2417개 중 후보 51개 점검 (기준 일봉 2026-10-28)",
  "types": [
@@ -306,11 +306,9 @@ window.DASH.shortterm = {
    "막판비중_최대": 0.055
   },
   "kis": {
-   "calls": 152,
+   "calls": 151,
    "ok": 151,
-   "err": {
-    "FHKST01010100:EGW00201": 1
-   }
+   "err": {}
   }
  },
  "flowConfirmed": false,
