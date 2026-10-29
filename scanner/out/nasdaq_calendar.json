@@ -930,6 +930,28 @@
  {
   "date": "2026-10-28",
   "time": "",
+  "title": "KLA 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "",
+  "epsForecast": "$1.18",
+  "eps": "$1.22",
+  "surprise": "3.39"
+ },
+ {
+  "date": "2026-10-28",
+  "time": "",
+  "title": "마이크로소프트 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "",
+  "epsForecast": "$4.71",
+  "eps": "$4.89",
+  "surprise": "3.82"
+ },
+ {
+  "date": "2026-10-28",
+  "time": "",
   "title": "비자 실적 발표",
   "level": "earnings",
   "kind": "earnings",
@@ -937,6 +959,28 @@
   "epsForecast": "$3.43",
   "eps": "$2.98",
   "surprise": ""
+ },
+ {
+  "date": "2026-10-28",
+  "time": "",
+  "title": "서비스나우 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "",
+  "epsForecast": "$0.56",
+  "eps": "$0.51",
+  "surprise": "-8.93"
+ },
+ {
+  "date": "2026-10-28",
+  "time": "",
+  "title": "알파벳 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "",
+  "epsForecast": "$2.94",
+  "eps": "$2.12",
+  "surprise": "-27.89"
  },
  {
   "date": "2026-10-28",
@@ -1602,7 +1646,7 @@
   "kind": "econ",
   "consensus": "57.9",
   "actual": "",
-  "previous": "58.8"
+  "previous": "57.9"
  },
  {
   "date": "2026-11-05",
@@ -1875,7 +1919,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "0.7%"
+  "previous": "2.25%"
  },
  {
   "date": "2026-11-18",
@@ -1896,7 +1940,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "-0.4%"
+  "previous": "1.398M"
  },
  {
   "date": "2026-11-18",
@@ -2034,7 +2078,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "",
-  "epsForecast": "$0.36",
+  "epsForecast": "$0.34",
   "eps": "",
   "surprise": ""
  },

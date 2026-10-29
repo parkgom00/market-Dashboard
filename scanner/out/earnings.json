@@ -126,7 +126,7 @@
   "title": "슈퍼마이크로 실적 발표 (예정)"
  },
  {
-  "date": "2026-11-28",
+  "date": "2026-11-25",
   "type": "earnings",
   "market": "US",
   "title": "델 실적 발표 (예정)"
@@ -228,6 +228,12 @@
   "title": "유나이티드헬스 실적 발표 (예정)"
  },
  {
+  "date": "2026-10-29",
+  "type": "earnings",
+  "market": "KR",
+  "title": "삼성전자 확정실적·컨퍼런스콜 (예정)"
+ },
+ {
   "date": "2027-01-08",
   "type": "earnings",
   "market": "KR",
@@ -238,6 +244,12 @@
   "type": "earnings",
   "market": "KR",
   "title": "SK하이닉스 실적 발표 (예정)"
+ },
+ {
+  "date": "2027-01-29",
+  "type": "earnings",
+  "market": "KR",
+  "title": "LG전자 확정실적·컨퍼런스콜 (예정)"
  },
  {
   "date": "2027-01-08",
