@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-29 19:51",
+ "asOf": "2026-10-29 21:59",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황]  “어제 급등했는데 하루 만에 또 급락!” 매도가 매도를 부른 한국증시… 쌍바닥 만들고 다시 반등할까?  | 황유현 팀장",
+     "publishedAt": "2026-10-29 20:00",
+     "url": "https://www.youtube.com/watch?v=6J9-sIGZ828"
+    },
     {
      "title": "[#긴급시황] 삼성전자 역대급 실적에도 급락.. 주주환원 발표 미룬  진짜 이유 / 체코 원전 시공계약 결렬… 수혜주 판 뒤집히나? | 이주연 대표",
      "publishedAt": "2026-10-29 19:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황]  “110조도 부족하다고?” 삼성전자 역대급 실적에도 주가 급락… 시장이 실망한 진짜 이유 / 지금이 저가 매수 기회인가? |  박근형 부장",
      "publishedAt": "2026-10-29 15:30",
      "url": "https://www.youtube.com/watch?v=LZ2s9nu5MGs"
-    },
-    {
-     "title": "“삼성전자 실적은 대박인데 주가는 급락!” SK하이닉스와 주주환원 뭐가 달랐나? ㅣ김장열 센터장",
-     "publishedAt": "2026-10-29 15:09",
-     "url": "https://www.youtube.com/watch?v=A0EbSfABZvc"
     }
    ]
   },
@@ -105,6 +105,21 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "월가에서 중간선거 끝나면 가장 많이 오를수 있다는 AI 종목",
+     "publishedAt": "2026-10-29 21:30",
+     "url": "https://www.youtube.com/watch?v=baVwu1kNRPE"
+    },
+    {
+     "title": "증권사 고객정보 3만 8천 건 유출, 내 돈 지키는 3가지 설정",
+     "publishedAt": "2026-10-29 21:00",
+     "url": "https://www.youtube.com/watch?v=5IRbXRR73Q0"
+    },
+    {
+     "title": "GPT로 월가 전설 '워렌 버핏'의 종목 발굴법 똑같이 따라 하는 방법",
+     "publishedAt": "2026-10-29 20:31",
+     "url": "https://www.youtube.com/watch?v=q5-d8mBoImI"
+    },
+    {
      "title": "이번 실적발표로 확인된, 반도체 전망 진짜 역대급입니다",
      "publishedAt": "2026-10-29 19:00",
      "url": "https://www.youtube.com/watch?v=fKb-mxpwg9M"
@@ -113,21 +128,6 @@ window.DASH.youtube = {
      "title": "중간선거까지 D-5, 어떤 주식들이 오르고 내릴까??",
      "publishedAt": "2026-10-29 18:10",
      "url": "https://www.youtube.com/watch?v=qvslmy_PuX4"
-    },
-    {
-     "title": "코스피 급상승과 하락, 개인 투자자가 빠지기 쉬운 함정",
-     "publishedAt": "2026-10-29 17:00",
-     "url": "https://www.youtube.com/watch?v=0Zz6Q3-FXN4"
-    },
-    {
-     "title": "국민연금 수령 65세 말고 '이때' 해야 되는 진짜 이유",
-     "publishedAt": "2026-10-29 16:35",
-     "url": "https://www.youtube.com/watch?v=OTUsM-_Mrdc"
-    },
-    {
-     "title": "삼성전자 투자자들이 앞으로 봐야할 '호재'와 '악재'",
-     "publishedAt": "2026-10-29 15:14",
-     "url": "https://www.youtube.com/watch?v=PF3sSyC89R8"
     }
    ]
   },
