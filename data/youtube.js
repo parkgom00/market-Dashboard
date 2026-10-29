@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-30 05:49",
+ "asOf": "2026-10-30 07:46",
  "channels": [
   {
    "name": "815머니톡",
@@ -29,9 +29,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=VKRxBf2kyik"
     },
     {
-     "title": "[#긴급시황]  “110조도 부족하다고?” 삼성전자 역대급 실적에도 주가 급락… 시장이 실망한 진짜 이유 / 지금이 저가 매수 기회인가? |  박근형 부장",
-     "publishedAt": "2026-10-29 15:30",
-     "url": "https://www.youtube.com/watch?v=LZ2s9nu5MGs"
+     "title": "“삼성전자 실적은 대박인데 주가는 급락!” SK하이닉스와 주주환원 뭐가 달랐나? ㅣ김장열 센터장",
+     "publishedAt": "2026-10-29 15:46",
+     "url": "https://www.youtube.com/watch?v=A0EbSfABZvc"
     }
    ]
   },
@@ -110,24 +110,24 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=9JAv6eHUUG8"
     },
     {
-     "title": "월가에서 중간선거 끝나면 가장 많이 오를수 있다는 AI 종목",
-     "publishedAt": "2026-10-29 21:30",
-     "url": "https://www.youtube.com/watch?v=baVwu1kNRPE"
-    },
-    {
      "title": "증권사 고객정보 3만 8천 건 유출, 내 돈 지키는 3가지 설정",
      "publishedAt": "2026-10-29 21:00",
      "url": "https://www.youtube.com/watch?v=5IRbXRR73Q0"
     },
     {
-     "title": "GPT로 월가 전설 '워렌 버핏'의 종목 발굴법 똑같이 따라 하는 방법",
-     "publishedAt": "2026-10-29 20:31",
-     "url": "https://www.youtube.com/watch?v=q5-d8mBoImI"
-    },
-    {
      "title": "이번 실적발표로 확인된, 반도체 전망 진짜 역대급입니다",
      "publishedAt": "2026-10-29 19:00",
      "url": "https://www.youtube.com/watch?v=fKb-mxpwg9M"
+    },
+    {
+     "title": "코스피 급상승과 하락, 개인 투자자가 빠지기 쉬운 함정",
+     "publishedAt": "2026-10-29 17:46",
+     "url": "https://www.youtube.com/watch?v=0Zz6Q3-FXN4"
+    },
+    {
+     "title": "2027년, 시장의 돈 버는 규칙이 달라질 수 있다는 이유",
+     "publishedAt": "2026-10-29 14:46",
+     "url": "https://www.youtube.com/watch?v=nDeGYXPaMd8"
     }
    ]
   },
@@ -142,24 +142,24 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=O9lLR-DSZKg"
     },
     {
-     "title": "잘나가던 코스피 이것에 무너졌다. #코스피 #삼성전자 #증여세",
-     "publishedAt": "2026-10-29 11:43",
-     "url": "https://www.youtube.com/watch?v=GJw5DQPyBnM"
-    },
-    {
-     "title": "하이닉스 폭등시킨 '2가지' #하이닉스 #코스피 #실적발표",
-     "publishedAt": "2026-10-28 11:56",
-     "url": "https://www.youtube.com/watch?v=femmgvp-_3A"
-    },
-    {
-     "title": "앤트로픽의 '이것'이 코스피를 떡상시켰다고? #코스피 #앤트로픽 #하이닉스",
-     "publishedAt": "2026-10-27 13:27",
-     "url": "https://www.youtube.com/watch?v=e8OkkoMuoNU"
-    },
-    {
      "title": "드디어 밝혀진 앤트로픽의 비밀. 심층분석 들어갑니다.",
      "publishedAt": "2026-10-27 00:48",
      "url": "https://www.youtube.com/watch?v=n8zGtiTYxMI"
+    },
+    {
+     "title": "일론머스크 \"네오클라우드 대부분 망한다?\"",
+     "publishedAt": "2026-10-27",
+     "url": "https://www.youtube.com/watch?v=LgOIJMIgkUw"
+    },
+    {
+     "title": "드릴 말씀이 있습니다.",
+     "publishedAt": "2026-10-25",
+     "url": "https://www.youtube.com/watch?v=Zn6yIuZUG5E"
+    },
+    {
+     "title": "이번 폭락보다 더 큰 문제가 있습니다.",
+     "publishedAt": "2026-10-24",
+     "url": "https://www.youtube.com/watch?v=88JuhT1pxag"
     }
    ]
   },
@@ -189,9 +189,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=P4i9A1Woky8"
     },
     {
-     "title": "\"1999년 붕괴 직전과 완벽히 똑같다\" 월가 초고수의 변심, 적중할까",
-     "publishedAt": "2026-10-20 19:22",
-     "url": "https://www.youtube.com/watch?v=JFtx8IXlz5c"
+     "title": "갑자기 자금줄 뚝? 불확실 최고조 구간 올까/월가 은둔 초고수의 예언, 또 적중할까/주식 안팔아도 세금 낸다? 억만장자세 실현될까/키덜트 덕에 부활한 장난감 회사들",
+     "publishedAt": "2026-10-26",
+     "url": "https://www.youtube.com/watch?v=l7G-dkgkDEk"
     }
    ]
   }
