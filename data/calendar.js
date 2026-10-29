@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-29 21:38",
+ "generatedAt": "2026-10-30 03:38",
  "events": [
   {
    "date": "2026-01-01",
@@ -385,18 +385,6 @@ window.DASH.calendar = {
   },
   {
    "date": "2026-10-29",
-   "type": "earnings",
-   "market": "KR",
-   "title": "한화에어로스페이스 실적 발표 (예정)"
-  },
-  {
-   "date": "2026-10-29",
-   "type": "earnings",
-   "market": "KR",
-   "title": "현대차 실적 발표 (예정)"
-  },
-  {
-   "date": "2026-10-29",
    "type": "econ",
    "market": "US",
    "title": "FOMC 금리 결정 발표 (한국시간 새벽, 미국 10/28)",
@@ -440,8 +428,8 @@ window.DASH.calendar = {
    "title": "미국 PCE 물가지수 발표 · 9월분 (한국시간 저녁)",
    "time": "21:30",
    "result": [
-    "미국 PCE: 예상 3.6% · 이전 3.4%",
-    "미국 근원 PCE: 예상 3.1% · 이전 3.0%"
+    "미국 PCE: 실제 3.6% · 예상 3.6% · 이전 3.4%",
+    "미국 근원 PCE: 실제 3.1% · 예상 3.1% · 이전 3.0%"
    ]
   },
   {
@@ -697,6 +685,12 @@ window.DASH.calendar = {
   {
    "date": "2027-01-27",
    "type": "earnings",
+   "market": "KR",
+   "title": "삼성전자 확정실적·컨퍼런스콜 (예정)"
+  },
+  {
+   "date": "2027-01-27",
+   "type": "earnings",
    "market": "US",
    "title": "ASML 실적 발표 (예정)"
   },
@@ -722,7 +716,19 @@ window.DASH.calendar = {
    "date": "2027-01-28",
    "type": "earnings",
    "market": "US",
+   "title": "마이크로소프트 실적 발표 (예정)"
+  },
+  {
+   "date": "2027-01-28",
+   "type": "earnings",
+   "market": "US",
    "title": "메타 실적 발표 (예정)"
+  },
+  {
+   "date": "2027-01-28",
+   "type": "earnings",
+   "market": "US",
+   "title": "서비스나우 실적 발표 (예정)"
   },
   {
    "date": "2027-01-28",
@@ -735,6 +741,18 @@ window.DASH.calendar = {
    "type": "earnings",
    "market": "KR",
    "title": "LG전자 확정실적·컨퍼런스콜 (예정)"
+  },
+  {
+   "date": "2027-01-29",
+   "type": "earnings",
+   "market": "US",
+   "title": "KLA 실적 발표 (예정)"
+  },
+  {
+   "date": "2027-02-04",
+   "type": "earnings",
+   "market": "US",
+   "title": "알파벳 실적 발표 (예정)"
   },
   {
    "date": "2027-02-08",
@@ -2080,7 +2098,7 @@ window.DASH.calendar = {
    "title": "미국 신규 실업수당 청구",
    "time": "21:30",
    "result": [
-    "예상 198K · 이전 194K"
+    "실제 194K · 예상 198K · 이전 195K"
    ]
   },
   {
@@ -2090,7 +2108,7 @@ window.DASH.calendar = {
    "title": "한국 산업생산",
    "time": "08:00",
    "result": [
-    "이전 -4.8%"
+    "이전 -2.2%"
    ]
   },
   {
@@ -2581,6 +2599,16 @@ window.DASH.calendar = {
    "result": [
     "EPS 예상 $0.64",
     "장 시작 전"
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "type": "econ",
+   "market": "US",
+   "title": "필라델피아 연은지수",
+   "time": "22:30",
+   "result": [
+    "이전 20.9"
    ]
   },
   {

@@ -1198,7 +1198,7 @@
   "level": "major",
   "kind": "econ",
   "consensus": "3.6%",
-  "actual": "",
+  "actual": "3.6%",
   "previous": "3.4%"
  },
  {
@@ -1208,7 +1208,7 @@
   "level": "major",
   "kind": "econ",
   "consensus": "3.1%",
-  "actual": "",
+  "actual": "3.1%",
   "previous": "3.0%"
  },
  {
@@ -1218,8 +1218,8 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "198K",
-  "actual": "",
-  "previous": "194K"
+  "actual": "194K",
+  "previous": "195K"
  },
  {
   "date": "2026-10-30",
@@ -1262,7 +1262,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "-4.8%"
+  "previous": "-2.2%"
  },
  {
   "date": "2026-10-30",
@@ -1962,6 +1962,16 @@
   "epsForecast": "$0.64",
   "eps": "",
   "surprise": ""
+ },
+ {
+  "date": "2026-11-19",
+  "time": "22:30",
+  "title": "필라델피아 연은지수",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "20.9"
  },
  {
   "date": "2026-11-24",
