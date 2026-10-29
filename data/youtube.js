@@ -1,13 +1,28 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-29 13:51",
+ "asOf": "2026-10-29 15:58",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급시황]  “110조도 부족하다고?” 삼성전자 역대급 실적에도 주가 급락… 시장이 실망한 진짜 이유 / 지금이 저가 매수 기회인가? |  박근형 부장",
+     "publishedAt": "2026-10-29 15:31",
+     "url": "https://www.youtube.com/watch?v=LZ2s9nu5MGs"
+    },
+    {
+     "title": "“삼성전자 실적은 대박인데 주가는 급락!” SK하이닉스와 주주환원 뭐가 달랐나? ㅣ김장열 센터장",
+     "publishedAt": "2026-10-29 15:10",
+     "url": "https://www.youtube.com/watch?v=A0EbSfABZvc"
+    },
+    {
+     "title": "“오랜만에 터진 SK하이닉스 주가 급등!” 지금 팔면 후회할까? / 추가 매수해도 될까? | 유안타증권 박진희 부장",
+     "publishedAt": "2026-10-29 14:58",
+     "url": "https://www.youtube.com/watch?v=2o1QS5GO9cI"
+    },
     {
      "title": "“알파벳 실적 충격에 흔들리는 증시” 그런데 SK하이닉스는 왜 버티나? / 낙폭과대주 반등은 언제 시작될까? ㅣ이권희 대표",
      "publishedAt": "2026-10-29 12:51",
@@ -17,21 +32,6 @@ window.DASH.youtube = {
      "title": "[10월29일 #장시작전] \"반도체만 가네\"… 코스피-코스닥 온도차 오늘 삼전 실적이 분위기 바꿀까",
      "publishedAt": "2026-10-29 12:51",
      "url": "https://www.youtube.com/watch?v=0OTgYFxqiA4"
-    },
-    {
-     "title": "“구글 급락이 심상치 않다!”  반도체까지 충격 확산되나? / 증시가 두려워하는 진짜 악재 ㅣ 이주연 대표",
-     "publishedAt": "2026-10-29 11:10",
-     "url": "https://www.youtube.com/watch?v=C975mFAeY8Y"
-    },
-    {
-     "title": "[#찐시황] “공매도 세력 결국 항복하나?” SK하이닉스 역대급 실적에 외국인 숏커버링 시작?ㅣ오로라 투자자문 이지환 대표",
-     "publishedAt": "2026-10-28 20:00",
-     "url": "https://www.youtube.com/watch?v=s7sXOG8EtGs"
-    },
-    {
-     "title": "[#긴급시황] “개인은 2.3조 투매, 큰손은 폭풍 매수!” 코스피 드디어 바닥 찍었나? / 2030년까지 HBM공급부족 | 이주연 대표",
-     "publishedAt": "2026-10-28 18:00",
-     "url": "https://www.youtube.com/watch?v=z89RVjLsVlE"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(구글,마소) 지금 구글과 마소 중에 투자해야 할 곳은?",
+     "publishedAt": "2026-10-29 15:11",
+     "url": "https://www.youtube.com/watch?v=OpslIFF1uqc"
+    },
     {
      "title": "(시황분석) 구글 capex 감소로 반도체 또 하락하나?",
      "publishedAt": "2026-10-29 06:45",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(아이온큐) 주식희석이 장기투자자에게 미치는 영향은?",
      "publishedAt": "2026-10-27 14:25",
      "url": "https://www.youtube.com/watch?v=onSgB3ZcPnA"
-    },
-    {
-     "title": "(시황분석) 기술적 반등 vs 추세전환?",
-     "publishedAt": "2026-10-27 05:31",
-     "url": "https://www.youtube.com/watch?v=y4PkDIgK3d8"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "2027년, 시장의 돈 버는 규칙이 달라질 수 있다는 이유",
+     "publishedAt": "2026-10-29 14:58",
+     "url": "https://www.youtube.com/watch?v=nDeGYXPaMd8"
+    },
+    {
      "title": "은행+증권주 주가, 앞으로 어떻게 흘러갈까?",
      "publishedAt": "2026-10-28 23:50",
      "url": "https://www.youtube.com/watch?v=gUSn1eiLMuU"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "현시점, AI 종목들 앞으로 어떻게 흘러갈까?",
      "publishedAt": "2026-10-28 18:00",
      "url": "https://www.youtube.com/watch?v=S-UGAzw1eqQ"
-    },
-    {
-     "title": "앤트로픽 상장 이후, 벌어질 '주가 흐름' 전부 분석해왔습니다",
-     "publishedAt": "2026-10-28 16:45",
-     "url": "https://www.youtube.com/watch?v=6szgC9CddS0"
     }
    ]
   },
