@@ -1104,7 +1104,7 @@
   "level": "major",
   "kind": "econ",
   "consensus": "4.00%",
-  "actual": "",
+  "actual": "4.00%",
   "previous": "4.00%"
  },
  {
@@ -1896,7 +1896,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "-0.4%"
+  "previous": "1.398M"
  },
  {
   "date": "2026-11-18",
