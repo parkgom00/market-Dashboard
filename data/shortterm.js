@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-29 15:48",
+ "asOf": "2026-10-29 15:52",
  "window": "15:20~15:40",
  "status": "전 종목 2417개 중 후보 51개 점검 (기준 일봉 2026-10-28)",
  "types": [
@@ -15,7 +15,88 @@ window.DASH.shortterm = {
      "id": "A1",
      "name": "장 마감 직전 대형수급 + 당일 고가 마감",
      "desc": "마감 직전 외국인·기관 순매수(거래대금의 3% 이상)가 몰리고, 고가 대비 0.5% 이내로 마감하는 종목",
-     "kr": []
+     "kr": [
+      {
+       "code": "086790",
+       "name": "하나금융지주",
+       "close": 119700.0,
+       "market": "KOSPI",
+       "sector": "은행",
+       "after": {
+        "price": 119700.0,
+        "pct": 3.82
+       },
+       "marcap": 324351,
+       "prevClose": 115300.0,
+       "changePct": 3.82,
+       "value": 810,
+       "note": "고가 마감권(고가 대비 0.25% 아래) · 막판 20분 거래량 비중 14% · 수급 자료 확인 전"
+      },
+      {
+       "code": "033780",
+       "name": "KT&G",
+       "close": 193100.0,
+       "market": "KOSPI",
+       "sector": "담배",
+       "after": {
+        "price": 193100.0,
+        "pct": 2.66
+       },
+       "marcap": 200458,
+       "prevClose": 188100.0,
+       "changePct": 2.66,
+       "value": 642,
+       "note": "고가 마감권(고가 대비 0.10% 아래) · 막판 20분 거래량 비중 13% · 수급 자료 확인 전"
+      },
+      {
+       "code": "138930",
+       "name": "BNK금융지주",
+       "close": 13500.0,
+       "market": "KOSPI",
+       "sector": "은행",
+       "after": {
+        "price": 13500.0,
+        "pct": 2.12
+       },
+       "marcap": 41423,
+       "prevClose": 13220.0,
+       "changePct": 2.12,
+       "value": 189,
+       "note": "고가 마감권(고가 대비 0.00% 아래) · 막판 20분 거래량 비중 11% · 수급 자료 확인 전"
+      },
+      {
+       "code": "039490",
+       "name": "키움증권",
+       "close": 236500.0,
+       "market": "KOSPI",
+       "sector": "증권",
+       "after": {
+        "price": 236500.0,
+        "pct": 2.38
+       },
+       "marcap": 62030,
+       "prevClose": 231000.0,
+       "changePct": 2.38,
+       "value": 180,
+       "note": "고가 마감권(고가 대비 0.21% 아래) · 막판 20분 거래량 비중 11% · 수급 자료 확인 전"
+      },
+      {
+       "code": "139130",
+       "name": "iM금융지주",
+       "close": 15610.0,
+       "market": "KOSPI",
+       "sector": "은행",
+       "after": {
+        "price": 15610.0,
+        "pct": 3.04
+       },
+       "marcap": 24721,
+       "prevClose": 15150.0,
+       "changePct": 3.04,
+       "value": 107,
+       "note": "고가 마감권(고가 대비 0.13% 아래) · 막판 20분 거래량 비중 10% · 수급 자료 확인 전"
+      }
+     ]
     },
     {
      "id": "A2",
@@ -28,7 +109,10 @@ window.DASH.shortterm = {
        "close": 28050.0,
        "market": "KOSDAQ",
        "sector": "반도체와반도체장비",
-       "after": null,
+       "after": {
+        "price": 28050.0,
+        "pct": 0.18
+       },
        "marcap": 21665,
        "prevClose": 28000.0,
        "changePct": 0.18,
@@ -292,26 +376,22 @@ window.DASH.shortterm = {
   "quotes": 2417,
   "candidates": 51,
   "bars": 51,
-  "naverBars": 0,
-  "kisBars": 51,
+  "naverBars": 51,
+  "kisBars": 0,
   "a1": {
    "후보": 49,
    "분봉지연": 0,
    "사유": {
     "고가에서 멂": 40,
-    "막판 거래량 비중 부족": 9
+    "ok(수급 자료 없음)": 5,
+    "막판 거래량 비중 부족": 4
    },
-   "수급자료": 49,
-   "막판비중_중앙값": 0.017,
-   "막판비중_최대": 0.055
-  },
-  "kis": {
-   "calls": 151,
-   "ok": 151,
-   "err": {}
+   "수급자료": 0,
+   "막판비중_중앙값": 0.026,
+   "막판비중_최대": 0.147
   }
  },
  "flowConfirmed": false,
- "flowKind": "장중 추정",
- "phase": "장중 · 외국인·기관 장중 추정 가집계(한국투자) 반영 · 확정 수급은 마감 후 다시 반영"
+ "flowKind": "",
+ "phase": "장 마감 후 · 정규장 종가 기준 · 수급 자료는 아직 공개 전"
 };
