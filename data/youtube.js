@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-30 03:55",
+ "asOf": "2026-10-30 05:49",
  "channels": [
   {
    "name": "815머니톡",
@@ -41,6 +41,11 @@ window.DASH.youtube = {
    "handle": "@orlandocampus",
    "videos": [
     {
+     "title": "(시황분석) 빅테크 실적 왜 이러나?",
+     "publishedAt": "2026-10-30 05:42",
+     "url": "https://www.youtube.com/watch?v=e5PdkwFvJpI"
+    },
+    {
      "title": "(구글,마소) 지금 구글과 마소 중에 투자해야 할 곳은?",
      "publishedAt": "2026-10-29 15:10",
      "url": "https://www.youtube.com/watch?v=OpslIFF1uqc"
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 신용으로 하락했던 장이 실적으로 만회되고 있다!!!",
      "publishedAt": "2026-10-28 05:48",
      "url": "https://www.youtube.com/watch?v=9O5d5sUb2OA"
-    },
-    {
-     "title": "(아이온큐) 주식희석이 장기투자자에게 미치는 영향은?",
-     "publishedAt": "2026-10-27 14:25",
-     "url": "https://www.youtube.com/watch?v=onSgB3ZcPnA"
     }
    ]
   },
