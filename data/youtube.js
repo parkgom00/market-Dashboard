@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-29 09:58",
+ "asOf": "2026-10-29 11:51",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“구글 급락이 심상치 않다!”  반도체까지 충격 확산되나? / 증시가 두려워하는 진짜 악재 ㅣ 이주연 대표",
+     "publishedAt": "2026-10-29 11:10",
+     "url": "https://www.youtube.com/watch?v=C975mFAeY8Y"
+    },
     {
      "title": "[#찐시황] “공매도 세력 결국 항복하나?” SK하이닉스 역대급 실적에 외국인 숏커버링 시작?ㅣ오로라 투자자문 이지환 대표",
      "publishedAt": "2026-10-28 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“반도체주 다음은 어디?” 주주 환원으로 재평가 받는 삼전·SK하닉 / 내년 텐배거 후보 섹터는?   | 김민수 대표",
      "publishedAt": "2026-10-28 16:00",
      "url": "https://www.youtube.com/watch?v=VgbGKGyIwAk"
-    },
-    {
-     "title": "[#긴급시황] “앤트로픽이 AI 거품론 뒤집었다!” 외국인 삼전·SK하닉 수천억 쓸어 담았다… 코스피 바닥 확인됐나? |  박근형 부장",
-     "publishedAt": "2026-10-28 14:36",
-     "url": "https://www.youtube.com/watch?v=ODQBIpQm_Yc"
     }
    ]
   },
