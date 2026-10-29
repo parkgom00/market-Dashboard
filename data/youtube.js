@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-29 11:51",
+ "asOf": "2026-10-29 13:51",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“알파벳 실적 충격에 흔들리는 증시” 그런데 SK하이닉스는 왜 버티나? / 낙폭과대주 반등은 언제 시작될까? ㅣ이권희 대표",
+     "publishedAt": "2026-10-29 12:51",
+     "url": "https://www.youtube.com/watch?v=vqqc5Xzc7EQ"
+    },
+    {
+     "title": "[10월29일 #장시작전] \"반도체만 가네\"… 코스피-코스닥 온도차 오늘 삼전 실적이 분위기 바꿀까",
+     "publishedAt": "2026-10-29 12:51",
+     "url": "https://www.youtube.com/watch?v=0OTgYFxqiA4"
+    },
     {
      "title": "“구글 급락이 심상치 않다!”  반도체까지 충격 확산되나? / 증시가 두려워하는 진짜 악재 ㅣ 이주연 대표",
      "publishedAt": "2026-10-29 11:10",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] “개인은 2.3조 투매, 큰손은 폭풍 매수!” 코스피 드디어 바닥 찍었나? / 2030년까지 HBM공급부족 | 이주연 대표",
      "publishedAt": "2026-10-28 18:00",
      "url": "https://www.youtube.com/watch?v=z89RVjLsVlE"
-    },
-    {
-     "title": "[#긴급시황] “삼성전자 진짜 무서운 건 지금부터!” D램 가격 65% 급등·HBM4 대반격 시작?  | 메리츠증권 이화진 차장",
-     "publishedAt": "2026-10-28 17:00",
-     "url": "https://www.youtube.com/watch?v=GAPD-RQXyhg"
-    },
-    {
-     "title": "“반도체주 다음은 어디?” 주주 환원으로 재평가 받는 삼전·SK하닉 / 내년 텐배거 후보 섹터는?   | 김민수 대표",
-     "publishedAt": "2026-10-28 16:00",
-     "url": "https://www.youtube.com/watch?v=VgbGKGyIwAk"
     }
    ]
   },
