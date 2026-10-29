@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-29 23:59",
+ "asOf": "2026-10-30 01:57",
  "channels": [
   {
    "name": "815머니톡",
@@ -137,6 +137,11 @@ window.DASH.youtube = {
    "handle": "@김단테",
    "videos": [
     {
+     "title": "구글의 종말",
+     "publishedAt": "2026-10-30 01:19",
+     "url": "https://www.youtube.com/watch?v=O9lLR-DSZKg"
+    },
+    {
      "title": "잘나가던 코스피 이것에 무너졌다. #코스피 #삼성전자 #증여세",
      "publishedAt": "2026-10-29 11:43",
      "url": "https://www.youtube.com/watch?v=GJw5DQPyBnM"
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "드디어 밝혀진 앤트로픽의 비밀. 심층분석 들어갑니다.",
      "publishedAt": "2026-10-27 00:48",
      "url": "https://www.youtube.com/watch?v=n8zGtiTYxMI"
-    },
-    {
-     "title": "일론머스크 \"네오클라우드 대부분 망한다?\"",
-     "publishedAt": "2026-10-26 10:40",
-     "url": "https://www.youtube.com/watch?v=LgOIJMIgkUw"
     }
    ]
   },
