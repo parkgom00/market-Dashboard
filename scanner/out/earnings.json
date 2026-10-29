@@ -24,6 +24,18 @@
   "title": "애플 실적 발표 (예정)"
  },
  {
+  "date": "2026-10-29",
+  "type": "earnings",
+  "market": "US",
+  "title": "마이크로소프트 실적 발표 (예정)"
+ },
+ {
+  "date": "2026-10-29",
+  "type": "earnings",
+  "market": "US",
+  "title": "알파벳 실적 발표 (예정)"
+ },
+ {
   "date": "2026-10-30",
   "type": "earnings",
   "market": "US",
@@ -136,6 +148,12 @@
   "type": "earnings",
   "market": "US",
   "title": "어도비 실적 발표 (예정)"
+ },
+ {
+  "date": "2026-10-29",
+  "type": "earnings",
+  "market": "US",
+  "title": "서비스나우 실적 발표 (예정)"
  },
  {
   "date": "2026-11-03",
