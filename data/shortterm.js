@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-29 15:38",
+ "asOf": "2026-10-29 15:42",
  "window": "15:20~15:40",
  "status": "전 종목 2417개 중 후보 51개 점검 (기준 일봉 2026-10-28)",
  "types": [
@@ -32,7 +32,7 @@ window.DASH.shortterm = {
        "marcap": 21665,
        "prevClose": 28000.0,
        "changePct": 0.18,
-       "value": 678,
+       "value": 679,
        "note": "전일 +14.6% 급등 · 오늘 거래량 전일의 37% · 도지(몸통 29%) · 10일선 24,300 / 20일선 25,628 위 마감"
       }
      ]
