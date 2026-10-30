@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-30 10:00",
+ "asOf": "2026-10-30 11:52",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“인텔 폭락 후폭풍!” 삼성전자·SK하이닉스도 동반 급락… 반도체 바닥 확인은 도대체 언제 끝나나? ㅣ 이주연 대표",
+     "publishedAt": "2026-10-30 11:21",
+     "url": "https://www.youtube.com/watch?v=FmNz4cnxhuA"
+    },
     {
      "title": "[#찐시황]  “어제 급등했는데 하루 만에 또 급락!” 매도가 매도를 부른 한국증시… 쌍바닥 만들고 다시 반등할까?  | 황유현 팀장",
      "publishedAt": "2026-10-29 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급인터뷰] 삼성전자 실적 좋은데 왜 못 오르나? SK하이닉스와 결정적으로 다른 ‘이것’ / 현대차 지금 팔아야 할까? | 이화진 차장",
      "publishedAt": "2026-10-29 17:00",
      "url": "https://www.youtube.com/watch?v=VKRxBf2kyik"
-    },
-    {
-     "title": "[#긴급시황]  “110조도 부족하다고?” 삼성전자 역대급 실적에도 주가 급락… 시장이 실망한 진짜 이유 / 지금이 저가 매수 기회인가? |  박근형 부장",
-     "publishedAt": "2026-10-29 16:00",
-     "url": "https://www.youtube.com/watch?v=LZ2s9nu5MGs"
     }
    ]
   },
