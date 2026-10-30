@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-30 16:54",
+ "asOf": "2026-10-30 17:56",
  "window": "15:20~15:40",
- "status": "전 종목 2416개 중 후보 34개 점검 (기준 일봉 2026-10-29)",
+ "status": "전 종목 2415개 중 후보 33개 점검 (기준 일봉 2026-10-29)",
  "types": [
   {
    "id": "A",
@@ -29,7 +29,7 @@ window.DASH.shortterm = {
        "marcap": 219774,
        "prevClose": 22300.0,
        "changePct": 4.71,
-       "value": 430,
+       "value": 431,
        "note": "고가 마감권(고가 대비 0.43% 아래) · 막판 20분 거래량 비중 17% · 수급 자료 확인 전"
       },
       {
@@ -39,10 +39,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "백화점과일반상점",
        "after": {
-        "price": 131900.0,
-        "pct": 3.21
+        "price": 131500.0,
+        "pct": 2.9
        },
-       "marcap": 22797,
+       "marcap": 22728,
        "prevClose": 127800.0,
        "changePct": 3.99,
        "value": 52,
@@ -192,22 +192,22 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2416,
-  "candidates": 34,
-  "bars": 34,
-  "naverBars": 34,
+  "quotes": 2415,
+  "candidates": 33,
+  "bars": 33,
+  "naverBars": 33,
   "kisBars": 0,
   "a1": {
-   "후보": 33,
+   "후보": 32,
    "분봉지연": 0,
    "사유": {
     "막판 거래량 비중 부족": 4,
     "ok(수급 자료 없음)": 2,
-    "고가에서 멂": 25,
-    "등락률·거래대금 미달": 2
+    "고가에서 멂": 22,
+    "등락률·거래대금 미달": 4
    },
    "수급자료": 0,
-   "막판비중_중앙값": 0.028,
+   "막판비중_중앙값": 0.035,
    "막판비중_최대": 0.169
   }
  },
