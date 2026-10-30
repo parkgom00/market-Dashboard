@@ -1070,10 +1070,10 @@
   "title": "마스터카드 실적 발표",
   "level": "earnings",
   "kind": "earnings",
-  "note": "장 시작 전",
+  "note": "",
   "epsForecast": "$5.14",
-  "eps": "$4.38",
-  "surprise": ""
+  "eps": "$5.31",
+  "surprise": "3.31"
  },
  {
   "date": "2026-10-29",
@@ -1104,9 +1104,9 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "",
-  "epsForecast": "$2.02",
-  "eps": "",
-  "surprise": ""
+  "epsForecast": "$2.01",
+  "eps": "$1.89",
+  "surprise": "-5.97"
  },
  {
   "date": "2026-10-29",
@@ -1133,13 +1133,24 @@
  {
   "date": "2026-10-29",
   "time": "",
+  "title": "인텔 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "",
+  "epsForecast": "$0.28",
+  "eps": "$0.41",
+  "surprise": "46.43"
+ },
+ {
+  "date": "2026-10-29",
+  "time": "",
   "title": "일라이릴리 실적 발표",
   "level": "earnings",
   "kind": "earnings",
-  "note": "장 시작 전",
+  "note": "",
   "epsForecast": "$5.38",
-  "eps": "$7.02",
-  "surprise": ""
+  "eps": "$7.48",
+  "surprise": "39.03"
  },
  {
   "date": "2026-10-29",
@@ -1361,7 +1372,7 @@
   "title": "중국 제조업 PMI",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "51.5",
   "actual": "",
   "previous": "52.1"
  },
@@ -1371,9 +1382,9 @@
   "title": "S&P글로벌 제조업 PMI",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "56.0",
   "actual": "",
-  "previous": "56.0"
+  "previous": "55.9"
  },
  {
   "date": "2026-11-03",
@@ -1435,7 +1446,7 @@
   "title": "한국 CPI",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "0.3%",
   "actual": "",
   "previous": "0.3%"
  },
@@ -1718,7 +1729,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": ""
+  "previous": "194K"
  },
  {
   "date": "2026-11-05",
@@ -1927,7 +1938,7 @@
   "title": "엔비디아 실적 발표",
   "level": "earnings",
   "kind": "earnings",
-  "note": "",
+  "note": "장마감 후(한국 다음 날 새벽)",
   "epsForecast": "$2.49",
   "eps": "",
   "surprise": ""
