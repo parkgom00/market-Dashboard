@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-30 19:50",
+ "asOf": "2026-10-30 21:57",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황]  “악재는 다 쏟아졌다” 지금 주식 던지면 땅 치고 후회한다… 폭락장 끝이 보인다. 11월 중순 코스피 대 반전 시나리오! | 김동엽 대표",
+     "publishedAt": "2026-10-30 20:00",
+     "url": "https://www.youtube.com/watch?v=tTfkMgMCA6U"
+    },
     {
      "title": "“외국인 수급에 속으면 또 당한다?” 코스피 진짜 바닥 확인할 결정적 신호 (급락장) 유안타증권 박진희 부장",
      "publishedAt": "2026-10-30 19:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황]  한국 증시 급락의 숨겨진 진실! 삼성전자·SK하이닉스 지금 사면 기회인가, 함정인가? ㅣ박근형 부장",
      "publishedAt": "2026-10-30 15:00",
      "url": "https://www.youtube.com/watch?v=nDqz1h3idI8"
-    },
-    {
-     "title": "[#긴급시황]  “실적 좋다고 사면 물리는 장?” 주가가 먼저 알려주는 위험 신호 / 진짜 바닥은 ‘이때’ (하락장) 이주현 대표",
-     "publishedAt": "2026-10-30 14:09",
-     "url": "https://www.youtube.com/watch?v=Rd3La4Flf08"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "엔비디아 젠슨황을 둘러싼 스파이 의혹 실체",
+     "publishedAt": "2026-10-30 20:00",
+     "url": "https://www.youtube.com/watch?v=lE2zaItUmoQ"
+    },
+    {
      "title": "12월 31일까지, 148만원 챙기는 정책 지원금 4가지",
      "publishedAt": "2026-10-30 18:06",
      "url": "https://www.youtube.com/watch?v=Udvcxkhd9J8"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "투자자들이 '젠슨황 중국 스파이' 사건을 꼭 알아야 하는 이유",
      "publishedAt": "2026-10-30 13:39",
      "url": "https://www.youtube.com/watch?v=hqUbRKYT_Oc"
-    },
-    {
-     "title": "한국정부가 연금 수령 나이를 68세로 미룰려는 이유",
-     "publishedAt": "2026-10-30 11:11",
-     "url": "https://www.youtube.com/watch?v=nZcdEvLFvQU"
     }
    ]
   },
