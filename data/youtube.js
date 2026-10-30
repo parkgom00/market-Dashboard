@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-30 17:57",
+ "asOf": "2026-10-30 19:50",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“외국인 수급에 속으면 또 당한다?” 코스피 진짜 바닥 확인할 결정적 신호 (급락장) 유안타증권 박진희 부장",
+     "publishedAt": "2026-10-30 19:00",
+     "url": "https://www.youtube.com/watch?v=zNQdhzQ9v2o"
+    },
     {
      "title": "[#긴급시황] “주가는 폭락하는데 목표가는 폭등?” 삼성전자·SK하이닉스 증권사들이 동시에 상향한 이유  | 이주연 대표",
      "publishedAt": "2026-10-30 17:45",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황]  “실적 좋다고 사면 물리는 장?” 주가가 먼저 알려주는 위험 신호 / 진짜 바닥은 ‘이때’ (하락장) 이주현 대표",
      "publishedAt": "2026-10-30 14:09",
      "url": "https://www.youtube.com/watch?v=Rd3La4Flf08"
-    },
-    {
-     "title": "“실적은 역대급인데, 주가 폭락!” AI 반도체 시장에서 벌어지는 이상한 일ㅣ 이권희 대표",
-     "publishedAt": "2026-10-30 12:30",
-     "url": "https://www.youtube.com/watch?v=uYjYVIS_Fw8"
     }
    ]
   },
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "젠슨 황이 현금 꽂아주는 섹터? 테크주 반등시 주목!!",
+     "publishedAt": "2026-10-30 19:00",
+     "url": "https://www.youtube.com/watch?v=SOEuMdEhMho"
+    },
+    {
      "title": "[아테네] 금리 vs AI 성장, 결국 기회를 잡는 사람은 이들입니다!!",
      "publishedAt": "2026-10-29 19:00",
      "url": "https://www.youtube.com/watch?v=5mpk_ua0jyA"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[아테네] 메모리로 번 돈이 여기로 흘러간다고?",
      "publishedAt": "2026-10-26 19:00",
      "url": "https://www.youtube.com/watch?v=G8LcRhwEdS0"
-    },
-    {
-     "title": "[몰아보기] 첨단 패키징 시장 판을 흔들 삼성의 무기는?",
-     "publishedAt": "2026-10-25 14:00",
-     "url": "https://www.youtube.com/watch?v=jYJuujSfUa4"
     }
    ]
   },
@@ -104,6 +104,11 @@ window.DASH.youtube = {
    "channelId": "UC7usMJDHmtbs_oegmzQKKMA",
    "handle": "@경제사냥꾼",
    "videos": [
+    {
+     "title": "12월 31일까지, 148만원 챙기는 정책 지원금 4가지",
+     "publishedAt": "2026-10-30 18:06",
+     "url": "https://www.youtube.com/watch?v=Udvcxkhd9J8"
+    },
     {
      "title": "은행부터 증권사까지, 유독 한국만 보안 뚫리는 진짜 이유",
      "publishedAt": "2026-10-30 15:24",
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "한국정부가 연금 수령 나이를 68세로 미룰려는 이유",
      "publishedAt": "2026-10-30 11:11",
      "url": "https://www.youtube.com/watch?v=nZcdEvLFvQU"
-    },
-    {
-     "title": "10월 30일 오늘 코스피 어떻게 흘러갈까?",
-     "publishedAt": "2026-10-30 08:00",
-     "url": "https://www.youtube.com/watch?v=oR_A603kZgM"
     }
    ]
   },
@@ -169,6 +169,11 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
+     "title": "AI인프라 쇼크 어떻게 대응해야 할까, 다음 승자까지 마음 편하게 투자하는 법",
+     "publishedAt": "2026-10-30 18:33",
+     "url": "https://www.youtube.com/watch?v=DBm1cqv3avc"
+    },
+    {
      "title": "큰 손이 된 키덜트 덕에 주식도 부활? 장난감 사는 어른 시대의 수혜주들",
      "publishedAt": "2026-10-29 19:40",
      "url": "https://www.youtube.com/watch?v=MXwB5P9mJxA"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "AI 자금줄 갑자기 뚝 끊겼다? 증시에 등장한 이상 신호, 경고일까",
      "publishedAt": "2026-10-26 20:15",
      "url": "https://www.youtube.com/watch?v=P4i9A1Woky8"
-    },
-    {
-     "title": "\"1999년 붕괴 직전과 완벽히 똑같다\" 월가 초고수의 변심, 적중할까",
-     "publishedAt": "2026-10-20 19:22",
-     "url": "https://www.youtube.com/watch?v=JFtx8IXlz5c"
     }
    ]
   }
