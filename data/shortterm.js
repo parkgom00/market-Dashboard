@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-30 16:54",
+ "asOf": "2026-10-30 17:24",
  "window": "15:20~15:40",
- "status": "전 종목 2416개 중 후보 34개 점검 (기준 일봉 2026-10-29)",
+ "status": "전 종목 2418개 중 후보 35개 점검 (기준 일봉 2026-10-29)",
  "types": [
   {
    "id": "A",
@@ -17,19 +17,35 @@ window.DASH.shortterm = {
      "desc": "마감 직전 외국인·기관 순매수(거래대금의 3% 이상)가 몰리고, 고가 대비 0.5% 이내로 마감하는 종목",
      "kr": [
       {
+       "code": "021240",
+       "name": "코웨이",
+       "close": 104000.0,
+       "market": "KOSPI",
+       "sector": "가정용기기와용품",
+       "after": {
+        "price": 103800.0,
+        "pct": 2.17
+       },
+       "marcap": 73457,
+       "prevClose": 101600.0,
+       "changePct": 2.36,
+       "value": 145,
+       "note": "고가 마감권(고가 대비 0.38% 아래) · 막판 20분 거래량 비중 20% · 수급 자료 확인 전"
+      },
+      {
        "code": "011200",
        "name": "HMM",
        "close": 23350.0,
        "market": "KOSPI",
        "sector": "해운사",
        "after": {
-        "price": 23300.0,
-        "pct": 4.48
+        "price": 23200.0,
+        "pct": 4.04
        },
-       "marcap": 219774,
+       "marcap": 218831,
        "prevClose": 22300.0,
        "changePct": 4.71,
-       "value": 430,
+       "value": 431,
        "note": "고가 마감권(고가 대비 0.43% 아래) · 막판 20분 거래량 비중 17% · 수급 자료 확인 전"
       },
       {
@@ -39,10 +55,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "백화점과일반상점",
        "after": {
-        "price": 131900.0,
-        "pct": 3.21
+        "price": 131500.0,
+        "pct": 2.9
        },
-       "marcap": 22797,
+       "marcap": 22728,
        "prevClose": 127800.0,
        "changePct": 3.99,
        "value": 52,
@@ -212,23 +228,23 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2416,
-  "candidates": 34,
-  "bars": 34,
-  "naverBars": 34,
+  "quotes": 2418,
+  "candidates": 35,
+  "bars": 35,
+  "naverBars": 35,
   "kisBars": 0,
   "a1": {
-   "후보": 33,
+   "후보": 34,
    "분봉지연": 0,
    "사유": {
     "막판 거래량 비중 부족": 4,
-    "ok(수급 자료 없음)": 2,
+    "ok(수급 자료 없음)": 3,
     "고가에서 멂": 25,
     "등락률·거래대금 미달": 2
    },
    "수급자료": 0,
-   "막판비중_중앙값": 0.028,
-   "막판비중_최대": 0.169
+   "막판비중_중앙값": 0.033,
+   "막판비중_최대": 0.202
   }
  },
  "flowConfirmed": false,
