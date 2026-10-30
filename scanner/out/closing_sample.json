@@ -2,6 +2,22 @@
  "trend": [
   {
    "itemCode": "005930",
+   "bizdate": "20261022",
+   "foreignerPureBuyQuant": "-585,787",
+   "foreignerHoldRatio": "46.13%",
+   "organPureBuyQuant": "-400,833",
+   "individualPureBuyQuant": "+977,352",
+   "closePrice": "214,500",
+   "compareToPreviousClosePrice": "-9,000",
+   "compareToPreviousPrice": {
+    "code": "5",
+    "text": "하락",
+    "name": "FALLING"
+   },
+   "accumulatedTradingVolume": "11,469,322"
+  },
+  {
+   "itemCode": "005930",
    "bizdate": "20261021",
    "foreignerPureBuyQuant": "+2,055,241",
    "foreignerHoldRatio": "46.14%",
@@ -47,22 +63,6 @@
     "name": "RISING"
    },
    "accumulatedTradingVolume": "17,617,415"
-  },
-  {
-   "itemCode": "005930",
-   "bizdate": "20261016",
-   "foreignerPureBuyQuant": "+906,438",
-   "foreignerHoldRatio": "45.99%",
-   "organPureBuyQuant": "-1,447,523",
-   "individualPureBuyQuant": "-40,774",
-   "closePrice": "217,000",
-   "compareToPreviousClosePrice": "7,000",
-   "compareToPreviousPrice": {
-    "code": "2",
-    "text": "상승",
-    "name": "RISING"
-   },
-   "accumulatedTradingVolume": "18,908,560"
   }
  ],
  "minute": [
@@ -137,6 +137,22 @@
   "dealTrendInfos": [
    {
     "itemCode": "005930",
+    "bizdate": "20261030",
+    "foreignerPureBuyQuant": "-1,072,820",
+    "foreignerHoldRatio": "46.15%",
+    "organPureBuyQuant": "+1,742,739",
+    "individualPureBuyQuant": "-85,248",
+    "closePrice": "220,500",
+    "compareToPreviousClosePrice": "-11,500",
+    "compareToPreviousPrice": {
+     "code": "5",
+     "text": "하락",
+     "name": "FALLING"
+    },
+    "accumulatedTradingVolume": "19,485,781"
+   },
+   {
+    "itemCode": "005930",
     "bizdate": "20261029",
     "foreignerPureBuyQuant": "-518,762",
     "foreignerHoldRatio": "46.17%",
@@ -166,22 +182,6 @@
      "name": "RISING"
     },
     "accumulatedTradingVolume": "17,840,544"
-   },
-   {
-    "itemCode": "005930",
-    "bizdate": "20261027",
-    "foreignerPureBuyQuant": "+1,052,520",
-    "foreignerHoldRatio": "46.15%",
-    "organPureBuyQuant": "+412,198",
-    "individualPureBuyQuant": "-1,576,114",
-    "closePrice": "225,000",
-    "compareToPreviousClosePrice": "12,000",
-    "compareToPreviousPrice": {
-     "code": "2",
-     "text": "상승",
-     "name": "RISING"
-    },
-    "accumulatedTradingVolume": "14,196,879"
    }
   ],
   "researches": [
@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "미래에셋증권",
     "tit": "초우량 고성장 파격 세일 중",
-    "rcnt": "6135",
+    "rcnt": "6765",
     "wdt": "20261030"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "교보증권",
     "tit": "3Q26 Review 사상 최대 실적, 메모리가 이끌었다",
-    "rcnt": "3361",
+    "rcnt": "3737",
     "wdt": "20261030"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "하나증권",
     "tit": "2027년 영업이익 전망치 상향으로 방향 전환",
-    "rcnt": "3389",
+    "rcnt": "3760",
     "wdt": "20261030"
    }
   ],
@@ -222,17 +222,17 @@
     "reutersCode": "000660",
     "stockName": "SK하이닉스",
     "sosok": "0",
-    "closePrice": "1,385,000",
-    "compareToPreviousClosePrice": "-141,000",
+    "closePrice": "1,391,000",
+    "compareToPreviousClosePrice": "-135,000",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "fluctuationsRatio": "-9.24",
+    "fluctuationsRatio": "-8.85",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "1,011,731,925",
+    "marketValue": "1,016,114,879",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
@@ -260,17 +260,17 @@
     "reutersCode": "402340",
     "stockName": "SK스퀘어",
     "sosok": "0",
-    "closePrice": "871,000",
-    "compareToPreviousClosePrice": "-82,000",
+    "closePrice": "875,000",
+    "compareToPreviousClosePrice": "-78,000",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "fluctuationsRatio": "-8.60",
+    "fluctuationsRatio": "-8.18",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "114,905,802",
+    "marketValue": "115,433,498",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
