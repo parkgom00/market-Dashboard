@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-30 15:58",
+ "asOf": "2026-10-30 17:57",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,29 +9,29 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
+     "title": "[#긴급시황] “주가는 폭락하는데 목표가는 폭등?” 삼성전자·SK하이닉스 증권사들이 동시에 상향한 이유  | 이주연 대표",
+     "publishedAt": "2026-10-30 17:45",
+     "url": "https://www.youtube.com/watch?v=2ps2hsjUKGU"
+    },
+    {
+     "title": "[#글로벌인사이트]   삼전·SK하닉 공포에 팔지 마라 ... “구글 주가 폭락, 시장이 잘못 봤다!” 지금이 저가 매수 기회! | 세미콘리서치랩 노근창 대표",
+     "publishedAt": "2026-10-30 16:00",
+     "url": "https://www.youtube.com/watch?v=9aLC5CXbVK0"
+    },
+    {
      "title": "[#긴급시황]  한국 증시 급락의 숨겨진 진실! 삼성전자·SK하이닉스 지금 사면 기회인가, 함정인가? ㅣ박근형 부장",
      "publishedAt": "2026-10-30 15:00",
      "url": "https://www.youtube.com/watch?v=nDqz1h3idI8"
     },
     {
      "title": "[#긴급시황]  “실적 좋다고 사면 물리는 장?” 주가가 먼저 알려주는 위험 신호 / 진짜 바닥은 ‘이때’ (하락장) 이주현 대표",
-     "publishedAt": "2026-10-30 14:58",
+     "publishedAt": "2026-10-30 14:09",
      "url": "https://www.youtube.com/watch?v=Rd3La4Flf08"
     },
     {
      "title": "“실적은 역대급인데, 주가 폭락!” AI 반도체 시장에서 벌어지는 이상한 일ㅣ 이권희 대표",
-     "publishedAt": "2026-10-30 12:51",
+     "publishedAt": "2026-10-30 12:30",
      "url": "https://www.youtube.com/watch?v=uYjYVIS_Fw8"
-    },
-    {
-     "title": "[10월30일 #장시작전] “AI 버블 공포 다시 점화 구글 13% 폭락·뉴욕증시 하락 / 오늘 코스피 외국인의 선택은?",
-     "publishedAt": "2026-10-30 12:51",
-     "url": "https://www.youtube.com/watch?v=hcC3hxde80k"
-    },
-    {
-     "title": "“인텔 폭락 후폭풍!” 삼성전자·SK하이닉스도 동반 급락… 반도체 바닥 확인은 도대체 언제 끝나나? ㅣ 이주연 대표",
-     "publishedAt": "2026-10-30 11:21",
-     "url": "https://www.youtube.com/watch?v=FmNz4cnxhuA"
     }
    ]
   },
@@ -42,7 +42,7 @@ window.DASH.youtube = {
    "videos": [
     {
      "title": "(반도체) 지금의 하락이 바닥인지를 알아보자",
-     "publishedAt": "2026-10-30 13:58",
+     "publishedAt": "2026-10-30 13:56",
      "url": "https://www.youtube.com/watch?v=A6Bj-XBzaHg"
     },
     {
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "은행부터 증권사까지, 유독 한국만 보안 뚫리는 진짜 이유",
+     "publishedAt": "2026-10-30 15:24",
+     "url": "https://www.youtube.com/watch?v=6RRCqZ7R-sU"
+    },
+    {
      "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(11월 2일~6일)",
-     "publishedAt": "2026-10-30 14:58",
+     "publishedAt": "2026-10-30 14:46",
      "url": "https://www.youtube.com/watch?v=Ra7IhYhywKE"
     },
     {
-     "title": "12월 금리 인상 확률 85%, 미국 증시가 오르는 이유",
-     "publishedAt": "2026-10-29 23:00",
-     "url": "https://www.youtube.com/watch?v=9JAv6eHUUG8"
+     "title": "투자자들이 '젠슨황 중국 스파이' 사건을 꼭 알아야 하는 이유",
+     "publishedAt": "2026-10-30 13:39",
+     "url": "https://www.youtube.com/watch?v=hqUbRKYT_Oc"
     },
     {
-     "title": "증권사 고객정보 3만 8천 건 유출, 내 돈 지키는 3가지 설정",
-     "publishedAt": "2026-10-29 21:00",
-     "url": "https://www.youtube.com/watch?v=5IRbXRR73Q0"
+     "title": "한국정부가 연금 수령 나이를 68세로 미룰려는 이유",
+     "publishedAt": "2026-10-30 11:11",
+     "url": "https://www.youtube.com/watch?v=nZcdEvLFvQU"
     },
     {
-     "title": "이번 실적발표로 확인된, 반도체 전망 진짜 역대급입니다",
-     "publishedAt": "2026-10-29 19:00",
-     "url": "https://www.youtube.com/watch?v=fKb-mxpwg9M"
-    },
-    {
-     "title": "코스피 급상승과 하락, 개인 투자자가 빠지기 쉬운 함정",
-     "publishedAt": "2026-10-29 17:46",
-     "url": "https://www.youtube.com/watch?v=0Zz6Q3-FXN4"
+     "title": "10월 30일 오늘 코스피 어떻게 흘러갈까?",
+     "publishedAt": "2026-10-30 08:00",
+     "url": "https://www.youtube.com/watch?v=oR_A603kZgM"
     }
    ]
   },
@@ -137,29 +137,29 @@ window.DASH.youtube = {
    "handle": "@김단테",
    "videos": [
     {
+     "title": "빅테크 쇼크에 코스피도 폭락!",
+     "publishedAt": "2026-10-30 12:22",
+     "url": "https://www.youtube.com/watch?v=B08-0DIVmBE"
+    },
+    {
      "title": "구글의 종말",
      "publishedAt": "2026-10-30 01:19",
      "url": "https://www.youtube.com/watch?v=O9lLR-DSZKg"
     },
     {
-     "title": "드디어 밝혀진 앤트로픽의 비밀. 심층분석 들어갑니다.",
-     "publishedAt": "2026-10-27 00:48",
-     "url": "https://www.youtube.com/watch?v=n8zGtiTYxMI"
+     "title": "잘나가던 코스피 이것에 무너졌다. #코스피 #삼성전자 #증여세",
+     "publishedAt": "2026-10-29 11:43",
+     "url": "https://www.youtube.com/watch?v=GJw5DQPyBnM"
     },
     {
-     "title": "일론머스크 \"네오클라우드 대부분 망한다?\"",
-     "publishedAt": "2026-10-27",
-     "url": "https://www.youtube.com/watch?v=LgOIJMIgkUw"
+     "title": "하이닉스 폭등시킨 '2가지' #하이닉스 #코스피 #실적발표",
+     "publishedAt": "2026-10-28 11:56",
+     "url": "https://www.youtube.com/watch?v=femmgvp-_3A"
     },
     {
-     "title": "드릴 말씀이 있습니다.",
-     "publishedAt": "2026-10-25",
-     "url": "https://www.youtube.com/watch?v=Zn6yIuZUG5E"
-    },
-    {
-     "title": "이번 폭락보다 더 큰 문제가 있습니다.",
-     "publishedAt": "2026-10-24",
-     "url": "https://www.youtube.com/watch?v=88JuhT1pxag"
+     "title": "앤트로픽의 '이것'이 코스피를 떡상시켰다고? #코스피 #앤트로픽 #하이닉스",
+     "publishedAt": "2026-10-27 13:27",
+     "url": "https://www.youtube.com/watch?v=e8OkkoMuoNU"
     }
    ]
   },
@@ -189,9 +189,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=P4i9A1Woky8"
     },
     {
-     "title": "갑자기 자금줄 뚝? 불확실 최고조 구간 올까/월가 은둔 초고수의 예언, 또 적중할까/주식 안팔아도 세금 낸다? 억만장자세 실현될까/키덜트 덕에 부활한 장난감 회사들",
-     "publishedAt": "2026-10-26",
-     "url": "https://www.youtube.com/watch?v=l7G-dkgkDEk"
+     "title": "\"1999년 붕괴 직전과 완벽히 똑같다\" 월가 초고수의 변심, 적중할까",
+     "publishedAt": "2026-10-20 19:22",
+     "url": "https://www.youtube.com/watch?v=JFtx8IXlz5c"
     }
    ]
   }
