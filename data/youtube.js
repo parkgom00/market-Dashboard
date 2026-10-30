@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-31 05:44",
+ "asOf": "2026-10-31 07:42",
  "channels": [
   {
    "name": "815머니톡",
@@ -41,6 +41,11 @@ window.DASH.youtube = {
    "handle": "@orlandocampus",
    "videos": [
     {
+     "title": "(시황분석) 반도체 완전히 끝인가?",
+     "publishedAt": "2026-10-31 06:48",
+     "url": "https://www.youtube.com/watch?v=xKExAnpHgFA"
+    },
+    {
      "title": "(반도체) 지금의 하락이 바닥인지를 알아보자",
      "publishedAt": "2026-10-30 13:56",
      "url": "https://www.youtube.com/watch?v=A6Bj-XBzaHg"
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 구글 capex 감소로 반도체 또 하락하나?",
      "publishedAt": "2026-10-29 05:50",
      "url": "https://www.youtube.com/watch?v=q5lsyb8OlN4"
-    },
-    {
-     "title": "(삼전닉스,마이크론) 주가가 떨어진 이유가 펀더멘탈 붕괴가 아니면 팔 이유가 없다!!!",
-     "publishedAt": "2026-10-28 14:10",
-     "url": "https://www.youtube.com/watch?v=ajvY-w5DZPo"
     }
    ]
   },
