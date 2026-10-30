@@ -1072,7 +1072,7 @@
   "kind": "earnings",
   "note": "장 시작 전",
   "epsForecast": "$5.14",
-  "eps": "",
+  "eps": "$4.38",
   "surprise": ""
  },
  {
@@ -1138,7 +1138,7 @@
   "kind": "earnings",
   "note": "장 시작 전",
   "epsForecast": "$5.38",
-  "eps": "",
+  "eps": "$7.02",
   "surprise": ""
  },
  {
@@ -1229,7 +1229,7 @@
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
   "epsForecast": "$2.01",
-  "eps": "",
+  "eps": "$1.95",
   "surprise": ""
  },
  {
@@ -1251,7 +1251,7 @@
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
   "epsForecast": "$0.28",
-  "eps": "",
+  "eps": "$0.11",
   "surprise": ""
  },
  {
@@ -1261,8 +1261,8 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "",
-  "actual": "",
-  "previous": "-2.2%"
+  "actual": "9.0%",
+  "previous": "-4.6%"
  },
  {
   "date": "2026-10-30",
@@ -1271,7 +1271,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "",
-  "actual": "",
+  "actual": "3.6%",
   "previous": "-1.8%"
  },
  {
@@ -1291,7 +1291,7 @@
   "level": "major",
   "kind": "econ",
   "consensus": "1.25%",
-  "actual": "",
+  "actual": "1.25%",
   "previous": "1.25%"
  },
  {
