@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-30 21:57",
+ "asOf": "2026-10-30 23:59",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "2027년 나에게 맞는 지원금, AI로 찾는 방법",
+     "publishedAt": "2026-10-30 22:00",
+     "url": "https://www.youtube.com/watch?v=9I_0I0pdVqc"
+    },
+    {
      "title": "엔비디아 젠슨황을 둘러싼 스파이 의혹 실체",
      "publishedAt": "2026-10-30 20:00",
      "url": "https://www.youtube.com/watch?v=lE2zaItUmoQ"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(11월 2일~6일)",
      "publishedAt": "2026-10-30 14:46",
      "url": "https://www.youtube.com/watch?v=Ra7IhYhywKE"
-    },
-    {
-     "title": "투자자들이 '젠슨황 중국 스파이' 사건을 꼭 알아야 하는 이유",
-     "publishedAt": "2026-10-30 13:39",
-     "url": "https://www.youtube.com/watch?v=hqUbRKYT_Oc"
     }
    ]
   },
