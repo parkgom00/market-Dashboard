@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-30 23:59",
+ "asOf": "2026-10-31 01:51",
  "channels": [
   {
    "name": "815머니톡",
@@ -137,6 +137,11 @@ window.DASH.youtube = {
    "handle": "@김단테",
    "videos": [
     {
+     "title": "AI 주식 시즌 종료인가?",
+     "publishedAt": "2026-10-31 01:40",
+     "url": "https://www.youtube.com/watch?v=G3__vlk5OcM"
+    },
+    {
      "title": "빅테크 쇼크에 코스피도 폭락!",
      "publishedAt": "2026-10-30 12:22",
      "url": "https://www.youtube.com/watch?v=B08-0DIVmBE"
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "하이닉스 폭등시킨 '2가지' #하이닉스 #코스피 #실적발표",
      "publishedAt": "2026-10-28 11:56",
      "url": "https://www.youtube.com/watch?v=femmgvp-_3A"
-    },
-    {
-     "title": "앤트로픽의 '이것'이 코스피를 떡상시켰다고? #코스피 #앤트로픽 #하이닉스",
-     "publishedAt": "2026-10-27 13:27",
-     "url": "https://www.youtube.com/watch?v=e8OkkoMuoNU"
     }
    ]
   },
