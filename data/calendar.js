@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-30 21:38",
+ "generatedAt": "2026-10-31 03:35",
  "events": [
   {
    "date": "2026-01-01",
@@ -702,6 +702,12 @@ window.DASH.calendar = {
   },
   {
    "date": "2027-01-28",
+   "type": "earnings",
+   "market": "KR",
+   "title": "현대차 실적 발표 (예정)"
+  },
+  {
+   "date": "2027-01-28",
    "type": "econ",
    "market": "US",
    "title": "FOMC 금리 결정 발표 (한국시간 새벽, 미국 1/27)"
@@ -711,6 +717,12 @@ window.DASH.calendar = {
    "type": "earnings",
    "market": "US",
    "title": "램리서치 실적 발표 (예정)"
+  },
+  {
+   "date": "2027-01-28",
+   "type": "earnings",
+   "market": "US",
+   "title": "마스터카드 실적 발표 (예정)"
   },
   {
    "date": "2027-01-28",
@@ -749,10 +761,28 @@ window.DASH.calendar = {
    "title": "KLA 실적 발표 (예정)"
   },
   {
+   "date": "2027-01-29",
+   "type": "earnings",
+   "market": "US",
+   "title": "인텔 실적 발표 (예정)"
+  },
+  {
+   "date": "2027-02-03",
+   "type": "earnings",
+   "market": "US",
+   "title": "일라이릴리 실적 발표 (예정)"
+  },
+  {
    "date": "2027-02-04",
    "type": "earnings",
    "market": "US",
    "title": "알파벳 실적 발표 (예정)"
+  },
+  {
+   "date": "2027-02-05",
+   "type": "earnings",
+   "market": "US",
+   "title": "아마존 실적 발표 (예정)"
   },
   {
    "date": "2027-02-08",
@@ -765,6 +795,12 @@ window.DASH.calendar = {
    "type": "holiday",
    "market": "KR",
    "title": "설날 대체 휴일 (증시 휴장)"
+  },
+  {
+   "date": "2027-02-12",
+   "type": "earnings",
+   "market": "KR",
+   "title": "한화에어로스페이스 실적 발표 (예정)"
   },
   {
    "date": "2027-02-15",
@@ -2623,6 +2659,16 @@ window.DASH.calendar = {
    "time": "06:00",
    "result": [
     "이전 7.7%"
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "type": "econ",
+   "market": "US",
+   "title": "미시간 소비심리",
+   "time": "00:00",
+   "result": [
+    "이전 48.0"
    ]
   },
   {

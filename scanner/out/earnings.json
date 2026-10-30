@@ -36,7 +36,7 @@
   "title": "알파벳 실적 발표 (예정)"
  },
  {
-  "date": "2026-10-30",
+  "date": "2027-02-05",
   "type": "earnings",
   "market": "US",
   "title": "아마존 실적 발표 (예정)"
@@ -72,7 +72,7 @@
   "title": "오라클 실적 발표 (예정)"
  },
  {
-  "date": "2026-10-30",
+  "date": "2027-01-29",
   "type": "earnings",
   "market": "US",
   "title": "인텔 실적 발표 (예정)"
@@ -180,6 +180,12 @@
   "title": "비자 실적 발표 (예정)"
  },
  {
+  "date": "2027-01-28",
+  "type": "earnings",
+  "market": "US",
+  "title": "마스터카드 실적 발표 (예정)"
+ },
+ {
   "date": "2026-11-19",
   "type": "earnings",
   "market": "US",
@@ -198,16 +204,16 @@
   "title": "나이키 실적 발표 (예정)"
  },
  {
-  "date": "2026-10-30",
-  "type": "earnings",
-  "market": "US",
-  "title": "엑슨모빌 실적 발표 (예정)"
- },
- {
   "date": "2027-01-26",
   "type": "earnings",
   "market": "US",
   "title": "보잉 실적 발표 (예정)"
+ },
+ {
+  "date": "2027-02-03",
+  "type": "earnings",
+  "market": "US",
+  "title": "일라이릴리 실적 발표 (예정)"
  },
  {
   "date": "2027-01-12",
@@ -252,6 +258,12 @@
   "title": "LG에너지솔루션 실적 발표 (예정)"
  },
  {
+  "date": "2027-01-28",
+  "type": "earnings",
+  "market": "KR",
+  "title": "현대차 실적 발표 (예정)"
+ },
+ {
   "date": "2026-11-12",
   "type": "earnings",
   "market": "KR",
@@ -262,6 +274,12 @@
   "type": "earnings",
   "market": "KR",
   "title": "삼성바이오로직스 실적 발표 (예정)"
+ },
+ {
+  "date": "2027-02-12",
+  "type": "earnings",
+  "market": "KR",
+  "title": "한화에어로스페이스 실적 발표 (예정)"
  },
  {
   "date": "2026-11-02",
