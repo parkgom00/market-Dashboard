@@ -67,36 +67,36 @@
  ],
  "minute": [
   {
-   "localDateTime": "20261030155200",
-   "currentPrice": 225000.0,
-   "openPrice": 225000.0,
-   "highPrice": 225000.0,
-   "lowPrice": 225000.0,
-   "accumulatedTradingVolume": 11
-  },
-  {
-   "localDateTime": "20261030155300",
-   "currentPrice": 225000.0,
-   "openPrice": 225000.0,
-   "highPrice": 225000.0,
-   "lowPrice": 225000.0,
-   "accumulatedTradingVolume": 3
-  },
-  {
-   "localDateTime": "20261030155400",
-   "currentPrice": 225000.0,
-   "openPrice": 225000.0,
-   "highPrice": 225000.0,
-   "lowPrice": 225000.0,
-   "accumulatedTradingVolume": 5
-  },
-  {
    "localDateTime": "20261030155600",
    "currentPrice": 225000.0,
    "openPrice": 225000.0,
    "highPrice": 225000.0,
    "lowPrice": 225000.0,
    "accumulatedTradingVolume": 1
+  },
+  {
+   "localDateTime": "20261030155700",
+   "currentPrice": 225000.0,
+   "openPrice": 225000.0,
+   "highPrice": 225000.0,
+   "lowPrice": 225000.0,
+   "accumulatedTradingVolume": 8
+  },
+  {
+   "localDateTime": "20261030155800",
+   "currentPrice": 225000.0,
+   "openPrice": 225000.0,
+   "highPrice": 225000.0,
+   "lowPrice": 225000.0,
+   "accumulatedTradingVolume": 6
+  },
+  {
+   "localDateTime": "20261030160000",
+   "currentPrice": 224000.0,
+   "openPrice": 223500.0,
+   "highPrice": 224000.0,
+   "lowPrice": 223500.0,
+   "accumulatedTradingVolume": 2058
   }
  ],
  "integration": {
@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "미래에셋증권",
     "tit": "초우량 고성장 파격 세일 중",
-    "rcnt": "4099",
+    "rcnt": "4736",
     "wdt": "20261030"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "교보증권",
     "tit": "3Q26 Review 사상 최대 실적, 메모리가 이끌었다",
-    "rcnt": "2248",
+    "rcnt": "2579",
     "wdt": "20261030"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "하나증권",
     "tit": "2027년 영업이익 전망치 상향으로 방향 전환",
-    "rcnt": "2279",
+    "rcnt": "2625",
     "wdt": "20261030"
    }
   ],
@@ -222,17 +222,17 @@
     "reutersCode": "000660",
     "stockName": "SK하이닉스",
     "sosok": "0",
-    "closePrice": "1,418,000",
-    "compareToPreviousClosePrice": "-108,000",
+    "closePrice": "1,414,000",
+    "compareToPreviousClosePrice": "-112,000",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "fluctuationsRatio": "-7.08",
+    "fluctuationsRatio": "-7.34",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "1,035,838,173",
+    "marketValue": "1,032,916,204",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
@@ -260,17 +260,17 @@
     "reutersCode": "402340",
     "stockName": "SK스퀘어",
     "sosok": "0",
-    "closePrice": "897,000",
-    "compareToPreviousClosePrice": "-56,000",
+    "closePrice": "887,000",
+    "compareToPreviousClosePrice": "-66,000",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "fluctuationsRatio": "-5.88",
+    "fluctuationsRatio": "-6.93",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "118,335,826",
+    "marketValue": "117,016,586",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
@@ -298,17 +298,17 @@
     "reutersCode": "042700",
     "stockName": "한미반도체",
     "sosok": "0",
-    "closePrice": "182,700",
-    "compareToPreviousClosePrice": "-14,200",
+    "closePrice": "183,300",
+    "compareToPreviousClosePrice": "-13,600",
     "compareToPreviousPrice": {
      "code": "5",
      "text": "하락",
      "name": "FALLING"
     },
-    "fluctuationsRatio": "-7.21",
+    "fluctuationsRatio": "-6.91",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "17,413,538",
+    "marketValue": "17,470,726",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {

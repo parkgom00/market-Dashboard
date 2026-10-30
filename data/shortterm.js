@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-10-30 15:56",
+ "asOf": "2026-10-30 16:54",
  "window": "15:20~15:40",
- "status": "전 종목 2419개 중 후보 37개 점검 (기준 일봉 2026-10-29)",
+ "status": "전 종목 2416개 중 후보 34개 점검 (기준 일봉 2026-10-29)",
  "types": [
   {
    "id": "A",
@@ -17,51 +17,19 @@ window.DASH.shortterm = {
      "desc": "마감 직전 외국인·기관 순매수(거래대금의 3% 이상)가 몰리고, 고가 대비 0.5% 이내로 마감하는 종목",
      "kr": [
       {
-       "code": "032640",
-       "name": "LG유플러스",
-       "close": 14230.0,
-       "market": "KOSPI",
-       "sector": "무선통신서비스",
-       "after": {
-        "price": 14230.0,
-        "pct": 2.08
-       },
-       "marcap": 60396,
-       "prevClose": 13940.0,
-       "changePct": 2.08,
-       "value": 167,
-       "note": "고가 마감권(고가 대비 0.42% 아래) · 막판 20분 거래량 비중 35% · 수급 자료 확인 전"
-      },
-      {
-       "code": "021240",
-       "name": "코웨이",
-       "close": 104000.0,
-       "market": "KOSPI",
-       "sector": "가정용기기와용품",
-       "after": {
-        "price": 104000.0,
-        "pct": 2.36
-       },
-       "marcap": 73598,
-       "prevClose": 101600.0,
-       "changePct": 2.36,
-       "value": 145,
-       "note": "고가 마감권(고가 대비 0.38% 아래) · 막판 20분 거래량 비중 20% · 수급 자료 확인 전"
-      },
-      {
        "code": "011200",
        "name": "HMM",
        "close": 23350.0,
        "market": "KOSPI",
        "sector": "해운사",
        "after": {
-        "price": 23350.0,
-        "pct": 4.71
+        "price": 23300.0,
+        "pct": 4.48
        },
-       "marcap": 220246,
+       "marcap": 219774,
        "prevClose": 22300.0,
        "changePct": 4.71,
-       "value": 429,
+       "value": 430,
        "note": "고가 마감권(고가 대비 0.43% 아래) · 막판 20분 거래량 비중 17% · 수급 자료 확인 전"
       },
       {
@@ -71,10 +39,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "백화점과일반상점",
        "after": {
-        "price": 132900.0,
-        "pct": 3.99
+        "price": 131900.0,
+        "pct": 3.21
        },
-       "marcap": 22970,
+       "marcap": 22797,
        "prevClose": 127800.0,
        "changePct": 3.99,
        "value": 52,
@@ -244,23 +212,23 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2419,
-  "candidates": 37,
-  "bars": 37,
-  "naverBars": 37,
+  "quotes": 2416,
+  "candidates": 34,
+  "bars": 34,
+  "naverBars": 34,
   "kisBars": 0,
   "a1": {
-   "후보": 36,
+   "후보": 33,
    "분봉지연": 0,
    "사유": {
     "막판 거래량 비중 부족": 4,
-    "ok(수급 자료 없음)": 4,
-    "등락률·거래대금 미달": 1,
-    "고가에서 멂": 27
+    "ok(수급 자료 없음)": 2,
+    "고가에서 멂": 25,
+    "등락률·거래대금 미달": 2
    },
    "수급자료": 0,
-   "막판비중_중앙값": 0.041,
-   "막판비중_최대": 0.355
+   "막판비중_중앙값": 0.028,
+   "막판비중_최대": 0.169
   }
  },
  "flowConfirmed": false,
