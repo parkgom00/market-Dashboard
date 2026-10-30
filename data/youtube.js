@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-30 07:46",
+ "asOf": "2026-10-30 10:00",
  "channels": [
   {
    "name": "815머니톡",
@@ -29,9 +29,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=VKRxBf2kyik"
     },
     {
-     "title": "“삼성전자 실적은 대박인데 주가는 급락!” SK하이닉스와 주주환원 뭐가 달랐나? ㅣ김장열 센터장",
-     "publishedAt": "2026-10-29 15:46",
-     "url": "https://www.youtube.com/watch?v=A0EbSfABZvc"
+     "title": "[#긴급시황]  “110조도 부족하다고?” 삼성전자 역대급 실적에도 주가 급락… 시장이 실망한 진짜 이유 / 지금이 저가 매수 기회인가? |  박근형 부장",
+     "publishedAt": "2026-10-29 16:00",
+     "url": "https://www.youtube.com/watch?v=LZ2s9nu5MGs"
     }
    ]
   },
