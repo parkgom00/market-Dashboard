@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-30 11:52",
+ "asOf": "2026-10-30 13:51",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“실적은 역대급인데, 주가 폭락!” AI 반도체 시장에서 벌어지는 이상한 일ㅣ 이권희 대표",
+     "publishedAt": "2026-10-30 12:51",
+     "url": "https://www.youtube.com/watch?v=uYjYVIS_Fw8"
+    },
+    {
+     "title": "[10월30일 #장시작전] “AI 버블 공포 다시 점화 구글 13% 폭락·뉴욕증시 하락 / 오늘 코스피 외국인의 선택은?",
+     "publishedAt": "2026-10-30 12:51",
+     "url": "https://www.youtube.com/watch?v=hcC3hxde80k"
+    },
     {
      "title": "“인텔 폭락 후폭풍!” 삼성전자·SK하이닉스도 동반 급락… 반도체 바닥 확인은 도대체 언제 끝나나? ㅣ 이주연 대표",
      "publishedAt": "2026-10-30 11:21",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] 삼성전자 역대급 실적에도 급락.. 주주환원 발표 미룬  진짜 이유 / 체코 원전 시공계약 결렬… 수혜주 판 뒤집히나? | 이주연 대표",
      "publishedAt": "2026-10-29 19:00",
      "url": "https://www.youtube.com/watch?v=TBTKBtof3Ts"
-    },
-    {
-     "title": "110조 뿌리는데 왜? 삼성전자 급락의 진실 / 2028년 반도체 공급 부족 전망, 지금은 싸게 살 기회다! ㅣ김장열 센터장",
-     "publishedAt": "2026-10-29 18:00",
-     "url": "https://www.youtube.com/watch?v=TYFlo5nOMZc"
-    },
-    {
-     "title": "[#긴급인터뷰] 삼성전자 실적 좋은데 왜 못 오르나? SK하이닉스와 결정적으로 다른 ‘이것’ / 현대차 지금 팔아야 할까? | 이화진 차장",
-     "publishedAt": "2026-10-29 17:00",
-     "url": "https://www.youtube.com/watch?v=VKRxBf2kyik"
     }
    ]
   },
