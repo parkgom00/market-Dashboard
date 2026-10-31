@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-31 13:48",
+ "asOf": "2026-10-31 15:53",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[특집라이브] 종목상담 / “나스닥 2.9% 급락 쇼크!” 메타 신용전망 ‘부정적’ 하향… AI 돈줄에 경고등 / 월요일 삼전·하닉 또 위험한가?  | 이주연, 이주현",
+     "publishedAt": "2026-10-31 14:53",
+     "url": "https://www.youtube.com/watch?v=0cnjoy6sf0E"
+    },
     {
      "title": "“폭락장 초반 삼성전자 150만 주 쓸어담은 외국인!” 모두가 공포에 팔 때 누가 샀나? / 한국 증시에 남은 희망 한 가지 | 오로라투자자문 이지환 대표",
      "publishedAt": "2026-10-31 08:59",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] “주가는 폭락하는데 목표가는 폭등?” 삼성전자·SK하이닉스 증권사들이 동시에 상향한 이유  | 이주연 대표",
      "publishedAt": "2026-10-30 17:45",
      "url": "https://www.youtube.com/watch?v=2ps2hsjUKGU"
-    },
-    {
-     "title": "[#글로벌인사이트]   삼전·SK하닉 공포에 팔지 마라 ... “구글 주가 폭락, 시장이 잘못 봤다!” 지금이 저가 매수 기회! | 세미콘리서치랩 노근창 대표",
-     "publishedAt": "2026-10-30 16:00",
-     "url": "https://www.youtube.com/watch?v=9aLC5CXbVK0"
     }
    ]
   },
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "[몰아보기] 코스피로 돌아오는 수급, 이거 하나만 체크!!",
+     "publishedAt": "2026-10-31 14:53",
+     "url": "https://www.youtube.com/watch?v=FdCwAmEgtOY"
+    },
+    {
      "title": "젠슨 황이 현금 꽂아주는 섹터? 테크주 반등시 주목!!",
      "publishedAt": "2026-10-30 19:00",
      "url": "https://www.youtube.com/watch?v=SOEuMdEhMho"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[또 긴급] 반도체 반등 트리거 확인! 11월 흐름은?",
      "publishedAt": "2026-10-27 19:15",
      "url": "https://www.youtube.com/watch?v=pVUP9ay3quw"
-    },
-    {
-     "title": "[아테네] 메모리로 번 돈이 여기로 흘러간다고?",
-     "publishedAt": "2026-10-26 19:00",
-     "url": "https://www.youtube.com/watch?v=G8LcRhwEdS0"
     }
    ]
   },
