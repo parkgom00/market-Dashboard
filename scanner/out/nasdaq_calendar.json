@@ -1249,10 +1249,10 @@
   "title": "엑슨모빌 실적 발표",
   "level": "earnings",
   "kind": "earnings",
-  "note": "장 시작 전",
+  "note": "",
   "epsForecast": "$3.90",
-  "eps": "",
-  "surprise": ""
+  "eps": "$4.23",
+  "surprise": "8.46"
  },
  {
   "date": "2026-10-30",
@@ -1311,8 +1311,8 @@
   "title": "중국 제조업 PMI",
   "level": "macro",
   "kind": "econ",
-  "consensus": "50.5",
-  "actual": "",
+  "consensus": "50.0",
+  "actual": "49.7",
   "previous": "50.2"
  },
  {
