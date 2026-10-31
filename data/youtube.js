@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-01 01:41",
+ "asOf": "2026-11-01 03:46",
  "channels": [
   {
    "name": "815머니톡",
@@ -137,6 +137,11 @@ window.DASH.youtube = {
    "handle": "@김단테",
    "videos": [
     {
+     "title": "AI 주식 아직 희망이 있다?",
+     "publishedAt": "2026-11-01 02:10",
+     "url": "https://www.youtube.com/watch?v=BbcxxMtijlM"
+    },
+    {
      "title": "AI 주식 시즌 종료인가?",
      "publishedAt": "2026-10-31 01:40",
      "url": "https://www.youtube.com/watch?v=G3__vlk5OcM"
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "잘나가던 코스피 이것에 무너졌다. #코스피 #삼성전자 #증여세",
      "publishedAt": "2026-10-29 11:43",
      "url": "https://www.youtube.com/watch?v=GJw5DQPyBnM"
-    },
-    {
-     "title": "하이닉스 폭등시킨 '2가지' #하이닉스 #코스피 #실적발표",
-     "publishedAt": "2026-10-28 11:56",
-     "url": "https://www.youtube.com/watch?v=femmgvp-_3A"
     }
    ]
   },
