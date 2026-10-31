@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-31 19:41",
+ "asOf": "2026-10-31 21:51",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황]  “월요일 검은 폭락장 오나?” 나스닥 급락, 반도체 슈퍼사이클 끝났나? / 그런데 외국인은 왜 선물을 쓸어담았을까?   | 이주연 대표",
+     "publishedAt": "2026-10-31 20:00",
+     "url": "https://www.youtube.com/watch?v=SCFvaPwtFfs"
+    },
     {
      "title": "“AI 호황 뒤에 숨겨진 돈줄 위기!” 빅테크 현금흐름 둔화… 증시 폭락의 진짜 이유 | 이영훈 이사",
      "publishedAt": "2026-10-31 18:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“폭락장 초반 삼성전자 150만 주 쓸어담은 외국인!” 모두가 공포에 팔 때 누가 샀나? / 한국 증시에 남은 희망 한 가지 | 오로라투자자문 이지환 대표",
      "publishedAt": "2026-10-31 08:30",
      "url": "https://www.youtube.com/watch?v=QInbZ9oPWrg"
-    },
-    {
-     "title": "[#찐시황]  “악재는 다 쏟아졌다” 지금 주식 던지면 땅 치고 후회한다… 폭락장 끝이 보인다. 11월 중순 코스피 대 반전 시나리오! | 김동엽 대표",
-     "publishedAt": "2026-10-30 20:00",
-     "url": "https://www.youtube.com/watch?v=tTfkMgMCA6U"
     }
    ]
   },
