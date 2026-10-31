@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-31 21:51",
+ "asOf": "2026-10-31 23:40",
  "channels": [
   {
    "name": "815머니톡",
@@ -41,6 +41,11 @@ window.DASH.youtube = {
    "handle": "@orlandocampus",
    "videos": [
     {
+     "title": "(기술주 폭락) 선수들이 말하는 폭락의 원인은? 지금이 매수?",
+     "publishedAt": "2026-10-31 22:19",
+     "url": "https://www.youtube.com/watch?v=jVKQRk-2wvU"
+    },
+    {
      "title": "(시황분석) 반도체 완전히 끝인가?",
      "publishedAt": "2026-10-31 06:48",
      "url": "https://www.youtube.com/watch?v=xKExAnpHgFA"
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(구글,마소) 지금 구글과 마소 중에 투자해야 할 곳은?",
      "publishedAt": "2026-10-29 15:10",
      "url": "https://www.youtube.com/watch?v=OpslIFF1uqc"
-    },
-    {
-     "title": "(시황분석) 구글 capex 감소로 반도체 또 하락하나?",
-     "publishedAt": "2026-10-29 05:50",
-     "url": "https://www.youtube.com/watch?v=q5lsyb8OlN4"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "맨날 전기 부족하다면서, 전력·원전주는 왜 폭락할까?!",
+     "publishedAt": "2026-10-31 22:23",
+     "url": "https://www.youtube.com/watch?v=Fb5BSULdWAc"
+    },
+    {
      "title": "다음주 미국 투자자들이 꼭 알고 있어야 할 미국 투자포인트(11.2~6)",
      "publishedAt": "2026-10-31 17:42",
      "url": "https://www.youtube.com/watch?v=2uZN3S41GL8"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "엔비디아 젠슨황을 둘러싼 스파이 의혹 실체",
      "publishedAt": "2026-10-30 20:00",
      "url": "https://www.youtube.com/watch?v=lE2zaItUmoQ"
-    },
-    {
-     "title": "12월 31일까지, 148만원 챙기는 정책 지원금 4가지",
-     "publishedAt": "2026-10-30 18:06",
-     "url": "https://www.youtube.com/watch?v=Udvcxkhd9J8"
     }
    ]
   },
