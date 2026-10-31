@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-10-31 15:53",
+ "asOf": "2026-10-31 17:47",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,13 +9,18 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
+     "title": "[#긴급시황]  “월요일 한국 증시 정말 두렵다!” 인텔 악재에 美 반도체주 폭락… 삼전·하닉 매수는 ‘이때’  ㅣ 이주연 대표",
+     "publishedAt": "2026-10-31 16:30",
+     "url": "https://www.youtube.com/watch?v=FgMNYoPEenQ"
+    },
+    {
      "title": "[특집라이브] 종목상담 / “나스닥 2.9% 급락 쇼크!” 메타 신용전망 ‘부정적’ 하향… AI 돈줄에 경고등 / 월요일 삼전·하닉 또 위험한가?  | 이주연, 이주현",
-     "publishedAt": "2026-10-31 14:53",
+     "publishedAt": "2026-10-31 14:27",
      "url": "https://www.youtube.com/watch?v=0cnjoy6sf0E"
     },
     {
      "title": "“폭락장 초반 삼성전자 150만 주 쓸어담은 외국인!” 모두가 공포에 팔 때 누가 샀나? / 한국 증시에 남은 희망 한 가지 | 오로라투자자문 이지환 대표",
-     "publishedAt": "2026-10-31 08:59",
+     "publishedAt": "2026-10-31 08:30",
      "url": "https://www.youtube.com/watch?v=QInbZ9oPWrg"
     },
     {
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“외국인 수급에 속으면 또 당한다?” 코스피 진짜 바닥 확인할 결정적 신호 (급락장) 유안타증권 박진희 부장",
      "publishedAt": "2026-10-30 19:00",
      "url": "https://www.youtube.com/watch?v=zNQdhzQ9v2o"
-    },
-    {
-     "title": "[#긴급시황] “주가는 폭락하는데 목표가는 폭등?” 삼성전자·SK하이닉스 증권사들이 동시에 상향한 이유  | 이주연 대표",
-     "publishedAt": "2026-10-30 17:45",
-     "url": "https://www.youtube.com/watch?v=2ps2hsjUKGU"
     }
    ]
   },
@@ -73,8 +73,8 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
-     "title": "[몰아보기] 코스피로 돌아오는 수급, 이거 하나만 체크!!",
-     "publishedAt": "2026-10-31 14:53",
+     "title": "[몰아보기] 투자자들이 착각하고 있어요! 외국인은 이 때 돌아옵니다!!",
+     "publishedAt": "2026-10-31 14:00",
      "url": "https://www.youtube.com/watch?v=FdCwAmEgtOY"
     },
     {
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "다음주 미국 투자자들이 꼭 알고 있어야 할 미국 투자포인트(11.2~6)",
+     "publishedAt": "2026-10-31 17:42",
+     "url": "https://www.youtube.com/watch?v=2uZN3S41GL8"
+    },
+    {
+     "title": "투자자들이 꼭 알고 있어야 할 다음주 '한국' 투자 포인트(11.02~11.06)",
+     "publishedAt": "2026-10-31 15:04",
+     "url": "https://www.youtube.com/watch?v=uOJVtQunlZA"
+    },
+    {
+     "title": "2027년 나에게 맞는 지원금, AI로 찾는 방법",
+     "publishedAt": "2026-10-30 22:00",
+     "url": "https://www.youtube.com/watch?v=9I_0I0pdVqc"
+    },
+    {
      "title": "엔비디아 젠슨황을 둘러싼 스파이 의혹 실체",
      "publishedAt": "2026-10-30 20:00",
      "url": "https://www.youtube.com/watch?v=lE2zaItUmoQ"
     },
     {
-     "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(11월 2일~6일)",
-     "publishedAt": "2026-10-30 14:46",
-     "url": "https://www.youtube.com/watch?v=Ra7IhYhywKE"
-    },
-    {
-     "title": "12월 금리 인상 확률 85%, 미국 증시가 오르는 이유",
-     "publishedAt": "2026-10-30",
-     "url": "https://www.youtube.com/watch?v=9JAv6eHUUG8"
-    },
-    {
-     "title": "증권사 고객정보 3만 8천 건 유출, 내 돈 지키는 3가지 설정",
-     "publishedAt": "2026-10-30",
-     "url": "https://www.youtube.com/watch?v=5IRbXRR73Q0"
-    },
-    {
-     "title": "이번 실적발표로 확인된, 반도체 전망 진짜 역대급입니다",
-     "publishedAt": "2026-10-30",
-     "url": "https://www.youtube.com/watch?v=fKb-mxpwg9M"
+     "title": "12월 31일까지, 148만원 챙기는 정책 지원금 4가지",
+     "publishedAt": "2026-10-30 18:06",
+     "url": "https://www.youtube.com/watch?v=Udvcxkhd9J8"
     }
    ]
   },
@@ -142,24 +142,24 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=G3__vlk5OcM"
     },
     {
+     "title": "빅테크 쇼크에 코스피도 폭락!",
+     "publishedAt": "2026-10-30 12:22",
+     "url": "https://www.youtube.com/watch?v=B08-0DIVmBE"
+    },
+    {
      "title": "구글의 종말",
      "publishedAt": "2026-10-30 01:19",
      "url": "https://www.youtube.com/watch?v=O9lLR-DSZKg"
     },
     {
-     "title": "드디어 밝혀진 앤트로픽의 비밀. 심층분석 들어갑니다.",
-     "publishedAt": "2026-10-27",
-     "url": "https://www.youtube.com/watch?v=n8zGtiTYxMI"
+     "title": "잘나가던 코스피 이것에 무너졌다. #코스피 #삼성전자 #증여세",
+     "publishedAt": "2026-10-29 11:43",
+     "url": "https://www.youtube.com/watch?v=GJw5DQPyBnM"
     },
     {
-     "title": "일론머스크 \"네오클라우드 대부분 망한다?\"",
-     "publishedAt": "2026-10-27",
-     "url": "https://www.youtube.com/watch?v=LgOIJMIgkUw"
-    },
-    {
-     "title": "드릴 말씀이 있습니다.",
-     "publishedAt": "2026-10-25",
-     "url": "https://www.youtube.com/watch?v=Zn6yIuZUG5E"
+     "title": "하이닉스 폭등시킨 '2가지' #하이닉스 #코스피 #실적발표",
+     "publishedAt": "2026-10-28 11:56",
+     "url": "https://www.youtube.com/watch?v=femmgvp-_3A"
     }
    ]
   },
