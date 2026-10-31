@@ -1321,7 +1321,7 @@
   "title": "한국 무역수지",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "37.24B",
   "actual": "",
   "previous": "49.97B"
  },
@@ -1331,7 +1331,7 @@
   "title": "한국 수입",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "39.9%",
   "actual": "",
   "previous": "26.0%"
  },
@@ -1341,7 +1341,7 @@
   "title": "한국 수출",
   "level": "major",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "93.2%",
   "actual": "",
   "previous": "83.7%"
  },
@@ -1372,7 +1372,7 @@
   "title": "중국 제조업 PMI",
   "level": "macro",
   "kind": "econ",
-  "consensus": "51.5",
+  "consensus": "52.0",
   "actual": "",
   "previous": "52.1"
  },
@@ -1436,7 +1436,7 @@
   "title": "ISM 제조업",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "54.7",
   "actual": "",
   "previous": "54.5"
  },
@@ -1605,7 +1605,7 @@
   "title": "JOLTS 구인",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "7.100M",
   "actual": "",
   "previous": "7.079M"
  },
@@ -1625,7 +1625,7 @@
   "title": "ADP 민간고용",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "65K",
   "actual": "",
   "previous": "90K"
  },
@@ -1635,7 +1635,7 @@
   "title": "미국 무역수지",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "-107.60B",
   "actual": "",
   "previous": "-105.60B"
  },
@@ -1687,7 +1687,7 @@
   "title": "ISM 서비스업",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "54.8",
   "actual": "",
   "previous": "54.9"
  },
@@ -1717,7 +1717,7 @@
   "title": "미국 생산성",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "3.1%",
   "actual": "",
   "previous": "1.4%"
  },
@@ -1727,7 +1727,7 @@
   "title": "미국 신규 실업수당 청구",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "197K",
   "actual": "",
   "previous": "194K"
  },

@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-10-31 21:34",
+ "generatedAt": "2026-11-01 03:32",
  "events": [
   {
    "date": "2026-01-01",
@@ -2201,7 +2201,7 @@ window.DASH.calendar = {
    "title": "한국 무역수지",
    "time": "09:00",
    "result": [
-    "이전 49.97B"
+    "예상 37.24B · 이전 49.97B"
    ]
   },
   {
@@ -2211,7 +2211,7 @@ window.DASH.calendar = {
    "title": "한국 수입",
    "time": "09:00",
    "result": [
-    "이전 26.0%"
+    "예상 39.9% · 이전 26.0%"
    ]
   },
   {
@@ -2222,7 +2222,7 @@ window.DASH.calendar = {
    "time": "09:00",
    "major": true,
    "result": [
-    "이전 83.7%"
+    "예상 93.2% · 이전 83.7%"
    ]
   },
   {
@@ -2242,7 +2242,7 @@ window.DASH.calendar = {
    "title": "중국 제조업 PMI",
    "time": "10:45",
    "result": [
-    "예상 51.5 · 이전 52.1"
+    "예상 52.0 · 이전 52.1"
    ]
   },
   {
@@ -2262,7 +2262,7 @@ window.DASH.calendar = {
    "title": "ISM 제조업",
    "time": "00:00",
    "result": [
-    "이전 54.5"
+    "예상 54.7 · 이전 54.5"
    ]
   },
   {
@@ -2341,7 +2341,7 @@ window.DASH.calendar = {
    "title": "JOLTS 구인",
    "time": "00:00",
    "result": [
-    "이전 7.079M"
+    "예상 7.100M · 이전 7.079M"
    ]
   },
   {
@@ -2361,7 +2361,7 @@ window.DASH.calendar = {
    "title": "ADP 민간고용",
    "time": "22:15",
    "result": [
-    "이전 90K"
+    "예상 65K · 이전 90K"
    ]
   },
   {
@@ -2371,7 +2371,7 @@ window.DASH.calendar = {
    "title": "미국 무역수지",
    "time": "22:30",
    "result": [
-    "이전 -105.60B"
+    "예상 -107.60B · 이전 -105.60B"
    ]
   },
   {
@@ -2401,7 +2401,7 @@ window.DASH.calendar = {
    "title": "ISM 서비스업",
    "time": "00:00",
    "result": [
-    "이전 54.9"
+    "예상 54.8 · 이전 54.9"
    ]
   },
   {
@@ -2432,7 +2432,7 @@ window.DASH.calendar = {
    "title": "미국 생산성",
    "time": "22:30",
    "result": [
-    "이전 1.4%"
+    "예상 3.1% · 이전 1.4%"
    ]
   },
   {
@@ -2442,7 +2442,7 @@ window.DASH.calendar = {
    "title": "미국 신규 실업수당 청구",
    "time": "22:30",
    "result": [
-    "이전 194K"
+    "예상 197K · 이전 194K"
    ]
   },
   {
