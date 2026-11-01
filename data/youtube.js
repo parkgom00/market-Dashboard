@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-01 19:44",
+ "asOf": "2026-11-01 21:52",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황]  “美 반도체 폭락했는데 외국인은 선물 6,200계약 매수!” 월요일 코스피 대반전 시작되나? / 삼성전자·SK하이닉스 반격 가능성 | 미래에셋자산운용 최창규 이사",
+     "publishedAt": "2026-11-01 20:00",
+     "url": "https://www.youtube.com/watch?v=bpixbyVlznY"
+    },
     {
      "title": "“삼성SDI 다음은 이 주식!” 미국 ESS 수요 폭증에 2차전지 수혜주 등장 / 체코 원전 악재.. 원전주 초비상 ?ㅣ한병화 이사",
      "publishedAt": "2026-11-01 19:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#글로벌인사이트] “삼성전자 609조·SK하이닉스 439조 영업이익 전망?” 내년 반도체 실적은 폭발하는데… 주가는 왜 급락하나? | 세미콘리서치 랩 노근창 대표",
      "publishedAt": "2026-11-01 13:00",
      "url": "https://www.youtube.com/watch?v=papNXE4lhn0"
-    },
-    {
-     "title": "[#긴급인터뷰] \"월요일 코스피 또 급락하나?” 지금은 현금 꼭 쥐고 관망할 때… 저는 삼성전자 이렇게 대응합니다!  | 이주현 대표",
-     "publishedAt": "2026-11-01 08:30",
-     "url": "https://www.youtube.com/watch?v=2u_IBpeKLrc"
     }
    ]
   },
@@ -169,11 +169,6 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
-     "title": "인텔-30% 알파벳-12% 쇼크, 선거 후 반전 가능할까/대량 전사자 매장 훈련? 더 큰 지정학 충격 오는걸까",
-     "publishedAt": "2026-11-01 18:42",
-     "url": "https://www.youtube.com/watch?v=a2-adRUJvTs"
-    },
-    {
      "title": "AI인프라 쇼크 어떻게 대응해야 할까, 다음 승자까지 마음 편하게 투자하는 법",
      "publishedAt": "2026-10-30 18:33",
      "url": "https://www.youtube.com/watch?v=DBm1cqv3avc"
@@ -192,6 +187,11 @@ window.DASH.youtube = {
      "title": "큰 손들의 강제 주식 매도는 기회? 월가 변곡점 족집게 전망, 적중할까",
      "publishedAt": "2026-10-27 20:27",
      "url": "https://www.youtube.com/watch?v=WM76m1GByyg"
+    },
+    {
+     "title": "AI 자금줄 갑자기 뚝 끊겼다? 증시에 등장한 이상 신호, 경고일까",
+     "publishedAt": "2026-10-26 20:15",
+     "url": "https://www.youtube.com/watch?v=P4i9A1Woky8"
     }
    ]
   }
