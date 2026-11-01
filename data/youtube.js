@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-01 11:52",
+ "asOf": "2026-11-01 13:54",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#글로벌인사이트] “삼성전자 609조·SK하이닉스 439조 영업이익 전망?” 내년 반도체 실적은 폭발하는데… 주가는 왜 급락하나? | 세미콘리서치 랩 노근창 대표",
+     "publishedAt": "2026-11-01 13:00",
+     "url": "https://www.youtube.com/watch?v=papNXE4lhn0"
+    },
     {
      "title": "[#긴급인터뷰] \"월요일 코스피 또 급락하나?” 지금은 현금 꼭 쥐고 관망할 때… 저는 삼성전자 이렇게 대응합니다!  | 이주현 대표",
      "publishedAt": "2026-11-01 09:09",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황]  “월요일 한국 증시 정말 두렵다!” 인텔 악재에 美 반도체주 폭락… 삼전·하닉 매수는 ‘이때’  ㅣ 이주연 대표",
      "publishedAt": "2026-10-31 16:30",
      "url": "https://www.youtube.com/watch?v=FgMNYoPEenQ"
-    },
-    {
-     "title": "[특집라이브] 종목상담 / “나스닥 2.9% 급락 쇼크!” 메타 신용전망 ‘부정적’ 하향… AI 돈줄에 경고등 / 월요일 삼전·하닉 또 위험한가?  | 이주연, 이주현",
-     "publishedAt": "2026-10-31 14:27",
-     "url": "https://www.youtube.com/watch?v=0cnjoy6sf0E"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(아이온큐) 왜 일본 2위의 증권회사는 아이온큐 지분을 더 사고 있나?",
+     "publishedAt": "2026-11-01 11:54",
+     "url": "https://www.youtube.com/watch?v=H21mC0QJPk0"
+    },
     {
      "title": "(기술주 폭락) 선수들이 말하는 폭락의 원인은? 지금이 매수?",
      "publishedAt": "2026-10-31 22:19",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 빅테크 실적 왜 이러나?",
      "publishedAt": "2026-10-30 05:42",
      "url": "https://www.youtube.com/watch?v=e5PdkwFvJpI"
-    },
-    {
-     "title": "(구글,마소) 지금 구글과 마소 중에 투자해야 할 곳은?",
-     "publishedAt": "2026-10-29 15:10",
-     "url": "https://www.youtube.com/watch?v=OpslIFF1uqc"
     }
    ]
   },
