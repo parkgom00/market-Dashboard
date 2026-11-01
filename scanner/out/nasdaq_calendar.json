@@ -1605,7 +1605,7 @@
   "title": "JOLTS 구인",
   "level": "macro",
   "kind": "econ",
-  "consensus": "7.100M",
+  "consensus": "7.110M",
   "actual": "",
   "previous": "7.079M"
  },
@@ -1625,7 +1625,7 @@
   "title": "ADP 민간고용",
   "level": "macro",
   "kind": "econ",
-  "consensus": "65K",
+  "consensus": "68K",
   "actual": "",
   "previous": "90K"
  },
@@ -1635,7 +1635,7 @@
   "title": "미국 무역수지",
   "level": "macro",
   "kind": "econ",
-  "consensus": "-107.60B",
+  "consensus": "-107.90B",
   "actual": "",
   "previous": "-105.60B"
  },
@@ -1717,7 +1717,7 @@
   "title": "미국 생산성",
   "level": "macro",
   "kind": "econ",
-  "consensus": "3.1%",
+  "consensus": "2.8%",
   "actual": "",
   "previous": "1.4%"
  },
@@ -1757,7 +1757,7 @@
   "title": "미국 비농업 고용",
   "level": "major",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "60K",
   "actual": "",
   "previous": "46K"
  },
@@ -1767,7 +1767,7 @@
   "title": "미국 실업률",
   "level": "major",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "4.2%",
   "actual": "",
   "previous": "4.2%"
  },
@@ -1777,7 +1777,7 @@
   "title": "미시간 소비심리",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "47.8",
   "actual": "",
   "previous": "48.0"
  },

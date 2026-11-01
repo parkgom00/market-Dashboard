@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-01 03:32",
+ "generatedAt": "2026-11-01 09:38",
  "events": [
   {
    "date": "2026-01-01",
@@ -528,8 +528,8 @@ window.DASH.calendar = {
    "title": "미국 고용보고서 발표 · 10월분 (한국시간 저녁)",
    "time": "22:30",
    "result": [
-    "미국 비농업 고용: 이전 46K",
-    "미국 실업률: 이전 4.2%"
+    "미국 비농업 고용: 예상 60K · 이전 46K",
+    "미국 실업률: 예상 4.2% · 이전 4.2%"
    ]
   },
   {
@@ -2341,7 +2341,7 @@ window.DASH.calendar = {
    "title": "JOLTS 구인",
    "time": "00:00",
    "result": [
-    "예상 7.100M · 이전 7.079M"
+    "예상 7.110M · 이전 7.079M"
    ]
   },
   {
@@ -2361,7 +2361,7 @@ window.DASH.calendar = {
    "title": "ADP 민간고용",
    "time": "22:15",
    "result": [
-    "예상 65K · 이전 90K"
+    "예상 68K · 이전 90K"
    ]
   },
   {
@@ -2371,7 +2371,7 @@ window.DASH.calendar = {
    "title": "미국 무역수지",
    "time": "22:30",
    "result": [
-    "예상 -107.60B · 이전 -105.60B"
+    "예상 -107.90B · 이전 -105.60B"
    ]
   },
   {
@@ -2432,7 +2432,7 @@ window.DASH.calendar = {
    "title": "미국 생산성",
    "time": "22:30",
    "result": [
-    "예상 3.1% · 이전 1.4%"
+    "예상 2.8% · 이전 1.4%"
    ]
   },
   {
@@ -2473,7 +2473,7 @@ window.DASH.calendar = {
    "title": "미시간 소비심리",
    "time": "00:00",
    "result": [
-    "이전 48.0"
+    "예상 47.8 · 이전 48.0"
    ]
   },
   {
