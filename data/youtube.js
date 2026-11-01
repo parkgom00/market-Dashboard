@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-02 05:41",
+ "asOf": "2026-11-02 07:40",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[11월2일 #장시작전]  인텔 하루 -28% 충격! 美 반도체 7.2% 폭락… 월요일 코스피 어디까지 밀릴까?",
+     "publishedAt": "2026-11-02 06:15",
+     "url": "https://www.youtube.com/watch?v=ZNYPWIZHu44"
+    },
     {
      "title": "[#찐시황]  “美 반도체 폭락했는데 외국인은 선물 6,200계약 매수!” 월요일 코스피 대반전 시작되나? / 삼성전자·SK하이닉스 반격 가능성 | 미래에셋자산운용 최창규 이사",
      "publishedAt": "2026-11-01 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“AI 테마주 아무거나 사면 큰일 난다!” 로봇주·ESS·보안주 진짜 수혜주 찾는 법 / 원전·전력주 끝났나?  ㅣ이영훈 이사",
      "publishedAt": "2026-11-01 16:00",
      "url": "https://www.youtube.com/watch?v=QQ-CxhbzkiE"
-    },
-    {
-     "title": "[#글로벌인사이트] “삼성전자 609조·SK하이닉스 439조 영업이익 전망?” 내년 반도체 실적은 폭발하는데… 주가는 왜 급락하나? | 세미콘리서치 랩 노근창 대표",
-     "publishedAt": "2026-11-01 13:00",
-     "url": "https://www.youtube.com/watch?v=papNXE4lhn0"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "11월 2일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-11-02 06:46",
+     "url": "https://www.youtube.com/watch?v=qLw7H7W0T00"
+    },
+    {
      "title": "미국 주식 할때, 수수료 가장 적은 증권사 고르는 방법",
      "publishedAt": "2026-11-01 14:00",
      "url": "https://www.youtube.com/watch?v=tm8gNJnNaW4"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "맨날 전기 부족하다면서, 전력·원전주는 왜 폭락할까?!",
      "publishedAt": "2026-10-31 22:23",
      "url": "https://www.youtube.com/watch?v=Fb5BSULdWAc"
-    },
-    {
-     "title": "다음주 미국 투자자들이 꼭 알고 있어야 할 미국 투자포인트(11.2~6)",
-     "publishedAt": "2026-10-31 17:42",
-     "url": "https://www.youtube.com/watch?v=2uZN3S41GL8"
     }
    ]
   },
