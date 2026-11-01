@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-01 10:09",
+ "asOf": "2026-11-01 11:52",
  "channels": [
   {
    "name": "815머니톡",
@@ -115,19 +115,19 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=Fb5BSULdWAc"
     },
     {
-     "title": "다음주 미국 투자자들이 꼭 알고 있어야 할 미국 투자포인트(11.2~6)",
-     "publishedAt": "2026-10-31 17:42",
-     "url": "https://www.youtube.com/watch?v=2uZN3S41GL8"
+     "title": "엔비디아 젠슨황을 둘러싼 스파이 의혹 실체",
+     "publishedAt": "2026-10-31",
+     "url": "https://www.youtube.com/watch?v=lE2zaItUmoQ"
     },
     {
-     "title": "투자자들이 꼭 알고 있어야 할 다음주 '한국' 투자 포인트(11.02~11.06)",
-     "publishedAt": "2026-10-31 15:04",
-     "url": "https://www.youtube.com/watch?v=uOJVtQunlZA"
+     "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(11월 2일~6일)",
+     "publishedAt": "2026-10-31",
+     "url": "https://www.youtube.com/watch?v=Ra7IhYhywKE"
     },
     {
-     "title": "2027년 나에게 맞는 지원금, AI로 찾는 방법",
-     "publishedAt": "2026-10-30 22:00",
-     "url": "https://www.youtube.com/watch?v=9I_0I0pdVqc"
+     "title": "12월 금리 인상 확률 85%, 미국 증시가 오르는 이유",
+     "publishedAt": "2026-10-30",
+     "url": "https://www.youtube.com/watch?v=9JAv6eHUUG8"
     }
    ]
   },
