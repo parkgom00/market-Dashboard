@@ -1322,7 +1322,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "37.24B",
-  "actual": "",
+  "actual": "42.50B",
   "previous": "49.97B"
  },
  {
@@ -1332,7 +1332,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "39.9%",
-  "actual": "",
+  "actual": "36.0%",
   "previous": "26.0%"
  },
  {
@@ -1342,7 +1342,7 @@
   "level": "major",
   "kind": "econ",
   "consensus": "93.2%",
-  "actual": "",
+  "actual": "93.7%",
   "previous": "83.7%"
  },
  {
