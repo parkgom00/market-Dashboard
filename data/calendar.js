@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-01 21:35",
+ "generatedAt": "2026-11-02 03:32",
  "events": [
   {
    "date": "2026-01-01",
@@ -388,7 +388,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "FOMC 금리 결정 발표 (한국시간 새벽, 미국 10/28)",
-   "time": "03:00",
+   "time": "02:00",
    "result": [
     "FOMC 금리결정: 실제 4.00% · 예상 4.00% · 이전 4.00%"
    ]
@@ -426,7 +426,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 PCE 물가지수 발표 · 9월분 (한국시간 저녁)",
-   "time": "21:30",
+   "time": "20:30",
    "result": [
     "미국 PCE: 실제 3.6% · 예상 3.6% · 이전 3.4%",
     "미국 근원 PCE: 실제 3.1% · 예상 3.1% · 이전 3.0%"
@@ -526,7 +526,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 고용보고서 발표 · 10월분 (한국시간 저녁)",
-   "time": "22:30",
+   "time": "21:30",
    "result": [
     "미국 비농업 고용: 예상 60K · 이전 46K",
     "미국 실업률: 예상 4.2% · 이전 4.2%"
@@ -537,7 +537,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 소비자물가지수(CPI) 발표 · 10월분 (한국시간 저녁)",
-   "time": "22:30",
+   "time": "21:30",
    "result": [
     "미국 CPI: 이전 0.59%",
     "미국 근원 CPI: 이전 338.90"
@@ -572,7 +572,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "FOMC 금리 결정 발표 (한국시간 새벽, 미국 12/9)",
-   "time": "04:00"
+   "time": "03:00"
   },
   {
    "date": "2026-12-10",
@@ -1961,7 +1961,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "KR",
    "title": "한국 소비자심리",
-   "time": "06:00",
+   "time": "05:00",
    "result": [
     "실제 105.4 · 이전 106.6"
    ]
@@ -1971,7 +1971,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "KR",
    "title": "한국 GDP",
-   "time": "08:00",
+   "time": "07:00",
    "result": [
     "실제 3.4% · 예상 3.0% · 이전 3.7%"
    ]
@@ -1981,7 +1981,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 건축허가",
-   "time": "21:00",
+   "time": "20:00",
    "result": [
     "실제 -0.4% · 예상 -0.2% · 이전 -2.1%"
    ]
@@ -1991,7 +1991,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 내구재 주문",
-   "time": "21:30",
+   "time": "20:30",
    "result": [
     "실제 1.8% · 예상 2.0% · 이전 0.1%"
    ]
@@ -2011,7 +2011,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "리치먼드 연은지수",
-   "time": "23:00",
+   "time": "22:00",
    "result": [
     "실제 -2 · 예상 0 · 이전 -2"
    ]
@@ -2021,7 +2021,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 소비자신뢰",
-   "time": "23:00",
+   "time": "22:00",
    "result": [
     "실제 91.7 · 예상 81.2 · 이전 84.2"
    ]
@@ -2031,7 +2031,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 신규주택판매",
-   "time": "23:00",
+   "time": "22:00",
    "result": [
     "실제 -0.6% · 예상 -4.5% · 이전 5.1%"
    ]
@@ -2059,6 +2059,16 @@ window.DASH.calendar = {
    "date": "2026-10-28",
    "type": "econ",
    "market": "US",
+   "title": "미국 무역수지",
+   "time": "20:30",
+   "result": [
+    "실제 -134.90B · 예상 -130.40B · 이전 -132.07B"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "type": "econ",
+   "market": "US",
    "title": "미국 PCE",
    "time": "21:30",
    "major": true,
@@ -2081,16 +2091,6 @@ window.DASH.calendar = {
    "date": "2026-10-28",
    "type": "econ",
    "market": "US",
-   "title": "미국 무역수지",
-   "time": "21:30",
-   "result": [
-    "실제 -134.90B · 예상 -130.40B · 이전 -132.07B"
-   ]
-  },
-  {
-   "date": "2026-10-28",
-   "type": "econ",
-   "market": "US",
    "title": "미국 신규 실업수당 청구",
    "time": "21:30"
   },
@@ -2099,7 +2099,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "FOMC 기자회견",
-   "time": "03:30",
+   "time": "02:30",
    "major": true
   },
   {
@@ -2138,7 +2138,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 신규 실업수당 청구",
-   "time": "21:30",
+   "time": "20:30",
    "result": [
     "실제 194K · 예상 198K · 이전 195K"
    ]
@@ -2148,7 +2148,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "KR",
    "title": "한국 산업생산",
-   "time": "08:00",
+   "time": "07:00",
    "result": [
     "실제 9.0% · 이전 -4.6%"
    ]
@@ -2158,7 +2158,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "KR",
    "title": "한국 소매판매",
-   "time": "08:00",
+   "time": "07:00",
    "result": [
     "실제 3.6% · 이전 -1.8%"
    ]
@@ -2178,7 +2178,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "JP",
    "title": "BOJ 금리결정",
-   "time": "12:00",
+   "time": "11:00",
    "major": true,
    "result": [
     "실제 1.25% · 예상 1.25% · 이전 1.25%"
@@ -2189,7 +2189,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "CN",
    "title": "중국 제조업 PMI",
-   "time": "10:30",
+   "time": "09:30",
    "result": [
     "실제 49.7 · 예상 50.0 · 이전 50.2"
    ]
@@ -2199,7 +2199,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "KR",
    "title": "한국 무역수지",
-   "time": "09:00",
+   "time": "08:00",
    "result": [
     "실제 42.50B · 예상 37.24B · 이전 49.97B"
    ]
@@ -2209,7 +2209,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "KR",
    "title": "한국 수입",
-   "time": "09:00",
+   "time": "08:00",
    "result": [
     "실제 36.0% · 예상 39.9% · 이전 26.0%"
    ]
@@ -2219,7 +2219,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "KR",
    "title": "한국 수출",
-   "time": "09:00",
+   "time": "08:00",
    "major": true,
    "result": [
     "실제 93.7% · 예상 93.2% · 이전 83.7%"
@@ -2230,7 +2230,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "KR",
    "title": "한국 제조업 PMI",
-   "time": "09:30",
+   "time": "08:30",
    "result": [
     "이전 53.9"
    ]
@@ -2240,7 +2240,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "CN",
    "title": "중국 제조업 PMI",
-   "time": "10:45",
+   "time": "09:45",
    "result": [
     "예상 52.0 · 이전 52.1"
    ]
@@ -2250,9 +2250,19 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "S&P글로벌 제조업 PMI",
-   "time": "23:45",
+   "time": "22:45",
    "result": [
     "예상 56.0 · 이전 56.0"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "type": "econ",
+   "market": "US",
+   "title": "ISM 제조업",
+   "time": "23:00",
+   "result": [
+    "예상 54.7 · 이전 54.5"
    ]
   },
   {
@@ -2270,7 +2280,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "KR",
    "title": "한국 CPI",
-   "time": "08:00",
+   "time": "07:00",
    "result": [
     "예상 0.3% · 이전 0.3%"
    ]
@@ -2299,20 +2309,30 @@ window.DASH.calendar = {
    "date": "2026-11-03",
    "type": "econ",
    "market": "US",
-   "title": "S&P글로벌 서비스업 PMI",
-   "time": "23:45",
+   "title": "S&P글로벌 제조업 PMI",
+   "time": "22:45",
    "result": [
-    "이전 57.9"
+    "예상 56.0 · 이전 55.9"
    ]
   },
   {
    "date": "2026-11-03",
    "type": "econ",
    "market": "US",
-   "title": "S&P글로벌 제조업 PMI",
+   "title": "JOLTS 구인",
+   "time": "23:00",
+   "result": [
+    "예상 7.110M · 이전 7.079M"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "type": "econ",
+   "market": "US",
+   "title": "S&P글로벌 서비스업 PMI",
    "time": "23:45",
    "result": [
-    "예상 56.0 · 이전 55.9"
+    "이전 57.9"
    ]
   },
   {
@@ -2322,16 +2342,6 @@ window.DASH.calendar = {
    "title": "ARM 실적 발표",
    "result": [
     "EPS 예상 $0.22"
-   ]
-  },
-  {
-   "date": "2026-11-04",
-   "type": "econ",
-   "market": "US",
-   "title": "ISM 서비스업",
-   "time": "00:00",
-   "result": [
-    "이전 54.9"
    ]
   },
   {
@@ -2359,7 +2369,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "ADP 민간고용",
-   "time": "22:15",
+   "time": "21:15",
    "result": [
     "예상 68K · 이전 90K"
    ]
@@ -2369,7 +2379,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 무역수지",
-   "time": "22:30",
+   "time": "21:30",
    "result": [
     "예상 -107.90B · 이전 -105.60B"
    ]
@@ -2389,9 +2399,19 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "S&P글로벌 서비스업 PMI",
-   "time": "23:45",
+   "time": "22:45",
    "result": [
     "예상 57.9 · 이전 57.9"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "type": "econ",
+   "market": "US",
+   "title": "ISM 서비스업",
+   "time": "23:00",
+   "result": [
+    "예상 54.8 · 이전 54.9"
    ]
   },
   {
@@ -2409,9 +2429,29 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "KR",
    "title": "한국 경상수지",
-   "time": "08:00",
+   "time": "07:00",
    "result": [
     "이전 46.11B"
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 생산성",
+   "time": "21:30",
+   "result": [
+    "예상 2.8% · 이전 1.4%"
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 신규 실업수당 청구",
+   "time": "21:30",
+   "result": [
+    "예상 197K · 이전 194K"
    ]
   },
   {
@@ -2423,26 +2463,6 @@ window.DASH.calendar = {
    "major": true,
    "result": [
     "이전 46K"
-   ]
-  },
-  {
-   "date": "2026-11-05",
-   "type": "econ",
-   "market": "US",
-   "title": "미국 생산성",
-   "time": "22:30",
-   "result": [
-    "예상 2.8% · 이전 1.4%"
-   ]
-  },
-  {
-   "date": "2026-11-05",
-   "type": "econ",
-   "market": "US",
-   "title": "미국 신규 실업수당 청구",
-   "time": "22:30",
-   "result": [
-    "예상 197K · 이전 194K"
    ]
   },
   {
@@ -2461,9 +2481,9 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미시간 소비심리",
-   "time": "00:00",
+   "time": "23:00",
    "result": [
-    "이전 48.0"
+    "예상 47.8 · 이전 48.0"
    ]
   },
   {
@@ -2491,7 +2511,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "CN",
    "title": "중국 CPI",
-   "time": "10:30",
+   "time": "09:30",
    "result": [
     "이전 0.2%"
    ]
@@ -2501,7 +2521,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "KR",
    "title": "한국 실업률",
-   "time": "08:00",
+   "time": "07:00",
    "result": [
     "이전 2.6%"
    ]
@@ -2541,7 +2561,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 PPI",
-   "time": "22:30",
+   "time": "21:30",
    "result": [
     "이전 0.5%"
    ]
@@ -2551,7 +2571,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 근원 PPI",
-   "time": "22:30",
+   "time": "21:30",
    "result": [
     "이전 5.0%"
    ]
@@ -2561,7 +2581,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "KR",
    "title": "한국 무역수지",
-   "time": "09:00",
+   "time": "08:00",
    "result": [
     "이전 49.97B"
    ]
@@ -2571,7 +2591,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "KR",
    "title": "한국 수입",
-   "time": "09:00",
+   "time": "08:00",
    "result": [
     "이전 26.0%"
    ]
@@ -2581,7 +2601,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "KR",
    "title": "한국 수출",
-   "time": "09:00",
+   "time": "08:00",
    "major": true,
    "result": [
     "이전 83.7%"
@@ -2592,7 +2612,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 소매판매",
-   "time": "22:30",
+   "time": "21:30",
    "result": [
     "이전 0.2%"
    ]
@@ -2602,7 +2622,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 수입물가",
-   "time": "22:30",
+   "time": "21:30",
    "result": [
     "이전 1.1%"
    ]
@@ -2612,7 +2632,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 산업생산",
-   "time": "23:15",
+   "time": "22:15",
    "result": [
     "이전 2.25%"
    ]
@@ -2632,7 +2652,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 건축허가",
-   "time": "22:30",
+   "time": "21:30",
    "result": [
     "이전 1.398M"
    ]
@@ -2642,7 +2662,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 주택착공",
-   "time": "22:30",
+   "time": "21:30",
    "result": [
     "이전 -5.2%"
    ]
@@ -2662,7 +2682,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "필라델피아 연은지수",
-   "time": "22:30",
+   "time": "21:30",
    "result": [
     "이전 20.9"
    ]
@@ -2672,9 +2692,19 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "KR",
    "title": "한국 PPI",
-   "time": "06:00",
+   "time": "05:00",
    "result": [
     "이전 7.7%"
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "type": "econ",
+   "market": "US",
+   "title": "미시간 소비심리",
+   "time": "23:00",
+   "result": [
+    "이전 48.0"
    ]
   },
   {
@@ -2781,7 +2811,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "JP",
    "title": "BOJ 금리결정",
-   "time": "12:00",
+   "time": "11:00",
    "major": true
   }
  ]
