@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-01 07:39",
+ "asOf": "2026-11-01 10:09",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급인터뷰] \"월요일 코스피 또 급락하나?” 지금은 현금 꼭 쥐고 관망할 때… 저는 삼성전자 이렇게 대응합니다!  | 이주현 대표",
+     "publishedAt": "2026-11-01 09:09",
+     "url": "https://www.youtube.com/watch?v=2u_IBpeKLrc"
+    },
     {
      "title": "[#찐시황]  “월요일 검은 폭락장 오나?” 나스닥 급락, 반도체 슈퍼사이클 끝났나? / 그런데 외국인은 왜 선물을 쓸어담았을까?   | 이주연 대표",
      "publishedAt": "2026-10-31 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[특집라이브] 종목상담 / “나스닥 2.9% 급락 쇼크!” 메타 신용전망 ‘부정적’ 하향… AI 돈줄에 경고등 / 월요일 삼전·하닉 또 위험한가?  | 이주연, 이주현",
      "publishedAt": "2026-10-31 14:27",
      "url": "https://www.youtube.com/watch?v=0cnjoy6sf0E"
-    },
-    {
-     "title": "“폭락장 초반 삼성전자 150만 주 쓸어담은 외국인!” 모두가 공포에 팔 때 누가 샀나? / 한국 증시에 남은 희망 한 가지 | 오로라투자자문 이지환 대표",
-     "publishedAt": "2026-10-31 08:30",
-     "url": "https://www.youtube.com/watch?v=QInbZ9oPWrg"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "현시점 가장 똑똑하게 '분할매수' 하는 방법",
+     "publishedAt": "2026-11-01 08:00",
+     "url": "https://www.youtube.com/watch?v=LqgEH1D_mp4"
+    },
+    {
      "title": "맨날 전기 부족하다면서, 전력·원전주는 왜 폭락할까?!",
      "publishedAt": "2026-10-31 22:23",
      "url": "https://www.youtube.com/watch?v=Fb5BSULdWAc"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "2027년 나에게 맞는 지원금, AI로 찾는 방법",
      "publishedAt": "2026-10-30 22:00",
      "url": "https://www.youtube.com/watch?v=9I_0I0pdVqc"
-    },
-    {
-     "title": "엔비디아 젠슨황을 둘러싼 스파이 의혹 실체",
-     "publishedAt": "2026-10-30 20:00",
-     "url": "https://www.youtube.com/watch?v=lE2zaItUmoQ"
     }
    ]
   },
@@ -147,19 +147,19 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=G3__vlk5OcM"
     },
     {
-     "title": "빅테크 쇼크에 코스피도 폭락!",
-     "publishedAt": "2026-10-30 12:22",
-     "url": "https://www.youtube.com/watch?v=B08-0DIVmBE"
-    },
-    {
      "title": "구글의 종말",
      "publishedAt": "2026-10-30 01:19",
      "url": "https://www.youtube.com/watch?v=O9lLR-DSZKg"
     },
     {
-     "title": "잘나가던 코스피 이것에 무너졌다. #코스피 #삼성전자 #증여세",
-     "publishedAt": "2026-10-29 11:43",
-     "url": "https://www.youtube.com/watch?v=GJw5DQPyBnM"
+     "title": "드디어 밝혀진 앤트로픽의 비밀. 심층분석 들어갑니다.",
+     "publishedAt": "2026-10-27",
+     "url": "https://www.youtube.com/watch?v=n8zGtiTYxMI"
+    },
+    {
+     "title": "일론머스크 \"네오클라우드 대부분 망한다?\"",
+     "publishedAt": "2026-10-27",
+     "url": "https://www.youtube.com/watch?v=LgOIJMIgkUw"
     }
    ]
   },
