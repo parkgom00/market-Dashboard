@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-01 15:59",
+ "asOf": "2026-11-01 17:51",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,29 +9,29 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
+     "title": "“반등인 줄 알았는데 또 당했다!” 코스피 급등 후 재 급락… 데드캣 바운스였나? | 이지환 대표",
+     "publishedAt": "2026-11-01 17:15",
+     "url": "https://www.youtube.com/watch?v=i7lLIlRQyY0"
+    },
+    {
+     "title": "“AI 테마주 아무거나 사면 큰일 난다!” 로봇주·ESS·보안주 진짜 수혜주 찾는 법 / 원전·전력주 끝났나?  ㅣ이영훈 이사",
+     "publishedAt": "2026-11-01 16:00",
+     "url": "https://www.youtube.com/watch?v=QQ-CxhbzkiE"
+    },
+    {
      "title": "[#글로벌인사이트] “삼성전자 609조·SK하이닉스 439조 영업이익 전망?” 내년 반도체 실적은 폭발하는데… 주가는 왜 급락하나? | 세미콘리서치 랩 노근창 대표",
      "publishedAt": "2026-11-01 13:00",
      "url": "https://www.youtube.com/watch?v=papNXE4lhn0"
     },
     {
      "title": "[#긴급인터뷰] \"월요일 코스피 또 급락하나?” 지금은 현금 꼭 쥐고 관망할 때… 저는 삼성전자 이렇게 대응합니다!  | 이주현 대표",
-     "publishedAt": "2026-11-01 09:09",
+     "publishedAt": "2026-11-01 08:30",
      "url": "https://www.youtube.com/watch?v=2u_IBpeKLrc"
     },
     {
      "title": "[#찐시황]  “월요일 검은 폭락장 오나?” 나스닥 급락, 반도체 슈퍼사이클 끝났나? / 그런데 외국인은 왜 선물을 쓸어담았을까?   | 이주연 대표",
      "publishedAt": "2026-10-31 20:00",
      "url": "https://www.youtube.com/watch?v=SCFvaPwtFfs"
-    },
-    {
-     "title": "“AI 호황 뒤에 숨겨진 돈줄 위기!” 빅테크 현금흐름 둔화… 증시 폭락의 진짜 이유 | 이영훈 이사",
-     "publishedAt": "2026-10-31 18:00",
-     "url": "https://www.youtube.com/watch?v=ET41_ENzq7w"
-    },
-    {
-     "title": "[#긴급시황]  “월요일 한국 증시 정말 두렵다!” 인텔 악재에 美 반도체주 폭락… 삼전·하닉 매수는 ‘이때’  ㅣ 이주연 대표",
-     "publishedAt": "2026-10-31 16:30",
-     "url": "https://www.youtube.com/watch?v=FgMNYoPEenQ"
     }
    ]
   },
@@ -42,7 +42,7 @@ window.DASH.youtube = {
    "videos": [
     {
      "title": "(아이온큐) 왜 일본 2위의 증권회사는 아이온큐 지분을 더 사고 있나?",
-     "publishedAt": "2026-11-01 11:54",
+     "publishedAt": "2026-11-01 11:52",
      "url": "https://www.youtube.com/watch?v=H21mC0QJPk0"
     },
     {
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "미국 주식 할때, 수수료 가장 적은 증권사 고르는 방법",
+     "publishedAt": "2026-11-01 14:00",
+     "url": "https://www.youtube.com/watch?v=tm8gNJnNaW4"
+    },
+    {
+     "title": "AI 투자자들이 앞으로 봐야 할 '호재'와 '악재'",
+     "publishedAt": "2026-11-01 10:40",
+     "url": "https://www.youtube.com/watch?v=Z4ggjTBbXjA"
+    },
+    {
      "title": "현시점 가장 똑똑하게 '분할매수' 하는 방법",
      "publishedAt": "2026-11-01 08:00",
      "url": "https://www.youtube.com/watch?v=LqgEH1D_mp4"
@@ -115,19 +125,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=Fb5BSULdWAc"
     },
     {
-     "title": "엔비디아 젠슨황을 둘러싼 스파이 의혹 실체",
-     "publishedAt": "2026-10-31",
-     "url": "https://www.youtube.com/watch?v=lE2zaItUmoQ"
-    },
-    {
-     "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(11월 2일~6일)",
-     "publishedAt": "2026-10-31",
-     "url": "https://www.youtube.com/watch?v=Ra7IhYhywKE"
-    },
-    {
-     "title": "12월 금리 인상 확률 85%, 미국 증시가 오르는 이유",
-     "publishedAt": "2026-10-30",
-     "url": "https://www.youtube.com/watch?v=9JAv6eHUUG8"
+     "title": "다음주 미국 투자자들이 꼭 알고 있어야 할 미국 투자포인트(11.2~6)",
+     "publishedAt": "2026-10-31 17:42",
+     "url": "https://www.youtube.com/watch?v=2uZN3S41GL8"
     }
    ]
   },
@@ -147,19 +147,19 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=G3__vlk5OcM"
     },
     {
+     "title": "빅테크 쇼크에 코스피도 폭락!",
+     "publishedAt": "2026-10-30 12:22",
+     "url": "https://www.youtube.com/watch?v=B08-0DIVmBE"
+    },
+    {
      "title": "구글의 종말",
      "publishedAt": "2026-10-30 01:19",
      "url": "https://www.youtube.com/watch?v=O9lLR-DSZKg"
     },
     {
-     "title": "드디어 밝혀진 앤트로픽의 비밀. 심층분석 들어갑니다.",
-     "publishedAt": "2026-10-27",
-     "url": "https://www.youtube.com/watch?v=n8zGtiTYxMI"
-    },
-    {
-     "title": "일론머스크 \"네오클라우드 대부분 망한다?\"",
-     "publishedAt": "2026-10-27",
-     "url": "https://www.youtube.com/watch?v=LgOIJMIgkUw"
+     "title": "잘나가던 코스피 이것에 무너졌다. #코스피 #삼성전자 #증여세",
+     "publishedAt": "2026-10-29 11:43",
+     "url": "https://www.youtube.com/watch?v=GJw5DQPyBnM"
     }
    ]
   },
