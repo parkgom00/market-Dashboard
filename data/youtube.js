@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-03 05:49",
+ "asOf": "2026-11-03 07:46",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[11월3일 #장시작전] 국제유가 -8% 급락에 반등하던 뉴욕증시… 앤트로픽 S-1 수정공시 후, 왜 하락했나?",
+     "publishedAt": "2026-11-03 06:30",
+     "url": "https://www.youtube.com/watch?v=vjYwC2wjYxg"
+    },
     {
      "title": "[#찐시황] “검은 월요일인 줄 알았는데 대 반전!”  급락하던 한국 증시를 말아 올린 진짜 주인공은 누구? / 드디어 바닥 찍었나?ㅣ 이권희 대표",
      "publishedAt": "2026-11-02 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황]  “코스피 급등한다고 덥석 사지 마라!” 진짜 매수 전략은 분할매수.. 지금이 하락장이 아니라는 결정적 증거는 '이것' | 박근형 부장",
      "publishedAt": "2026-11-02 15:30",
      "url": "https://www.youtube.com/watch?v=tahuUbueGM8"
-    },
-    {
-     "title": "[#긴급시황] “삼성전자·SK하이닉스 드디어 급반등?” 지금 추격 매수하면 위험한 이유… 진짜 바닥 확인할 결정적 시점은 ‘이때’ ㅣ이주현 대표",
-     "publishedAt": "2026-11-02 14:21",
-     "url": "https://www.youtube.com/watch?v=50OAJ_ICU2E"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) 트럼프 관련 반도체 주식들 폭락 주도하나?",
+     "publishedAt": "2026-11-03 06:30",
+     "url": "https://www.youtube.com/watch?v=lWfFGG-IYWg"
+    },
     {
      "title": "(삼전닉스,마이크론) 아직은 계속 들고 가는 이유는?",
      "publishedAt": "2026-11-02 15:46",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(기술주 폭락) 선수들이 말하는 폭락의 원인은? 지금이 매수?",
      "publishedAt": "2026-10-31 22:19",
      "url": "https://www.youtube.com/watch?v=jVKQRk-2wvU"
-    },
-    {
-     "title": "(시황분석) 반도체 완전히 끝인가?",
-     "publishedAt": "2026-10-31 06:48",
-     "url": "https://www.youtube.com/watch?v=xKExAnpHgFA"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "11월 3일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-11-03 07:01",
+     "url": "https://www.youtube.com/watch?v=NwGigoOaszs"
+    },
+    {
      "title": "월가에서 AI는 이제 겨우 '시작'이라고 확신하는 진짜 이유",
      "publishedAt": "2026-11-02 23:59",
      "url": "https://www.youtube.com/watch?v=YvvOYltGbEg"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "미국의 조선업 부활에 한국이 '꼭' 필요한 이유",
      "publishedAt": "2026-11-02 22:15",
      "url": "https://www.youtube.com/watch?v=6TI_S9SsdCk"
-    },
-    {
-     "title": "중간선거 끝나면 트럼프 진짜 또 이란 '공격'할까?",
-     "publishedAt": "2026-11-02 22:00",
-     "url": "https://www.youtube.com/watch?v=38_fKhGyGo0"
     }
    ]
   },
