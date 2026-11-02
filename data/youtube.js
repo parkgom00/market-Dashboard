@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-02 10:06",
+ "asOf": "2026-11-02 11:55",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,7 +9,12 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
-     "title": "[11월2일 #장시작전]  인텔 하루 -28% 충격! 美 반도체 7.2% 폭락… 월요일 코스피 어디까지 밀릴까?",
+     "title": "“월가는 AI를 팔고, 샘 올트만은 한국에 온다!” 200억 달러 투매 속 삼성전자·SK하이닉스 반전 신호인가? ㅣ이주연 대표",
+     "publishedAt": "2026-11-02 10:54",
+     "url": "https://www.youtube.com/watch?v=mTwnMRPhtNc"
+    },
+    {
+     "title": "[11월 2일 #장중엔] 미 증시 급락 선반영...수출지표와 연기금 수급으로 바닥 다질까? 코스피 반등은 어디까지? | 김태성, 이주현,박근형",
      "publishedAt": "2026-11-02 06:15",
      "url": "https://www.youtube.com/watch?v=ZNYPWIZHu44"
     },
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“반등인 줄 알았는데 또 당했다!” 코스피 급등 후 재 급락… 데드캣 바운스였나? | 이지환 대표",
      "publishedAt": "2026-11-01 17:15",
      "url": "https://www.youtube.com/watch?v=i7lLIlRQyY0"
-    },
-    {
-     "title": "“AI 테마주 아무거나 사면 큰일 난다!” 로봇주·ESS·보안주 진짜 수혜주 찾는 법 / 원전·전력주 끝났나?  ㅣ이영훈 이사",
-     "publishedAt": "2026-11-01 16:00",
-     "url": "https://www.youtube.com/watch?v=QQ-CxhbzkiE"
     }
    ]
   },
