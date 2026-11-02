@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-02 11:55",
+ "asOf": "2026-11-02 14:03",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“삼성전자 2년간 영업이익 1,000조 전망?” 반도체 실적 폭발하는데 주가는 왜 흔들리나… 지금 겁먹지 말아야 할 이유ㅣ이권희 대표",
+     "publishedAt": "2026-11-02 13:03",
+     "url": "https://www.youtube.com/watch?v=ku1XK2YYEXE"
+    },
     {
      "title": "“월가는 AI를 팔고, 샘 올트만은 한국에 온다!” 200억 달러 투매 속 삼성전자·SK하이닉스 반전 신호인가? ㅣ이주연 대표",
      "publishedAt": "2026-11-02 10:54",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“삼성SDI 다음은 이 주식!” 미국 ESS 수요 폭증에 2차전지 수혜주 등장 / 체코 원전 악재.. 원전주 초비상 ?ㅣ한병화 이사",
      "publishedAt": "2026-11-01 19:00",
      "url": "https://www.youtube.com/watch?v=YeZMHdI55A8"
-    },
-    {
-     "title": "“반등인 줄 알았는데 또 당했다!” 코스피 급등 후 재 급락… 데드캣 바운스였나? | 이지환 대표",
-     "publishedAt": "2026-11-01 17:15",
-     "url": "https://www.youtube.com/watch?v=i7lLIlRQyY0"
     }
    ]
   },
