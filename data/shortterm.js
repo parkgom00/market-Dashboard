@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-11-02 15:48",
+ "asOf": "2026-11-02 15:55",
  "window": "15:20~15:40",
  "status": "전 종목 2421개 중 후보 152개 점검 (기준 일봉 2026-10-30)",
  "types": [
@@ -28,7 +28,10 @@ window.DASH.shortterm = {
        "close": 27450.0,
        "market": "KOSDAQ",
        "sector": "소프트웨어",
-       "after": null,
+       "after": {
+        "price": 27450.0,
+        "pct": -1.08
+       },
        "marcap": 2492,
        "prevClose": 27750.0,
        "changePct": -1.08,
@@ -48,7 +51,10 @@ window.DASH.shortterm = {
        "close": 7860.0,
        "market": "KOSDAQ",
        "sector": "반도체와반도체장비",
-       "after": null,
+       "after": {
+        "price": 7860.0,
+        "pct": 29.92
+       },
        "marcap": 1267,
        "prevClose": 6050.0,
        "changePct": 29.92,
@@ -61,7 +67,10 @@ window.DASH.shortterm = {
        "close": 13500.0,
        "market": "KOSDAQ",
        "sector": "반도체와반도체장비",
-       "after": null,
+       "after": {
+        "price": 13500.0,
+        "pct": 16.88
+       },
        "marcap": 1790,
        "prevClose": 11550.0,
        "changePct": 16.88,
@@ -252,8 +261,8 @@ window.DASH.shortterm = {
   "quotes": 2421,
   "candidates": 152,
   "bars": 150,
-  "naverBars": 0,
-  "kisBars": 150,
+  "naverBars": 150,
+  "kisBars": 0,
   "a1": {
    "후보": 146,
    "분봉지연": 0,
@@ -261,17 +270,12 @@ window.DASH.shortterm = {
     "고가에서 멂": 132,
     "막판 거래량 비중 부족": 14
    },
-   "수급자료": 146,
-   "막판비중_중앙값": 0.023,
-   "막판비중_최대": 0.111
-  },
-  "kis": {
-   "calls": 446,
-   "ok": 446,
-   "err": {}
+   "수급자료": 0,
+   "막판비중_중앙값": 0.052,
+   "막판비중_최대": 0.163
   }
  },
  "flowConfirmed": false,
- "flowKind": "장중 추정",
- "phase": "장중 · 외국인·기관 장중 추정 가집계(한국투자) 반영 · 확정 수급은 마감 후 다시 반영"
+ "flowKind": "",
+ "phase": "장 마감 후 · 정규장 종가 기준 · 수급 자료는 아직 공개 전"
 };
