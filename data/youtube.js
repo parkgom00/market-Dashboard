@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-02 14:03",
+ "asOf": "2026-11-02 16:28",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급시황]  “코스피 급등한다고 덥석 사지 마라!” 진짜 매수 전략은 분할매수.. 지금이 하락장이 아니라는 결정적 증거는 '이것' | 박근형 부장",
+     "publishedAt": "2026-11-02 15:31",
+     "url": "https://www.youtube.com/watch?v=tahuUbueGM8"
+    },
+    {
+     "title": "[#긴급시황] “삼성전자·SK하이닉스 드디어 급반등?” 지금 추격 매수하면 위험한 이유… 진짜 바닥 확인할 결정적 시점은 ‘이때’ ㅣ이주현 대표",
+     "publishedAt": "2026-11-02 14:28",
+     "url": "https://www.youtube.com/watch?v=50OAJ_ICU2E"
+    },
     {
      "title": "“삼성전자 2년간 영업이익 1,000조 전망?” 반도체 실적 폭발하는데 주가는 왜 흔들리나… 지금 겁먹지 말아야 할 이유ㅣ이권희 대표",
      "publishedAt": "2026-11-02 13:03",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "[11월 2일 #장중엔] 미 증시 급락 선반영...수출지표와 연기금 수급으로 바닥 다질까? 코스피 반등은 어디까지? | 김태성, 이주현,박근형",
      "publishedAt": "2026-11-02 06:15",
      "url": "https://www.youtube.com/watch?v=ZNYPWIZHu44"
-    },
-    {
-     "title": "[#찐시황]  “美 반도체 폭락했는데 외국인은 선물 6,200계약 매수!” 월요일 코스피 대반전 시작되나? / 삼성전자·SK하이닉스 반격 가능성 | 미래에셋자산운용 최창규 이사",
-     "publishedAt": "2026-11-01 20:00",
-     "url": "https://www.youtube.com/watch?v=bpixbyVlznY"
-    },
-    {
-     "title": "“삼성SDI 다음은 이 주식!” 미국 ESS 수요 폭증에 2차전지 수혜주 등장 / 체코 원전 악재.. 원전주 초비상 ?ㅣ한병화 이사",
-     "publishedAt": "2026-11-01 19:00",
-     "url": "https://www.youtube.com/watch?v=YeZMHdI55A8"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(삼전닉스,마이크론) 아직은 계속 들고 가는 이유는?",
+     "publishedAt": "2026-11-02 15:47",
+     "url": "https://www.youtube.com/watch?v=ZBKN52VF3d4"
+    },
     {
      "title": "(월간시황) 과연 중간선거 후 퀀터적으로 상승이 가능한가?",
      "publishedAt": "2026-11-02 08:06",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 반도체 완전히 끝인가?",
      "publishedAt": "2026-10-31 06:48",
      "url": "https://www.youtube.com/watch?v=xKExAnpHgFA"
-    },
-    {
-     "title": "(반도체) 지금의 하락이 바닥인지를 알아보자",
-     "publishedAt": "2026-10-30 13:56",
-     "url": "https://www.youtube.com/watch?v=A6Bj-XBzaHg"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "한국 정부가 오늘 새롭게 꺼내는 새로운 '주식 정책'",
+     "publishedAt": "2026-11-02 15:28",
+     "url": "https://www.youtube.com/watch?v=ck5nX9w0J58"
+    },
+    {
      "title": "현시점 가장 똑똑하게 '분할매수' 하는 방법",
      "publishedAt": "2026-11-01 08:00",
      "url": "https://www.youtube.com/watch?v=LqgEH1D_mp4"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(11월 2일~6일)",
      "publishedAt": "2026-10-31",
      "url": "https://www.youtube.com/watch?v=Ra7IhYhywKE"
-    },
-    {
-     "title": "12월 금리 인상 확률 85%, 미국 증시가 오르는 이유",
-     "publishedAt": "2026-10-30",
-     "url": "https://www.youtube.com/watch?v=9JAv6eHUUG8"
     }
    ]
   },
