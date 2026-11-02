@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-02 23:59",
+ "asOf": "2026-11-03 02:06",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "월가에서 AI는 이제 겨우 '시작'이라고 확신하는 진짜 이유",
+     "publishedAt": "2026-11-02 23:59",
+     "url": "https://www.youtube.com/watch?v=YvvOYltGbEg"
+    },
+    {
      "title": "앞으로 10년안에 공무원이 사라 질 수도 있다는 이유",
      "publishedAt": "2026-11-02 23:15",
      "url": "https://www.youtube.com/watch?v=VzuexGuZdEU"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "중간선거 끝나면 트럼프 진짜 또 이란 '공격'할까?",
      "publishedAt": "2026-11-02 22:00",
      "url": "https://www.youtube.com/watch?v=38_fKhGyGo0"
-    },
-    {
-     "title": "금 투자자들이, 지금을 기회로 삼아야 하는 진짜 이유",
-     "publishedAt": "2026-11-02 21:15",
-     "url": "https://www.youtube.com/watch?v=ZnNwkYolURQ"
     }
    ]
   },
