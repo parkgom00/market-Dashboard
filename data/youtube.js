@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-02 20:03",
+ "asOf": "2026-11-02 22:09",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황] “검은 월요일인 줄 알았는데 대 반전!”  급락하던 한국 증시를 말아 올린 진짜 주인공은 누구? / 드디어 바닥 찍었나?ㅣ 이권희 대표",
+     "publishedAt": "2026-11-02 20:00",
+     "url": "https://www.youtube.com/watch?v=OrpX6KSD3b8"
+    },
     {
      "title": "[#긴급인터뷰] “대형주 강세장은 끝났다?”  삼성전자·SK하이닉스 다음 돈 몰릴 곳은 바로 ‘여기’ / 앞으로 증시 이렇게 간다!  | KB은행 이코노미스트  유신익 박사",
      "publishedAt": "2026-11-02 19:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] “삼성전자·SK하이닉스 드디어 급반등?” 지금 추격 매수하면 위험한 이유… 진짜 바닥 확인할 결정적 시점은 ‘이때’ ㅣ이주현 대표",
      "publishedAt": "2026-11-02 14:21",
      "url": "https://www.youtube.com/watch?v=50OAJ_ICU2E"
-    },
-    {
-     "title": "“삼성전자 2년간 영업이익 1,000조 전망?” 반도체 실적 폭발하는데 주가는 왜 흔들리나… 지금 겁먹지 말아야 할 이유ㅣ이권희 대표",
-     "publishedAt": "2026-11-02 12:30",
-     "url": "https://www.youtube.com/watch?v=ku1XK2YYEXE"
     }
    ]
   },
@@ -105,6 +105,21 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "금 투자자들이, 지금을 기회로 삼아야 하는 진짜 이유",
+     "publishedAt": "2026-11-02 21:15",
+     "url": "https://www.youtube.com/watch?v=ZnNwkYolURQ"
+    },
+    {
+     "title": "11월에 꼭 챙겨야 한다는 2천만원 청년 지원금들",
+     "publishedAt": "2026-11-02 21:00",
+     "url": "https://www.youtube.com/watch?v=JfdfMZsuojQ"
+    },
+    {
+     "title": "미국 중간선거 이후, 코스피 어떻게 될까?",
+     "publishedAt": "2026-11-02 20:15",
+     "url": "https://www.youtube.com/watch?v=n0vtGFxBiBk"
+    },
+    {
      "title": "AI로 2027년 연말정산, 세금 더 많이 받는 방법",
      "publishedAt": "2026-11-02 19:57",
      "url": "https://www.youtube.com/watch?v=pmYG6oRgLx8"
@@ -113,21 +128,6 @@ window.DASH.youtube = {
      "title": "북한의 역대급 코인 해킹, 앞으로 어떻게 될까?",
      "publishedAt": "2026-11-02 19:00",
      "url": "https://www.youtube.com/watch?v=EVLDflY0tkQ"
-    },
-    {
-     "title": "중간선거 끝나면 트럼프 진짜 또 '공격'할까?",
-     "publishedAt": "2026-11-02 18:00",
-     "url": "https://www.youtube.com/watch?v=xce18svoij8"
-    },
-    {
-     "title": "닷컴버블 하락장에서 돈을 번 사람들의 특징",
-     "publishedAt": "2026-11-02 16:53",
-     "url": "https://www.youtube.com/watch?v=uAfqF4lGfTA"
-    },
-    {
-     "title": "한국정부가 오늘 새롭게 꺼내는 새로운 '주식 정책'",
-     "publishedAt": "2026-11-02 16:49",
-     "url": "https://www.youtube.com/watch?v=fsV-fw9MNDA"
     }
    ]
   },
@@ -169,6 +169,11 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
+     "title": "인텔 -30% 쇼크, AI 피크아웃일까 중간선거 코앞 리스크 관리일까",
+     "publishedAt": "2026-11-02 20:36",
+     "url": "https://www.youtube.com/watch?v=6Zq7p54WTNI"
+    },
+    {
      "title": "AI인프라 쇼크 어떻게 대응해야 할까, 다음 승자까지 마음 편하게 투자하는 법",
      "publishedAt": "2026-10-30 18:33",
      "url": "https://www.youtube.com/watch?v=DBm1cqv3avc"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "큰 손들의 강제 주식 매도는 기회? 월가 변곡점 족집게 전망, 적중할까",
      "publishedAt": "2026-10-27 20:27",
      "url": "https://www.youtube.com/watch?v=WM76m1GByyg"
-    },
-    {
-     "title": "AI 자금줄 갑자기 뚝 끊겼다? 증시에 등장한 이상 신호, 경고일까",
-     "publishedAt": "2026-10-26 20:15",
-     "url": "https://www.youtube.com/watch?v=P4i9A1Woky8"
     }
    ]
   }
