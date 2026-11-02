@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-02 22:09",
+ "asOf": "2026-11-02 23:59",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "앞으로 10년안에 공무원이 사라 질 수도 있다는 이유",
+     "publishedAt": "2026-11-02 23:15",
+     "url": "https://www.youtube.com/watch?v=VzuexGuZdEU"
+    },
+    {
+     "title": "호재터진 조선주 앞으로 주가 어떻게 될까?",
+     "publishedAt": "2026-11-02 23:00",
+     "url": "https://www.youtube.com/watch?v=DRq9q5_Cz84"
+    },
+    {
+     "title": "미국의 조선업 부활에 한국이 '꼭' 필요한 이유",
+     "publishedAt": "2026-11-02 22:15",
+     "url": "https://www.youtube.com/watch?v=6TI_S9SsdCk"
+    },
+    {
+     "title": "중간선거 끝나면 트럼프 진짜 또 이란 '공격'할까?",
+     "publishedAt": "2026-11-02 22:00",
+     "url": "https://www.youtube.com/watch?v=38_fKhGyGo0"
+    },
+    {
      "title": "금 투자자들이, 지금을 기회로 삼아야 하는 진짜 이유",
      "publishedAt": "2026-11-02 21:15",
      "url": "https://www.youtube.com/watch?v=ZnNwkYolURQ"
-    },
-    {
-     "title": "11월에 꼭 챙겨야 한다는 2천만원 청년 지원금들",
-     "publishedAt": "2026-11-02 21:00",
-     "url": "https://www.youtube.com/watch?v=JfdfMZsuojQ"
-    },
-    {
-     "title": "미국 중간선거 이후, 코스피 어떻게 될까?",
-     "publishedAt": "2026-11-02 20:15",
-     "url": "https://www.youtube.com/watch?v=n0vtGFxBiBk"
-    },
-    {
-     "title": "AI로 2027년 연말정산, 세금 더 많이 받는 방법",
-     "publishedAt": "2026-11-02 19:57",
-     "url": "https://www.youtube.com/watch?v=pmYG6oRgLx8"
-    },
-    {
-     "title": "북한의 역대급 코인 해킹, 앞으로 어떻게 될까?",
-     "publishedAt": "2026-11-02 19:00",
-     "url": "https://www.youtube.com/watch?v=EVLDflY0tkQ"
     }
    ]
   },
