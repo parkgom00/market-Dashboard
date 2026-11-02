@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-02 21:51",
+ "generatedAt": "2026-11-03 03:48",
  "events": [
   {
    "date": "2026-01-01",
@@ -473,12 +473,6 @@ window.DASH.calendar = {
    "market": "US",
    "title": "인텔 실적 발표",
    "time": "미국 10/29 장 마감 후"
-  },
-  {
-   "date": "2026-11-02",
-   "type": "earnings",
-   "market": "KR",
-   "title": "POSCO홀딩스 실적 발표 (예정)"
   },
   {
    "date": "2026-11-03",
@@ -2252,7 +2246,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 제조업 PMI",
    "time": "22:45",
    "result": [
-    "예상 56.0 · 이전 55.9"
+    "실제 54.9 · 예상 56.0 · 이전 56.0"
    ]
   },
   {
@@ -2262,7 +2256,7 @@ window.DASH.calendar = {
    "title": "ISM 제조업",
    "time": "23:00",
    "result": [
-    "예상 54.5 · 이전 54.5"
+    "실제 55.5 · 예상 54.5 · 이전 54.5"
    ]
   },
   {
@@ -2583,7 +2577,7 @@ window.DASH.calendar = {
    "title": "한국 무역수지",
    "time": "08:00",
    "result": [
-    "이전 49.97B"
+    "이전 42.50B"
    ]
   },
   {
@@ -2593,7 +2587,7 @@ window.DASH.calendar = {
    "title": "한국 수입",
    "time": "08:00",
    "result": [
-    "이전 26.0%"
+    "이전 36.0%"
    ]
   },
   {
@@ -2604,7 +2598,7 @@ window.DASH.calendar = {
    "time": "08:00",
    "major": true,
    "result": [
-    "이전 83.7%"
+    "이전 93.7%"
    ]
   },
   {
@@ -2715,6 +2709,26 @@ window.DASH.calendar = {
    "time": "00:00",
    "result": [
     "이전 48.0"
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "type": "econ",
+   "market": "US",
+   "title": "S&P글로벌 서비스업 PMI",
+   "time": "22:45",
+   "result": [
+    "이전 58.8"
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "type": "econ",
+   "market": "US",
+   "title": "S&P글로벌 제조업 PMI",
+   "time": "22:45",
+   "result": [
+    "이전 54.9"
    ]
   },
   {
