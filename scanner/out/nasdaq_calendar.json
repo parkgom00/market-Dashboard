@@ -1384,7 +1384,7 @@
   "kind": "econ",
   "consensus": "56.0",
   "actual": "",
-  "previous": "56.0"
+  "previous": "55.9"
  },
  {
   "date": "2026-11-02",
@@ -1392,7 +1392,7 @@
   "title": "ISM 제조업",
   "level": "macro",
   "kind": "econ",
-  "consensus": "54.7",
+  "consensus": "54.5",
   "actual": "",
   "previous": "54.5"
  },
@@ -1436,7 +1436,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$0.33",
+  "epsForecast": "$0.32",
   "eps": "",
   "surprise": ""
  },
