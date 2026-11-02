@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-02 07:40",
+ "asOf": "2026-11-02 10:06",
  "channels": [
   {
    "name": "815머니톡",
@@ -41,6 +41,11 @@ window.DASH.youtube = {
    "handle": "@orlandocampus",
    "videos": [
     {
+     "title": "(월간시황) 과연 중간선거 후 퀀터적으로 상승이 가능한가?",
+     "publishedAt": "2026-11-02 08:06",
+     "url": "https://www.youtube.com/watch?v=kQg_GTc6CfQ"
+    },
+    {
      "title": "(아이온큐) 왜 일본 2위의 증권회사는 아이온큐 지분을 더 사고 있나?",
      "publishedAt": "2026-11-01 11:52",
      "url": "https://www.youtube.com/watch?v=H21mC0QJPk0"
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(반도체) 지금의 하락이 바닥인지를 알아보자",
      "publishedAt": "2026-10-30 13:56",
      "url": "https://www.youtube.com/watch?v=A6Bj-XBzaHg"
-    },
-    {
-     "title": "(시황분석) 빅테크 실적 왜 이러나?",
-     "publishedAt": "2026-10-30 05:42",
-     "url": "https://www.youtube.com/watch?v=e5PdkwFvJpI"
     }
    ]
   },
@@ -105,21 +105,6 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "11월 2일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-11-02 06:46",
-     "url": "https://www.youtube.com/watch?v=qLw7H7W0T00"
-    },
-    {
-     "title": "미국 주식 할때, 수수료 가장 적은 증권사 고르는 방법",
-     "publishedAt": "2026-11-01 14:00",
-     "url": "https://www.youtube.com/watch?v=tm8gNJnNaW4"
-    },
-    {
-     "title": "AI 투자자들이 앞으로 봐야 할 '호재'와 '악재'",
-     "publishedAt": "2026-11-01 10:40",
-     "url": "https://www.youtube.com/watch?v=Z4ggjTBbXjA"
-    },
-    {
      "title": "현시점 가장 똑똑하게 '분할매수' 하는 방법",
      "publishedAt": "2026-11-01 08:00",
      "url": "https://www.youtube.com/watch?v=LqgEH1D_mp4"
@@ -128,6 +113,21 @@ window.DASH.youtube = {
      "title": "맨날 전기 부족하다면서, 전력·원전주는 왜 폭락할까?!",
      "publishedAt": "2026-10-31 22:23",
      "url": "https://www.youtube.com/watch?v=Fb5BSULdWAc"
+    },
+    {
+     "title": "엔비디아 젠슨황을 둘러싼 스파이 의혹 실체",
+     "publishedAt": "2026-10-31",
+     "url": "https://www.youtube.com/watch?v=lE2zaItUmoQ"
+    },
+    {
+     "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(11월 2일~6일)",
+     "publishedAt": "2026-10-31",
+     "url": "https://www.youtube.com/watch?v=Ra7IhYhywKE"
+    },
+    {
+     "title": "12월 금리 인상 확률 85%, 미국 증시가 오르는 이유",
+     "publishedAt": "2026-10-30",
+     "url": "https://www.youtube.com/watch?v=9JAv6eHUUG8"
     }
    ]
   },
@@ -147,19 +147,19 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=G3__vlk5OcM"
     },
     {
-     "title": "빅테크 쇼크에 코스피도 폭락!",
-     "publishedAt": "2026-10-30 12:22",
-     "url": "https://www.youtube.com/watch?v=B08-0DIVmBE"
-    },
-    {
      "title": "구글의 종말",
      "publishedAt": "2026-10-30 01:19",
      "url": "https://www.youtube.com/watch?v=O9lLR-DSZKg"
     },
     {
-     "title": "잘나가던 코스피 이것에 무너졌다. #코스피 #삼성전자 #증여세",
-     "publishedAt": "2026-10-29 11:43",
-     "url": "https://www.youtube.com/watch?v=GJw5DQPyBnM"
+     "title": "드디어 밝혀진 앤트로픽의 비밀. 심층분석 들어갑니다.",
+     "publishedAt": "2026-10-27",
+     "url": "https://www.youtube.com/watch?v=n8zGtiTYxMI"
+    },
+    {
+     "title": "일론머스크 \"네오클라우드 대부분 망한다?\"",
+     "publishedAt": "2026-10-27",
+     "url": "https://www.youtube.com/watch?v=LgOIJMIgkUw"
     }
    ]
   },
@@ -168,6 +168,11 @@ window.DASH.youtube = {
    "channelId": "UCC3yfxS5qC6PCwDzetUuEWg",
    "handle": "@sosumonkey",
    "videos": [
+    {
+     "title": "인텔-30% 알파벳-12% 쇼크, 선거 후 반전 가능할까/대량 전사자 매장 훈련? 더 큰 지정학 충격 오는걸까",
+     "publishedAt": "2026-11-01 21:06",
+     "url": "https://www.youtube.com/watch?v=a2-adRUJvTs"
+    },
     {
      "title": "AI인프라 쇼크 어떻게 대응해야 할까, 다음 승자까지 마음 편하게 투자하는 법",
      "publishedAt": "2026-10-30 18:33",
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "큰 손들의 강제 주식 매도는 기회? 월가 변곡점 족집게 전망, 적중할까",
      "publishedAt": "2026-10-27 20:27",
      "url": "https://www.youtube.com/watch?v=WM76m1GByyg"
-    },
-    {
-     "title": "AI 자금줄 갑자기 뚝 끊겼다? 증시에 등장한 이상 신호, 경고일까",
-     "publishedAt": "2026-10-26 20:15",
-     "url": "https://www.youtube.com/watch?v=P4i9A1Woky8"
     }
    ]
   }
