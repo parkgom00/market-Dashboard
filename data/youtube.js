@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-02 18:06",
+ "asOf": "2026-11-02 20:03",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급인터뷰] “대형주 강세장은 끝났다?”  삼성전자·SK하이닉스 다음 돈 몰릴 곳은 바로 ‘여기’ / 앞으로 증시 이렇게 간다!  | KB은행 이코노미스트  유신익 박사",
+     "publishedAt": "2026-11-02 19:00",
+     "url": "https://www.youtube.com/watch?v=ksfFe_fOW_Y"
+    },
     {
      "title": "[#긴급인터뷰]  \"지금은 현금 지키세요!\"  조금 비싸게 사더라도 바닥 확인 후 매수해야 하는 이유 (주가급등) 황유현 팀장",
      "publishedAt": "2026-11-02 17:45",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“삼성전자 2년간 영업이익 1,000조 전망?” 반도체 실적 폭발하는데 주가는 왜 흔들리나… 지금 겁먹지 말아야 할 이유ㅣ이권희 대표",
      "publishedAt": "2026-11-02 12:30",
      "url": "https://www.youtube.com/watch?v=ku1XK2YYEXE"
-    },
-    {
-     "title": "[11월 2일 #장중엔] 미 증시 급락 선반영...수출지표와 연기금 수급으로 바닥 다질까? 코스피 반등은 어디까지? | 김태성, 이주현,박근형",
-     "publishedAt": "2026-11-02 12:15",
-     "url": "https://www.youtube.com/watch?v=ZNYPWIZHu44"
     }
    ]
   },
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "[아테네] 반도체 흔드는 헤지펀드, 결국 메모리는 이렇게 될 겁니다!!",
+     "publishedAt": "2026-11-02 19:00",
+     "url": "https://www.youtube.com/watch?v=cWeZhrrACS4"
+    },
+    {
      "title": "[실전 투자 스터디] 국내 주식 가치가 있을까요?",
      "publishedAt": "2026-11-02 16:30",
      "url": "https://www.youtube.com/watch?v=orqaMN7uY_8"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[아테네] 금리 vs AI 성장, 결국 기회를 잡는 사람은 이들입니다!!",
      "publishedAt": "2026-10-29 19:00",
      "url": "https://www.youtube.com/watch?v=5mpk_ua0jyA"
-    },
-    {
-     "title": "[아테네] 블랙홀처럼 돈 빨아들이는 AI, 메모리를 쥔 우리는 이렇게 됩니다!!",
-     "publishedAt": "2026-10-28 19:00",
-     "url": "https://www.youtube.com/watch?v=75wM2nKZxt4"
     }
    ]
   },
@@ -105,6 +105,21 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "AI로 2027년 연말정산, 세금 더 많이 받는 방법",
+     "publishedAt": "2026-11-02 19:57",
+     "url": "https://www.youtube.com/watch?v=pmYG6oRgLx8"
+    },
+    {
+     "title": "북한의 역대급 코인 해킹, 앞으로 어떻게 될까?",
+     "publishedAt": "2026-11-02 19:00",
+     "url": "https://www.youtube.com/watch?v=EVLDflY0tkQ"
+    },
+    {
+     "title": "중간선거 끝나면 트럼프 진짜 또 '공격'할까?",
+     "publishedAt": "2026-11-02 18:00",
+     "url": "https://www.youtube.com/watch?v=xce18svoij8"
+    },
+    {
      "title": "닷컴버블 하락장에서 돈을 번 사람들의 특징",
      "publishedAt": "2026-11-02 16:53",
      "url": "https://www.youtube.com/watch?v=uAfqF4lGfTA"
@@ -113,21 +128,6 @@ window.DASH.youtube = {
      "title": "한국정부가 오늘 새롭게 꺼내는 새로운 '주식 정책'",
      "publishedAt": "2026-11-02 16:49",
      "url": "https://www.youtube.com/watch?v=fsV-fw9MNDA"
-    },
-    {
-     "title": "-28% 떨어진 인텔, 저점매수 해도 될까?",
-     "publishedAt": "2026-11-02 15:26",
-     "url": "https://www.youtube.com/watch?v=9MrCNB1bYxI"
-    },
-    {
-     "title": "한국 정부가 오늘 새롭게 꺼내는 새로운 '주식 정책'",
-     "publishedAt": "2026-11-02 15:14",
-     "url": "https://www.youtube.com/watch?v=ck5nX9w0J58"
-    },
-    {
-     "title": "주가 떨어진 지금, 이재용이 일본까지 날아간 진짜 이유",
-     "publishedAt": "2026-11-02 13:14",
-     "url": "https://www.youtube.com/watch?v=hF4MOeQPJYQ"
     }
    ]
   },
