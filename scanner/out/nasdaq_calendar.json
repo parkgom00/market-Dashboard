@@ -1558,8 +1558,8 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "7.150M",
-  "actual": "",
-  "previous": "7.079M"
+  "actual": "7.523M",
+  "previous": "7.190M"
  },
  {
   "date": "2026-11-04",
@@ -2155,6 +2155,26 @@
   "consensus": "",
   "actual": "",
   "previous": "105.4"
+ },
+ {
+  "date": "2026-11-24",
+  "time": "23:00",
+  "title": "리치먼드 연은지수",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "-2"
+ },
+ {
+  "date": "2026-11-24",
+  "time": "23:00",
+  "title": "미국 소비자신뢰",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "91.7"
  },
  {
   "date": "2026-12-01",

@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-03 21:51",
+ "generatedAt": "2026-11-04 03:42",
  "events": [
   {
    "date": "2026-01-01",
@@ -477,12 +477,6 @@ window.DASH.calendar = {
   {
    "date": "2026-11-03",
    "type": "earnings",
-   "market": "KR",
-   "title": "LG에너지솔루션 실적 발표 (예정)"
-  },
-  {
-   "date": "2026-11-03",
-   "type": "earnings",
    "market": "US",
    "title": "애플 실적 발표",
    "time": "미국 11/2 장 마감 후"
@@ -764,6 +758,12 @@ window.DASH.calendar = {
    "date": "2027-01-29",
    "type": "earnings",
    "market": "US",
+   "title": "애플 실적 발표 (예정)"
+  },
+  {
+   "date": "2027-01-29",
+   "type": "earnings",
+   "market": "US",
    "title": "엑슨모빌 실적 발표 (예정)"
   },
   {
@@ -771,6 +771,12 @@ window.DASH.calendar = {
    "type": "earnings",
    "market": "US",
    "title": "인텔 실적 발표 (예정)"
+  },
+  {
+   "date": "2027-02-02",
+   "type": "earnings",
+   "market": "US",
+   "title": "팔란티어 실적 발표 (예정)"
   },
   {
    "date": "2027-02-03",
@@ -2373,7 +2379,7 @@ window.DASH.calendar = {
    "title": "JOLTS 구인",
    "time": "23:00",
    "result": [
-    "예상 7.150M · 이전 7.079M"
+    "실제 7.523M · 예상 7.150M · 이전 7.190M"
    ]
   },
   {
@@ -2815,6 +2821,26 @@ window.DASH.calendar = {
    "time": "05:00",
    "result": [
     "이전 105.4"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "type": "econ",
+   "market": "US",
+   "title": "리치먼드 연은지수",
+   "time": "23:00",
+   "result": [
+    "이전 -2"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 소비자신뢰",
+   "time": "23:00",
+   "result": [
+    "이전 91.7"
    ]
   },
   {
