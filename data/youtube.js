@@ -1,13 +1,28 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-03 13:57",
+ "asOf": "2026-11-03 16:11",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급인터뷰]  “중간선거 이후 강한 상승장 오나” 코스피 대반격 시작될까? / AI 열풍, 달라지는 것은 무엇인가?  | 유진투자증권 허재환 상무",
+     "publishedAt": "2026-11-03 16:00",
+     "url": "https://www.youtube.com/watch?v=YgNrMIA1pNs"
+    },
+    {
+     "title": "[#긴급시황]  “헤지펀드는 AI 팔고 모건스탠리는 사라?” 엇갈린 월가의 판단 / 지금이 반도체주 바닥인가?  (주가급락) 박근형 부장",
+     "publishedAt": "2026-11-03 15:11",
+     "url": "https://www.youtube.com/watch?v=ZGDKzFMXYKA"
+    },
+    {
+     "title": "[#긴급시황] “모두가 낙관할 때가 가장 위험하다?” 美 중간선거 이후 증시 반전의 함정 / 삼성전자 P5 최대 수혜주 (급락장) 오현진 팀장",
+     "publishedAt": "2026-11-03 14:11",
+     "url": "https://www.youtube.com/watch?v=CVDhMlkyhQg"
+    },
     {
      "title": "“코스피 또 급락하지만 겁먹지 마라?” 미국 중간 선거 이후 증시 대 반전 시작되나? ㅣ이권희 대표",
      "publishedAt": "2026-11-03 12:57",
@@ -17,21 +32,6 @@ window.DASH.youtube = {
      "title": "“AI 반도체 또 급락!” 삼성전자·SK하이닉스 하루짜리 반등이었나? / 진짜 바닥은 언제?ㅣ이주연 대표",
      "publishedAt": "2026-11-03 11:06",
      "url": "https://www.youtube.com/watch?v=IUeT1xOpdY8"
-    },
-    {
-     "title": "[11월3일 #장시작전] 어제 반등은 가짜였나? 반도체 지금 대응해야 할까? | 허재환, 오현진, 박근형",
-     "publishedAt": "2026-11-03 06:30",
-     "url": "https://www.youtube.com/watch?v=vjYwC2wjYxg"
-    },
-    {
-     "title": "[#찐시황] “검은 월요일인 줄 알았는데 대 반전!”  급락하던 한국 증시를 말아 올린 진짜 주인공은 누구? / 드디어 바닥 찍었나?ㅣ 이권희 대표",
-     "publishedAt": "2026-11-02 20:00",
-     "url": "https://www.youtube.com/watch?v=OrpX6KSD3b8"
-    },
-    {
-     "title": "[#긴급인터뷰] “대형주 강세장은 끝났다?”  삼성전자·SK하이닉스 다음 돈 몰릴 곳은 바로 ‘여기’ / 앞으로 증시 이렇게 간다!  | KB은행 이코노미스트  유신익 박사",
-     "publishedAt": "2026-11-02 19:00",
-     "url": "https://www.youtube.com/watch?v=ksfFe_fOW_Y"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(팔란티어) 하락에도 들고가야 하나?",
+     "publishedAt": "2026-11-03 15:11",
+     "url": "https://www.youtube.com/watch?v=W0q3kFy4xR4"
+    },
     {
      "title": "(시황분석) 트럼프 관련 반도체 주식들 폭락 주도하나?",
      "publishedAt": "2026-11-03 06:30",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(아이온큐) 왜 일본 2위의 증권회사는 아이온큐 지분을 더 사고 있나?",
      "publishedAt": "2026-11-01 11:52",
      "url": "https://www.youtube.com/watch?v=H21mC0QJPk0"
-    },
-    {
-     "title": "(기술주 폭락) 선수들이 말하는 폭락의 원인은? 지금이 매수?",
-     "publishedAt": "2026-10-31 22:19",
-     "url": "https://www.youtube.com/watch?v=jVKQRk-2wvU"
     }
    ]
   },
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "대해킹 시대, 투자자가 봐야 할 해킹 보안주 종목들",
+     "publishedAt": "2026-11-03 15:48",
+     "url": "https://www.youtube.com/watch?v=QoXur8JieSQ"
+    },
+    {
+     "title": "AI 투자가 계속 늘어날 수 있는 진짜 이유",
+     "publishedAt": "2026-11-03 15:11",
+     "url": "https://www.youtube.com/watch?v=oS68HTmc64U"
+    },
+    {
      "title": "앞으로 10년안에 공무원이 사라 질 수도 있다는 이유",
      "publishedAt": "2026-11-02 23:15",
      "url": "https://www.youtube.com/watch?v=VzuexGuZdEU"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "금 투자자들이, 지금을 기회로 삼아야 하는 진짜 이유",
      "publishedAt": "2026-11-02 22:04",
      "url": "https://www.youtube.com/watch?v=ZnNwkYolURQ"
-    },
-    {
-     "title": "미국 중간선거 이후, 코스피 어떻게 될까?",
-     "publishedAt": "2026-11-02 21:04",
-     "url": "https://www.youtube.com/watch?v=n0vtGFxBiBk"
-    },
-    {
-     "title": "북한의 역대급 코인 해킹, 앞으로 어떻게 될까?",
-     "publishedAt": "2026-11-02 19:04",
-     "url": "https://www.youtube.com/watch?v=EVLDflY0tkQ"
     }
    ]
   },
