@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-03 19:57",
+ "asOf": "2026-11-03 22:04",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황]  “한국증시 정말 화나는 이유 3가지!” 바닥 신호 4번이나 무너졌다… 그로기 상태 증시, 마지막 희망은? ㅣ박현상 이사",
+     "publishedAt": "2026-11-03 20:00",
+     "url": "https://www.youtube.com/watch?v=dc6PCzNcx9k"
+    },
     {
      "title": "[#긴급인터뷰] “코스피 6,100 찍자마자 급락한 이유” 연기금이 더 사줄 수 있을까? / 나스닥 마지막 지지선은?  (폭락장) 김민수 대표",
      "publishedAt": "2026-11-03 18:30",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황]  “헤지펀드는 AI 팔고 모건스탠리는 사라?” 엇갈린 월가의 판단 / 지금이 반도체주 바닥인가?  (주가급락) 박근형 부장",
      "publishedAt": "2026-11-03 15:00",
      "url": "https://www.youtube.com/watch?v=ZGDKzFMXYKA"
-    },
-    {
-     "title": "[#긴급시황] “모두가 낙관할 때가 가장 위험하다?” 美 중간선거 이후 증시 반전의 함정 / 삼성전자 P5 최대 수혜주 (급락장) 오현진 팀장",
-     "publishedAt": "2026-11-03 14:00",
-     "url": "https://www.youtube.com/watch?v=CVDhMlkyhQg"
     }
    ]
   },
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "12년전 중간선거 전날, S&P500을 샀다면 지금 얼마일까?",
+     "publishedAt": "2026-11-03 21:00",
+     "url": "https://www.youtube.com/watch?v=q7iB269MFvo"
+    },
+    {
+     "title": "중국한테 역대급 뒤통수 맞고 '애플' 주가 폭락한 이유",
+     "publishedAt": "2026-11-03 20:30",
+     "url": "https://www.youtube.com/watch?v=gA49EVKKv4c"
+    },
+    {
      "title": "AI로 내가 놓친 통신비 '20만원 할인' 찾는 방법",
      "publishedAt": "2026-11-03 19:32",
      "url": "https://www.youtube.com/watch?v=GnBmWQyot2k"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "하이닉스 투자자라면 꼭 알아야 할, '자사주 소각 타이밍'",
      "publishedAt": "2026-11-03 18:26",
      "url": "https://www.youtube.com/watch?v=U8C_c94DfuY"
-    },
-    {
-     "title": "이란이 점점 꼬리 내리고 있는 진짜 이유",
-     "publishedAt": "2026-11-03 17:37",
-     "url": "https://www.youtube.com/watch?v=OtBXzrCFMUc"
-    },
-    {
-     "title": "지금 투자자들이 꼭 알고 있어야 할 AI해킹 보안 종목들",
-     "publishedAt": "2026-11-03 16:05",
-     "url": "https://www.youtube.com/watch?v=5uIRWVZI3YU"
     }
    ]
   },
@@ -169,6 +169,11 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
+     "title": "중간선거 이후 더 큰 전쟁이 시작된다? 유례 없는 움직임, 불길한 신호일까",
+     "publishedAt": "2026-11-03 20:53",
+     "url": "https://www.youtube.com/watch?v=4Gkk5BqjIf0"
+    },
+    {
      "title": "인텔 -30% 쇼크, AI 피크아웃일까 중간선거 코앞 리스크 관리일까",
      "publishedAt": "2026-11-02 20:36",
      "url": "https://www.youtube.com/watch?v=6Zq7p54WTNI"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "주식 안 팔아도 세금 내라? 사상 초유의 억만장자세 실험 현실 될까",
      "publishedAt": "2026-10-28 20:54",
      "url": "https://www.youtube.com/watch?v=_gMyqLP0928"
-    },
-    {
-     "title": "큰 손들의 강제 주식 매도는 기회? 월가 변곡점 족집게 전망, 적중할까",
-     "publishedAt": "2026-10-27 20:27",
-     "url": "https://www.youtube.com/watch?v=WM76m1GByyg"
     }
    ]
   }
