@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-03 15:53",
+ "generatedAt": "2026-11-03 21:51",
  "events": [
   {
    "date": "2026-01-01",
@@ -693,6 +693,12 @@ window.DASH.calendar = {
    "type": "earnings",
    "market": "US",
    "title": "비자 실적 발표 (예정)"
+  },
+  {
+   "date": "2027-01-28",
+   "type": "earnings",
+   "market": "KR",
+   "title": "POSCO홀딩스 실적 발표 (예정)"
   },
   {
    "date": "2027-01-28",
@@ -2315,9 +2321,9 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "ADP 민간고용",
-   "time": "22:15",
+   "time": "21:15",
    "result": [
-    "이전 90K"
+    "예상 67K · 이전 90K"
    ]
   },
   {
@@ -2325,9 +2331,19 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 무역수지",
-   "time": "22:30",
+   "time": "21:30",
    "result": [
-    "이전 -105.60B"
+    "예상 -107.90B · 이전 -105.60B"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "type": "econ",
+   "market": "US",
+   "title": "S&P글로벌 서비스업 PMI",
+   "time": "22:45",
+   "result": [
+    "예상 57.9 · 이전 58.8"
    ]
   },
   {
@@ -2344,20 +2360,20 @@ window.DASH.calendar = {
    "date": "2026-11-03",
    "type": "econ",
    "market": "US",
-   "title": "JOLTS 구인",
+   "title": "ISM 서비스업",
    "time": "23:00",
    "result": [
-    "예상 7.150M · 이전 7.079M"
+    "예상 54.8 · 이전 54.9"
    ]
   },
   {
    "date": "2026-11-03",
    "type": "econ",
    "market": "US",
-   "title": "S&P글로벌 서비스업 PMI",
-   "time": "23:45",
+   "title": "JOLTS 구인",
+   "time": "23:00",
    "result": [
-    "이전 57.9"
+    "예상 7.150M · 이전 7.079M"
    ]
   },
   {
@@ -2384,7 +2400,7 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "KR",
    "title": "한국 경상수지",
-   "time": "08:00",
+   "time": "07:00",
    "result": [
     "이전 46.11B"
    ]
@@ -2396,7 +2412,7 @@ window.DASH.calendar = {
    "title": "ADP 민간고용",
    "time": "21:15",
    "result": [
-    "예상 68K · 이전 90K"
+    "예상 67K · 이전 90K"
    ]
   },
   {
@@ -2426,7 +2442,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 서비스업 PMI",
    "time": "22:45",
    "result": [
-    "예상 57.9 · 이전 57.9"
+    "예상 57.9 · 이전 58.8"
    ]
   },
   {
@@ -2693,6 +2709,16 @@ window.DASH.calendar = {
    ]
   },
   {
+   "date": "2026-11-18",
+   "type": "econ",
+   "market": "US",
+   "title": "필라델피아 연은지수",
+   "time": "21:30",
+   "result": [
+    "이전 20.9"
+   ]
+  },
+  {
    "date": "2026-11-19",
    "type": "earnings",
    "market": "US",
@@ -2700,6 +2726,16 @@ window.DASH.calendar = {
    "result": [
     "EPS 예상 $0.64",
     "장 시작 전"
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 PPI",
+   "time": "05:00",
+   "result": [
+    "이전 7.7%"
    ]
   },
   {
@@ -2814,7 +2850,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "오라클 실적 발표",
    "result": [
-    "EPS 예상 $1.57"
+    "EPS 예상 $1.56"
    ]
   },
   {
