@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-03 10:04",
+ "asOf": "2026-11-03 11:55",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,7 +9,12 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
-     "title": "[11월3일 #장시작전] 국제유가 -8% 급락에 반등하던 뉴욕증시… 앤트로픽 S-1 수정공시 후, 왜 하락했나?",
+     "title": "“AI 반도체 또 급락!” 삼성전자·SK하이닉스 하루짜리 반등이었나? / 진짜 바닥은 언제?ㅣ이주연 대표",
+     "publishedAt": "2026-11-03 11:06",
+     "url": "https://www.youtube.com/watch?v=IUeT1xOpdY8"
+    },
+    {
+     "title": "[11월3일 #장시작전] 어제 반등은 가짜였나? 반도체 지금 대응해야 할까? | 허재환, 오현진, 박근형",
      "publishedAt": "2026-11-03 06:30",
      "url": "https://www.youtube.com/watch?v=vjYwC2wjYxg"
     },
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급인터뷰]  \"지금은 현금 지키세요!\"  조금 비싸게 사더라도 바닥 확인 후 매수해야 하는 이유 (주가급등) 황유현 팀장",
      "publishedAt": "2026-11-02 17:45",
      "url": "https://www.youtube.com/watch?v=3NWkeIkkSTw"
-    },
-    {
-     "title": "[#긴급시황]  “코스피 급등한다고 덥석 사지 마라!” 진짜 매수 전략은 분할매수.. 지금이 하락장이 아니라는 결정적 증거는 '이것' | 박근형 부장",
-     "publishedAt": "2026-11-02 15:30",
-     "url": "https://www.youtube.com/watch?v=tahuUbueGM8"
     }
    ]
   },
