@@ -67,22 +67,6 @@
  ],
  "minute": [
   {
-   "localDateTime": "20261103151800",
-   "currentPrice": 219000.0,
-   "openPrice": 219000.0,
-   "highPrice": 219500.0,
-   "lowPrice": 218500.0,
-   "accumulatedTradingVolume": 58817
-  },
-  {
-   "localDateTime": "20261103151900",
-   "currentPrice": 218500.0,
-   "openPrice": 218750.0,
-   "highPrice": 219000.0,
-   "lowPrice": 218500.0,
-   "accumulatedTradingVolume": 71843
-  },
-  {
    "localDateTime": "20261103153000",
    "currentPrice": 219500.0,
    "openPrice": 219500.0,
@@ -96,7 +80,23 @@
    "openPrice": 219500.0,
    "highPrice": 219500.0,
    "lowPrice": 219500.0,
-   "accumulatedTradingVolume": 2961
+   "accumulatedTradingVolume": 2962
+  },
+  {
+   "localDateTime": "20261103154100",
+   "currentPrice": 219500.0,
+   "openPrice": 219500.0,
+   "highPrice": 219500.0,
+   "lowPrice": 219500.0,
+   "accumulatedTradingVolume": 1838
+  },
+  {
+   "localDateTime": "20261103154200",
+   "currentPrice": 219500.0,
+   "openPrice": 219500.0,
+   "highPrice": 219500.0,
+   "lowPrice": 219500.0,
+   "accumulatedTradingVolume": 928
   }
  ],
  "integration": {
@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "미래에셋증권",
     "tit": "초우량 고성장 파격 세일 중",
-    "rcnt": "33347",
+    "rcnt": "33360",
     "wdt": "20261030"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "교보증권",
     "tit": "3Q26 Review 사상 최대 실적, 메모리가 이끌었다",
-    "rcnt": "20471",
+    "rcnt": "20474",
     "wdt": "20261030"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "하나증권",
     "tit": "2027년 영업이익 전망치 상향으로 방향 전환",
-    "rcnt": "20909",
+    "rcnt": "20912",
     "wdt": "20261030"
    }
   ],
