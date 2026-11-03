@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-03 03:48",
+ "generatedAt": "2026-11-03 09:40",
  "events": [
   {
    "date": "2026-01-01",
@@ -2181,6 +2181,37 @@ window.DASH.calendar = {
   {
    "date": "2026-10-31",
    "type": "econ",
+   "market": "KR",
+   "title": "한국 무역수지",
+   "time": "08:00",
+   "result": [
+    "실제 42.50B · 예상 37.24B · 이전 49.97B"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 수입",
+   "time": "08:00",
+   "result": [
+    "실제 36.0% · 예상 39.9% · 이전 26.0%"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 수출",
+   "time": "08:00",
+   "major": true,
+   "result": [
+    "실제 93.7% · 예상 93.2% · 이전 83.7%"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "type": "econ",
    "market": "CN",
    "title": "중국 제조업 PMI",
    "time": "09:30",
@@ -2738,6 +2769,16 @@ window.DASH.calendar = {
    "title": "델 실적 발표",
    "result": [
     "EPS 예상 $6.41"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 소비자심리",
+   "time": "05:00",
+   "result": [
+    "이전 105.4"
    ]
   },
   {
