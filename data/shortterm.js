@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-11-03 18:55",
+ "asOf": "2026-11-03 19:56",
  "window": "15:20~15:40",
- "status": "전 종목 2421개 중 후보 45개 점검 (기준 일봉 2026-11-02)",
+ "status": "전 종목 2421개 중 후보 46개 점검 (기준 일봉 2026-11-02)",
  "types": [
   {
    "id": "A",
@@ -35,7 +35,7 @@ window.DASH.shortterm = {
        "marcap": 38232,
        "prevClose": 28850.0,
        "changePct": -1.21,
-       "value": 130,
+       "value": 131,
        "note": "전일 +12.6% 급등 · 오늘 거래량 전일의 43% · 도지(몸통 5%) · 10일선 27,045 / 20일선 27,610 위 마감"
       }
      ]
@@ -52,14 +52,14 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "항공화물운송과물류",
        "after": {
-        "price": 19800.0,
-        "pct": 17.16
+        "price": 19750.0,
+        "pct": 16.86
        },
-       "marcap": 3073,
+       "marcap": 3065,
        "prevClose": 16900.0,
        "changePct": 23.08,
-       "value": 352,
-       "note": "바닥권(250일 범위 하단 32%) · 거래대금 352억(20일 평균의 58.0배) · 장대양봉(+24.5%) · 240일선 17,931, 480일선 18,858 돌파"
+       "value": 364,
+       "note": "바닥권(250일 범위 하단 32%) · 거래대금 364억(20일 평균의 60.0배) · 장대양봉(+24.5%) · 240일선 17,931, 480일선 18,858 돌파"
       }
      ]
     }
@@ -247,9 +247,9 @@ window.DASH.shortterm = {
  ],
  "diag": {
   "quotes": 2421,
-  "candidates": 45,
-  "bars": 45,
-  "naverBars": 45,
+  "candidates": 46,
+  "bars": 46,
+  "naverBars": 46,
   "kisBars": 0,
   "a1": {
    "후보": 41,
@@ -260,7 +260,7 @@ window.DASH.shortterm = {
     "등락률·거래대금 미달": 10
    },
    "수급자료": 0,
-   "막판비중_중앙값": 0.041,
+   "막판비중_중앙값": 0.037,
    "막판비중_최대": 0.184
   }
  },
