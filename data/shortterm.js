@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-11-03 15:48",
+ "asOf": "2026-11-03 15:51",
  "window": "15:20~15:40",
  "status": "전 종목 2422개 중 후보 40개 점검 (기준 일봉 2026-11-02)",
  "types": [
@@ -15,7 +15,24 @@ window.DASH.shortterm = {
      "id": "A1",
      "name": "장 마감 직전 대형수급 + 당일 고가 마감",
      "desc": "마감 직전 외국인·기관 순매수(거래대금의 3% 이상)가 몰리고, 고가 대비 0.5% 이내로 마감하는 종목",
-     "kr": []
+     "kr": [
+      {
+       "code": "023530",
+       "name": "롯데쇼핑",
+       "close": 91700.0,
+       "market": "KOSPI",
+       "sector": "백화점과일반상점",
+       "after": {
+        "price": 91700.0,
+        "pct": 2.46
+       },
+       "marcap": 25941,
+       "prevClose": 89500.0,
+       "changePct": 2.46,
+       "value": 115,
+       "note": "고가 마감권(고가 대비 0.00% 아래) · 막판 20분 거래량 비중 11% · 수급 자료 확인 전"
+      }
+     ]
     },
     {
      "id": "A2",
@@ -28,7 +45,10 @@ window.DASH.shortterm = {
        "close": 28500.0,
        "market": "KOSPI",
        "sector": "철강",
-       "after": null,
+       "after": {
+        "price": 28500.0,
+        "pct": -1.21
+       },
        "marcap": 38032,
        "prevClose": 28850.0,
        "changePct": -1.21,
@@ -48,7 +68,10 @@ window.DASH.shortterm = {
        "close": 20800.0,
        "market": "KOSPI",
        "sector": "항공화물운송과물류",
-       "after": null,
+       "after": {
+        "price": 20800.0,
+        "pct": 23.08
+       },
        "marcap": 3228,
        "prevClose": 16900.0,
        "changePct": 23.08,
@@ -243,26 +266,22 @@ window.DASH.shortterm = {
   "quotes": 2422,
   "candidates": 40,
   "bars": 40,
-  "naverBars": 0,
-  "kisBars": 40,
+  "naverBars": 40,
+  "kisBars": 0,
   "a1": {
    "후보": 36,
    "분봉지연": 0,
    "사유": {
     "고가에서 멂": 31,
-    "막판 거래량 비중 부족": 5
+    "막판 거래량 비중 부족": 4,
+    "ok(수급 자료 없음)": 1
    },
-   "수급자료": 36,
-   "막판비중_중앙값": 0.022,
-   "막판비중_최대": 0.078
-  },
-  "kis": {
-   "calls": 116,
-   "ok": 116,
-   "err": {}
+   "수급자료": 0,
+   "막판비중_중앙값": 0.041,
+   "막판비중_최대": 0.15
   }
  },
  "flowConfirmed": false,
- "flowKind": "장중 추정",
- "phase": "장중 · 외국인·기관 장중 추정 가집계(한국투자) 반영 · 확정 수급은 마감 후 다시 반영"
+ "flowKind": "",
+ "phase": "장 마감 후 · 정규장 종가 기준 · 수급 자료는 아직 공개 전"
 };
