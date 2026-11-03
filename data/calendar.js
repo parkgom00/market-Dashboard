@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-03 09:40",
+ "generatedAt": "2026-11-03 15:53",
  "events": [
   {
    "date": "2026-01-01",
@@ -2307,7 +2307,7 @@ window.DASH.calendar = {
    "title": "한국 CPI",
    "time": "07:00",
    "result": [
-    "예상 0.3% · 이전 0.3%"
+    "실제 0.2% · 예상 0.3% · 이전 0.3%"
    ]
   },
   {
@@ -2347,7 +2347,7 @@ window.DASH.calendar = {
    "title": "JOLTS 구인",
    "time": "23:00",
    "result": [
-    "예상 7.110M · 이전 7.079M"
+    "예상 7.150M · 이전 7.079M"
    ]
   },
   {

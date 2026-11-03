@@ -1456,7 +1456,7 @@
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
   "epsForecast": "$1.98",
-  "eps": "",
+  "eps": "$1.85",
   "surprise": ""
  },
  {
@@ -1467,7 +1467,7 @@
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
   "epsForecast": "$0.32",
-  "eps": "",
+  "eps": "$0.18",
   "surprise": ""
  },
  {
@@ -1487,7 +1487,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "0.3%",
-  "actual": "",
+  "actual": "0.2%",
   "previous": "0.3%"
  },
  {
@@ -1526,7 +1526,7 @@
   "title": "JOLTS 구인",
   "level": "macro",
   "kind": "econ",
-  "consensus": "7.110M",
+  "consensus": "7.150M",
   "actual": "",
   "previous": "7.079M"
  },
