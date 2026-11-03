@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-04 05:52",
+ "asOf": "2026-11-04 07:49",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[11월4일 #장시작전] “AI 버블 공포 속 대반전!” 필반도체 2.6%·오라클 6%·브로드컴 3% 급등 /  AMD 실적 발표 후 시간 외 급등",
+     "publishedAt": "2026-11-04 06:21",
+     "url": "https://www.youtube.com/watch?v=WuuN8kJA1vs"
+    },
     {
      "title": "[#찐시황]  “한국증시 정말 화나는 이유 3가지!” 바닥 신호 4번이나 무너졌다… 그로기 상태 증시, 마지막 희망은? ㅣ박현상 이사",
      "publishedAt": "2026-11-03 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급인터뷰]  “중간선거 이후 강한 상승장 오나” 코스피 대반격 시작될까? / AI 열풍, 달라지는 것은 무엇인가?  | 유진투자증권 허재환 상무",
      "publishedAt": "2026-11-03 16:00",
      "url": "https://www.youtube.com/watch?v=YgNrMIA1pNs"
-    },
-    {
-     "title": "[#긴급시황]  “헤지펀드는 AI 팔고 모건스탠리는 사라?” 엇갈린 월가의 판단 / 지금이 반도체주 바닥인가?  (주가급락) 박근형 부장",
-     "publishedAt": "2026-11-03 15:00",
-     "url": "https://www.youtube.com/watch?v=ZGDKzFMXYKA"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) AMD,슈마컴 호실적이 반도체 상승 이끌어 가나?",
+     "publishedAt": "2026-11-04 06:39",
+     "url": "https://www.youtube.com/watch?v=-0drUBUC-1I"
+    },
     {
      "title": "(팔란티어) 하락에도 들고가야 하나?",
      "publishedAt": "2026-11-03 15:09",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(월간시황) 과연 중간선거 후 퀀터적으로 상승이 가능한가?",
      "publishedAt": "2026-11-02 07:42",
      "url": "https://www.youtube.com/watch?v=kQg_GTc6CfQ"
-    },
-    {
-     "title": "(아이온큐) 왜 일본 2위의 증권회사는 아이온큐 지분을 더 사고 있나?",
-     "publishedAt": "2026-11-01 11:52",
-     "url": "https://www.youtube.com/watch?v=H21mC0QJPk0"
     }
    ]
   },
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "11월 4일 오늘 코스피 어떻게 흘러갈까?",
+     "publishedAt": "2026-11-04 07:38",
+     "url": "https://www.youtube.com/watch?v=rRWO8GQ0zpY"
+    },
+    {
+     "title": "11월 4일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-11-04 06:41",
+     "url": "https://www.youtube.com/watch?v=ZYyEPoKv3Jk"
+    },
+    {
      "title": "투자자들이 꼭 알아야 할 양자주 전망",
      "publishedAt": "2026-11-03 23:30",
      "url": "https://www.youtube.com/watch?v=QVJep1EljxQ"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "-38% 코스피 폭락 시대에 현명하게 주식 하는 법",
      "publishedAt": "2026-11-03 22:00",
      "url": "https://www.youtube.com/watch?v=PORCF3Ae6cI"
-    },
-    {
-     "title": "12년전 중간선거 전날, S&P500을 샀다면 지금 얼마일까?",
-     "publishedAt": "2026-11-03 21:00",
-     "url": "https://www.youtube.com/watch?v=q7iB269MFvo"
-    },
-    {
-     "title": "중국한테 역대급 뒤통수 맞고 '애플' 주가 폭락한 이유",
-     "publishedAt": "2026-11-03 20:30",
-     "url": "https://www.youtube.com/watch?v=gA49EVKKv4c"
     }
    ]
   },
