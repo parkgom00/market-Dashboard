@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-03 11:55",
+ "asOf": "2026-11-03 13:57",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“코스피 또 급락하지만 겁먹지 마라?” 미국 중간 선거 이후 증시 대 반전 시작되나? ㅣ이권희 대표",
+     "publishedAt": "2026-11-03 12:57",
+     "url": "https://www.youtube.com/watch?v=iyakxWPGw3c"
+    },
     {
      "title": "“AI 반도체 또 급락!” 삼성전자·SK하이닉스 하루짜리 반등이었나? / 진짜 바닥은 언제?ㅣ이주연 대표",
      "publishedAt": "2026-11-03 11:06",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급인터뷰] “대형주 강세장은 끝났다?”  삼성전자·SK하이닉스 다음 돈 몰릴 곳은 바로 ‘여기’ / 앞으로 증시 이렇게 간다!  | KB은행 이코노미스트  유신익 박사",
      "publishedAt": "2026-11-02 19:00",
      "url": "https://www.youtube.com/watch?v=ksfFe_fOW_Y"
-    },
-    {
-     "title": "[#긴급인터뷰]  \"지금은 현금 지키세요!\"  조금 비싸게 사더라도 바닥 확인 후 매수해야 하는 이유 (주가급등) 황유현 팀장",
-     "publishedAt": "2026-11-02 17:45",
-     "url": "https://www.youtube.com/watch?v=3NWkeIkkSTw"
     }
    ]
   },
