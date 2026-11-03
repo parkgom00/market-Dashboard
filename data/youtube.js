@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-03 22:04",
+ "asOf": "2026-11-03 23:58",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,21 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "투자자들이 꼭 알아야 할 양자주 전망",
+     "publishedAt": "2026-11-03 23:30",
+     "url": "https://www.youtube.com/watch?v=QVJep1EljxQ"
+    },
+    {
+     "title": "좋은 대학을 나와도 취업이 어려워질 수 있는 이유",
+     "publishedAt": "2026-11-03 22:00",
+     "url": "https://www.youtube.com/watch?v=-Szy6dBaX0E"
+    },
+    {
+     "title": "-38% 코스피 폭락 시대에 현명하게 주식 하는 법",
+     "publishedAt": "2026-11-03 22:00",
+     "url": "https://www.youtube.com/watch?v=PORCF3Ae6cI"
+    },
+    {
      "title": "12년전 중간선거 전날, S&P500을 샀다면 지금 얼마일까?",
      "publishedAt": "2026-11-03 21:00",
      "url": "https://www.youtube.com/watch?v=q7iB269MFvo"
@@ -113,21 +128,6 @@ window.DASH.youtube = {
      "title": "중국한테 역대급 뒤통수 맞고 '애플' 주가 폭락한 이유",
      "publishedAt": "2026-11-03 20:30",
      "url": "https://www.youtube.com/watch?v=gA49EVKKv4c"
-    },
-    {
-     "title": "AI로 내가 놓친 통신비 '20만원 할인' 찾는 방법",
-     "publishedAt": "2026-11-03 19:32",
-     "url": "https://www.youtube.com/watch?v=GnBmWQyot2k"
-    },
-    {
-     "title": "SK하이닉스 투자자라면 꼭 알아야 할, '자사주 소각 타이밍'",
-     "publishedAt": "2026-11-03 19:00",
-     "url": "https://www.youtube.com/watch?v=QqkGQV4Hp4A"
-    },
-    {
-     "title": "하이닉스 투자자라면 꼭 알아야 할, '자사주 소각 타이밍'",
-     "publishedAt": "2026-11-03 18:26",
-     "url": "https://www.youtube.com/watch?v=U8C_c94DfuY"
     }
    ]
   },
