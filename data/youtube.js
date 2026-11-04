@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-04 23:57",
+ "asOf": "2026-11-05 06:51",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[11월5일 #장시작전] “다우 3.2% 급등, 반도체 4% 급락!” 미국 중간선거 이후 돈의 흐름이 완전히 바뀌나?",
+     "publishedAt": "2026-11-05 06:16",
+     "url": "https://www.youtube.com/watch?v=nn1ezZpBOmA"
+    },
+    {
+     "title": "“코스피 7,700 간다?” 2027년 한국 증시 반등 시나리오 / 새로운 주도주의 정체  | 유진투자증권 허재환 상무",
+     "publishedAt": "2026-11-05 06:00",
+     "url": "https://www.youtube.com/watch?v=ic0kCypkLz0"
+    },
     {
      "title": "[#찐시황 ] “美 민주당 승리 후폭풍?” 외국인 삼성전자·SK하이닉스 2조 원 투매… AI 반도체 상승장 정말 끝났나?ㅣ오로라투자자문 이지환 대표",
      "publishedAt": "2026-11-04 20:00",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] “미국 중간선거 결과에 증시 대반전?”  증시가 급반등한 진짜 이유… 2차전지·ESS가 새로운 주도주 될까? ㅣ 이주연 대표",
      "publishedAt": "2026-11-04 17:21",
      "url": "https://www.youtube.com/watch?v=smNIAMrPsXM"
-    },
-    {
-     "title": "“지금은 증시에서 도망쳐야 하나?” 외국인이 삼성전자·SK하이닉스를 던지는 결정적 이유 ㅣ 김민수 대표",
-     "publishedAt": "2026-11-04 16:00",
-     "url": "https://www.youtube.com/watch?v=nlHdMkNXwNc"
-    },
-    {
-     "title": "[#긴급인터뷰]  “AI 반도체 없어서 못 판다는데!”... 주가 폭락하는 삼성전자·SK하이닉스, 도대체 왜?ㅣ김장열 센터장",
-     "publishedAt": "2026-11-04 15:00",
-     "url": "https://www.youtube.com/watch?v=eJ4JdO8HbXQ"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) 데이터센터 종목중 반도체,전력만 빠졌다",
+     "publishedAt": "2026-11-05 06:29",
+     "url": "https://www.youtube.com/watch?v=DI2gAfFvT2Q"
+    },
     {
      "title": "(미국선거) 텍사스 상원,주지사가 민주당이기에 데이터센터 지연되나?",
      "publishedAt": "2026-11-04 15:20",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 트럼프 관련 반도체 주식들 폭락 주도하나?",
      "publishedAt": "2026-11-03 06:30",
      "url": "https://www.youtube.com/watch?v=lWfFGG-IYWg"
-    },
-    {
-     "title": "(삼전닉스,마이크론) 아직은 계속 들고 가는 이유는?",
-     "publishedAt": "2026-11-02 15:46",
-     "url": "https://www.youtube.com/watch?v=ZBKN52VF3d4"
     }
    ]
   },
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "투자자들이, 이제 엔트로픽 상장을 준비해야 되는 이유",
+     "publishedAt": "2026-11-05 06:15",
+     "url": "https://www.youtube.com/watch?v=ZBr5AOxsGoI"
+    },
+    {
+     "title": "미국 민주당, 데이터센터 악재 전 아니라고 봅니다",
+     "publishedAt": "2026-11-05 05:30",
+     "url": "https://www.youtube.com/watch?v=cTkoPtBnbIQ"
+    },
+    {
      "title": "미국 민주당, 데이터센터 악재? 전 아니라고 봅니다",
      "publishedAt": "2026-11-04 22:30",
      "url": "https://www.youtube.com/watch?v=-WDu8Uud8zc"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "해외에서 난리난 GPT 주식 분석 명령어",
      "publishedAt": "2026-11-04 19:41",
      "url": "https://www.youtube.com/watch?v=BOAXYghntOU"
-    },
-    {
-     "title": "한국 대기업들이 지금 사업을 내다 파는 이유",
-     "publishedAt": "2026-11-04 19:30",
-     "url": "https://www.youtube.com/watch?v=E_utIbknwQM"
-    },
-    {
-     "title": "투자자들이, 이제 엔트로픽 상장을 준비해야 되는 이유(+수혜주 총정리)",
-     "publishedAt": "2026-11-04 18:15",
-     "url": "https://www.youtube.com/watch?v=Ij53RiHr2Xk"
     }
    ]
   },
