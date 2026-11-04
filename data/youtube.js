@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-04 17:59",
+ "asOf": "2026-11-04 22:07",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황 ] “美 민주당 승리 후폭풍?” 외국인 삼성전자·SK하이닉스 2조 원 투매… AI 반도체 상승장 정말 끝났나?ㅣ오로라투자자문 이지환 대표",
+     "publishedAt": "2026-11-04 20:00",
+     "url": "https://www.youtube.com/watch?v=LQDe8Q3n6dM"
+    },
+    {
+     "title": "[#긴급인터뷰]  “트럼프 선거 패배 후폭풍!” 네타냐후는 왜 이란 공격을 요구하나? / 이번 주 금요일이 위험한 이유  |  서강대 종교학과 박현도 교수",
+     "publishedAt": "2026-11-04 19:00",
+     "url": "https://www.youtube.com/watch?v=oymQA32je7U"
+    },
     {
      "title": "[#긴급시황] “미국 중간선거 결과에 증시 대반전?”  증시가 급반등한 진짜 이유… 2차전지·ESS가 새로운 주도주 될까? ㅣ 이주연 대표",
      "publishedAt": "2026-11-04 17:21",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급인터뷰]  “AI 반도체 없어서 못 판다는데!”... 주가 폭락하는 삼성전자·SK하이닉스, 도대체 왜?ㅣ김장열 센터장",
      "publishedAt": "2026-11-04 15:00",
      "url": "https://www.youtube.com/watch?v=eJ4JdO8HbXQ"
-    },
-    {
-     "title": "[#긴급시황]  “AMD 깜짝 실적도 소용없다!” 코스피 또 급락장… 삼성전자·SK하이닉스 도대체 언제 살아나나? / 중간선거 후폭풍의 진실  | 박근형 부장",
-     "publishedAt": "2026-11-04 14:00",
-     "url": "https://www.youtube.com/watch?v=i3Ej1ThFMGo"
-    },
-    {
-     "title": "“미국 중간선거 후폭풍 시작!” 이번 주 코스피 크게 흔들리나? / AMD 실적이 반도체 살릴까ㅣ이권희 대표",
-     "publishedAt": "2026-11-04 12:30",
-     "url": "https://www.youtube.com/watch?v=uH7dNQhqOuM"
     }
    ]
   },
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "[아테네] 시총의 10%를 돌려준다? 메모리 주식 멀티플이 바뀐다!!",
+     "publishedAt": "2026-11-04 19:00",
+     "url": "https://www.youtube.com/watch?v=0_WhwRl1mVY"
+    },
+    {
      "title": "[또 긴급] AI에 대해 커지는 의심, 메모리 업황을 냉정하게 이야기하면…",
      "publishedAt": "2026-11-03 19:05",
      "url": "https://www.youtube.com/watch?v=b8M-1vTheP0"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[몰아보기] 투자자들이 착각하고 있어요! 외국인은 이 때 돌아옵니다!!",
      "publishedAt": "2026-10-31 14:00",
      "url": "https://www.youtube.com/watch?v=FdCwAmEgtOY"
-    },
-    {
-     "title": "젠슨 황이 현금 꽂아주는 섹터? 테크주 반등시 주목!!",
-     "publishedAt": "2026-10-30 19:00",
-     "url": "https://www.youtube.com/watch?v=SOEuMdEhMho"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "美중간선거에, 롤러코스터 탄 코스피 앞으로 어떻게 될까?",
+     "publishedAt": "2026-11-04 21:00",
+     "url": "https://www.youtube.com/watch?v=uGwuJDsPQLM"
+    },
+    {
+     "title": "해외에서 난리난 GPT 주식 분석 명령어",
+     "publishedAt": "2026-11-04 19:41",
+     "url": "https://www.youtube.com/watch?v=BOAXYghntOU"
+    },
+    {
+     "title": "한국 대기업들이 지금 사업을 내다 파는 이유",
+     "publishedAt": "2026-11-04 19:30",
+     "url": "https://www.youtube.com/watch?v=E_utIbknwQM"
+    },
+    {
+     "title": "투자자들이, 이제 엔트로픽 상장을 준비해야 되는 이유(+수혜주 총정리)",
+     "publishedAt": "2026-11-04 18:15",
+     "url": "https://www.youtube.com/watch?v=Ij53RiHr2Xk"
+    },
+    {
      "title": "테슬라+스페이스X 합병하면 양도세 22% 내야 되는 이유",
      "publishedAt": "2026-11-04 17:43",
      "url": "https://www.youtube.com/watch?v=j2gCv87kxb8"
-    },
-    {
-     "title": "현대차는 왜 주식 시장에서 버려졌을까?",
-     "publishedAt": "2026-11-04 17:00",
-     "url": "https://www.youtube.com/watch?v=STXk3OtL4ps"
-    },
-    {
-     "title": "시총 3위→8위, 현대차는 왜 주식 시장에서 버려졌을까?",
-     "publishedAt": "2026-11-04 16:37",
-     "url": "https://www.youtube.com/watch?v=e7OrEC9ZZ8Y"
-    },
-    {
-     "title": "매년 코스피 20조 순매수한다는 역대급 '큰손' 정체",
-     "publishedAt": "2026-11-04 15:34",
-     "url": "https://www.youtube.com/watch?v=6kRQalDstjY"
-    },
-    {
-     "title": "국민들 몰래, 교도소에 '73억 민생지원금' 뿌린 한국정부",
-     "publishedAt": "2026-11-04 15:12",
-     "url": "https://www.youtube.com/watch?v=krCnSsfniS4"
     }
    ]
   },
