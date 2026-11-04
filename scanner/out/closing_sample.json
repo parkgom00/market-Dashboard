@@ -67,23 +67,15 @@
  ],
  "minute": [
   {
-   "localDateTime": "20261104154200",
+   "localDateTime": "20261104154800",
    "currentPrice": 218000.0,
    "openPrice": 218000.0,
    "highPrice": 218000.0,
    "lowPrice": 218000.0,
-   "accumulatedTradingVolume": 508
+   "accumulatedTradingVolume": 50
   },
   {
-   "localDateTime": "20261104154300",
-   "currentPrice": 218000.0,
-   "openPrice": 218000.0,
-   "highPrice": 218000.0,
-   "lowPrice": 218000.0,
-   "accumulatedTradingVolume": 1830
-  },
-  {
-   "localDateTime": "20261104154400",
+   "localDateTime": "20261104154900",
    "currentPrice": 218000.0,
    "openPrice": 218000.0,
    "highPrice": 218000.0,
@@ -91,12 +83,20 @@
    "accumulatedTradingVolume": 1
   },
   {
-   "localDateTime": "20261104154700",
+   "localDateTime": "20261104155000",
    "currentPrice": 218000.0,
    "openPrice": 218000.0,
    "highPrice": 218000.0,
    "lowPrice": 218000.0,
-   "accumulatedTradingVolume": 143
+   "accumulatedTradingVolume": 16
+  },
+  {
+   "localDateTime": "20261104155100",
+   "currentPrice": 218000.0,
+   "openPrice": 218000.0,
+   "highPrice": 218000.0,
+   "lowPrice": 218000.0,
+   "accumulatedTradingVolume": 23
   }
  ],
  "integration": {
@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "iM증권",
     "tit": "STRESS TEST",
-    "rcnt": "4542",
+    "rcnt": "4564",
     "wdt": "20261104"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "미래에셋증권",
     "tit": "초우량 고성장 파격 세일 중",
-    "rcnt": "36892",
+    "rcnt": "36901",
     "wdt": "20261030"
    },
    {

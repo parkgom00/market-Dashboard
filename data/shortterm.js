@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-11-04 15:46",
+ "asOf": "2026-11-04 15:51",
  "window": "15:20~15:40",
  "status": "전 종목 2427개 중 후보 159개 점검 (기준 일봉 2026-11-03)",
  "types": [
@@ -15,7 +15,88 @@ window.DASH.shortterm = {
      "id": "A1",
      "name": "장 마감 직전 대형수급 + 당일 고가 마감",
      "desc": "마감 직전 외국인·기관 순매수(거래대금의 3% 이상)가 몰리고, 고가 대비 0.5% 이내로 마감하는 종목",
-     "kr": []
+     "kr": [
+      {
+       "code": "175330",
+       "name": "JB금융지주",
+       "close": 25800.0,
+       "market": "KOSPI",
+       "sector": "은행",
+       "after": {
+        "price": 25800.0,
+        "pct": 2.38
+       },
+       "marcap": 48123,
+       "prevClose": 25200.0,
+       "changePct": 2.38,
+       "value": 72,
+       "note": "고가 마감권(고가 대비 0.39% 아래) · 막판 20분 거래량 비중 15% · 수급 자료 확인 전"
+      },
+      {
+       "code": "207940",
+       "name": "삼성바이오로직스",
+       "close": 1495000.0,
+       "market": "KOSPI",
+       "sector": "제약",
+       "after": {
+        "price": 1495000.0,
+        "pct": 2.96
+       },
+       "marcap": 692050,
+       "prevClose": 1452000.0,
+       "changePct": 2.96,
+       "value": 1045,
+       "note": "고가 마감권(고가 대비 0.33% 아래) · 막판 20분 거래량 비중 13% · 수급 자료 확인 전"
+      },
+      {
+       "code": "323410",
+       "name": "카카오뱅크",
+       "close": 20150.0,
+       "market": "KOSPI",
+       "sector": "은행",
+       "after": {
+        "price": 20150.0,
+        "pct": 4.73
+       },
+       "marcap": 96140,
+       "prevClose": 19240.0,
+       "changePct": 4.73,
+       "value": 168,
+       "note": "고가 마감권(고가 대비 0.25% 아래) · 막판 20분 거래량 비중 13% · 수급 자료 확인 전"
+      },
+      {
+       "code": "005490",
+       "name": "POSCO홀딩스",
+       "close": 276000.0,
+       "market": "KOSPI",
+       "sector": "철강",
+       "after": {
+        "price": 276000.0,
+        "pct": 3.56
+       },
+       "marcap": 218707,
+       "prevClose": 266500.0,
+       "changePct": 3.56,
+       "value": 861,
+       "note": "고가 마감권(고가 대비 0.00% 아래) · 막판 20분 거래량 비중 12% · 수급 자료 확인 전"
+      },
+      {
+       "code": "005380",
+       "name": "현대차",
+       "close": 283500.0,
+       "market": "KOSPI",
+       "sector": "자동차",
+       "after": {
+        "price": 283500.0,
+        "pct": 2.16
+       },
+       "marcap": 576828,
+       "prevClose": 277500.0,
+       "changePct": 2.16,
+       "value": 1760,
+       "note": "고가 마감권(고가 대비 0.00% 아래) · 막판 20분 거래량 비중 11% · 수급 자료 확인 전"
+      }
+     ]
     },
     {
      "id": "A2",
@@ -28,7 +109,10 @@ window.DASH.shortterm = {
        "close": 9660.0,
        "market": "KOSPI",
        "sector": "IT서비스",
-       "after": null,
+       "after": {
+        "price": 9660.0,
+        "pct": -8.78
+       },
        "marcap": 1072,
        "prevClose": 10590.0,
        "changePct": -8.78,
@@ -48,7 +132,10 @@ window.DASH.shortterm = {
        "close": 15510.0,
        "market": "KOSPI",
        "sector": "무선통신서비스",
-       "after": null,
+       "after": {
+        "price": 15510.0,
+        "pct": 7.11
+       },
        "marcap": 65829,
        "prevClose": 14480.0,
        "changePct": 7.11,
@@ -243,28 +330,22 @@ window.DASH.shortterm = {
   "quotes": 2427,
   "candidates": 159,
   "bars": 150,
-  "naverBars": 0,
-  "kisBars": 150,
+  "naverBars": 150,
+  "kisBars": 0,
   "a1": {
    "후보": 147,
    "분봉지연": 0,
    "사유": {
-    "막판 거래량 비중 부족": 32,
-    "고가에서 멂": 115
+    "막판 거래량 비중 부족": 26,
+    "고가에서 멂": 115,
+    "ok(수급 자료 없음)": 6
    },
-   "수급자료": 147,
-   "막판비중_중앙값": 0.024,
-   "막판비중_최대": 0.08
-  },
-  "kis": {
-   "calls": 448,
-   "ok": 447,
-   "err": {
-    "FHKST03010200:EGW00201": 1
-   }
+   "수급자료": 0,
+   "막판비중_중앙값": 0.042,
+   "막판비중_최대": 0.203
   }
  },
  "flowConfirmed": false,
- "flowKind": "장중 추정",
- "phase": "장중 · 외국인·기관 장중 추정 가집계(한국투자) 반영 · 확정 수급은 마감 후 다시 반영"
+ "flowKind": "",
+ "phase": "장 마감 후 · 정규장 종가 기준 · 수급 자료는 아직 공개 전"
 };
