@@ -1,13 +1,28 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-04 14:00",
+ "asOf": "2026-11-04 16:19",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“지금은 증시에서 도망쳐야 하나?” 외국인이 삼성전자·SK하이닉스를 던지는 결정적 이유 ㅣ 김민수 대표",
+     "publishedAt": "2026-11-04 16:01",
+     "url": "https://www.youtube.com/watch?v=nlHdMkNXwNc"
+    },
+    {
+     "title": "[#긴급인터뷰]  “AI 반도체 없어서 못 판다는데!”... 주가 폭락하는 삼성전자·SK하이닉스, 도대체 왜?ㅣ김장열 센터장",
+     "publishedAt": "2026-11-04 15:19",
+     "url": "https://www.youtube.com/watch?v=eJ4JdO8HbXQ"
+    },
+    {
+     "title": "[#긴급시황]  “AMD 깜짝 실적도 소용없다!” 코스피 또 급락장… 삼성전자·SK하이닉스 도대체 언제 살아나나? / 중간선거 후폭풍의 진실  | 박근형 부장",
+     "publishedAt": "2026-11-04 14:19",
+     "url": "https://www.youtube.com/watch?v=i3Ej1ThFMGo"
+    },
     {
      "title": "“미국 중간선거 후폭풍 시작!” 이번 주 코스피 크게 흔들리나? / AMD 실적이 반도체 살릴까ㅣ이권희 대표",
      "publishedAt": "2026-11-04 13:00",
@@ -17,21 +32,6 @@ window.DASH.youtube = {
      "title": "“오늘 증시 크게 흔들리나!” 미국 중간 선거 불확실성·AMD 호재 충돌 / 삼전·하닉 대반전 가능할까? ㅣ이주연 대표",
      "publishedAt": "2026-11-04 10:54",
      "url": "https://www.youtube.com/watch?v=ETrQVaVg_8g"
-    },
-    {
-     "title": "[11월4일 #장시작전] 반도체 vs 비반도체 순환매, 시소게임으로 6,000선 탈환할까?",
-     "publishedAt": "2026-11-04 06:21",
-     "url": "https://www.youtube.com/watch?v=WuuN8kJA1vs"
-    },
-    {
-     "title": "[#찐시황]  “한국증시 정말 화나는 이유 3가지!” 바닥 신호 4번이나 무너졌다… 그로기 상태 증시, 마지막 희망은? ㅣ박현상 이사",
-     "publishedAt": "2026-11-03 20:00",
-     "url": "https://www.youtube.com/watch?v=dc6PCzNcx9k"
-    },
-    {
-     "title": "[#긴급인터뷰] “코스피 6,100 찍자마자 급락한 이유” 연기금이 더 사줄 수 있을까? / 나스닥 마지막 지지선은?  (폭락장) 김민수 대표",
-     "publishedAt": "2026-11-03 18:30",
-     "url": "https://www.youtube.com/watch?v=M0X0u1kiQkY"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(미국선거) 텍사스 상원,주지사가 민주당이기에 데이터센터 지연되나?",
+     "publishedAt": "2026-11-04 15:21",
+     "url": "https://www.youtube.com/watch?v=VqQvTB2USfY"
+    },
     {
      "title": "(시황분석) AMD,슈마컴 호실적이 반도체 상승 이끌어 가나?",
      "publishedAt": "2026-11-04 06:39",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(삼전닉스,마이크론) 아직은 계속 들고 가는 이유는?",
      "publishedAt": "2026-11-02 15:46",
      "url": "https://www.youtube.com/watch?v=ZBKN52VF3d4"
-    },
-    {
-     "title": "(월간시황) 과연 중간선거 후 퀀터적으로 상승이 가능한가?",
-     "publishedAt": "2026-11-02 07:42",
-     "url": "https://www.youtube.com/watch?v=kQg_GTc6CfQ"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "매년 코스피 20조 순매수한다는 역대급 '큰손' 정체",
+     "publishedAt": "2026-11-04 15:35",
+     "url": "https://www.youtube.com/watch?v=6kRQalDstjY"
+    },
+    {
      "title": "투자자들이 꼭 알아야 할 양자주 전망",
      "publishedAt": "2026-11-03 23:30",
      "url": "https://www.youtube.com/watch?v=QVJep1EljxQ"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "SK하이닉스 투자자라면 꼭 알아야 할, '자사주 소각 타이밍'",
      "publishedAt": "2026-11-03 19:05",
      "url": "https://www.youtube.com/watch?v=QqkGQV4Hp4A"
-    },
-    {
-     "title": "이란이 점점 꼬리 내리고 있는 진짜 이유",
-     "publishedAt": "2026-11-03 18:05",
-     "url": "https://www.youtube.com/watch?v=OtBXzrCFMUc"
     }
    ]
   },
