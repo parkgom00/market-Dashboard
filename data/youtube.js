@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-04 11:54",
+ "asOf": "2026-11-04 14:00",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“미국 중간선거 후폭풍 시작!” 이번 주 코스피 크게 흔들리나? / AMD 실적이 반도체 살릴까ㅣ이권희 대표",
+     "publishedAt": "2026-11-04 13:00",
+     "url": "https://www.youtube.com/watch?v=uH7dNQhqOuM"
+    },
     {
      "title": "“오늘 증시 크게 흔들리나!” 미국 중간 선거 불확실성·AMD 호재 충돌 / 삼전·하닉 대반전 가능할까? ㅣ이주연 대표",
      "publishedAt": "2026-11-04 10:54",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급인터뷰] “코스피 6,100 찍자마자 급락한 이유” 연기금이 더 사줄 수 있을까? / 나스닥 마지막 지지선은?  (폭락장) 김민수 대표",
      "publishedAt": "2026-11-03 18:30",
      "url": "https://www.youtube.com/watch?v=M0X0u1kiQkY"
-    },
-    {
-     "title": "“역배열 하락장에선 저평가도 소용없다!” 코스피 진짜 바닥은 어디? / 5,500선이 결정적으로 중요한 이유 ㅣ황유현 팀장",
-     "publishedAt": "2026-11-03 17:00",
-     "url": "https://www.youtube.com/watch?v=0ouxWIbCCDo"
     }
    ]
   },
