@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-11-04 19:00",
+ "asOf": "2026-11-04 20:14",
  "window": "15:20~15:40",
- "status": "전 종목 2426개 중 후보 190개 점검 (기준 일봉 2026-11-03)",
+ "status": "전 종목 2427개 중 후보 214개 점검 (기준 일봉 2026-11-03)",
  "types": [
   {
    "id": "A",
@@ -23,13 +23,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "제약",
        "after": {
-        "price": 1491000.0,
-        "pct": 2.69
+        "price": 1497000.0,
+        "pct": 3.1
        },
-       "marcap": 690198,
+       "marcap": 692976,
        "prevClose": 1452000.0,
        "changePct": 2.96,
-       "value": 1061,
+       "value": 1071,
        "note": "고가 마감권(고가 대비 0.33% 아래) · 막판 20분 거래량 비중 13% · 수급 자료 확인 전"
       },
       {
@@ -39,13 +39,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "은행",
        "after": {
-        "price": 20000.0,
-        "pct": 3.95
+        "price": 20150.0,
+        "pct": 4.73
        },
-       "marcap": 95424,
+       "marcap": 96140,
        "prevClose": 19240.0,
        "changePct": 4.73,
-       "value": 172,
+       "value": 173,
        "note": "고가 마감권(고가 대비 0.25% 아래) · 막판 20분 거래량 비중 13% · 수급 자료 확인 전"
       },
       {
@@ -55,13 +55,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "철강",
        "after": {
-        "price": 277000.0,
-        "pct": 3.94
+        "price": 278000.0,
+        "pct": 4.32
        },
-       "marcap": 219499,
+       "marcap": 220291,
        "prevClose": 266500.0,
        "changePct": 3.56,
-       "value": 879,
+       "value": 890,
        "note": "고가 마감권(고가 대비 0.00% 아래) · 막판 20분 거래량 비중 12% · 수급 자료 확인 전"
       },
       {
@@ -71,13 +71,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "자동차",
        "after": {
-        "price": 284000.0,
-        "pct": 2.34
+        "price": 287500.0,
+        "pct": 3.6
        },
-       "marcap": 577845,
+       "marcap": 584966,
        "prevClose": 277500.0,
        "changePct": 2.16,
-       "value": 1800,
+       "value": 1836,
        "note": "고가 마감권(고가 대비 0.00% 아래) · 막판 20분 거래량 비중 11% · 수급 자료 확인 전"
       },
       {
@@ -87,13 +87,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "무선통신서비스",
        "after": {
-        "price": 78300.0,
-        "pct": 5.38
+        "price": 78200.0,
+        "pct": 5.25
        },
-       "marcap": 168181,
+       "marcap": 167966,
        "prevClose": 74300.0,
        "changePct": 4.17,
-       "value": 629,
+       "value": 646,
        "note": "고가 마감권(고가 대비 0.13% 아래) · 막판 20분 거래량 비중 11% · 수급 자료 확인 전"
       }
      ]
@@ -110,13 +110,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "IT서비스",
        "after": {
-        "price": 9650.0,
-        "pct": -8.88
+        "price": 9700.0,
+        "pct": -8.4
        },
-       "marcap": 1071,
+       "marcap": 1077,
        "prevClose": 10590.0,
        "changePct": -8.78,
-       "value": 135,
+       "value": 136,
        "note": "전일 +17.1% 급등 · 오늘 거래량 전일의 36% · 도지(몸통 2%) · 10일선 9,272 / 20일선 9,258 위 마감"
       }
      ]
@@ -133,14 +133,14 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "무선통신서비스",
        "after": {
-        "price": 15520.0,
-        "pct": 7.18
+        "price": 15620.0,
+        "pct": 7.87
        },
-       "marcap": 65871,
+       "marcap": 66296,
        "prevClose": 14480.0,
        "changePct": 7.11,
-       "value": 546,
-       "note": "바닥권(250일 범위 하단 16%) · 거래대금 546억(20일 평균의 4.5배) · 장대양봉(+8.2%) · 240일선 15,300, 480일선 13,971 돌파"
+       "value": 547,
+       "note": "바닥권(250일 범위 하단 16%) · 거래대금 547억(20일 평균의 4.5배) · 장대양봉(+8.2%) · 240일선 15,300, 480일선 13,971 돌파"
       }
      ]
     }
@@ -327,22 +327,22 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2426,
-  "candidates": 190,
+  "quotes": 2427,
+  "candidates": 214,
   "bars": 150,
   "naverBars": 150,
   "kisBars": 0,
   "a1": {
-   "후보": 147,
+   "후보": 148,
    "분봉지연": 0,
    "사유": {
-    "막판 거래량 비중 부족": 22,
-    "고가에서 멂": 95,
+    "막판 거래량 비중 부족": 21,
+    "고가에서 멂": 87,
     "ok(수급 자료 없음)": 5,
-    "등락률·거래대금 미달": 25
+    "등락률·거래대금 미달": 35
    },
    "수급자료": 0,
-   "막판비중_중앙값": 0.049,
+   "막판비중_중앙값": 0.054,
    "막판비중_최대": 0.228
   }
  },
