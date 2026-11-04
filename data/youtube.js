@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-04 10:05",
+ "asOf": "2026-11-04 11:54",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“오늘 증시 크게 흔들리나!” 미국 중간 선거 불확실성·AMD 호재 충돌 / 삼전·하닉 대반전 가능할까? ㅣ이주연 대표",
+     "publishedAt": "2026-11-04 10:54",
+     "url": "https://www.youtube.com/watch?v=ETrQVaVg_8g"
+    },
     {
      "title": "[11월4일 #장시작전] 반도체 vs 비반도체 순환매, 시소게임으로 6,000선 탈환할까?",
      "publishedAt": "2026-11-04 06:21",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“역배열 하락장에선 저평가도 소용없다!” 코스피 진짜 바닥은 어디? / 5,500선이 결정적으로 중요한 이유 ㅣ황유현 팀장",
      "publishedAt": "2026-11-03 17:00",
      "url": "https://www.youtube.com/watch?v=0ouxWIbCCDo"
-    },
-    {
-     "title": "[#긴급인터뷰]  “중간선거 이후 강한 상승장 오나” 코스피 대반격 시작될까? / AI 열풍, 달라지는 것은 무엇인가?  | 유진투자증권 허재환 상무",
-     "publishedAt": "2026-11-03 16:00",
-     "url": "https://www.youtube.com/watch?v=YgNrMIA1pNs"
     }
    ]
   },
