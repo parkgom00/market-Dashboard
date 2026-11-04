@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-04 22:07",
+ "asOf": "2026-11-04 23:57",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "미국 민주당, 데이터센터 악재? 전 아니라고 봅니다",
+     "publishedAt": "2026-11-04 22:30",
+     "url": "https://www.youtube.com/watch?v=-WDu8Uud8zc"
+    },
+    {
      "title": "美중간선거에, 롤러코스터 탄 코스피 앞으로 어떻게 될까?",
      "publishedAt": "2026-11-04 21:00",
      "url": "https://www.youtube.com/watch?v=uGwuJDsPQLM"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "투자자들이, 이제 엔트로픽 상장을 준비해야 되는 이유(+수혜주 총정리)",
      "publishedAt": "2026-11-04 18:15",
      "url": "https://www.youtube.com/watch?v=Ij53RiHr2Xk"
-    },
-    {
-     "title": "테슬라+스페이스X 합병하면 양도세 22% 내야 되는 이유",
-     "publishedAt": "2026-11-04 17:43",
-     "url": "https://www.youtube.com/watch?v=j2gCv87kxb8"
     }
    ]
   },
