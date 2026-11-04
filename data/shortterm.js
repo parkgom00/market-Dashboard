@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-11-04 16:14",
+ "asOf": "2026-11-04 17:15",
  "window": "15:20~15:40",
- "status": "전 종목 2422개 중 후보 146개 점검 (기준 일봉 2026-11-03)",
+ "status": "전 종목 2427개 중 후보 151개 점검 (기준 일봉 2026-11-03)",
  "types": [
   {
    "id": "A",
@@ -23,10 +23,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "은행",
        "after": {
-        "price": 25800.0,
-        "pct": 2.38
+        "price": 25750.0,
+        "pct": 2.18
        },
-       "marcap": 48123,
+       "marcap": 48029,
        "prevClose": 25200.0,
        "changePct": 2.38,
        "value": 72,
@@ -39,13 +39,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "제약",
        "after": {
-        "price": 1491000.0,
-        "pct": 2.69
+        "price": 1489000.0,
+        "pct": 2.55
        },
-       "marcap": 690198,
+       "marcap": 689272,
        "prevClose": 1452000.0,
        "changePct": 2.96,
-       "value": 1046,
+       "value": 1049,
        "note": "고가 마감권(고가 대비 0.33% 아래) · 막판 20분 거래량 비중 13% · 수급 자료 확인 전"
       },
       {
@@ -55,13 +55,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "은행",
        "after": {
-        "price": 20050.0,
-        "pct": 4.21
+        "price": 19980.0,
+        "pct": 3.85
        },
-       "marcap": 95663,
+       "marcap": 95329,
        "prevClose": 19240.0,
        "changePct": 4.73,
-       "value": 168,
+       "value": 169,
        "note": "고가 마감권(고가 대비 0.25% 아래) · 막판 20분 거래량 비중 13% · 수급 자료 확인 전"
       },
       {
@@ -77,7 +77,7 @@ window.DASH.shortterm = {
        "marcap": 217122,
        "prevClose": 266500.0,
        "changePct": 3.56,
-       "value": 861,
+       "value": 865,
        "note": "고가 마감권(고가 대비 0.00% 아래) · 막판 20분 거래량 비중 12% · 수급 자료 확인 전"
       },
       {
@@ -87,13 +87,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "무선통신서비스",
        "after": {
-        "price": 77300.0,
-        "pct": 4.04
+        "price": 77400.0,
+        "pct": 4.17
        },
-       "marcap": 166033,
+       "marcap": 166248,
        "prevClose": 74300.0,
        "changePct": 4.17,
-       "value": 607,
+       "value": 611,
        "note": "고가 마감권(고가 대비 0.13% 아래) · 막판 20분 거래량 비중 11% · 수급 자료 확인 전"
       }
      ]
@@ -116,7 +116,7 @@ window.DASH.shortterm = {
        "marcap": 1061,
        "prevClose": 10590.0,
        "changePct": -8.78,
-       "value": 131,
+       "value": 132,
        "note": "전일 +17.1% 급등 · 오늘 거래량 전일의 35% · 도지(몸통 2%) · 10일선 9,272 / 20일선 9,258 위 마감"
       }
      ]
@@ -310,19 +310,19 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2422,
-  "candidates": 146,
-  "bars": 146,
-  "naverBars": 146,
+  "quotes": 2427,
+  "candidates": 151,
+  "bars": 150,
+  "naverBars": 150,
   "kisBars": 0,
   "a1": {
-   "후보": 143,
+   "후보": 147,
    "분봉지연": 0,
    "사유": {
-    "고가에서 멂": 107,
-    "ok(수급 자료 없음)": 5,
     "막판 거래량 비중 부족": 29,
-    "등락률·거래대금 미달": 2
+    "고가에서 멂": 109,
+    "ok(수급 자료 없음)": 5,
+    "등락률·거래대금 미달": 4
    },
    "수급자료": 0,
    "막판비중_중앙값": 0.042,

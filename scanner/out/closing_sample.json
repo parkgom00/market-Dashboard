@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "iM증권",
     "tit": "STRESS TEST",
-    "rcnt": "4729",
+    "rcnt": "5143",
     "wdt": "20261104"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "미래에셋증권",
     "tit": "초우량 고성장 파격 세일 중",
-    "rcnt": "36965",
+    "rcnt": "37151",
     "wdt": "20261030"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "교보증권",
     "tit": "3Q26 Review 사상 최대 실적, 메모리가 이끌었다",
-    "rcnt": "21851",
+    "rcnt": "21916",
     "wdt": "20261030"
    }
   ],
@@ -222,17 +222,17 @@
     "reutersCode": "000660",
     "stockName": "SK하이닉스",
     "sosok": "0",
-    "closePrice": "1,398,000",
-    "compareToPreviousClosePrice": "0",
+    "closePrice": "1,402,000",
+    "compareToPreviousClosePrice": "4,000",
     "compareToPreviousPrice": {
-     "code": "3",
-     "text": "보합",
-     "name": "UNCHANGED"
+     "code": "2",
+     "text": "상승",
+     "name": "RISING"
     },
-    "fluctuationsRatio": "0.00",
+    "fluctuationsRatio": "0.29",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "1,021,228,326",
+    "marketValue": "1,024,150,295",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
@@ -260,17 +260,17 @@
     "reutersCode": "402340",
     "stockName": "SK스퀘어",
     "sosok": "0",
-    "closePrice": "897,000",
-    "compareToPreviousClosePrice": "-2,000",
+    "closePrice": "902,000",
+    "compareToPreviousClosePrice": "3,000",
     "compareToPreviousPrice": {
-     "code": "5",
-     "text": "하락",
-     "name": "FALLING"
+     "code": "2",
+     "text": "상승",
+     "name": "RISING"
     },
-    "fluctuationsRatio": "-0.22",
+    "fluctuationsRatio": "0.33",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "118,335,826",
+    "marketValue": "118,995,446",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
@@ -298,17 +298,17 @@
     "reutersCode": "042700",
     "stockName": "한미반도체",
     "sosok": "0",
-    "closePrice": "184,700",
-    "compareToPreviousClosePrice": "4,700",
+    "closePrice": "184,800",
+    "compareToPreviousClosePrice": "4,800",
     "compareToPreviousPrice": {
      "code": "2",
      "text": "상승",
      "name": "RISING"
     },
-    "fluctuationsRatio": "2.61",
+    "fluctuationsRatio": "2.67",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "17,604,163",
+    "marketValue": "17,613,694",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
