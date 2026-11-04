@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-04 15:58",
+ "generatedAt": "2026-11-04 21:49",
  "events": [
   {
    "date": "2026-01-01",
@@ -687,6 +687,12 @@ window.DASH.calendar = {
    "type": "earnings",
    "market": "US",
    "title": "비자 실적 발표 (예정)"
+  },
+  {
+   "date": "2027-01-28",
+   "type": "earnings",
+   "market": "KR",
+   "title": "LG에너지솔루션 실적 발표 (예정)"
   },
   {
    "date": "2027-01-28",
@@ -2617,7 +2623,7 @@ window.DASH.calendar = {
    "title": "미국 PPI",
    "time": "21:30",
    "result": [
-    "이전 0.5%"
+    "이전 5.0%"
    ]
   },
   {
@@ -2637,7 +2643,7 @@ window.DASH.calendar = {
    "title": "한국 무역수지",
    "time": "08:00",
    "result": [
-    "이전 42.50B"
+    "예상 42.50B · 이전 49.97B"
    ]
   },
   {
@@ -2647,7 +2653,7 @@ window.DASH.calendar = {
    "title": "한국 수입",
    "time": "08:00",
    "result": [
-    "이전 36.0%"
+    "예상 36.0% · 이전 26.0%"
    ]
   },
   {
@@ -2658,7 +2664,7 @@ window.DASH.calendar = {
    "time": "08:00",
    "major": true,
    "result": [
-    "이전 93.7%"
+    "예상 93.7% · 이전 83.7%"
    ]
   },
   {
