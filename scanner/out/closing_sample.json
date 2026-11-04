@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "iM증권",
     "tit": "STRESS TEST",
-    "rcnt": "5143",
+    "rcnt": "5258",
     "wdt": "20261104"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "미래에셋증권",
     "tit": "초우량 고성장 파격 세일 중",
-    "rcnt": "37151",
+    "rcnt": "37191",
     "wdt": "20261030"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "교보증권",
     "tit": "3Q26 Review 사상 최대 실적, 메모리가 이끌었다",
-    "rcnt": "21916",
+    "rcnt": "21933",
     "wdt": "20261030"
    }
   ],
@@ -260,17 +260,17 @@
     "reutersCode": "402340",
     "stockName": "SK스퀘어",
     "sosok": "0",
-    "closePrice": "902,000",
-    "compareToPreviousClosePrice": "3,000",
+    "closePrice": "899,000",
+    "compareToPreviousClosePrice": "0",
     "compareToPreviousPrice": {
-     "code": "2",
-     "text": "상승",
-     "name": "RISING"
+     "code": "3",
+     "text": "보합",
+     "name": "UNCHANGED"
     },
-    "fluctuationsRatio": "0.33",
+    "fluctuationsRatio": "0.00",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "118,995,446",
+    "marketValue": "118,599,674",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
@@ -298,17 +298,17 @@
     "reutersCode": "042700",
     "stockName": "한미반도체",
     "sosok": "0",
-    "closePrice": "184,800",
-    "compareToPreviousClosePrice": "4,800",
+    "closePrice": "184,900",
+    "compareToPreviousClosePrice": "4,900",
     "compareToPreviousPrice": {
      "code": "2",
      "text": "상승",
      "name": "RISING"
     },
-    "fluctuationsRatio": "2.67",
+    "fluctuationsRatio": "2.72",
     "accumulatedTradingVolume": "-",
     "accumulatedTradingValue": "-",
-    "marketValue": "17,613,694",
+    "marketValue": "17,623,225",
     "nav": "N/A",
     "threeMonthEarningRate": "N/A",
     "stockExchangeType": {
