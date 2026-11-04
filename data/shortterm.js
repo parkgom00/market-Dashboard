@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-11-04 17:15",
+ "asOf": "2026-11-04 17:58",
  "window": "15:20~15:40",
- "status": "전 종목 2427개 중 후보 151개 점검 (기준 일봉 2026-11-03)",
+ "status": "전 종목 2426개 중 후보 162개 점검 (기준 일봉 2026-11-03)",
  "types": [
   {
    "id": "A",
@@ -39,13 +39,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "제약",
        "after": {
-        "price": 1489000.0,
-        "pct": 2.55
+        "price": 1488000.0,
+        "pct": 2.48
        },
-       "marcap": 689272,
+       "marcap": 688809,
        "prevClose": 1452000.0,
        "changePct": 2.96,
-       "value": 1049,
+       "value": 1053,
        "note": "고가 마감권(고가 대비 0.33% 아래) · 막판 20분 거래량 비중 13% · 수급 자료 확인 전"
       },
       {
@@ -55,10 +55,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "은행",
        "after": {
-        "price": 19980.0,
-        "pct": 3.85
+        "price": 20050.0,
+        "pct": 4.21
        },
-       "marcap": 95329,
+       "marcap": 95663,
        "prevClose": 19240.0,
        "changePct": 4.73,
        "value": 169,
@@ -71,13 +71,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "철강",
        "after": {
-        "price": 274000.0,
-        "pct": 2.81
+        "price": 275500.0,
+        "pct": 3.38
        },
-       "marcap": 217122,
+       "marcap": 218310,
        "prevClose": 266500.0,
        "changePct": 3.56,
-       "value": 865,
+       "value": 870,
        "note": "고가 마감권(고가 대비 0.00% 아래) · 막판 20분 거래량 비중 12% · 수급 자료 확인 전"
       },
       {
@@ -87,13 +87,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "무선통신서비스",
        "after": {
-        "price": 77400.0,
-        "pct": 4.17
+        "price": 77800.0,
+        "pct": 4.71
        },
-       "marcap": 166248,
+       "marcap": 167107,
        "prevClose": 74300.0,
        "changePct": 4.17,
-       "value": 611,
+       "value": 617,
        "note": "고가 마감권(고가 대비 0.13% 아래) · 막판 20분 거래량 비중 11% · 수급 자료 확인 전"
       }
      ]
@@ -110,10 +110,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "IT서비스",
        "after": {
-        "price": 9560.0,
-        "pct": -9.73
+        "price": 9550.0,
+        "pct": -9.82
        },
-       "marcap": 1061,
+       "marcap": 1060,
        "prevClose": 10590.0,
        "changePct": -8.78,
        "value": 132,
@@ -310,8 +310,8 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2427,
-  "candidates": 151,
+  "quotes": 2426,
+  "candidates": 162,
   "bars": 150,
   "naverBars": 150,
   "kisBars": 0,
@@ -319,13 +319,13 @@ window.DASH.shortterm = {
    "후보": 147,
    "분봉지연": 0,
    "사유": {
-    "막판 거래량 비중 부족": 29,
-    "고가에서 멂": 109,
+    "막판 거래량 비중 부족": 26,
+    "고가에서 멂": 110,
     "ok(수급 자료 없음)": 5,
-    "등락률·거래대금 미달": 4
+    "등락률·거래대금 미달": 6
    },
    "수급자료": 0,
-   "막판비중_중앙값": 0.042,
+   "막판비중_중앙값": 0.044,
    "막판비중_최대": 0.203
   }
  },
