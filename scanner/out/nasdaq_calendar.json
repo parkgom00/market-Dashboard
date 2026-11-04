@@ -1569,7 +1569,7 @@
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
   "epsForecast": "$1.68",
-  "eps": "",
+  "eps": "$0.97",
   "surprise": ""
  },
  {
@@ -1635,7 +1635,7 @@
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
   "epsForecast": "$1.04",
-  "eps": "",
+  "eps": "$0.26",
   "surprise": ""
  },
  {
@@ -1904,13 +1904,23 @@
  },
  {
   "date": "2026-11-12",
+  "time": "21:30",
+  "title": "미국 신규 실업수당 청구",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": ""
+ },
+ {
+  "date": "2026-11-12",
   "time": "23:00",
   "title": "미국 기존주택판매",
   "level": "macro",
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "3.99M"
+  "previous": "1.5%"
  },
  {
   "date": "2026-11-13",
