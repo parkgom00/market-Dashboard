@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-04 07:49",
+ "asOf": "2026-11-04 10:05",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,7 +9,7 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
-     "title": "[11월4일 #장시작전] “AI 버블 공포 속 대반전!” 필반도체 2.6%·오라클 6%·브로드컴 3% 급등 /  AMD 실적 발표 후 시간 외 급등",
+     "title": "[11월4일 #장시작전] 반도체 vs 비반도체 순환매, 시소게임으로 6,000선 탈환할까?",
      "publishedAt": "2026-11-04 06:21",
      "url": "https://www.youtube.com/watch?v=WuuN8kJA1vs"
     },
@@ -83,11 +83,6 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=cWeZhrrACS4"
     },
     {
-     "title": "[실전 투자 스터디] 국내 주식 가치가 있을까요?",
-     "publishedAt": "2026-11-02 16:30",
-     "url": "https://www.youtube.com/watch?v=orqaMN7uY_8"
-    },
-    {
      "title": "[몰아보기] 투자자들이 착각하고 있어요! 외국인은 이 때 돌아옵니다!!",
      "publishedAt": "2026-10-31 14:00",
      "url": "https://www.youtube.com/watch?v=FdCwAmEgtOY"
@@ -96,6 +91,11 @@ window.DASH.youtube = {
      "title": "젠슨 황이 현금 꽂아주는 섹터? 테크주 반등시 주목!!",
      "publishedAt": "2026-10-30 19:00",
      "url": "https://www.youtube.com/watch?v=SOEuMdEhMho"
+    },
+    {
+     "title": "[아테네] 금리 vs AI 성장, 결국 기회를 잡는 사람은 이들입니다!!",
+     "publishedAt": "2026-10-30",
+     "url": "https://www.youtube.com/watch?v=5mpk_ua0jyA"
     }
    ]
   },
@@ -104,16 +104,6 @@ window.DASH.youtube = {
    "channelId": "UC7usMJDHmtbs_oegmzQKKMA",
    "handle": "@경제사냥꾼",
    "videos": [
-    {
-     "title": "11월 4일 오늘 코스피 어떻게 흘러갈까?",
-     "publishedAt": "2026-11-04 07:38",
-     "url": "https://www.youtube.com/watch?v=rRWO8GQ0zpY"
-    },
-    {
-     "title": "11월 4일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-11-04 06:41",
-     "url": "https://www.youtube.com/watch?v=ZYyEPoKv3Jk"
-    },
     {
      "title": "투자자들이 꼭 알아야 할 양자주 전망",
      "publishedAt": "2026-11-03 23:30",
@@ -125,9 +115,19 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=-Szy6dBaX0E"
     },
     {
-     "title": "-38% 코스피 폭락 시대에 현명하게 주식 하는 법",
-     "publishedAt": "2026-11-03 22:00",
-     "url": "https://www.youtube.com/watch?v=PORCF3Ae6cI"
+     "title": "중국한테 역대급 뒤통수 맞고 '애플' 주가 폭락한 이유",
+     "publishedAt": "2026-11-03 21:05",
+     "url": "https://www.youtube.com/watch?v=gA49EVKKv4c"
+    },
+    {
+     "title": "SK하이닉스 투자자라면 꼭 알아야 할, '자사주 소각 타이밍'",
+     "publishedAt": "2026-11-03 19:05",
+     "url": "https://www.youtube.com/watch?v=QqkGQV4Hp4A"
+    },
+    {
+     "title": "이란이 점점 꼬리 내리고 있는 진짜 이유",
+     "publishedAt": "2026-11-03 18:05",
+     "url": "https://www.youtube.com/watch?v=OtBXzrCFMUc"
     }
    ]
   },
@@ -136,16 +136,6 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
-    {
-     "title": "왜 또 아픈 상처에 소금을 뿌리십니까? #코스피 #하이닉스 #삼성전자",
-     "publishedAt": "2026-11-03 16:19",
-     "url": "https://www.youtube.com/watch?v=tz0nhO93ohc"
-    },
-    {
-     "title": "검은 월요일이 아닌 진짜 이유 #코스피 #인텔 #샘알트만",
-     "publishedAt": "2026-11-02 13:30",
-     "url": "https://www.youtube.com/watch?v=DzjJQcqP6sw"
-    },
     {
      "title": "AI 주식 아직 희망이 있다?",
      "publishedAt": "2026-11-01 02:10",
@@ -157,9 +147,19 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=G3__vlk5OcM"
     },
     {
-     "title": "빅테크 쇼크에 코스피도 폭락!",
-     "publishedAt": "2026-10-30 12:22",
-     "url": "https://www.youtube.com/watch?v=B08-0DIVmBE"
+     "title": "구글의 종말",
+     "publishedAt": "2026-10-30",
+     "url": "https://www.youtube.com/watch?v=O9lLR-DSZKg"
+    },
+    {
+     "title": "드디어 밝혀진 앤트로픽의 비밀. 심층분석 들어갑니다.",
+     "publishedAt": "2026-10-27",
+     "url": "https://www.youtube.com/watch?v=n8zGtiTYxMI"
+    },
+    {
+     "title": "일론머스크 \"네오클라우드 대부분 망한다?\"",
+     "publishedAt": "2026-10-27",
+     "url": "https://www.youtube.com/watch?v=LgOIJMIgkUw"
     }
    ]
   },
@@ -179,6 +179,11 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=6Zq7p54WTNI"
     },
     {
+     "title": "인텔-30% 알파벳-12% 쇼크, 선거 후 반전 가능할까/대량 전사자 매장 훈련? 더 큰 지정학 충격 오는걸까",
+     "publishedAt": "2026-11-02",
+     "url": "https://www.youtube.com/watch?v=a2-adRUJvTs"
+    },
+    {
      "title": "AI인프라 쇼크 어떻게 대응해야 할까, 다음 승자까지 마음 편하게 투자하는 법",
      "publishedAt": "2026-10-30 18:33",
      "url": "https://www.youtube.com/watch?v=DBm1cqv3avc"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "큰 손이 된 키덜트 덕에 주식도 부활? 장난감 사는 어른 시대의 수혜주들",
      "publishedAt": "2026-10-29 19:40",
      "url": "https://www.youtube.com/watch?v=MXwB5P9mJxA"
-    },
-    {
-     "title": "주식 안 팔아도 세금 내라? 사상 초유의 억만장자세 실험 현실 될까",
-     "publishedAt": "2026-10-28 20:54",
-     "url": "https://www.youtube.com/watch?v=_gMyqLP0928"
     }
    ]
   }
