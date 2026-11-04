@@ -1687,8 +1687,8 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "67K",
-  "actual": "",
-  "previous": "90K"
+  "actual": "86K",
+  "previous": "86K"
  },
  {
   "date": "2026-11-04",
@@ -1697,8 +1697,8 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "-107.90B",
-  "actual": "",
-  "previous": "-105.60B"
+  "actual": "-105.00B",
+  "previous": "-105.70B"
  },
  {
   "date": "2026-11-04",
@@ -1717,7 +1717,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "57.9",
-  "actual": "",
+  "actual": "56.1",
   "previous": "58.8"
  },
  {
@@ -1727,7 +1727,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "54.8",
-  "actual": "",
+  "actual": "54.5",
   "previous": "54.9"
  },
  {
@@ -2133,7 +2133,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "58.8"
+  "previous": "56.1"
  },
  {
   "date": "2026-11-23",
@@ -2185,6 +2185,46 @@
   "consensus": "",
   "actual": "",
   "previous": "91.7"
+ },
+ {
+  "date": "2026-11-25",
+  "time": "21:30",
+  "title": "미국 PCE",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "3.6%"
+ },
+ {
+  "date": "2026-11-25",
+  "time": "21:30",
+  "title": "미국 근원 PCE",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "0.3%"
+ },
+ {
+  "date": "2026-11-25",
+  "time": "21:30",
+  "title": "미국 내구재 주문",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "1.9%"
+ },
+ {
+  "date": "2026-11-25",
+  "time": "23:00",
+  "title": "미국 신규주택판매",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "-0.6%"
  },
  {
   "date": "2026-12-01",

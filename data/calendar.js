@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-04 21:49",
+ "generatedAt": "2026-11-05 03:48",
  "events": [
   {
    "date": "2026-01-01",
@@ -541,7 +541,12 @@ window.DASH.calendar = {
    "date": "2026-11-25",
    "type": "econ",
    "market": "US",
-   "title": "미국 PCE 물가지수 발표 · 10월분 (한국시간 저녁)"
+   "title": "미국 PCE 물가지수 발표 · 10월분 (한국시간 저녁)",
+   "time": "21:30",
+   "result": [
+    "미국 PCE: 이전 3.6%",
+    "미국 근원 PCE: 이전 0.3%"
+   ]
   },
   {
    "date": "2026-11-26",
@@ -783,6 +788,18 @@ window.DASH.calendar = {
    "type": "earnings",
    "market": "US",
    "title": "팔란티어 실적 발표 (예정)"
+  },
+  {
+   "date": "2027-02-03",
+   "type": "earnings",
+   "market": "US",
+   "title": "AMD 실적 발표 (예정)"
+  },
+  {
+   "date": "2027-02-03",
+   "type": "earnings",
+   "market": "US",
+   "title": "슈퍼마이크로 실적 발표 (예정)"
   },
   {
    "date": "2027-02-03",
@@ -2424,7 +2441,7 @@ window.DASH.calendar = {
    "title": "ADP 민간고용",
    "time": "21:15",
    "result": [
-    "예상 67K · 이전 90K"
+    "실제 86K · 예상 67K · 이전 86K"
    ]
   },
   {
@@ -2434,7 +2451,7 @@ window.DASH.calendar = {
    "title": "미국 무역수지",
    "time": "21:30",
    "result": [
-    "예상 -107.90B · 이전 -105.60B"
+    "실제 -105.00B · 예상 -107.90B · 이전 -105.70B"
    ]
   },
   {
@@ -2454,7 +2471,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 서비스업 PMI",
    "time": "22:45",
    "result": [
-    "예상 57.9 · 이전 58.8"
+    "실제 56.1 · 예상 57.9 · 이전 58.8"
    ]
   },
   {
@@ -2464,7 +2481,7 @@ window.DASH.calendar = {
    "title": "ISM 서비스업",
    "time": "23:00",
    "result": [
-    "예상 54.8 · 이전 54.9"
+    "실제 54.5 · 예상 54.8 · 이전 54.9"
    ]
   },
   {
@@ -2804,7 +2821,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 서비스업 PMI",
    "time": "22:45",
    "result": [
-    "이전 58.8"
+    "이전 56.1"
    ]
   },
   {
@@ -2854,6 +2871,26 @@ window.DASH.calendar = {
    "time": "23:00",
    "result": [
     "이전 91.7"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 내구재 주문",
+   "time": "21:30",
+   "result": [
+    "이전 1.9%"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 신규주택판매",
+   "time": "23:00",
+   "result": [
+    "이전 -0.6%"
    ]
   },
   {
