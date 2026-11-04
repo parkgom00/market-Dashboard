@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-11-04 15:51",
+ "asOf": "2026-11-04 16:14",
  "window": "15:20~15:40",
- "status": "전 종목 2427개 중 후보 159개 점검 (기준 일봉 2026-11-03)",
+ "status": "전 종목 2422개 중 후보 146개 점검 (기준 일봉 2026-11-03)",
  "types": [
   {
    "id": "A",
@@ -39,13 +39,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "제약",
        "after": {
-        "price": 1495000.0,
-        "pct": 2.96
+        "price": 1491000.0,
+        "pct": 2.69
        },
-       "marcap": 692050,
+       "marcap": 690198,
        "prevClose": 1452000.0,
        "changePct": 2.96,
-       "value": 1045,
+       "value": 1046,
        "note": "고가 마감권(고가 대비 0.33% 아래) · 막판 20분 거래량 비중 13% · 수급 자료 확인 전"
       },
       {
@@ -55,10 +55,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "은행",
        "after": {
-        "price": 20150.0,
-        "pct": 4.73
+        "price": 20050.0,
+        "pct": 4.21
        },
-       "marcap": 96140,
+       "marcap": 95663,
        "prevClose": 19240.0,
        "changePct": 4.73,
        "value": 168,
@@ -71,30 +71,30 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "철강",
        "after": {
-        "price": 276000.0,
-        "pct": 3.56
+        "price": 274000.0,
+        "pct": 2.81
        },
-       "marcap": 218707,
+       "marcap": 217122,
        "prevClose": 266500.0,
        "changePct": 3.56,
        "value": 861,
        "note": "고가 마감권(고가 대비 0.00% 아래) · 막판 20분 거래량 비중 12% · 수급 자료 확인 전"
       },
       {
-       "code": "005380",
-       "name": "현대차",
-       "close": 283500.0,
+       "code": "017670",
+       "name": "SK텔레콤",
+       "close": 77400.0,
        "market": "KOSPI",
-       "sector": "자동차",
+       "sector": "무선통신서비스",
        "after": {
-        "price": 283500.0,
-        "pct": 2.16
+        "price": 77300.0,
+        "pct": 4.04
        },
-       "marcap": 576828,
-       "prevClose": 277500.0,
-       "changePct": 2.16,
-       "value": 1760,
-       "note": "고가 마감권(고가 대비 0.00% 아래) · 막판 20분 거래량 비중 11% · 수급 자료 확인 전"
+       "marcap": 166033,
+       "prevClose": 74300.0,
+       "changePct": 4.17,
+       "value": 607,
+       "note": "고가 마감권(고가 대비 0.13% 아래) · 막판 20분 거래량 비중 11% · 수급 자료 확인 전"
       }
      ]
     },
@@ -110,10 +110,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "IT서비스",
        "after": {
-        "price": 9660.0,
-        "pct": -8.78
+        "price": 9560.0,
+        "pct": -9.73
        },
-       "marcap": 1072,
+       "marcap": 1061,
        "prevClose": 10590.0,
        "changePct": -8.78,
        "value": 131,
@@ -125,24 +125,7 @@ window.DASH.shortterm = {
      "id": "A3",
      "name": "바닥권 거래대금 폭발 장대양봉 + 240·480일선 돌파",
      "desc": "250일 범위 하단 45% 이내 → 거래대금 20일 평균의 3배 이상, +6% 이상 장대양봉으로 240·480일선 동시 돌파",
-     "kr": [
-      {
-       "code": "032640",
-       "name": "LG유플러스",
-       "close": 15510.0,
-       "market": "KOSPI",
-       "sector": "무선통신서비스",
-       "after": {
-        "price": 15510.0,
-        "pct": 7.11
-       },
-       "marcap": 65829,
-       "prevClose": 14480.0,
-       "changePct": 7.11,
-       "value": 544,
-       "note": "바닥권(250일 범위 하단 16%) · 거래대금 544억(20일 평균의 4.4배) · 장대양봉(+8.2%) · 240일선 15,300, 480일선 13,971 돌파"
-      }
-     ]
+     "kr": []
     }
    ]
   },
@@ -327,18 +310,19 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2427,
-  "candidates": 159,
-  "bars": 150,
-  "naverBars": 150,
+  "quotes": 2422,
+  "candidates": 146,
+  "bars": 146,
+  "naverBars": 146,
   "kisBars": 0,
   "a1": {
-   "후보": 147,
+   "후보": 143,
    "분봉지연": 0,
    "사유": {
-    "막판 거래량 비중 부족": 26,
-    "고가에서 멂": 115,
-    "ok(수급 자료 없음)": 6
+    "고가에서 멂": 107,
+    "ok(수급 자료 없음)": 5,
+    "막판 거래량 비중 부족": 29,
+    "등락률·거래대금 미달": 2
    },
    "수급자료": 0,
    "막판비중_중앙값": 0.042,
