@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-11-04 17:32",
+ "asOf": "2026-11-04 17:15",
  "window": "15:20~15:40",
- "status": "전 종목 2427개 중 후보 155개 점검 (기준 일봉 2026-11-03)",
+ "status": "전 종목 2427개 중 후보 151개 점검 (기준 일봉 2026-11-03)",
  "types": [
   {
    "id": "A",
@@ -45,7 +45,7 @@ window.DASH.shortterm = {
        "marcap": 689272,
        "prevClose": 1452000.0,
        "changePct": 2.96,
-       "value": 1051,
+       "value": 1049,
        "note": "고가 마감권(고가 대비 0.33% 아래) · 막판 20분 거래량 비중 13% · 수급 자료 확인 전"
       },
       {
@@ -55,10 +55,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "은행",
        "after": {
-        "price": 20000.0,
-        "pct": 3.95
+        "price": 19980.0,
+        "pct": 3.85
        },
-       "marcap": 95424,
+       "marcap": 95329,
        "prevClose": 19240.0,
        "changePct": 4.73,
        "value": 169,
@@ -71,13 +71,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "철강",
        "after": {
-        "price": 275000.0,
-        "pct": 3.19
+        "price": 274000.0,
+        "pct": 2.81
        },
-       "marcap": 217914,
+       "marcap": 217122,
        "prevClose": 266500.0,
        "changePct": 3.56,
-       "value": 868,
+       "value": 865,
        "note": "고가 마감권(고가 대비 0.00% 아래) · 막판 20분 거래량 비중 12% · 수급 자료 확인 전"
       },
       {
@@ -87,13 +87,13 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "무선통신서비스",
        "after": {
-        "price": 77700.0,
-        "pct": 4.58
+        "price": 77400.0,
+        "pct": 4.17
        },
-       "marcap": 166892,
+       "marcap": 166248,
        "prevClose": 74300.0,
        "changePct": 4.17,
-       "value": 614,
+       "value": 611,
        "note": "고가 마감권(고가 대비 0.13% 아래) · 막판 20분 거래량 비중 11% · 수급 자료 확인 전"
       }
      ]
@@ -110,10 +110,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "IT서비스",
        "after": {
-        "price": 9600.0,
-        "pct": -9.35
+        "price": 9560.0,
+        "pct": -9.73
        },
-       "marcap": 1066,
+       "marcap": 1061,
        "prevClose": 10590.0,
        "changePct": -8.78,
        "value": 132,
@@ -134,7 +134,7 @@ window.DASH.shortterm = {
    "name": "전고점 돌파",
    "timeframe": "일봉",
    "desc": "52주 신고가(또는 3년 내 최고가)를 찍고 하락했던 전고점을 다시 넘어서는 종목. 장 마감 후 종가 기준으로 하루 한 번 갱신됩니다.",
-   "asOf": "2026-11-03",
+   "asOf": "2026-11-04",
    "subtypes": [
     {
      "id": "B1",
@@ -311,16 +311,16 @@ window.DASH.shortterm = {
  ],
  "diag": {
   "quotes": 2427,
-  "candidates": 155,
+  "candidates": 151,
   "bars": 150,
   "naverBars": 150,
   "kisBars": 0,
   "a1": {
-   "후보": 148,
+   "후보": 147,
    "분봉지연": 0,
    "사유": {
-    "막판 거래량 비중 부족": 28,
-    "고가에서 멂": 111,
+    "막판 거래량 비중 부족": 29,
+    "고가에서 멂": 109,
     "ok(수급 자료 없음)": 5,
     "등락률·거래대금 미달": 4
    },
