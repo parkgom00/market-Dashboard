@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-05 22:57",
+ "generatedAt": "2026-11-06 08:15",
  "events": [
   {
    "date": "2026-01-01",
@@ -811,7 +811,19 @@ window.DASH.calendar = {
    "date": "2027-02-04",
    "type": "earnings",
    "market": "US",
+   "title": "ARM 실적 발표 (예정)"
+  },
+  {
+   "date": "2027-02-04",
+   "type": "earnings",
+   "market": "US",
    "title": "알파벳 실적 발표 (예정)"
+  },
+  {
+   "date": "2027-02-04",
+   "type": "earnings",
+   "market": "US",
+   "title": "퀄컴 실적 발표 (예정)"
   },
   {
    "date": "2027-02-05",
@@ -2511,7 +2523,7 @@ window.DASH.calendar = {
    "title": "미국 생산성",
    "time": "21:30",
    "result": [
-    "예상 2.8% · 이전 1.4%"
+    "실제 3.6% · 예상 2.8% · 이전 2.1%"
    ]
   },
   {
@@ -2521,7 +2533,7 @@ window.DASH.calendar = {
    "title": "미국 신규 실업수당 청구",
    "time": "21:30",
    "result": [
-    "예상 197K · 이전 194K"
+    "실제 189K · 예상 197K · 이전 195K"
    ]
   },
   {
