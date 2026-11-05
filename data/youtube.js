@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-05 11:22",
+ "asOf": "2026-11-05 21:15",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,29 +9,29 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
-     "title": "“빅테크는 폭등하는데 반도체는 왜 폭락?”  돈의 흐름이 완전히 바뀌었다… 큰 돈이 몰려가는 ‘이곳’ ㅣ이화진 차장",
-     "publishedAt": "2026-11-05 11:13",
-     "url": "https://www.youtube.com/watch?v=fiQnCK1o4Fc"
+     "title": "[#찐시황]  “한국증시, 단기 상승 추세는 무너졌다!” 지금은 돈을 지킬 때… 그런데 외국인은 장 막판 선물 2조 원을 왜 쓸어담았나? | 황유현 팀장",
+     "publishedAt": "2026-11-05 20:00",
+     "url": "https://www.youtube.com/watch?v=JR-qXe8O9Dw"
     },
     {
-     "title": "[11월5일 #장시작전] AI 위축 우려에 반도체 하락, 수급 빼앗아 올 섹터는 바이오?",
-     "publishedAt": "2026-11-05 06:16",
-     "url": "https://www.youtube.com/watch?v=nn1ezZpBOmA"
+     "title": "[#긴급인터뷰]  “폭락장에 던지지 마라!” AI 반도체 슈퍼사이클은 아직 끝나지 않았다? / 속도조절, 앞으로 이렇게 간다ㅣ상지대 국가안보융합학과 소현철 교수",
+     "publishedAt": "2026-11-05 19:00",
+     "url": "https://www.youtube.com/watch?v=Pl2LIxtFNB0"
     },
     {
-     "title": "“코스피 7,700 간다?” 2027년 한국 증시 반등 시나리오 / 새로운 주도주의 정체  | 유진투자증권 허재환 상무",
-     "publishedAt": "2026-11-05 06:00",
-     "url": "https://www.youtube.com/watch?v=ic0kCypkLz0"
+     "title": "[#긴급시황]  “헤지펀드마저 역대급 손실!” 월가 큰 손들은 지금 팔까, 버틸까? / 하락장에서 살아남는 투자전략 | 이주연 대표",
+     "publishedAt": "2026-11-05 17:30",
+     "url": "https://www.youtube.com/watch?v=VuI9rdTz1z4"
     },
     {
-     "title": "[#찐시황 ] “美 민주당 승리 후폭풍?” 외국인 삼성전자·SK하이닉스 2조 원 투매… AI 반도체 상승장 정말 끝났나?ㅣ오로라투자자문 이지환 대표",
-     "publishedAt": "2026-11-04 20:00",
-     "url": "https://www.youtube.com/watch?v=LQDe8Q3n6dM"
+     "title": "[#긴급시황]  “외국인 3조 원 투매, 하락에까지 베팅?” 공매도·인버스 급증 우려… 삼전·SK하닉 손절 전, 꼭 확인할 ‘지지선’ | 주식황금돼지 이건희 대표",
+     "publishedAt": "2026-11-05 16:15",
+     "url": "https://www.youtube.com/watch?v=BKxbANOXXkw"
     },
     {
-     "title": "[#긴급인터뷰]  “트럼프 선거 패배 후폭풍!” 네타냐후는 왜 이란 공격을 요구하나? / 이번 주 금요일이 위험한 이유  |  서강대 종교학과 박현도 교수",
-     "publishedAt": "2026-11-04 19:00",
-     "url": "https://www.youtube.com/watch?v=oymQA32je7U"
+     "title": "[#긴급시황]  “코스피 25년 만의 역사적 저평가?” 삼성전자·SK하이닉스 주가 폭락은 기회… 중간 선거 후, 빅테크만 웃는 이유!   | 박근형 부장",
+     "publishedAt": "2026-11-05 15:07",
+     "url": "https://www.youtube.com/watch?v=fHfMsZB8W4Q"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(반도체) 반도체는 내려갈때 우리가 생각지도 못할 정도로 내려갈수 있다.",
+     "publishedAt": "2026-11-05 15:37",
+     "url": "https://www.youtube.com/watch?v=hyyqFMhDuD4"
+    },
     {
      "title": "(시황분석) 데이터센터 종목중 반도체,전력만 빠졌다",
      "publishedAt": "2026-11-05 06:29",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(팔란티어) 하락에도 들고가야 하나?",
      "publishedAt": "2026-11-03 15:09",
      "url": "https://www.youtube.com/watch?v=W0q3kFy4xR4"
-    },
-    {
-     "title": "(시황분석) 트럼프 관련 반도체 주식들 폭락 주도하나?",
-     "publishedAt": "2026-11-03 06:30",
-     "url": "https://www.youtube.com/watch?v=lWfFGG-IYWg"
     }
    ]
   },
@@ -72,6 +72,11 @@ window.DASH.youtube = {
    "channelId": "UCQW05vzztAlwV54WL3pjGBQ",
    "handle": "@GODofIT_official",
    "videos": [
+    {
+     "title": "[아테네] 반도체 망했나요? 제 솔직한 심정은...",
+     "publishedAt": "2026-11-05 19:00",
+     "url": "https://www.youtube.com/watch?v=a-5NNI1ZNgA"
+    },
     {
      "title": "[아테네] 시총의 10%를 돌려준다? 메모리 주식 멀티플이 바뀐다!!",
      "publishedAt": "2026-11-04 19:00",
@@ -88,14 +93,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=cWeZhrrACS4"
     },
     {
-     "title": "[몰아보기] 투자자들이 착각하고 있어요! 외국인은 이 때 돌아옵니다!!",
-     "publishedAt": "2026-10-31 14:00",
-     "url": "https://www.youtube.com/watch?v=FdCwAmEgtOY"
-    },
-    {
-     "title": "젠슨 황이 현금 꽂아주는 섹터? 테크주 반등시 주목!!",
-     "publishedAt": "2026-10-31",
-     "url": "https://www.youtube.com/watch?v=SOEuMdEhMho"
+     "title": "[실전 투자 스터디] 국내 주식 가치가 있을까요?",
+     "publishedAt": "2026-11-02 16:30",
+     "url": "https://www.youtube.com/watch?v=orqaMN7uY_8"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "미국 민주당, 데이터센터 악재? 전 아니라고 봅니다",
-     "publishedAt": "2026-11-04 22:30",
-     "url": "https://www.youtube.com/watch?v=-WDu8Uud8zc"
+     "title": "2027년을 앞두고 지금부터 주목해야 할 투자 포인트 3가지",
+     "publishedAt": "2026-11-05 21:00",
+     "url": "https://www.youtube.com/watch?v=HdT_BWUm0Bo"
     },
     {
-     "title": "美중간선거에, 롤러코스터 탄 코스피 앞으로 어떻게 될까?",
-     "publishedAt": "2026-11-04 21:00",
-     "url": "https://www.youtube.com/watch?v=uGwuJDsPQLM"
+     "title": "\"머스크 구속?!\" 테슬라 역대급 하락장 올 수 있다는 이유",
+     "publishedAt": "2026-11-05 19:30",
+     "url": "https://www.youtube.com/watch?v=cAzE6TRNxl8"
     },
     {
-     "title": "한국 대기업들이 지금 사업을 내다 파는 이유",
-     "publishedAt": "2026-11-04 20:22",
-     "url": "https://www.youtube.com/watch?v=E_utIbknwQM"
+     "title": "월가가 선거 전부터 ‘AI주 떨어지면 사라’고 한 이유",
+     "publishedAt": "2026-11-05 18:30",
+     "url": "https://www.youtube.com/watch?v=9Kzs-hf2hSM"
     },
     {
-     "title": "투자자들이, 이제 엔트로픽 상장을 준비해야 되는 이유(+수혜주 총정리)",
-     "publishedAt": "2026-11-04 18:22",
-     "url": "https://www.youtube.com/watch?v=Ij53RiHr2Xk"
+     "title": "미국 중간선거 민주당 승리, 어떤 '환경주'가 오를까?!",
+     "publishedAt": "2026-11-05 17:30",
+     "url": "https://www.youtube.com/watch?v=pN58gAL9Scs"
     },
     {
-     "title": "현대차는 왜 주식 시장에서 버려졌을까?",
-     "publishedAt": "2026-11-04 17:22",
-     "url": "https://www.youtube.com/watch?v=STXk3OtL4ps"
+     "title": "발등에 불 떨어진, 트럼프 다시 전쟁 시작할까?!",
+     "publishedAt": "2026-11-05 17:00",
+     "url": "https://www.youtube.com/watch?v=m13kCslWMoY"
     }
    ]
   },
@@ -137,29 +137,29 @@ window.DASH.youtube = {
    "handle": "@김단테",
    "videos": [
     {
+     "title": "중간선거에 코스피 대폭락 #중간선거 #블루웨이브 #코스피",
+     "publishedAt": "2026-11-05 10:45",
+     "url": "https://www.youtube.com/watch?v=3uSiJ-uYlhY"
+    },
+    {
+     "title": "미국 중간선거에 코스피 개박살? #중간선거 #블루웨이브 #코스피",
+     "publishedAt": "2026-11-04 12:23",
+     "url": "https://www.youtube.com/watch?v=_HIPylV9BUs"
+    },
+    {
+     "title": "왜 또 아픈 상처에 소금을 뿌리십니까? #코스피 #하이닉스 #삼성전자",
+     "publishedAt": "2026-11-03 16:19",
+     "url": "https://www.youtube.com/watch?v=tz0nhO93ohc"
+    },
+    {
+     "title": "검은 월요일이 아닌 진짜 이유 #코스피 #인텔 #샘알트만",
+     "publishedAt": "2026-11-02 13:30",
+     "url": "https://www.youtube.com/watch?v=DzjJQcqP6sw"
+    },
+    {
      "title": "AI 주식 아직 희망이 있다?",
      "publishedAt": "2026-11-01 02:10",
      "url": "https://www.youtube.com/watch?v=BbcxxMtijlM"
-    },
-    {
-     "title": "AI 주식 시즌 종료인가?",
-     "publishedAt": "2026-10-31 01:40",
-     "url": "https://www.youtube.com/watch?v=G3__vlk5OcM"
-    },
-    {
-     "title": "구글의 종말",
-     "publishedAt": "2026-10-30",
-     "url": "https://www.youtube.com/watch?v=O9lLR-DSZKg"
-    },
-    {
-     "title": "드디어 밝혀진 앤트로픽의 비밀. 심층분석 들어갑니다.",
-     "publishedAt": "2026-10-27",
-     "url": "https://www.youtube.com/watch?v=n8zGtiTYxMI"
-    },
-    {
-     "title": "일론머스크 \"네오클라우드 대부분 망한다?\"",
-     "publishedAt": "2026-10-26",
-     "url": "https://www.youtube.com/watch?v=LgOIJMIgkUw"
     }
    ]
   },
@@ -179,11 +179,6 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=6Zq7p54WTNI"
     },
     {
-     "title": "인텔-30% 알파벳-12% 쇼크, 선거 후 반전 가능할까/대량 전사자 매장 훈련? 더 큰 지정학 충격 오는걸까",
-     "publishedAt": "2026-11-02",
-     "url": "https://www.youtube.com/watch?v=a2-adRUJvTs"
-    },
-    {
      "title": "AI인프라 쇼크 어떻게 대응해야 할까, 다음 승자까지 마음 편하게 투자하는 법",
      "publishedAt": "2026-10-30 18:33",
      "url": "https://www.youtube.com/watch?v=DBm1cqv3avc"
@@ -192,6 +187,11 @@ window.DASH.youtube = {
      "title": "큰 손이 된 키덜트 덕에 주식도 부활? 장난감 사는 어른 시대의 수혜주들",
      "publishedAt": "2026-10-29 19:40",
      "url": "https://www.youtube.com/watch?v=MXwB5P9mJxA"
+    },
+    {
+     "title": "주식 안 팔아도 세금 내라? 사상 초유의 억만장자세 실험 현실 될까",
+     "publishedAt": "2026-10-28 20:54",
+     "url": "https://www.youtube.com/watch?v=_gMyqLP0928"
     }
    ]
   }
