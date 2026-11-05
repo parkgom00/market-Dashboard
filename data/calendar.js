@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-05 03:48",
+ "generatedAt": "2026-11-05 13:50",
  "events": [
   {
    "date": "2026-01-01",
@@ -545,7 +545,7 @@ window.DASH.calendar = {
    "time": "21:30",
    "result": [
     "미국 PCE: 이전 3.6%",
-    "미국 근원 PCE: 이전 0.3%"
+    "미국 근원 PCE: 이전 3.1%"
    ]
   },
   {
@@ -2501,7 +2501,7 @@ window.DASH.calendar = {
    "title": "한국 경상수지",
    "time": "07:00",
    "result": [
-    "이전 46.11B"
+    "실제 61.46B · 이전 46.11B"
    ]
   },
   {
@@ -2891,6 +2891,17 @@ window.DASH.calendar = {
    "time": "23:00",
    "result": [
     "이전 -0.6%"
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 금통위 금리결정",
+   "time": "09:00",
+   "major": true,
+   "result": [
+    "이전 3.00%"
    ]
   },
   {

@@ -1769,7 +1769,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "",
-  "actual": "",
+  "actual": "61.46B",
   "previous": "46.11B"
  },
  {
@@ -2204,7 +2204,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "0.3%"
+  "previous": "3.1%"
  },
  {
   "date": "2026-11-25",
@@ -2225,6 +2225,16 @@
   "consensus": "",
   "actual": "",
   "previous": "-0.6%"
+ },
+ {
+  "date": "2026-11-26",
+  "time": "09:00",
+  "title": "한국 금통위 금리결정",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "3.00%"
  },
  {
   "date": "2026-12-01",
