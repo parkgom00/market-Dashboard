@@ -67,14 +67,6 @@
  ],
  "minute": [
   {
-   "localDateTime": "20261105151700",
-   "currentPrice": 201000.0,
-   "openPrice": 201250.0,
-   "highPrice": 201500.0,
-   "lowPrice": 200500.0,
-   "accumulatedTradingVolume": 146112
-  },
-  {
    "localDateTime": "20261105151800",
    "currentPrice": 201500.0,
    "openPrice": 201000.0,
@@ -97,6 +89,14 @@
    "highPrice": 201500.0,
    "lowPrice": 201500.0,
    "accumulatedTradingVolume": 1954679
+  },
+  {
+   "localDateTime": "20261105154000",
+   "currentPrice": 201500.0,
+   "openPrice": 201500.0,
+   "highPrice": 201500.0,
+   "lowPrice": 201500.0,
+   "accumulatedTradingVolume": 1550
   }
  ],
  "integration": {
@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "iM증권",
     "tit": "STRESS TEST",
-    "rcnt": "12733",
+    "rcnt": "12784",
     "wdt": "20261104"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "미래에셋증권",
     "tit": "초우량 고성장 파격 세일 중",
-    "rcnt": "40730",
+    "rcnt": "40743",
     "wdt": "20261030"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "교보증권",
     "tit": "3Q26 Review 사상 최대 실적, 메모리가 이끌었다",
-    "rcnt": "23248",
+    "rcnt": "23255",
     "wdt": "20261030"
    }
   ],
