@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-11-05 17:17",
+ "asOf": "2026-11-05 18:02",
  "window": "15:20~15:40",
- "status": "전 종목 2426개 중 후보 99개 점검 (기준 일봉 2026-11-04)",
+ "status": "전 종목 2427개 중 후보 102개 점검 (기준 일봉 2026-11-04)",
  "types": [
   {
    "id": "A",
@@ -39,10 +39,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "가정용기기와용품",
        "after": {
-        "price": 109000.0,
-        "pct": 5.21
+        "price": 109800.0,
+        "pct": 5.98
        },
-       "marcap": 77136,
+       "marcap": 77703,
        "prevClose": 103600.0,
        "changePct": 5.98,
        "value": 187,
@@ -241,22 +241,22 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2426,
-  "candidates": 99,
-  "bars": 99,
-  "naverBars": 99,
+  "quotes": 2427,
+  "candidates": 102,
+  "bars": 102,
+  "naverBars": 102,
   "kisBars": 0,
   "a1": {
-   "후보": 98,
+   "후보": 101,
    "분봉지연": 0,
    "사유": {
-    "고가에서 멂": 86,
+    "고가에서 멂": 89,
     "막판 거래량 비중 부족": 8,
     "ok(수급 자료 없음)": 2,
     "등락률·거래대금 미달": 2
    },
    "수급자료": 0,
-   "막판비중_중앙값": 0.041,
+   "막판비중_중앙값": 0.045,
    "막판비중_최대": 0.314
   }
  },
