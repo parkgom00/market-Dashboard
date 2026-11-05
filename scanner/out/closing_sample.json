@@ -67,22 +67,6 @@
  ],
  "minute": [
   {
-   "localDateTime": "20261105154400",
-   "currentPrice": 201500.0,
-   "openPrice": 201500.0,
-   "highPrice": 201500.0,
-   "lowPrice": 201500.0,
-   "accumulatedTradingVolume": 92
-  },
-  {
-   "localDateTime": "20261105154500",
-   "currentPrice": 201500.0,
-   "openPrice": 201500.0,
-   "highPrice": 201500.0,
-   "lowPrice": 201500.0,
-   "accumulatedTradingVolume": 1
-  },
-  {
    "localDateTime": "20261105154600",
    "currentPrice": 201500.0,
    "openPrice": 201500.0,
@@ -97,6 +81,22 @@
    "highPrice": 201500.0,
    "lowPrice": 201500.0,
    "accumulatedTradingVolume": 30
+  },
+  {
+   "localDateTime": "20261105155100",
+   "currentPrice": 201500.0,
+   "openPrice": 201500.0,
+   "highPrice": 201500.0,
+   "lowPrice": 201500.0,
+   "accumulatedTradingVolume": 1
+  },
+  {
+   "localDateTime": "20261105155300",
+   "currentPrice": 201500.0,
+   "openPrice": 201500.0,
+   "highPrice": 201500.0,
+   "lowPrice": 201500.0,
+   "accumulatedTradingVolume": 10
   }
  ],
  "integration": {
@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "iM증권",
     "tit": "STRESS TEST",
-    "rcnt": "12850",
+    "rcnt": "12907",
     "wdt": "20261104"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "미래에셋증권",
     "tit": "초우량 고성장 파격 세일 중",
-    "rcnt": "40786",
+    "rcnt": "40823",
     "wdt": "20261030"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "교보증권",
     "tit": "3Q26 Review 사상 최대 실적, 메모리가 이끌었다",
-    "rcnt": "23264",
+    "rcnt": "23271",
     "wdt": "20261030"
    }
   ],
