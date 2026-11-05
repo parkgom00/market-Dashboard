@@ -2,6 +2,22 @@
  "trend": [
   {
    "itemCode": "005930",
+   "bizdate": "20261028",
+   "foreignerPureBuyQuant": "+1,522,344",
+   "foreignerHoldRatio": "46.19%",
+   "organPureBuyQuant": "+1,620,180",
+   "individualPureBuyQuant": "-3,084,370",
+   "closePrice": "245,000",
+   "compareToPreviousClosePrice": "23,000",
+   "compareToPreviousPrice": {
+    "code": "2",
+    "text": "상승",
+    "name": "RISING"
+   },
+   "accumulatedTradingVolume": "17,840,544"
+  },
+  {
+   "itemCode": "005930",
    "bizdate": "20261027",
    "foreignerPureBuyQuant": "+1,052,520",
    "foreignerHoldRatio": "46.15%",
@@ -47,22 +63,6 @@
     "name": "FALLING"
    },
    "accumulatedTradingVolume": "16,145,972"
-  },
-  {
-   "itemCode": "005930",
-   "bizdate": "20261022",
-   "foreignerPureBuyQuant": "-585,787",
-   "foreignerHoldRatio": "46.13%",
-   "organPureBuyQuant": "-400,833",
-   "individualPureBuyQuant": "+977,352",
-   "closePrice": "214,500",
-   "compareToPreviousClosePrice": "-9,000",
-   "compareToPreviousPrice": {
-    "code": "5",
-    "text": "하락",
-    "name": "FALLING"
-   },
-   "accumulatedTradingVolume": "11,469,322"
   }
  ],
  "minute": [
@@ -137,6 +137,22 @@
   "dealTrendInfos": [
    {
     "itemCode": "005930",
+    "bizdate": "20261105",
+    "foreignerPureBuyQuant": "-5,772,197",
+    "foreignerHoldRatio": "45.96%",
+    "organPureBuyQuant": "+75,714",
+    "individualPureBuyQuant": "+6,012,006",
+    "closePrice": "201,500",
+    "compareToPreviousClosePrice": "-16,500",
+    "compareToPreviousPrice": {
+     "code": "5",
+     "text": "하락",
+     "name": "FALLING"
+    },
+    "accumulatedTradingVolume": "24,527,083"
+   },
+   {
+    "itemCode": "005930",
     "bizdate": "20261104",
     "foreignerPureBuyQuant": "-3,828,533",
     "foreignerHoldRatio": "46.06%",
@@ -166,22 +182,6 @@
      "name": "FALLING"
     },
     "accumulatedTradingVolume": "13,391,670"
-   },
-   {
-    "itemCode": "005930",
-    "bizdate": "20261102",
-    "foreignerPureBuyQuant": "+515,900",
-    "foreignerHoldRatio": "46.16%",
-    "organPureBuyQuant": "+733,138",
-    "individualPureBuyQuant": "-1,810,914",
-    "closePrice": "230,000",
-    "compareToPreviousClosePrice": "5,000",
-    "compareToPreviousPrice": {
-     "code": "2",
-     "text": "상승",
-     "name": "RISING"
-    },
-    "accumulatedTradingVolume": "14,537,981"
    }
   ],
   "researches": [
@@ -191,7 +191,7 @@
     "nm": "삼성전자",
     "bnm": "iM증권",
     "tit": "STRESS TEST",
-    "rcnt": "14555",
+    "rcnt": "15114",
     "wdt": "20261104"
    },
    {
@@ -200,7 +200,7 @@
     "nm": "삼성전자",
     "bnm": "미래에셋증권",
     "tit": "초우량 고성장 파격 세일 중",
-    "rcnt": "41576",
+    "rcnt": "41804",
     "wdt": "20261030"
    },
    {
@@ -209,7 +209,7 @@
     "nm": "삼성전자",
     "bnm": "교보증권",
     "tit": "3Q26 Review 사상 최대 실적, 메모리가 이끌었다",
-    "rcnt": "23515",
+    "rcnt": "23579",
     "wdt": "20261030"
    }
   ],
