@@ -1,9 +1,9 @@
 // 자동 생성 파일 (scanner/shortterm_build.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.shortterm = {
- "asOf": "2026-11-05 15:53",
+ "asOf": "2026-11-05 16:20",
  "window": "15:20~15:40",
- "status": "전 종목 2427개 중 후보 105개 점검 (기준 일봉 2026-11-04)",
+ "status": "전 종목 2424개 중 후보 101개 점검 (기준 일봉 2026-11-04)",
  "types": [
   {
    "id": "A",
@@ -23,10 +23,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "은행",
        "after": {
-        "price": 20800.0,
-        "pct": 3.23
+        "price": 20650.0,
+        "pct": 2.48
        },
-       "marcap": 99241,
+       "marcap": 98525,
        "prevClose": 20150.0,
        "changePct": 3.23,
        "value": 172,
@@ -39,10 +39,10 @@ window.DASH.shortterm = {
        "market": "KOSPI",
        "sector": "가정용기기와용품",
        "after": {
-        "price": 109800.0,
-        "pct": 5.98
+        "price": 108800.0,
+        "pct": 5.02
        },
-       "marcap": 77703,
+       "marcap": 76995,
        "prevClose": 103600.0,
        "changePct": 5.98,
        "value": 187,
@@ -221,21 +221,22 @@ window.DASH.shortterm = {
   }
  ],
  "diag": {
-  "quotes": 2427,
-  "candidates": 105,
-  "bars": 105,
-  "naverBars": 105,
+  "quotes": 2424,
+  "candidates": 101,
+  "bars": 101,
+  "naverBars": 101,
   "kisBars": 0,
   "a1": {
-   "후보": 104,
+   "후보": 100,
    "분봉지연": 0,
    "사유": {
-    "고가에서 멂": 95,
+    "고가에서 멂": 90,
     "막판 거래량 비중 부족": 7,
-    "ok(수급 자료 없음)": 2
+    "ok(수급 자료 없음)": 2,
+    "등락률·거래대금 미달": 1
    },
    "수급자료": 0,
-   "막판비중_중앙값": 0.051,
+   "막판비중_중앙값": 0.045,
    "막판비중_최대": 0.314
   }
  },
