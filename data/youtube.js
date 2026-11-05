@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-05 21:15",
+ "asOf": "2026-11-06 06:03",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "-50% 손실일 때, GPT에 꼭 물어봐야 하는 질문 한 가지",
+     "publishedAt": "2026-11-05 23:14",
+     "url": "https://www.youtube.com/watch?v=abJE20aghdE"
+    },
+    {
+     "title": "테슬라 역대급 하락장 올 수 있다는 이유",
+     "publishedAt": "2026-11-05 23:00",
+     "url": "https://www.youtube.com/watch?v=ljOLWZSHLlQ"
+    },
+    {
      "title": "2027년을 앞두고 지금부터 주목해야 할 투자 포인트 3가지",
      "publishedAt": "2026-11-05 21:00",
      "url": "https://www.youtube.com/watch?v=HdT_BWUm0Bo"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "월가가 선거 전부터 ‘AI주 떨어지면 사라’고 한 이유",
      "publishedAt": "2026-11-05 18:30",
      "url": "https://www.youtube.com/watch?v=9Kzs-hf2hSM"
-    },
-    {
-     "title": "미국 중간선거 민주당 승리, 어떤 '환경주'가 오를까?!",
-     "publishedAt": "2026-11-05 17:30",
-     "url": "https://www.youtube.com/watch?v=pN58gAL9Scs"
-    },
-    {
-     "title": "발등에 불 떨어진, 트럼프 다시 전쟁 시작할까?!",
-     "publishedAt": "2026-11-05 17:00",
-     "url": "https://www.youtube.com/watch?v=m13kCslWMoY"
     }
    ]
   },
@@ -136,6 +136,11 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
+    {
+     "title": "나스닥 멸망...",
+     "publishedAt": "2026-11-06 01:38",
+     "url": "https://www.youtube.com/watch?v=1bunhEEP6Kk"
+    },
     {
      "title": "중간선거에 코스피 대폭락 #중간선거 #블루웨이브 #코스피",
      "publishedAt": "2026-11-05 10:45",
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "검은 월요일이 아닌 진짜 이유 #코스피 #인텔 #샘알트만",
      "publishedAt": "2026-11-02 13:30",
      "url": "https://www.youtube.com/watch?v=DzjJQcqP6sw"
-    },
-    {
-     "title": "AI 주식 아직 희망이 있다?",
-     "publishedAt": "2026-11-01 02:10",
-     "url": "https://www.youtube.com/watch?v=BbcxxMtijlM"
     }
    ]
   },
