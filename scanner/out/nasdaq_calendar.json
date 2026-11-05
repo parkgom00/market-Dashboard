@@ -1580,8 +1580,8 @@
   "kind": "earnings",
   "note": "",
   "epsForecast": "$0.22",
-  "eps": "",
-  "surprise": ""
+  "eps": "$0.15",
+  "surprise": "-31.82"
  },
  {
   "date": "2026-11-04",
@@ -1657,8 +1657,8 @@
   "kind": "earnings",
   "note": "",
   "epsForecast": "$1.46",
-  "eps": "",
-  "surprise": ""
+  "eps": "$1.45",
+  "surprise": "-0.68"
  },
  {
   "date": "2026-11-04",
@@ -1818,7 +1818,7 @@
   "title": "미국 비농업 고용",
   "level": "major",
   "kind": "econ",
-  "consensus": "60K",
+  "consensus": "64K",
   "actual": "",
   "previous": "46K"
  },

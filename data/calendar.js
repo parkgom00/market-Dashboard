@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-05 13:50",
+ "generatedAt": "2026-11-05 22:57",
  "events": [
   {
    "date": "2026-01-01",
@@ -516,7 +516,7 @@ window.DASH.calendar = {
    "title": "미국 고용보고서 발표 · 10월분 (한국시간 저녁)",
    "time": "21:30",
    "result": [
-    "미국 비농업 고용: 예상 60K · 이전 46K",
+    "미국 비농업 고용: 예상 64K · 이전 46K",
     "미국 실업률: 예상 4.2% · 이전 4.2%"
    ]
   },
@@ -2411,7 +2411,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "ARM 실적 발표",
    "result": [
-    "EPS 예상 $0.22"
+    "EPS 실제 $0.15 (예상 $0.22) · 서프라이즈 -31.82%"
    ]
   },
   {
