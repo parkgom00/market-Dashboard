@@ -1838,7 +1838,7 @@
   "title": "미시간 소비심리",
   "level": "macro",
   "kind": "econ",
-  "consensus": "47.8",
+  "consensus": "48.1",
   "actual": "",
   "previous": "48.0"
  },
@@ -1868,7 +1868,7 @@
   "title": "중국 CPI",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "0.8%",
   "actual": "",
   "previous": "0.2%"
  },
@@ -1878,7 +1878,7 @@
   "title": "미국 CPI",
   "level": "major",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "0.3%",
   "actual": "",
   "previous": "0.59%"
  },
@@ -1888,7 +1888,7 @@
   "title": "미국 근원 CPI",
   "level": "major",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "0.2%",
   "actual": "",
   "previous": "338.90"
  },
@@ -1910,7 +1910,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": ""
+  "previous": "189K"
  },
  {
   "date": "2026-11-12",
@@ -1918,7 +1918,7 @@
   "title": "미국 기존주택판매",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "3.88M",
   "actual": "",
   "previous": "1.5%"
  },
@@ -1949,7 +1949,7 @@
   "title": "미국 PPI",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "0.4%",
   "actual": "",
   "previous": "5.0%"
  },
@@ -1959,7 +1959,7 @@
   "title": "미국 근원 PPI",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "0.3%",
   "actual": "",
   "previous": "5.0%"
  },
@@ -2352,6 +2352,6 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": ""
+  "previous": "1.25%"
  }
 ]

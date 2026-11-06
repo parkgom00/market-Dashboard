@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-06 13:49",
+ "generatedAt": "2026-11-06 22:43",
  "events": [
   {
    "date": "2026-01-01",
@@ -527,8 +527,8 @@ window.DASH.calendar = {
    "title": "미국 소비자물가지수(CPI) 발표 · 10월분 (한국시간 저녁)",
    "time": "21:30",
    "result": [
-    "미국 CPI: 이전 0.59%",
-    "미국 근원 CPI: 이전 338.90"
+    "미국 CPI: 예상 0.3% · 이전 0.59%",
+    "미국 근원 CPI: 예상 0.2% · 이전 338.90"
    ]
   },
   {
@@ -2565,7 +2565,7 @@ window.DASH.calendar = {
    "title": "미시간 소비심리",
    "time": "23:00",
    "result": [
-    "예상 47.8 · 이전 48.0"
+    "예상 48.1 · 이전 48.0"
    ]
   },
   {
@@ -2595,7 +2595,7 @@ window.DASH.calendar = {
    "title": "중국 CPI",
    "time": "09:30",
    "result": [
-    "이전 0.2%"
+    "예상 0.8% · 이전 0.2%"
    ]
   },
   {
@@ -2613,7 +2613,10 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 신규 실업수당 청구",
-   "time": "21:30"
+   "time": "21:30",
+   "result": [
+    "이전 189K"
+   ]
   },
   {
    "date": "2026-11-12",
@@ -2622,7 +2625,7 @@ window.DASH.calendar = {
    "title": "미국 기존주택판매",
    "time": "23:00",
    "result": [
-    "이전 1.5%"
+    "예상 3.88M · 이전 1.5%"
    ]
   },
   {
@@ -2652,7 +2655,7 @@ window.DASH.calendar = {
    "title": "미국 PPI",
    "time": "21:30",
    "result": [
-    "이전 5.0%"
+    "예상 0.4% · 이전 5.0%"
    ]
   },
   {
@@ -2662,7 +2665,7 @@ window.DASH.calendar = {
    "title": "미국 근원 PPI",
    "time": "21:30",
    "result": [
-    "이전 5.0%"
+    "예상 0.3% · 이전 5.0%"
    ]
   },
   {
@@ -3002,7 +3005,10 @@ window.DASH.calendar = {
    "market": "JP",
    "title": "BOJ 금리결정",
    "time": "11:00",
-   "major": true
+   "major": true,
+   "result": [
+    "이전 1.25%"
+   ]
   }
  ]
 };
