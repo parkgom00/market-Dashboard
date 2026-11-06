@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-06 11:22",
+ "asOf": "2026-11-06 21:02",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,29 +9,29 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
-     "title": "“검은 금요일, 나스닥 5% 급락!” 극단적 공포에 빠진 증시… 과거 폭락장마다 진짜 바닥이 나왔던 결정적 신호는?ㅣ이주연 대표",
-     "publishedAt": "2026-11-06 10:22",
-     "url": "https://www.youtube.com/watch?v=jATNC1dKwZw"
+     "title": "[#찐시황] “지금은 쇠심줄처럼 버텨야 한다!” 비정상적인 주가폭락, 결국 정상화된다..  외국인 오늘도 선물 1.5조 매수한 진짜 이유! | 김동엽 대표",
+     "publishedAt": "2026-11-06 20:00",
+     "url": "https://www.youtube.com/watch?v=K-9W77Ub-08"
     },
     {
-     "title": "[#찐시황]  “한국증시, 단기 상승 추세는 무너졌다!” 지금은 돈을 지킬 때… 그런데 외국인은 장 막판 선물 2조 원을 왜 쓸어담았나? | 황유현 팀장",
-     "publishedAt": "2026-11-05 20:00",
-     "url": "https://www.youtube.com/watch?v=JR-qXe8O9Dw"
+     "title": "[#긴급시황] AI 반도체 폭락장, 펀더멘털 붕괴인가? 헤지펀드 강제 청산으로 인한 노이즈인가? | 이슬이 대표",
+     "publishedAt": "2026-11-06 18:30",
+     "url": "https://www.youtube.com/watch?v=3p46zdKHT9I"
     },
     {
-     "title": "[#긴급인터뷰]  “폭락장에 던지지 마라!” AI 반도체 슈퍼사이클은 아직 끝나지 않았다? / 속도조절, 앞으로 이렇게 간다ㅣ상지대 국가안보융합학과 소현철 교수",
-     "publishedAt": "2026-11-05 19:00",
-     "url": "https://www.youtube.com/watch?v=Pl2LIxtFNB0"
+     "title": "[#긴급시황] “공매도 압박, 결국 선 넘었다!” 한시적 공매도 제한 필요..  삼성전자·SK하이닉스  손절하기 전 반드시 확인할 ‘이 신호’!   | 주식황금돼지 이건희 대표",
+     "publishedAt": "2026-11-06 17:30",
+     "url": "https://www.youtube.com/watch?v=YfCWFPKMFSw"
     },
     {
-     "title": "[#긴급시황]  “헤지펀드마저 역대급 손실!” 월가 큰 손들은 지금 팔까, 버틸까? / 하락장에서 살아남는 투자전략 | 이주연 대표",
-     "publishedAt": "2026-11-05 17:30",
-     "url": "https://www.youtube.com/watch?v=VuI9rdTz1z4"
+     "title": "“민주당 압승이 불러올 대반전!” 트럼프 결국 전쟁 끝내나? 삼성전자·SK하이닉스 폭락은 과도한 공포일까?ㅣ소현철 교수",
+     "publishedAt": "2026-11-06 16:30",
+     "url": "https://www.youtube.com/watch?v=2lhDTERVeGE"
     },
     {
-     "title": "[#긴급시황]  “외국인 3조 원 투매, 하락에까지 베팅?” 공매도·인버스 급증 우려… 삼전·SK하닉 손절 전, 꼭 확인할 ‘지지선’ | 주식황금돼지 이건희 대표",
-     "publishedAt": "2026-11-05 16:15",
-     "url": "https://www.youtube.com/watch?v=BKxbANOXXkw"
+     "title": "[#긴급시황]  “외국인 200조 매도, 진짜 이유는 따로 있다” 삼성전자·SK하이닉스 주가 폭락 후 밑 꼬리… 바닥 확인한걸까? | 박근형 부장",
+     "publishedAt": "2026-11-06 15:36",
+     "url": "https://www.youtube.com/watch?v=XGNLuRPiKg0"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(아이온큐) 수주잔고가 계속 늘어난다!!!",
+     "publishedAt": "2026-11-06 15:28",
+     "url": "https://www.youtube.com/watch?v=EN7IlomIaDw"
+    },
     {
      "title": "(시황분석) SOXL투자자들 물량 다털어냈다!!!",
      "publishedAt": "2026-11-06 06:22",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(미국선거) 텍사스 상원,주지사가 민주당이기에 데이터센터 지연되나?",
      "publishedAt": "2026-11-04 15:20",
      "url": "https://www.youtube.com/watch?v=VqQvTB2USfY"
-    },
-    {
-     "title": "(시황분석) AMD,슈마컴 호실적이 반도체 상승 이끌어 가나?",
-     "publishedAt": "2026-11-04 06:39",
-     "url": "https://www.youtube.com/watch?v=-0drUBUC-1I"
     }
    ]
   },
@@ -72,6 +72,16 @@ window.DASH.youtube = {
    "channelId": "UCQW05vzztAlwV54WL3pjGBQ",
    "handle": "@GODofIT_official",
    "videos": [
+    {
+     "title": "AI 데이터센터 속도 조절론? 앤트로픽이 행동으로 보여준 대답은?",
+     "publishedAt": "2026-11-06 19:00",
+     "url": "https://www.youtube.com/watch?v=Jk3DHvTkl0g"
+    },
+    {
+     "title": "[실전 투자 스터디] 리스크 관리의 중요성 진검승부!",
+     "publishedAt": "2026-11-06 18:00",
+     "url": "https://www.youtube.com/watch?v=rjMG9TYYASY"
+    },
     {
      "title": "[아테네] 반도체 망했나요? 제 솔직한 심정은...",
      "publishedAt": "2026-11-05 19:00",
@@ -86,16 +96,6 @@ window.DASH.youtube = {
      "title": "[또 긴급] AI에 대해 커지는 의심, 메모리 업황을 냉정하게 이야기하면…",
      "publishedAt": "2026-11-03 19:05",
      "url": "https://www.youtube.com/watch?v=b8M-1vTheP0"
-    },
-    {
-     "title": "[아테네] 반도체 흔드는 헤지펀드, 결국 메모리는 이렇게 될 겁니다!!",
-     "publishedAt": "2026-11-02 19:00",
-     "url": "https://www.youtube.com/watch?v=cWeZhrrACS4"
-    },
-    {
-     "title": "[몰아보기] 투자자들이 착각하고 있어요! 외국인은 이 때 돌아옵니다!!",
-     "publishedAt": "2026-11-01",
-     "url": "https://www.youtube.com/watch?v=FdCwAmEgtOY"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "테슬라 역대급 하락장 올 수 있다는 이유",
-     "publishedAt": "2026-11-05 23:00",
-     "url": "https://www.youtube.com/watch?v=ljOLWZSHLlQ"
+     "title": "2018년 트럼프 1기 중간선거와, 연말 증시 급락, 전부 뜯어봤습니다",
+     "publishedAt": "2026-11-06 20:30",
+     "url": "https://www.youtube.com/watch?v=RBwnQi1ZHic"
     },
     {
-     "title": "2027년을 앞두고 지금부터 주목해야 할 투자 포인트 3가지",
-     "publishedAt": "2026-11-05 21:00",
-     "url": "https://www.youtube.com/watch?v=HdT_BWUm0Bo"
+     "title": "현재 월가에서 준비 중인 '트럼프 탄핵' 시나리오",
+     "publishedAt": "2026-11-06 18:30",
+     "url": "https://www.youtube.com/watch?v=kx3F4X6skkA"
     },
     {
-     "title": "발등에 불 떨어진, 트럼프 다시 전쟁 시작할까?!",
-     "publishedAt": "2026-11-05 17:22",
-     "url": "https://www.youtube.com/watch?v=m13kCslWMoY"
+     "title": "\"다시 오를 수 있다고?!\" 월가 족집게가 콕 집은 폭락장 증시 전망",
+     "publishedAt": "2026-11-06 17:00",
+     "url": "https://www.youtube.com/watch?v=5hh4zCU5bGk"
     },
     {
-     "title": "월가가 선거 전부터 ‘AI주 떨어지면 사라’고 한 이유",
-     "publishedAt": "2026-11-05 16:22",
-     "url": "https://www.youtube.com/watch?v=q9Wpy7JBOK0"
+     "title": "코스피 급락에 더 빚내서 투자하라는 '한국정부'",
+     "publishedAt": "2026-11-06 16:05",
+     "url": "https://www.youtube.com/watch?v=5QmeVKpGzXk"
     },
     {
-     "title": "이번 중간선거가 과거보다, 더 충격적인 이유",
-     "publishedAt": "2026-11-05 14:22",
-     "url": "https://www.youtube.com/watch?v=k7HQHJaWSoY"
+     "title": "전례 없는 나스닥 대폭락, 왜 떨어졌을까",
+     "publishedAt": "2026-11-06 15:37",
+     "url": "https://www.youtube.com/watch?v=UNHKfXmq1w4"
     }
    ]
   },
@@ -137,29 +137,29 @@ window.DASH.youtube = {
    "handle": "@김단테",
    "videos": [
     {
+     "title": "AI 주식 멸망 (ft. 시트리니)",
+     "publishedAt": "2026-11-06 17:57",
+     "url": "https://www.youtube.com/watch?v=iV72GtWgsqg"
+    },
+    {
+     "title": "나스낙 코스피가 금융위기급 폭락을 한 이유 #나스닥 #금융위기 #코스피",
+     "publishedAt": "2026-11-06 13:59",
+     "url": "https://www.youtube.com/watch?v=oMpAXKgnR4g"
+    },
+    {
      "title": "나스닥 멸망...",
      "publishedAt": "2026-11-06 01:38",
      "url": "https://www.youtube.com/watch?v=1bunhEEP6Kk"
     },
     {
-     "title": "AI 주식 아직 희망이 있다?",
-     "publishedAt": "2026-11-01",
-     "url": "https://www.youtube.com/watch?v=BbcxxMtijlM"
+     "title": "중간선거에 코스피 대폭락 #중간선거 #블루웨이브 #코스피",
+     "publishedAt": "2026-11-05 10:45",
+     "url": "https://www.youtube.com/watch?v=3uSiJ-uYlhY"
     },
     {
-     "title": "AI 주식 시즌 종료인가?",
-     "publishedAt": "2026-10-31",
-     "url": "https://www.youtube.com/watch?v=G3__vlk5OcM"
-    },
-    {
-     "title": "구글의 종말",
-     "publishedAt": "2026-10-30",
-     "url": "https://www.youtube.com/watch?v=O9lLR-DSZKg"
-    },
-    {
-     "title": "드디어 밝혀진 앤트로픽의 비밀. 심층분석 들어갑니다.",
-     "publishedAt": "2026-10-27",
-     "url": "https://www.youtube.com/watch?v=n8zGtiTYxMI"
+     "title": "미국 중간선거에 코스피 개박살? #중간선거 #블루웨이브 #코스피",
+     "publishedAt": "2026-11-04 12:23",
+     "url": "https://www.youtube.com/watch?v=_HIPylV9BUs"
     }
    ]
   },
@@ -179,11 +179,6 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=6Zq7p54WTNI"
     },
     {
-     "title": "인텔-30% 알파벳-12% 쇼크, 선거 후 반전 가능할까/대량 전사자 매장 훈련? 더 큰 지정학 충격 오는걸까",
-     "publishedAt": "2026-11-02",
-     "url": "https://www.youtube.com/watch?v=a2-adRUJvTs"
-    },
-    {
      "title": "AI인프라 쇼크 어떻게 대응해야 할까, 다음 승자까지 마음 편하게 투자하는 법",
      "publishedAt": "2026-10-30 18:33",
      "url": "https://www.youtube.com/watch?v=DBm1cqv3avc"
@@ -192,6 +187,11 @@ window.DASH.youtube = {
      "title": "큰 손이 된 키덜트 덕에 주식도 부활? 장난감 사는 어른 시대의 수혜주들",
      "publishedAt": "2026-10-29 19:40",
      "url": "https://www.youtube.com/watch?v=MXwB5P9mJxA"
+    },
+    {
+     "title": "주식 안 팔아도 세금 내라? 사상 초유의 억만장자세 실험 현실 될까",
+     "publishedAt": "2026-10-28 20:54",
+     "url": "https://www.youtube.com/watch?v=_gMyqLP0928"
     }
    ]
   }
