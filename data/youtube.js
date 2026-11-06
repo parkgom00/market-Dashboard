@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-06 06:03",
+ "asOf": "2026-11-06 11:22",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“검은 금요일, 나스닥 5% 급락!” 극단적 공포에 빠진 증시… 과거 폭락장마다 진짜 바닥이 나왔던 결정적 신호는?ㅣ이주연 대표",
+     "publishedAt": "2026-11-06 10:22",
+     "url": "https://www.youtube.com/watch?v=jATNC1dKwZw"
+    },
     {
      "title": "[#찐시황]  “한국증시, 단기 상승 추세는 무너졌다!” 지금은 돈을 지킬 때… 그런데 외국인은 장 막판 선물 2조 원을 왜 쓸어담았나? | 황유현 팀장",
      "publishedAt": "2026-11-05 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황]  “외국인 3조 원 투매, 하락에까지 베팅?” 공매도·인버스 급증 우려… 삼전·SK하닉 손절 전, 꼭 확인할 ‘지지선’ | 주식황금돼지 이건희 대표",
      "publishedAt": "2026-11-05 16:15",
      "url": "https://www.youtube.com/watch?v=BKxbANOXXkw"
-    },
-    {
-     "title": "[#긴급시황]  “코스피 25년 만의 역사적 저평가?” 삼성전자·SK하이닉스 주가 폭락은 기회… 중간 선거 후, 빅테크만 웃는 이유!   | 박근형 부장",
-     "publishedAt": "2026-11-05 15:07",
-     "url": "https://www.youtube.com/watch?v=fHfMsZB8W4Q"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) SOXL투자자들 물량 다털어냈다!!!",
+     "publishedAt": "2026-11-06 06:22",
+     "url": "https://www.youtube.com/watch?v=WwQCIVOO8fE"
+    },
     {
      "title": "(반도체) 반도체는 내려갈때 우리가 생각지도 못할 정도로 내려갈수 있다.",
      "publishedAt": "2026-11-05 15:37",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) AMD,슈마컴 호실적이 반도체 상승 이끌어 가나?",
      "publishedAt": "2026-11-04 06:39",
      "url": "https://www.youtube.com/watch?v=-0drUBUC-1I"
-    },
-    {
-     "title": "(팔란티어) 하락에도 들고가야 하나?",
-     "publishedAt": "2026-11-03 15:09",
-     "url": "https://www.youtube.com/watch?v=W0q3kFy4xR4"
     }
    ]
   },
@@ -93,9 +93,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=cWeZhrrACS4"
     },
     {
-     "title": "[실전 투자 스터디] 국내 주식 가치가 있을까요?",
-     "publishedAt": "2026-11-02 16:30",
-     "url": "https://www.youtube.com/watch?v=orqaMN7uY_8"
+     "title": "[몰아보기] 투자자들이 착각하고 있어요! 외국인은 이 때 돌아옵니다!!",
+     "publishedAt": "2026-11-01",
+     "url": "https://www.youtube.com/watch?v=FdCwAmEgtOY"
     }
    ]
   },
@@ -104,11 +104,6 @@ window.DASH.youtube = {
    "channelId": "UC7usMJDHmtbs_oegmzQKKMA",
    "handle": "@경제사냥꾼",
    "videos": [
-    {
-     "title": "-50% 손실일 때, GPT에 꼭 물어봐야 하는 질문 한 가지",
-     "publishedAt": "2026-11-05 23:14",
-     "url": "https://www.youtube.com/watch?v=abJE20aghdE"
-    },
     {
      "title": "테슬라 역대급 하락장 올 수 있다는 이유",
      "publishedAt": "2026-11-05 23:00",
@@ -120,14 +115,19 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=HdT_BWUm0Bo"
     },
     {
-     "title": "\"머스크 구속?!\" 테슬라 역대급 하락장 올 수 있다는 이유",
-     "publishedAt": "2026-11-05 19:30",
-     "url": "https://www.youtube.com/watch?v=cAzE6TRNxl8"
+     "title": "발등에 불 떨어진, 트럼프 다시 전쟁 시작할까?!",
+     "publishedAt": "2026-11-05 17:22",
+     "url": "https://www.youtube.com/watch?v=m13kCslWMoY"
     },
     {
      "title": "월가가 선거 전부터 ‘AI주 떨어지면 사라’고 한 이유",
-     "publishedAt": "2026-11-05 18:30",
-     "url": "https://www.youtube.com/watch?v=9Kzs-hf2hSM"
+     "publishedAt": "2026-11-05 16:22",
+     "url": "https://www.youtube.com/watch?v=q9Wpy7JBOK0"
+    },
+    {
+     "title": "이번 중간선거가 과거보다, 더 충격적인 이유",
+     "publishedAt": "2026-11-05 14:22",
+     "url": "https://www.youtube.com/watch?v=k7HQHJaWSoY"
     }
    ]
   },
@@ -142,24 +142,24 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=1bunhEEP6Kk"
     },
     {
-     "title": "중간선거에 코스피 대폭락 #중간선거 #블루웨이브 #코스피",
-     "publishedAt": "2026-11-05 10:45",
-     "url": "https://www.youtube.com/watch?v=3uSiJ-uYlhY"
+     "title": "AI 주식 아직 희망이 있다?",
+     "publishedAt": "2026-11-01",
+     "url": "https://www.youtube.com/watch?v=BbcxxMtijlM"
     },
     {
-     "title": "미국 중간선거에 코스피 개박살? #중간선거 #블루웨이브 #코스피",
-     "publishedAt": "2026-11-04 12:23",
-     "url": "https://www.youtube.com/watch?v=_HIPylV9BUs"
+     "title": "AI 주식 시즌 종료인가?",
+     "publishedAt": "2026-10-31",
+     "url": "https://www.youtube.com/watch?v=G3__vlk5OcM"
     },
     {
-     "title": "왜 또 아픈 상처에 소금을 뿌리십니까? #코스피 #하이닉스 #삼성전자",
-     "publishedAt": "2026-11-03 16:19",
-     "url": "https://www.youtube.com/watch?v=tz0nhO93ohc"
+     "title": "구글의 종말",
+     "publishedAt": "2026-10-30",
+     "url": "https://www.youtube.com/watch?v=O9lLR-DSZKg"
     },
     {
-     "title": "검은 월요일이 아닌 진짜 이유 #코스피 #인텔 #샘알트만",
-     "publishedAt": "2026-11-02 13:30",
-     "url": "https://www.youtube.com/watch?v=DzjJQcqP6sw"
+     "title": "드디어 밝혀진 앤트로픽의 비밀. 심층분석 들어갑니다.",
+     "publishedAt": "2026-10-27",
+     "url": "https://www.youtube.com/watch?v=n8zGtiTYxMI"
     }
    ]
   },
@@ -179,6 +179,11 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=6Zq7p54WTNI"
     },
     {
+     "title": "인텔-30% 알파벳-12% 쇼크, 선거 후 반전 가능할까/대량 전사자 매장 훈련? 더 큰 지정학 충격 오는걸까",
+     "publishedAt": "2026-11-02",
+     "url": "https://www.youtube.com/watch?v=a2-adRUJvTs"
+    },
+    {
      "title": "AI인프라 쇼크 어떻게 대응해야 할까, 다음 승자까지 마음 편하게 투자하는 법",
      "publishedAt": "2026-10-30 18:33",
      "url": "https://www.youtube.com/watch?v=DBm1cqv3avc"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "큰 손이 된 키덜트 덕에 주식도 부활? 장난감 사는 어른 시대의 수혜주들",
      "publishedAt": "2026-10-29 19:40",
      "url": "https://www.youtube.com/watch?v=MXwB5P9mJxA"
-    },
-    {
-     "title": "주식 안 팔아도 세금 내라? 사상 초유의 억만장자세 실험 현실 될까",
-     "publishedAt": "2026-10-28 20:54",
-     "url": "https://www.youtube.com/watch?v=_gMyqLP0928"
     }
    ]
   }
