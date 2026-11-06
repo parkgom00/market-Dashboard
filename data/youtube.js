@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-06 21:02",
+ "asOf": "2026-11-07 04:19",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(11월 9일~13일)",
+     "publishedAt": "2026-11-06 22:30",
+     "url": "https://www.youtube.com/watch?v=XIXAJJ0cywc"
+    },
+    {
+     "title": "엔비디아 CEO 젠슨 황이 공개한 충격적인 AI 활용법",
+     "publishedAt": "2026-11-06 21:00",
+     "url": "https://www.youtube.com/watch?v=1vLWKG4IQqk"
+    },
+    {
      "title": "2018년 트럼프 1기 중간선거와, 연말 증시 급락, 전부 뜯어봤습니다",
      "publishedAt": "2026-11-06 20:30",
      "url": "https://www.youtube.com/watch?v=RBwnQi1ZHic"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "\"다시 오를 수 있다고?!\" 월가 족집게가 콕 집은 폭락장 증시 전망",
      "publishedAt": "2026-11-06 17:00",
      "url": "https://www.youtube.com/watch?v=5hh4zCU5bGk"
-    },
-    {
-     "title": "코스피 급락에 더 빚내서 투자하라는 '한국정부'",
-     "publishedAt": "2026-11-06 16:05",
-     "url": "https://www.youtube.com/watch?v=5QmeVKpGzXk"
-    },
-    {
-     "title": "전례 없는 나스닥 대폭락, 왜 떨어졌을까",
-     "publishedAt": "2026-11-06 15:37",
-     "url": "https://www.youtube.com/watch?v=UNHKfXmq1w4"
     }
    ]
   },
@@ -136,6 +136,11 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
+    {
+     "title": "마크 미너비니 \"나스닥 반등은 가짜\"",
+     "publishedAt": "2026-11-07 03:47",
+     "url": "https://www.youtube.com/watch?v=-J4GMD5iwbI"
+    },
     {
      "title": "AI 주식 멸망 (ft. 시트리니)",
      "publishedAt": "2026-11-06 17:57",
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "중간선거에 코스피 대폭락 #중간선거 #블루웨이브 #코스피",
      "publishedAt": "2026-11-05 10:45",
      "url": "https://www.youtube.com/watch?v=3uSiJ-uYlhY"
-    },
-    {
-     "title": "미국 중간선거에 코스피 개박살? #중간선거 #블루웨이브 #코스피",
-     "publishedAt": "2026-11-04 12:23",
-     "url": "https://www.youtube.com/watch?v=_HIPylV9BUs"
     }
    ]
   },
