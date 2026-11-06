@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-06 22:43",
+ "generatedAt": "2026-11-07 07:43",
  "events": [
   {
    "date": "2026-01-01",
@@ -516,8 +516,8 @@ window.DASH.calendar = {
    "title": "미국 고용보고서 발표 · 10월분 (한국시간 저녁)",
    "time": "21:30",
    "result": [
-    "미국 비농업 고용: 예상 64K · 이전 46K",
-    "미국 실업률: 예상 4.2% · 이전 4.2%"
+    "미국 비농업 고용: 실제 159K · 예상 64K · 이전 78K",
+    "미국 실업률: 실제 4.1% · 예상 4.2% · 이전 4.2%"
    ]
   },
   {
@@ -565,7 +565,10 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "FOMC 금리 결정 발표 (한국시간 새벽, 미국 12/9)",
-   "time": "03:00"
+   "time": "03:00",
+   "result": [
+    "FOMC 금리결정: 이전 4.00%"
+   ]
   },
   {
    "date": "2026-12-10",
@@ -2565,7 +2568,7 @@ window.DASH.calendar = {
    "title": "미시간 소비심리",
    "time": "23:00",
    "result": [
-    "예상 48.1 · 이전 48.0"
+    "실제 51.0 · 예상 48.1 · 이전 48.0"
    ]
   },
   {
@@ -2816,7 +2819,7 @@ window.DASH.calendar = {
    "title": "미시간 소비심리",
    "time": "23:00",
    "result": [
-    "이전 48.0"
+    "이전 51.0"
    ]
   },
   {
@@ -2917,6 +2920,16 @@ window.DASH.calendar = {
    "major": true,
    "result": [
     "이전 3.00%"
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 무역수지",
+   "time": "21:30",
+   "result": [
+    "이전 -135.08B"
    ]
   },
   {

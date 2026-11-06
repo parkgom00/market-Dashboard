@@ -1819,8 +1819,8 @@
   "level": "major",
   "kind": "econ",
   "consensus": "64K",
-  "actual": "",
-  "previous": "46K"
+  "actual": "159K",
+  "previous": "78K"
  },
  {
   "date": "2026-11-06",
@@ -1829,7 +1829,7 @@
   "level": "major",
   "kind": "econ",
   "consensus": "4.2%",
-  "actual": "",
+  "actual": "4.1%",
   "previous": "4.2%"
  },
  {
@@ -1839,7 +1839,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "48.1",
-  "actual": "",
+  "actual": "51.0",
   "previous": "48.0"
  },
  {
@@ -2113,7 +2113,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "48.0"
+  "previous": "51.0"
  },
  {
   "date": "2026-11-21",
@@ -2237,6 +2237,16 @@
   "previous": "3.00%"
  },
  {
+  "date": "2026-11-27",
+  "time": "21:30",
+  "title": "미국 무역수지",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "-135.08B"
+ },
+ {
   "date": "2026-12-01",
   "time": "",
   "title": "마벨 실적 발표",
@@ -2320,7 +2330,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": ""
+  "previous": "4.00%"
  },
  {
   "date": "2026-12-16",
