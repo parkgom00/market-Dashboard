@@ -450,5 +450,25 @@
    "accumulatedTradingValueRaw": "57873000000",
    "marketValueRaw": "9103305328000"
   }
+ ],
+ "industryGroups": [
+  {
+   "no": 329,
+   "name": "도로와철도운송",
+   "totalCount": 8,
+   "changeRate": "5.73",
+   "riseCount": 3,
+   "fallCount": 5,
+   "steadyCount": 0
+  },
+  {
+   "no": 271,
+   "name": "레저용장비와제품",
+   "totalCount": 13,
+   "changeRate": "2.40",
+   "riseCount": 4,
+   "fallCount": 8,
+   "steadyCount": 1
+  }
  ]
 }
