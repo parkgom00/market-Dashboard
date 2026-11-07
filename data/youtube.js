@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-08 03:44",
+ "asOf": "2026-11-08 08:37",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급인터뷰] “美 반도체주 극적 급반등!” 데드캣 바운스인가, 진짜 바닥인가? 월요일 삼성전자·SK하이닉스 안심해도 될까?ㅣ 아이에셋 김태성 본부장",
+     "publishedAt": "2026-11-08 08:31",
+     "url": "https://www.youtube.com/watch?v=-IwG8xso3qs"
+    },
     {
      "title": "[#찐시황]  “美 반도체 4% 급등·외국인 선물 4조 원 매수!” 다음 주 코스피 상승 반전 시작되나? 삼성전자·SK하이닉스 이제 안심해도 될까?  | 이주연 대표",
      "publishedAt": "2026-11-07 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[특집라이브] 종목상담 / “폭락하던 美 기술주가 살아났다!” 필반도체 +4.2% 급반등… 삼전·하닉 이제 안심해도 되나?  | 이건희, 김태성, 임수열",
      "publishedAt": "2026-11-07 14:11",
      "url": "https://www.youtube.com/watch?v=zzxFz5qEhtw"
-    },
-    {
-     "title": "“주가폭락했다고 덥석 사지 마라!” 코스피·코스닥 급락…  지금은 저가 매수보다 현금을 지켜야 하는 이유!ㅣ 이주연 대표",
-     "publishedAt": "2026-11-07 10:30",
-     "url": "https://www.youtube.com/watch?v=VSNsHsJa01o"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(주간시황) 개인투매 다 왔나? vs 기관자금 유입?",
+     "publishedAt": "2026-11-08 07:37",
+     "url": "https://www.youtube.com/watch?v=evuL4Y85Tjg"
+    },
     {
      "title": "(시황분석) 아직은 눈치보며 실매수세는 안들어왔다!!!",
      "publishedAt": "2026-11-07 08:54",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(반도체) 반도체는 내려갈때 우리가 생각지도 못할 정도로 내려갈수 있다.",
      "publishedAt": "2026-11-05 15:37",
      "url": "https://www.youtube.com/watch?v=hyyqFMhDuD4"
-    },
-    {
-     "title": "(시황분석) 데이터센터 종목중 반도체,전력만 빠졌다",
-     "publishedAt": "2026-11-05 06:29",
-     "url": "https://www.youtube.com/watch?v=DI2gAfFvT2Q"
     }
    ]
   },
@@ -83,11 +83,6 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=Jk3DHvTkl0g"
     },
     {
-     "title": "[실전 투자 스터디] 리스크 관리의 중요성 진검승부!",
-     "publishedAt": "2026-11-06 18:00",
-     "url": "https://www.youtube.com/watch?v=rjMG9TYYASY"
-    },
-    {
      "title": "[아테네] 반도체 망했나요? 제 솔직한 심정은...",
      "publishedAt": "2026-11-05 19:00",
      "url": "https://www.youtube.com/watch?v=a-5NNI1ZNgA"
@@ -96,6 +91,11 @@ window.DASH.youtube = {
      "title": "[아테네] 시총의 10%를 돌려준다? 메모리 주식 멀티플이 바뀐다!!",
      "publishedAt": "2026-11-04 19:00",
      "url": "https://www.youtube.com/watch?v=0_WhwRl1mVY"
+    },
+    {
+     "title": "[또 긴급] AI에 대해 커지는 의심, 메모리 업황을 냉정하게 이야기하면…",
+     "publishedAt": "2026-11-04",
+     "url": "https://www.youtube.com/watch?v=b8M-1vTheP0"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "미국 투자자들이 꼭 알아야 할 다음주, 미국 투자 포인트(11.9~11.13)",
-     "publishedAt": "2026-11-07 17:00",
-     "url": "https://www.youtube.com/watch?v=lDPmoUvH8bE"
-    },
-    {
-     "title": "한국 투자자들이 꼭 알아야 할 다음주, 한국 투자 포인트(11.9~11.13)",
-     "publishedAt": "2026-11-07 15:12",
-     "url": "https://www.youtube.com/watch?v=PhvFT4L_0SI"
-    },
-    {
      "title": "투자자들이 꼭 알아야 할 '엔비디아 AI 서울' 핵심 투자 포인트",
      "publishedAt": "2026-11-07 12:00",
      "url": "https://www.youtube.com/watch?v=cRE_1Gor0ow"
     },
     {
-     "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(11월 9일~13일)",
-     "publishedAt": "2026-11-06 22:30",
-     "url": "https://www.youtube.com/watch?v=XIXAJJ0cywc"
+     "title": "2018년 트럼프 1기 중간선거와, 연말 증시 급락, 전부 뜯어봤습니다",
+     "publishedAt": "2026-11-07",
+     "url": "https://www.youtube.com/watch?v=RBwnQi1ZHic"
     },
     {
-     "title": "엔비디아 CEO 젠슨 황이 공개한 충격적인 AI 활용법",
-     "publishedAt": "2026-11-06 21:00",
-     "url": "https://www.youtube.com/watch?v=1vLWKG4IQqk"
+     "title": "현재 월가에서 준비 중인 '트럼프 탄핵' 시나리오",
+     "publishedAt": "2026-11-07",
+     "url": "https://www.youtube.com/watch?v=kx3F4X6skkA"
+    },
+    {
+     "title": "\"다시 오를 수 있다고?!\" 월가 족집게가 콕 집은 폭락장 증시 전망",
+     "publishedAt": "2026-11-07",
+     "url": "https://www.youtube.com/watch?v=5hh4zCU5bGk"
+    },
+    {
+     "title": "전례 없는 나스닥 대폭락, 왜 떨어졌을까",
+     "publishedAt": "2026-11-07",
+     "url": "https://www.youtube.com/watch?v=UNHKfXmq1w4"
     }
    ]
   },
@@ -147,19 +147,19 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=iV72GtWgsqg"
     },
     {
-     "title": "나스낙 코스피가 금융위기급 폭락을 한 이유 #나스닥 #금융위기 #코스피",
-     "publishedAt": "2026-11-06 13:59",
-     "url": "https://www.youtube.com/watch?v=oMpAXKgnR4g"
-    },
-    {
      "title": "나스닥 멸망...",
      "publishedAt": "2026-11-06 01:38",
      "url": "https://www.youtube.com/watch?v=1bunhEEP6Kk"
     },
     {
-     "title": "중간선거에 코스피 대폭락 #중간선거 #블루웨이브 #코스피",
-     "publishedAt": "2026-11-05 10:45",
-     "url": "https://www.youtube.com/watch?v=3uSiJ-uYlhY"
+     "title": "AI 주식 아직 희망이 있다?",
+     "publishedAt": "2026-11-01",
+     "url": "https://www.youtube.com/watch?v=BbcxxMtijlM"
+    },
+    {
+     "title": "AI 주식 시즌 종료인가?",
+     "publishedAt": "2026-10-31",
+     "url": "https://www.youtube.com/watch?v=G3__vlk5OcM"
     }
    ]
   },
@@ -179,6 +179,11 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=6Zq7p54WTNI"
     },
     {
+     "title": "인텔-30% 알파벳-12% 쇼크, 선거 후 반전 가능할까/대량 전사자 매장 훈련? 더 큰 지정학 충격 오는걸까",
+     "publishedAt": "2026-11-02",
+     "url": "https://www.youtube.com/watch?v=a2-adRUJvTs"
+    },
+    {
      "title": "AI인프라 쇼크 어떻게 대응해야 할까, 다음 승자까지 마음 편하게 투자하는 법",
      "publishedAt": "2026-10-30 18:33",
      "url": "https://www.youtube.com/watch?v=DBm1cqv3avc"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "큰 손이 된 키덜트 덕에 주식도 부활? 장난감 사는 어른 시대의 수혜주들",
      "publishedAt": "2026-10-29 19:40",
      "url": "https://www.youtube.com/watch?v=MXwB5P9mJxA"
-    },
-    {
-     "title": "주식 안 팔아도 세금 내라? 사상 초유의 억만장자세 실험 현실 될까",
-     "publishedAt": "2026-10-28 20:54",
-     "url": "https://www.youtube.com/watch?v=_gMyqLP0928"
     }
    ]
   }
