@@ -1951,7 +1951,7 @@
   "kind": "econ",
   "consensus": "0.4%",
   "actual": "",
-  "previous": "5.0%"
+  "previous": "0.5%"
  },
  {
   "date": "2026-11-13",
@@ -1971,7 +1971,7 @@
   "kind": "econ",
   "consensus": "42.50B",
   "actual": "",
-  "previous": "49.97B"
+  "previous": "42.50B"
  },
  {
   "date": "2026-11-15",
@@ -1981,7 +1981,7 @@
   "kind": "econ",
   "consensus": "36.0%",
   "actual": "",
-  "previous": "26.0%"
+  "previous": "36.0%"
  },
  {
   "date": "2026-11-15",
@@ -1991,7 +1991,7 @@
   "kind": "econ",
   "consensus": "93.7%",
   "actual": "",
-  "previous": "83.7%"
+  "previous": "93.7%"
  },
  {
   "date": "2026-11-17",
