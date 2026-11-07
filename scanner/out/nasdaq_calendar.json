@@ -1908,7 +1908,7 @@
   "title": "미국 신규 실업수당 청구",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "194K",
   "actual": "",
   "previous": "189K"
  },
@@ -1918,9 +1918,9 @@
   "title": "미국 기존주택판매",
   "level": "macro",
   "kind": "econ",
-  "consensus": "3.88M",
+  "consensus": "3.86M",
   "actual": "",
-  "previous": "1.5%"
+  "previous": "3.99M"
  },
  {
   "date": "2026-11-13",
@@ -1961,7 +1961,7 @@
   "kind": "econ",
   "consensus": "0.3%",
   "actual": "",
-  "previous": "5.0%"
+  "previous": "0.7%"
  },
  {
   "date": "2026-11-15",
