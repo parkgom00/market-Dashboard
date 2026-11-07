@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-07 09:05",
+ "asOf": "2026-11-07 14:52",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[특집라이브] 종목상담 / “폭락하던 美 기술주가 살아났다!” 필반도체 +4.2% 급반등… 삼전·하닉 이제 안심해도 되나?  | 이건희, 김태성, 임수열",
+     "publishedAt": "2026-11-07 14:05",
+     "url": "https://www.youtube.com/watch?v=zzxFz5qEhtw"
+    },
+    {
+     "title": "“주가폭락했다고 덥석 사지 마라!” 코스피·코스닥 급락…  지금은 저가 매수보다 현금을 지켜야 하는 이유!ㅣ 이주연 대표",
+     "publishedAt": "2026-11-07 10:52",
+     "url": "https://www.youtube.com/watch?v=VSNsHsJa01o"
+    },
     {
      "title": "“검은 금요일 폭락장의 진짜 범인!” 美 사모펀드·헤지펀드 레버리지 청산… 다음 주가 관건이다?ㅣ 오로라투자자문 이지환 대표",
      "publishedAt": "2026-11-07 08:30",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] AI 반도체 폭락장, 펀더멘털 붕괴인가? 헤지펀드 강제 청산으로 인한 노이즈인가? | 이슬이 대표",
      "publishedAt": "2026-11-06 18:30",
      "url": "https://www.youtube.com/watch?v=3p46zdKHT9I"
-    },
-    {
-     "title": "[#긴급시황] “공매도 압박, 결국 선 넘었다!” 한시적 공매도 제한 필요..  삼성전자·SK하이닉스  손절하기 전 반드시 확인할 ‘이 신호’!   | 주식황금돼지 이건희 대표",
-     "publishedAt": "2026-11-06 17:30",
-     "url": "https://www.youtube.com/watch?v=YfCWFPKMFSw"
-    },
-    {
-     "title": "“민주당 압승이 불러올 대반전!” 트럼프 결국 전쟁 끝내나? 삼성전자·SK하이닉스 폭락은 과도한 공포일까?ㅣ소현철 교수",
-     "publishedAt": "2026-11-06 16:30",
-     "url": "https://www.youtube.com/watch?v=2lhDTERVeGE"
     }
    ]
   },
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "[몰아보기] 주가 50% 상승 vs 이익 반의 반토막... 반도체를 보는 엇갈린 시선!!",
+     "publishedAt": "2026-11-07 14:00",
+     "url": "https://www.youtube.com/watch?v=kxP76itmszs"
+    },
+    {
      "title": "AI 데이터센터 속도 조절론? 앤트로픽이 행동으로 보여준 대답은?",
      "publishedAt": "2026-11-06 19:00",
      "url": "https://www.youtube.com/watch?v=Jk3DHvTkl0g"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[또 긴급] AI에 대해 커지는 의심, 메모리 업황을 냉정하게 이야기하면…",
      "publishedAt": "2026-11-03 19:05",
      "url": "https://www.youtube.com/watch?v=b8M-1vTheP0"
-    },
-    {
-     "title": "[아테네] 반도체 흔드는 헤지펀드, 결국 메모리는 이렇게 될 겁니다!!",
-     "publishedAt": "2026-11-03",
-     "url": "https://www.youtube.com/watch?v=cWeZhrrACS4"
     }
    ]
   },
@@ -104,6 +104,11 @@ window.DASH.youtube = {
    "channelId": "UC7usMJDHmtbs_oegmzQKKMA",
    "handle": "@경제사냥꾼",
    "videos": [
+    {
+     "title": "투자자들이 꼭 알아야 할 '엔비디아 AI 서울' 핵심 투자 포인트",
+     "publishedAt": "2026-11-07 12:52",
+     "url": "https://www.youtube.com/watch?v=cRE_1Gor0ow"
+    },
     {
      "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(11월 9일~13일)",
      "publishedAt": "2026-11-06 22:30",
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "\"다시 오를 수 있다고?!\" 월가 족집게가 콕 집은 폭락장 증시 전망",
      "publishedAt": "2026-11-06 17:00",
      "url": "https://www.youtube.com/watch?v=5hh4zCU5bGk"
-    },
-    {
-     "title": "전례 없는 나스닥 대폭락, 왜 떨어졌을까",
-     "publishedAt": "2026-11-06 16:05",
-     "url": "https://www.youtube.com/watch?v=UNHKfXmq1w4"
     }
    ]
   },
