@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-08 08:37",
+ "asOf": "2026-11-08 14:55",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,9 +105,19 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "12월 연준, 금리 인상 확률이 미친 듯이 떨어지고 있는 이유",
+     "publishedAt": "2026-11-08 12:55",
+     "url": "https://www.youtube.com/watch?v=6JRwEiYhK64"
+    },
+    {
      "title": "투자자들이 꼭 알아야 할 '엔비디아 AI 서울' 핵심 투자 포인트",
      "publishedAt": "2026-11-07 12:00",
      "url": "https://www.youtube.com/watch?v=cRE_1Gor0ow"
+    },
+    {
+     "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(11월 9일~13일)",
+     "publishedAt": "2026-11-07",
+     "url": "https://www.youtube.com/watch?v=XIXAJJ0cywc"
     },
     {
      "title": "2018년 트럼프 1기 중간선거와, 연말 증시 급락, 전부 뜯어봤습니다",
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "현재 월가에서 준비 중인 '트럼프 탄핵' 시나리오",
      "publishedAt": "2026-11-07",
      "url": "https://www.youtube.com/watch?v=kx3F4X6skkA"
-    },
-    {
-     "title": "\"다시 오를 수 있다고?!\" 월가 족집게가 콕 집은 폭락장 증시 전망",
-     "publishedAt": "2026-11-07",
-     "url": "https://www.youtube.com/watch?v=5hh4zCU5bGk"
-    },
-    {
-     "title": "전례 없는 나스닥 대폭락, 왜 떨어졌을까",
-     "publishedAt": "2026-11-07",
-     "url": "https://www.youtube.com/watch?v=UNHKfXmq1w4"
     }
    ]
   },
