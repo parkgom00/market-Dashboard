@@ -1868,8 +1868,8 @@
   "title": "중국 CPI",
   "level": "macro",
   "kind": "econ",
-  "consensus": "0.8%",
-  "actual": "",
+  "consensus": "0.0%",
+  "actual": "0.0%",
   "previous": "0.2%"
  },
  {
@@ -2245,6 +2245,26 @@
   "consensus": "",
   "actual": "",
   "previous": "-135.08B"
+ },
+ {
+  "date": "2026-11-30",
+  "time": "07:00",
+  "title": "한국 산업생산",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "9.0%"
+ },
+ {
+  "date": "2026-11-30",
+  "time": "07:00",
+  "title": "한국 소매판매",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "3.6%"
  },
  {
   "date": "2026-12-01",
