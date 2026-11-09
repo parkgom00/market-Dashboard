@@ -450,5 +450,25 @@
    "accumulatedTradingValueRaw": "82066000000",
    "marketValueRaw": "8160146735200"
   }
+ ],
+ "industryGroups": [
+  {
+   "no": 305,
+   "name": "항공사",
+   "totalCount": 9,
+   "changeRate": "5.20",
+   "riseCount": 7,
+   "fallCount": 2,
+   "steadyCount": 0
+  },
+  {
+   "no": 294,
+   "name": "통신장비",
+   "totalCount": 55,
+   "changeRate": "4.79",
+   "riseCount": 38,
+   "fallCount": 10,
+   "steadyCount": 7
+  }
  ]
 }
