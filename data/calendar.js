@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-09 13:15",
+ "generatedAt": "2026-11-10 00:01",
  "events": [
   {
    "date": "2026-01-01",
@@ -527,8 +527,8 @@ window.DASH.calendar = {
    "title": "미국 소비자물가지수(CPI) 발표 · 10월분 (한국시간 저녁)",
    "time": "21:30",
    "result": [
-    "미국 CPI: 예상 0.3% · 이전 0.59%",
-    "미국 근원 CPI: 예상 0.2% · 이전 338.90"
+    "미국 CPI: 예상 337.02 · 이전 0.59%",
+    "미국 근원 CPI: 예상 2.8% · 이전 338.90"
    ]
   },
   {
@@ -2523,6 +2523,17 @@ window.DASH.calendar = {
    "date": "2026-11-05",
    "type": "econ",
    "market": "US",
+   "title": "미국 비농업 고용",
+   "time": "21:30",
+   "major": true,
+   "result": [
+    "실제 159K · 예상 64K · 이전 78K"
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "type": "econ",
+   "market": "US",
    "title": "미국 생산성",
    "time": "21:30",
    "result": [
@@ -2543,22 +2554,21 @@ window.DASH.calendar = {
    "date": "2026-11-05",
    "type": "econ",
    "market": "US",
-   "title": "미국 비농업 고용",
-   "time": "22:30",
+   "title": "미국 실업률",
+   "time": "21:30",
    "major": true,
    "result": [
-    "이전 46K"
+    "실제 4.1% · 예상 4.2% · 이전 4.2%"
    ]
   },
   {
    "date": "2026-11-05",
    "type": "econ",
    "market": "US",
-   "title": "미국 실업률",
-   "time": "22:30",
-   "major": true,
+   "title": "미시간 소비심리",
+   "time": "23:00",
    "result": [
-    "이전 4.2%"
+    "실제 51.0 · 예상 48.1 · 이전 48.0"
    ]
   },
   {
@@ -2669,6 +2679,37 @@ window.DASH.calendar = {
    "time": "21:30",
    "result": [
     "예상 0.3% · 이전 0.7%"
+   ]
+  },
+  {
+   "date": "2026-11-14",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 무역수지",
+   "time": "08:00",
+   "result": [
+    "예상 42.50B · 이전 42.50B"
+   ]
+  },
+  {
+   "date": "2026-11-14",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 수입",
+   "time": "08:00",
+   "result": [
+    "예상 36.0% · 이전 36.0%"
+   ]
+  },
+  {
+   "date": "2026-11-14",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 수출",
+   "time": "08:00",
+   "major": true,
+   "result": [
+    "예상 93.7% · 이전 93.7%"
    ]
   },
   {
@@ -2939,7 +2980,7 @@ window.DASH.calendar = {
    "title": "한국 산업생산",
    "time": "07:00",
    "result": [
-    "이전 9.0%"
+    "이전 1.2%"
    ]
   },
   {
@@ -2950,6 +2991,16 @@ window.DASH.calendar = {
    "time": "07:00",
    "result": [
     "이전 3.6%"
+   ]
+  },
+  {
+   "date": "2026-11-30",
+   "type": "econ",
+   "market": "CN",
+   "title": "중국 제조업 PMI",
+   "time": "09:30",
+   "result": [
+    "이전 49.7"
    ]
   },
   {

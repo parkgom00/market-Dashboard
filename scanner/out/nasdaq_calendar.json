@@ -1775,6 +1775,16 @@
  {
   "date": "2026-11-05",
   "time": "21:30",
+  "title": "미국 비농업 고용",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "64K",
+  "actual": "159K",
+  "previous": "78K"
+ },
+ {
+  "date": "2026-11-05",
+  "time": "21:30",
   "title": "미국 생산성",
   "level": "macro",
   "kind": "econ",
@@ -1794,23 +1804,23 @@
  },
  {
   "date": "2026-11-05",
-  "time": "22:30",
-  "title": "미국 비농업 고용",
-  "level": "major",
-  "kind": "econ",
-  "consensus": "",
-  "actual": "",
-  "previous": "46K"
- },
- {
-  "date": "2026-11-05",
-  "time": "22:30",
+  "time": "21:30",
   "title": "미국 실업률",
   "level": "major",
   "kind": "econ",
-  "consensus": "",
-  "actual": "",
+  "consensus": "4.2%",
+  "actual": "4.1%",
   "previous": "4.2%"
+ },
+ {
+  "date": "2026-11-05",
+  "time": "23:00",
+  "title": "미시간 소비심리",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "48.1",
+  "actual": "51.0",
+  "previous": "48.0"
  },
  {
   "date": "2026-11-06",
@@ -1878,7 +1888,7 @@
   "title": "미국 CPI",
   "level": "major",
   "kind": "econ",
-  "consensus": "0.3%",
+  "consensus": "337.02",
   "actual": "",
   "previous": "0.59%"
  },
@@ -1888,7 +1898,7 @@
   "title": "미국 근원 CPI",
   "level": "major",
   "kind": "econ",
-  "consensus": "0.2%",
+  "consensus": "2.8%",
   "actual": "",
   "previous": "338.90"
  },
@@ -1962,6 +1972,36 @@
   "consensus": "0.3%",
   "actual": "",
   "previous": "0.7%"
+ },
+ {
+  "date": "2026-11-14",
+  "time": "08:00",
+  "title": "한국 무역수지",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "42.50B",
+  "actual": "",
+  "previous": "42.50B"
+ },
+ {
+  "date": "2026-11-14",
+  "time": "08:00",
+  "title": "한국 수입",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "36.0%",
+  "actual": "",
+  "previous": "36.0%"
+ },
+ {
+  "date": "2026-11-14",
+  "time": "08:00",
+  "title": "한국 수출",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "93.7%",
+  "actual": "",
+  "previous": "93.7%"
  },
  {
   "date": "2026-11-15",
@@ -2254,7 +2294,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "9.0%"
+  "previous": "1.2%"
  },
  {
   "date": "2026-11-30",
@@ -2267,12 +2307,33 @@
   "previous": "3.6%"
  },
  {
+  "date": "2026-11-30",
+  "time": "09:30",
+  "title": "중국 제조업 PMI",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "49.7"
+ },
+ {
   "date": "2026-12-01",
   "time": "",
   "title": "마벨 실적 발표",
   "level": "earnings",
   "kind": "earnings",
   "note": "",
+  "epsForecast": "$0.79",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-12-02",
+  "time": "",
+  "title": "마벨 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "장마감 후(한국 다음 날 새벽)",
   "epsForecast": "$0.79",
   "eps": "",
   "surprise": ""
