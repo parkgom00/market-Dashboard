@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-09 08:41",
+ "asOf": "2026-11-09 15:15",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,29 +9,29 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
-     "title": "[#찐시황] “외국인은 이미 반등에 베팅했나?” 코스피 5,000 붕괴에도 선물 2만 3천 계약 매수… 삼성전자·SK하이닉스 대반격? | 미래에셋자산운용 최창규 이사",
-     "publishedAt": "2026-11-08 20:00",
-     "url": "https://www.youtube.com/watch?v=PgfX324JOTY"
+     "title": "[#긴급시황] “코스피 5,000선이 마지막 방어선?”  역사적 폭락장 이후 진짜 바닥 논쟁… 이번 주 남은 악재는? | 박근형 부장",
+     "publishedAt": "2026-11-09 14:30",
+     "url": "https://www.youtube.com/watch?v=2MeIVl_23pE"
     },
     {
-     "title": "“삼성전자·SK하이닉스 주식 수부터 지켜라!” 폭락장에 살아남는 종목 압축 전략… 현금 투입은 반드시 ‘이 신호’ 확인 후!ㅣ오로라투자자문 이지환 대표",
-     "publishedAt": "2026-11-08 17:30",
-     "url": "https://www.youtube.com/watch?v=Bcg1-MN2MaI"
+     "title": "[#긴급시황] “삼전·하닉 싸다고 계속 사지 마라!” 하락장에서 가장 위험한 물타기… 진짜 매수 시점은? | 이주현 대표",
+     "publishedAt": "2026-11-09 14:15",
+     "url": "https://www.youtube.com/watch?v=7feT9YoAv7I"
     },
     {
-     "title": "“외국인이 팔면 다 무너진다!” 삼성전자·SK하이닉스부터 전 업종 동반 급락… 한국증시가 속수무책인 진짜 이유와 외국인 매수 전환 시점!  (하락장) 이영훈 이사",
-     "publishedAt": "2026-11-08 16:00",
-     "url": "https://www.youtube.com/watch?v=fjjcWOeLFjQ"
+     "title": "“한국증시 아직 실망하지 마세요!” 오전의 답답한 흐름은 끝? 오후로 갈수록 반등 기대감 커지는 이유! | 이권희 대표",
+     "publishedAt": "2026-11-09 13:15",
+     "url": "https://www.youtube.com/watch?v=AaEEbLutco8"
     },
     {
-     "title": "[#긴급인터뷰] “美 반도체주 극적 급반등!” 데드캣 바운스인가, 진짜 바닥인가? 월요일 삼성전자·SK하이닉스 안심해도 될까?ㅣ 아이에셋 김태성 본부장",
-     "publishedAt": "2026-11-08 08:30",
-     "url": "https://www.youtube.com/watch?v=-IwG8xso3qs"
+     "title": "[11월9일 #장시작전]  SK하이닉스, 기관 매수와 외국인 매도의 싸움…오늘 장 승자는? | 김태성 본부장, 이주현 대표, 박근형 부장",
+     "publishedAt": "2026-11-09 12:15",
+     "url": "https://www.youtube.com/watch?v=uXvpOptvc9g"
     },
     {
-     "title": "[#긴급인터뷰] “삼성전자 대표도 지금이 바닥이라고 봤나?” 6억 원 자사주 매수… 엔비디아 실적이 상승장 반전 신호탄?ㅣ 주식황금돼지 이건희 대표",
-     "publishedAt": "2026-11-08",
-     "url": "https://www.youtube.com/watch?v=GII9xbU7fU0"
+     "title": "“엔비디아발 악재, 반도체 전체로 번지나?” 헤지펀드 매도세 마무리 국면… 진짜 바닥 신호는?  | 이주연 대표",
+     "publishedAt": "2026-11-09 10:15",
+     "url": "https://www.youtube.com/watch?v=FJ7J7iLz0YY"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "젠슨황이 중국 스파이와 '불륜'을 인정한 진짜 이유(+총정리)",
+     "publishedAt": "2026-11-09 14:15",
+     "url": "https://www.youtube.com/watch?v=maZzV10zIjM"
+    },
+    {
      "title": "12월 연준, 금리 인상 확률이 미친 듯이 떨어지고 있는 이유",
      "publishedAt": "2026-11-08 12:00",
      "url": "https://www.youtube.com/watch?v=6JRwEiYhK64"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "2018년 트럼프 1기 중간선거와, 연말 증시 급락, 전부 뜯어봤습니다",
      "publishedAt": "2026-11-07",
      "url": "https://www.youtube.com/watch?v=RBwnQi1ZHic"
-    },
-    {
-     "title": "현재 월가에서 준비 중인 '트럼프 탄핵' 시나리오",
-     "publishedAt": "2026-11-07",
-     "url": "https://www.youtube.com/watch?v=kx3F4X6skkA"
     }
    ]
   },
