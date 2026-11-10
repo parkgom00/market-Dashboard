@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-10 21:33",
+ "asOf": "2026-11-11 05:47",
  "channels": [
   {
    "name": "815머니톡",
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "국제 금값은 오르는데, '한국 금값'만 떨어지는 이유",
+     "publishedAt": "2026-11-10 23:00",
+     "url": "https://www.youtube.com/watch?v=av_-vajgmnQ"
+    },
+    {
      "title": "과연 한국엔 중국 스파이가 없을까?",
      "publishedAt": "2026-11-10 21:30",
      "url": "https://www.youtube.com/watch?v=hZbdmIVUkh0"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "코스피 폭락에 국민연금이 잃은 돈, 내 연금엔 어떤 일이 생길까",
      "publishedAt": "2026-11-10 18:30",
      "url": "https://www.youtube.com/watch?v=xq5pB8s9uIo"
-    },
-    {
-     "title": "우리가 2031년까지 미친듯이 투자해야 되는 이유",
-     "publishedAt": "2026-11-10 18:13",
-     "url": "https://www.youtube.com/watch?v=tkv6R0_FQyE"
     }
    ]
   },
@@ -136,6 +136,11 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
+    {
+     "title": "12월에 미국 기준금리가 0.5%p 한방에 상승?",
+     "publishedAt": "2026-11-11 02:50",
+     "url": "https://www.youtube.com/watch?v=0EB7n1GwF1A"
+    },
     {
      "title": "젠슨황 스캔들에 코스피 떡상? #젠슨황 #코스피 #엔비디아",
      "publishedAt": "2026-11-10 13:15",
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "마크 미너비니 \"나스닥 반등은 가짜\"",
      "publishedAt": "2026-11-07 03:47",
      "url": "https://www.youtube.com/watch?v=-J4GMD5iwbI"
-    },
-    {
-     "title": "AI 주식 멸망 (ft. 시트리니)",
-     "publishedAt": "2026-11-06 17:57",
-     "url": "https://www.youtube.com/watch?v=iV72GtWgsqg"
     }
    ]
   },
