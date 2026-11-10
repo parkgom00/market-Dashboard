@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_live.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.live = {
- "asOf": "2026-11-10 22:48",
+ "asOf": "2026-11-11 00:59",
  "kr": {
   "gainers": [
    {
@@ -11,15 +11,15 @@ window.DASH.live = {
     "changePct": 30.0
    },
    {
-    "code": "014950",
-    "name": "삼익제약",
-    "price": 8330,
-    "changePct": 29.95
-   },
-   {
     "code": "002320",
     "name": "한진",
     "price": 22300,
+    "changePct": 29.95
+   },
+   {
+    "code": "014950",
+    "name": "삼익제약",
+    "price": 8330,
     "changePct": 29.95
    },
    {

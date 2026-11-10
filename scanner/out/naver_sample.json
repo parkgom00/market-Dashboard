@@ -288,11 +288,11 @@
    "stockMiniImageChart": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/196170_interest.png",
    "itemLogoUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/stock/Stock196170.svg",
    "itemLogoPngUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock196170.png",
-   "marketValueRaw": "12182682761700",
    "closePriceRaw": "174900",
    "compareToPreviousClosePriceRaw": "6500",
    "accumulatedTradingVolumeRaw": "674744",
-   "accumulatedTradingValueRaw": "119564000000"
+   "accumulatedTradingValueRaw": "119564000000",
+   "marketValueRaw": "12182682761700"
   },
   {
    "stockType": "domestic",
@@ -366,11 +366,11 @@
    "stockMiniImageChart": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/086520_interest.png",
    "itemLogoUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/stock/Stock086520.svg",
    "itemLogoPngUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock086520.png",
-   "marketValueRaw": "8893337956000",
    "closePriceRaw": "65500",
    "compareToPreviousClosePriceRaw": "4900",
    "accumulatedTradingVolumeRaw": "861439",
-   "accumulatedTradingValueRaw": "55900000000"
+   "accumulatedTradingValueRaw": "55900000000",
+   "marketValueRaw": "8893337956000"
   },
   {
    "stockType": "domestic",
@@ -444,11 +444,31 @@
    "stockMiniImageChart": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/247540_interest.png",
    "itemLogoUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/stock/Stock247540.svg",
    "itemLogoPngUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock247540.png",
-   "marketValueRaw": "8747791628800",
    "closePriceRaw": "81200",
    "compareToPreviousClosePriceRaw": "5300",
    "accumulatedTradingVolumeRaw": "532306",
-   "accumulatedTradingValueRaw": "42846000000"
+   "accumulatedTradingValueRaw": "42846000000",
+   "marketValueRaw": "8747791628800"
+  }
+ ],
+ "industryGroups": [
+  {
+   "no": 305,
+   "name": "항공사",
+   "totalCount": 9,
+   "changeRate": "13.26",
+   "riseCount": 8,
+   "fallCount": 0,
+   "steadyCount": 1
+  },
+  {
+   "no": 306,
+   "name": "전기장비",
+   "totalCount": 35,
+   "changeRate": "8.97",
+   "riseCount": 30,
+   "fallCount": 2,
+   "steadyCount": 3
   }
  ]
 }
