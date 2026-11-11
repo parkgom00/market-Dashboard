@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-11 18:18",
+ "asOf": "2026-11-12 02:51",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황] “코어위브 실적에 공매도 세력 비상!” 숏커버링 쏟아진 이유… AI 반도체 V자 반등 시작되나? | 오로라투자자문 이지환 대표",
+     "publishedAt": "2026-11-11 20:00",
+     "url": "https://www.youtube.com/watch?v=eUahwnXoR6o"
+    },
+    {
+     "title": "갑갑한 한국 증시, 미국처럼 못 오르는 진짜 이유 / 코스피 1만 가려면 반드시 바뀌어야 할 것! | 증시각도기 곽상준 대표",
+     "publishedAt": "2026-11-11 19:00",
+     "url": "https://www.youtube.com/watch?v=oKrTVcHxm8s"
+    },
     {
      "title": "[#긴급시황] “최악의 순간은 지나가고 있다?” AI 데이터센터 2028년까지 완판…  반도체 슈퍼호황 안 끝났다! l 이주연 대표",
      "publishedAt": "2026-11-11 17:30",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급인터뷰]  “CPI 0.3%에 월가가 흔들렸다!” 빅스텝 공포 확산… 모건스탠리, 삼성전자·SK하이닉스 목표가 하향한 진짜 이유ㅣ유니스토리자산운용 김장열 센터장",
      "publishedAt": "2026-11-11 15:30",
      "url": "https://www.youtube.com/watch?v=C0TXqKsm_dI"
-    },
-    {
-     "title": "[#긴급시황]  “AI 거품이라더니 2028년 물량까지 완판” 코어위브 실적이 보여준 반전… 삼전·하닉 주가급등 시작되나? ㅣ박근형 부장",
-     "publishedAt": "2026-11-11 14:30",
-     "url": "https://www.youtube.com/watch?v=_mLVtIxjwB8"
-    },
-    {
-     "title": "“모건스탠리 또 반도체 비관론?” 삼성전자·SK하이닉스 목표가 확 낮췄다… 정말 말이 안 되는 이유! | 이권희 대표",
-     "publishedAt": "2026-11-11 12:37",
-     "url": "https://www.youtube.com/watch?v=qBclj8fHejw"
     }
    ]
   },
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "[월간 아리수] SK하이닉스 vs 삼성전자, 향후 주가 흐름 이렇게 예상합니다!!",
+     "publishedAt": "2026-11-11 19:00",
+     "url": "https://www.youtube.com/watch?v=J0LeVcCqLLg"
+    },
+    {
      "title": "반등 이후 메모리 시장 흐름? 투자 포인트는 여기에!!!",
      "publishedAt": "2026-11-11 15:10",
      "url": "https://www.youtube.com/watch?v=gwmCVqevijQ"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[월간 아리수] 반도체에 대한 억까? 이 때 풀립니다!!",
      "publishedAt": "2026-11-09 19:00",
      "url": "https://www.youtube.com/watch?v=irhw5BjQZ4A"
-    },
-    {
-     "title": "[몰아보기] 주가 50% 상승 vs 이익 반의 반토막... 반도체를 보는 엇갈린 시선!!",
-     "publishedAt": "2026-11-07 14:00",
-     "url": "https://www.youtube.com/watch?v=kxP76itmszs"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "삼성전기 주가 227만원 다시 갈 수 있을까?!",
-     "publishedAt": "2026-11-11 17:50",
-     "url": "https://www.youtube.com/watch?v=cdnMPUc2kGA"
+     "title": "같은 '배당'을 받아도 세금이 달라지는 이유",
+     "publishedAt": "2026-11-11 23:30",
+     "url": "https://www.youtube.com/watch?v=VaPZ4gt8sP8"
     },
     {
-     "title": "우리가 2031년까지 미친듯이 투자해야 되는 이유",
-     "publishedAt": "2026-11-11 17:30",
-     "url": "https://www.youtube.com/watch?v=HvHapC3c_Nc"
+     "title": "AI미래학자가 GPT-6를 투자에 활용하는 방법",
+     "publishedAt": "2026-11-11 22:30",
+     "url": "https://www.youtube.com/watch?v=H7_XPwxQ2PU"
     },
     {
-     "title": "새로워진 2027 연말정산, '370만원' 더 받을 수 있는 방법",
-     "publishedAt": "2026-11-11 16:40",
-     "url": "https://www.youtube.com/watch?v=4LefxUvHeKg"
+     "title": "다음 주 중국 정상회담 전, 반드시 알아야 할 6가지",
+     "publishedAt": "2026-11-11 22:00",
+     "url": "https://www.youtube.com/watch?v=b-P8sffAfeM"
     },
     {
-     "title": "역대급 IPO 앤트로픽 상장, 한국 투자자가 알아야 할 것",
-     "publishedAt": "2026-11-11 16:00",
-     "url": "https://www.youtube.com/watch?v=ahpwowdsCRE"
+     "title": "이재용이 엔비디아 말고, AMD와 새롭게 손잡은 진짜 이유",
+     "publishedAt": "2026-11-11 20:45",
+     "url": "https://www.youtube.com/watch?v=DI3h6CAu0Rk"
     },
     {
-     "title": "월가가 지금 '반도체 주식'을 반드시 사야 한다는 이유",
-     "publishedAt": "2026-11-11 15:30",
-     "url": "https://www.youtube.com/watch?v=yKinarvyg5Q"
+     "title": "한국 금리 또 오르면, 내 대출 이자가 더 늘어나는 이유",
+     "publishedAt": "2026-11-11 20:30",
+     "url": "https://www.youtube.com/watch?v=1PJbkfGan2w"
     }
    ]
   },
@@ -169,6 +169,11 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
+     "title": "20년 전 부시 행정부와 똑같다? 초강경 모드 진입한 트럼프, 분위기 바꿀까",
+     "publishedAt": "2026-11-11 22:00",
+     "url": "https://www.youtube.com/watch?v=gNm_uU33nOk"
+    },
+    {
      "title": "트럼프 관련주 총공세 예고한 민주당, 조심할 주식과 주목할 주식들",
      "publishedAt": "2026-11-10 20:03",
      "url": "https://www.youtube.com/watch?v=ra5nRE3x9qk"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "인텔 -30% 쇼크, AI 피크아웃일까 중간선거 코앞 리스크 관리일까",
      "publishedAt": "2026-11-02 20:36",
      "url": "https://www.youtube.com/watch?v=6Zq7p54WTNI"
-    },
-    {
-     "title": "AI인프라 쇼크 어떻게 대응해야 할까, 다음 승자까지 마음 편하게 투자하는 법",
-     "publishedAt": "2026-10-30 18:33",
-     "url": "https://www.youtube.com/watch?v=DBm1cqv3avc"
     }
    ]
   }
