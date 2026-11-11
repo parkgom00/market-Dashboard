@@ -81,65 +81,65 @@ window.DASH.usmarket = {
    "group": "금리·환율",
    "name": "달러 인덱스",
    "kind": "plain",
-   "close": 102.21,
-   "changePct": 0.55,
-   "changeText": "102.21 (+0.55%)"
+   "close": 102.25,
+   "changePct": 0.6,
+   "changeText": "102.25 (+0.60%)"
   },
   {
    "group": "금리·환율",
    "name": "원/달러",
    "kind": "plain",
-   "close": 1337.14,
-   "changePct": -0.5,
-   "changeText": "1,337.14 (-0.50%)"
+   "close": 1335.88,
+   "changePct": -0.59,
+   "changeText": "1,335.88 (-0.59%)"
   },
   {
    "group": "금리·환율",
    "name": "엔/달러",
    "kind": "plain",
-   "close": 158.92,
-   "changePct": 0.6,
-   "changeText": "158.92 (+0.60%)"
+   "close": 158.84,
+   "changePct": 0.54,
+   "changeText": "158.84 (+0.54%)"
   },
   {
    "group": "원자재·기타",
    "name": "WTI 유가",
    "kind": "usd",
-   "close": 86.36,
-   "changePct": -0.56,
-   "changeText": "86.36 (-0.56%)"
+   "close": 86.7,
+   "changePct": -0.17,
+   "changeText": "86.70 (-0.17%)"
   },
   {
    "group": "원자재·기타",
    "name": "브렌트유",
    "kind": "usd",
-   "close": 92.03,
-   "changePct": -0.58,
-   "changeText": "92.03 (-0.58%)"
+   "close": 92.47,
+   "changePct": -0.11,
+   "changeText": "92.47 (-0.11%)"
   },
   {
    "group": "원자재·기타",
    "name": "금",
    "kind": "usd",
-   "close": 4049.9,
-   "changePct": -1.57,
-   "changeText": "4,049.90 (-1.57%)"
+   "close": 4051.8,
+   "changePct": -1.52,
+   "changeText": "4,051.80 (-1.52%)"
   },
   {
    "group": "원자재·기타",
    "name": "구리",
    "kind": "usd",
-   "close": 6.29,
-   "changePct": -0.59,
-   "changeText": "6.29 (-0.59%)"
+   "close": 6.3,
+   "changePct": -0.37,
+   "changeText": "6.30 (-0.37%)"
   },
   {
    "group": "원자재·기타",
    "name": "비트코인",
    "kind": "usd",
-   "close": 73353.5,
-   "changePct": -2.49,
-   "changeText": "73,353.50 (-2.49%)"
+   "close": 73591.23,
+   "changePct": -2.17,
+   "changeText": "73,591.23 (-2.17%)"
   },
   {
    "group": "원자재·기타",
@@ -234,6 +234,20 @@ window.DASH.usmarket = {
    "changePct": -0.14
   },
   {
+   "group": "S&P 11개 섹터",
+   "name": "부동산",
+   "symbol": "XLRE",
+   "kr": "리츠",
+   "changePct": -0.13
+  },
+  {
+   "group": "S&P 11개 섹터",
+   "name": "커뮤니케이션",
+   "symbol": "XLC",
+   "kr": "플랫폼·미디어·게임",
+   "changePct": 0.37
+  },
+  {
    "group": "반도체·IT",
    "name": "반도체",
    "symbol": "SOXX",
@@ -256,6 +270,20 @@ window.DASH.usmarket = {
   },
   {
    "group": "반도체·IT",
+   "name": "사이버보안",
+   "symbol": "CIBR",
+   "kr": "정보보안",
+   "changePct": -0.05
+  },
+  {
+   "group": "반도체·IT",
+   "name": "AI·로봇",
+   "symbol": "BOTZ",
+   "kr": "로봇·AI",
+   "changePct": -0.97
+  },
+  {
+   "group": "반도체·IT",
    "name": "통신장비",
    "symbol": "XTL",
    "kr": "광통신·통신장비",
@@ -267,6 +295,20 @@ window.DASH.usmarket = {
    "symbol": "FDN",
    "kr": "플랫폼",
    "changePct": -0.27
+  },
+  {
+   "group": "반도체·IT",
+   "name": "양자컴퓨팅",
+   "symbol": "QTUM",
+   "kr": "양자 테마",
+   "changePct": -0.49
+  },
+  {
+   "group": "반도체·IT",
+   "name": "게임",
+   "symbol": "ESPO",
+   "kr": "게임",
+   "changePct": -0.68
   },
   {
    "group": "에너지·산업",
@@ -319,6 +361,13 @@ window.DASH.usmarket = {
   },
   {
    "group": "에너지·산업",
+   "name": "항공",
+   "symbol": "JETS",
+   "kr": "항공·여행",
+   "changePct": -0.03
+  },
+  {
+   "group": "에너지·산업",
    "name": "주택건설",
    "symbol": "XHB",
    "kr": "건설",
@@ -330,6 +379,13 @@ window.DASH.usmarket = {
    "symbol": "LIT",
    "kr": "2차전지",
    "changePct": -2.23
+  },
+  {
+   "group": "자동차·배터리",
+   "name": "전기차·자율주행",
+   "symbol": "IDRV",
+   "kr": "전기차·부품",
+   "changePct": -0.61
   },
   {
    "group": "소재",
@@ -396,10 +452,24 @@ window.DASH.usmarket = {
   },
   {
    "group": "금융·소비",
+   "name": "핀테크",
+   "symbol": "FINX",
+   "kr": "핀테크·결제",
+   "changePct": -1.1
+  },
+  {
+   "group": "금융·소비",
    "name": "소매",
    "symbol": "XRT",
    "kr": "유통",
    "changePct": -0.37
+  },
+  {
+   "group": "금융·소비",
+   "name": "중국 인터넷",
+   "symbol": "KWEB",
+   "kr": "중국 관련주",
+   "changePct": -1.03
   }
  ],
  "summary": [],
@@ -439,6 +509,38 @@ window.DASH.usmarket = {
      "name": "현대제철",
      "link": "미국 관세·철강 가격에 영향",
      "strength": 2
+    }
+   ]
+  },
+  {
+   "name": "게임",
+   "changePct": 3.76,
+   "why": "",
+   "logic": "미국 게임주 강세는 게임 업종 투자 심리를 끌어올립니다. 글로벌 매출 비중이 큰 국내 게임사에 간접적으로 연결됩니다.",
+   "usStocks": [
+    {
+     "ticker": "TTWO",
+     "name": "테이크투",
+     "changePct": 8.31
+    },
+    {
+     "ticker": "RBLX",
+     "name": "로블록스",
+     "changePct": -0.79
+    }
+   ],
+   "krStocks": [
+    {
+     "code": "259960",
+     "name": "크래프톤",
+     "link": "글로벌 매출 비중이 큰 대표 게임사",
+     "strength": 1
+    },
+    {
+     "code": "036570",
+     "name": "NC",
+     "link": "게임 업종 투자심리에 동조",
+     "strength": 1
     }
    ]
   },
@@ -483,83 +585,113 @@ window.DASH.usmarket = {
      "strength": 2
     }
    ]
+  },
+  {
+   "name": "가상자산",
+   "changePct": 1.6,
+   "why": "",
+   "logic": "비트코인 가격과 미국 가상자산 관련주가 오르면 거래소 실적 기대가 커집니다. 국내에서는 거래소(두나무) 지분을 가진 회사가 같은 방향으로 움직입니다.",
+   "usStocks": [
+    {
+     "ticker": "MARA",
+     "name": "마라홀딩스",
+     "changePct": 10.54
+    },
+    {
+     "ticker": "RIOT",
+     "name": "라이엇플랫폼스",
+     "changePct": 2.38
+    },
+    {
+     "ticker": "COIN",
+     "name": "코인베이스",
+     "changePct": -2.92
+    },
+    {
+     "ticker": "MSTR",
+     "name": "스트래티지",
+     "changePct": -3.6
+    }
+   ],
+   "krStocks": [
+    {
+     "code": "041190",
+     "name": "우리기술투자",
+     "link": "업비트 운영사 두나무 지분 보유",
+     "strength": 2
+    },
+    {
+     "code": "003530",
+     "name": "한화투자증권",
+     "link": "업비트 운영사 두나무 지분 보유",
+     "strength": 2
+    }
+   ]
   }
  ],
  "weakThemes": [
   {
-   "name": "AI 서버·네트워크",
-   "changePct": -3.75,
+   "name": "양자컴퓨터",
+   "changePct": -6.04,
    "why": "",
-   "logic": "AI 서버와 데이터센터 네트워크 장비 주문이 늘면 그 안에 들어가는 고다층 기판·MLCC 수요가 따라 늘어납니다.",
+   "logic": "미국 양자컴퓨터 종목은 기술 발표와 정부 지원 뉴스에 크게 움직입니다. 국내에는 직접 거래 관계가 있는 회사가 드물고, 양자암호·보안 사업을 하는 종목이 테마로 함께 움직입니다.",
    "usStocks": [
     {
-     "ticker": "COHR",
-     "name": "코히런트",
-     "changePct": -4.68
+     "ticker": "QBTS",
+     "name": "디웨이브퀀텀",
+     "changePct": -8.63
     },
     {
-     "ticker": "SMCI",
-     "name": "슈퍼마이크로",
-     "changePct": -2.83
+     "ticker": "QUBT",
+     "name": "퀀텀컴퓨팅",
+     "changePct": -8.16
+    },
+    {
+     "ticker": "RGTI",
+     "name": "리게티컴퓨팅",
+     "changePct": -6.39
+    },
+    {
+     "ticker": "IONQ",
+     "name": "아이온큐",
+     "changePct": -0.99
     }
    ],
    "krStocks": [
     {
-     "code": "007660",
-     "name": "이수페타시스",
-     "link": "AI 서버·네트워크 장비용 고다층 기판(MLB)을 북미 고객에 공급",
-     "strength": 3
+     "code": "046970",
+     "name": "우리로",
+     "link": "양자암호통신용 광 검출 소자 개발, 양자 테마로 함께 움직임",
+     "strength": 1
     },
     {
-     "code": "009150",
-     "name": "삼성전기",
-     "link": "AI 서버용 MLCC와 FC-BGA 기판 공급",
-     "strength": 2
-    }
-   ]
-  },
-  {
-   "name": "구리·전선",
-   "changePct": -3.23,
-   "why": "",
-   "logic": "구리 가격과 미국 구리 광산주가 오르면 전선 판가와 재고 가치가 올라 국내 전선·비철 업체 실적 기대가 커집니다.",
-   "usStocks": [
-    {
-     "ticker": "FCX",
-     "name": "프리포트맥모란",
-     "changePct": -3.24
-    },
-    {
-     "ticker": "SCCO",
-     "name": "서던코퍼",
-     "changePct": -3.22
-    }
-   ],
-   "krStocks": [
-    {
-     "code": "006260",
-     "name": "LS",
-     "link": "LS전선·LS MnM(구리 제련) 지주사",
-     "strength": 2
-    },
-    {
-     "code": "103140",
-     "name": "풍산",
-     "link": "구리 가공 제품, 구리 가격에 연동",
-     "strength": 2
+     "code": "456010",
+     "name": "아이씨티케이",
+     "link": "양자내성암호 보안칩 사업, 양자 테마로 함께 움직임",
+     "strength": 1
     }
    ]
   },
   {
    "name": "태양광·신재생",
-   "changePct": -3.11,
+   "changePct": -5.44,
    "why": "",
    "logic": "미국 태양광·신재생 관련주는 금리와 보조금 정책에 민감합니다. 미국에 공장을 둔 국내 태양광·풍력 업체가 같은 정책 재료에 반응합니다.",
    "usStocks": [
     {
+     "ticker": "RUN",
+     "name": "선런",
+     "changePct": -10.57
+    },
+    {
      "ticker": "FSLR",
      "name": "퍼스트솔라",
      "changePct": -5.55
+    },
+    {
+     "ticker": "ENPH",
+     "name": "엔페이즈",
+     "changePct": -4.95
     },
     {
      "ticker": "NEE",
@@ -578,6 +710,48 @@ window.DASH.usmarket = {
      "code": "112610",
      "name": "씨에스윈드",
      "link": "미국 공장에서 풍력 타워 생산",
+     "strength": 2
+    }
+   ]
+  },
+  {
+   "name": "원전·SMR",
+   "changePct": -3.79,
+   "why": "",
+   "logic": "미국의 원전 재가동·SMR(소형원전) 기대가 커지면 주기기 제작과 설계·시공을 맡는 국내 원전 공급망에 수주 기대가 붙습니다.",
+   "usStocks": [
+    {
+     "ticker": "OKLO",
+     "name": "오클로",
+     "changePct": -6.52
+    },
+    {
+     "ticker": "SMR",
+     "name": "뉴스케일파워",
+     "changePct": -4.04
+    },
+    {
+     "ticker": "CCJ",
+     "name": "카메코",
+     "changePct": -3.32
+    },
+    {
+     "ticker": "CEG",
+     "name": "컨스텔레이션에너지",
+     "changePct": -3.02
+    }
+   ],
+   "krStocks": [
+    {
+     "code": "034020",
+     "name": "두산에너빌리티",
+     "link": "원전 주기기 제작, 뉴스케일 등 SMR 업체에 기자재 공급",
+     "strength": 3
+    },
+    {
+     "code": "052690",
+     "name": "한전기술",
+     "link": "원전 설계 전문, 원전 투자 확대와 연동",
      "strength": 2
     }
    ]
@@ -657,7 +831,7 @@ window.DASH.usmarket = {
     "name": "팔란티어",
     "usd": 3965806166,
     "etf": false,
-    "changePct": null
+    "changePct": -0.22
    },
    {
     "rank": 10,
@@ -681,7 +855,7 @@ window.DASH.usmarket = {
     "name": "나스닥100 (QQQM)",
     "usd": 3679841388,
     "etf": true,
-    "changePct": null
+    "changePct": -0.59
    },
    {
     "rank": 13,
@@ -689,7 +863,7 @@ window.DASH.usmarket = {
     "name": "아이온큐",
     "usd": 3405392934,
     "etf": false,
-    "changePct": null
+    "changePct": -0.99
    },
    {
     "rank": 14,
@@ -697,7 +871,7 @@ window.DASH.usmarket = {
     "name": "스페이스X",
     "usd": 3368414920,
     "etf": false,
-    "changePct": null
+    "changePct": 0.72
    },
    {
     "rank": 15,
@@ -745,7 +919,7 @@ window.DASH.usmarket = {
     "name": "초단기국채 (SGOV)",
     "usd": 2199324714,
     "etf": true,
-    "changePct": null
+    "changePct": 0.03
    },
    {
     "rank": 21,
@@ -753,7 +927,7 @@ window.DASH.usmarket = {
     "name": "나스닥 커버드콜 (JEPQ)",
     "usd": 1790732140,
     "etf": true,
-    "changePct": null
+    "changePct": -0.5
    },
    {
     "rank": 22,
@@ -785,7 +959,7 @@ window.DASH.usmarket = {
     "name": "알파벳 C",
     "usd": 1388010530,
     "etf": false,
-    "changePct": null
+    "changePct": -0.38
    },
    {
     "rank": 26,
@@ -793,7 +967,7 @@ window.DASH.usmarket = {
     "name": "메타",
     "usd": 1367904720,
     "etf": false,
-    "changePct": null
+    "changePct": 0.0
    },
    {
     "rank": 27,
@@ -801,7 +975,7 @@ window.DASH.usmarket = {
     "name": "샌디스크",
     "usd": 1295974237,
     "etf": false,
-    "changePct": null
+    "changePct": -2.99
    },
    {
     "rank": 28,
@@ -809,7 +983,7 @@ window.DASH.usmarket = {
     "name": "테슬라 2배 (TSLL)",
     "usd": 1276550328,
     "etf": true,
-    "changePct": null
+    "changePct": 0.92
    },
    {
     "rank": 29,
@@ -841,7 +1015,7 @@ window.DASH.usmarket = {
     "name": "나스닥 고배당 (QQQI)",
     "usd": 777890818,
     "etf": true,
-    "changePct": null
+    "changePct": -0.47
    },
    {
     "rank": 33,
@@ -865,7 +1039,7 @@ window.DASH.usmarket = {
     "name": "로켓랩",
     "usd": 743801369,
     "etf": false,
-    "changePct": null
+    "changePct": 6.54
    },
    {
     "rank": 36,
@@ -873,7 +1047,7 @@ window.DASH.usmarket = {
     "name": "S&P 커버드콜 (JEPI)",
     "usd": 738303268,
     "etf": true,
-    "changePct": null
+    "changePct": 0.12
    },
    {
     "rank": 37,
@@ -881,7 +1055,7 @@ window.DASH.usmarket = {
     "name": "비트마인",
     "usd": 735236399,
     "etf": false,
-    "changePct": null
+    "changePct": -2.85
    },
    {
     "rank": 38,
@@ -889,7 +1063,7 @@ window.DASH.usmarket = {
     "name": "아이렌",
     "usd": 713369505,
     "etf": false,
-    "changePct": null
+    "changePct": -7.85
    },
    {
     "rank": 39,
@@ -929,7 +1103,7 @@ window.DASH.usmarket = {
     "name": "서클",
     "usd": 639339332,
     "etf": false,
-    "changePct": null
+    "changePct": -3.82
    },
    {
     "rank": 44,
@@ -945,7 +1119,7 @@ window.DASH.usmarket = {
     "name": "메모리 (DRAM)",
     "usd": 577386967,
     "etf": true,
-    "changePct": null
+    "changePct": -2.73
    },
    {
     "rank": 46,
@@ -953,7 +1127,7 @@ window.DASH.usmarket = {
     "name": "블룸에너지",
     "usd": 577017513,
     "etf": false,
-    "changePct": null
+    "changePct": -4.36
    },
    {
     "rank": 47,
@@ -961,7 +1135,7 @@ window.DASH.usmarket = {
     "name": "조비에비에이션",
     "usd": 539517961,
     "etf": false,
-    "changePct": null
+    "changePct": -4.21
    },
    {
     "rank": 48,
@@ -1027,7 +1201,7 @@ window.DASH.usmarket = {
     "name": "스페이스X",
     "usd": 99313398,
     "etf": false,
-    "changePct": null
+    "changePct": 0.72
    },
    {
     "rank": 6,
@@ -1043,7 +1217,7 @@ window.DASH.usmarket = {
     "name": "나스닥100 (QQQM)",
     "usd": 97242379,
     "etf": true,
-    "changePct": null
+    "changePct": -0.59
    },
    {
     "rank": 8,
@@ -1059,7 +1233,7 @@ window.DASH.usmarket = {
     "name": "한국 3배 (KORU)",
     "usd": 65836965,
     "etf": true,
-    "changePct": null
+    "changePct": -6.24
    },
    {
     "rank": 10,
@@ -1075,7 +1249,7 @@ window.DASH.usmarket = {
     "name": "나스닥 커버드콜 (JEPQ)",
     "usd": 46235365,
     "etf": true,
-    "changePct": null
+    "changePct": -0.5
    },
    {
     "rank": 12,
@@ -1083,7 +1257,7 @@ window.DASH.usmarket = {
     "name": "아이온큐",
     "usd": 37325322,
     "etf": false,
-    "changePct": null
+    "changePct": -0.99
    },
    {
     "rank": 13,
@@ -1091,7 +1265,7 @@ window.DASH.usmarket = {
     "name": "아이렌",
     "usd": 34290588,
     "etf": false,
-    "changePct": null
+    "changePct": -7.85
    },
    {
     "rank": 14,
@@ -1115,7 +1289,7 @@ window.DASH.usmarket = {
     "name": "알파벳 C",
     "usd": 20591877,
     "etf": false,
-    "changePct": null
+    "changePct": -0.38
    },
    {
     "rank": 17,
@@ -1123,7 +1297,7 @@ window.DASH.usmarket = {
     "name": "나스닥 고배당 (QQQI)",
     "usd": 20164918,
     "etf": true,
-    "changePct": null
+    "changePct": -0.47
    },
    {
     "rank": 18,
@@ -1131,7 +1305,7 @@ window.DASH.usmarket = {
     "name": "Shopify Inc Cl A",
     "usd": 19587040,
     "etf": false,
-    "changePct": null
+    "changePct": -3.58
    },
    {
     "rank": 19,
@@ -1139,7 +1313,7 @@ window.DASH.usmarket = {
     "name": "블룸에너지",
     "usd": 18095518,
     "etf": false,
-    "changePct": null
+    "changePct": -4.36
    },
    {
     "rank": 20,
@@ -1171,7 +1345,7 @@ window.DASH.usmarket = {
     "name": "Moderna Inc",
     "usd": 10241341,
     "etf": false,
-    "changePct": null
+    "changePct": -6.75
    },
    {
     "rank": 24,
@@ -1187,7 +1361,7 @@ window.DASH.usmarket = {
     "name": "Ishares Nasdaq 100 Etf",
     "usd": 9638398,
     "etf": true,
-    "changePct": null
+    "changePct": -0.57
    },
    {
     "rank": 26,
@@ -1203,7 +1377,7 @@ window.DASH.usmarket = {
     "name": "나스닥 커버드콜 (GPIQ)",
     "usd": 8329251,
     "etf": true,
-    "changePct": null
+    "changePct": -0.51
    },
    {
     "rank": 28,
@@ -1211,7 +1385,7 @@ window.DASH.usmarket = {
     "name": "SK하이닉스 ADR",
     "usd": 7998676,
     "etf": false,
-    "changePct": null
+    "changePct": -3.51
    },
    {
     "rank": 29,
@@ -1219,7 +1393,7 @@ window.DASH.usmarket = {
     "name": "Tradr 2X Long Sndk Daily Etf",
     "usd": 7476872,
     "etf": true,
-    "changePct": null
+    "changePct": -6.12
    },
    {
     "rank": 30,
@@ -1227,7 +1401,7 @@ window.DASH.usmarket = {
     "name": "Bom Microsectors Fang Inn 3X Lev Etn",
     "usd": 7315784,
     "etf": true,
-    "changePct": null
+    "changePct": -1.74
    },
    {
     "rank": 31,
@@ -1243,7 +1417,7 @@ window.DASH.usmarket = {
     "name": "-1X Short Vix Futures Etf",
     "usd": 5773092,
     "etf": true,
-    "changePct": null
+    "changePct": 0.13
    },
    {
     "rank": 33,
@@ -1275,7 +1449,7 @@ window.DASH.usmarket = {
     "name": "엘프뷰티",
     "usd": 5027350,
     "etf": false,
-    "changePct": null
+    "changePct": -0.7
    },
    {
     "rank": 37,
@@ -1283,7 +1457,7 @@ window.DASH.usmarket = {
     "name": "State Street Spdr Portfolio Nasdaq 100 Etf",
     "usd": 4917019,
     "etf": true,
-    "changePct": null
+    "changePct": -0.65
    },
    {
     "rank": 38,
@@ -1299,7 +1473,7 @@ window.DASH.usmarket = {
     "name": "Ferrari Nv Exof",
     "usd": 4611447,
     "etf": false,
-    "changePct": null
+    "changePct": -0.76
    },
    {
     "rank": 40,
@@ -1315,7 +1489,7 @@ window.DASH.usmarket = {
     "name": "알리바바",
     "usd": 4363010,
     "etf": false,
-    "changePct": null
+    "changePct": -2.52
    },
    {
     "rank": 42,
@@ -1323,7 +1497,7 @@ window.DASH.usmarket = {
     "name": "Rundh Dly 2X Etf",
     "usd": 4241948,
     "etf": true,
-    "changePct": null
+    "changePct": -1.37
    },
    {
     "rank": 43,
@@ -1347,7 +1521,7 @@ window.DASH.usmarket = {
     "name": "스트라이브",
     "usd": 4109407,
     "etf": false,
-    "changePct": null
+    "changePct": 0.42
    },
    {
     "rank": 46,
@@ -1363,7 +1537,7 @@ window.DASH.usmarket = {
     "name": "Ishares Core Dividend Growth Etf",
     "usd": 4096186,
     "etf": true,
-    "changePct": null
+    "changePct": 0.28
    },
    {
     "rank": 48,
@@ -1371,7 +1545,7 @@ window.DASH.usmarket = {
     "name": "Robin Energy Ltd.",
     "usd": 3824556,
     "etf": false,
-    "changePct": null
+    "changePct": 0.78
    },
    {
     "rank": 49,
@@ -1379,7 +1553,7 @@ window.DASH.usmarket = {
     "name": "On Holding Ag",
     "usd": 3725081,
     "etf": false,
-    "changePct": null
+    "changePct": -7.54
    },
    {
     "rank": 50,
@@ -1392,7 +1566,7 @@ window.DASH.usmarket = {
   ]
  },
  "heatmap": null,
- "staleNote": "시세가 늦게 들어와 제외한 종목·업종: 48개",
+ "staleNote": "시세가 늦게 들어와 제외한 종목·업종: 1개",
  "heatmapStatus": "히트맵 자료를 받지 못했습니다 (HTTPError)",
  "briefStatus": "AI 브리핑 생성 실패(다음 실행에 재시도): gemini-3.8-flash: HTTP 429 You exceeded your current quota, please check your plan and  | gemini-3.7-flash: HTTP 429 You exceeded your current quota, please check your plan and  | gemini-3.6-flash: HTTP 429 You exceeded your current quota, please check your plan and  | gemini-3.5-flash: HTTP 429 You exceeded your current quota, please check your plan and "
 };
