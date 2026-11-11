@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-11 05:47",
+ "asOf": "2026-11-11 10:54",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[11월11일 #장시작전]  금리·물가 우려 덮은 코어위브 실적, 코스닥 순환매 기대감 확산?",
+     "publishedAt": "2026-11-11 06:36",
+     "url": "https://www.youtube.com/watch?v=SPzaAg5L15k"
+    },
+    {
+     "title": "“삼성전자·SK하이닉스 이렇게 싼데 왜 못 오르나?” 밸류에이션이 무너진 시장… 지금은 인내가 필요한 순간ㅣKB증권 민재기 팀장",
+     "publishedAt": "2026-11-11 06:00",
+     "url": "https://www.youtube.com/watch?v=Fe38pY16twA"
+    },
     {
      "title": "[#찐시황]  “개미가 다 던져야 바닥이 나온다?” 잔인한 하락장의 마지막 단계… 지금이 그 순간인가? ㅣ박현상 이사",
      "publishedAt": "2026-11-10 20:00",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급인터뷰]  “삼성전자 팔고 나면 꼭 오른다?” 저점 손절·고점 추격 매수… 돈 잃는 악순환 끊는 법   | 증시각도기 곽상준 대표",
      "publishedAt": "2026-11-10 17:30",
      "url": "https://www.youtube.com/watch?v=Jx-gWx8kbGg"
-    },
-    {
-     "title": "“지금은 기다려라, 크게 살 때는 따로 있다!” 주식 비중 확 늘릴 결정적 신호와 다음 주도주 (상승장) 황유현 팀장",
-     "publishedAt": "2026-11-10 16:00",
-     "url": "https://www.youtube.com/watch?v=miAqrX5JNLM"
-    },
-    {
-     "title": "[#긴급시황] “삼전·하닉 목표주가 믿어도 되나?” 낙폭 과대 반등인가, 새로운 강세장의 시작인가?ㅣ 박근형 부장",
-     "publishedAt": "2026-11-10 15:00",
-     "url": "https://www.youtube.com/watch?v=-FNDpifQdwY"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) 엔비디아 지금이 바닥인가?",
+     "publishedAt": "2026-11-11 06:30",
+     "url": "https://www.youtube.com/watch?v=zQLv6ccHQNk"
+    },
     {
      "title": "(아이온큐) 그래도 쫒아가서 담지는 말자!!!",
      "publishedAt": "2026-11-10 14:44",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(엔비디아) 월요일 젠슨황 스캔들로 주가 폭락시 매수관점!!!",
      "publishedAt": "2026-11-09 07:55",
      "url": "https://www.youtube.com/watch?v=KBDlLw-XoCU"
-    },
-    {
-     "title": "(관심종목) 추천종목을 선별해서 매매하는 방법은?",
-     "publishedAt": "2026-11-08 20:22",
-     "url": "https://www.youtube.com/watch?v=VpVt3lIffSw"
     }
    ]
   },
@@ -105,6 +105,21 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "코스피 최고점 9100, 언제 다시 돌아갈 수 있을까?",
+     "publishedAt": "2026-11-11 10:13",
+     "url": "https://www.youtube.com/watch?v=y7XmkR4a-B4"
+    },
+    {
+     "title": "11월 11일 오늘 코스피 어떻게 흘러갈까?",
+     "publishedAt": "2026-11-11 08:05",
+     "url": "https://www.youtube.com/watch?v=y4nXQXYaj28"
+    },
+    {
+     "title": "11월 11일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-11-11 07:05",
+     "url": "https://www.youtube.com/watch?v=eJbtJUaIwsQ"
+    },
+    {
      "title": "국제 금값은 오르는데, '한국 금값'만 떨어지는 이유",
      "publishedAt": "2026-11-10 23:00",
      "url": "https://www.youtube.com/watch?v=av_-vajgmnQ"
@@ -113,21 +128,6 @@ window.DASH.youtube = {
      "title": "과연 한국엔 중국 스파이가 없을까?",
      "publishedAt": "2026-11-10 21:30",
      "url": "https://www.youtube.com/watch?v=hZbdmIVUkh0"
-    },
-    {
-     "title": "해외 0.1% 투자자들, AI에 내 포트폴리오 점검하는 방법",
-     "publishedAt": "2026-11-10 21:09",
-     "url": "https://www.youtube.com/watch?v=Q2kv4yObcTE"
-    },
-    {
-     "title": "트럼프가 갑자기 '이란'과 화해하려는 진짜 이유",
-     "publishedAt": "2026-11-10 20:00",
-     "url": "https://www.youtube.com/watch?v=9Dksvq2zDIw"
-    },
-    {
-     "title": "코스피 폭락에 국민연금이 잃은 돈, 내 연금엔 어떤 일이 생길까",
-     "publishedAt": "2026-11-10 18:30",
-     "url": "https://www.youtube.com/watch?v=xq5pB8s9uIo"
     }
    ]
   },
