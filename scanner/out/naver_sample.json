@@ -72,11 +72,11 @@
    "stockMiniImageChart": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/005930_interest.png",
    "itemLogoUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/stock/Stock005930.svg",
    "itemLogoPngUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock005930.png",
+   "marketValueRaw": "1216025950464000",
    "closePriceRaw": "208000",
    "compareToPreviousClosePriceRaw": "9100",
    "accumulatedTradingVolumeRaw": "15900858",
-   "accumulatedTradingValueRaw": "3223169000000",
-   "marketValueRaw": "1216025950464000"
+   "accumulatedTradingValueRaw": "3223169000000"
   },
   {
    "stockType": "domestic",
@@ -150,11 +150,11 @@
    "stockMiniImageChart": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/000660_interest.png",
    "itemLogoUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/stock/Stock000660.svg",
    "itemLogoPngUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock000660.png",
+   "marketValueRaw": "943065643215000",
    "closePriceRaw": "1291000",
    "compareToPreviousClosePriceRaw": "79000",
    "accumulatedTradingVolumeRaw": "3213796",
-   "accumulatedTradingValueRaw": "4028964000000",
-   "marketValueRaw": "943065643215000"
+   "accumulatedTradingValueRaw": "4028964000000"
   },
   {
    "stockType": "domestic",
@@ -208,11 +208,11 @@
    "stockMiniImageChart": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/005935_interest.png",
    "itemLogoUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/stock/Stock005935.svg",
    "itemLogoPngUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock005935.png",
+   "marketValueRaw": "133915753780700",
    "closePriceRaw": "166900",
    "compareToPreviousClosePriceRaw": "7900",
    "accumulatedTradingVolumeRaw": "3143612",
-   "accumulatedTradingValueRaw": "508354000000",
-   "marketValueRaw": "133915753780700"
+   "accumulatedTradingValueRaw": "508354000000"
   }
  ],
  "KOSDAQ": [
@@ -449,6 +449,26 @@
    "accumulatedTradingVolumeRaw": "720620",
    "accumulatedTradingValueRaw": "64971000000",
    "marketValueRaw": "9932837292800"
+  }
+ ],
+ "industryGroups": [
+  {
+   "no": 332,
+   "name": "문구류",
+   "totalCount": 1,
+   "changeRate": "9.12",
+   "riseCount": 1,
+   "fallCount": 0,
+   "steadyCount": 0
+  },
+  {
+   "no": 282,
+   "name": "전자장비와기기",
+   "totalCount": 105,
+   "changeRate": "8.46",
+   "riseCount": 84,
+   "fallCount": 14,
+   "steadyCount": 7
   }
  ]
 }
