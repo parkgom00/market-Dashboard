@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-12 02:51",
+ "asOf": "2026-11-12 09:36",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[11월12일 #장시작전] “美 반도체 5.6%, 코어위브 +24% 폭등!”  정부의 코스닥 살리기… 한국증시 드디어 살아나나?",
+     "publishedAt": "2026-11-12 06:34",
+     "url": "https://www.youtube.com/watch?v=PSGCwXglOzM"
+    },
     {
      "title": "[#찐시황] “코어위브 실적에 공매도 세력 비상!” 숏커버링 쏟아진 이유… AI 반도체 V자 반등 시작되나? | 오로라투자자문 이지환 대표",
      "publishedAt": "2026-11-11 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“외국인이 다시 들어온다!”  상승장 시작되나? 외인 지분율 높아지는 ‘이 주식’ ...  2027년 주도주 되나?ㅣ레몬리서치 김민수 대표",
      "publishedAt": "2026-11-11 16:30",
      "url": "https://www.youtube.com/watch?v=Siv7J1r5RaA"
-    },
-    {
-     "title": "[#긴급인터뷰]  “CPI 0.3%에 월가가 흔들렸다!” 빅스텝 공포 확산… 모건스탠리, 삼성전자·SK하이닉스 목표가 하향한 진짜 이유ㅣ유니스토리자산운용 김장열 센터장",
-     "publishedAt": "2026-11-11 15:30",
-     "url": "https://www.youtube.com/watch?v=C0TXqKsm_dI"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) 결국은 극도로 두려울때가 바닥이었다!!!",
+     "publishedAt": "2026-11-12 07:07",
+     "url": "https://www.youtube.com/watch?v=KG3C_TrOqOg"
+    },
     {
      "title": "(코어위브) 실적으로 향후 반도체 시장의 상승을 본다",
      "publishedAt": "2026-11-11 15:22",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 기술적 반등 VS 추세전환",
      "publishedAt": "2026-11-10 06:24",
      "url": "https://www.youtube.com/watch?v=IlbyWmWLGnw"
-    },
-    {
-     "title": "(시황분석) V자 반등 보다는 U자 반등 가능한 이유는?",
-     "publishedAt": "2026-11-09 15:55",
-     "url": "https://www.youtube.com/watch?v=Pr4xGiQAkR4"
     }
    ]
   },
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "11월 12일 오늘 코스피 어떻게 흘러갈까?",
+     "publishedAt": "2026-11-12 08:00",
+     "url": "https://www.youtube.com/watch?v=Z7EkepEj3yM"
+    },
+    {
+     "title": "11월 12일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-11-12 07:01",
+     "url": "https://www.youtube.com/watch?v=jrMTHA3i-WA"
+    },
+    {
      "title": "같은 '배당'을 받아도 세금이 달라지는 이유",
      "publishedAt": "2026-11-11 23:30",
      "url": "https://www.youtube.com/watch?v=VaPZ4gt8sP8"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "다음 주 중국 정상회담 전, 반드시 알아야 할 6가지",
      "publishedAt": "2026-11-11 22:00",
      "url": "https://www.youtube.com/watch?v=b-P8sffAfeM"
-    },
-    {
-     "title": "이재용이 엔비디아 말고, AMD와 새롭게 손잡은 진짜 이유",
-     "publishedAt": "2026-11-11 20:45",
-     "url": "https://www.youtube.com/watch?v=DI3h6CAu0Rk"
-    },
-    {
-     "title": "한국 금리 또 오르면, 내 대출 이자가 더 늘어나는 이유",
-     "publishedAt": "2026-11-11 20:30",
-     "url": "https://www.youtube.com/watch?v=1PJbkfGan2w"
     }
    ]
   },
@@ -136,6 +136,11 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
+    {
+     "title": "코어위브 앤트로픽 대박? 찐반등 오나?",
+     "publishedAt": "2026-11-12 03:07",
+     "url": "https://www.youtube.com/watch?v=9yLCraHcN8k"
+    },
     {
      "title": "12월에 미국 기준금리가 0.5%p 한방에 상승?",
      "publishedAt": "2026-11-11 02:50",
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "젠슨황 스캔들 더 큰 문제인 이유",
      "publishedAt": "2026-11-09 18:33",
      "url": "https://www.youtube.com/watch?v=eO4oBy1qtWk"
-    },
-    {
-     "title": "마크 미너비니 \"나스닥 반등은 가짜\"",
-     "publishedAt": "2026-11-07 03:47",
-     "url": "https://www.youtube.com/watch?v=-J4GMD5iwbI"
     }
    ]
   },
