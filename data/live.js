@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_live.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.live = {
- "asOf": "2026-11-12 12:16",
+ "asOf": "2026-11-12 12:28",
  "kr": {
   "gainers": [
    {
