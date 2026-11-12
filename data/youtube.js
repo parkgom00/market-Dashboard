@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-12 18:44",
+ "asOf": "2026-11-13 03:14",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황] “역대급 혼돈의 증시, 아직 추격매수는 금물!” 모두가 좌절한 최악의 순간… 외국인이 만든 단 하나의 희망은? | 황유현 팀장",
+     "publishedAt": "2026-11-12 20:00",
+     "url": "https://www.youtube.com/watch?v=B4bGRF6DkQc"
+    },
     {
      "title": "[#긴급시황] “젠슨 황 악재에 엔비디아 급락!” 공매도 세력까지 공격 시작했나? 실적 발표 후 삼성전자·SK하이닉스 대반전 시작될까? | 이주연 대표",
      "publishedAt": "2026-11-12 18:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] “코스피 PER 3.6배, 역사적 저평가” AI 웹 트래픽 8배 폭증… 외국인 매도세까지 꺾이면 삼성전자·SK하이닉스 대반전 시작될까?  | 박근형 부장",
      "publishedAt": "2026-11-12 14:30",
      "url": "https://www.youtube.com/watch?v=QbiP1h3zDsw"
-    },
-    {
-     "title": "“엔비디아 급락에도 삼전·하닉은 상승!” AI 반도체 주도주가 바뀌고 있다는 신호인가?  | 이권희 대표",
-     "publishedAt": "2026-11-12 12:45",
-     "url": "https://www.youtube.com/watch?v=_5RrcFUHElo"
     }
    ]
   },
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "[월간 아리수] 현대차 위기? 이게 끝이 아닙니다!!",
+     "publishedAt": "2026-11-12 19:00",
+     "url": "https://www.youtube.com/watch?v=qlzCfIbuiog"
+    },
+    {
      "title": "[월간 아리수] SK하이닉스 vs 삼성전자, 향후 주가 흐름 이렇게 예상합니다!!",
      "publishedAt": "2026-11-11 19:00",
      "url": "https://www.youtube.com/watch?v=J0LeVcCqLLg"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[실전 투자 스터디] AI가 끝나면 전 세계 경제가 끝납니다",
      "publishedAt": "2026-11-10 18:00",
      "url": "https://www.youtube.com/watch?v=SFBtMK4mhEU"
-    },
-    {
-     "title": "[월간 아리수] 반도체에 대한 억까? 이 때 풀립니다!!",
-     "publishedAt": "2026-11-09 19:00",
-     "url": "https://www.youtube.com/watch?v=irhw5BjQZ4A"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "침몰중인 젠슨황 제치고, 제2의 엔비디아 될 수 있다는 '종목' 정체",
-     "publishedAt": "2026-11-12 17:36",
-     "url": "https://www.youtube.com/watch?v=pXGLrKM_WqM"
+     "title": "3년 반 동안 은행들이 몰래 짜고 친 사이, 우리 세금에 벌어진 일",
+     "publishedAt": "2026-11-12 23:00",
+     "url": "https://www.youtube.com/watch?v=nwWqBDVpG00"
     },
     {
-     "title": "대통령 명령까지 막은 러트닉, 엔비디아를 둘러싼 수상한 침묵",
-     "publishedAt": "2026-11-12 16:30",
-     "url": "https://www.youtube.com/watch?v=MV7WZzkbNvI"
+     "title": "젠슨황이 테슬라가면 시총 1위가 바뀔까!?",
+     "publishedAt": "2026-11-12 21:30",
+     "url": "https://www.youtube.com/watch?v=_5GM0ADytDQ"
     },
     {
-     "title": "엔비디아 젠슨 황 해임, 삼전닉스에 악재일까?",
-     "publishedAt": "2026-11-12 15:56",
-     "url": "https://www.youtube.com/watch?v=5aYvXXSedwY"
+     "title": "챗지피티, 클로드 거짓말 3초 만에 없애는 방법",
+     "publishedAt": "2026-11-12 20:50",
+     "url": "https://www.youtube.com/watch?v=5mJ-N8i96Yc"
     },
     {
-     "title": "젠슨황 사임 엔비디아와 AI산업 앞으로 어떻게 될까(+삼전닉스)",
-     "publishedAt": "2026-11-12 15:06",
-     "url": "https://www.youtube.com/watch?v=O64h65fCEaA"
+     "title": "월가가 코인 회사를 버리기 시작한 진짜 이유",
+     "publishedAt": "2026-11-12 20:00",
+     "url": "https://www.youtube.com/watch?v=dlyDPO6dTU4"
     },
     {
-     "title": "\"빚 갚으면 바보\" 요즘 빚 안 갚는 사람들이 점점 늘어나는 이유",
-     "publishedAt": "2026-11-12 14:30",
-     "url": "https://www.youtube.com/watch?v=1tQHUlfCnIM"
+     "title": "죽어가는 코스피에 결국 '144조 쏟아붓는' 삼성 이재용 근황",
+     "publishedAt": "2026-11-12 19:50",
+     "url": "https://www.youtube.com/watch?v=VXdLqBbFl7E"
     }
    ]
   },
@@ -136,6 +136,11 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
+    {
+     "title": "한 시대가 끝났습니다. 엔비디아 젠슨황 CEO 사퇴",
+     "publishedAt": "2026-11-13 00:44",
+     "url": "https://www.youtube.com/watch?v=6VzAGnmZzNY"
+    },
     {
      "title": "젠슨황 불륜설 시즌2? #젠슨황 #불륜 #엔비디아",
      "publishedAt": "2026-11-12 16:02",
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "젠슨황 스캔들에 코스피 떡상? #젠슨황 #코스피 #엔비디아",
      "publishedAt": "2026-11-10 13:15",
      "url": "https://www.youtube.com/watch?v=tlmjsbCHBLY"
-    },
-    {
-     "title": "젠슨황 스캔들에도 나스닥이 떡상하는 진짜 이유",
-     "publishedAt": "2026-11-10 02:55",
-     "url": "https://www.youtube.com/watch?v=wiTydSuyYBI"
     }
    ]
   },
