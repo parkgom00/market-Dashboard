@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-12 09:36",
+ "asOf": "2026-11-12 18:44",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,29 +9,29 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
-     "title": "[11월12일 #장시작전] “美 반도체 5.6%, 코어위브 +24% 폭등!”  정부의 코스닥 살리기… 한국증시 드디어 살아나나?",
-     "publishedAt": "2026-11-12 06:34",
-     "url": "https://www.youtube.com/watch?v=PSGCwXglOzM"
+     "title": "[#긴급시황] “젠슨 황 악재에 엔비디아 급락!” 공매도 세력까지 공격 시작했나? 실적 발표 후 삼성전자·SK하이닉스 대반전 시작될까? | 이주연 대표",
+     "publishedAt": "2026-11-12 18:00",
+     "url": "https://www.youtube.com/watch?v=0jgB_8NnBwM"
     },
     {
-     "title": "[#찐시황] “코어위브 실적에 공매도 세력 비상!” 숏커버링 쏟아진 이유… AI 반도체 V자 반등 시작되나? | 오로라투자자문 이지환 대표",
-     "publishedAt": "2026-11-11 20:00",
-     "url": "https://www.youtube.com/watch?v=eUahwnXoR6o"
+     "title": "[#긴급시황]  “반도체 위기라더니 TSMC는 50조 원 투자?” AI 반도체 슈퍼사이클 끝나지 않았나… DB하이텍이 주가폭락한 이유? | 주식황금돼지 이건희 대표",
+     "publishedAt": "2026-11-12 17:07",
+     "url": "https://www.youtube.com/watch?v=d-L6qHJqVIE"
     },
     {
-     "title": "갑갑한 한국 증시, 미국처럼 못 오르는 진짜 이유 / 코스피 1만 가려면 반드시 바뀌어야 할 것! | 증시각도기 곽상준 대표",
-     "publishedAt": "2026-11-11 19:00",
-     "url": "https://www.youtube.com/watch?v=oKrTVcHxm8s"
+     "title": "[#긴급인터뷰]  “젠슨 황 해임되면 AI 반도체 열풍 끝나나?” 엔비디아를 뒤흔드는 논란… 사건을 키우는 세력이 따로 있을까? | 보스턴컨설팅그룹 김창욱 파트너",
+     "publishedAt": "2026-11-12 16:00",
+     "url": "https://www.youtube.com/watch?v=AaGG-_NmB4w"
     },
     {
-     "title": "[#긴급시황] “최악의 순간은 지나가고 있다?” AI 데이터센터 2028년까지 완판…  반도체 슈퍼호황 안 끝났다! l 이주연 대표",
-     "publishedAt": "2026-11-11 17:30",
-     "url": "https://www.youtube.com/watch?v=DDR_Xmc88D8"
+     "title": "[#긴급시황] “코스피 PER 3.6배, 역사적 저평가” AI 웹 트래픽 8배 폭증… 외국인 매도세까지 꺾이면 삼성전자·SK하이닉스 대반전 시작될까?  | 박근형 부장",
+     "publishedAt": "2026-11-12 14:30",
+     "url": "https://www.youtube.com/watch?v=QbiP1h3zDsw"
     },
     {
-     "title": "“외국인이 다시 들어온다!”  상승장 시작되나? 외인 지분율 높아지는 ‘이 주식’ ...  2027년 주도주 되나?ㅣ레몬리서치 김민수 대표",
-     "publishedAt": "2026-11-11 16:30",
-     "url": "https://www.youtube.com/watch?v=Siv7J1r5RaA"
+     "title": "“엔비디아 급락에도 삼전·하닉은 상승!” AI 반도체 주도주가 바뀌고 있다는 신호인가?  | 이권희 대표",
+     "publishedAt": "2026-11-12 12:45",
+     "url": "https://www.youtube.com/watch?v=_5RrcFUHElo"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(엔비디아) CEO교체시 폭락? 투자해야 할 종목은?",
+     "publishedAt": "2026-11-12 15:45",
+     "url": "https://www.youtube.com/watch?v=rRC0H8Px5M8"
+    },
     {
      "title": "(시황분석) 결국은 극도로 두려울때가 바닥이었다!!!",
      "publishedAt": "2026-11-12 07:07",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(아이온큐) 그래도 쫒아가서 담지는 말자!!!",
      "publishedAt": "2026-11-10 14:44",
      "url": "https://www.youtube.com/watch?v=K1gTcOa21Y0"
-    },
-    {
-     "title": "(시황분석) 기술적 반등 VS 추세전환",
-     "publishedAt": "2026-11-10 06:24",
-     "url": "https://www.youtube.com/watch?v=IlbyWmWLGnw"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "11월 12일 오늘 코스피 어떻게 흘러갈까?",
-     "publishedAt": "2026-11-12 08:00",
-     "url": "https://www.youtube.com/watch?v=Z7EkepEj3yM"
+     "title": "침몰중인 젠슨황 제치고, 제2의 엔비디아 될 수 있다는 '종목' 정체",
+     "publishedAt": "2026-11-12 17:36",
+     "url": "https://www.youtube.com/watch?v=pXGLrKM_WqM"
     },
     {
-     "title": "11월 12일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-11-12 07:01",
-     "url": "https://www.youtube.com/watch?v=jrMTHA3i-WA"
+     "title": "대통령 명령까지 막은 러트닉, 엔비디아를 둘러싼 수상한 침묵",
+     "publishedAt": "2026-11-12 16:30",
+     "url": "https://www.youtube.com/watch?v=MV7WZzkbNvI"
     },
     {
-     "title": "같은 '배당'을 받아도 세금이 달라지는 이유",
-     "publishedAt": "2026-11-11 23:30",
-     "url": "https://www.youtube.com/watch?v=VaPZ4gt8sP8"
+     "title": "엔비디아 젠슨 황 해임, 삼전닉스에 악재일까?",
+     "publishedAt": "2026-11-12 15:56",
+     "url": "https://www.youtube.com/watch?v=5aYvXXSedwY"
     },
     {
-     "title": "AI미래학자가 GPT-6를 투자에 활용하는 방법",
-     "publishedAt": "2026-11-11 22:30",
-     "url": "https://www.youtube.com/watch?v=H7_XPwxQ2PU"
+     "title": "젠슨황 사임 엔비디아와 AI산업 앞으로 어떻게 될까(+삼전닉스)",
+     "publishedAt": "2026-11-12 15:06",
+     "url": "https://www.youtube.com/watch?v=O64h65fCEaA"
     },
     {
-     "title": "다음 주 중국 정상회담 전, 반드시 알아야 할 6가지",
-     "publishedAt": "2026-11-11 22:00",
-     "url": "https://www.youtube.com/watch?v=b-P8sffAfeM"
+     "title": "\"빚 갚으면 바보\" 요즘 빚 안 갚는 사람들이 점점 늘어나는 이유",
+     "publishedAt": "2026-11-12 14:30",
+     "url": "https://www.youtube.com/watch?v=1tQHUlfCnIM"
     }
    ]
   },
@@ -136,6 +136,11 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
+    {
+     "title": "젠슨황 불륜설 시즌2? #젠슨황 #불륜 #엔비디아",
+     "publishedAt": "2026-11-12 16:02",
+     "url": "https://www.youtube.com/watch?v=0Csw9DbJHyo"
+    },
     {
      "title": "코어위브 앤트로픽 대박? 찐반등 오나?",
      "publishedAt": "2026-11-12 03:07",
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "젠슨황 스캔들에도 나스닥이 떡상하는 진짜 이유",
      "publishedAt": "2026-11-10 02:55",
      "url": "https://www.youtube.com/watch?v=wiTydSuyYBI"
-    },
-    {
-     "title": "젠슨황 스캔들 더 큰 문제인 이유",
-     "publishedAt": "2026-11-09 18:33",
-     "url": "https://www.youtube.com/watch?v=eO4oBy1qtWk"
     }
    ]
   },
