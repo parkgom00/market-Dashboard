@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-13 10:02",
+ "asOf": "2026-11-13 18:27",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,29 +9,29 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
-     "title": "[#찐시황] “역대급 혼돈의 증시, 아직 추격매수는 금물!” 모두가 좌절한 최악의 순간… 외국인이 만든 단 하나의 희망은? | 황유현 팀장",
-     "publishedAt": "2026-11-12 20:00",
-     "url": "https://www.youtube.com/watch?v=B4bGRF6DkQc"
+     "title": "[#긴급시황] “잘 오르던 증시가 갑자기 무너졌다!” 반등장에 무슨 일이? / 환율에 발목 잡힌 현대차의 내년 운명ㅣ이주연 대표",
+     "publishedAt": "2026-11-13 17:30",
+     "url": "https://www.youtube.com/watch?v=80YalcHW0Rc"
     },
     {
-     "title": "[#긴급시황] “젠슨 황 악재에 엔비디아 급락!” 공매도 세력까지 공격 시작했나? 실적 발표 후 삼성전자·SK하이닉스 대반전 시작될까? | 이주연 대표",
-     "publishedAt": "2026-11-12 18:00",
-     "url": "https://www.youtube.com/watch?v=0jgB_8NnBwM"
+     "title": "[#긴급시황]  “반등할 때마다 현금부터 확보하세요!” 삼성전자·SK하이닉스 지금이 바닥이라고 확신하면 위험한 이유… 아직은 더 지켜봐야 할 때!  (하락장) 이주현 대표",
+     "publishedAt": "2026-11-13 16:30",
+     "url": "https://www.youtube.com/watch?v=bumogqEOMgU"
     },
     {
-     "title": "[#긴급시황]  “반도체 위기라더니 TSMC는 50조 원 투자?” AI 반도체 슈퍼사이클 끝나지 않았나… DB하이텍이 주가폭락한 이유? | 주식황금돼지 이건희 대표",
-     "publishedAt": "2026-11-12 17:07",
-     "url": "https://www.youtube.com/watch?v=d-L6qHJqVIE"
+     "title": "[#긴급시황] “엔비디아 다음은 누가 웃을까?” 젠슨 황 사임 이후 월가 자금 이동… 코스피 투매 끝나가나? 빈집은 어디 ? | 박근형 부장",
+     "publishedAt": "2026-11-13 15:30",
+     "url": "https://www.youtube.com/watch?v=cZKNKIAXEfY"
     },
     {
-     "title": "[#긴급인터뷰]  “젠슨 황 해임되면 AI 반도체 열풍 끝나나?” 엔비디아를 뒤흔드는 논란… 사건을 키우는 세력이 따로 있을까? | 보스턴컨설팅그룹 김창욱 파트너",
-     "publishedAt": "2026-11-12 16:00",
-     "url": "https://www.youtube.com/watch?v=AaGG-_NmB4w"
+     "title": "[#긴급시황] “오늘 증시 반드시 확인할 2가지!” 반도체 소부장 추격매수는 위험… 종목 교체는 이렇게 하세요 | 김태성 본부장",
+     "publishedAt": "2026-11-13 14:15",
+     "url": "https://www.youtube.com/watch?v=uNdgcOp31nI"
     },
     {
-     "title": "[#긴급시황] “코스피 PER 3.6배, 역사적 저평가” AI 웹 트래픽 8배 폭증… 외국인 매도세까지 꺾이면 삼성전자·SK하이닉스 대반전 시작될까?  | 박근형 부장",
-     "publishedAt": "2026-11-12 14:30",
-     "url": "https://www.youtube.com/watch?v=QbiP1h3zDsw"
+     "title": "“외국인의 선택이 완전히 갈렸다!” 하이닉스 팔고 삼성전자 사들이는 진짜 이유… 주도주 교체 시작?  | 이권희 대표",
+     "publishedAt": "2026-11-13 12:45",
+     "url": "https://www.youtube.com/watch?v=vgOwQvYFZBA"
     }
    ]
   },
@@ -41,8 +41,13 @@ window.DASH.youtube = {
    "handle": "@orlandocampus",
    "videos": [
     {
+     "title": "(엔비디아) 상승의 여력이 있는지를 알아보자",
+     "publishedAt": "2026-11-13 15:21",
+     "url": "https://www.youtube.com/watch?v=-vZgkAzZE1A"
+    },
+    {
      "title": "(시황분석)엔비 거래량 늘면서 저가 매수 들어왔다!!!",
-     "publishedAt": "2026-11-13 07:02",
+     "publishedAt": "2026-11-13 06:26",
      "url": "https://www.youtube.com/watch?v=-3SOHLqonq0"
     },
     {
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(코어위브) 실적으로 향후 반도체 시장의 상승을 본다",
      "publishedAt": "2026-11-11 15:22",
      "url": "https://www.youtube.com/watch?v=Fh_zNm65PJ0"
-    },
-    {
-     "title": "(시황분석) 엔비디아 지금이 바닥인가?",
-     "publishedAt": "2026-11-11 06:30",
-     "url": "https://www.youtube.com/watch?v=zQLv6ccHQNk"
     }
    ]
   },
@@ -93,9 +93,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=mUt6YvsNGe0"
     },
     {
-     "title": "[월간 아리수] 반도체에 대한 억까? 이 때 풀립니다!!",
-     "publishedAt": "2026-11-10",
-     "url": "https://www.youtube.com/watch?v=irhw5BjQZ4A"
+     "title": "[실전 투자 스터디] AI가 끝나면 전 세계 경제가 끝납니다",
+     "publishedAt": "2026-11-10 18:00",
+     "url": "https://www.youtube.com/watch?v=SFBtMK4mhEU"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "3년 반 동안 은행들이 몰래 짜고 친 사이, 우리 세금에 벌어진 일",
-     "publishedAt": "2026-11-12 23:00",
-     "url": "https://www.youtube.com/watch?v=nwWqBDVpG00"
+     "title": "투자자들이 꼭 알아야 하는 다음 주 투자포인트(11/16~11/20)",
+     "publishedAt": "2026-11-13 18:16",
+     "url": "https://www.youtube.com/watch?v=qWMU8-rf8fA"
     },
     {
-     "title": "젠슨황이 테슬라가면 시총 1위가 바뀔까!?",
-     "publishedAt": "2026-11-12 21:30",
-     "url": "https://www.youtube.com/watch?v=_5GM0ADytDQ"
+     "title": "삼성 이재용이 2027년 주가 끌어올리려고 작정했다는 이유",
+     "publishedAt": "2026-11-13 16:07",
+     "url": "https://www.youtube.com/watch?v=3OIHrNlgQIY"
     },
     {
-     "title": "월가가 코인 회사를 버리기 시작한 진짜 이유",
-     "publishedAt": "2026-11-12 20:00",
-     "url": "https://www.youtube.com/watch?v=dlyDPO6dTU4"
+     "title": "주식은 무너졌는데, 집값은 왜 안 빠질까",
+     "publishedAt": "2026-11-13 16:00",
+     "url": "https://www.youtube.com/watch?v=v1OMPplE6oM"
     },
     {
-     "title": "앞으로 10년, 성공하는 방법이 달라지는 이유",
-     "publishedAt": "2026-11-12 19:02",
-     "url": "https://www.youtube.com/watch?v=8Si0npWIx2g"
+     "title": "엔비디아 새 CEO, 콜렛 크레스에 대해 싹 다 뜯어왔습니다",
+     "publishedAt": "2026-11-13 14:19",
+     "url": "https://www.youtube.com/watch?v=15uzI35Efno"
     },
     {
-     "title": "대통령 명령까지 막은 러트닉, 엔비디아를 둘러싼 수상한 침묵",
-     "publishedAt": "2026-11-12 17:02",
-     "url": "https://www.youtube.com/watch?v=MV7WZzkbNvI"
+     "title": "엔비디아 새 CEO가, '삼성전자'를 공개 언급한 진짜 이유",
+     "publishedAt": "2026-11-13 11:06",
+     "url": "https://www.youtube.com/watch?v=AOe3iHMrYxg"
     }
    ]
   },
@@ -142,6 +142,11 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=6VzAGnmZzNY"
     },
     {
+     "title": "젠슨황 불륜설 시즌2? #젠슨황 #불륜 #엔비디아",
+     "publishedAt": "2026-11-12 16:02",
+     "url": "https://www.youtube.com/watch?v=0Csw9DbJHyo"
+    },
+    {
      "title": "코어위브 앤트로픽 대박? 찐반등 오나?",
      "publishedAt": "2026-11-12 03:07",
      "url": "https://www.youtube.com/watch?v=9yLCraHcN8k"
@@ -152,14 +157,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=0EB7n1GwF1A"
     },
     {
-     "title": "젠슨황 스캔들에도 나스닥이 떡상하는 진짜 이유",
-     "publishedAt": "2026-11-10",
-     "url": "https://www.youtube.com/watch?v=wiTydSuyYBI"
-    },
-    {
-     "title": "젠슨황 스캔들 더 큰 문제인 이유",
-     "publishedAt": "2026-11-10",
-     "url": "https://www.youtube.com/watch?v=eO4oBy1qtWk"
+     "title": "젠슨황 스캔들에 코스피 떡상? #젠슨황 #코스피 #엔비디아",
+     "publishedAt": "2026-11-10 13:15",
+     "url": "https://www.youtube.com/watch?v=tlmjsbCHBLY"
     }
    ]
   },
@@ -184,14 +184,14 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=ucXMFfhriSw"
     },
     {
-     "title": "민주당 싹쓸이에 무너진 증시, 지금부터 봐야할 것들/민주당 총공세 시작? 조심할 주식들/트럼프의 더 센 반격 시작? 2006 데자뷰일까",
-     "publishedAt": "2026-11-09",
-     "url": "https://www.youtube.com/watch?v=pPcsbNzfQMk"
-    },
-    {
      "title": "중간선거 이후 더 큰 전쟁이 시작된다? 유례 없는 움직임, 불길한 신호일까",
      "publishedAt": "2026-11-03 20:53",
      "url": "https://www.youtube.com/watch?v=4Gkk5BqjIf0"
+    },
+    {
+     "title": "인텔 -30% 쇼크, AI 피크아웃일까 중간선거 코앞 리스크 관리일까",
+     "publishedAt": "2026-11-02 20:36",
+     "url": "https://www.youtube.com/watch?v=6Zq7p54WTNI"
     }
    ]
   }
