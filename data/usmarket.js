@@ -81,65 +81,65 @@ window.DASH.usmarket = {
    "group": "금리·환율",
    "name": "달러 인덱스",
    "kind": "plain",
-   "close": 103.16,
+   "close": 103.17,
    "changePct": 0.25,
-   "changeText": "103.16 (+0.25%)"
+   "changeText": "103.17 (+0.25%)"
   },
   {
    "group": "금리·환율",
    "name": "원/달러",
    "kind": "plain",
-   "close": 1331.5,
-   "changePct": -0.36,
-   "changeText": "1,331.50 (-0.36%)"
+   "close": 1331.64,
+   "changePct": -0.35,
+   "changeText": "1,331.64 (-0.35%)"
   },
   {
    "group": "금리·환율",
    "name": "엔/달러",
    "kind": "plain",
-   "close": 159.93,
-   "changePct": 0.12,
-   "changeText": "159.93 (+0.12%)"
+   "close": 159.91,
+   "changePct": 0.11,
+   "changeText": "159.91 (+0.11%)"
   },
   {
    "group": "원자재·기타",
    "name": "WTI 유가",
    "kind": "usd",
-   "close": 88.57,
-   "changePct": 2.36,
-   "changeText": "88.57 (+2.36%)"
+   "close": 88.35,
+   "changePct": 2.1,
+   "changeText": "88.35 (+2.10%)"
   },
   {
    "group": "원자재·기타",
    "name": "브렌트유",
    "kind": "usd",
-   "close": 96.0,
-   "changePct": 3.49,
-   "changeText": "96.00 (+3.49%)"
+   "close": 95.71,
+   "changePct": 3.18,
+   "changeText": "95.71 (+3.18%)"
   },
   {
    "group": "원자재·기타",
    "name": "금",
    "kind": "usd",
-   "close": 3916.5,
-   "changePct": -2.1,
-   "changeText": "3,916.50 (-2.10%)"
+   "close": 3913.4,
+   "changePct": -2.18,
+   "changeText": "3,913.40 (-2.18%)"
   },
   {
    "group": "원자재·기타",
    "name": "구리",
    "kind": "usd",
-   "close": 6.23,
-   "changePct": -0.66,
-   "changeText": "6.23 (-0.66%)"
+   "close": 6.22,
+   "changePct": -0.88,
+   "changeText": "6.22 (-0.88%)"
   },
   {
    "group": "원자재·기타",
    "name": "비트코인",
    "kind": "usd",
-   "close": 70226.65,
-   "changePct": -5.05,
-   "changeText": "70,226.65 (-5.05%)"
+   "close": 70253.56,
+   "changePct": -5.02,
+   "changeText": "70,253.56 (-5.02%)"
   },
   {
    "group": "원자재·기타",
@@ -148,25 +148,25 @@ window.DASH.usmarket = {
    "close": 60.233,
    "changePct": 0.0,
    "changeText": "$60.233 (+0.00%)",
-   "note": "현물 평균가 · Nov.12 2026 18:10 대만시간"
+   "note": "현물 평균가 · Nov.13 2026 11:00 대만시간"
   },
   {
    "group": "원자재·기타",
    "name": "D램 DDR4 16Gb",
    "kind": "usd",
-   "close": 79.75,
-   "changePct": -0.15,
-   "changeText": "$79.750 (-0.15%)",
-   "note": "현물 평균가 · Nov.12 2026 18:10 대만시간"
+   "close": 79.5,
+   "changePct": -0.31,
+   "changeText": "$79.500 (-0.31%)",
+   "note": "현물 평균가 · Nov.13 2026 11:00 대만시간"
   },
   {
    "group": "원자재·기타",
    "name": "D램 DDR4 8Gb",
    "kind": "usd",
-   "close": 44.714,
+   "close": 44.536,
    "changePct": -0.4,
-   "changeText": "$44.714 (-0.40%)",
-   "note": "현물 평균가 · Nov.12 2026 18:10 대만시간"
+   "changeText": "$44.536 (-0.40%)",
+   "note": "현물 평균가 · Nov.13 2026 11:00 대만시간"
   }
  ],
  "sectors": [
