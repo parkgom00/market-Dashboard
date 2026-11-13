@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-14 02:41",
+ "asOf": "2026-11-14 08:29",
  "channels": [
   {
    "name": "815머니톡",
@@ -41,6 +41,11 @@ window.DASH.youtube = {
    "handle": "@orlandocampus",
    "videos": [
     {
+     "title": "(시황분석) 금리와 유가를 자세히 보자!!!",
+     "publishedAt": "2026-11-14 08:06",
+     "url": "https://www.youtube.com/watch?v=_1VSUH4EDYU"
+    },
+    {
      "title": "(엔비디아) 상승의 여력이 있는지를 알아보자",
      "publishedAt": "2026-11-13 15:21",
      "url": "https://www.youtube.com/watch?v=-vZgkAzZE1A"
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 결국은 극도로 두려울때가 바닥이었다!!!",
      "publishedAt": "2026-11-12 07:07",
      "url": "https://www.youtube.com/watch?v=KG3C_TrOqOg"
-    },
-    {
-     "title": "(코어위브) 실적으로 향후 반도체 시장의 상승을 본다",
-     "publishedAt": "2026-11-11 15:22",
-     "url": "https://www.youtube.com/watch?v=Fh_zNm65PJ0"
     }
    ]
   },
@@ -137,6 +137,11 @@ window.DASH.youtube = {
    "handle": "@김단테",
    "videos": [
     {
+     "title": "또 다시 시작된 젠슨황 위기",
+     "publishedAt": "2026-11-14 03:30",
+     "url": "https://www.youtube.com/watch?v=mk892-Pg1TU"
+    },
+    {
      "title": "한 시대가 끝났습니다. 엔비디아 젠슨황 CEO 사퇴",
      "publishedAt": "2026-11-13 00:44",
      "url": "https://www.youtube.com/watch?v=6VzAGnmZzNY"
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "12월에 미국 기준금리가 0.5%p 한방에 상승?",
      "publishedAt": "2026-11-11 02:50",
      "url": "https://www.youtube.com/watch?v=0EB7n1GwF1A"
-    },
-    {
-     "title": "젠슨황 스캔들에 코스피 떡상? #젠슨황 #코스피 #엔비디아",
-     "publishedAt": "2026-11-10 13:15",
-     "url": "https://www.youtube.com/watch?v=tlmjsbCHBLY"
     }
    ]
   },
