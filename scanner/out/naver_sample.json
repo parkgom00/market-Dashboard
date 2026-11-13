@@ -450,5 +450,25 @@
    "accumulatedTradingValueRaw": "35185000000",
    "marketValueRaw": "9878971580800"
   }
+ ],
+ "industryGroups": [
+  {
+   "no": 277,
+   "name": "창업투자",
+   "totalCount": 89,
+   "changeRate": "8.04",
+   "riseCount": 33,
+   "fallCount": 31,
+   "steadyCount": 25
+  },
+  {
+   "no": 288,
+   "name": "건강관리기술",
+   "totalCount": 13,
+   "changeRate": "3.68",
+   "riseCount": 6,
+   "fallCount": 6,
+   "steadyCount": 1
+  }
  ]
 }
