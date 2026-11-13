@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-13 03:14",
+ "asOf": "2026-11-13 10:02",
  "channels": [
   {
    "name": "815머니톡",
@@ -41,6 +41,11 @@ window.DASH.youtube = {
    "handle": "@orlandocampus",
    "videos": [
     {
+     "title": "(시황분석)엔비 거래량 늘면서 저가 매수 들어왔다!!!",
+     "publishedAt": "2026-11-13 07:02",
+     "url": "https://www.youtube.com/watch?v=-3SOHLqonq0"
+    },
+    {
      "title": "(엔비디아) CEO교체시 폭락? 투자해야 할 종목은?",
      "publishedAt": "2026-11-12 15:45",
      "url": "https://www.youtube.com/watch?v=rRC0H8Px5M8"
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 엔비디아 지금이 바닥인가?",
      "publishedAt": "2026-11-11 06:30",
      "url": "https://www.youtube.com/watch?v=zQLv6ccHQNk"
-    },
-    {
-     "title": "(아이온큐) 그래도 쫒아가서 담지는 말자!!!",
-     "publishedAt": "2026-11-10 14:44",
-     "url": "https://www.youtube.com/watch?v=K1gTcOa21Y0"
     }
    ]
   },
@@ -93,9 +93,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=mUt6YvsNGe0"
     },
     {
-     "title": "[실전 투자 스터디] AI가 끝나면 전 세계 경제가 끝납니다",
-     "publishedAt": "2026-11-10 18:00",
-     "url": "https://www.youtube.com/watch?v=SFBtMK4mhEU"
+     "title": "[월간 아리수] 반도체에 대한 억까? 이 때 풀립니다!!",
+     "publishedAt": "2026-11-10",
+     "url": "https://www.youtube.com/watch?v=irhw5BjQZ4A"
     }
    ]
   },
@@ -115,19 +115,19 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=_5GM0ADytDQ"
     },
     {
-     "title": "챗지피티, 클로드 거짓말 3초 만에 없애는 방법",
-     "publishedAt": "2026-11-12 20:50",
-     "url": "https://www.youtube.com/watch?v=5mJ-N8i96Yc"
-    },
-    {
      "title": "월가가 코인 회사를 버리기 시작한 진짜 이유",
      "publishedAt": "2026-11-12 20:00",
      "url": "https://www.youtube.com/watch?v=dlyDPO6dTU4"
     },
     {
-     "title": "죽어가는 코스피에 결국 '144조 쏟아붓는' 삼성 이재용 근황",
-     "publishedAt": "2026-11-12 19:50",
-     "url": "https://www.youtube.com/watch?v=VXdLqBbFl7E"
+     "title": "앞으로 10년, 성공하는 방법이 달라지는 이유",
+     "publishedAt": "2026-11-12 19:02",
+     "url": "https://www.youtube.com/watch?v=8Si0npWIx2g"
+    },
+    {
+     "title": "대통령 명령까지 막은 러트닉, 엔비디아를 둘러싼 수상한 침묵",
+     "publishedAt": "2026-11-12 17:02",
+     "url": "https://www.youtube.com/watch?v=MV7WZzkbNvI"
     }
    ]
   },
@@ -142,11 +142,6 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=6VzAGnmZzNY"
     },
     {
-     "title": "젠슨황 불륜설 시즌2? #젠슨황 #불륜 #엔비디아",
-     "publishedAt": "2026-11-12 16:02",
-     "url": "https://www.youtube.com/watch?v=0Csw9DbJHyo"
-    },
-    {
      "title": "코어위브 앤트로픽 대박? 찐반등 오나?",
      "publishedAt": "2026-11-12 03:07",
      "url": "https://www.youtube.com/watch?v=9yLCraHcN8k"
@@ -157,9 +152,14 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=0EB7n1GwF1A"
     },
     {
-     "title": "젠슨황 스캔들에 코스피 떡상? #젠슨황 #코스피 #엔비디아",
-     "publishedAt": "2026-11-10 13:15",
-     "url": "https://www.youtube.com/watch?v=tlmjsbCHBLY"
+     "title": "젠슨황 스캔들에도 나스닥이 떡상하는 진짜 이유",
+     "publishedAt": "2026-11-10",
+     "url": "https://www.youtube.com/watch?v=wiTydSuyYBI"
+    },
+    {
+     "title": "젠슨황 스캔들 더 큰 문제인 이유",
+     "publishedAt": "2026-11-10",
+     "url": "https://www.youtube.com/watch?v=eO4oBy1qtWk"
     }
    ]
   },
@@ -184,14 +184,14 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=ucXMFfhriSw"
     },
     {
+     "title": "민주당 싹쓸이에 무너진 증시, 지금부터 봐야할 것들/민주당 총공세 시작? 조심할 주식들/트럼프의 더 센 반격 시작? 2006 데자뷰일까",
+     "publishedAt": "2026-11-09",
+     "url": "https://www.youtube.com/watch?v=pPcsbNzfQMk"
+    },
+    {
      "title": "중간선거 이후 더 큰 전쟁이 시작된다? 유례 없는 움직임, 불길한 신호일까",
      "publishedAt": "2026-11-03 20:53",
      "url": "https://www.youtube.com/watch?v=4Gkk5BqjIf0"
-    },
-    {
-     "title": "인텔 -30% 쇼크, AI 피크아웃일까 중간선거 코앞 리스크 관리일까",
-     "publishedAt": "2026-11-02 20:36",
-     "url": "https://www.youtube.com/watch?v=6Zq7p54WTNI"
     }
    ]
   }
