@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-13 18:27",
+ "asOf": "2026-11-14 02:41",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황]  “외국인 움직임이 수상하다!” 현물 6,800억 매도·선물 5,600억 매수… 다음 주 한국 증시 어떻게 될까?  (하락장) 김동엽 대표",
+     "publishedAt": "2026-11-13 20:00",
+     "url": "https://www.youtube.com/watch?v=jSVzxKubRcQ"
+    },
+    {
+     "title": "“반도체 기업은 환호하는데 투자자만 불안하다!” 삼성전자·SK하이닉스 주가가 흔들리는 이유… LTA 장기 계약이 보여주는 AI 반도체의 미래!  | 보스턴컨설팅그룹 김창욱 파트너",
+     "publishedAt": "2026-11-13 19:00",
+     "url": "https://www.youtube.com/watch?v=0QL9B_8Ju9M"
+    },
     {
      "title": "[#긴급시황] “잘 오르던 증시가 갑자기 무너졌다!” 반등장에 무슨 일이? / 환율에 발목 잡힌 현대차의 내년 운명ㅣ이주연 대표",
      "publishedAt": "2026-11-13 17:30",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] “엔비디아 다음은 누가 웃을까?” 젠슨 황 사임 이후 월가 자금 이동… 코스피 투매 끝나가나? 빈집은 어디 ? | 박근형 부장",
      "publishedAt": "2026-11-13 15:30",
      "url": "https://www.youtube.com/watch?v=cZKNKIAXEfY"
-    },
-    {
-     "title": "[#긴급시황] “오늘 증시 반드시 확인할 2가지!” 반도체 소부장 추격매수는 위험… 종목 교체는 이렇게 하세요 | 김태성 본부장",
-     "publishedAt": "2026-11-13 14:15",
-     "url": "https://www.youtube.com/watch?v=uNdgcOp31nI"
-    },
-    {
-     "title": "“외국인의 선택이 완전히 갈렸다!” 하이닉스 팔고 삼성전자 사들이는 진짜 이유… 주도주 교체 시작?  | 이권희 대표",
-     "publishedAt": "2026-11-13 12:45",
-     "url": "https://www.youtube.com/watch?v=vgOwQvYFZBA"
     }
    ]
   },
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "젠슨 황 없는 엔비디아, 구글이 공백 메울까? 메모리 대전환?",
+     "publishedAt": "2026-11-13 19:00",
+     "url": "https://www.youtube.com/watch?v=WXVas_zSwZ8"
+    },
+    {
      "title": "[월간 아리수] 현대차 위기? 이게 끝이 아닙니다!!",
      "publishedAt": "2026-11-12 19:00",
      "url": "https://www.youtube.com/watch?v=qlzCfIbuiog"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[긴급] 외국인이 한국 메모리 미친듯이 팔아치운 이유 밝혀졌다!!",
      "publishedAt": "2026-11-10 19:00",
      "url": "https://www.youtube.com/watch?v=mUt6YvsNGe0"
-    },
-    {
-     "title": "[실전 투자 스터디] AI가 끝나면 전 세계 경제가 끝납니다",
-     "publishedAt": "2026-11-10 18:00",
-     "url": "https://www.youtube.com/watch?v=SFBtMK4mhEU"
     }
    ]
   },
@@ -105,6 +105,21 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "챗GPT로 주식 투자한다면 이 프롬프트 무조건 넣으세요",
+     "publishedAt": "2026-11-14 00:21",
+     "url": "https://www.youtube.com/watch?v=69duz01Q_tY"
+    },
+    {
+     "title": "젠슨황 사퇴가, 이번 미중 정상회담까지 흔드는 이유",
+     "publishedAt": "2026-11-13 19:30",
+     "url": "https://www.youtube.com/watch?v=7Y9qfozAXK8"
+    },
+    {
+     "title": "엔비디아 젠슨황 사퇴 첫날, 외국인들이 다 도망간 이유",
+     "publishedAt": "2026-11-13 18:27",
+     "url": "https://www.youtube.com/watch?v=n9_QbBhgEYk"
+    },
+    {
      "title": "투자자들이 꼭 알아야 하는 다음 주 투자포인트(11/16~11/20)",
      "publishedAt": "2026-11-13 18:16",
      "url": "https://www.youtube.com/watch?v=qWMU8-rf8fA"
@@ -113,21 +128,6 @@ window.DASH.youtube = {
      "title": "삼성 이재용이 2027년 주가 끌어올리려고 작정했다는 이유",
      "publishedAt": "2026-11-13 16:07",
      "url": "https://www.youtube.com/watch?v=3OIHrNlgQIY"
-    },
-    {
-     "title": "주식은 무너졌는데, 집값은 왜 안 빠질까",
-     "publishedAt": "2026-11-13 16:00",
-     "url": "https://www.youtube.com/watch?v=v1OMPplE6oM"
-    },
-    {
-     "title": "엔비디아 새 CEO, 콜렛 크레스에 대해 싹 다 뜯어왔습니다",
-     "publishedAt": "2026-11-13 14:19",
-     "url": "https://www.youtube.com/watch?v=15uzI35Efno"
-    },
-    {
-     "title": "엔비디아 새 CEO가, '삼성전자'를 공개 언급한 진짜 이유",
-     "publishedAt": "2026-11-13 11:06",
-     "url": "https://www.youtube.com/watch?v=AOe3iHMrYxg"
     }
    ]
   },
