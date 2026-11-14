@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-14 15:12",
+ "asOf": "2026-11-15 00:00",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,29 +9,29 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
+     "title": "[#찐시황]  “외국인은 왜 현물 팔고 선물을 사나?” 1조 매도·5,600억 매수… 다음 주 코스피 바닥 확인할까? | 이주연 대표",
+     "publishedAt": "2026-11-14 20:00",
+     "url": "https://www.youtube.com/watch?v=_0ePh1KmGdc"
+    },
+    {
+     "title": "“멈춰선 한국증시, 상승장은 정말 끝났나?” 엔비디아 사태 후폭풍… 삼성전자·SK하이닉스 다시 오를 수 있을까?ㅣ이영훈 이사",
+     "publishedAt": "2026-11-14 18:00",
+     "url": "https://www.youtube.com/watch?v=vVe3kbl0k44"
+    },
+    {
+     "title": "[#글로벌인사이트] “젠슨 황 리스크, 외국인은 미리 알고 있었나?” 삼성전자·SK하이닉스 수개월간 매도한 이유… 충격 속에서 발견한 단 하나의 희망!  | 노근창 대표",
+     "publishedAt": "2026-11-14 16:30",
+     "url": "https://www.youtube.com/watch?v=PZLLj9tHYlQ"
+    },
+    {
      "title": "“젠슨 황 떠나자 AI 데이터센터주 초토화!” 삼성전자·SK하이닉스까지 무너지나?ㅣ오로라투자자문 이지환 대표",
-     "publishedAt": "2026-11-14 09:12",
+     "publishedAt": "2026-11-14 08:30",
      "url": "https://www.youtube.com/watch?v=r_mO3QY3fE4"
     },
     {
      "title": "[#찐시황]  “외국인 움직임이 수상하다!” 현물 6,800억 매도·선물 5,600억 매수… 다음 주 한국 증시 어떻게 될까?  (하락장) 김동엽 대표",
      "publishedAt": "2026-11-13 20:00",
      "url": "https://www.youtube.com/watch?v=jSVzxKubRcQ"
-    },
-    {
-     "title": "“반도체 기업은 환호하는데 투자자만 불안하다!” 삼성전자·SK하이닉스 주가가 흔들리는 이유… LTA 장기 계약이 보여주는 AI 반도체의 미래!  | 보스턴컨설팅그룹 김창욱 파트너",
-     "publishedAt": "2026-11-13 19:00",
-     "url": "https://www.youtube.com/watch?v=0QL9B_8Ju9M"
-    },
-    {
-     "title": "[#긴급시황] “잘 오르던 증시가 갑자기 무너졌다!” 반등장에 무슨 일이? / 환율에 발목 잡힌 현대차의 내년 운명ㅣ이주연 대표",
-     "publishedAt": "2026-11-13 17:30",
-     "url": "https://www.youtube.com/watch?v=80YalcHW0Rc"
-    },
-    {
-     "title": "[#긴급시황]  “반등할 때마다 현금부터 확보하세요!” 삼성전자·SK하이닉스 지금이 바닥이라고 확신하면 위험한 이유… 아직은 더 지켜봐야 할 때!  (하락장) 이주현 대표",
-     "publishedAt": "2026-11-13 16:30",
-     "url": "https://www.youtube.com/watch?v=bumogqEOMgU"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(아이온큐) 주가 하락의 근본원인은?",
+     "publishedAt": "2026-11-14 19:39",
+     "url": "https://www.youtube.com/watch?v=_qVj9yw_8RU"
+    },
     {
      "title": "(시황분석) 금리와 유가를 자세히 보자!!!",
      "publishedAt": "2026-11-14 08:06",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(엔비디아) CEO교체시 폭락? 투자해야 할 종목은?",
      "publishedAt": "2026-11-12 15:45",
      "url": "https://www.youtube.com/watch?v=rRC0H8Px5M8"
-    },
-    {
-     "title": "(시황분석) 결국은 극도로 두려울때가 바닥이었다!!!",
-     "publishedAt": "2026-11-12 07:07",
-     "url": "https://www.youtube.com/watch?v=KG3C_TrOqOg"
     }
    ]
   },
@@ -74,7 +74,7 @@ window.DASH.youtube = {
    "videos": [
     {
      "title": "[몰아보기] 반도체 주가 변곡점? 이 때 옵니다!!",
-     "publishedAt": "2026-11-14 14:12",
+     "publishedAt": "2026-11-14 14:00",
      "url": "https://www.youtube.com/watch?v=i6JqA9S9FHE"
     },
     {
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "SK하이닉스는 왜 미국에 13조 원짜리 'AI 투자회사'를 세웠을까?",
+     "publishedAt": "2026-11-14 22:02",
+     "url": "https://www.youtube.com/watch?v=ebl3lHghkA8"
+    },
+    {
      "title": "다음 주, 엔비디아 실적 발표 전에 꼭 봐야 할 투자포인트",
-     "publishedAt": "2026-11-14 12:12",
+     "publishedAt": "2026-11-14 12:00",
      "url": "https://www.youtube.com/watch?v=naFa2zJEjpc"
     },
     {
-     "title": "젠슨황 사퇴가, 이번 미중 정상회담까지 흔드는 이유",
-     "publishedAt": "2026-11-13 19:30",
-     "url": "https://www.youtube.com/watch?v=7Y9qfozAXK8"
+     "title": "미국 투자자들이 꼭 봐야 하는 다음 주 투자 포인트(11.16~20)",
+     "publishedAt": "2026-11-14 11:00",
+     "url": "https://www.youtube.com/watch?v=CLlU8yuiBRY"
     },
     {
-     "title": "투자자들이 꼭 알아야 하는 다음 주 투자포인트(11/16~11/20)",
-     "publishedAt": "2026-11-13 18:16",
-     "url": "https://www.youtube.com/watch?v=qWMU8-rf8fA"
+     "title": "한국 투자자들이 꼭 봐야 하는 다음 주 투자 포인트(11.16~20)",
+     "publishedAt": "2026-11-14 09:00",
+     "url": "https://www.youtube.com/watch?v=u5uBFIdibfc"
     },
     {
-     "title": "주식은 무너졌는데, 집값은 왜 안 빠질까",
-     "publishedAt": "2026-11-13 16:12",
-     "url": "https://www.youtube.com/watch?v=v1OMPplE6oM"
-    },
-    {
-     "title": "엔비디아 새 CEO, 콜렛 크레스에 대해 싹 다 뜯어왔습니다",
-     "publishedAt": "2026-11-13",
-     "url": "https://www.youtube.com/watch?v=15uzI35Efno"
+     "title": "챗GPT로 주식 투자한다면 이 프롬프트 무조건 넣으세요",
+     "publishedAt": "2026-11-14 00:21",
+     "url": "https://www.youtube.com/watch?v=69duz01Q_tY"
     }
    ]
   },
@@ -147,6 +147,11 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=6VzAGnmZzNY"
     },
     {
+     "title": "젠슨황 불륜설 시즌2? #젠슨황 #불륜 #엔비디아",
+     "publishedAt": "2026-11-12 16:02",
+     "url": "https://www.youtube.com/watch?v=0Csw9DbJHyo"
+    },
+    {
      "title": "코어위브 앤트로픽 대박? 찐반등 오나?",
      "publishedAt": "2026-11-12 03:07",
      "url": "https://www.youtube.com/watch?v=9yLCraHcN8k"
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "12월에 미국 기준금리가 0.5%p 한방에 상승?",
      "publishedAt": "2026-11-11 02:50",
      "url": "https://www.youtube.com/watch?v=0EB7n1GwF1A"
-    },
-    {
-     "title": "젠슨황 스캔들에도 나스닥이 떡상하는 진짜 이유",
-     "publishedAt": "2026-11-10",
-     "url": "https://www.youtube.com/watch?v=wiTydSuyYBI"
     }
    ]
   },
@@ -184,14 +184,14 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=ucXMFfhriSw"
     },
     {
-     "title": "민주당 싹쓸이에 무너진 증시, 지금부터 봐야할 것들/민주당 총공세 시작? 조심할 주식들/트럼프의 더 센 반격 시작? 2006 데자뷰일까",
-     "publishedAt": "2026-11-09",
-     "url": "https://www.youtube.com/watch?v=pPcsbNzfQMk"
-    },
-    {
      "title": "중간선거 이후 더 큰 전쟁이 시작된다? 유례 없는 움직임, 불길한 신호일까",
      "publishedAt": "2026-11-03 20:53",
      "url": "https://www.youtube.com/watch?v=4Gkk5BqjIf0"
+    },
+    {
+     "title": "인텔 -30% 쇼크, AI 피크아웃일까 중간선거 코앞 리스크 관리일까",
+     "publishedAt": "2026-11-02 20:36",
+     "url": "https://www.youtube.com/watch?v=6Zq7p54WTNI"
     }
    ]
   }
