@@ -89,9 +89,9 @@ window.DASH.usmarket = {
    "group": "금리·환율",
    "name": "원/달러",
    "kind": "plain",
-   "close": 1333.78,
-   "changePct": -0.19,
-   "changeText": "1,333.78 (-0.19%)"
+   "close": 1336.2,
+   "changePct": 0.18,
+   "changeText": "1,336.20 (+0.18%)"
   },
   {
    "group": "금리·환율",
@@ -137,9 +137,9 @@ window.DASH.usmarket = {
    "group": "원자재·기타",
    "name": "비트코인",
    "kind": "usd",
-   "close": 67373.23,
-   "changePct": -5.56,
-   "changeText": "67,373.23 (-5.56%)"
+   "close": 67119.34,
+   "changePct": -5.92,
+   "changeText": "67,119.34 (-5.92%)"
   },
   {
    "group": "원자재·기타",
