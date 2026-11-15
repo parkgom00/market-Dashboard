@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-15 18:16",
+ "asOf": "2026-11-16 02:03",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황]  “폭발적인 실적에도 반도체주가 무너진다!”  외국인 선물 2만 6천 계약 매수… 삼전·하닉 대반전 신호인가?  | 미래에셋자산운용 최창규 이사",
+     "publishedAt": "2026-11-15 20:00",
+     "url": "https://www.youtube.com/watch?v=mW4Bp0uo0eQ"
+    },
     {
      "title": "“한국 증시 살리겠다는데 주가는 왜 떨어졌나?” 자본시장 간담회 이후 증시 하락… 엔비디아 실적이 마지막 희망?ㅣ 이영훈 이사",
      "publishedAt": "2026-11-15 18:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#찐시황]  “외국인은 왜 현물 팔고 선물을 사나?” 1조 매도·5,600억 매수… 다음 주 코스피 바닥 확인할까? | 이주연 대표",
      "publishedAt": "2026-11-14 20:00",
      "url": "https://www.youtube.com/watch?v=_0ePh1KmGdc"
-    },
-    {
-     "title": "“멈춰선 한국증시, 상승장은 정말 끝났나?” 엔비디아 사태 후폭풍… 삼성전자·SK하이닉스 다시 오를 수 있을까?ㅣ이영훈 이사",
-     "publishedAt": "2026-11-14 18:00",
-     "url": "https://www.youtube.com/watch?v=vVe3kbl0k44"
     }
    ]
   },
@@ -169,11 +169,6 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
-     "title": "엔비디아 -33% 폭락, 기회일까 vs 후폭풍올까/2018 연말 급락 데자뷰? 불길한 신호일까/앤트로픽 IPO, 초반 급등 FOMO 주의?!",
-     "publishedAt": "2026-11-15 17:10",
-     "url": "https://www.youtube.com/watch?v=asqrvwuWB7o"
-    },
-    {
      "title": "20년 전 부시 행정부와 똑같다? 초강경 모드 진입한 트럼프, 분위기 바꿀까",
      "publishedAt": "2026-11-11 22:00",
      "url": "https://www.youtube.com/watch?v=gNm_uU33nOk"
@@ -192,6 +187,11 @@ window.DASH.youtube = {
      "title": "중간선거 이후 더 큰 전쟁이 시작된다? 유례 없는 움직임, 불길한 신호일까",
      "publishedAt": "2026-11-03 20:53",
      "url": "https://www.youtube.com/watch?v=4Gkk5BqjIf0"
+    },
+    {
+     "title": "인텔 -30% 쇼크, AI 피크아웃일까 중간선거 코앞 리스크 관리일까",
+     "publishedAt": "2026-11-02 20:36",
+     "url": "https://www.youtube.com/watch?v=6Zq7p54WTNI"
     }
    ]
   }
