@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-16 02:03",
+ "asOf": "2026-11-16 07:46",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[11월16일 #장시작전] “젠슨 황 충격에 뉴욕증시 또 하락!” 이번 주 엔비디아 실적이 판 뒤집나? 앤트로픽 상장이 AI 반도체 상승장 되살릴까?",
+     "publishedAt": "2026-11-16 06:09",
+     "url": "https://www.youtube.com/watch?v=rdGRHVkn2hA"
+    },
     {
      "title": "[#찐시황]  “폭발적인 실적에도 반도체주가 무너진다!”  외국인 선물 2만 6천 계약 매수… 삼전·하닉 대반전 신호인가?  | 미래에셋자산운용 최창규 이사",
      "publishedAt": "2026-11-15 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“외국인은 삼성전자 바닥을 알고 있나?” 급락장에 800만 주 매수… 앤트로픽 상장이 증시 살릴까?ㅣ오로라투자자문 이지환 대표",
      "publishedAt": "2026-11-15 09:16",
      "url": "https://www.youtube.com/watch?v=xrqbovX16L8"
-    },
-    {
-     "title": "[#찐시황]  “외국인은 왜 현물 팔고 선물을 사나?” 1조 매도·5,600억 매수… 다음 주 코스피 바닥 확인할까? | 이주연 대표",
-     "publishedAt": "2026-11-14 20:00",
-     "url": "https://www.youtube.com/watch?v=_0ePh1KmGdc"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "11월 16일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-11-16 06:50",
+     "url": "https://www.youtube.com/watch?v=eQs2G3yP8mg"
+    },
+    {
      "title": "해외주식 세금, 12월 30일 전에 꼭 알아야 할 3가지",
      "publishedAt": "2026-11-15 12:00",
      "url": "https://www.youtube.com/watch?v=D9hK5B8wT68"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "다음 주, 엔비디아 실적 발표 전에 꼭 봐야 할 투자포인트",
      "publishedAt": "2026-11-14 12:00",
      "url": "https://www.youtube.com/watch?v=naFa2zJEjpc"
-    },
-    {
-     "title": "미국 투자자들이 꼭 봐야 하는 다음 주 투자 포인트(11.16~20)",
-     "publishedAt": "2026-11-14 11:00",
-     "url": "https://www.youtube.com/watch?v=CLlU8yuiBRY"
     }
    ]
   },
