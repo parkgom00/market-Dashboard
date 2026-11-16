@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-16 07:46",
+ "asOf": "2026-11-16 15:19",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,7 +9,22 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
-     "title": "[11월16일 #장시작전] “젠슨 황 충격에 뉴욕증시 또 하락!” 이번 주 엔비디아 실적이 판 뒤집나? 앤트로픽 상장이 AI 반도체 상승장 되살릴까?",
+     "title": "[#긴급시황] “반도체 소부장, 이건 하락이 아니라 패대기다!” 무차별 투매가 쏟아지는 진짜 이유… 반등해도 지금 종목 교체하면 위험한 이유!  (급락장) 김태성 본부장",
+     "publishedAt": "2026-11-16 14:19",
+     "url": "https://www.youtube.com/watch?v=UhA5xmTjqJ4"
+    },
+    {
+     "title": "“엔비디아 18일 실적이 운명의 분수령!” 삼성전자·SK하이닉스 내년 1월까지 쉬어가나? 그동안 돈 몰릴 새로운 주도주는? | 이권희 대표",
+     "publishedAt": "2026-11-16 13:19",
+     "url": "https://www.youtube.com/watch?v=KHKXu_kP8_Y"
+    },
+    {
+     "title": "“월가 큰손들 엔비디아 버리고 SK하이닉스, 인텔 샀다?” 헤지펀드의 수상한 선택… 젠슨 황 돌아올까? | 메리츠증권 이화진 차장",
+     "publishedAt": "2026-11-16 11:19",
+     "url": "https://www.youtube.com/watch?v=SiPUXeRHkow"
+    },
+    {
+     "title": "[11월16일 #장시작전] 젠슨황 악재와 엔비디아 실적 기대감 사이 조정장, 틈새 공략할 섹터는? | 김태성, 이주현, 박근형",
      "publishedAt": "2026-11-16 06:09",
      "url": "https://www.youtube.com/watch?v=rdGRHVkn2hA"
     },
@@ -17,21 +32,6 @@ window.DASH.youtube = {
      "title": "[#찐시황]  “폭발적인 실적에도 반도체주가 무너진다!”  외국인 선물 2만 6천 계약 매수… 삼전·하닉 대반전 신호인가?  | 미래에셋자산운용 최창규 이사",
      "publishedAt": "2026-11-15 20:00",
      "url": "https://www.youtube.com/watch?v=mW4Bp0uo0eQ"
-    },
-    {
-     "title": "“한국 증시 살리겠다는데 주가는 왜 떨어졌나?” 자본시장 간담회 이후 증시 하락… 엔비디아 실적이 마지막 희망?ㅣ 이영훈 이사",
-     "publishedAt": "2026-11-15 18:00",
-     "url": "https://www.youtube.com/watch?v=GzDMiPDUZr0"
-    },
-    {
-     "title": "[#글로벌인사이트] “엔비디아 악재 터지자 삼성전자에 돈 몰린다” 외국인들이 사 모으는 진짜 이유!  | 세미콘 리서치 랩 노근창 대표",
-     "publishedAt": "2026-11-15 16:30",
-     "url": "https://www.youtube.com/watch?v=P1m0QaKWzG0"
-    },
-    {
-     "title": "“외국인은 삼성전자 바닥을 알고 있나?” 급락장에 800만 주 매수… 앤트로픽 상장이 증시 살릴까?ㅣ오로라투자자문 이지환 대표",
-     "publishedAt": "2026-11-15 09:16",
-     "url": "https://www.youtube.com/watch?v=xrqbovX16L8"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(엔비디아,앤트로픽) 젠슨황 돌아오면 폭등? 엔트로픽의 물량폭탄으로 하락?",
+     "publishedAt": "2026-11-16 11:19",
+     "url": "https://www.youtube.com/watch?v=D0oYzLQaR1c"
+    },
     {
      "title": "(주간시황) 반도체 저평가 vs 금리상승 지속,기간조정이 필요!!!",
      "publishedAt": "2026-11-15 18:04",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 금리와 유가를 자세히 보자!!!",
      "publishedAt": "2026-11-14 08:06",
      "url": "https://www.youtube.com/watch?v=_1VSUH4EDYU"
-    },
-    {
-     "title": "(엔비디아) 상승의 여력이 있는지를 알아보자",
-     "publishedAt": "2026-11-13 15:21",
-     "url": "https://www.youtube.com/watch?v=-vZgkAzZE1A"
     }
    ]
   },
@@ -105,19 +105,9 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "11월 16일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-11-16 06:50",
-     "url": "https://www.youtube.com/watch?v=eQs2G3yP8mg"
-    },
-    {
      "title": "해외주식 세금, 12월 30일 전에 꼭 알아야 할 3가지",
      "publishedAt": "2026-11-15 12:00",
      "url": "https://www.youtube.com/watch?v=D9hK5B8wT68"
-    },
-    {
-     "title": "다음 주, 엔비디아 실적 발표 전에 꼭 봐야 할 투자포인트",
-     "publishedAt": "2026-11-15 08:00",
-     "url": "https://www.youtube.com/watch?v=PYTBmfeU0l0"
     },
     {
      "title": "SK하이닉스는 왜 미국에 13조 원짜리 'AI 투자회사'를 세웠을까?",
@@ -128,6 +118,16 @@ window.DASH.youtube = {
      "title": "다음 주, 엔비디아 실적 발표 전에 꼭 봐야 할 투자포인트",
      "publishedAt": "2026-11-14 12:00",
      "url": "https://www.youtube.com/watch?v=naFa2zJEjpc"
+    },
+    {
+     "title": "젠슨황 사퇴가, 이번 미중 정상회담까지 흔드는 이유",
+     "publishedAt": "2026-11-14",
+     "url": "https://www.youtube.com/watch?v=7Y9qfozAXK8"
+    },
+    {
+     "title": "투자자들이 꼭 알아야 하는 다음 주 투자포인트(11/16~11/20)",
+     "publishedAt": "2026-11-14",
+     "url": "https://www.youtube.com/watch?v=qWMU8-rf8fA"
     }
    ]
   },
@@ -147,11 +147,6 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=6VzAGnmZzNY"
     },
     {
-     "title": "젠슨황 불륜설 시즌2? #젠슨황 #불륜 #엔비디아",
-     "publishedAt": "2026-11-12 16:02",
-     "url": "https://www.youtube.com/watch?v=0Csw9DbJHyo"
-    },
-    {
      "title": "코어위브 앤트로픽 대박? 찐반등 오나?",
      "publishedAt": "2026-11-12 03:07",
      "url": "https://www.youtube.com/watch?v=9yLCraHcN8k"
@@ -160,6 +155,11 @@ window.DASH.youtube = {
      "title": "12월에 미국 기준금리가 0.5%p 한방에 상승?",
      "publishedAt": "2026-11-11 02:50",
      "url": "https://www.youtube.com/watch?v=0EB7n1GwF1A"
+    },
+    {
+     "title": "젠슨황 스캔들에도 나스닥이 떡상하는 진짜 이유",
+     "publishedAt": "2026-11-10",
+     "url": "https://www.youtube.com/watch?v=wiTydSuyYBI"
     }
    ]
   },
@@ -168,6 +168,11 @@ window.DASH.youtube = {
    "channelId": "UCC3yfxS5qC6PCwDzetUuEWg",
    "handle": "@sosumonkey",
    "videos": [
+    {
+     "title": "엔비디아 -33% 폭락, 기회일까 vs 후폭풍올까/2018 연말 급락 데자뷰? 불길한 신호일까/앤트로픽 IPO 대흥행 예정? FOMO 조심할 이유",
+     "publishedAt": "2026-11-15 21:19",
+     "url": "https://www.youtube.com/watch?v=asqrvwuWB7o"
+    },
     {
      "title": "20년 전 부시 행정부와 똑같다? 초강경 모드 진입한 트럼프, 분위기 바꿀까",
      "publishedAt": "2026-11-11 22:00",
@@ -184,14 +189,9 @@ window.DASH.youtube = {
      "url": "https://www.youtube.com/watch?v=ucXMFfhriSw"
     },
     {
-     "title": "중간선거 이후 더 큰 전쟁이 시작된다? 유례 없는 움직임, 불길한 신호일까",
-     "publishedAt": "2026-11-03 20:53",
-     "url": "https://www.youtube.com/watch?v=4Gkk5BqjIf0"
-    },
-    {
-     "title": "인텔 -30% 쇼크, AI 피크아웃일까 중간선거 코앞 리스크 관리일까",
-     "publishedAt": "2026-11-02 20:36",
-     "url": "https://www.youtube.com/watch?v=6Zq7p54WTNI"
+     "title": "민주당 싹쓸이에 무너진 증시, 지금부터 봐야할 것들/민주당 총공세 시작? 조심할 주식들/트럼프의 더 센 반격 시작? 2006 데자뷰일까",
+     "publishedAt": "2026-11-09",
+     "url": "https://www.youtube.com/watch?v=pPcsbNzfQMk"
     }
    ]
   }
