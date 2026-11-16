@@ -72,8 +72,8 @@
    "stockMiniImageChart": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/005930_interest.png",
    "itemLogoUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/stock/Stock005930.svg",
    "itemLogoPngUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock005930.png",
-   "compareToPreviousClosePriceRaw": "-11000",
    "closePriceRaw": "195000",
+   "compareToPreviousClosePriceRaw": "-11000",
    "accumulatedTradingVolumeRaw": "16131737",
    "accumulatedTradingValueRaw": "3219715000000",
    "marketValueRaw": "1140024328560000"
@@ -150,8 +150,8 @@
    "stockMiniImageChart": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/000660_interest.png",
    "itemLogoUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/stock/Stock000660.svg",
    "itemLogoPngUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock000660.png",
-   "compareToPreviousClosePriceRaw": "-98000",
    "closePriceRaw": "1118000",
+   "compareToPreviousClosePriceRaw": "-98000",
    "accumulatedTradingVolumeRaw": "4181125",
    "accumulatedTradingValueRaw": "4798020000000",
    "marketValueRaw": "816690464070000"
@@ -208,8 +208,8 @@
    "stockMiniImageChart": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/005935_interest.png",
    "itemLogoUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/stock/Stock005935.svg",
    "itemLogoPngUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock005935.png",
-   "compareToPreviousClosePriceRaw": "-10400",
    "closePriceRaw": "160100",
+   "compareToPreviousClosePriceRaw": "-10400",
    "accumulatedTradingVolumeRaw": "5087857",
    "accumulatedTradingValueRaw": "833701000000",
    "marketValueRaw": "128459629600300"
@@ -449,6 +449,26 @@
    "accumulatedTradingVolumeRaw": "363210",
    "accumulatedTradingValueRaw": "32054000000",
    "marketValueRaw": "9318768176000"
+  }
+ ],
+ "industryGroups": [
+  {
+   "no": 305,
+   "name": "항공사",
+   "totalCount": 9,
+   "changeRate": "4.03",
+   "riseCount": 6,
+   "fallCount": 3,
+   "steadyCount": 0
+  },
+  {
+   "no": 275,
+   "name": "담배",
+   "totalCount": 1,
+   "changeRate": "3.35",
+   "riseCount": 1,
+   "fallCount": 0,
+   "steadyCount": 0
   }
  ]
 }
