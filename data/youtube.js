@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-17 03:27",
+ "asOf": "2026-11-17 11:54",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“쌍바닥 찍고 대반등할까, 더 깊은 폭락이 올까?” 위기의 한국증시 운명 가를 결정적 신호! SK하이닉스 바닥은 어디인가? | 이주현 대표",
+     "publishedAt": "2026-11-17 11:37",
+     "url": "https://www.youtube.com/watch?v=IQPubZrMfH8"
+    },
+    {
+     "title": "[11월17일 #장시작전] 美 반도체주 급락 부담 지속, 외국인 5천선 밑에서도 안 들어올까? | 손정우, 오현진, 박근형",
+     "publishedAt": "2026-11-17 06:19",
+     "url": "https://www.youtube.com/watch?v=-T626UlW8jk"
+    },
     {
      "title": "[#찐시황] “코스피 5,000 깨져도 덥석 사지 마라!” 지금은 짜증 단계… 진짜 공포장이 매수 기회인가? ㅣ이권희 대표",
      "publishedAt": "2026-11-16 20:00",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "외인 1.7조 매도 폭탄에 삼성전자,SK하이닉스 급락. 하지만..아직 남아있는 12월 대반전 변수 '한 가지' ㅣ유창희 대표",
      "publishedAt": "2026-11-16 16:45",
      "url": "https://www.youtube.com/watch?v=zYgSmH3Wl_s"
-    },
-    {
-     "title": "[#긴급시황]  “AI 밸류체인 줄줄이 급락!” 반도체 폭락하는데 방어주는 왜 오르나? 외국인 매도에 완전히 달라진 한국증시 돈의 흐름!ㅣ 박근형 부장",
-     "publishedAt": "2026-11-16 15:30",
-     "url": "https://www.youtube.com/watch?v=OK2FJONMpGA"
-    },
-    {
-     "title": "[#긴급시황] “반도체 소부장, 이건 하락이 아니라 패대기다!” 무차별 투매가 쏟아지는 진짜 이유… 반등해도 지금 종목 교체하면 위험한 이유!  (급락장) 김태성 본부장",
-     "publishedAt": "2026-11-16 14:00",
-     "url": "https://www.youtube.com/watch?v=UhA5xmTjqJ4"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) 젠슨황 부재로 AI생태계 위협!!!",
+     "publishedAt": "2026-11-17 06:21",
+     "url": "https://www.youtube.com/watch?v=JmpZ0x1LVec"
+    },
     {
      "title": "(엔비디아,앤트로픽) 젠슨황 돌아오면 폭등? 엔트로픽의 물량폭탄으로 하락?",
      "publishedAt": "2026-11-16 10:36",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(아이온큐) 주가 하락의 근본원인은?",
      "publishedAt": "2026-11-14 19:39",
      "url": "https://www.youtube.com/watch?v=_qVj9yw_8RU"
-    },
-    {
-     "title": "(시황분석) 금리와 유가를 자세히 보자!!!",
-     "publishedAt": "2026-11-14 08:06",
-     "url": "https://www.youtube.com/watch?v=_1VSUH4EDYU"
     }
    ]
   },
@@ -105,6 +105,21 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "월가에서, 현시점 12월 코스피 200을 주목하고 있는 이유",
+     "publishedAt": "2026-11-17 11:00",
+     "url": "https://www.youtube.com/watch?v=z8YiQZeljpA"
+    },
+    {
+     "title": "11월 17일 오늘 코스피 어떻게 흘러갈까?",
+     "publishedAt": "2026-11-17 08:02",
+     "url": "https://www.youtube.com/watch?v=AaJ5UrgFckI"
+    },
+    {
+     "title": "11월 17일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-11-17 06:54",
+     "url": "https://www.youtube.com/watch?v=o3LQa00eMEk"
+    },
+    {
      "title": "최태원이 하락장 속 발표한 SK '반도체 다음' 프로젝트 정체",
      "publishedAt": "2026-11-16 23:00",
      "url": "https://www.youtube.com/watch?v=7yQLsI5Cfa0"
@@ -113,21 +128,6 @@ window.DASH.youtube = {
      "title": "오후 2시만 되면 주가가 빠진다 개미들 사이 '약속의 2시' 진짜 이유",
      "publishedAt": "2026-11-16 21:00",
      "url": "https://www.youtube.com/watch?v=xFXtpSGPpwk"
-    },
-    {
-     "title": "AI 안경으로 주식 차트 보면 생기는 일",
-     "publishedAt": "2026-11-16 20:59",
-     "url": "https://www.youtube.com/watch?v=DThw4rIWW9Q"
-    },
-    {
-     "title": "젠슨황이 현시점 진짜 복귀한다면 코스피 어떻게 될까?!",
-     "publishedAt": "2026-11-16 19:30",
-     "url": "https://www.youtube.com/watch?v=GlZJ-EdmvnU"
-    },
-    {
-     "title": "잡스가 애플 복귀하고 주가 +6,760% 폭등했던 이유",
-     "publishedAt": "2026-11-16 18:48",
-     "url": "https://www.youtube.com/watch?v=7HGPRrorueY"
     }
    ]
   },
