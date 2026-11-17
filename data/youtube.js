@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-17 22:15",
+ "asOf": "2026-11-18 07:16",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[11월18일 #장시작전]  “뉴욕증시 하락에도 반도체는 반등!” ARM 4.7% 급등… 엔비디아 실적 예상 상회...오늘 삼전·하닉 외국인 투매 끝나나?",
+     "publishedAt": "2026-11-18 06:22",
+     "url": "https://www.youtube.com/watch?v=sNE5GmvtfcU"
+    },
+    {
+     "title": "“끝없이 추락하는 증시, 지금이라도 손절해야 하나?” 예측으로 매매하면 더 위험하다!  지금 반드시 지켜봐야 할 ‘이 구간’ (급락장) 주식황금돼지 이건희 대표",
+     "publishedAt": "2026-11-18 05:30",
+     "url": "https://www.youtube.com/watch?v=Codp7P9gH4U"
+    },
     {
      "title": "[#찐시황]  “동트기 전이 가장 어둡다!” 끝없는 하락장에 지친 투자자들… 포기하고 싶은 바로 이 순간을 견뎌야 한다! | 박현상 이사",
      "publishedAt": "2026-11-17 20:00",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] “코스피 5,000선마저 붕괴!” 이틀 연속 급락장에 증시 패닉… 엔비디아 실적 발표마저 또 다른 악재가 될까?ㅣ 김민수 대표",
      "publishedAt": "2026-11-17 17:00",
      "url": "https://www.youtube.com/watch?v=maYCQ85ygu8"
-    },
-    {
-     "title": "[#긴급인터뷰] “악재가 끊이지 않는다!” 공포에 질린 투자자들 AI 반도체 무차별 투매… 삼성전자·SK하이닉스 슈퍼호황 정말 끝났나?ㅣ 테크밸리인사이트 손정우 대표",
-     "publishedAt": "2026-11-17 16:00",
-     "url": "https://www.youtube.com/watch?v=-GrEZiF4e6k"
-    },
-    {
-     "title": "[#긴급시황]  “AI 투자 전망 30% 하향 쇼크!” 반도체 슈퍼호황 벌써 끝났나? 삼성전자·SK하이닉스 주가 급락, 진짜 위기인가 과도한 공포인가?ㅣ박근형 부장",
-     "publishedAt": "2026-11-17 14:30",
-     "url": "https://www.youtube.com/watch?v=E-UeDTIU958"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) 반도체 전망치가 시장을 움직인다!!!",
+     "publishedAt": "2026-11-18 06:39",
+     "url": "https://www.youtube.com/watch?v=Tpcmd85soDs"
+    },
     {
      "title": "(13F 공시) 선수들의 매매 내역은?",
      "publishedAt": "2026-11-17 14:40",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(주간시황) 반도체 저평가 vs 금리상승 지속,기간조정이 필요!!!",
      "publishedAt": "2026-11-15 18:04",
      "url": "https://www.youtube.com/watch?v=k9j79c8pprQ"
-    },
-    {
-     "title": "(관심종목) 미국 북부지역에 있는 주식들이 상승할수 있는 이유는?",
-     "publishedAt": "2026-11-15 06:12",
-     "url": "https://www.youtube.com/watch?v=5o_WnM9Vw0c"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "11월 18일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-11-18 06:54",
+     "url": "https://www.youtube.com/watch?v=VvspbaU1mys"
+    },
+    {
+     "title": "폭락한 내 주식 다시 오를지 'AI'로 확인하는 방법",
+     "publishedAt": "2026-11-18 00:00",
+     "url": "https://www.youtube.com/watch?v=7hrjg5b_gtw"
+    },
+    {
+     "title": "빚때문에 롯데타워까지 담보로.. 롯데가 이 지경까지 온 이유",
+     "publishedAt": "2026-11-17 23:30",
+     "url": "https://www.youtube.com/watch?v=MHib-jF8N1E"
+    },
+    {
+     "title": "2027년부터 받을 수 있는 1억 9,582만원 청년 지원 총정리",
+     "publishedAt": "2026-11-17 23:00",
+     "url": "https://www.youtube.com/watch?v=W6zZjCfbyyY"
+    },
+    {
      "title": "\"GPT·클로드·제미나이\" 어떤 AI가 종목 분석 제일 잘할까?",
      "publishedAt": "2026-11-17 22:00",
      "url": "https://www.youtube.com/watch?v=oF0FBSCG98Q"
-    },
-    {
-     "title": "4000까지 뚫린 코스피.. 12월 다시 올라갈 수 있다고",
-     "publishedAt": "2026-11-17 22:00",
-     "url": "https://www.youtube.com/watch?v=9tRmXwgdVRU"
-    },
-    {
-     "title": "코스피에서 외국인 쫓아 내려는 '한국 정부' 근황",
-     "publishedAt": "2026-11-17 20:00",
-     "url": "https://www.youtube.com/watch?v=CK-4yBMDYY4"
-    },
-    {
-     "title": "\"이상 신호 감지\" 요즘 배당률 5% 넘는 주식이 갑자기 두 배로 늘어난 이유",
-     "publishedAt": "2026-11-17 19:25",
-     "url": "https://www.youtube.com/watch?v=eiQH0fK_WMw"
-    },
-    {
-     "title": "투자자한테 이번주 수요일·금요일이 진짜 중요한 이유",
-     "publishedAt": "2026-11-17 19:00",
-     "url": "https://www.youtube.com/watch?v=aWolrsfOTYo"
     }
    ]
   },
