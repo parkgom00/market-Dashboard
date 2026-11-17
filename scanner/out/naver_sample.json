@@ -450,25 +450,5 @@
    "accumulatedTradingValueRaw": "27335000000",
    "marketValueRaw": "9124851612800"
   }
- ],
- "industryGroups": [
-  {
-   "no": 288,
-   "name": "건강관리기술",
-   "totalCount": 13,
-   "changeRate": "2.34",
-   "riseCount": 3,
-   "fallCount": 10,
-   "steadyCount": 0
-  },
-  {
-   "no": 264,
-   "name": "백화점과일반상점",
-   "totalCount": 14,
-   "changeRate": "1.88",
-   "riseCount": 5,
-   "fallCount": 9,
-   "steadyCount": 0
-  }
  ]
 }
