@@ -594,9 +594,63 @@
     if (!items || !items.length) return '<div class="muted">데이터가 없습니다.</div>';
     return items.map(function (s, i) {
       return '<div class="rank"><div class="no">' + (i < 3 ? ["🥇", "🥈", "🥉"][i] : i + 1) + '</div><div class="mid"><div class="nm">' + esc(s.name) + '</div>' +
-        '<div class="meta">' + esc(s.code) + (s.price != null ? " · " + num(s.price) : "") + "</div></div>" +
+        '<div class="meta">' + esc(s.code) + (s.price != null ? " · " + num(s.price) : "") + "</div>" + rankNews(s.code) + "</div>" +
         '<div class="rt">' + pctText(s.changePct) + (extra ? '<div class="meta">' + extra(s) + "</div>" : "") + "</div></div>";
     }).join("");
+  }
+
+  function rankNews(code) {   // 등락 이유 한 줄 (가장 최근 관련 기사, [특징주] 우선)
+    var n = liveMarket === "kr" && (((D.live || {}).kr || {}).stockNews || {})[code];
+    if (!n) return "";
+    return '<a class="rk-news" href="' + esc(n.url) + '" target="_blank" rel="noopener noreferrer" title="' + esc(n.title + " · " + n.src) + '">📰 ' + esc(n.title) + "</a>";
+  }
+
+  /* ---------- 뉴스·공시 (특징주 탭 안) ---------- */
+  var DART_TONE = { good: ["🟢", "호재성"], bad: ["🔴", "주의"], move: ["🟡", "변동·확인"], info: ["⚪", "참고"] };
+  var dartTone = "", newsMore = {};
+  function newsHtml() {
+    var K = (D.live || {}).kr || {};
+    var tm = function (ts) { return ts ? String(ts).slice(11, 16) : ""; };
+    var h = '<div class="muted" style="margin:-2px 0 8px">갱신 ' + esc(K.newsAsOf || "-") + " · 장중 10분마다, 장 전·후 30분마다 · 기사 제목만 보여주고 원문으로 연결합니다</div>";
+    var more = function (key, n, total) {
+      return total > n ? '<button type="button" class="morebtn" data-nmore="' + key + '">' + (newsMore[key] ? "접기 ▲" : (total - n) + "개 더보기 ▼") + "</button>" : "";
+    };
+    // 1) 특징주 기사
+    var F = K.feature || [];
+    h += '<div class="card"><h3>🔥 오늘의 특징주 기사 <span class="meta">' + F.length + "건</span></h3>";
+    if (!F.length) h += '<div class="muted">아직 기사가 없습니다.</div>';
+    var nF = newsMore.f ? F.length : 10;
+    h += F.slice(0, nF).map(function (x) {
+      return '<a class="nrow" href="' + esc(x.url) + '" target="_blank" rel="noopener noreferrer"><span class="nt">' + esc(tm(x.ts)) + '</span><span class="ntitle">' + esc(x.title.replace(/^\[[^\]]*특징주[^\]]*\]\s*/, "")) + '</span><span class="nsrc">' + esc(x.src) + "</span></a>";
+    }).join("") + more("f", 10, F.length) + "</div>";
+    // 2) 주요 공시 (DART)
+    var Dt = K.dart;
+    h += '<div class="card"><h3>📑 오늘의 주요 공시</h3>';
+    if (!Dt) {
+      h += '<div class="muted">전자공시(DART) 키를 등록하면 수주·자사주·유상증자 같은 주가에 영향이 큰 공시만 골라 보여줍니다.</div>';
+    } else {
+      var items = Dt.items || [], cnt = {};
+      items.forEach(function (x) { cnt[x.tone] = (cnt[x.tone] || 0) + 1; });
+      var chip = function (v, label) { return '<button type="button" data-dt="' + v + '" class="' + (dartTone === v ? "on" : "") + '">' + label + "</button>"; };
+      h += '<div class="calfilter">' + chip("", "핵심 " + ((cnt.good || 0) + (cnt.bad || 0) + (cnt.move || 0))) +
+        ["good", "bad", "move", "info"].filter(function (k) { return cnt[k]; }).map(function (k) { return chip(k, DART_TONE[k][0] + " " + DART_TONE[k][1] + " " + cnt[k]); }).join("") + "</div>";
+      var list = items.filter(function (x) { return dartTone ? x.tone === dartTone : x.tone !== "info"; });
+      if (!list.length) h += '<div class="muted">해당 공시가 없습니다.</div>';
+      var nD = newsMore["d" + dartTone] ? list.length : 12;
+      h += list.slice(0, nD).map(function (x) {
+        var pc = x.pct != null ? '<span class="' + (x.pct > 0 ? "up" : x.pct < 0 ? "down" : "flat") + '">' + (x.pct > 0 ? "+" : "") + Number(x.pct).toFixed(2) + "%</span>" : "";
+        return '<a class="drow" href="' + esc(x.url) + '" target="_blank" rel="noopener noreferrer"><span class="dt-ico">' + DART_TONE[x.tone][0] + '</span><span class="dt-main"><b>' + esc(x.name) + '</b> <span class="dt-kind">' + esc(x.kind) + '</span><span class="dt-title">' + esc(x.title) + "</span></span>" + pc + "</a>";
+      }).join("") + more("d" + dartTone, 12, list.length);
+    }
+    h += "</div>";
+    // 3) 시장 속보
+    var M = K.market || [];
+    if (M.length) {
+      h += '<div class="card"><h3>📰 시장 속보·마감 시황</h3>' + M.slice(0, newsMore.m ? M.length : 6).map(function (x) {
+        return '<a class="nrow" href="' + esc(x.url) + '" target="_blank" rel="noopener noreferrer"><span class="nt">' + esc(tm(x.ts)) + '</span><span class="ntitle">' + esc(x.title) + '</span><span class="nsrc">' + esc(x.src) + "</span></a>";
+      }).join("") + more("m", 6, M.length) + "</div>";
+    }
+    return h;
   }
 
   var RANK_SHOW = 10;      // 처음에는 10위까지, '더보기'를 누르면 20위까지
@@ -672,8 +726,9 @@
       '<button type="button" class="refresh' + (liveStatus.indexOf("실패") === 0 ? " err" : "") + '" id="live-refresh"' + (liveBusy ? " disabled" : "") + '>' +
       (liveBusy ? "불러오는 중…" : "↻ 새로고침") + "</button></div>";
     h += '<div class="muted" style="margin-bottom:8px">데이터 기준 ' + esc(L.asOf || "-") + (liveStatus ? " · " + esc(liveStatus) : "") + "</div>";
-    h += '<div class="useg">' + seg([{ id: "kr", label: "🇰🇷 국내" }, { id: "us", label: "🇺🇸 미국" }, { id: "rot", label: "🔄 테마 순환매" }], liveMarket, "data-lm") + "</div>";
+    h += '<div class="useg">' + seg([{ id: "kr", label: "🇰🇷 국내" }, { id: "us", label: "🇺🇸 미국" }, { id: "rot", label: "🔄 테마 순환매" }, { id: "news", label: "📰 뉴스·공시" }], liveMarket, "data-lm") + "</div>";
     if (liveMarket === "rot") { root.innerHTML = h + rotationHtml(); return; }
+    if (liveMarket === "news") { root.innerHTML = h + newsHtml(); return; }
 
     if (m.gainers) h += '<div class="card"><h3>🚀 등락률 상위</h3>' + rankBlock("gainers", m.gainers) + "</div>";
     if (m.value) {
@@ -726,6 +781,9 @@
       var b = ev.target.closest("[data-lm]");
       var rp = ev.target.closest("[data-rp]");
       if (rp) { rotPeriod = rp.getAttribute("data-rp"); renderLive(); return; }
+      var dtb = ev.target.closest("[data-dt]"), nm = ev.target.closest("[data-nmore]");
+      if (dtb) { dartTone = dtb.getAttribute("data-dt"); renderLive(); return; }
+      if (nm) { var nk = nm.getAttribute("data-nmore"); newsMore[nk] = !newsMore[nk]; renderLive(); return; }
       if (b) { liveMarket = b.getAttribute("data-lm"); renderLive(); }
     });
   }

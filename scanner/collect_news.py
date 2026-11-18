@@ -167,7 +167,8 @@ def google_news(query, limit):
 
 def feature_news():
     items = google_news("특징주 when:1d", FEATURE_MAX * 2)
-    return [x for x in items if "특징주" in x["title"]][:FEATURE_MAX]
+    foreign = re.compile(r"(인도|중국|中|일본|日|홍콩|베트남|대만|美|미국|뉴욕|해외|유럽)\s*특징주")
+    return [x for x in items if "특징주" in x["title"] and not foreign.search(x["title"])][:FEATURE_MAX]
 
 
 def market_news():
