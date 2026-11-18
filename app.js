@@ -726,8 +726,7 @@
       '<button type="button" class="refresh' + (liveStatus.indexOf("실패") === 0 ? " err" : "") + '" id="live-refresh"' + (liveBusy ? " disabled" : "") + '>' +
       (liveBusy ? "불러오는 중…" : "↻ 새로고침") + "</button></div>";
     h += '<div class="muted" style="margin-bottom:8px">데이터 기준 ' + esc(L.asOf || "-") + (liveStatus ? " · " + esc(liveStatus) : "") + "</div>";
-    h += '<div class="useg">' + seg([{ id: "kr", label: "🇰🇷 국내" }, { id: "us", label: "🇺🇸 미국" }, { id: "rot", label: "🔄 테마 순환매" }, { id: "news", label: "📰 뉴스·공시" }], liveMarket, "data-lm") + "</div>";
-    if (liveMarket === "rot") { root.innerHTML = h + rotationHtml(); return; }
+    h += '<div class="useg">' + seg([{ id: "kr", label: "🇰🇷 국내" }, { id: "us", label: "🇺🇸 미국" }, { id: "news", label: "📰 뉴스·공시" }], liveMarket, "data-lm") + "</div>";
     if (liveMarket === "news") { root.innerHTML = h + newsHtml(); return; }
 
     if (m.gainers) h += '<div class="card"><h3>🚀 등락률 상위</h3>' + rankBlock("gainers", m.gainers) + "</div>";
