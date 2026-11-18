@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_live.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.live = {
- "asOf": "2026-11-18 18:39",
+ "asOf": "2026-11-18 18:41",
  "kr": {
   "news": [],
   "stockNews": {
@@ -96,10 +96,10 @@ window.DASH.live = {
     "url": "https://n.news.naver.com/mnews/article/014/0005606416"
    },
    "005930": {
-    "title": "기관 매수에…코스피 하루만에 5,000선 회복",
-    "src": "연합뉴스TV",
-    "time": "18:26",
-    "url": "https://n.news.naver.com/mnews/article/422/0000927541"
+    "title": "KISTI 국가슈퍼컴퓨터 6호기 ‘한강’, 세계 12위…HPCG 평가선 8위",
+    "src": "디지털데일리",
+    "time": "18:37",
+    "url": "https://n.news.naver.com/mnews/article/138/0002249122"
    },
    "069500": {
     "title": "[이코노미플러스]코스피 9개월여 만에 5,000선 하회···개인은 이틀...",
@@ -170,22 +170,16 @@ window.DASH.live = {
   },
   "feature": [
    {
-    "title": "[인도 특징주] 타타 케미컬, 타타손즈 상장 추진에 '강세'...지분 2.5% 보유 중",
-    "src": "뉴스핌",
-    "ts": "2026-11-18 18:03",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBNaFBsOWM5dmo3ZllucF9kVGFZaW5Yc1RnUUJkUUpLVjM0UE1IQmxjUnVTdU42V3RzNERGQWprS2FrMW82MHVsZkxlOVhGdnBJbkNDU3NNN2xKY21Q?oc=5"
-   },
-   {
-    "title": "[인도 특징주] 은행주, 실적 호조 힘입어 '강세'...기관 \"대형 민간 은행 선호\"",
-    "src": "뉴스핌",
-    "ts": "2026-11-18 17:29",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xZzA0MklWcEJtRUlOclZ6SktoRG1MVGU2NFFicERUVG9zMEFJRG1JcC02UmZUMWc1SWt6a3J4TzlCRGlIenU1aGFJOG1FdU5CNFU0bDVzTzNUOW5t?oc=5"
-   },
-   {
     "title": "[특징주] 한한령 해제 기대…여행·엔터株 애프터마켓 '급등'",
     "src": "뉴스핌",
     "ts": "2026-11-18 17:24",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zbUNlT2VwMVktTDhmVkxVWUR2YV9yQklGVkRnQUFqbEVDRzh6aUNfbUpKbjY5SXVmclgxR2hfeDdyU1c4cWIwQUo3LWotTW5JRXpLTFpRYUVTXzQ3?oc=5"
+   },
+   {
+    "title": "[특징주] 원익홀딩스, 엔비디아 호실적에 10%대 급등…로봇핸드 사업 재조명",
+    "src": "https://www.moneystorm.kr/",
+    "ts": "2026-11-18 16:46",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE04Wl9YekVpME94Zko4Y0dLTzlxdVBPMXlyYm12Mzk5aTF4S09SY29Ua0kxcktzRXh1dEJNanI1LUJPaWF3SGlFdi1WNWZzUkhFeHkzUWNvRkNCeEpkTS1PS2lVdW1jamJxVUE?oc=5"
    },
    {
     "title": "[ETF 특징주] 블랙록 포트폴리오 재편...AI 투자 범위 확대·분산",
@@ -204,12 +198,6 @@ window.DASH.live = {
     "src": "남도일보",
     "ts": "2026-11-18 16:12",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRS25xZS1WZU9JMWVqdGlVNWV3SVdSWEszQ2NCckN5TldUWWNaS2YtdTBZWlJYYTJrcnRvMzNVSGw5OVJyTlppTUVOZjhJTmRkalJwNUFnbktEOFRDNVhfM1hDSXB1WjdKWVQ1TNIBcEFVX3lxTE1qQUxFSm5rbENPYXhwWVVBWUVxV0tDOG9OakcxUkszSEFfa2xWVmVFbUhoOHNOZDRBbEJXckVQTjdiT1RoWmloRm9UY3N5TV9IZE9BQ1MzeGlYT2hHbXNUT0xCalFVWHVsbHZJMG1maWg?oc=5"
-   },
-   {
-    "title": "[인도 특징주] 50대 기업, 4년래 최고 분기별 이익 성장률 기록...반등 기대감 강화",
-    "src": "뉴스핌",
-    "ts": "2026-11-18 16:11",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5wQU1veXNzd3JuSTFCZEE4RVpfSkliWFNURzF1c0NyZDdCeVlhNXV3TmUyV3JOVUhfLUNKX3l4dzBtaGxqd2k1bHFZc2pvWm81bFU2N3FDVXBfeG1y?oc=5"
    },
    {
     "title": "[특징주]LG전자, 외국인 순매수에 5.72% 오름세…AI 데이터센터 냉각 수주 3조 돌파",
@@ -314,52 +302,10 @@ window.DASH.live = {
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9SdVk3eEhIT3BMSlhtY2VvbG12aUFkTkFlUmpXbkFoV0NnUDJSaUZfLVpfRC1fbnc3S2FuUnA5ZTB0dHNtV2UtRHJwRUw2RXo4OGsyTjhiQ3pYUdIBWEFVX3lxTE5YbHJkdjJBeDNQdk9OeWFrR0lFMmxVczBUX2xDdnpaOXB5dUFXTTlSRnFRUW1NMXM1OG1rTW1VcEFsYV9rdXh2R290eFpZcVlpeGU4bWJtRkk?oc=5"
    },
    {
-    "title": "[미국 특징주] 앤스로픽 IPO 후 아마존·구글 지분 합산 28% 넘는다",
-    "src": "뉴스핌",
-    "ts": "2026-11-18 13:57",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBaa1FEaDhRcDFLQjNmdWNJcFhWS0hwNkxyRk4yZ0ROVWdVVG96djlBVDBCa2FXZWRoa3dILW5lOXJhYlRUeE9rcjZwZnA0aGtPRUJ0TzdSRXh0cDBX?oc=5"
-   },
-   {
-    "title": "[미국 특징주] 아마존, 인도 재생에너지에 70억달러 추가 투자",
-    "src": "뉴스핌",
-    "ts": "2026-11-18 13:34",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA5ZmFsaklGQlJua3ctVGRQV0VFNlhRVkVfcUstcVJLM2V6b0VVTnRSNTlIM2dqMmh6dUk1YnFKa0llUVBKV2lmdjczVXJzU3RFRWgxalNCeXpTSmR4?oc=5"
-   },
-   {
-    "title": "[미국 특징주] 캘리포니아공무원연금 엔비디아·알파벳 추가 매수",
-    "src": "뉴스핌",
-    "ts": "2026-11-18 13:28",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9VSjE3cktlMk1xUnN0cEJvekhrM04wdHZGSWQwWWRDVW1ndHRXODRJMnZLWkp2NGlsZjNxUS1QZjZjQWZ6eF95RDZmSWo0STJ4M2xhdjM3d2F1R3A4?oc=5"
-   },
-   {
     "title": "[특징주]원익홀딩스, 외국인·기관 동반 순매수에 10.93% 뛰어…장중 VI 발동",
     "src": "남도일보",
     "ts": "2026-11-18 13:17",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1EYVZyUXV2Z0NuZGVDUEllX2NKSFI1amxzV1otcHhocXhCdTNsNGstQ3Rpd1BRdjZTUWJxLTdXb2pwU29GVzN1NEJaUW1pZEF2d3RtYW93LUJTVEFWQk9sNndVTl9FRGNudG1EQ9IBcEFVX3lxTE9mWHlrM2x1QVlhOV92aW83MHpIVXJvNFh0UkxTM3lqZF9ka1prT1p6WTJ3NWx5a3VoQ00xSHlINmxkZm12ZHNsQi1mYndTUjdNVTZ6ckFDWUpPSGtqVXd0Wkk4MGNKcHNZSFNCMzZaeTY?oc=5"
-   },
-   {
-    "title": "[미국 특징주] 코스트코, '비상용품 사재기' 수혜…미즈호 목표가 상향",
-    "src": "뉴스핌",
-    "ts": "2026-11-18 13:15",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxemxET3pZTkMtY1hYbmJXRTl1N2t6b0U0STVQVVVuTlhKUGl0Rl9WZ0hLbnp3VFBhMXVLdl9ybjdFWWdVb0V3dlNmM09IYzdYaTM3bVlrbTVuQVd3?oc=5"
-   },
-   {
-    "title": "[미국 특징주] 나이키, 투자자의 날 잿빛 전망에 주가 한 때 7.6% 급락",
-    "src": "뉴스핌",
-    "ts": "2026-11-18 13:09",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE05R3lLZEg1cDJPYzh0MnQtUVd5U1VCMXhSSlB4WG9GM2ZrekYzVWNteXBlWm9TN2FjNTV3STMydEhCajM0V0pGamZJaVU5SG1Nd0RoaVR0TFV2RXlG?oc=5"
-   },
-   {
-    "title": "[유럽 특징주] 루프트한자, 노조에 \"1000명 채용·연봉 인상\" 제시",
-    "src": "뉴스핌",
-    "ts": "2026-11-18 13:02",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAwVC1YOWFIc1RvU0pHTXBManJYSnpsTWc0WGxQb1hodEVWWkt1NWxUd3hxQk9kUkFUZGsyWVJhYzNVQ0xTYzZlSG8xWk1jUEhTdEVNT212UjNrbEty?oc=5"
-   },
-   {
-    "title": "[특징주] 한국금융지주, KDB생명 인수 무산에 주가 약세",
-    "src": "비즈트리뷴",
-    "ts": "2026-11-18 12:44",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9xZkxjZzBCbjZwLWRZalJkU0h5ZlRrdlh6bWdwQl93eUpFMWdpTnRaNmJPWnpnYUdWYkNxUWk5MEM5UWt4azViT3hubVdBRWNJM3NGYTJYelFDdVVUa0ttaUFqbW9UNVlMU2RxbU54aEc?oc=5"
    },
    {
     "title": "[특징주] 보안주, AI 커닝 우려에 강세…파수AI, 21%대 급등",
@@ -408,6 +354,60 @@ window.DASH.live = {
     "src": "전자신문",
     "ts": "2026-11-18 11:00",
     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Gc2xZOXhiQnhlYl9PRldPanVoUmJTV1I4TjE4RnozLVplWmFYdU5FR2hXNW5laTB6dDFxRVBMN1l3ZUVLVjhjN0pOT0JqZw?oc=5"
+   },
+   {
+    "title": "[특징주] 삼성전자·SK하이닉스, 엔비디아 어닝 서프라이즈.. '강세'",
+    "src": "글로벌이코노믹",
+    "ts": "2026-11-18 10:50",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNblVsS2JERlN0UEVlWVhvU2RYNlpEYTBpZlpHLWc4SnFiTHJ3cUstX3ZhdS1jYzhpYTVGemlsejBUS1NPWjdTY3JUb2p4LTRxdTRxX1RydWVRdDJqMThLcHR4Wk9YWVNlOXFyMmo2Z2djcV9paU8wTWpPNmRFd1c4OTU0ZU1VQ21m?oc=5"
+   },
+   {
+    "title": "[특징주] 삼성전기, 엔비디아와 협력 강화 '상승'",
+    "src": "전국매일신문",
+    "ts": "2026-11-18 10:50",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBCVFdzV3F4VW5QSHVpdHBtVlBlN1paSkhkVkJIelMxVk5nT1h5NjBSTThzVFJRcTF0Qy1fZndnX012Z0NTNVF6VFE3NjdNeEl5XzZVZVRZbHhmMEJHbk1DQVg2TzhQOW54SE8xb0lR?oc=5"
+   },
+   {
+    "title": "[ET특징주]삼성전기, 엔비디아와 협력 강화에 상승세",
+    "src": "전자신문",
+    "ts": "2026-11-18 10:46",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBrdUx2X2VjUzlXUXFMckNkSlExWnZSNEliX1h0eEQ5OGNGZUZRWTFIaERfOGVPdmxJY3pYak1yN21wZWw0MWRvSlJwUUhHUQ?oc=5"
+   },
+   {
+    "title": "[투데이’s 특징주] 삼성전기, 엔비디아와 협력 강화 소식에 장중 6%대 강세 By 투데이코리아",
+    "src": "Investing.com 한국어",
+    "ts": "2026-11-18 10:44",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1WR0xvUTV2UlVrVXU0ajg0QUlkQmRQWXFZdS13bm9QekxCMUEtZ3hhbWtOWHJ5dWVIRUl2U3pXRHdwbHBQRVRWVGtncFBuVjFnZTRCcTBlWUNEOHhlMnlpSXZwV2h3eXdkR2NTQ1dCTHk?oc=5"
+   },
+   {
+    "title": "[특징주] 에이엘로봇, 코스닥 상장 첫날 '하락'",
+    "src": "전국매일신문",
+    "ts": "2026-11-18 10:42",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0tSWVEbGprblVDa18tdThQV0JqZFBidHBlN1BUVHdEbG0xT2pMNjZOTGpva09kVmtkRWZHMUlmUTdmSERyelRvN0RFUlQ4N0l2dV9DdW1WR21kemRlNDhCZXpHc3lhRDlnRFloRVBR?oc=5"
+   },
+   {
+    "title": "[특징주] 두산, 엔비디아 호실적에 10%대 급등…낙폭 과대 인식도 영향",
+    "src": "아주경제",
+    "ts": "2026-11-18 10:36",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45MG5jcG9SdW1WRHpEN2FnTjdTWjY5MElXNmc3YjZxcFlvb242SjhhamZzRVh5RE5tWktCQlhoNFJ5eVdDaWdSNUREZWlnNXBnVnhXT09fd2Etd9IBWEFVX3lxTE16eTNkcFkwM2pMWFEzRzROUkFDNGI5MldpcUJIUDRHX01VS3NRb3Bod3cwWFNEeHdzSWlZNXVwcm1haUo3MC1rZi01Wnh3a3JrN0U3R0lIOUE?oc=5"
+   },
+   {
+    "title": "[특징주] 진양산업, 3분기 영업익 감소에도 20%대 급등",
+    "src": "브릿지경제",
+    "ts": "2026-11-18 10:35",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DMHZDVGZwUUVNRm1Xc2p4SFBfMkZvTFJvd19yUlJMVm14cG13bGtSMXgyV2o3SnplbWFZc2VZNXVaVlUzTVR6SUFUT3FZLVJmUkdWT2Znam9SUQ?oc=5"
+   },
+   {
+    "title": "[특징주] 에이엘로봇, 코스닥 상장 첫날 장초반 18% 하락",
+    "src": "연합뉴스",
+    "ts": "2026-11-18 10:26",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAyemNlZk1nenFLSjVDYi0zWG5TVFJhbjhxTjhpMm5WSVNyd2pvRWcxX1N3WUtuQ3U5dGtkcUZLY282NkJOZFZHYk9USVB5a1pGRXFoMnVkRElFTlHSAWBBVV95cUxPVm9sRUtOZkQtclZBRE51RkpLZWs1MVV1WVpTNzlYaG4tbUttQjhnUHU0LWs3WFFzUmZIZnY4TDhTUmNnczg0WklQb29BUlVUVzhBZlZHYk5EdG1halVjZnE?oc=5"
+   },
+   {
+    "title": "[특징주] 삼성전기, 엔비디아와 협력 강화.. 4%대 '강세'",
+    "src": "글로벌이코노믹",
+    "ts": "2026-11-18 10:17",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQa1RFMHl6bzZYeDFVTVVldnJkM3dWelg1TTFpU2lnSm1OOHN5Z2RCQnZtZXhDZ1VDVnQ3U2I0REhNUGhzSzNQcmZqZGJ4WVhoNlk1TmRyMk9OUlJKTXhBN0ZzQUc1Z1ZaemZsd2pRS2dyTlVNdGg4WGpqeU9RbURFdG1tY1VVTTVO?oc=5"
    }
   ],
   "market": [
@@ -478,6 +478,12 @@ window.DASH.live = {
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE44ZVJJcTQ2dUROMl9pNXVnLWMwXzN0eHFmZjNJNk9tZFNHX05odjlWNVRlekhhak9FZWk2OVpXamJBdUxPZzlScTItMkZTTnMxZVh2aldkNmNicHZCZ3JXcw?oc=5"
    },
    {
+    "title": "[e마켓클로징] 기관 5118억 순매수···코스피 5067로 반등 마감",
+    "src": "시사저널e",
+    "ts": "2026-11-18 16:52",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ITERNY0h2X0lsUm1rbmlLaTBzUTZjNHBCaVVGRUpCeVIwbUZtcnJwTWhGUVpUVjZPQVc0X2VPN1BQcE1ZRXdtU2xBZXc2dVpJMjV6WGNuYVU3aXExeFRjRmNRQ1BJOUdLeG1ZeUxFNFg2QQ?oc=5"
+   },
+   {
     "title": "코스피, 하루 만에 5000선 탈환…엔비디아 호실적에 2% 상승",
     "src": "www.hidomin.com",
     "ts": "2026-11-18 16:52",
@@ -494,15 +500,9 @@ window.DASH.live = {
     "src": "메디코파마",
     "ts": "2026-11-18 16:40",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBoaFllR2c4bXpWeW1iLXpvU203VDdMREcwQXJuVXZZN1RBOVB1VVc3ZVEwd0NtY3I4Nlh2MFd3Q3o4aF9ieG1UdF9TWEFwOG1vb3BPTFdETk0yOGdPTTk5ai1ZUGQ4X2E2cVJNQ0EwNGtiUQ?oc=5"
-   },
-   {
-    "title": "아시아증시, 급등ㆍ급락 반복하며 혼조⋯日 닛케이 0.28%↑",
-    "src": "이투데이",
-    "ts": "2026-11-18 16:39",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HV290cmdveTdFd0NDZ2xaMG5FaGlyTXB3elB0Q2k1amdPQmR4VTh1VE0yOGlCR29FVFE2R204akJHYmRfdkxKZmxDT1UxS3hZOThULQ?oc=5"
    }
   ],
-  "newsAsOf": "2026-11-18 18:39",
+  "newsAsOf": "2026-11-18 18:41",
   "gainers": [
    {
     "code": "261780",
