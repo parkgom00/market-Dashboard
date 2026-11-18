@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-18 09:28",
+ "generatedAt": "2026-11-19 00:02",
  "events": [
   {
    "date": "2026-01-01",
@@ -633,12 +633,6 @@ window.DASH.calendar = {
    "date": "2027-01-14",
    "type": "earnings",
    "market": "US",
-   "title": "JP모건 실적 발표 (예정)"
-  },
-  {
-   "date": "2027-01-14",
-   "type": "earnings",
-   "market": "US",
    "title": "TSMC 실적 발표 (예정)"
   },
   {
@@ -869,6 +863,12 @@ window.DASH.calendar = {
    "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 대통령의 날"
+  },
+  {
+   "date": "2027-02-25",
+   "type": "earnings",
+   "market": "US",
+   "title": "엔비디아 실적 발표 (예정)"
   },
   {
    "date": "2027-03-01",
@@ -2756,6 +2756,15 @@ window.DASH.calendar = {
   },
   {
    "date": "2026-11-17",
+   "type": "earnings",
+   "market": "US",
+   "title": "엔비디아 실적 발표",
+   "result": [
+    "EPS 실제 $2.68 (예상 $2.47) · 서프라이즈 8.5%"
+   ]
+  },
+  {
+   "date": "2026-11-17",
    "type": "econ",
    "market": "US",
    "title": "연준 의장 연설",
@@ -2790,16 +2799,6 @@ window.DASH.calendar = {
    "time": "22:15",
    "result": [
     "실제 2.15% · 예상 0.0% · 이전 2.14%"
-   ]
-  },
-  {
-   "date": "2026-11-18",
-   "type": "earnings",
-   "market": "US",
-   "title": "엔비디아 실적 발표",
-   "result": [
-    "EPS 예상 $2.49",
-    "장마감 후(한국 다음 날 새벽)"
    ]
   },
   {
@@ -2867,7 +2866,7 @@ window.DASH.calendar = {
    "title": "미국 신규 실업수당 청구",
    "time": "21:30",
    "result": [
-    "예상 199K · 이전 200K"
+    "예상 198K · 이전 200K"
    ]
   },
   {
@@ -2877,7 +2876,7 @@ window.DASH.calendar = {
    "title": "필라델피아 연은지수",
    "time": "21:30",
    "result": [
-    "예상 19.2 · 이전 20.9"
+    "예상 20.6 · 이전 20.9"
    ]
   },
   {
@@ -3003,7 +3002,7 @@ window.DASH.calendar = {
    "title": "미국 신규주택판매",
    "time": "23:00",
    "result": [
-    "이전 676K"
+    "이전 -0.6%"
    ]
   },
   {
@@ -3024,7 +3023,7 @@ window.DASH.calendar = {
    "title": "미국 무역수지",
    "time": "21:30",
    "result": [
-    "이전 -135.08B"
+    "이전 -134.90B"
    ]
   },
   {
@@ -3034,7 +3033,7 @@ window.DASH.calendar = {
    "title": "한국 산업생산",
    "time": "07:00",
    "result": [
-    "이전 1.2%"
+    "이전 9.0%"
    ]
   },
   {
@@ -3263,12 +3262,32 @@ window.DASH.calendar = {
    "major": true
   },
   {
+   "date": "2026-12-09",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 GDP",
+   "time": "07:00",
+   "result": [
+    "이전 3.4%"
+   ]
+  },
+  {
+   "date": "2026-12-09",
+   "type": "econ",
+   "market": "CN",
+   "title": "중국 CPI",
+   "time": "09:30",
+   "result": [
+    "이전 0.0%"
+   ]
+  },
+  {
    "date": "2026-12-10",
    "type": "earnings",
    "market": "US",
    "title": "브로드컴 실적 발표",
    "result": [
-    "EPS 예상 $3.47",
+    "EPS 예상 $3.45",
     "장마감 후(한국 다음 날 새벽)"
    ]
   },
@@ -3316,6 +3335,15 @@ window.DASH.calendar = {
    "major": true,
    "result": [
     "이전 1.25%"
+   ]
+  },
+  {
+   "date": "2027-01-12",
+   "type": "earnings",
+   "market": "US",
+   "title": "JP모건 실적 발표",
+   "result": [
+    "EPS 예상 $5.94"
    ]
   },
   {

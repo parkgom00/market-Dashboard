@@ -2046,6 +2046,17 @@
  },
  {
   "date": "2026-11-17",
+  "time": "",
+  "title": "엔비디아 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "",
+  "epsForecast": "$2.47",
+  "eps": "$2.68",
+  "surprise": "8.5"
+ },
+ {
+  "date": "2026-11-17",
   "time": "01:00",
   "title": "연준 의장 연설",
   "level": "major",
@@ -2162,7 +2173,7 @@
   "title": "미국 신규 실업수당 청구",
   "level": "macro",
   "kind": "econ",
-  "consensus": "199K",
+  "consensus": "198K",
   "actual": "",
   "previous": "200K"
  },
@@ -2172,7 +2183,7 @@
   "title": "필라델피아 연은지수",
   "level": "macro",
   "kind": "econ",
-  "consensus": "19.2",
+  "consensus": "20.6",
   "actual": "",
   "previous": "20.9"
  },
@@ -2336,7 +2347,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "676K"
+  "previous": "-0.6%"
  },
  {
   "date": "2026-11-26",
@@ -2356,7 +2367,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "-135.08B"
+  "previous": "-134.90B"
  },
  {
   "date": "2026-11-30",
@@ -2366,7 +2377,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "1.2%"
+  "previous": "9.0%"
  },
  {
   "date": "2026-11-30",
@@ -2645,13 +2656,33 @@
   "previous": ""
  },
  {
+  "date": "2026-12-09",
+  "time": "07:00",
+  "title": "한국 GDP",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "3.4%"
+ },
+ {
+  "date": "2026-12-09",
+  "time": "09:30",
+  "title": "중국 CPI",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "0.0%"
+ },
+ {
   "date": "2026-12-10",
   "time": "",
   "title": "브로드컴 실적 발표",
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$3.47",
+  "epsForecast": "$3.45",
   "eps": "",
   "surprise": ""
  },
@@ -2704,7 +2735,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$4.87",
+  "epsForecast": "$4.89",
   "eps": "",
   "surprise": ""
  },
@@ -2739,6 +2770,17 @@
   "consensus": "",
   "actual": "",
   "previous": "1.25%"
+ },
+ {
+  "date": "2027-01-12",
+  "time": "",
+  "title": "JP모건 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "",
+  "epsForecast": "$5.94",
+  "eps": "",
+  "surprise": ""
  },
  {
   "date": "2027-01-28",
