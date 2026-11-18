@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-18 07:16",
+ "asOf": "2026-11-18 16:19",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,29 +9,29 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
-     "title": "[11월18일 #장시작전]  “뉴욕증시 하락에도 반도체는 반등!” ARM 4.7% 급등… 엔비디아 실적 예상 상회...오늘 삼전·하닉 외국인 투매 끝나나?",
-     "publishedAt": "2026-11-18 06:22",
+     "title": "“코스피 5,000선 붕괴 위기, 공포에 휩싸인 증시!” 하지만 끝이 아니다… 공매도 청산이 불러올 강력한 반격 시작된다! ㅣ김민수 대표",
+     "publishedAt": "2026-11-18 16:15",
+     "url": "https://www.youtube.com/watch?v=qrosihil7Ms"
+    },
+    {
+     "title": "[#긴급시황]  “코스피 5,000인데 골드만삭스는 7,500을 외쳤다!” 한국증시 PBR 0.93배… 역사적 저평가는 언제 끝날까?ㅣ박근형 부장",
+     "publishedAt": "2026-11-18 15:00",
+     "url": "https://www.youtube.com/watch?v=DaHzmjAGfGQ"
+    },
+    {
+     "title": "[#긴급시황]  “급등하던 증시가 갑자기 하락한 이유!” 우리가 모르는 악재가 터졌나? 주가 상승세를 꺾어버린 진짜 원인은?ㅣ 이주현 대표",
+     "publishedAt": "2026-11-18 14:00",
+     "url": "https://www.youtube.com/watch?v=_JMuWDJzLJg"
+    },
+    {
+     "title": "“엔비디아 깜짝 실적에도 시장은 왜 불안할까?” AI 반도체 슈퍼호황은 계속되는데… 삼성전자·SK하이닉스 반등을 막는 진짜 이유! ㅣ 이권희 대표",
+     "publishedAt": "2026-11-18 12:35",
+     "url": "https://www.youtube.com/watch?v=VZv-QcnXCN4"
+    },
+    {
+     "title": "[11월18일 #장시작전]  실적으로는 실망 시키지 않는 엔비디아, 국내 수혜주 추격 매수?",
+     "publishedAt": "2026-11-18 12:15",
      "url": "https://www.youtube.com/watch?v=sNE5GmvtfcU"
-    },
-    {
-     "title": "“끝없이 추락하는 증시, 지금이라도 손절해야 하나?” 예측으로 매매하면 더 위험하다!  지금 반드시 지켜봐야 할 ‘이 구간’ (급락장) 주식황금돼지 이건희 대표",
-     "publishedAt": "2026-11-18 05:30",
-     "url": "https://www.youtube.com/watch?v=Codp7P9gH4U"
-    },
-    {
-     "title": "[#찐시황]  “동트기 전이 가장 어둡다!” 끝없는 하락장에 지친 투자자들… 포기하고 싶은 바로 이 순간을 견뎌야 한다! | 박현상 이사",
-     "publishedAt": "2026-11-17 20:00",
-     "url": "https://www.youtube.com/watch?v=yLhZiyCgAjY"
-    },
-    {
-     "title": "“삼성전자·SK하이닉스 급락, 반도체 소부장 반토막!” 싸다고 물타기하면 위험하다… 진짜 매수 시점 알려주는 결정적 신호는?ㅣ황유현 팀장",
-     "publishedAt": "2026-11-17 18:30",
-     "url": "https://www.youtube.com/watch?v=AjAzI1Uxh9c"
-    },
-    {
-     "title": "[#긴급시황] “코스피 5,000선마저 붕괴!” 이틀 연속 급락장에 증시 패닉… 엔비디아 실적 발표마저 또 다른 악재가 될까?ㅣ 김민수 대표",
-     "publishedAt": "2026-11-17 17:00",
-     "url": "https://www.youtube.com/watch?v=maYCQ85ygu8"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(엔비디아) 과연 언제 주가가 올라가나?",
+     "publishedAt": "2026-11-18 14:46",
+     "url": "https://www.youtube.com/watch?v=us-Avc9p4xQ"
+    },
     {
      "title": "(시황분석) 반도체 전망치가 시장을 움직인다!!!",
      "publishedAt": "2026-11-18 06:39",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(엔비디아,앤트로픽) 젠슨황 돌아오면 폭등? 엔트로픽의 물량폭탄으로 하락?",
      "publishedAt": "2026-11-16 10:36",
      "url": "https://www.youtube.com/watch?v=D0oYzLQaR1c"
-    },
-    {
-     "title": "(주간시황) 반도체 저평가 vs 금리상승 지속,기간조정이 필요!!!",
-     "publishedAt": "2026-11-15 18:04",
-     "url": "https://www.youtube.com/watch?v=k9j79c8pprQ"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "11월 18일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-11-18 06:54",
-     "url": "https://www.youtube.com/watch?v=VvspbaU1mys"
+     "title": "한국 투자자들이 앤트로픽(ANT)에 투자하는 가장 쉬운 방법",
+     "publishedAt": "2026-11-18 15:00",
+     "url": "https://www.youtube.com/watch?v=-GJLRjjTEZc"
     },
     {
-     "title": "폭락한 내 주식 다시 오를지 'AI'로 확인하는 방법",
-     "publishedAt": "2026-11-18 00:00",
-     "url": "https://www.youtube.com/watch?v=7hrjg5b_gtw"
+     "title": "미국의 중국산 광통신 장비 규제, 한국 기업에 새로운 기회라는 이유",
+     "publishedAt": "2026-11-18 14:39",
+     "url": "https://www.youtube.com/watch?v=eKQHEGJ_Ayg"
     },
     {
-     "title": "빚때문에 롯데타워까지 담보로.. 롯데가 이 지경까지 온 이유",
-     "publishedAt": "2026-11-17 23:30",
-     "url": "https://www.youtube.com/watch?v=MHib-jF8N1E"
+     "title": "\"리딩방 진짜였네\" 엔비디아 주식 830억 몰래 매수했던 트럼프",
+     "publishedAt": "2026-11-18 13:00",
+     "url": "https://www.youtube.com/watch?v=L3b0EU4TU5E"
     },
     {
-     "title": "2027년부터 받을 수 있는 1억 9,582만원 청년 지원 총정리",
-     "publishedAt": "2026-11-17 23:00",
-     "url": "https://www.youtube.com/watch?v=W6zZjCfbyyY"
+     "title": "엔비디아 실적발표 전부 뜯어왔습니다",
+     "publishedAt": "2026-11-18 11:54",
+     "url": "https://www.youtube.com/watch?v=KmpQIVj1gTQ"
     },
     {
-     "title": "\"GPT·클로드·제미나이\" 어떤 AI가 종목 분석 제일 잘할까?",
-     "publishedAt": "2026-11-17 22:00",
-     "url": "https://www.youtube.com/watch?v=oF0FBSCG98Q"
+     "title": "엔비디아 복직 막힌 젠슨황, 앞으로 어떻게 될까?",
+     "publishedAt": "2026-11-18 11:00",
+     "url": "https://www.youtube.com/watch?v=d52wdC-Y5qA"
     }
    ]
   },
