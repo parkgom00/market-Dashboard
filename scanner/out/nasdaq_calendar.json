@@ -2113,8 +2113,8 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "1.380M",
-  "actual": "",
-  "previous": "-0.4%"
+  "actual": "1.295M",
+  "previous": "1.398M"
  },
  {
   "date": "2026-11-18",
@@ -2122,9 +2122,9 @@
   "title": "미국 주택착공",
   "level": "macro",
   "kind": "econ",
-  "consensus": "1.250M",
-  "actual": "",
-  "previous": "1.221M"
+  "consensus": "2.4%",
+  "actual": "9.9%",
+  "previous": "-7.0%"
  },
  {
   "date": "2026-11-18",
@@ -2674,6 +2674,16 @@
   "consensus": "",
   "actual": "",
   "previous": "0.0%"
+ },
+ {
+  "date": "2026-12-09",
+  "time": "23:00",
+  "title": "미국 기존주택판매",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "-5.5%"
  },
  {
   "date": "2026-12-10",
