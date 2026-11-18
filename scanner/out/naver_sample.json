@@ -450,5 +450,25 @@
    "accumulatedTradingValueRaw": "28499000000",
    "marketValueRaw": "9329541318400"
   }
+ ],
+ "industryGroups": [
+  {
+   "no": 285,
+   "name": "방송과엔터테인먼트",
+   "totalCount": 58,
+   "changeRate": "16.58",
+   "riseCount": 37,
+   "fallCount": 12,
+   "steadyCount": 9
+  },
+  {
+   "no": 282,
+   "name": "전자장비와기기",
+   "totalCount": 105,
+   "changeRate": "7.06",
+   "riseCount": 69,
+   "fallCount": 26,
+   "steadyCount": 10
+  }
  ]
 }
