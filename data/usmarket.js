@@ -23,9 +23,9 @@ window.DASH.usmarket = {
    "group": "주가지수",
    "name": "다우",
    "kind": "index",
-   "close": 50759.42,
+   "close": 50759.4,
    "changePct": -1.64,
-   "changeText": "50,759.42 (-1.64%)"
+   "changeText": "50,759.40 (-1.64%)"
   },
   {
    "group": "주가지수",
@@ -81,65 +81,57 @@ window.DASH.usmarket = {
    "group": "금리·환율",
    "name": "달러 인덱스",
    "kind": "plain",
-   "close": 103.61,
-   "changePct": 0.06,
-   "changeText": "103.61 (+0.06%)"
+   "close": 103.65,
+   "changePct": 0.1,
+   "changeText": "103.65 (+0.10%)"
   },
   {
    "group": "금리·환율",
    "name": "원/달러",
    "kind": "plain",
-   "close": 1329.22,
-   "changePct": -0.48,
-   "changeText": "1,329.22 (-0.48%)"
+   "close": 1330.88,
+   "changePct": -0.36,
+   "changeText": "1,330.88 (-0.36%)"
   },
   {
    "group": "금리·환율",
    "name": "엔/달러",
    "kind": "plain",
-   "close": 159.35,
+   "close": 159.34,
    "changePct": -0.11,
-   "changeText": "159.35 (-0.11%)"
+   "changeText": "159.34 (-0.11%)"
   },
   {
    "group": "원자재·기타",
    "name": "WTI 유가",
    "kind": "usd",
-   "close": 85.02,
-   "changePct": -0.82,
-   "changeText": "85.02 (-0.82%)"
+   "close": 84.97,
+   "changePct": -0.87,
+   "changeText": "84.97 (-0.87%)"
   },
   {
    "group": "원자재·기타",
    "name": "브렌트유",
    "kind": "usd",
-   "close": 92.63,
-   "changePct": 0.21,
-   "changeText": "92.63 (+0.21%)"
+   "close": 92.67,
+   "changePct": 0.25,
+   "changeText": "92.67 (+0.25%)"
   },
   {
    "group": "원자재·기타",
    "name": "금",
    "kind": "usd",
-   "close": 3795.8,
-   "changePct": -1.48,
-   "changeText": "3,795.80 (-1.48%)"
-  },
-  {
-   "group": "원자재·기타",
-   "name": "구리",
-   "kind": "usd",
-   "close": 5.89,
-   "changePct": -1.74,
-   "changeText": "5.89 (-1.74%)"
+   "close": 3791.2,
+   "changePct": -1.6,
+   "changeText": "3,791.20 (-1.60%)"
   },
   {
    "group": "원자재·기타",
    "name": "비트코인",
    "kind": "usd",
-   "close": 64453.08,
-   "changePct": -0.62,
-   "changeText": "64,453.08 (-0.62%)"
+   "close": 64508.18,
+   "changePct": -0.54,
+   "changeText": "64,508.18 (-0.54%)"
   },
   {
    "group": "원자재·기타",
