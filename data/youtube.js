@@ -1,13 +1,28 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-18 16:19",
+ "asOf": "2026-11-19 02:12",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황]  “청산 위기에 몰린 헤지펀드, 더 빠지면 끝이다! ” 급등과 추가 급락의 갈림길에 선 한국증시… 모든 것은 엔비디아에 달렸다!  | 오로라투자자문 이지환 대표",
+     "publishedAt": "2026-11-18 20:00",
+     "url": "https://www.youtube.com/watch?v=5ejfTU3cvac"
+    },
+    {
+     "title": "“앤트로픽 상장이 AI 상승장 시즌2를 열까?”  다음 주도주가 바뀐다? 시장의 돈이 몰릴 ‘이 주식’!  | 테크밸리인사이트 손정우 대표",
+     "publishedAt": "2026-11-18 19:00",
+     "url": "https://www.youtube.com/watch?v=6g110iUWTVo"
+    },
+    {
+     "title": "[#긴급시황]  “코스피 쌍바닥 나와도 불안한 한국증시\" 삼전 하닉 대반등 시작될까?/ 다음 상승장 주도주는 로봇주?ㅣ이주연 대표",
+     "publishedAt": "2026-11-18 17:30",
+     "url": "https://www.youtube.com/watch?v=NCGhP2Vyods"
+    },
     {
      "title": "“코스피 5,000선 붕괴 위기, 공포에 휩싸인 증시!” 하지만 끝이 아니다… 공매도 청산이 불러올 강력한 반격 시작된다! ㅣ김민수 대표",
      "publishedAt": "2026-11-18 16:15",
@@ -17,21 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황]  “코스피 5,000인데 골드만삭스는 7,500을 외쳤다!” 한국증시 PBR 0.93배… 역사적 저평가는 언제 끝날까?ㅣ박근형 부장",
      "publishedAt": "2026-11-18 15:00",
      "url": "https://www.youtube.com/watch?v=DaHzmjAGfGQ"
-    },
-    {
-     "title": "[#긴급시황]  “급등하던 증시가 갑자기 하락한 이유!” 우리가 모르는 악재가 터졌나? 주가 상승세를 꺾어버린 진짜 원인은?ㅣ 이주현 대표",
-     "publishedAt": "2026-11-18 14:00",
-     "url": "https://www.youtube.com/watch?v=_JMuWDJzLJg"
-    },
-    {
-     "title": "“엔비디아 깜짝 실적에도 시장은 왜 불안할까?” AI 반도체 슈퍼호황은 계속되는데… 삼성전자·SK하이닉스 반등을 막는 진짜 이유! ㅣ 이권희 대표",
-     "publishedAt": "2026-11-18 12:35",
-     "url": "https://www.youtube.com/watch?v=VZv-QcnXCN4"
-    },
-    {
-     "title": "[11월18일 #장시작전]  실적으로는 실망 시키지 않는 엔비디아, 국내 수혜주 추격 매수?",
-     "publishedAt": "2026-11-18 12:15",
-     "url": "https://www.youtube.com/watch?v=sNE5GmvtfcU"
     }
    ]
   },
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "[월간 안테나] 대만이 주도하는 CPO, 판을 뒤집을 우리 기술이 나옵니다!!",
+     "publishedAt": "2026-11-18 19:00",
+     "url": "https://www.youtube.com/watch?v=oJAaV3ZX8rc"
+    },
+    {
      "title": "제가 틀렸습니다. 방향은 봤지만 깊이가…",
      "publishedAt": "2026-11-17 19:35",
      "url": "https://www.youtube.com/watch?v=unDiLOfyYLY"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[몰아보기] 반도체 주가 변곡점? 이 때 옵니다!!",
      "publishedAt": "2026-11-14 14:00",
      "url": "https://www.youtube.com/watch?v=i6JqA9S9FHE"
-    },
-    {
-     "title": "젠슨 황 없는 엔비디아, 구글이 공백 메울까? 메모리 대전환?",
-     "publishedAt": "2026-11-13 19:00",
-     "url": "https://www.youtube.com/watch?v=WXVas_zSwZ8"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "한국 투자자들이 앤트로픽(ANT)에 투자하는 가장 쉬운 방법",
-     "publishedAt": "2026-11-18 15:00",
-     "url": "https://www.youtube.com/watch?v=-GJLRjjTEZc"
+     "title": "지금 한국 경제에 나타난 이상한 '신호'",
+     "publishedAt": "2026-11-18 23:50",
+     "url": "https://www.youtube.com/watch?v=ARm2Qn_SDuk"
     },
     {
-     "title": "미국의 중국산 광통신 장비 규제, 한국 기업에 새로운 기회라는 이유",
-     "publishedAt": "2026-11-18 14:39",
-     "url": "https://www.youtube.com/watch?v=eKQHEGJ_Ayg"
+     "title": "현시점 엔터주 역대급 상승장 올 수 있다는 이유",
+     "publishedAt": "2026-11-18 23:30",
+     "url": "https://www.youtube.com/watch?v=MIk4w-FMD60"
     },
     {
-     "title": "\"리딩방 진짜였네\" 엔비디아 주식 830억 몰래 매수했던 트럼프",
-     "publishedAt": "2026-11-18 13:00",
-     "url": "https://www.youtube.com/watch?v=L3b0EU4TU5E"
+     "title": "엔비디아 새 CEO가 될 수 있다는 '두 후보자' 정체",
+     "publishedAt": "2026-11-18 23:00",
+     "url": "https://www.youtube.com/watch?v=QbswFOcxhJk"
     },
     {
-     "title": "엔비디아 실적발표 전부 뜯어왔습니다",
-     "publishedAt": "2026-11-18 11:54",
-     "url": "https://www.youtube.com/watch?v=KmpQIVj1gTQ"
+     "title": "외국인들이, 엔비디아 실적 하루 만에 '원화'에 돈 건 이유",
+     "publishedAt": "2026-11-18 22:00",
+     "url": "https://www.youtube.com/watch?v=-QDAH1yDHVw"
     },
     {
-     "title": "엔비디아 복직 막힌 젠슨황, 앞으로 어떻게 될까?",
-     "publishedAt": "2026-11-18 11:00",
-     "url": "https://www.youtube.com/watch?v=d52wdC-Y5qA"
+     "title": "챗GPT로 주식 초고수 되는 방법",
+     "publishedAt": "2026-11-18 22:00",
+     "url": "https://www.youtube.com/watch?v=bPLhuKeY2Hg"
     }
    ]
   },
@@ -136,6 +136,11 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
+    {
+     "title": "앤트로픽 IPO가 걱정되는 이유",
+     "publishedAt": "2026-11-18 17:06",
+     "url": "https://www.youtube.com/watch?v=mYrEXYkomO4"
+    },
     {
      "title": "드러켄밀러 반도체 다 팔고 이 AI 주식 436% 늘렸다?",
      "publishedAt": "2026-11-17 18:07",
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "또 다시 시작된 젠슨황 위기",
      "publishedAt": "2026-11-14 03:30",
      "url": "https://www.youtube.com/watch?v=mk892-Pg1TU"
-    },
-    {
-     "title": "한 시대가 끝났습니다. 엔비디아 젠슨황 CEO 사퇴",
-     "publishedAt": "2026-11-13 00:44",
-     "url": "https://www.youtube.com/watch?v=6VzAGnmZzNY"
     }
    ]
   },
@@ -168,6 +168,11 @@ window.DASH.youtube = {
    "channelId": "UCC3yfxS5qC6PCwDzetUuEWg",
    "handle": "@sosumonkey",
    "videos": [
+    {
+     "title": "AI 끝판왕 앤트로픽 사려고 다른 주식 매도 중? 역대 IPO 패턴 반복될까",
+     "publishedAt": "2026-11-18 20:40",
+     "url": "https://www.youtube.com/watch?v=Z4fzVAS4KCc"
+    },
     {
      "title": "중간선거 끝나자마자 태세전환하는 연준? 2018년 연말 쇼크 재현될까",
      "publishedAt": "2026-11-17 21:08",
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "트럼프 관련주 총공세 예고한 민주당, 조심할 주식과 주목할 주식들",
      "publishedAt": "2026-11-10 20:03",
      "url": "https://www.youtube.com/watch?v=ra5nRE3x9qk"
-    },
-    {
-     "title": "미국 민주당 20년 만의 압승에 월가도 패닉? 추가 충격에 대비해야 할까",
-     "publishedAt": "2026-11-09 20:48",
-     "url": "https://www.youtube.com/watch?v=ucXMFfhriSw"
     }
    ]
   }
