@@ -33,7 +33,12 @@ def build(out_dir=OUT, target=DEFAULT_TARGET):
 
     kr, us = {}, {}
     if news is not None:
-        kr["news"] = news["items"]
+        kr["news"] = news.get("items", [])
+        for k, v in (("stockNews", "stock"), ("feature", "feature"), ("market", "market"), ("dart", "dart")):
+            if news.get(v):
+                kr[k] = news[v]
+        if news.get("asOf"):
+            kr["newsAsOf"] = news["asOf"]
     if rank is not None:
         kr["gainers"] = rank.get("gainers", [])
         kr["value"] = rank.get("value", [])

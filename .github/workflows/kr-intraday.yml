@@ -23,6 +23,12 @@ jobs:
       - name: 국내 시세 수집
         working-directory: scanner
         run: python collect_kr.py
+      - name: 뉴스·공시 (상위 종목 기사, 특징주, 시장 속보, DART)
+        if: ${{ !cancelled() }}
+        working-directory: scanner
+        env:
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+        run: python collect_news.py --quiet || true
       - name: 변경된 데이터 저장
         if: ${{ !cancelled() }}
         run: bash scanner/commit_data.sh
