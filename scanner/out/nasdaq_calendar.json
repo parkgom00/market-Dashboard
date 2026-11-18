@@ -1889,7 +1889,7 @@
   "level": "major",
   "kind": "econ",
   "consensus": "337.02",
-  "actual": "",
+  "actual": "0.17%",
   "previous": "0.59%"
  },
  {
@@ -1898,8 +1898,8 @@
   "title": "미국 근원 CPI",
   "level": "major",
   "kind": "econ",
-  "consensus": "2.8%",
-  "actual": "",
+  "consensus": "0.2%",
+  "actual": "339.90",
   "previous": "338.90"
  },
  {
@@ -1909,8 +1909,19 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "",
-  "actual": "",
+  "actual": "2.5%",
   "previous": "2.6%"
+ },
+ {
+  "date": "2026-11-12",
+  "time": "",
+  "title": "어플라이드머티리얼즈 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "",
+  "epsForecast": "$4.06",
+  "eps": "$4.16",
+  "surprise": "2.46"
  },
  {
   "date": "2026-11-12",
@@ -1919,8 +1930,8 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "194K",
-  "actual": "",
-  "previous": "189K"
+  "actual": "200K",
+  "previous": "191K"
  },
  {
   "date": "2026-11-12",
@@ -1928,9 +1939,9 @@
   "title": "미국 기존주택판매",
   "level": "macro",
   "kind": "econ",
-  "consensus": "3.86M",
-  "actual": "",
-  "previous": "3.99M"
+  "consensus": "3.89M",
+  "actual": "3.75M",
+  "previous": "3.97M"
  },
  {
   "date": "2026-11-13",
@@ -1959,9 +1970,9 @@
   "title": "미국 PPI",
   "level": "macro",
   "kind": "econ",
-  "consensus": "0.4%",
-  "actual": "",
-  "previous": "0.5%"
+  "consensus": "6.6%",
+  "actual": "4.9%",
+  "previous": "5.0%"
  },
  {
   "date": "2026-11-13",
@@ -1969,8 +1980,8 @@
   "title": "미국 근원 PPI",
   "level": "macro",
   "kind": "econ",
-  "consensus": "0.3%",
-  "actual": "",
+  "consensus": "5.0%",
+  "actual": "5.0%",
   "previous": "5.0%"
  },
  {
@@ -2010,8 +2021,8 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "42.50B",
-  "actual": "",
-  "previous": "42.50B"
+  "actual": "42.65B",
+  "previous": "49.97B"
  },
  {
   "date": "2026-11-15",
@@ -2020,8 +2031,8 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "36.0%",
-  "actual": "",
-  "previous": "36.0%"
+  "actual": "36.0%",
+  "previous": "26.0%"
  },
  {
   "date": "2026-11-15",
@@ -2030,8 +2041,18 @@
   "level": "major",
   "kind": "econ",
   "consensus": "93.7%",
+  "actual": "93.9%",
+  "previous": "83.7%"
+ },
+ {
+  "date": "2026-11-17",
+  "time": "01:00",
+  "title": "연준 의장 연설",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
   "actual": "",
-  "previous": "93.7%"
+  "previous": ""
  },
  {
   "date": "2026-11-17",
@@ -2039,9 +2060,9 @@
   "title": "미국 소매판매",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
-  "actual": "",
-  "previous": "0.2%"
+  "consensus": "0.1%",
+  "actual": "0.5%",
+  "previous": "0.5%"
  },
  {
   "date": "2026-11-17",
@@ -2049,8 +2070,8 @@
   "title": "미국 수입물가",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
-  "actual": "",
+  "consensus": "0.7%",
+  "actual": "1.1%",
   "previous": "1.1%"
  },
  {
@@ -2059,9 +2080,9 @@
   "title": "미국 산업생산",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
-  "actual": "",
-  "previous": "2.25%"
+  "consensus": "0.0%",
+  "actual": "2.15%",
+  "previous": "2.14%"
  },
  {
   "date": "2026-11-18",
@@ -2080,9 +2101,9 @@
   "title": "미국 건축허가",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "1.380M",
   "actual": "",
-  "previous": "1.398M"
+  "previous": "-0.4%"
  },
  {
   "date": "2026-11-18",
@@ -2090,9 +2111,9 @@
   "title": "미국 주택착공",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "1.250M",
   "actual": "",
-  "previous": "-5.2%"
+  "previous": "1.221M"
  },
  {
   "date": "2026-11-18",
@@ -2117,6 +2138,16 @@
  },
  {
   "date": "2026-11-19",
+  "time": "03:00",
+  "title": "FOMC 의사록",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": ""
+ },
+ {
+  "date": "2026-11-19",
   "time": "05:00",
   "title": "한국 PPI",
   "level": "macro",
@@ -2128,10 +2159,20 @@
  {
   "date": "2026-11-19",
   "time": "21:30",
+  "title": "미국 신규 실업수당 청구",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "199K",
+  "actual": "",
+  "previous": "200K"
+ },
+ {
+  "date": "2026-11-19",
+  "time": "21:30",
   "title": "필라델피아 연은지수",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "19.2",
   "actual": "",
   "previous": "20.9"
  },
@@ -2151,7 +2192,7 @@
   "title": "미시간 소비심리",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "51.0",
   "actual": "",
   "previous": "51.0"
  },
@@ -2228,6 +2269,17 @@
  },
  {
   "date": "2026-11-25",
+  "time": "",
+  "title": "델 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "장마감 후(한국 다음 날 새벽)",
+  "epsForecast": "$6.41",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-11-25",
   "time": "21:30",
   "title": "미국 PCE",
   "level": "major",
@@ -2235,6 +2287,16 @@
   "consensus": "",
   "actual": "",
   "previous": "3.6%"
+ },
+ {
+  "date": "2026-11-25",
+  "time": "21:30",
+  "title": "미국 건축허가",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "-0.4%"
  },
  {
   "date": "2026-11-25",
@@ -2258,13 +2320,23 @@
  },
  {
   "date": "2026-11-25",
+  "time": "21:30",
+  "title": "미국 신규 실업수당 청구",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": ""
+ },
+ {
+  "date": "2026-11-25",
   "time": "23:00",
   "title": "미국 신규주택판매",
   "level": "macro",
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "-0.6%"
+  "previous": "676K"
  },
  {
   "date": "2026-11-26",
@@ -2328,6 +2400,86 @@
   "surprise": ""
  },
  {
+  "date": "2026-12-01",
+  "time": "08:00",
+  "title": "한국 무역수지",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "42.65B"
+ },
+ {
+  "date": "2026-12-01",
+  "time": "08:00",
+  "title": "한국 수입",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "36.0%"
+ },
+ {
+  "date": "2026-12-01",
+  "time": "08:00",
+  "title": "한국 수출",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "93.9%"
+ },
+ {
+  "date": "2026-12-01",
+  "time": "08:30",
+  "title": "한국 제조업 PMI",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "51.3"
+ },
+ {
+  "date": "2026-12-01",
+  "time": "09:45",
+  "title": "중국 제조업 PMI",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "52.0"
+ },
+ {
+  "date": "2026-12-01",
+  "time": "22:45",
+  "title": "S&P글로벌 제조업 PMI",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "54.9"
+ },
+ {
+  "date": "2026-12-01",
+  "time": "23:00",
+  "title": "ISM 제조업",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "55.5"
+ },
+ {
+  "date": "2026-12-01",
+  "time": "23:00",
+  "title": "JOLTS 구인",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "7.523M"
+ },
+ {
   "date": "2026-12-02",
   "time": "",
   "title": "마벨 실적 발표",
@@ -2348,6 +2500,117 @@
   "epsForecast": "$2.41",
   "eps": "",
   "surprise": ""
+ },
+ {
+  "date": "2026-12-02",
+  "time": "07:00",
+  "title": "한국 CPI",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "0.2%"
+ },
+ {
+  "date": "2026-12-02",
+  "time": "21:15",
+  "title": "ADP 민간고용",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "86K"
+ },
+ {
+  "date": "2026-12-03",
+  "time": "",
+  "title": "세일즈포스 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "장마감 후(한국 다음 날 새벽)",
+  "epsForecast": "$2.41",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-12-03",
+  "time": "22:45",
+  "title": "S&P글로벌 서비스업 PMI",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "56.1"
+ },
+ {
+  "date": "2026-12-03",
+  "time": "23:00",
+  "title": "ISM 서비스업",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "54.5"
+ },
+ {
+  "date": "2026-12-04",
+  "time": "21:30",
+  "title": "미국 비농업 고용",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "159K"
+ },
+ {
+  "date": "2026-12-04",
+  "time": "21:30",
+  "title": "미국 실업률",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "4.1%"
+ },
+ {
+  "date": "2026-12-04",
+  "time": "23:00",
+  "title": "미시간 소비심리",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "48.0"
+ },
+ {
+  "date": "2026-12-08",
+  "time": "07:00",
+  "title": "한국 경상수지",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "61.46B"
+ },
+ {
+  "date": "2026-12-08",
+  "time": "21:30",
+  "title": "미국 무역수지",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "-105.00B"
+ },
+ {
+  "date": "2026-12-08",
+  "time": "21:30",
+  "title": "미국 생산성",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "3.6%"
  },
  {
   "date": "2026-12-09",
@@ -2387,8 +2650,19 @@
   "title": "브로드컴 실적 발표",
   "level": "earnings",
   "kind": "earnings",
-  "note": "",
-  "epsForecast": "$3.45",
+  "note": "장마감 후(한국 다음 날 새벽)",
+  "epsForecast": "$3.47",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-12-10",
+  "time": "",
+  "title": "어도비 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "장마감 후(한국 다음 날 새벽)",
+  "epsForecast": "$5.11",
   "eps": "",
   "surprise": ""
  },
@@ -2414,13 +2688,34 @@
   "previous": "4.00%"
  },
  {
+  "date": "2026-12-10",
+  "time": "03:30",
+  "title": "FOMC 기자회견",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": ""
+ },
+ {
+  "date": "2026-12-11",
+  "time": "",
+  "title": "코스트코 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "장마감 후(한국 다음 날 새벽)",
+  "epsForecast": "$4.87",
+  "eps": "",
+  "surprise": ""
+ },
+ {
   "date": "2026-12-16",
   "time": "",
   "title": "마이크론 실적 발표",
   "level": "earnings",
   "kind": "earnings",
   "note": "",
-  "epsForecast": "$37.93",
+  "epsForecast": "$37.95",
   "eps": "",
   "surprise": ""
  },
@@ -2444,5 +2739,25 @@
   "consensus": "",
   "actual": "",
   "previous": "1.25%"
+ },
+ {
+  "date": "2027-01-28",
+  "time": "02:00",
+  "title": "FOMC 금리결정",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": ""
+ },
+ {
+  "date": "2027-01-28",
+  "time": "03:30",
+  "title": "FOMC 기자회견",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": ""
  }
 ]

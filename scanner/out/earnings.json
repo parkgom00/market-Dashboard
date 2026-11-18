@@ -1,11 +1,5 @@
 [
  {
-  "date": "2026-11-18",
-  "type": "earnings",
-  "market": "US",
-  "title": "엔비디아 실적 발표 (예정)"
- },
- {
   "date": "2026-12-10",
   "type": "earnings",
   "market": "US",
@@ -96,7 +90,7 @@
   "title": "마벨 실적 발표 (예정)"
  },
  {
-  "date": "2026-11-13",
+  "date": "2027-02-12",
   "type": "earnings",
   "market": "US",
   "title": "어플라이드머티리얼즈 실적 발표 (예정)"
@@ -270,7 +264,7 @@
   "title": "현대차 실적 발표 (예정)"
  },
  {
-  "date": "2026-11-12",
+  "date": "2027-02-05",
   "type": "earnings",
   "market": "KR",
   "title": "NAVER 실적 발표 (예정)"
