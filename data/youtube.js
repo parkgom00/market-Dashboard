@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-19 02:12",
+ "asOf": "2026-11-19 09:18",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[11월19일 #장시작전] “엔비디아 깜짝 실적에도 주가 -3% 하락!” 다우 하락·나스닥 상승 엇갈린 뉴욕증시… 팔로알토 10% 급등, 사이버보안주로 왜 돈이 몰리나?",
+     "publishedAt": "2026-11-19 06:15",
+     "url": "https://www.youtube.com/watch?v=StAwPxju_7Y"
+    },
     {
      "title": "[#찐시황]  “청산 위기에 몰린 헤지펀드, 더 빠지면 끝이다! ” 급등과 추가 급락의 갈림길에 선 한국증시… 모든 것은 엔비디아에 달렸다!  | 오로라투자자문 이지환 대표",
      "publishedAt": "2026-11-18 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“코스피 5,000선 붕괴 위기, 공포에 휩싸인 증시!” 하지만 끝이 아니다… 공매도 청산이 불러올 강력한 반격 시작된다! ㅣ김민수 대표",
      "publishedAt": "2026-11-18 16:15",
      "url": "https://www.youtube.com/watch?v=qrosihil7Ms"
-    },
-    {
-     "title": "[#긴급시황]  “코스피 5,000인데 골드만삭스는 7,500을 외쳤다!” 한국증시 PBR 0.93배… 역사적 저평가는 언제 끝날까?ㅣ박근형 부장",
-     "publishedAt": "2026-11-18 15:00",
-     "url": "https://www.youtube.com/watch?v=DaHzmjAGfGQ"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) 엔트로픽 자금마련 위해서 엔비디아 털고 있나?",
+     "publishedAt": "2026-11-19 06:20",
+     "url": "https://www.youtube.com/watch?v=n_Thx9X8Elk"
+    },
     {
      "title": "(엔비디아) 과연 언제 주가가 올라가나?",
      "publishedAt": "2026-11-18 14:46",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 젠슨황 부재로 AI생태계 위협!!!",
      "publishedAt": "2026-11-17 06:21",
      "url": "https://www.youtube.com/watch?v=JmpZ0x1LVec"
-    },
-    {
-     "title": "(엔비디아,앤트로픽) 젠슨황 돌아오면 폭등? 엔트로픽의 물량폭탄으로 하락?",
-     "publishedAt": "2026-11-16 10:36",
-     "url": "https://www.youtube.com/watch?v=D0oYzLQaR1c"
     }
    ]
   },
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "11월 19일 오늘 코스피 또 하락할까?",
+     "publishedAt": "2026-11-19 08:13",
+     "url": "https://www.youtube.com/watch?v=4bVdRJVO7ng"
+    },
+    {
+     "title": "11월 19일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-11-19 07:17",
+     "url": "https://www.youtube.com/watch?v=7gmVDKyB1xU"
+    },
+    {
      "title": "지금 한국 경제에 나타난 이상한 '신호'",
      "publishedAt": "2026-11-18 23:50",
      "url": "https://www.youtube.com/watch?v=ARm2Qn_SDuk"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "엔비디아 새 CEO가 될 수 있다는 '두 후보자' 정체",
      "publishedAt": "2026-11-18 23:00",
      "url": "https://www.youtube.com/watch?v=QbswFOcxhJk"
-    },
-    {
-     "title": "외국인들이, 엔비디아 실적 하루 만에 '원화'에 돈 건 이유",
-     "publishedAt": "2026-11-18 22:00",
-     "url": "https://www.youtube.com/watch?v=-QDAH1yDHVw"
-    },
-    {
-     "title": "챗GPT로 주식 초고수 되는 방법",
-     "publishedAt": "2026-11-18 22:00",
-     "url": "https://www.youtube.com/watch?v=bPLhuKeY2Hg"
     }
    ]
   },
