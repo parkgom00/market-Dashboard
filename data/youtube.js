@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-19 09:18",
+ "asOf": "2026-11-19 19:14",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,29 +9,29 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
-     "title": "[11월19일 #장시작전] “엔비디아 깜짝 실적에도 주가 -3% 하락!” 다우 하락·나스닥 상승 엇갈린 뉴욕증시… 팔로알토 10% 급등, 사이버보안주로 왜 돈이 몰리나?",
-     "publishedAt": "2026-11-19 06:15",
-     "url": "https://www.youtube.com/watch?v=StAwPxju_7Y"
+     "title": "[#긴급시황] “텍사스발 대형 호재” AI 데이터센터 투자 불안 끝날까? / 삼성전자·SK하이닉스 대반등 시작될까?ㅣ이주연 대표",
+     "publishedAt": "2026-11-19 18:30",
+     "url": "https://www.youtube.com/watch?v=ld70Ck32c2I"
     },
     {
-     "title": "[#찐시황]  “청산 위기에 몰린 헤지펀드, 더 빠지면 끝이다! ” 급등과 추가 급락의 갈림길에 선 한국증시… 모든 것은 엔비디아에 달렸다!  | 오로라투자자문 이지환 대표",
-     "publishedAt": "2026-11-18 20:00",
-     "url": "https://www.youtube.com/watch?v=5ejfTU3cvac"
+     "title": "[#긴급인터뷰]  “하락 3파냐, 쌍바닥 대반등이냐!” 위기의 코스피 5,000… 한국증시 운명 가를 결정적 신호! (SK하이닉스) GFM투자연구소 이진우 소장",
+     "publishedAt": "2026-11-19 17:00",
+     "url": "https://www.youtube.com/watch?v=K101Dy3FU1w"
     },
     {
-     "title": "“앤트로픽 상장이 AI 상승장 시즌2를 열까?”  다음 주도주가 바뀐다? 시장의 돈이 몰릴 ‘이 주식’!  | 테크밸리인사이트 손정우 대표",
-     "publishedAt": "2026-11-18 19:00",
-     "url": "https://www.youtube.com/watch?v=6g110iUWTVo"
+     "title": "[#긴급시황]  “장중 급등락 반복하는 한국증시!” 변동성은 갈수록 커지는데… 외국인 매수세는 도대체 언제 돌아올까? (삼성전자) 주식황금돼지 이건희 대표",
+     "publishedAt": "2026-11-19 16:00",
+     "url": "https://www.youtube.com/watch?v=mcc0jFRgPuw"
     },
     {
-     "title": "[#긴급시황]  “코스피 쌍바닥 나와도 불안한 한국증시\" 삼전 하닉 대반등 시작될까?/ 다음 상승장 주도주는 로봇주?ㅣ이주연 대표",
-     "publishedAt": "2026-11-18 17:30",
-     "url": "https://www.youtube.com/watch?v=NCGhP2Vyods"
+     "title": "“코스피 5,000선 위태롭다!” 삼성전자·SK하이닉스 저평가인데 왜 흔들리나? / 선 그은 엔비디아 이사회… 젠슨 황 복귀 가능할까? | 블랙퀀트에쿼티 윤진 대표",
+     "publishedAt": "2026-11-19 14:30",
+     "url": "https://www.youtube.com/watch?v=igdgKOPRR_4"
     },
     {
-     "title": "“코스피 5,000선 붕괴 위기, 공포에 휩싸인 증시!” 하지만 끝이 아니다… 공매도 청산이 불러올 강력한 반격 시작된다! ㅣ김민수 대표",
-     "publishedAt": "2026-11-18 16:15",
-     "url": "https://www.youtube.com/watch?v=qrosihil7Ms"
+     "title": "“코스피 5,000 깨지자 수상한 매수세 포착!” 시총 상위주에 쌓이는 매수 물량… 큰 손들은 이미 증시 바닥을 보고 있나?  (하락장) 김태성 본부장",
+     "publishedAt": "2026-11-19 13:00",
+     "url": "https://www.youtube.com/watch?v=VEYoCnIz6XQ"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(아이온큐) 주가하락의 근본원인은?",
+     "publishedAt": "2026-11-19 14:05",
+     "url": "https://www.youtube.com/watch?v=FDmzU5oZSUU"
+    },
     {
      "title": "(시황분석) 엔트로픽 자금마련 위해서 엔비디아 털고 있나?",
      "publishedAt": "2026-11-19 06:20",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(13F 공시) 선수들의 매매 내역은?",
      "publishedAt": "2026-11-17 14:40",
      "url": "https://www.youtube.com/watch?v=2mSKquutBhs"
-    },
-    {
-     "title": "(시황분석) 젠슨황 부재로 AI생태계 위협!!!",
-     "publishedAt": "2026-11-17 06:21",
-     "url": "https://www.youtube.com/watch?v=JmpZ0x1LVec"
     }
    ]
   },
@@ -72,6 +72,11 @@ window.DASH.youtube = {
    "channelId": "UCQW05vzztAlwV54WL3pjGBQ",
    "handle": "@GODofIT_official",
    "videos": [
+    {
+     "title": "[월간 안테나] 삼성, 차세대 첨단패키징 주도권 가져올 전략 무기?",
+     "publishedAt": "2026-11-19 19:00",
+     "url": "https://www.youtube.com/watch?v=9nx8wnK4DHc"
+    },
     {
      "title": "[월간 안테나] 대만이 주도하는 CPO, 판을 뒤집을 우리 기술이 나옵니다!!",
      "publishedAt": "2026-11-18 19:00",
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[월간 안테나] 시장이 간과한 AI 수요? CPU와 메모리 수요 더 커진다!!",
      "publishedAt": "2026-11-16 19:00",
      "url": "https://www.youtube.com/watch?v=8rCImAZuY0g"
-    },
-    {
-     "title": "[몰아보기] 반도체 주가 변곡점? 이 때 옵니다!!",
-     "publishedAt": "2026-11-14 14:00",
-     "url": "https://www.youtube.com/watch?v=i6JqA9S9FHE"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "11월 19일 오늘 코스피 또 하락할까?",
-     "publishedAt": "2026-11-19 08:13",
-     "url": "https://www.youtube.com/watch?v=4bVdRJVO7ng"
+     "title": "골드만삭스 코스피 7500 하향, 진짜 숨은 메시지",
+     "publishedAt": "2026-11-19 18:30",
+     "url": "https://www.youtube.com/watch?v=S5V0tc-LkqA"
     },
     {
-     "title": "11월 19일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-11-19 07:17",
-     "url": "https://www.youtube.com/watch?v=7gmVDKyB1xU"
+     "title": "대출이자 6% 최고점 돌파, 물타기보다 빚부터 갚아야 할까?!",
+     "publishedAt": "2026-11-19 17:02",
+     "url": "https://www.youtube.com/watch?v=QkLkSYYpBas"
     },
     {
-     "title": "지금 한국 경제에 나타난 이상한 '신호'",
-     "publishedAt": "2026-11-18 23:50",
-     "url": "https://www.youtube.com/watch?v=ARm2Qn_SDuk"
+     "title": "앤트로픽 상장 그 이후, 아무도 말 안 하는 '날짜' 정체",
+     "publishedAt": "2026-11-19 16:37",
+     "url": "https://www.youtube.com/watch?v=JZv_ftgxMmg"
     },
     {
-     "title": "현시점 엔터주 역대급 상승장 올 수 있다는 이유",
-     "publishedAt": "2026-11-18 23:30",
-     "url": "https://www.youtube.com/watch?v=MIk4w-FMD60"
+     "title": "중국 '한한령' 해제되면, 주가 수혜 받는다는 산업분야 4가지",
+     "publishedAt": "2026-11-19 14:34",
+     "url": "https://www.youtube.com/watch?v=nVLZdcLGH-s"
     },
     {
-     "title": "엔비디아 새 CEO가 될 수 있다는 '두 후보자' 정체",
-     "publishedAt": "2026-11-18 23:00",
-     "url": "https://www.youtube.com/watch?v=QbswFOcxhJk"
+     "title": "15만원 주고 뛰는 마라톤, 그 돈은 누구한테 흘러갈까?",
+     "publishedAt": "2026-11-19 14:08",
+     "url": "https://www.youtube.com/watch?v=9ngVF5D_yYg"
     }
    ]
   },
@@ -169,6 +169,11 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
+     "title": "앤트로픽 상장 후 투자법 달라져야 한다? AI 다음 사이클의 승자들 잡는 법",
+     "publishedAt": "2026-11-19 18:23",
+     "url": "https://www.youtube.com/watch?v=_HKbEOD-fd8"
+    },
+    {
      "title": "AI 끝판왕 앤트로픽 사려고 다른 주식 매도 중? 역대 IPO 패턴 반복될까",
      "publishedAt": "2026-11-18 20:40",
      "url": "https://www.youtube.com/watch?v=Z4fzVAS4KCc"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "20년 전 부시 행정부와 똑같다? 초강경 모드 진입한 트럼프, 분위기 바꿀까",
      "publishedAt": "2026-11-11 22:00",
      "url": "https://www.youtube.com/watch?v=gNm_uU33nOk"
-    },
-    {
-     "title": "트럼프 관련주 총공세 예고한 민주당, 조심할 주식과 주목할 주식들",
-     "publishedAt": "2026-11-10 20:03",
-     "url": "https://www.youtube.com/watch?v=ra5nRE3x9qk"
     }
    ]
   }
