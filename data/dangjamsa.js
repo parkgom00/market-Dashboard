@@ -72,5 +72,5 @@ window.DASH.dangjamsa = {
  "title": "[🔴11/19 #당잠사] 엔비디아 호실적 불구 하락 전환 | 앤트로픽 상장 D-1 | 월러 “12월 빅스텝 해야” | #엔비디아 #구글 #스페이스X",
  "url": "https://www.youtube.com/watch?v=If5T3iAJrwI",
  "length": 3195,
- "status": "요약 실패 (다음 실행에 재시도 1/6): 시간 예산 소진: gemini-3.5-flash: HTTP 503 This model is currently experiencing high demand. Spikes in  | gemini-3.8-flash: HTTP 503 This model is currently experiencing high demand. Spikes in  | gemini-3.7-flash: 네트워크: The read operation timed out"
+ "status": "요약 실패 (다음 실행에 재시도 2/6): gemini-3.8-flash: HTTP 503 This model is currently experiencing high demand. Spikes in  | gemini-3.7-flash: HTTP 503 This model is currently experiencing high demand. Spikes in  | gemini-3.6-flash: HTTP 503 This model is currently experiencing high demand. Spikes in  | gemini-3.5-flash: HTTP 503 Thi"
 };
