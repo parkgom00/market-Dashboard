@@ -2174,8 +2174,8 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "198K",
-  "actual": "",
-  "previous": "200K"
+  "actual": "203K",
+  "previous": "202K"
  },
  {
   "date": "2026-11-19",
@@ -2184,7 +2184,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "20.6",
-  "actual": "",
+  "actual": "6.3",
   "previous": "20.9"
  },
  {
@@ -2285,7 +2285,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$6.41",
+  "epsForecast": "$6.48",
   "eps": "",
   "surprise": ""
  },
@@ -2737,6 +2737,26 @@
   "consensus": "",
   "actual": "",
   "previous": ""
+ },
+ {
+  "date": "2026-12-10",
+  "time": "21:30",
+  "title": "미국 CPI",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "0.17%"
+ },
+ {
+  "date": "2026-12-10",
+  "time": "21:30",
+  "title": "미국 근원 CPI",
+  "level": "major",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "339.90"
  },
  {
   "date": "2026-12-11",

@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-19 14:38",
+ "generatedAt": "2026-11-20 00:09",
  "events": [
   {
    "date": "2026-01-01",
@@ -573,7 +573,12 @@ window.DASH.calendar = {
    "date": "2026-12-10",
    "type": "econ",
    "market": "US",
-   "title": "미국 소비자물가지수(CPI) 발표 · 11월분 (한국시간 저녁)"
+   "title": "미국 소비자물가지수(CPI) 발표 · 11월분 (한국시간 저녁)",
+   "time": "21:30",
+   "result": [
+    "미국 CPI: 이전 0.17%",
+    "미국 근원 CPI: 이전 339.90"
+   ]
   },
   {
    "date": "2026-12-23",
@@ -2866,7 +2871,7 @@ window.DASH.calendar = {
    "title": "미국 신규 실업수당 청구",
    "time": "21:30",
    "result": [
-    "예상 198K · 이전 200K"
+    "실제 203K · 예상 198K · 이전 202K"
    ]
   },
   {
@@ -2876,7 +2881,7 @@ window.DASH.calendar = {
    "title": "필라델피아 연은지수",
    "time": "21:30",
    "result": [
-    "예상 20.6 · 이전 20.9"
+    "실제 6.3 · 예상 20.6 · 이전 20.9"
    ]
   },
   {
