@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-19 19:14",
+ "asOf": "2026-11-20 05:29",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황] “증시의 중요한 변곡점이 다가온다!” 지금은 돈 벌 기회가 열리는 구간.. 단, 한 번에 사지 말고 반드시 분할매수하라! | 황유현 팀장",
+     "publishedAt": "2026-11-19 20:00",
+     "url": "https://www.youtube.com/watch?v=vqB7JpqjRy0"
+    },
     {
      "title": "[#긴급시황] “텍사스발 대형 호재” AI 데이터센터 투자 불안 끝날까? / 삼성전자·SK하이닉스 대반등 시작될까?ㅣ이주연 대표",
      "publishedAt": "2026-11-19 18:30",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“코스피 5,000선 위태롭다!” 삼성전자·SK하이닉스 저평가인데 왜 흔들리나? / 선 그은 엔비디아 이사회… 젠슨 황 복귀 가능할까? | 블랙퀀트에쿼티 윤진 대표",
      "publishedAt": "2026-11-19 14:30",
      "url": "https://www.youtube.com/watch?v=igdgKOPRR_4"
-    },
-    {
-     "title": "“코스피 5,000 깨지자 수상한 매수세 포착!” 시총 상위주에 쌓이는 매수 물량… 큰 손들은 이미 증시 바닥을 보고 있나?  (하락장) 김태성 본부장",
-     "publishedAt": "2026-11-19 13:00",
-     "url": "https://www.youtube.com/watch?v=VEYoCnIz6XQ"
     }
    ]
   },
@@ -73,7 +73,7 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
-     "title": "[월간 안테나] 삼성, 차세대 첨단패키징 주도권 가져올 전략 무기?",
+     "title": "[월간 안테나] 삼성전기 유리기판 핵심 밸류체인 드디어 공개됐다!!",
      "publishedAt": "2026-11-19 19:00",
      "url": "https://www.youtube.com/watch?v=9nx8wnK4DHc"
     },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "2027년 선반영 어디까지 됐을까?",
+     "publishedAt": "2026-11-19 22:30",
+     "url": "https://www.youtube.com/watch?v=zFq3V7Lmczo"
+    },
+    {
+     "title": "투자자라면 꼭 알아야 할, 클로드 투자 꿀기능",
+     "publishedAt": "2026-11-19 22:00",
+     "url": "https://www.youtube.com/watch?v=oHlspHluBcE"
+    },
+    {
+     "title": "전 세계가 기다린 게임 GTA6, 대체 얼마나 벌까?!",
+     "publishedAt": "2026-11-19 20:30",
+     "url": "https://www.youtube.com/watch?v=SmU5LjD_A14"
+    },
+    {
+     "title": "지금 주식시장, 앞으로 어떻게 될까(ft. 상승신호)",
+     "publishedAt": "2026-11-19 20:00",
+     "url": "https://www.youtube.com/watch?v=jKioVUXPGo8"
+    },
+    {
      "title": "골드만삭스 코스피 7500 하향, 진짜 숨은 메시지",
      "publishedAt": "2026-11-19 18:30",
      "url": "https://www.youtube.com/watch?v=S5V0tc-LkqA"
-    },
-    {
-     "title": "대출이자 6% 최고점 돌파, 물타기보다 빚부터 갚아야 할까?!",
-     "publishedAt": "2026-11-19 17:02",
-     "url": "https://www.youtube.com/watch?v=QkLkSYYpBas"
-    },
-    {
-     "title": "앤트로픽 상장 그 이후, 아무도 말 안 하는 '날짜' 정체",
-     "publishedAt": "2026-11-19 16:37",
-     "url": "https://www.youtube.com/watch?v=JZv_ftgxMmg"
-    },
-    {
-     "title": "중국 '한한령' 해제되면, 주가 수혜 받는다는 산업분야 4가지",
-     "publishedAt": "2026-11-19 14:34",
-     "url": "https://www.youtube.com/watch?v=nVLZdcLGH-s"
-    },
-    {
-     "title": "15만원 주고 뛰는 마라톤, 그 돈은 누구한테 흘러갈까?",
-     "publishedAt": "2026-11-19 14:08",
-     "url": "https://www.youtube.com/watch?v=9ngVF5D_yYg"
     }
    ]
   },
