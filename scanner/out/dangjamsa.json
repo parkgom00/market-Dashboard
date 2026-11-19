@@ -1,10 +1,4 @@
 {
- "tryDate": "2026-11-18",
- "attempts": 1,
- "videoId": "-26ghY_PNo4",
- "title": "[🔴11/18 #당잠사] 엔비디아 실적 발표 | 젠슨 황 \"요청 시 복귀”…엔비디아 이사회 ”고려 안 해” | 앤트로픽, IPO 흥행 기대 | #엔비디아 #마이크론 #마이크로소프트",
- "url": "https://www.youtube.com/watch?v=-26ghY_PNo4",
- "length": 3387,
  "forDate": "2026-11-18",
  "headline": "엔비디아 실적 발표를 앞둔 경계감과 전산 장애 우려 속에 미 증시 3대 지수가 일제히 하락 마감했습니다.",
  "parts": [
@@ -68,9 +62,14 @@
    ]
   }
  ],
+ "generatedAt": "2026-11-18 13:01",
  "sumTitle": "[🔴11/18 #당잠사] 엔비디아 실적 발표 | 젠슨 황 \"요청 시 복귀”…엔비디아 이사회 ”고려 안 해” | 앤트로픽, IPO 흥행 기대 | #엔비디아 #마이크론 #마이크로소프트",
  "sumUrl": "https://www.youtube.com/watch?v=-26ghY_PNo4",
- "generatedAt": "2026-11-18 13:01",
- "model": "gemini-3.6-flash",
- "status": ""
+ "tryDate": "2026-11-19",
+ "attempts": 1,
+ "videoId": "If5T3iAJrwI",
+ "title": "[🔴11/19 #당잠사] 엔비디아 호실적 불구 하락 전환 | 앤트로픽 상장 D-1 | 월러 “12월 빅스텝 해야” | #엔비디아 #구글 #스페이스X",
+ "url": "https://www.youtube.com/watch?v=If5T3iAJrwI",
+ "length": 3195,
+ "status": "요약 실패 (다음 실행에 재시도 1/6): 시간 예산 소진: gemini-3.5-flash: HTTP 503 This model is currently experiencing high demand. Spikes in  | gemini-3.8-flash: HTTP 503 This model is currently experiencing high demand. Spikes in  | gemini-3.7-flash: 네트워크: The read operation timed out"
 }
