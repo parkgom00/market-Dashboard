@@ -288,8 +288,8 @@
    "stockMiniImageChart": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/196170_interest.png",
    "itemLogoUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/stock/Stock196170.svg",
    "itemLogoPngUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock196170.png",
-   "closePriceRaw": "173300",
    "compareToPreviousClosePriceRaw": "2400",
+   "closePriceRaw": "173300",
    "accumulatedTradingVolumeRaw": "357177",
    "accumulatedTradingValueRaw": "60611000000",
    "marketValueRaw": "12071234548900"
@@ -366,8 +366,8 @@
    "stockMiniImageChart": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/086520_interest.png",
    "itemLogoUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/stock/Stock086520.svg",
    "itemLogoPngUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock086520.png",
-   "closePriceRaw": "69300",
    "compareToPreviousClosePriceRaw": "300",
+   "closePriceRaw": "69300",
    "accumulatedTradingVolumeRaw": "549295",
    "accumulatedTradingValueRaw": "37313000000",
    "marketValueRaw": "9409287333600"
@@ -444,11 +444,31 @@
    "stockMiniImageChart": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/247540_interest.png",
    "itemLogoUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/stock/Stock247540.svg",
    "itemLogoPngUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock247540.png",
-   "closePriceRaw": "86900",
    "compareToPreviousClosePriceRaw": "1400",
+   "closePriceRaw": "86900",
    "accumulatedTradingVolumeRaw": "278904",
    "accumulatedTradingValueRaw": "23662000000",
    "marketValueRaw": "9361860745600"
+  }
+ ],
+ "industryGroups": [
+  {
+   "no": 285,
+   "name": "방송과엔터테인먼트",
+   "totalCount": 58,
+   "changeRate": "10.18",
+   "riseCount": 43,
+   "fallCount": 5,
+   "steadyCount": 10
+  },
+  {
+   "no": 282,
+   "name": "전자장비와기기",
+   "totalCount": 105,
+   "changeRate": "7.03",
+   "riseCount": 74,
+   "fallCount": 26,
+   "steadyCount": 5
   }
  ]
 }
