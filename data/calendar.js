@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-20 09:16",
+ "generatedAt": "2026-11-20 23:51",
  "events": [
   {
    "date": "2026-01-01",
@@ -538,8 +538,8 @@ window.DASH.calendar = {
    "title": "미국 PCE 물가지수 발표 · 10월분 (한국시간 저녁)",
    "time": "21:30",
    "result": [
-    "미국 PCE: 이전 3.6%",
-    "미국 근원 PCE: 이전 3.1%"
+    "미국 PCE: 예상 0.3% · 이전 3.6%",
+    "미국 근원 PCE: 예상 3.2% · 이전 3.1%"
    ]
   },
   {
@@ -868,6 +868,12 @@ window.DASH.calendar = {
    "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 대통령의 날"
+  },
+  {
+   "date": "2027-02-18",
+   "type": "earnings",
+   "market": "US",
+   "title": "월마트 실적 발표 (예정)"
   },
   {
    "date": "2027-02-25",
@@ -2842,8 +2848,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "월마트 실적 발표",
    "result": [
-    "EPS 예상 $0.64",
-    "장 시작 전"
+    "EPS 실제 $0.65 (예상 $0.64) · 서프라이즈 1.56%"
    ]
   },
   {
@@ -2901,7 +2906,7 @@ window.DASH.calendar = {
    "title": "미시간 소비심리",
    "time": "23:00",
    "result": [
-    "예상 51.0 · 이전 51.0"
+    "예상 51.0 · 이전 48.0"
    ]
   },
   {
@@ -2970,7 +2975,7 @@ window.DASH.calendar = {
    "title": "미국 소비자신뢰",
    "time": "23:00",
    "result": [
-    "이전 91.7"
+    "예상 92.0 · 이전 91.7"
    ]
   },
   {
@@ -2980,7 +2985,7 @@ window.DASH.calendar = {
    "title": "미국 건축허가",
    "time": "21:30",
    "result": [
-    "이전 -0.4%"
+    "예상 -7.4% · 이전 -0.4%"
    ]
   },
   {
@@ -2990,7 +2995,7 @@ window.DASH.calendar = {
    "title": "미국 내구재 주문",
    "time": "21:30",
    "result": [
-    "이전 1.9%"
+    "예상 0.0% · 이전 1.9%"
    ]
   },
   {
@@ -2998,7 +3003,10 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 신규 실업수당 청구",
-   "time": "21:30"
+   "time": "21:30",
+   "result": [
+    "이전 203K"
+   ]
   },
   {
    "date": "2026-11-25",
@@ -3007,7 +3015,7 @@ window.DASH.calendar = {
    "title": "미국 신규주택판매",
    "time": "23:00",
    "result": [
-    "이전 -0.6%"
+    "예상 670K · 이전 -0.6%"
    ]
   },
   {
@@ -3018,7 +3026,7 @@ window.DASH.calendar = {
    "time": "09:00",
    "major": true,
    "result": [
-    "이전 3.00%"
+    "예상 3.25% · 이전 3.00%"
    ]
   },
   {

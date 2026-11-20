@@ -2142,10 +2142,10 @@
   "title": "월마트 실적 발표",
   "level": "earnings",
   "kind": "earnings",
-  "note": "장 시작 전",
+  "note": "",
   "epsForecast": "$0.64",
-  "eps": "",
-  "surprise": ""
+  "eps": "$0.65",
+  "surprise": "1.56"
  },
  {
   "date": "2026-11-19",
@@ -2205,7 +2205,7 @@
   "kind": "econ",
   "consensus": "51.0",
   "actual": "",
-  "previous": "51.0"
+  "previous": "48.0"
  },
  {
   "date": "2026-11-21",
@@ -2274,7 +2274,7 @@
   "title": "미국 소비자신뢰",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "92.0",
   "actual": "",
   "previous": "91.7"
  },
@@ -2295,7 +2295,7 @@
   "title": "미국 PCE",
   "level": "major",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "0.3%",
   "actual": "",
   "previous": "3.6%"
  },
@@ -2305,7 +2305,7 @@
   "title": "미국 건축허가",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "-7.4%",
   "actual": "",
   "previous": "-0.4%"
  },
@@ -2315,7 +2315,7 @@
   "title": "미국 근원 PCE",
   "level": "major",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "3.2%",
   "actual": "",
   "previous": "3.1%"
  },
@@ -2325,7 +2325,7 @@
   "title": "미국 내구재 주문",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "0.0%",
   "actual": "",
   "previous": "1.9%"
  },
@@ -2337,7 +2337,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": ""
+  "previous": "203K"
  },
  {
   "date": "2026-11-25",
@@ -2345,7 +2345,7 @@
   "title": "미국 신규주택판매",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "670K",
   "actual": "",
   "previous": "-0.6%"
  },
@@ -2355,7 +2355,7 @@
   "title": "한국 금통위 금리결정",
   "level": "major",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "3.25%",
   "actual": "",
   "previous": "3.00%"
  },
@@ -2766,6 +2766,17 @@
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
   "epsForecast": "$4.89",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-12-15",
+  "time": "",
+  "title": "오라클 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "장마감 후(한국 다음 날 새벽)",
+  "epsForecast": "$1.56",
   "eps": "",
   "surprise": ""
  },
