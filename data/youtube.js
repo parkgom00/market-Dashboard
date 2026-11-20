@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-20 21:49",
+ "asOf": "2026-11-21 06:47",
  "channels": [
   {
    "name": "815머니톡",
@@ -137,6 +137,11 @@ window.DASH.youtube = {
    "handle": "@김단테",
    "videos": [
     {
+     "title": "앤트로픽 IPO는 AI 주식의 마지막 불꽃?",
+     "publishedAt": "2026-11-21 02:17",
+     "url": "https://www.youtube.com/watch?v=cQHMzYRaexc"
+    },
+    {
      "title": "앤트로픽 AMD가 문제 #코스피 #AMD #앤트로픽",
      "publishedAt": "2026-11-20 11:56",
      "url": "https://www.youtube.com/watch?v=XZx0wKmpdxw"
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "AI Capex 성장 둔화? 초긍정적이던 Seminanalysis 너마저???",
      "publishedAt": "2026-11-17 02:15",
      "url": "https://www.youtube.com/watch?v=tfcHULzioZc"
-    },
-    {
-     "title": "젠슨황 컴백 실패? #젠슨황 #엔비디아 #코스피",
-     "publishedAt": "2026-11-16 18:09",
-     "url": "https://www.youtube.com/watch?v=6_6BhhnGDmM"
     }
    ]
   },
