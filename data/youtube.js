@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-20 12:06",
+ "asOf": "2026-11-20 21:49",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,29 +9,29 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
-     "title": "“검은 금요일, 어제 반등에 속았다!” 다시 급락한 증시… 반토막 난 계좌 지금 손절해야 하나?  | 이주현 대표",
-     "publishedAt": "2026-11-20 11:07",
-     "url": "https://www.youtube.com/watch?v=7ctnlT1jlyQ"
+     "title": "[#찐시황]  “수급 괴멸, 증시 패닉!” 검은 금요일 아시아증시 동반 폭락장… 도대체 무슨 일이 벌어졌나? | 김동엽 대표",
+     "publishedAt": "2026-11-20 20:00",
+     "url": "https://www.youtube.com/watch?v=uPfwN34xlpE"
     },
     {
-     "title": "[11월20일 #장시작전] 외국인·기관 매도에도 개인 매수 유입, 개인들 저점 왜 확신하나? | 김태성, 이주현, 박근형",
-     "publishedAt": "2026-11-20 06:08",
-     "url": "https://www.youtube.com/watch?v=bQOYdqsuNQI"
+     "title": "“앤트로픽 상장 직후 AI 기술주가 흔들렸다?” 호재가 악재로 바뀐 이유… 나스닥 얼마나 더 떨어질까?  | 블랙퀀트에쿼티 윤진 대표",
+     "publishedAt": "2026-11-20 19:00",
+     "url": "https://www.youtube.com/watch?v=3PTKmp5zdh8"
     },
     {
-     "title": "[#찐시황] “증시의 중요한 변곡점이 다가온다!” 지금은 돈 벌 기회가 열리는 구간.. 단, 한 번에 사지 말고 반드시 분할매수하라! | 황유현 팀장",
-     "publishedAt": "2026-11-19 20:00",
-     "url": "https://www.youtube.com/watch?v=vqB7JpqjRy0"
+     "title": "“코스피 5,000 붕괴 시키려는 외국인 공매도 세력?” / 연준의 AI 금융위기 경고까지… 앤트로픽 상장이 증시 마지막 고점 신호가 될까?ㅣGFM투자연구소 이진우 소장",
+     "publishedAt": "2026-11-20 16:45",
+     "url": "https://www.youtube.com/watch?v=2gvPe2UYxNI"
     },
     {
-     "title": "[#긴급시황] “텍사스발 대형 호재” AI 데이터센터 투자 불안 끝날까? / 삼성전자·SK하이닉스 대반등 시작될까?ㅣ이주연 대표",
-     "publishedAt": "2026-11-19 18:30",
-     "url": "https://www.youtube.com/watch?v=ld70Ck32c2I"
+     "title": "[#긴급시황] 검은 월요일 폭락장 ‘외국인 놀이터’ 의심…공매도 80% 돌파 / 저점은 착각일 수 있다 4700도 열어둬야 하는 이유 ㅣ IBK투자증권 박근형 부장",
+     "publishedAt": "2026-11-20 15:00",
+     "url": "https://www.youtube.com/watch?v=-HaqruPY5Rg"
     },
     {
-     "title": "[#긴급인터뷰]  “하락 3파냐, 쌍바닥 대반등이냐!” 위기의 코스피 5,000… 한국증시 운명 가를 결정적 신호! (SK하이닉스) GFM투자연구소 이진우 소장",
-     "publishedAt": "2026-11-19 17:00",
-     "url": "https://www.youtube.com/watch?v=K101Dy3FU1w"
+     "title": "[#긴급시황] “코스피 5,000선 또 붕괴!” SK하이닉스 반드시 지켜야 할 생존 가격대는? 계좌 손실 -10%부터 -50%까지 대응법 (급락장) 김태성 본부장",
+     "publishedAt": "2026-11-20 13:00",
+     "url": "https://www.youtube.com/watch?v=hgo5J-kQ_Ck"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시장전망) 과연 조정장 후의 상승 가능한가?",
+     "publishedAt": "2026-11-20 16:00",
+     "url": "https://www.youtube.com/watch?v=PWIz1YuLiRg"
+    },
     {
      "title": "(시황분석) 물량정리로 조정장 들어가나?",
      "publishedAt": "2026-11-20 06:22",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(엔비디아) 과연 언제 주가가 올라가나?",
      "publishedAt": "2026-11-18 14:46",
      "url": "https://www.youtube.com/watch?v=us-Avc9p4xQ"
-    },
-    {
-     "title": "(시황분석) 반도체 전망치가 시장을 움직인다!!!",
-     "publishedAt": "2026-11-18 06:39",
-     "url": "https://www.youtube.com/watch?v=Tpcmd85soDs"
     }
    ]
   },
@@ -72,6 +72,11 @@ window.DASH.youtube = {
    "channelId": "UCQW05vzztAlwV54WL3pjGBQ",
    "handle": "@GODofIT_official",
    "videos": [
+    {
+     "title": "구글 TPU의 진화, ASIC 진영 메모리 전략이 확 바뀐다!!",
+     "publishedAt": "2026-11-20 19:00",
+     "url": "https://www.youtube.com/watch?v=HObnPoBzkcU"
+    },
     {
      "title": "[월간 안테나] 삼성전기 유리기판 핵심 밸류체인 드디어 공개됐다!!",
      "publishedAt": "2026-11-19 19:00",
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[실전 투자 스터디] 필라델피아반도체 급락 후 무조건 급등하는 이유",
      "publishedAt": "2026-11-17 18:00",
      "url": "https://www.youtube.com/watch?v=y4Ai0FxR17Q"
-    },
-    {
-     "title": "[월간 안테나] 시장이 간과한 AI 수요? CPU와 메모리 수요 더 커진다!!",
-     "publishedAt": "2026-11-16 19:00",
-     "url": "https://www.youtube.com/watch?v=8rCImAZuY0g"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "앤트로픽 상장 이후, AI산업 앞으로 어떻게 될까?(+삼전닉스)",
-     "publishedAt": "2026-11-20 11:00",
-     "url": "https://www.youtube.com/watch?v=tzePvzX7bEk"
+     "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(11.23~27)",
+     "publishedAt": "2026-11-20 18:24",
+     "url": "https://www.youtube.com/watch?v=k-BTGBvzRtM"
     },
     {
-     "title": "11월 20일 오늘 코스피 어떻게 흘러갈까?",
-     "publishedAt": "2026-11-20 07:52",
-     "url": "https://www.youtube.com/watch?v=Ua9VA-NiUUM"
+     "title": "지금 '공매도' 때문에 시장 뒤집힌 진짜 이유",
+     "publishedAt": "2026-11-20 18:16",
+     "url": "https://www.youtube.com/watch?v=vxmjSpX5Cx8"
     },
     {
-     "title": "11월 20일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-11-20 06:56",
-     "url": "https://www.youtube.com/watch?v=9PIse6rkUCA"
+     "title": "앤트로픽 매수 전, 꼭 봐야 할 투자 포인트 5가지",
+     "publishedAt": "2026-11-20 17:00",
+     "url": "https://www.youtube.com/watch?v=ublOKjtSVzA"
     },
     {
-     "title": "2027년 선반영 어디까지 됐을까?",
-     "publishedAt": "2026-11-19 22:30",
-     "url": "https://www.youtube.com/watch?v=zFq3V7Lmczo"
+     "title": "월가는 못한다는, '시간'을 내 편으로 만드는 매수법",
+     "publishedAt": "2026-11-20 15:21",
+     "url": "https://www.youtube.com/watch?v=_LIoSx2A4LM"
     },
     {
-     "title": "투자자라면 꼭 알아야 할, 클로드 투자 꿀기능",
-     "publishedAt": "2026-11-19 22:00",
-     "url": "https://www.youtube.com/watch?v=oHlspHluBcE"
+     "title": "월가가 가장 두려워하는 2027년 상반기 최대 변수 3가지",
+     "publishedAt": "2026-11-20 15:00",
+     "url": "https://www.youtube.com/watch?v=8DZ3KRhgc2Q"
     }
    ]
   },
