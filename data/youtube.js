@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-20 05:29",
+ "asOf": "2026-11-20 12:06",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“검은 금요일, 어제 반등에 속았다!” 다시 급락한 증시… 반토막 난 계좌 지금 손절해야 하나?  | 이주현 대표",
+     "publishedAt": "2026-11-20 11:07",
+     "url": "https://www.youtube.com/watch?v=7ctnlT1jlyQ"
+    },
+    {
+     "title": "[11월20일 #장시작전] 외국인·기관 매도에도 개인 매수 유입, 개인들 저점 왜 확신하나? | 김태성, 이주현, 박근형",
+     "publishedAt": "2026-11-20 06:08",
+     "url": "https://www.youtube.com/watch?v=bQOYdqsuNQI"
+    },
     {
      "title": "[#찐시황] “증시의 중요한 변곡점이 다가온다!” 지금은 돈 벌 기회가 열리는 구간.. 단, 한 번에 사지 말고 반드시 분할매수하라! | 황유현 팀장",
      "publishedAt": "2026-11-19 20:00",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급인터뷰]  “하락 3파냐, 쌍바닥 대반등이냐!” 위기의 코스피 5,000… 한국증시 운명 가를 결정적 신호! (SK하이닉스) GFM투자연구소 이진우 소장",
      "publishedAt": "2026-11-19 17:00",
      "url": "https://www.youtube.com/watch?v=K101Dy3FU1w"
-    },
-    {
-     "title": "[#긴급시황]  “장중 급등락 반복하는 한국증시!” 변동성은 갈수록 커지는데… 외국인 매수세는 도대체 언제 돌아올까? (삼성전자) 주식황금돼지 이건희 대표",
-     "publishedAt": "2026-11-19 16:00",
-     "url": "https://www.youtube.com/watch?v=mcc0jFRgPuw"
-    },
-    {
-     "title": "“코스피 5,000선 위태롭다!” 삼성전자·SK하이닉스 저평가인데 왜 흔들리나? / 선 그은 엔비디아 이사회… 젠슨 황 복귀 가능할까? | 블랙퀀트에쿼티 윤진 대표",
-     "publishedAt": "2026-11-19 14:30",
-     "url": "https://www.youtube.com/watch?v=igdgKOPRR_4"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) 물량정리로 조정장 들어가나?",
+     "publishedAt": "2026-11-20 06:22",
+     "url": "https://www.youtube.com/watch?v=ultHHbUmGNs"
+    },
     {
      "title": "(아이온큐) 주가하락의 근본원인은?",
      "publishedAt": "2026-11-19 14:05",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 반도체 전망치가 시장을 움직인다!!!",
      "publishedAt": "2026-11-18 06:39",
      "url": "https://www.youtube.com/watch?v=Tpcmd85soDs"
-    },
-    {
-     "title": "(13F 공시) 선수들의 매매 내역은?",
-     "publishedAt": "2026-11-17 14:40",
-     "url": "https://www.youtube.com/watch?v=2mSKquutBhs"
     }
    ]
   },
@@ -105,6 +105,21 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "앤트로픽 상장 이후, AI산업 앞으로 어떻게 될까?(+삼전닉스)",
+     "publishedAt": "2026-11-20 11:00",
+     "url": "https://www.youtube.com/watch?v=tzePvzX7bEk"
+    },
+    {
+     "title": "11월 20일 오늘 코스피 어떻게 흘러갈까?",
+     "publishedAt": "2026-11-20 07:52",
+     "url": "https://www.youtube.com/watch?v=Ua9VA-NiUUM"
+    },
+    {
+     "title": "11월 20일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-11-20 06:56",
+     "url": "https://www.youtube.com/watch?v=9PIse6rkUCA"
+    },
+    {
      "title": "2027년 선반영 어디까지 됐을까?",
      "publishedAt": "2026-11-19 22:30",
      "url": "https://www.youtube.com/watch?v=zFq3V7Lmczo"
@@ -113,21 +128,6 @@ window.DASH.youtube = {
      "title": "투자자라면 꼭 알아야 할, 클로드 투자 꿀기능",
      "publishedAt": "2026-11-19 22:00",
      "url": "https://www.youtube.com/watch?v=oHlspHluBcE"
-    },
-    {
-     "title": "전 세계가 기다린 게임 GTA6, 대체 얼마나 벌까?!",
-     "publishedAt": "2026-11-19 20:30",
-     "url": "https://www.youtube.com/watch?v=SmU5LjD_A14"
-    },
-    {
-     "title": "지금 주식시장, 앞으로 어떻게 될까(ft. 상승신호)",
-     "publishedAt": "2026-11-19 20:00",
-     "url": "https://www.youtube.com/watch?v=jKioVUXPGo8"
-    },
-    {
-     "title": "골드만삭스 코스피 7500 하향, 진짜 숨은 메시지",
-     "publishedAt": "2026-11-19 18:30",
-     "url": "https://www.youtube.com/watch?v=S5V0tc-LkqA"
     }
    ]
   },
@@ -136,6 +136,11 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
+    {
+     "title": "앤트로픽 AMD가 문제 #코스피 #AMD #앤트로픽",
+     "publishedAt": "2026-11-20 11:56",
+     "url": "https://www.youtube.com/watch?v=XZx0wKmpdxw"
+    },
     {
      "title": "앤트로픽 IPO가 걱정되는 이유",
      "publishedAt": "2026-11-18 17:06",
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "젠슨황 컴백 실패? #젠슨황 #엔비디아 #코스피",
      "publishedAt": "2026-11-16 18:09",
      "url": "https://www.youtube.com/watch?v=6_6BhhnGDmM"
-    },
-    {
-     "title": "또 다시 시작된 젠슨황 위기",
-     "publishedAt": "2026-11-14 03:30",
-     "url": "https://www.youtube.com/watch?v=mk892-Pg1TU"
     }
    ]
   },
