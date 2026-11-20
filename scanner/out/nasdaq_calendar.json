@@ -2285,7 +2285,7 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "장마감 후(한국 다음 날 새벽)",
-  "epsForecast": "$6.48",
+  "epsForecast": "$6.55",
   "eps": "",
   "surprise": ""
  },
@@ -2591,7 +2591,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "48.0"
+  "previous": "51.5"
  },
  {
   "date": "2026-12-08",
