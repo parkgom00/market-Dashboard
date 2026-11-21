@@ -23,9 +23,9 @@ window.DASH.usmarket = {
    "group": "주가지수",
    "name": "다우",
    "kind": "index",
-   "close": 48147.33,
+   "close": 48147.3,
    "changePct": -1.93,
-   "changeText": "48,147.33 (-1.93%)"
+   "changeText": "48,147.30 (-1.93%)"
   },
   {
    "group": "주가지수",
@@ -81,9 +81,9 @@ window.DASH.usmarket = {
    "group": "금리·환율",
    "name": "달러 인덱스",
    "kind": "plain",
-   "close": 103.84,
-   "changePct": -0.06,
-   "changeText": "103.84 (-0.06%)"
+   "close": 103.81,
+   "changePct": -0.09,
+   "changeText": "103.81 (-0.09%)"
   },
   {
    "group": "금리·환율",
@@ -137,9 +137,9 @@ window.DASH.usmarket = {
    "group": "원자재·기타",
    "name": "비트코인",
    "kind": "usd",
-   "close": 56637.7,
-   "changePct": -8.5,
-   "changeText": "56,637.70 (-8.50%)"
+   "close": 55809.97,
+   "changePct": -9.84,
+   "changeText": "55,809.97 (-9.84%)"
   },
   {
    "group": "원자재·기타",
