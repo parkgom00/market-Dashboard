@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-21 12:10",
+ "asOf": "2026-11-21 21:34",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,29 +9,29 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
+     "title": "[#찐시황]  “월요일 코스피 어디까지 급락할까?.. 두려운 투자자들 /  나스닥 -5%, 엔비디아 -14% 주가폭락… 마지막 투매가 시작되나? | 이주연 대표",
+     "publishedAt": "2026-11-21 20:00",
+     "url": "https://www.youtube.com/watch?v=3LipybrcW5U"
+    },
+    {
+     "title": "“앤트로픽도 AI 증시를 살리지 못했다?” 반도체 슈퍼호황 끝났나? 삼전·하닉 운명의 갈림길!ㅣ세미콘리서치랩 노근창 대표",
+     "publishedAt": "2026-11-21 18:00",
+     "url": "https://www.youtube.com/watch?v=Zt0LLfeAGEY"
+    },
+    {
+     "title": "\"코로나 폭락장보다 훨씬 힘들어요..\" 코스피 5천선 붕괴… 증시를 지켜줄 돈이 사라졌다! 지금 살아남는 전략은?ㅣ이영훈 이사",
+     "publishedAt": "2026-11-21 16:30",
+     "url": "https://www.youtube.com/watch?v=W0hUD7o5OuI"
+    },
+    {
      "title": "[#긴급라이브]  “나스닥 하루 만에 -5% 폭락!” 월가에 무슨 일이 터졌나? 왜 AI 기술주 투매가 일어난걸까?  | 이건희, 임수열",
-     "publishedAt": "2026-11-21 11:52",
+     "publishedAt": "2026-11-21 14:34",
      "url": "https://www.youtube.com/watch?v=VwUvt3aGsLI"
     },
     {
      "title": "“코스피 5% 급락, 다음 주 진짜 투매장 시작되나?” 공포에 빠진 한국증시… 외인 매수는 언제 들어오나?ㅣ 이주연 대표",
      "publishedAt": "2026-11-21 11:00",
      "url": "https://www.youtube.com/watch?v=cJj2TjoiV10"
-    },
-    {
-     "title": "“주식은 이미 반토막인데 더 떨어질까?” 옵션만기일 충격에 투매 절정… 다음 주 한국 증시 안정될까?ㅣ오로라투자자문 이지환 대표",
-     "publishedAt": "2026-11-21 08:30",
-     "url": "https://www.youtube.com/watch?v=TbCOzdqUfMw"
-    },
-    {
-     "title": "[#찐시황]  “수급 괴멸, 증시 패닉!” 검은 금요일 아시아증시 동반 폭락장… 도대체 무슨 일이 벌어졌나? | 김동엽 대표",
-     "publishedAt": "2026-11-20 20:00",
-     "url": "https://www.youtube.com/watch?v=uPfwN34xlpE"
-    },
-    {
-     "title": "“앤트로픽 상장 직후 AI 기술주가 흔들렸다?” 호재가 악재로 바뀐 이유… 나스닥 얼마나 더 떨어질까?  | 블랙퀀트에쿼티 윤진 대표",
-     "publishedAt": "2026-11-20 19:00",
-     "url": "https://www.youtube.com/watch?v=3PTKmp5zdh8"
     }
    ]
   },
@@ -41,7 +41,12 @@ window.DASH.youtube = {
    "handle": "@orlandocampus",
    "videos": [
     {
-     "title": "(시황분석) 펀더메탈로 인한 하락인가?",
+     "title": "(시장전망) 선수들은 왜 지금 사고 있나?",
+     "publishedAt": "2026-11-21 20:32",
+     "url": "https://www.youtube.com/watch?v=jtlpGoYrqdM"
+    },
+    {
+     "title": "(시황분석) 펀더멘탈로 인한 하락인가?",
      "publishedAt": "2026-11-21 08:15",
      "url": "https://www.youtube.com/watch?v=KLmrR7D1FZA"
     },
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(아이온큐) 주가하락의 근본원인은?",
      "publishedAt": "2026-11-19 14:05",
      "url": "https://www.youtube.com/watch?v=FDmzU5oZSUU"
-    },
-    {
-     "title": "(시황분석) 엔트로픽 자금마련 위해서 엔비디아 털고 있나?",
-     "publishedAt": "2026-11-19 06:20",
-     "url": "https://www.youtube.com/watch?v=n_Thx9X8Elk"
     }
    ]
   },
@@ -72,6 +72,11 @@ window.DASH.youtube = {
    "channelId": "UCQW05vzztAlwV54WL3pjGBQ",
    "handle": "@GODofIT_official",
    "videos": [
+    {
+     "title": "[몰아보기] 폭락 후 반등 때 주목할 곳은 성장이 나오는 섹터!!",
+     "publishedAt": "2026-11-21 14:00",
+     "url": "https://www.youtube.com/watch?v=yhODNJ8DlQo"
+    },
     {
      "title": "구글 TPU의 진화, ASIC 진영 메모리 전략이 확 바뀐다!!",
      "publishedAt": "2026-11-20 19:00",
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "제가 틀렸습니다. 방향은 봤지만 깊이가…",
      "publishedAt": "2026-11-17 19:35",
      "url": "https://www.youtube.com/watch?v=unDiLOfyYLY"
-    },
-    {
-     "title": "[실전 투자 스터디] 필라델피아반도체 급락 후 무조건 급등하는 이유",
-     "publishedAt": "2026-11-17 18:00",
-     "url": "https://www.youtube.com/watch?v=y4Ai0FxR17Q"
     }
    ]
   },
@@ -104,6 +104,11 @@ window.DASH.youtube = {
    "channelId": "UC7usMJDHmtbs_oegmzQKKMA",
    "handle": "@경제사냥꾼",
    "videos": [
+    {
+     "title": "미국 투자자들이 꼭 알아야 하는 미국 다음주 투자 포인트(11.23~27)",
+     "publishedAt": "2026-11-21 17:40",
+     "url": "https://www.youtube.com/watch?v=aiNouppjGjs"
+    },
     {
      "title": "일본은 왜 중국한테 무시당할까?!",
      "publishedAt": "2026-11-21 12:00",
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "지금 '공매도' 때문에 시장 뒤집힌 진짜 이유",
      "publishedAt": "2026-11-20 18:16",
      "url": "https://www.youtube.com/watch?v=vxmjSpX5Cx8"
-    },
-    {
-     "title": "앤트로픽 매수 전, 꼭 봐야 할 투자 포인트 5가지",
-     "publishedAt": "2026-11-20 17:00",
-     "url": "https://www.youtube.com/watch?v=ublOKjtSVzA"
     }
    ]
   },
