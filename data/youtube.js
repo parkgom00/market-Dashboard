@@ -1,13 +1,28 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-22 11:10",
+ "asOf": "2026-11-22 21:30",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황]  “주가폭락한 엔비디아, 반도체 슈퍼호황 끝났나?” AI 투자 전망 하향 충격… 삼전·하닉 더 어떻게 될까? | 미래에셋자산운용 최창규 이사",
+     "publishedAt": "2026-11-22 20:00",
+     "url": "https://www.youtube.com/watch?v=vhAlRhO25CA"
+    },
+    {
+     "title": "“앤트로픽이 준비 중인 비장의 무기!” AI 반도체 판이 뒤집히나? 삼전·하닉 주가 운명 가를 결정적 변수! ㅣ세미콘리서치랩 노근창 대표",
+     "publishedAt": "2026-11-22 18:00",
+     "url": "https://www.youtube.com/watch?v=OG0IvvfJk5s"
+    },
+    {
+     "title": "“삼성전자·SK하이닉스 실적은 좋은데 소부장은 왜 무너지나? ” 2028년 반도체 피크아웃 공포! / 지금 저가 매수하면 위험할까?ㅣiM증권 서울금융센터 이영훈 이사",
+     "publishedAt": "2026-11-22 16:30",
+     "url": "https://www.youtube.com/watch?v=TzNk7J6b94k"
+    },
     {
      "title": "“삼성전자·SK하이닉스 지금 팔면 후회할까?” 옵션 만기 끝났다!  다음 주부터 공매도 청산이 부를 대반격… 현대차도 반전 기회?ㅣ오로라투자자문 이지환 대표",
      "publishedAt": "2026-11-22 08:30",
@@ -17,21 +32,6 @@ window.DASH.youtube = {
      "title": "[#찐시황]  “월요일 코스피 어디까지 급락할까?.. 두려운 투자자들 /  나스닥 -5%, 엔비디아 -14% 주가폭락… 마지막 투매가 시작되나? | 이주연 대표",
      "publishedAt": "2026-11-21 20:00",
      "url": "https://www.youtube.com/watch?v=3LipybrcW5U"
-    },
-    {
-     "title": "“앤트로픽도 AI 증시를 살리지 못했다?” 반도체 슈퍼호황 끝났나? 삼전·하닉 운명의 갈림길!ㅣ세미콘리서치랩 노근창 대표",
-     "publishedAt": "2026-11-21 18:00",
-     "url": "https://www.youtube.com/watch?v=Zt0LLfeAGEY"
-    },
-    {
-     "title": "\"코로나 폭락장보다 훨씬 힘들어요..\" 코스피 5천선 붕괴… 증시를 지켜줄 돈이 사라졌다! 지금 살아남는 전략은?ㅣ이영훈 이사",
-     "publishedAt": "2026-11-21 16:30",
-     "url": "https://www.youtube.com/watch?v=W0hUD7o5OuI"
-    },
-    {
-     "title": "[#긴급라이브]  “나스닥 하루 만에 -5% 폭락!” 월가에 무슨 일이 터졌나? 왜 AI 기술주 투매가 일어난걸까?  | 이건희, 임수열",
-     "publishedAt": "2026-11-21 14:34",
-     "url": "https://www.youtube.com/watch?v=VwUvt3aGsLI"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(주간시황) AI의 종말인가? 아니면 분할매수 기간인가?",
+     "publishedAt": "2026-11-22 20:55",
+     "url": "https://www.youtube.com/watch?v=C2L3gUBS4d0"
+    },
     {
      "title": "(엔비디아) 지금 담을때 vs 관망할 때?",
      "publishedAt": "2026-11-22 10:19",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시장전망) 과연 조정장 후의 상승 가능한가?",
      "publishedAt": "2026-11-20 16:00",
      "url": "https://www.youtube.com/watch?v=PWIz1YuLiRg"
-    },
-    {
-     "title": "(시황분석) 물량정리로 조정장 들어가나?",
-     "publishedAt": "2026-11-20 06:22",
-     "url": "https://www.youtube.com/watch?v=ultHHbUmGNs"
     }
    ]
   },
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "월가는 못한다는, '시간'을 내 편으로 만드는 매수법",
+     "publishedAt": "2026-11-22 12:00",
+     "url": "https://www.youtube.com/watch?v=nfa_u6gyF-A"
+    },
+    {
+     "title": "삼성전자 '12월 자사주 소각' 할 수도 있다는 이유",
+     "publishedAt": "2026-11-22 12:00",
+     "url": "https://www.youtube.com/watch?v=KvflYv1CLuQ"
+    },
+    {
      "title": "SK 최태원이 말한 '젠슨의 법칙' 진짜 의미",
      "publishedAt": "2026-11-22 10:00",
      "url": "https://www.youtube.com/watch?v=u3Ns4rlOYqA"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "일본은 왜 중국한테 무시당할까?!",
      "publishedAt": "2026-11-21 12:00",
      "url": "https://www.youtube.com/watch?v=f_rhRBkWgUE"
-    },
-    {
-     "title": "한국 투자자들이 꼭 알아야 하는 한국 다음주 투자 포인트(11.23~27)",
-     "publishedAt": "2026-11-21 10:00",
-     "url": "https://www.youtube.com/watch?v=JzwpSnwuH1g"
-    },
-    {
-     "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(11.23~27)",
-     "publishedAt": "2026-11-20 18:24",
-     "url": "https://www.youtube.com/watch?v=k-BTGBvzRtM"
     }
    ]
   },
@@ -169,6 +169,11 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
+     "title": "나스닥-20% 반도체-44%, 패닉 공포 언제 끝날까/충격 줘서라도 물가 잡는다? 연준발 긴축 공포/종말 대비에 사재기? 음모론에 휩싸인 미국",
+     "publishedAt": "2026-11-22 19:29",
+     "url": "https://www.youtube.com/watch?v=_-ZFH5-D5a4"
+    },
+    {
      "title": "앤트로픽 상장 후 투자법 달라져야 한다? AI 다음 사이클의 승자들 잡는 법",
      "publishedAt": "2026-11-19 18:23",
      "url": "https://www.youtube.com/watch?v=_HKbEOD-fd8"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "엔비디아-33% 폭락, 젠슨 황 사임 나비효과가 증시 혼란 더 키울까",
      "publishedAt": "2026-11-16 18:45",
      "url": "https://www.youtube.com/watch?v=wImd4kZNdN4"
-    },
-    {
-     "title": "20년 전 부시 행정부와 똑같다? 초강경 모드 진입한 트럼프, 분위기 바꿀까",
-     "publishedAt": "2026-11-11 22:00",
-     "url": "https://www.youtube.com/watch?v=gNm_uU33nOk"
     }
    ]
   }
