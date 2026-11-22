@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-22 05:29",
+ "asOf": "2026-11-22 11:10",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "“삼성전자·SK하이닉스 지금 팔면 후회할까?” 옵션 만기 끝났다!  다음 주부터 공매도 청산이 부를 대반격… 현대차도 반전 기회?ㅣ오로라투자자문 이지환 대표",
+     "publishedAt": "2026-11-22 08:30",
+     "url": "https://www.youtube.com/watch?v=4o_7XUjmZVM"
+    },
     {
      "title": "[#찐시황]  “월요일 코스피 어디까지 급락할까?.. 두려운 투자자들 /  나스닥 -5%, 엔비디아 -14% 주가폭락… 마지막 투매가 시작되나? | 이주연 대표",
      "publishedAt": "2026-11-21 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급라이브]  “나스닥 하루 만에 -5% 폭락!” 월가에 무슨 일이 터졌나? 왜 AI 기술주 투매가 일어난걸까?  | 이건희, 임수열",
      "publishedAt": "2026-11-21 14:34",
      "url": "https://www.youtube.com/watch?v=VwUvt3aGsLI"
-    },
-    {
-     "title": "“코스피 5% 급락, 다음 주 진짜 투매장 시작되나?” 공포에 빠진 한국증시… 외인 매수는 언제 들어오나?ㅣ 이주연 대표",
-     "publishedAt": "2026-11-21 11:00",
-     "url": "https://www.youtube.com/watch?v=cJj2TjoiV10"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(엔비디아) 지금 담을때 vs 관망할 때?",
+     "publishedAt": "2026-11-22 10:19",
+     "url": "https://www.youtube.com/watch?v=W6YAogb0OYc"
+    },
     {
      "title": "(시장전망) 선수들은 왜 지금 사고 있나?",
      "publishedAt": "2026-11-21 20:32",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 물량정리로 조정장 들어가나?",
      "publishedAt": "2026-11-20 06:22",
      "url": "https://www.youtube.com/watch?v=ultHHbUmGNs"
-    },
-    {
-     "title": "(아이온큐) 주가하락의 근본원인은?",
-     "publishedAt": "2026-11-19 14:05",
-     "url": "https://www.youtube.com/watch?v=FDmzU5oZSUU"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "SK 최태원이 말한 '젠슨의 법칙' 진짜 의미",
+     "publishedAt": "2026-11-22 10:00",
+     "url": "https://www.youtube.com/watch?v=u3Ns4rlOYqA"
+    },
+    {
      "title": "미국 투자자들이 꼭 알아야 하는 미국 다음주 투자 포인트(11.23~27)",
      "publishedAt": "2026-11-21 17:40",
      "url": "https://www.youtube.com/watch?v=aiNouppjGjs"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트(11.23~27)",
      "publishedAt": "2026-11-20 18:24",
      "url": "https://www.youtube.com/watch?v=k-BTGBvzRtM"
-    },
-    {
-     "title": "지금 '공매도' 때문에 시장 뒤집힌 진짜 이유",
-     "publishedAt": "2026-11-20 18:16",
-     "url": "https://www.youtube.com/watch?v=vxmjSpX5Cx8"
     }
    ]
   },
