@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-22 13:45",
+ "generatedAt": "2026-11-22 23:00",
  "events": [
   {
    "date": "2026-01-01",
@@ -538,8 +538,8 @@ window.DASH.calendar = {
    "title": "미국 PCE 물가지수 발표 · 10월분 (한국시간 저녁)",
    "time": "21:30",
    "result": [
-    "미국 PCE: 예상 0.3% · 이전 3.6%",
-    "미국 근원 PCE: 예상 3.2% · 이전 3.1%"
+    "미국 PCE: 예상 0.3% · 이전 0.5%",
+    "미국 근원 PCE: 예상 0.3% · 이전 0.3%"
    ]
   },
   {
@@ -2926,7 +2926,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 서비스업 PMI",
    "time": "22:45",
    "result": [
-    "이전 56.1"
+    "예상 55.6 · 이전 56.1"
    ]
   },
   {
@@ -2936,7 +2936,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 제조업 PMI",
    "time": "22:45",
    "result": [
-    "이전 54.9"
+    "예상 54.5 · 이전 54.9"
    ]
   },
   {
@@ -2965,7 +2965,7 @@ window.DASH.calendar = {
    "title": "리치먼드 연은지수",
    "time": "23:00",
    "result": [
-    "이전 -2"
+    "예상 -3 · 이전 -2"
    ]
   },
   {
@@ -2975,7 +2975,7 @@ window.DASH.calendar = {
    "title": "미국 소비자신뢰",
    "time": "23:00",
    "result": [
-    "예상 92.0 · 이전 91.7"
+    "예상 92.1 · 이전 91.7"
    ]
   },
   {
@@ -3005,7 +3005,7 @@ window.DASH.calendar = {
    "title": "미국 신규 실업수당 청구",
    "time": "21:30",
    "result": [
-    "이전 203K"
+    "예상 201K · 이전 203K"
    ]
   },
   {
@@ -3015,7 +3015,7 @@ window.DASH.calendar = {
    "title": "미국 신규주택판매",
    "time": "23:00",
    "result": [
-    "예상 670K · 이전 -0.6%"
+    "예상 649K · 이전 -0.6%"
    ]
   },
   {
@@ -3036,7 +3036,37 @@ window.DASH.calendar = {
    "title": "미국 무역수지",
    "time": "21:30",
    "result": [
-    "이전 -135.08B"
+    "예상 -134.40B · 이전 -135.08B"
+   ]
+  },
+  {
+   "date": "2026-11-29",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 산업생산",
+   "time": "07:00",
+   "result": [
+    "이전 9.0%"
+   ]
+  },
+  {
+   "date": "2026-11-29",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 소매판매",
+   "time": "07:00",
+   "result": [
+    "이전 3.6%"
+   ]
+  },
+  {
+   "date": "2026-11-29",
+   "type": "econ",
+   "market": "CN",
+   "title": "중국 제조업 PMI",
+   "time": "09:30",
+   "result": [
+    "이전 49.7"
    ]
   },
   {
