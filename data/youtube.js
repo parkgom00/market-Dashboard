@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-22 21:30",
+ "asOf": "2026-11-23 05:42",
  "channels": [
   {
    "name": "815머니톡",
@@ -137,6 +137,11 @@ window.DASH.youtube = {
    "handle": "@김단테",
    "videos": [
     {
+     "title": "AI 버블 붕괴가 금융위기로 이어진다???",
+     "publishedAt": "2026-11-22 23:47",
+     "url": "https://www.youtube.com/watch?v=ecUIGwLMhfc"
+    },
+    {
      "title": "나스닥 대폭락! 앤트로픽 IPO는 AI 주식의 마지막 불꽃?",
      "publishedAt": "2026-11-21 02:17",
      "url": "https://www.youtube.com/watch?v=cQHMzYRaexc"
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "드러켄밀러 반도체 다 팔고 이 AI 주식 436% 늘렸다?",
      "publishedAt": "2026-11-17 18:07",
      "url": "https://www.youtube.com/watch?v=zx-P_6UUI_A"
-    },
-    {
-     "title": "AI Capex 성장 둔화? 초긍정적이던 Seminanalysis 너마저???",
-     "publishedAt": "2026-11-17 02:15",
-     "url": "https://www.youtube.com/watch?v=tfcHULzioZc"
     }
    ]
   },
@@ -168,11 +168,6 @@ window.DASH.youtube = {
    "channelId": "UCC3yfxS5qC6PCwDzetUuEWg",
    "handle": "@sosumonkey",
    "videos": [
-    {
-     "title": "나스닥-20% 반도체-44%, 패닉 공포 언제 끝날까/충격 줘서라도 물가 잡는다? 연준발 긴축 공포/종말 대비에 사재기? 음모론에 휩싸인 미국",
-     "publishedAt": "2026-11-22 19:29",
-     "url": "https://www.youtube.com/watch?v=_-ZFH5-D5a4"
-    },
     {
      "title": "앤트로픽 상장 후 투자법 달라져야 한다? AI 다음 사이클의 승자들 잡는 법",
      "publishedAt": "2026-11-19 18:23",
@@ -192,6 +187,11 @@ window.DASH.youtube = {
      "title": "엔비디아-33% 폭락, 젠슨 황 사임 나비효과가 증시 혼란 더 키울까",
      "publishedAt": "2026-11-16 18:45",
      "url": "https://www.youtube.com/watch?v=wImd4kZNdN4"
+    },
+    {
+     "title": "20년 전 부시 행정부와 똑같다? 초강경 모드 진입한 트럼프, 분위기 바꿀까",
+     "publishedAt": "2026-11-11 22:00",
+     "url": "https://www.youtube.com/watch?v=gNm_uU33nOk"
     }
    ]
   }
