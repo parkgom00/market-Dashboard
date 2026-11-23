@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-23 11:42",
+ "asOf": "2026-11-23 23:30",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,29 +9,29 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
-     "title": "[11월23일 #장시작전]  급락한 뉴욕증시, 한국증시 블랙먼데이 비상.. 18년 만의 증안펀드 카드… 투매 막고 코스피 급락 저지할까?",
-     "publishedAt": "2026-11-23 06:16",
-     "url": "https://www.youtube.com/watch?v=fcAPj3NT8pY"
+     "title": "[#찐시황]  “대만·중국은 상승 반전했는데 한국증시만 왜 못 오르나?” 외국인 숏커버링 기대감… 코스피 대반격의 시간이 다가오나?  | 이권희 대표",
+     "publishedAt": "2026-11-23 20:00",
+     "url": "https://www.youtube.com/watch?v=bvTGUl-ocCA"
     },
     {
-     "title": "[#찐시황]  “주가폭락한 엔비디아, 반도체 슈퍼호황 끝났나?” AI 투자 전망 하향 충격… 삼전·하닉 더 어떻게 될까? | 미래에셋자산운용 최창규 이사",
-     "publishedAt": "2026-11-22 20:00",
-     "url": "https://www.youtube.com/watch?v=vhAlRhO25CA"
+     "title": "[#긴급인터뷰] “주가는 무릎 아래, 공포는 머리끝!” 지금이 기회일까? 폭락장 뒤 급등장의 역사는 재현될까?  |  황유현 팀장",
+     "publishedAt": "2026-11-23 18:30",
+     "url": "https://www.youtube.com/watch?v=6cfOynsnMdg"
     },
     {
-     "title": "“앤트로픽이 준비 중인 비장의 무기!” AI 반도체 판이 뒤집히나? 삼전·하닉 주가 운명 가를 결정적 변수! ㅣ세미콘리서치랩 노근창 대표",
-     "publishedAt": "2026-11-22 18:00",
-     "url": "https://www.youtube.com/watch?v=OG0IvvfJk5s"
+     "title": "[#긴급인터뷰]  “실적이 70% 줄어야 이 주가가 맞다고?” 반토막 난 삼성전자·SK하이닉스, 시장이 지나치게 겁먹었다?ㅣ이형수 대표",
+     "publishedAt": "2026-11-23 17:00",
+     "url": "https://www.youtube.com/watch?v=tMwJY3ZyB84"
     },
     {
-     "title": "“삼성전자·SK하이닉스 실적은 좋은데 소부장은 왜 무너지나? ” 2028년 반도체 피크아웃 공포! / 지금 저가 매수하면 위험할까?ㅣiM증권 서울금융센터 이영훈 이사",
-     "publishedAt": "2026-11-22 16:30",
-     "url": "https://www.youtube.com/watch?v=TzNk7J6b94k"
+     "title": "[#긴급시황]  “미국 헤지펀드 공매도 역대급” 코스피 폭락장에 정부 대응은 언제… 4,600선이 마지막 방어선?ㅣ IBK투자증권 박근형 부장",
+     "publishedAt": "2026-11-23 15:30",
+     "url": "https://www.youtube.com/watch?v=MzYP-A-MNaI"
     },
     {
-     "title": "“삼성전자·SK하이닉스 지금 팔면 후회할까?” 옵션 만기 끝났다!  다음 주부터 공매도 청산이 부를 대반격… 현대차도 반전 기회?ㅣ오로라투자자문 이지환 대표",
-     "publishedAt": "2026-11-22 08:30",
-     "url": "https://www.youtube.com/watch?v=4o_7XUjmZVM"
+     "title": "[#긴급시황] 삼성전자·SK하이닉스, 지금 손절하면 안된다? 반토막 난 계좌, '이렇게' 해야 살린다!ㅣ김태성 본부장",
+     "publishedAt": "2026-11-23 14:30",
+     "url": "https://www.youtube.com/watch?v=sjHkohhR0xw"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(아이온큐) 양자보안이 세상을 지배하는 이유는?",
+     "publishedAt": "2026-11-23 14:38",
+     "url": "https://www.youtube.com/watch?v=bXjmd8pQNrU"
+    },
     {
      "title": "(주간시황) AI의 종말인가? 아니면 분할매수 기간인가?",
      "publishedAt": "2026-11-22 20:55",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 펀더멘탈로 인한 하락인가?",
      "publishedAt": "2026-11-21 08:15",
      "url": "https://www.youtube.com/watch?v=KLmrR7D1FZA"
-    },
-    {
-     "title": "(시장전망) 과연 조정장 후의 상승 가능한가?",
-     "publishedAt": "2026-11-20 16:00",
-     "url": "https://www.youtube.com/watch?v=PWIz1YuLiRg"
     }
    ]
   },
@@ -72,6 +72,11 @@ window.DASH.youtube = {
    "channelId": "UCQW05vzztAlwV54WL3pjGBQ",
    "handle": "@GODofIT_official",
    "videos": [
+    {
+     "title": "[아테네] 다들 착각하고 있어요!! 젠슨 황 이후 AI 흐름은?",
+     "publishedAt": "2026-11-23 19:00",
+     "url": "https://www.youtube.com/watch?v=BNeaCdkp4yA"
+    },
     {
      "title": "[몰아보기] 폭락 후 반등 때 주목할 곳은 성장이 나오는 섹터!!",
      "publishedAt": "2026-11-21 14:00",
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[월간 안테나] 대만이 주도하는 CPO, 판을 뒤집을 우리 기술이 나옵니다!!",
      "publishedAt": "2026-11-18 19:00",
      "url": "https://www.youtube.com/watch?v=oJAaV3ZX8rc"
-    },
-    {
-     "title": "제가 틀렸습니다. 방향은 봤지만 깊이가…",
-     "publishedAt": "2026-11-17 19:35",
-     "url": "https://www.youtube.com/watch?v=unDiLOfyYLY"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "한국정부가 '증안펀드'를 꺼내든 진짜 이유",
-     "publishedAt": "2026-11-23 10:30",
-     "url": "https://www.youtube.com/watch?v=BAyMgwwV5FI"
+     "title": "국민연금 추납, 무조건 11월 30일까지 신청해야 되는 이유",
+     "publishedAt": "2026-11-23 23:10",
+     "url": "https://www.youtube.com/watch?v=TPZZFryqvVE"
     },
     {
-     "title": "11월 23일 오늘 코스피 어떻게 흘러갈까?",
-     "publishedAt": "2026-11-23 07:49",
-     "url": "https://www.youtube.com/watch?v=-662b7jk_kY"
+     "title": "매일 주식시장 열리기 전 GPT에 꼭 물어봐야 할 질문 3가지",
+     "publishedAt": "2026-11-23 22:10",
+     "url": "https://www.youtube.com/watch?v=k8tadZbWDKM"
     },
     {
-     "title": "11월 23일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-11-23 06:46",
-     "url": "https://www.youtube.com/watch?v=-VmrR-51UUU"
+     "title": "100년 전 대공황과 지금의 AI 폭락장, '회복 신호' 정체",
+     "publishedAt": "2026-11-23 22:00",
+     "url": "https://www.youtube.com/watch?v=GDkPl5Kc9wA"
     },
     {
-     "title": "월가는 못한다는, '시간'을 내 편으로 만드는 매수법",
-     "publishedAt": "2026-11-22 12:00",
-     "url": "https://www.youtube.com/watch?v=nfa_u6gyF-A"
+     "title": "젠슨황이 돌아오면 코스피가 다시 오를까?",
+     "publishedAt": "2026-11-23 21:10",
+     "url": "https://www.youtube.com/watch?v=CshJC_bFwKw"
     },
     {
-     "title": "삼성전자 '12월 자사주 소각' 할 수도 있다는 이유",
-     "publishedAt": "2026-11-22 12:00",
-     "url": "https://www.youtube.com/watch?v=KvflYv1CLuQ"
+     "title": "폭락장에도 한국은행이 금리를 못 내리는 이유",
+     "publishedAt": "2026-11-23 20:00",
+     "url": "https://www.youtube.com/watch?v=DPnHLSoKESk"
     }
    ]
   },
@@ -136,6 +136,11 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
+    {
+     "title": "코스피 오후에 반등한 이유 #코스피 #젠슨황 #앤트로픽",
+     "publishedAt": "2026-11-23 16:20",
+     "url": "https://www.youtube.com/watch?v=ZiQFUx5YcmE"
+    },
     {
      "title": "AI 버블 붕괴가 금융위기로 이어진다???",
      "publishedAt": "2026-11-22 23:47",
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "앤트로픽 IPO가 걱정되는 이유",
      "publishedAt": "2026-11-18 17:06",
      "url": "https://www.youtube.com/watch?v=mYrEXYkomO4"
-    },
-    {
-     "title": "드러켄밀러 반도체 다 팔고 이 AI 주식 436% 늘렸다?",
-     "publishedAt": "2026-11-17 18:07",
-     "url": "https://www.youtube.com/watch?v=zx-P_6UUI_A"
     }
    ]
   },
@@ -168,6 +168,11 @@ window.DASH.youtube = {
    "channelId": "UCC3yfxS5qC6PCwDzetUuEWg",
    "handle": "@sosumonkey",
    "videos": [
+    {
+     "title": "나스닥-20%, 엔비디아 -48% 극단적 공포 구간에 진입한 증시, 기회일까",
+     "publishedAt": "2026-11-23 22:02",
+     "url": "https://www.youtube.com/watch?v=6amgLtc9IgU"
+    },
     {
      "title": "앤트로픽 상장 후 투자법 달라져야 한다? AI 다음 사이클의 승자들 잡는 법",
      "publishedAt": "2026-11-19 18:23",
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "엔비디아-33% 폭락, 젠슨 황 사임 나비효과가 증시 혼란 더 키울까",
      "publishedAt": "2026-11-16 18:45",
      "url": "https://www.youtube.com/watch?v=wImd4kZNdN4"
-    },
-    {
-     "title": "20년 전 부시 행정부와 똑같다? 초강경 모드 진입한 트럼프, 분위기 바꿀까",
-     "publishedAt": "2026-11-11 22:00",
-     "url": "https://www.youtube.com/watch?v=gNm_uU33nOk"
     }
    ]
   }
