@@ -2834,6 +2834,28 @@
  },
  {
   "date": "2026-12-18",
+  "time": "",
+  "title": "나이키 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "장마감 후(한국 다음 날 새벽)",
+  "epsForecast": "$0.34",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-12-18",
+  "time": "",
+  "title": "마이크론 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "장마감 후(한국 다음 날 새벽)",
+  "epsForecast": "$37.95",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2026-12-18",
   "time": "11:00",
   "title": "BOJ 금리결정",
   "level": "major",
