@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_live.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.live = {
- "asOf": "2026-11-24 01:22",
+ "asOf": "2026-11-24 04:11",
  "kr": {
   "news": [],
   "stockNews": {
@@ -24,16 +24,16 @@ window.DASH.live = {
     "url": "https://n.news.naver.com/mnews/article/022/0004177447"
    },
    "000660": {
-    "title": "하이닉스 ADR 20% 뛰어…증시 반등하나",
-    "src": "한국경제",
-    "time": "01:11",
-    "url": "https://n.news.naver.com/mnews/article/015/0005357352"
+    "title": "가격은 흔들, 수급은 탄탄… 시험대 오른 '메모리 슈퍼사이클'",
+    "src": "머니투데이",
+    "time": "04:09",
+    "url": "https://n.news.naver.com/mnews/article/008/0005445292"
    },
    "005930": {
-    "title": "하이닉스 ADR 20% 뛰어…증시 반등하나",
-    "src": "한국경제",
-    "time": "01:11",
-    "url": "https://n.news.naver.com/mnews/article/015/0005357352"
+    "title": "가격은 흔들, 수급은 탄탄… 시험대 오른 '메모리 슈퍼사이클'",
+    "src": "머니투데이",
+    "time": "04:09",
+    "url": "https://n.news.naver.com/mnews/article/008/0005445292"
    },
    "252670": {
     "title": "4만원대서 3000원대로 '처참'…90% 폭락에도 1600억 또 질렀다 [종목+]",
@@ -182,12 +182,6 @@ window.DASH.live = {
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE85SHhBdmJtMkFScmxrRHpDUDBRN19GeXFoUFU2Q2JZVVIzNnExWnZYNS1CUzRYdmFiWmZpZDVla052LXBXYXZQUTdVNGR5dUxNdWZ1dUswT0dBY0c4?oc=5"
    },
    {
-    "title": "[특징주]사피엔반도체, 9.69% 오름세…美 빅테크 스마트글라스 칩 공급사",
-    "src": "남도일보",
-    "ts": "2026-11-23 14:05",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0OGd6a3hRLThKQVpOTk9VY05ZU3NORzhSNUxDVnhBd3huNWFUZTNJN3VON0E1d3pXeXQyME5WNGtzQTlNdFZoVHh5SGJMMVhpdmd3bURLaTFuMjZMTUlOVE1uVHdsWVNLdW5pddIBcEFVX3lxTE5RaG44ZTFiYjAyeGhLbW5senNCV0FxbTFSdnp6bVQtSENUUnNDd2V3SEhaMjFqQV81V1V0NzA0UU9SMGhSZTVlSEVwbFVOLUFnQldOQXhKZzhNT244UVEyM1N4aDVrM0xKOS04ZGdod0o?oc=5"
-   },
-   {
     "title": "[특징주] 휴림로봇, 삼성전기 EFEM 자동화 로봇 공급 계약에 '상한가'",
     "src": "뉴스웍스",
     "ts": "2026-11-23 14:00",
@@ -248,6 +242,12 @@ window.DASH.live = {
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkOE9qaVMzM2hWS1FGMzNDN2lDTEhjYXNZVXE4ZGF6V0VfTmJrMVFQSC1VTzlsbVliWnA2SFZfNTUwVktRcFREM21SbkluRFhjaEdoUmpoRjFFWTdxdllPaTY1Sy1QcUhwRFlCODJB?oc=5"
    },
    {
+    "title": "[특징주] 코스모로보틱스, CES 2027 휴머노이드 기대감 속 로봇주 강세에 14%대 급등",
+    "src": "와이드경제",
+    "ts": "2026-11-23 10:52",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5QQmZRMmd2aE9YNW9hT21iYm9ydm1tWFlkV2ljYzQ2X2M5TThlb3lpMlJjUXk4UkRyN18yd2VjWG1fazBBVDlwNnFfSFhZMzNLNU5oWEJQdkhKa2FsUmFodldkRGpCQzNHWkJjRA?oc=5"
+   },
+   {
     "title": "[특징주] 큐로셀, '림카토' 건보 진입 소식에 장 초반 상한가",
     "src": "한스경제",
     "ts": "2026-11-23 10:34",
@@ -302,12 +302,6 @@ window.DASH.live = {
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBMLW9UN21CN2RPdmRsSU50bVRGSmx5Rks0NWFfUEN4OXdpRmNLcGp6Z1EybXZ3a3BaS0VXSXNlTjJKdnhFdlNvemFaUHFzWTl5UVNUX3hlNjE2YjJyV0VfeXR1bU04aW1pYTREWQ?oc=5"
    },
    {
-    "title": "[특징주] 증시 급락 속 담배만 살아남았다…KT&G, 시총 상위 30종목 중 유일 상승",
-    "src": "아주경제",
-    "ts": "2026-11-23 10:02",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5teGsyc2ZyM2NudFFJeDZ2VlFrUHQ4NzNoVW1DVFg4U1d0ZW1YYjhreFplRXRPQy1DVjhuVm9zZjZ3VTRmN01RNjBwQ29jV1pfVnNsTERSclgyd9IBWEFVX3lxTE5McFUxSnBLcmE5U3NMZWlUdkF0ajlyRzVDTm9MYXBZLVJMSlhvY2JzMlJaSkh6SUNkRVY4T0xyck00YnhwRTdYRXhTdVhRdnFhb0R0b3JtTFM?oc=5"
-   },
-   {
     "title": "[특징주] 한중 교류 확대 기대감에 화장품株 '애드바이오텍·뷰티스킨' 강세",
     "src": "뉴스핌",
     "ts": "2026-11-23 09:57",
@@ -336,17 +330,35 @@ window.DASH.live = {
     "src": "에너지경제신문",
     "ts": "2026-11-23 09:55",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wLU5QX0RNVnlCMi1oWU5VUkw3ckNQRXBHbDk0UmduRkZhTVoyUUZHVUhaWjVTNVc4SWRoRkZxTWV5aEN3SVZsR3hYdkFPV3RuZlBKRk05em9HZ3c?oc=5"
+   },
+   {
+    "title": "[특징주] 한국전력, 개인정보 유출 여파에 3%대 하락",
+    "src": "아주경제",
+    "ts": "2026-11-23 09:54",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9lQ1NnUHoyTllrck1lbzNrNFd6QlI2U2d5YzdmUkVWSUFxdEdreU9PUnNGMl96NWdMYVdlR19ZQW5OcW5wRWQyWUExUnI2RWx3YjhGWk1CemRaZ9IBWEFVX3lxTFBGWXlicHlxQmY1eEV1dmVnU1duMVBEZHdObllfci0xWFQyNnA0N1QwakdONHJERGt3ODBqNmtLbmpfNDJ2NHVXVl9IVmh0MnZwRGlORHlNM28?oc=5"
    }
   ],
   "market": [
    {
-    "title": "코스피, AI발 쇼크에 3.31% 추가 급락…4,700선 턱걸이 마감",
-    "src": "데일리매거진",
-    "ts": "2026-11-24 01:05",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAteWM5WnhwMS1IWmppckNLYnJCdjZlckx6b0NGNEs4dXBSTjgzLW5jMy1mNDN3RGw3STFSanA2QWlxR0hOZG5YTUpwUU5NMUQ4enZ5VlRleEd1djhrOGt4LVhmc0kybG1iS1dFSDVqZGtBa2xJU1J1RDMyVQ?oc=5"
+    "title": "[사설]주가 상승은 정권 치적, 급락엔 굼뜬 대응 - 머니투데이",
+    "src": "머니투데이",
+    "ts": "2026-11-24 04:05",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE05NFRxY3VibWVGaUtqcFNJY1c3YmJYMDZBR1dza3FlckF2M1dLUGdJWTFqX3Z5SVk4Ml9KX0lNSzBpbUhYblBHc3RZcXdKQUJHZDEtOUMtcDVDQl9VajhoNDBzQnZVVlprVWpz0gFwQVVfeXFMUDNIMFdVTXRXNnlVY194SFV6bXR5bmpTOWxJLXdueTdaZ3hmRktxZWNmUWVSbVZhX3U3V3NZbjMwU3FzU0M5bl9vMk5MbVJSTFhaa0hVdjhzcUVhZV8zb29rOVpCVlJEZlpqOTM2NU5fdg?oc=5"
    },
    {
-    "title": "뉴욕증시, 젠슨 황 복귀에 급등 출발…나스닥 7%↑·엔비디아 29%↑",
+    "title": "AI 거품론 속 증시 급락…국내외 경제 경계감 확대",
+    "src": "포인트데일리",
+    "ts": "2026-11-24 04:00",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9EeXNuUkVOSzNudVplYnd6dTRPZ2hFSkVYVlZCSEd1WFdyLTFtYmNremV0UGJnbl9YOGxCeklrc2pnclR5aUlQVVZxYlNKNzdEYzZFclZsU3AxaHB5bEQ4bUItYnp4LXkwMjlxUW5Cbl_SAXRBVV95cUxQUmFmY1FXVndvZTZKMXU3QnVMS1ZJZHBLeEpqV2hJX2VRWUJPMFZmbDIzendSWWJqNVpsVUtpYXJFSzd0R0pSV2d1MHZkTWg3U09YUVI1UUFGMG9kelRCc1VxRGdGRkZOWkhfNXRnTURXYVQ3MA?oc=5"
+   },
+   {
+    "title": "젠슨 황 돌아오자 분위기 달라졌다…SK하닉 美서 20% '반전'",
+    "src": "한국경제",
+    "ts": "2026-11-24 01:10",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5tQU5nS1lwbG53bTFXbGplN3lKT3ZPRmc3VVRkajd6amNKUHlITUgweFpMQ3NWVHRIODUzYWVaSkF0TVZNSlg0ZEFSZHBYWC0tYmJmSXJwSUkxQQ?oc=5"
+   },
+   {
+    "title": "젠슨 황 복귀에 뉴욕증시 급등 출발···나스닥 7%↑·엔비디아 29%↑",
     "src": "서울파이낸스",
     "ts": "2026-11-24 00:41",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBIQ0xKZ1lwaVRQLWpTVWRYNWpfcF90MmJETVhlNHNuZUxOM2lNQVZsak5mRzJRSS02Y1Q4dWppQ08tRlc3SGVibndZQTE2TXpEdkFDQ0dnRVhxd0liUlRibkx4NUxBM0d2TUE?oc=5"
@@ -362,12 +374,6 @@ window.DASH.live = {
     "src": "미주중앙일보",
     "ts": "2026-11-24 00:23",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1jWk1yalNPTkphdnhSb0RVMmxUOE44d2JXM0poTGV0anhHd3pZQnNqdGRZbUNzWGxoQVNJRnpsT3hDeGt0SGtnQTJjd2YxVG03dUFKcnFyWjVaTk1hcXRXLVBB?oc=5"
-   },
-   {
-    "title": "젠슨황 복귀에 美증시 기사회생…엔비디아 30%·나스닥 6.7%↑",
-    "src": "한국경제",
-    "ts": "2026-11-24 00:08",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmc2lMaG1fbEo4QVRfdzB0dFp5SWJlVFpGaUZpYk5GRnN2Vi1ULUpGOHVkaEZjLXM3RksxOFFSUTFuLXcyTXI2c0lKVHZ3b1VYQkNKY0NMTWNqQQ?oc=5"
    },
    {
     "title": "젠슨 황 엔비디아 복귀 소식…뉴욕증시 급등 출발",
@@ -400,37 +406,31 @@ window.DASH.live = {
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB2aGMyd3dZdkI1T3d1RUFrUXI3NG1DWlJZLWlyVnBIdUs1U0Nwa09LcV9USFZzZnd1c0w0eHNyTUlKNjRVM09sSG1hVWlHMzJlZXlVNXdtV1R1dFU?oc=5"
    },
    {
+    "title": "[올댓차이나] 홍콩 증시, 미중 갈등 우려 등에 닷새째 속락 마감… H주 0.35%↓",
+    "src": "뉴시스",
+    "ts": "2026-11-23 21:16",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1YSms4YWR0WnFqeUlJd0EydnZhQ2lkcHgxajZHVHlSMTBJWmY4SHJkam5CU19GMVFlNkoxN2JVeXZiZjlXbGkybHhtemx5cHhvNXZXRmVyWDRLaUlwdWxabNIBeEFVX3lxTE8xcDdGXzc1YW5HSTIwbDVySFd3M01WQ09GSE5TRmYtejhKQV8yaGlqNzNOVVdKRUtiV2FvMjFQd2ZUd0RnVmdhUGkxYUpQdEJUbVRObHhJNE1SUXVyNHdySW02dUwtcDJPb3djUkJWdlNvay1TNDI0Wg?oc=5"
+   },
+   {
     "title": "뉴욕증시 프리뷰, 주가 선물 반등...엔비디아 9% 급등·나스닥100 선물 3.6%↑",
     "src": "뉴스핌",
     "ts": "2026-11-23 21:02",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5hTnpJbHVST0p3djBfZWJjM2VuRU9TRGI3U0k5aTBMZHpJZERlbVVnaTA1Q3gyX3VMMkhac1BIVjJLTG9Xb19EN2ZCZmxSUHVhUHNlNW1ienlWLWgx?oc=5"
    },
    {
+    "title": "증시 급락·유가 하락에 연준, 2018년처럼 정책 선회할 듯: BCA",
+    "src": "Investing.com 한국어",
+    "ts": "2026-11-23 20:46",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9DSDBpY3R0NW42M2VLY2Q2X25DdXBzTEdYRWFZcGw3eHFaVFhuQlNSV0hHYXJ3U2tCakotVk96c1RWMzJtQVBwaXhOSGV3b0FHZkxsSEhXUkg2QVRsMGJ4YmNfZlRjQ2d0NnNmMHlDaGo?oc=5"
+   },
+   {
     "title": "AI 공포에 급락…코스피 4,700선 턱걸이",
     "src": "연합뉴스TV",
     "ts": "2026-11-23 20:12",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Wam43VUVOOUl3Q3B3U1NQem11bktwMng0WDJIbHBLbVVmNW5KLVJEbmtEVUo0cFpxRWxJZncwWW5ldVA4SEJpRHVYcFVpSGhyUklHS09TLXkwQXdlWGI4SWM1d2VmWWc?oc=5"
-   },
-   {
-    "title": "코스피 3.3% 하락‥'증안펀드 준비' 등 정부 대책 먹혔나?",
-    "src": "MBC 뉴스",
-    "ts": "2026-11-23 20:11",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Uc08zWG5vbmw1MUVDdUljb2h2Z2hXNV83TkFaUzlEX2RtbDc1V1k0d01kaTlfVUxINUZZbHphdHk4d3QtU3ZfZDV0LUpWVFFIZ3RwWjM4OWNmMHlsNkY4enNhQnlDRjBDR1BvWXlqS0o4U3RjRHJVVNIBeEFVX3lxTE9ua1EzTTVOazh3WEM5eGZickRpUHFCcGVZdHlQZ0M4cThsTkVJYXNEV3dMaFpwS3JEODRZcGp6d1RFSkxiYjBDQ2kwZmwzNjUyMTY1ZS11RU9LZ3RLRkhSbUJGRjNWTm9rbGF4RUUxOWRSd0ZXWW1rSw?oc=5"
-   },
-   {
-    "title": "반도체 급락, IT 거품 붕괴와 유사…“코스피 4200 열려 있어”",
-    "src": "한겨레",
-    "ts": "2026-11-23 19:54",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIbHBZbTRWN0VscXRQcTFNWVBTSldZRVhrdnBQcENNbDFBR2pNdnRkVzFmT05udFhzREp4ZDNjWWJaU0RVdjh6Vm1SbmRuWW9sSGNGeUNYcDFKc0JpbmF6ZWxKUlZPOG8?oc=5"
-   },
-   {
-    "title": "증안펀드 가동 준비에 증시 반등 기대…추세 전환 한계 지적",
-    "src": "딜사이트",
-    "ts": "2026-11-23 19:43",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ETlI5dllBU1hycEc2YUliVXdjdG1YYVNzNS1XMGVuX0h4dmVkZlBaSU1GZUpoaHdIY0p2YjRVWXNhdkNlWXg3c0RESnV6YUk?oc=5"
    }
   ],
-  "newsAsOf": "2026-11-24 01:22",
+  "newsAsOf": "2026-11-24 04:11",
   "gainers": [
    {
     "code": "282720",
