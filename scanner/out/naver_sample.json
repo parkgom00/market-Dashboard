@@ -450,25 +450,5 @@
    "accumulatedTradingValueRaw": "30742000000",
    "marketValueRaw": "8661606489600"
   }
- ],
- "industryGroups": [
-  {
-   "no": 282,
-   "name": "전자장비와기기",
-   "totalCount": 105,
-   "changeRate": "2.06",
-   "riseCount": 27,
-   "fallCount": 71,
-   "steadyCount": 7
-  },
-  {
-   "no": 294,
-   "name": "통신장비",
-   "totalCount": 55,
-   "changeRate": "1.44",
-   "riseCount": 19,
-   "fallCount": 29,
-   "steadyCount": 7
-  }
  ]
 }
