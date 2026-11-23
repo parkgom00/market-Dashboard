@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-23 05:42",
+ "asOf": "2026-11-23 11:42",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[11월23일 #장시작전]  급락한 뉴욕증시, 한국증시 블랙먼데이 비상.. 18년 만의 증안펀드 카드… 투매 막고 코스피 급락 저지할까?",
+     "publishedAt": "2026-11-23 06:16",
+     "url": "https://www.youtube.com/watch?v=fcAPj3NT8pY"
+    },
     {
      "title": "[#찐시황]  “주가폭락한 엔비디아, 반도체 슈퍼호황 끝났나?” AI 투자 전망 하향 충격… 삼전·하닉 더 어떻게 될까? | 미래에셋자산운용 최창규 이사",
      "publishedAt": "2026-11-22 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "“삼성전자·SK하이닉스 지금 팔면 후회할까?” 옵션 만기 끝났다!  다음 주부터 공매도 청산이 부를 대반격… 현대차도 반전 기회?ㅣ오로라투자자문 이지환 대표",
      "publishedAt": "2026-11-22 08:30",
      "url": "https://www.youtube.com/watch?v=4o_7XUjmZVM"
-    },
-    {
-     "title": "[#찐시황]  “월요일 코스피 어디까지 급락할까?.. 두려운 투자자들 /  나스닥 -5%, 엔비디아 -14% 주가폭락… 마지막 투매가 시작되나? | 이주연 대표",
-     "publishedAt": "2026-11-21 20:00",
-     "url": "https://www.youtube.com/watch?v=3LipybrcW5U"
     }
    ]
   },
@@ -105,6 +105,21 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "한국정부가 '증안펀드'를 꺼내든 진짜 이유",
+     "publishedAt": "2026-11-23 10:30",
+     "url": "https://www.youtube.com/watch?v=BAyMgwwV5FI"
+    },
+    {
+     "title": "11월 23일 오늘 코스피 어떻게 흘러갈까?",
+     "publishedAt": "2026-11-23 07:49",
+     "url": "https://www.youtube.com/watch?v=-662b7jk_kY"
+    },
+    {
+     "title": "11월 23일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-11-23 06:46",
+     "url": "https://www.youtube.com/watch?v=-VmrR-51UUU"
+    },
+    {
      "title": "월가는 못한다는, '시간'을 내 편으로 만드는 매수법",
      "publishedAt": "2026-11-22 12:00",
      "url": "https://www.youtube.com/watch?v=nfa_u6gyF-A"
@@ -113,21 +128,6 @@ window.DASH.youtube = {
      "title": "삼성전자 '12월 자사주 소각' 할 수도 있다는 이유",
      "publishedAt": "2026-11-22 12:00",
      "url": "https://www.youtube.com/watch?v=KvflYv1CLuQ"
-    },
-    {
-     "title": "SK 최태원이 말한 '젠슨의 법칙' 진짜 의미",
-     "publishedAt": "2026-11-22 10:00",
-     "url": "https://www.youtube.com/watch?v=u3Ns4rlOYqA"
-    },
-    {
-     "title": "미국 투자자들이 꼭 알아야 하는 미국 다음주 투자 포인트(11.23~27)",
-     "publishedAt": "2026-11-21 17:40",
-     "url": "https://www.youtube.com/watch?v=aiNouppjGjs"
-    },
-    {
-     "title": "일본은 왜 중국한테 무시당할까?!",
-     "publishedAt": "2026-11-21 12:00",
-     "url": "https://www.youtube.com/watch?v=f_rhRBkWgUE"
     }
    ]
   },
