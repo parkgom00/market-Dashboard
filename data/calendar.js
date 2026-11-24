@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-24 12:48",
+ "generatedAt": "2026-11-25 01:56",
  "events": [
   {
    "date": "2026-01-01",
@@ -2965,7 +2965,7 @@ window.DASH.calendar = {
    "title": "리치먼드 연은지수",
    "time": "23:00",
    "result": [
-    "예상 -3 · 이전 -2"
+    "예상 -2 · 이전 -2"
    ]
   },
   {
@@ -2975,7 +2975,7 @@ window.DASH.calendar = {
    "title": "미국 소비자신뢰",
    "time": "23:00",
    "result": [
-    "예상 92.1 · 이전 91.7"
+    "예상 92.4 · 이전 91.7"
    ]
   },
   {
@@ -2995,7 +2995,7 @@ window.DASH.calendar = {
    "title": "미국 내구재 주문",
    "time": "21:30",
    "result": [
-    "예상 0.0% · 이전 1.9%"
+    "예상 0.7% · 이전 1.8%"
    ]
   },
   {
@@ -3015,7 +3015,7 @@ window.DASH.calendar = {
    "title": "미국 신규주택판매",
    "time": "23:00",
    "result": [
-    "예상 649K · 이전 -0.6%"
+    "예상 650K · 이전 -0.6%"
    ]
   },
   {
@@ -3222,6 +3222,13 @@ window.DASH.calendar = {
    "date": "2026-12-03",
    "type": "econ",
    "market": "US",
+   "title": "미국 신규 실업수당 청구",
+   "time": "21:30"
+  },
+  {
+   "date": "2026-12-03",
+   "type": "econ",
+   "market": "US",
    "title": "S&P글로벌 서비스업 PMI",
    "time": "22:45",
    "result": [
@@ -3390,6 +3397,26 @@ window.DASH.calendar = {
    "major": true,
    "result": [
     "이전 93.9%"
+   ]
+  },
+  {
+   "date": "2026-12-15",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 PPI",
+   "time": "21:30",
+   "result": [
+    "이전 0.5%"
+   ]
+  },
+  {
+   "date": "2026-12-15",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 근원 PPI",
+   "time": "21:30",
+   "result": [
+    "이전 5.0%"
    ]
   },
   {
