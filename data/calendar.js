@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-24 02:13",
+ "generatedAt": "2026-11-24 12:48",
  "events": [
   {
    "date": "2026-01-01",
@@ -2926,7 +2926,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 서비스업 PMI",
    "time": "22:45",
    "result": [
-    "예상 55.6 · 이전 56.1"
+    "실제 54.7 · 예상 55.6 · 이전 56.1"
    ]
   },
   {
@@ -2936,7 +2936,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 제조업 PMI",
    "time": "22:45",
    "result": [
-    "예상 54.5 · 이전 54.9"
+    "실제 54.5 · 예상 54.5 · 이전 54.9"
    ]
   },
   {
@@ -2955,7 +2955,7 @@ window.DASH.calendar = {
    "title": "한국 소비자심리",
    "time": "05:00",
    "result": [
-    "이전 105.4"
+    "실제 103.1 · 이전 105.4"
    ]
   },
   {
@@ -3166,7 +3166,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 제조업 PMI",
    "time": "22:45",
    "result": [
-    "이전 54.9"
+    "이전 54.5"
    ]
   },
   {
@@ -3225,7 +3225,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 서비스업 PMI",
    "time": "22:45",
    "result": [
-    "이전 56.1"
+    "이전 54.7"
    ]
   },
   {
@@ -3360,6 +3360,37 @@ window.DASH.calendar = {
    "title": "FOMC 기자회견",
    "time": "03:30",
    "major": true
+  },
+  {
+   "date": "2026-12-15",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 무역수지",
+   "time": "08:00",
+   "result": [
+    "이전 42.65B"
+   ]
+  },
+  {
+   "date": "2026-12-15",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 수입",
+   "time": "08:00",
+   "result": [
+    "이전 36.0%"
+   ]
+  },
+  {
+   "date": "2026-12-15",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 수출",
+   "time": "08:00",
+   "major": true,
+   "result": [
+    "이전 93.9%"
+   ]
   },
   {
    "date": "2026-12-16",
