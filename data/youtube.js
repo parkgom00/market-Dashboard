@@ -1,13 +1,28 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-23 23:30",
+ "asOf": "2026-11-24 11:53",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#긴급시황] “이번 급등장이 끝이 아니다?” 숏커버링과 수급 개선이 열어줄 추가 상승 구간!ㅣ김태성 본부장",
+     "publishedAt": "2026-11-24 11:26",
+     "url": "https://www.youtube.com/watch?v=8xImYsugx8A"
+    },
+    {
+     "title": "[11월24일 #장시작전] “젠슨 황이 돌아왔다! 엔비디아 31% 폭등!” AI 반도체 공포 끝나고 상승장 시즌2 시작될까?",
+     "publishedAt": "2026-11-24 06:12",
+     "url": "https://www.youtube.com/watch?v=DjsXQYfPnqk"
+    },
+    {
+     "title": "“엔비디아 PER 13배, 코스트코는 53배!” 반도체가 필수소비재보다 싼데 왜 폭락하나? / 삼성전자 주주환원 기대, 코스피 대반전 시작될까?ㅣ유창희 대표",
+     "publishedAt": "2026-11-24 06:00",
+     "url": "https://www.youtube.com/watch?v=hZqsRcqmhPQ"
+    },
     {
      "title": "[#찐시황]  “대만·중국은 상승 반전했는데 한국증시만 왜 못 오르나?” 외국인 숏커버링 기대감… 코스피 대반격의 시간이 다가오나?  | 이권희 대표",
      "publishedAt": "2026-11-23 20:00",
@@ -17,21 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급인터뷰] “주가는 무릎 아래, 공포는 머리끝!” 지금이 기회일까? 폭락장 뒤 급등장의 역사는 재현될까?  |  황유현 팀장",
      "publishedAt": "2026-11-23 18:30",
      "url": "https://www.youtube.com/watch?v=6cfOynsnMdg"
-    },
-    {
-     "title": "[#긴급인터뷰]  “실적이 70% 줄어야 이 주가가 맞다고?” 반토막 난 삼성전자·SK하이닉스, 시장이 지나치게 겁먹었다?ㅣ이형수 대표",
-     "publishedAt": "2026-11-23 17:00",
-     "url": "https://www.youtube.com/watch?v=tMwJY3ZyB84"
-    },
-    {
-     "title": "[#긴급시황]  “미국 헤지펀드 공매도 역대급” 코스피 폭락장에 정부 대응은 언제… 4,600선이 마지막 방어선?ㅣ IBK투자증권 박근형 부장",
-     "publishedAt": "2026-11-23 15:30",
-     "url": "https://www.youtube.com/watch?v=MzYP-A-MNaI"
-    },
-    {
-     "title": "[#긴급시황] 삼성전자·SK하이닉스, 지금 손절하면 안된다? 반토막 난 계좌, '이렇게' 해야 살린다!ㅣ김태성 본부장",
-     "publishedAt": "2026-11-23 14:30",
-     "url": "https://www.youtube.com/watch?v=sjHkohhR0xw"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) 젠슨황 다음 이야기는?",
+     "publishedAt": "2026-11-24 06:23",
+     "url": "https://www.youtube.com/watch?v=na2CpJrTanU"
+    },
     {
      "title": "(아이온큐) 양자보안이 세상을 지배하는 이유는?",
      "publishedAt": "2026-11-23 14:38",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시장전망) 선수들은 왜 지금 사고 있나?",
      "publishedAt": "2026-11-21 20:32",
      "url": "https://www.youtube.com/watch?v=jtlpGoYrqdM"
-    },
-    {
-     "title": "(시황분석) 펀더멘탈로 인한 하락인가?",
-     "publishedAt": "2026-11-21 08:15",
-     "url": "https://www.youtube.com/watch?v=KLmrR7D1FZA"
     }
    ]
   },
@@ -105,6 +105,21 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "젠슨황 복귀, 삼전 35 하닉 300 다시 올려줄까?",
+     "publishedAt": "2026-11-24 09:35",
+     "url": "https://www.youtube.com/watch?v=7mPU-3lBQ2Q"
+    },
+    {
+     "title": "11월 24일 오늘 코스피 어디까지 올라갈까?",
+     "publishedAt": "2026-11-24 07:36",
+     "url": "https://www.youtube.com/watch?v=HPi1ZBAYaGc"
+    },
+    {
+     "title": "11월 24일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-11-24 06:40",
+     "url": "https://www.youtube.com/watch?v=K9OS9cuUaG8"
+    },
+    {
      "title": "국민연금 추납, 무조건 11월 30일까지 신청해야 되는 이유",
      "publishedAt": "2026-11-23 23:10",
      "url": "https://www.youtube.com/watch?v=TPZZFryqvVE"
@@ -113,21 +128,6 @@ window.DASH.youtube = {
      "title": "매일 주식시장 열리기 전 GPT에 꼭 물어봐야 할 질문 3가지",
      "publishedAt": "2026-11-23 22:10",
      "url": "https://www.youtube.com/watch?v=k8tadZbWDKM"
-    },
-    {
-     "title": "100년 전 대공황과 지금의 AI 폭락장, '회복 신호' 정체",
-     "publishedAt": "2026-11-23 22:00",
-     "url": "https://www.youtube.com/watch?v=GDkPl5Kc9wA"
-    },
-    {
-     "title": "젠슨황이 돌아오면 코스피가 다시 오를까?",
-     "publishedAt": "2026-11-23 21:10",
-     "url": "https://www.youtube.com/watch?v=CshJC_bFwKw"
-    },
-    {
-     "title": "폭락장에도 한국은행이 금리를 못 내리는 이유",
-     "publishedAt": "2026-11-23 20:00",
-     "url": "https://www.youtube.com/watch?v=DPnHLSoKESk"
     }
    ]
   },
@@ -136,6 +136,16 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
+    {
+     "title": "젠슨황 복귀 비하인드와 역대급 폭등해버린 나스닥 ㄷㄷㄷ",
+     "publishedAt": "2026-11-24 03:09",
+     "url": "https://www.youtube.com/watch?v=pWQAGKb4oVE"
+    },
+    {
+     "title": "황어게인! 젠슨황 엔비디아 CEO 복귀",
+     "publishedAt": "2026-11-23 23:35",
+     "url": "https://www.youtube.com/watch?v=xR0JaJwgSa0"
+    },
     {
      "title": "코스피 오후에 반등한 이유 #코스피 #젠슨황 #앤트로픽",
      "publishedAt": "2026-11-23 16:20",
@@ -150,16 +160,6 @@ window.DASH.youtube = {
      "title": "나스닥 대폭락! 앤트로픽 IPO는 AI 주식의 마지막 불꽃?",
      "publishedAt": "2026-11-21 02:17",
      "url": "https://www.youtube.com/watch?v=cQHMzYRaexc"
-    },
-    {
-     "title": "앤트로픽 AMD가 문제 #코스피 #AMD #앤트로픽",
-     "publishedAt": "2026-11-20 11:56",
-     "url": "https://www.youtube.com/watch?v=XZx0wKmpdxw"
-    },
-    {
-     "title": "앤트로픽 IPO가 걱정되는 이유",
-     "publishedAt": "2026-11-18 17:06",
-     "url": "https://www.youtube.com/watch?v=mYrEXYkomO4"
     }
    ]
   },
