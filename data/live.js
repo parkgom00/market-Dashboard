@@ -1,51 +1,33 @@
 // 자동 생성 파일 (scanner/build_live.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.live = {
- "asOf": "2026-11-24 17:07",
+ "asOf": "2026-11-25 03:51",
  "kr": {
   "news": [],
   "stockNews": {
-   "129920": {
-    "title": "스마트폰 접던 기술로 '로봇손' 만든다…대성하이텍, 新성장축 확보",
-    "src": "파이낸셜뉴스",
-    "time": "14:33",
-    "url": "https://n.news.naver.com/mnews/article/014/0005608947"
-   },
    "179530": {
     "title": "애드바이오텍, 바이오 넘어 K뷰티까지…중앙아시아 시장 공략 나선다",
     "src": "블로터",
     "time": "16:09",
     "url": "https://n.news.naver.com/mnews/article/293/0000093755"
    },
-   "060720": {
-    "title": "AI·로봇주 30% 급등할때…맥못추는 제약·바이오주 [이런주식 저런국...",
-    "src": "서울경제",
-    "time": "14:46",
-    "url": "https://n.news.naver.com/mnews/article/011/0004685563"
-   },
    "307950": {
-    "title": "'깐부 형' 복귀에 코스피 반색...6%대 급등 마감에 5,000피 탈환",
-    "src": "kbc광주방송",
-    "time": "17:01",
-    "url": "https://n.news.naver.com/mnews/article/660/0000122094"
+    "title": "'피지컬 AI 동맹' 현대차그룹주 불기둥",
+    "src": "파이낸셜뉴스",
+    "time": "18:19",
+    "url": "https://n.news.naver.com/mnews/article/014/0005609175"
    },
    "090710": {
-    "title": "엔비디아·삼전發 훈풍에 로봇주 '불기둥'…휴림로봇 이틀째 '上'[핫종...",
-    "src": "뉴스1",
-    "time": "16:29",
-    "url": "https://n.news.naver.com/mnews/article/421/0009307833"
+    "title": "삼전닉스 6%대 '불기둥'…사흘 만에 5천피 탈환",
+    "src": "SBS Biz",
+    "time": "18:11",
+    "url": "https://n.news.naver.com/mnews/article/374/0000545658"
    },
    "058610": {
     "title": "엔비디아·삼전發 훈풍에 로봇주 '불기둥'…휴림로봇 이틀째 '上'[핫종...",
     "src": "뉴스1",
     "time": "16:29",
     "url": "https://n.news.naver.com/mnews/article/421/0009307833"
-   },
-   "052710": {
-    "title": "[이 시각 시황] 젠슨 황발 뉴욕증시 훈풍…코스피 5%대 급등, 반도체·...",
-    "src": "SBS Biz",
-    "time": "09:32",
-    "url": "https://n.news.naver.com/mnews/article/374/0000545473"
    },
    "056080": {
     "title": "엔비디아·삼전發 훈풍에 로봇주 '불기둥'…휴림로봇 이틀째 '上'[핫종...",
@@ -54,58 +36,40 @@ window.DASH.live = {
     "url": "https://n.news.naver.com/mnews/article/421/0009307833"
    },
    "020150": {
-    "title": "[속보] '깐부 형' 일으킨 훈풍, 아시아 전반에 번졌다…한·중·일↑",
+    "title": "'깐부 형' 일으킨 훈풍, 아시아 전반에 번졌다…한·중·일↑",
     "src": "한국경제TV",
     "time": "16:51",
     "url": "https://n.news.naver.com/mnews/article/215/0001273805"
    },
    "108490": {
-    "title": "젠슨 황 돌아오자 '5000피'도 돌아왔다…코스피 6.32% 급반등",
-    "src": "더팩트",
-    "time": "17:01",
-    "url": "https://n.news.naver.com/mnews/article/629/0000555164"
+    "title": "삼전닉스 6%대 '불기둥'…사흘 만에 5천피 탈환",
+    "src": "SBS Biz",
+    "time": "18:11",
+    "url": "https://n.news.naver.com/mnews/article/374/0000545658"
    },
    "030210": {
-    "title": "다올투자증권 \"다올저축은행 주식 222억원에 추가 취득\"",
-    "src": "SBS Biz",
-    "time": "16:59",
-    "url": "https://n.news.naver.com/mnews/article/374/0000545636"
+    "title": "다올투자證 경영권 매각설 수면 위로",
+    "src": "파이낸셜뉴스",
+    "time": "21:10",
+    "url": "https://n.news.naver.com/mnews/article/014/0005609226"
    },
    "000660": {
-    "title": "“핵심기술 수출 전 보안부터”…91개 점검지표 공개 [2026 산업보안 컨...",
-    "src": "이코노미스트",
-    "time": "17:02",
-    "url": "https://n.news.naver.com/mnews/article/243/0000106246"
+    "title": "'AI 황제' 단 한명에 흔들린 K반도체株",
+    "src": "머니투데이",
+    "time": "03:00",
+    "url": "https://n.news.naver.com/mnews/article/008/0005445905"
    },
    "005930": {
-    "title": "[르포] “지금이 입사 적기입니다” 삼성·SK 안방서 ‘두뇌 쟁탈전’...",
-    "src": "헤럴드경제",
-    "time": "17:01",
-    "url": "https://n.news.naver.com/mnews/article/016/0002727878"
-   },
-   "122630": {
-    "title": "'하락 베팅'에 날벼락…곱버스 장중 16% 급락",
-    "src": "파이낸셜뉴스",
-    "time": "11:25",
-    "url": "https://n.news.naver.com/mnews/article/014/0005608849"
-   },
-   "114800": {
-    "title": "'하락 베팅'에 날벼락…곱버스 장중 16% 급락",
-    "src": "파이낸셜뉴스",
-    "time": "11:25",
-    "url": "https://n.news.naver.com/mnews/article/014/0005608849"
-   },
-   "252670": {
-    "title": "'하락 베팅'에 날벼락…곱버스 장중 16% 급락",
-    "src": "파이낸셜뉴스",
-    "time": "11:25",
-    "url": "https://n.news.naver.com/mnews/article/014/0005608849"
+    "title": "'AI 황제' 단 한명에 흔들린 K반도체株",
+    "src": "머니투데이",
+    "time": "03:00",
+    "url": "https://n.news.naver.com/mnews/article/008/0005445905"
    },
    "009150": {
-    "title": "'깐부 형' 복귀에 코스피 반색...6%대 급등 마감에 5,000피 탈환",
-    "src": "kbc광주방송",
-    "time": "17:01",
-    "url": "https://n.news.naver.com/mnews/article/660/0000122094"
+    "title": "삼성전자, HBM 개발 주역 중용… 로봇·AI 인재 전면에",
+    "src": "조선일보",
+    "time": "00:34",
+    "url": "https://n.news.naver.com/mnews/article/023/0004011510"
    },
    "233740": {
     "title": "연저점 찍은 코스닥, '연말 랠리' 기대 커지나… 레버리지 ETF에 뭉칫...",
@@ -120,42 +84,42 @@ window.DASH.live = {
     "url": "https://n.news.naver.com/mnews/article/469/0000967477"
    },
    "402340": {
-    "title": "젠슨 황 돌아오자 '5000피'도 돌아왔다…코스피 6.32% 급반등",
-    "src": "더팩트",
-    "time": "17:01",
-    "url": "https://n.news.naver.com/mnews/article/629/0000555164"
+    "title": "\"기업 주요 사업 등 회계 판단근거 문서로 입증해야\" [제18회 국제회계...",
+    "src": "파이낸셜뉴스",
+    "time": "18:07",
+    "url": "https://n.news.naver.com/mnews/article/014/0005609122"
    },
    "030530": {
-    "title": "[특징주] 젠슨 황 복귀 소식에…반도체 소부장주 ‘강세’",
-    "src": "조선비즈",
-    "time": "09:51",
-    "url": "https://n.news.naver.com/mnews/article/366/0001206873"
-   },
-   "396500": {
-    "title": "\"지금이 저가매수 기회?\"…급락장에도 퇴직연금은 여전히 '반도체 ETF...",
-    "src": "파이낸셜뉴스",
-    "time": "15:55",
-    "url": "https://n.news.naver.com/mnews/article/014/0005608395"
+    "title": "\"땡큐, 젠슨 황\" 반도체 랠리⋯코스피 6% 급등 '5000선' 탈환",
+    "src": "아이뉴스24",
+    "time": "16:20",
+    "url": "https://n.news.naver.com/mnews/article/031/0001078056"
    },
    "006400": {
-    "title": "삼성SDI 2027년 임원인사 단행…정태영 부사장 등 11명 승진",
-    "src": "동아일보",
-    "time": "17:02",
-    "url": "https://n.news.naver.com/mnews/article/020/0003764804"
+    "title": "삼성전자, HBM 개발 주역 중용… 로봇·AI 인재 전면에",
+    "src": "조선일보",
+    "time": "00:34",
+    "url": "https://n.news.naver.com/mnews/article/023/0004011510"
    }
   },
   "feature": [
    {
-    "title": "[특징주]현대차, 젠슨 황 복귀에 11.11% 강세…기관 순매수 상위",
-    "src": "남도일보",
-    "ts": "2026-11-24 16:28",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91b2wtTFM4U3RRa1htUFVXWmtsYWZITmZobXl5b05jOFoxMHpFWmVSMERKaENMeFByeEIweVhHMGlIZlJJN1FrOU0yeWZsRUwzMUNTVG0xYUdTT2tYMUpQanVvZXZDQ3FNZ3YtatIBcEFVX3lxTE1QY2lYRlF2QU1kZTdhUlN2bGxRV2I4bHhTMVZ4Q001Wnd6allJVUI3NUpCc25ZTHdxaFF5N0wwRVdrUGk0S2t6QmxPN05IQjljeUlOM0NJaHBOMDJqazd4V2MyZWdPNVJrOEdQcHJSTnc?oc=5"
+    "title": "뉴욕증시 개장 전 특징주...인스메드·베스트바이↑ VS 엔비디아·앤스로픽↓",
+    "src": "뉴스핌",
+    "ts": "2026-11-24 22:33",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE54UXBSSXA2M2ktQ1NLS1JNVWpUYl9rcERmTlp5LVZBUkg0Y0ppN3dkVGpMWEg3TlRCak1VVmJ6MngyeGhUUjZhMmFrRFlXek5VZHFjTEM0M0Q3V2V4?oc=5"
    },
    {
-    "title": "[특징주]대한광통신, 외국인 순매수에 7.06% 오름세…젠슨 황 복귀 훈풍",
-    "src": "남도일보",
-    "ts": "2026-11-24 16:26",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ZYUtONEFYSVNTbDBNZEZ3YjBRY1F6V1NVSWZsendxdy15S1VZa2xhc2gySmFUNkdwMWtYMXZRR3JnZm1qNGcyaEdFU2lMcXFNaS1CMkZuQ3VwclZtUnRKdnc2UWFmOEw2bC12UNIBcEFVX3lxTE5tR1FheHk5NkdGNDJZLU9SM2ZQUjlETzFEYUFyNHBuN2lBc3ZrajhZaFFyMExGMF90SVNCU2RJenp6anZZcHE3ek1LTnFHanBGVHhPQVl4U0pDLUl3R0xQY0ZwZm9UelROWGhqbzFCZDQ?oc=5"
+    "title": "[특징주] 애드바이오텍, 중앙아시아 K뷰티 진출 기대감에 상한가 마감",
+    "src": "바이오타임즈",
+    "ts": "2026-11-24 18:24",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5lSHZFTk45QlBHYzBOTVF0WDBvbGNEMXp1dFV4bkJVWnNKbVhPaXdDUGVRRDFDWHFxVUdPWnNEd01xT2E0al9OMXQyUXh0RTNrTmRYXzl5c09VWG5SbGdiNExBZkFnSTZkUDRlcA?oc=5"
+   },
+   {
+    "title": "11월 24일 특징테마 특징주 및 신고가",
+    "src": "네이버 프리미엄콘텐츠",
+    "ts": "2026-11-24 16:15",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSDB4bHo1QmVoMWpYaVg1VlQtQ2pGNkFVR3BnNFpxeHdZcVB6MmxPVHBILXZkX2VQTWUxU0JRakFfTWVKd3o4QVJYaXQ3cE9LMEMwalQ2eExpV0xsd1RwWU1rektGUFFmMU1JUjhJN0djQVp0cmZOX2ZIa2FnM0gtcjhhUlJaV0dtY2Vn?oc=5"
    },
    {
     "title": "[특징주] 삼전·닉스, 나란히 6.7% 급반등…관련 장비주도 일제히↑(종합)",
@@ -164,10 +128,22 @@ window.DASH.live = {
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAzcjk3OUtWVHVwV1U4OHdfTlBlVTlGb3YtSmxfS0Z2ekp2R2ExZVZuZ2ZPZm9jRF9ObWZwNWEzR0t4MEIxTHRPWkZUaENQTmdJQ3c?oc=5"
    },
    {
+    "title": "[11.24] 증시 마감시황 및 오늘의 특징주",
+    "src": "네이버 프리미엄콘텐츠",
+    "ts": "2026-11-24 16:12",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeGc0OEVGSEJobmZ3SHRTX0Nvc195R3RFMFQxckZfaWloSlpqYkNGY1QxRGNLbnNWd3VvcmltZXE0UXR3alczRnhrWFNlVWh3Vk5jSUNCa1dHcHIySWhOTEF5ejlDV1RNUUkySURNUlZUTmJMU0RUeVlVa2Zvck9rcg?oc=5"
+   },
+   {
     "title": "[특징주] 엠비디, 코스닥 입성 첫날 39% 급락 마감(종합)",
     "src": "연합뉴스",
     "ts": "2026-11-24 16:08",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Pa2tuQ1JRQW1wdWlxM1lCQmtDcEozYlFMSmdwMExNaF9QYmw3b0FZYkg2OHJ3MjM5RHlRQjEtcm5xeFgwTUU4ejgxX0lFeV9laFlCU1lIYVFwazDSAWBBVV95cUxPNTUzZHhlcS14YWNpSXB5Sl9XdzF4NV9LcENYaVFIekNxUGVya2UyM0FvSHFTSVEyenhaOEhjUlJhTjBNbDIxVG9VcHNkOTRDaV94ZU4xZTJMSDAzTFdDZFg?oc=5"
+   },
+   {
+    "title": "[특징주] 젠슨 황 복귀에 현대오토에버 상한가…엔비디아 GPU·피지컬AI 수혜 기대",
+    "src": "https://www.moneystorm.kr/",
+    "ts": "2026-11-24 15:56",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5sT2ppaGd1a2FoMkRkTmRGMnM4RFV5SWpJOW1fUGo0bE12WGFYekViNzJva0tqYjNaWkIxVDMxT1FMTVgxb195X3R6MWdjVGVZSmdxcEx0OUwxN2l4T0RaRVZCNFN5R0Q3OXc?oc=5"
    },
    {
     "title": "[특징주] 한화에어로스페이스, 경남 우주항공·방산 육성.. '급등'",
@@ -182,46 +158,16 @@ window.DASH.live = {
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVWJUb2VkZnIzblhNMDhQY0RpbnE5czQ1NmR0WkRFMXlBZzQxb2djeUtDWjFKRmotdGdMWmR4elp0cWp6VVdTbXZiM1N2TW0wTmRhX1VYNGJtYXA0T0hkYUIzVkdUZUdYT1RrRFFwOS1NbXRISzhnRDBBUFJpZi1mbWt2TzNxU1hw?oc=5"
    },
    {
-    "title": "[특징주] 래블업, 장중 5%대↑…美 시장 공략에 AI 인프라 사업 확장",
-    "src": "아주경제",
-    "ts": "2026-11-24 15:04",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4xSkk0NTNVdDdPZG1EbXZqZmN3a2Z2aWZGazkybVA1ekk0Q1JXZzdhR3EtbFg5b0duVUY1eTkxcG9NX3l4bmx2RzdhWTNpazdkbEZDemJrb29Rd9IBWEFVX3lxTE9ydVY0U2F2YnFwdDFSZUFTZFpYX2x1OXJFa1ZkUHFNQzBRSVJ6U0R2RVZxdjJrQTRsc1hoSU81bWxqYjgwZUE5NkZhOUFjVjVhTERaVXFNaEo?oc=5"
-   },
-   {
-    "title": "[특징주] LG전자, 젠슨 황 엔비디아 CEO 복귀에 16% 급등",
-    "src": "아주경제",
-    "ts": "2026-11-24 14:03",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZWWlJWGVDUHpFaTJQWHJGSzdPcnBKaWJhS194Tzh2Wnl1TFh6aWNQODg5VGNKQ3YtUHRteEJUaG1QeHFHQ0NjdmJfU0szMGdneV9SVTNYQi0tUdIBWEFVX3lxTE9sSHpoUGN6OExiaGM2M096cmtITFZLUXhhRk0zcURlc19OcU81M1lDa0FoYVlDUzZLZGEySmM5V3VrX2JLd2RWcEJ1N1JmZGtVY00xUS1EZTc?oc=5"
-   },
-   {
-    "title": "[특징주] 엠비디, 코스닥 상장 첫날 장중 30%대 급락",
-    "src": "비즈트리뷴",
-    "ts": "2026-11-24 14:02",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5TZTF6VHR1YnMwcFlQTFFEb0RhZ0hlWUFkU3loTG94bmJOX0VnN2kxa0FwOEw5bHhNUTItOThPWnNPNXhBTGxvUGtNaVpzanlFYkszVlF3QmRUazhNcGZFNTV0N0g4QUFLQXZOa3JjOVQ?oc=5"
-   },
-   {
-    "title": "[특징주] 삼성전기, 엔비디아발 AI 반도체 훈풍에 10%대 급등",
-    "src": "아주경제",
-    "ts": "2026-11-24 13:53",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiaVVfU3I3TzRmNXRzenExUjFmazVZNlpQN0ZrQ1FXdXZ3REhKRlhMdXo1U0ZkVUVGNFQtTVY0UFRRV2NYU2NfNmFPOUdpSDA2ZE1QRVMxaHQwZ9IBWEFVX3lxTE5OczRrMWRIZXpmNnhQQ0lBUVRQY1ZRdnFIQkVoS2t6eGo0X2lIOG5yNDN6cXZRc2NBVVREbFlTSW1ZTWRyek9qdFExWG1LM21LRFNWWXdLR2U?oc=5"
-   },
-   {
-    "title": "[ET특징주]브릴스, 로봇 테마 급등세 속 상승세",
-    "src": "전자신문",
-    "ts": "2026-11-24 13:52",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9qcVF4R1VZODJsMUE0eWNLWFdaMVFLODFNMnRRWllyb044cTBmSF9UQzRZbEZqYlpPZXR5ZWxxd2dYY0sybW5RSW4zbDk4UQ?oc=5"
-   },
-   {
     "title": "[ET특징주]두산, 젠슨 황 엔비디아 CEO 복귀 소식에 상승세",
     "src": "전자신문",
     "ts": "2026-11-24 13:52",
     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0wQXltdjV5b0pjN3g2WlVfMXJHMVZfaGVBQWhmX2Y4UDEwZkd5MjVPUGFldEtRdjhkWXlJVElycm5JbWlseHplLXlTbTBxZw?oc=5"
    },
    {
-    "title": "[특징주] 엔비디아발 훈풍에 로봇주 무더기 급등…휴림로봇 등 5종목 상한가",
-    "src": "아주경제",
-    "ts": "2026-11-24 13:45",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LOFl5WUg1d3lwQUZ6bldnNHc3Q3J6R0NpZ2xtYmdkZlRFaml1d0lsdkNZY2l2TDhFbHRlWW84dHJyRHZzSXRCbEJtcVFkSVpNMHFPVFJ3TXBjQdIBWEFVX3lxTE5lckJ5akJycmtyRks3VUFGd1ZWWm9tR25RdVF2bzhhSzJhMkdjZWk5VC1WTFJ0TFQxSWpPSGxmYWhfQllQMXBpQzhXYWg4TDY2Y2pkWmZRaGQ?oc=5"
+    "title": "[ET특징주]브릴스, 로봇 테마 급등세 속 상승세",
+    "src": "전자신문",
+    "ts": "2026-11-24 13:52",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9qcVF4R1VZODJsMUE0eWNLWFdaMVFLODFNMnRRWllyb044cTBmSF9UQzRZbEZqYlpPZXR5ZWxxd2dYY0sybW5RSW4zbDk4UQ?oc=5"
    },
    {
     "title": "[특징주] 우주항공·방산 거점 육성에 1.5조 투입…한화에어로스페이스 8%↑",
@@ -236,34 +182,10 @@ window.DASH.live = {
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vOUszM2dqV2VRckw5X0JDNmNCMXJ1eFdJWVpHdzhEUk9GVmozdHlvTnVZVENKUTlCa3N4ZTR0RXJENFotQ0VxVU5RQk43SnFLTldrcDVXUDRsUdIBWEFVX3lxTE5PVXlNR3hkYWZYOTBKWkUwNDNzVzU5ZFB4Vl9EZGRPU0dBR2xMWmhmZ1h1WDMzVmY1Zlp0Z3hnLTZ1Y1N5UE5PRHJvb0RBUlAzRm94RGY5dEI?oc=5"
    },
    {
-    "title": "[특징주] LS ELECTRIC, AI 데이터센터 전력망 투자 기대·수주잔고 7조 육박에 11%대 급등",
-    "src": "와이드경제",
-    "ts": "2026-11-24 13:17",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tMDlieE5BeFg5RXp6WUc2WjJZRDFjRDRsRG90M0x1RGROVE9vcFkzLW9tbnpiNlhkeVdteldwMUdXWG5lZmUtNm1ZWDdGbnRXUmk5LWNqWlhHMzNwbzl6NThsVGxhbTZnSUhpYQ?oc=5"
-   },
-   {
     "title": "[특징주] 네오셈, 반도체 검사장비 공급 계약…주가 7%↑",
     "src": "뉴스드림",
     "ts": "2026-11-24 12:11",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ObWQ1UnBjLTh6MnZNNUxqODdTbGtoRktGdFRIT1B4MUJCalhURzJ0ZGdqaXVHbnZyRFhGbTZMNlM0TGNMYUxiakFMRFpTYjNuWDNUVTZiZFliLW81MUlxa0QtejBVaUtrRE1V0gFuQVVfeXFMUEk1cm5HMHIzM2NfczVDS0RjOWRRSWgtV2hoeWRlc2tVRHJnSC1LMEEwVXpTSGJWY2RMTTJFQkFBLUU3S2FxbjJwcVhXUVhjbnRxeHZ5V0xRZG5IeDA1R0ZQbVdXZ0h0LWo5V1EzSmc?oc=5"
-   },
-   {
-    "title": "[특징주] 레이저쎌, 글로벌 반도체주 랠리 속 HBM 관련주 동반 상승…10.07%↑",
-    "src": "와이드경제",
-    "ts": "2026-11-24 11:33",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9tVUkzSkdGWHpKSXZNQnRZTS1JeEkwRm5CM0N4eUExVzlkSGd2d3dJbFJGM0NNNHZOT0tHTGFqVDRrQTUyVEphbGFpSk1mTW1lUDhSbkZ5Z1BhbEl4R3l6U3ljLW5wOVgtX3NzXw?oc=5"
-   },
-   {
-    "title": "[특징주] 네패스, 온디바이스 AI·반도체 재료 테마 강세 속 10%대 급반등",
-    "src": "와이드경제",
-    "ts": "2026-11-24 11:32",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53VFlOVHYxc3hlUFk3dTVaWDYtMWh5S2dpNncxY1AzTlBWX3liWG9hRUNQOXZVa2RpVjJKVTZSOTFxM2ExODBObW9SRkgyVVRBbDJzUWtJaFdnNEVkMVFXRFppSmNhcWxGZVNDag?oc=5"
-   },
-   {
-    "title": "11월 24일 오전장 특징테마/특징주",
-    "src": "네이버 프리미엄콘텐츠",
-    "ts": "2026-11-24 11:27",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNnB3VmpNMTcwWFZHWXRyeHJSZ1U1UTNkNEhZVjNhNS1GeGFsVmRTNHRjZDZGcjh1dXM0dXRyeUVpS2dsTHpRSjVVUlU3U250NmdHcmFsaVhYbnVWd251RU1YOEdnYTRkcFVlT1o5c2hOSW9fUEFYdnNiOXVIZlZiSkJCQ1ExUnZtYnNV?oc=5"
    },
    {
     "title": "[특징주] 젠슨 황 복귀에 로봇주 '들썩'…현대오토에버 25%↑",
@@ -290,40 +212,16 @@ window.DASH.live = {
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1PcVZ5N2NzSk8tazFDRWNjUTU1bjB0cjZKdFdrTVZfZUJVeEtTQ25lbnk2SzhibnhrZG9NbFNKTFgycUU3Zkc1M3lnT1kyMlFEeXZQTHJnWmRvYjdJU0hLTjdPQzlpbHQwUDBF0gFuQVVfeXFMTUFkYjVFUGYtT3hkUFlfTUstY2ZnQlBtaF9BRVo1RV9VRzQzUG1GX05yRko4UlR4RmpqQkMxTk9NcmJHaUJlRm1vdHBJWk1aaVNHcElERWM0Z1FnRnk3QU11WVJEenZjay01X0dqQkE?oc=5"
    },
    {
-    "title": "[특징주] SK하이닉스, 젠슨황 엔비디아 CEO 복귀 소식 영향 '상승'",
-    "src": "전국매일신문",
-    "ts": "2026-11-24 10:54",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4wWmVpb29YT280Z1hlOHhDSjhhRnpmZms4RWhJeC1XQ0lKdU1NaXk0bXVFRmhCX2ctY3phT3FaTzBlR3RjWDNfaklzcWNZSmNBaFQxQTNGQzVETmF3OHN4NDFQem90bVFFaXlFRHhR?oc=5"
-   },
-   {
-    "title": "[특징주] 엠비디, 코스닥 입성 첫날 -23%대 급락",
-    "src": "전국매일신문",
-    "ts": "2026-11-24 10:51",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9MajJfOWt0LVdwOVJ5WXRLblE1RmRBV2xGWTZ1M2JiLU9ySmtFWHVRSWFVU3hoVnhlai1GOWxiYlRLY096cHkzNjVqaDJvNHRDSTkzNWpwcmp5ZVVjNG00NDhlcWcwakFzak9NMG13?oc=5"
-   },
-   {
     "title": "[특징주] 젠슨 황 복귀에 반도체 소부장株 일제히 '급등'",
     "src": "뉴스핌",
     "ts": "2026-11-24 10:50",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CZ3dGTHhrMURicG9OcExLWEZ4YXNqTnQzZDVreFdjTFZoYnZFMnFnQlhzZnkzbjJ6Z2lENFMxOC1rdW9VWjFuNkd0RFQ3OFB3SG9EbTF3MHUzUGkw?oc=5"
    },
    {
-    "title": "[특징주] 노타, 엔비디아 자율주행 AI 추론 속도 15배 향상에 14%↑",
-    "src": "뉴스핌",
-    "ts": "2026-11-24 10:43",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xeE1aS25ndDRvTFNTc0I2SXpPUko4QjdoejZCYml4eTEzVE9nczVfRG5kamRrRnlSckRoTmR0STd2LTJYaXdmYlNrSU9qWVVoemZnVDhUV1R0cDQ5?oc=5"
-   },
-   {
     "title": "[특징주] LG전자, 젠슨 황 경영 재개에 AI 신사업 기대감 16%↑",
     "src": "뉴스핌",
     "ts": "2026-11-24 10:38",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBCNjJQZ19FLUpqYU1XZ1V5QURzczF5M2FfTG5PaUhLRkJObkkwakRzTG1HV1ZFZlNRN0ZJT01ZRHczd01NSEtTSUdXcndNVHJBSlVnc1VsU0wzclV3?oc=5"
-   },
-   {
-    "title": "[특징주] 젠슨 황 복귀에 증권가 호평까지…삼성전기 등 반도체 기판株 '급등'",
-    "src": "이투데이",
-    "ts": "2026-11-24 10:34",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5jRDBfdzBSeWFwUllheEpyWTRHUktSY2NWWTB1bWwxOWtyRHFENFducWFsVEtfMTQ1WGxxTVhoUUJmZlJFSmpTS0hIcnljSkdST2hoQg?oc=5"
    },
    {
     "title": "[특징주] 엠비디, 코스닥 상장 첫날 공모가 대비 26% 급락",
@@ -338,22 +236,16 @@ window.DASH.live = {
     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB0b1dOQUFoNlV2T2NlWmZ4QUVkM0FIY0ZpNXZFWFJDcG83VWMwUm1kQjZrcFAwa01hTUZfTXdkRmNBb1c3Z2U0TzdVMA?oc=5"
    },
    {
-    "title": "[특징주] 엠비디, 코스닥 상장 첫날 26%대 급락",
-    "src": "한스경제",
-    "ts": "2026-11-24 10:18",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBFLWZxMExWUGxLdXhBcnpaNHh6ZERLMmxjb1FONW9oOWR2OENYYmM2WmdSanN3a3U1NkRWa2dwQTZiZHlDV0pRY0hVVmF1ZmVnMkFCZFl4WmlJeXJwS2ZGdnY2Y1poQUItNlU40gFvQVVfeXFMTmpqVldSVWRHSW9qTmdWdHA0WlZFeXlHWnYzMnV1Vk5WVHZGX2lIZk1YTjUta3ZwSGhvLXRkbjF5aG8zcE45elNzREpfRHpLX2NRVDRtWnEySjRsTzMxZldjUXoybU1HaXJZNi03Rlc0?oc=5"
-   },
-   {
     "title": "[특징주] LG전자, 젠슨 황 복귀에 14% '급등'",
     "src": "아이뉴스24",
     "ts": "2026-11-24 10:04",
     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1oNnNNbTU2Zms1Umg5aS1TOWptcHFaTFdRQ0NtZUhUZks4dlllU2R2aUZza1EtOXFjTXZ1VTRLOE12cGVjTlJDZFZwaw?oc=5"
    },
    {
-    "title": "[특징주] 로봇주, 젠슨 황 엔비디아 CEO 복귀에 일제히 급등",
-    "src": "브릿지경제",
-    "ts": "2026-11-24 10:03",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE44b1BocTM4ZndTM0pmRnd4UC1HdndCNk56SUZCQWYxQUhKQndRaElSRDhjUHdRZHpCdzcyZ2hjSWRIQVNpa3doSThrandMZ1FMVVYtUkZzdVBRQQ?oc=5"
+    "title": "[특징주] 삼성전기, 엔비디아 훈풍에 장 초반 11%대 급등… 86만원 돌파",
+    "src": "Chosunbiz",
+    "ts": "2026-11-24 09:50",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZVpjVDJiLU9sYXZvWGxWaC1fWlAtUkttc2h0Z0NjRDE2eklwc2tkOVVkcXY0SUxtT0xEQXpSSTJTb2tYQW1uWUxOaElRc203OG40aEIxV0I4MUM3X0tfemlibFl2NWZTQUtHQnJ2Y2dQZmZXaUp3cy1mZkdVODdzdmJ4a3RVdU5l0gGcAUFVX3lxTE5nV0k2S1hQQmd1clpSTFBhOFp6OElwd1M5STB5a3VQRW83WWlESkpYemY0LU5MU3dOMDNSZHQ4a1FndnJQWE5rVHBxNFJ0UTY0al9xemhqM21iWFY4SEV3Rzh3ZXhhMkplM0lDbnpYQUtjaFJ5WF8xYndTaW9GUVp6TmhEOHk5UHo3VDhqbkVoT2l2Tl92cEVZNG1fWg?oc=5"
    },
    {
     "title": "[특징주] 젠슨 황 복귀 소식에…반도체 소부장주 ‘강세’",
@@ -362,123 +254,171 @@ window.DASH.live = {
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSVBjRnZqUWNfZmtGOEVCZ0hDOHQ2V05RMWYzYkhZbG1sdDMxa3Z1bWU4YzdMcjRoZ0c5SHpkRFhxM1paTzVwWndfd3psQzl0WDYyNlE3T0FSY0hZcmExeTlHVTZUd2xFR2pyT3c5MGRNejRUNVRzdU4zbmVhTEd0dm41N3RUNHN40gGcAUFVX3lxTE03NGl0UWcza3lqODE5cmdCZVpIcU1teHFJWFB4UHFzczU5SktJSUR1Sl9VX2JzcXpZNVB6VGFOQUV0UzVUU0dUN1hyMGk2SXJNeVRndGpTVmRORE9VRGtpRWFGejNyaHZHRF9KS0t1bW5HbFRMOTZKV3p0dnF1eDJiVkRBblh3akozZVNJVEQ1ZGZ0a3NOYm5YSG5TWg?oc=5"
    },
    {
-    "title": "[특징주] 삼성전기, 엔비디아 훈풍에 장 초반 11%대 급등… 86만원 돌파",
-    "src": "Chosunbiz",
-    "ts": "2026-11-24 09:50",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ1dJNktYUEJndXJaUkxQYThaejhJcHdTOUkweWt1UEVvN1lpREpKWHpmNC1OTFN3TjAzUmR0OGtRZ3ZyUFhOa1RwcTRSdFE2NGpfcXpoajNtYlhWOEhFd0c4d2V4YTJKZTNJQ256WEFLY2hSeVhfMWJ3U2lvRlFaek5oRDh5OVB6N1Q4am5FaE9pdk5fdnBFWTRtX1rSAZwBQVVfeXFMTmdXSTZLWFBCZ3VyWlJMUGE4Wno4SXB3UzlJMHlrdVBFbzdZaURKSlh6ZjQtTkxTd04wM1JkdDhrUWd2clBYTmtUcHE0UnRRNjRqX3F6aGozbWJYVjhIRXdHOHdleGEySmUzSUNuelhBS2NoUnlYXzFid1Npb0ZRWnpOaEQ4eTlQejdUOGpuRWhPaXZOX3ZwRVk0bV9a?oc=5"
-   },
-   {
     "title": "특징주, 삼성전기-온디바이스 AI 테마 상승세에 9.85% ↑",
     "src": "매일경제 마켓",
     "ts": "2026-11-24 09:49",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5ckpnMHBPcGJtMHFQMFRDdGZQd0RGbUlnTklnbE5ZTTBqNFZ5MDBsWHY0eTExdWtxTC1yZ1doMVp6R0c4M09fbmdjcDVLQ2w5NGc?oc=5"
    },
    {
-    "title": "특징주, 대동기어-로봇(산업용/협동로봇 등) 테마 상승세에 5.19% ↑",
-    "src": "매일경제 마켓",
-    "ts": "2026-11-24 09:49",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5HLUtnMU80NlA2cDFUU2NsMUNlMTY2NGpKNXFaVW5nbnpOVUIxVUFKVEpYWVVkNlMzUlpQNUNvaXZtSGduaEtxdmpyaVhxMllLdnc?oc=5"
-   },
-   {
     "title": "특징주, 한일화학-페라이트 테마 상승세에 5.49% ↑",
     "src": "매일경제 마켓",
     "ts": "2026-11-24 09:48",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1DNkc1QVgyeXBhUWFoLVNOMW9DUnlocGNZdVRQSXBIS0gzSkwySElmVERFeU4xSXA5dGh4dkFZQm5DZXUxUzAyVENiQlZUWU1acWc?oc=5"
+   },
+   {
+    "title": "특징주, 삼성전자-뉴로모픽 반도체 테마 상승세에 8.13% ↑",
+    "src": "매일경제 마켓",
+    "ts": "2026-11-24 09:48",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBYX2xla01vd1VEdnd6WHM2eGsyNlY4aXdOdWJTaS1kYWQtaTctRG9tOUZGcnQ1eUZkSE9LajZjQWQ0QXYycGM2Vmp6NFpjMGNXT1E?oc=5"
+   },
+   {
+    "title": "특징주, 미래에셋증권-스페이스X(SpaceX) 테마 상승세에 2.46% ↑",
+    "src": "매일경제 마켓",
+    "ts": "2026-11-24 09:48",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBzLU9FYUxzNEdPeFNndkFNc2RUMFV5aTJjdm1EX1IwNG1zbkoyUTJqREJkYkhPU05OWTBSOTBWbXNJWnh5OGhGSzdMTGJlcXRrZnc?oc=5"
+   },
+   {
+    "title": "특징주, LS-전선 테마 상승세에 5.52% ↑",
+    "src": "매일경제 마켓",
+    "ts": "2026-11-24 09:48",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBjOGZTOU1ncmdLanFBSXp5bEtoRm1SeVBLUUR6N2JzLVRKWWgtTFp1dzlYV0I2bzIyTHNTWUpVVFh6VGxGRC12M2JlbDlRd1VlaHc?oc=5"
+   },
+   {
+    "title": "특징주, 삼성SDI-IT 대표주 테마 상승세에 3.88% ↑",
+    "src": "매일경제 마켓",
+    "ts": "2026-11-24 09:48",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DYms0OGdIZi1JanVqZXctMWpOMjZ1MzFSbUd1X2Y3Rk94djdnbl9ITVdhSGp0ZjhJaWFxdFpMNzlZNkZyOEdMR1hwbzRyZ2dFNFE?oc=5"
+   },
+   {
+    "title": "특징주, 대원전선-전선 테마 상승세에 3.77% ↑",
+    "src": "매일경제 마켓",
+    "ts": "2026-11-24 09:48",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1RRlB3VVhxWGxpazM4eElvQWhXbmlBTzd3QmJTUng5ajlMOXg0OVJva1Zocm1McDZSMF9KWUROVUdqZV90VEVtMVJ0YW50cmFfMXc?oc=5"
+   },
+   {
+    "title": "특징주, GS건설-데이터센터 테마 상승세에 5.19% ↑",
+    "src": "매일경제 마켓",
+    "ts": "2026-11-24 09:48",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAybl92d0hSaVVQTWNZUU1oZTZNMWo4SnBheVpQVFRmcWhWU1Z6VC1SSVhMYXEzTTlNRlk0cm9nY01ZaG8yRy1US0NwTFVyQ3ZYX1E?oc=5"
+   },
+   {
+    "title": "특징주, 코리아써키트-소캠(SOCAMM) 테마 상승세에 9.01% ↑",
+    "src": "매일경제 마켓",
+    "ts": "2026-11-24 09:48",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1iVE5DTW03Tkt5MWhnZUJPRXR2ZzhRRmZZNm1EN09kVEYzRW9NdkItbU5KMGUzVld3R0wyYkJkSG4tRVd1OXBuNTFPZkwyYmlWREE?oc=5"
+   },
+   {
+    "title": "특징주, 국영지앤엠-철도 테마 상승세에 5.15% ↑",
+    "src": "매일경제 마켓",
+    "ts": "2026-11-24 09:48",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBkdnQtY1R4STQwX3ctQU1OS3dweXd0bjZTNEZYTV9MSnRYRUYwYlhHWF9zNWx0emp3aDRGMFotMnpYaVM0UUZ3Rk1iZ09XUFFqcEE?oc=5"
+   },
+   {
+    "title": "특징주, 보성파워텍-전력설비 테마 상승세에 2.9% ↑",
+    "src": "매일경제 마켓",
+    "ts": "2026-11-24 09:48",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5UOFBZQWlQX1ZXVzhsUW0xNjhFSkphTkk1dmkwcF9MM2pnQjFkSFR1VEdxWWxHMmFYN0pyMHE5RE9QVkJhUi1fNVp6eU54WHFabmc?oc=5"
+   },
+   {
+    "title": "특징주, 삼아알미늄-2차전지 테마 상승세에 3.83% ↑",
+    "src": "매일경제 마켓",
+    "ts": "2026-11-24 09:48",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2eW5vcWUzSnBNUnlLWnlnVGhHYVlmUHBrZ290VEF0R2lYcFh6cVRPOXpNQkhHb2pMNVdLY1lrbTVvYzFoZjdhOVkxM3JKSjNxTWc?oc=5"
    }
   ],
   "market": [
    {
-    "title": "'깐부 형' 복귀에 코스피 반색...6%대 급등 마감에 5,000피 탈환",
-    "src": "KBC광주방송",
-    "ts": "2026-11-24 17:00",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9LXzlsZmZWb0FrT0h2VUVaNmtwa3djay1uaW9PVGVKcUt3ek5nV0doZmNhUnNMM3RfaXlvMS0wNU9WZGN2dnZmaGQtZGxHcHZ0YS1kenQtQVMwODlVLUNlNA?oc=5"
+    "title": "\"딴 나라는 폭등인데\"...'탈출' 노리는 개미들, 5000선 복귀에도 실망 - 머니투데이",
+    "src": "머니투데이",
+    "ts": "2026-11-25 03:46",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBNM0l3TV9WMHRZVTFEVzNUMEJ5MENjM0w1VGppamwyT3VudGw2OW9pajZCQWNjR2F1QnRKTXVKaDRIbkdiYnctNFdyWjM4YmozRFFhLUZvZ29fdjd2QUZqc25rc0Q2Rl9n0gFuQVVfeXFMTS1NWWJPRUVMdnZWZEotYjlyU2taVHZpRTNzRVR6VjZLQmRNbUZtbjl0QllSWkJVV3E1LS0yaVVfbF9wNXVYem5naEV3WldwMl9fcmVvN0JxZWpPcC1BelJhUHAtbExsQ2RFckd5dWc?oc=5"
    },
    {
-    "title": "“젠슨 황 복귀” 엔비디아 31% 폭등…코스피 6.32% 급등해 5000선 탈환",
-    "src": "디지털데일리",
-    "ts": "2026-11-24 16:58",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zSzFKMmd3TlBmMTRFRFc5aWg4QUNNS01vcmhRSTlibGFORGs4UWdPRzE4SG9adDJadVM2WXR4UV9fZVg4Q2MzTE5PQWVMa3B6M3B3R016dC1ZVWNxZ2xuVEpn?oc=5"
+    "title": "코스피 야간선물 7% 점프…美 '젠슨황 복귀랠리' 동반급등 - 머니투데이",
+    "src": "머니투데이",
+    "ts": "2026-11-25 02:13",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1PYW1qdkppWEdmVzNYRlhDSGlCZEc1ZW1RdnBHRF9Ld2xFN2stSnVIeGtldnVTSXZFOU4yRTREYm14YzhPWWZ0cUFyQ21EQXZLRVZxQjdDdDhqY25qUXlEOGw3aHlpQU940gFuQVVfeXFMTTYycjVINnBwdXhwNTBzRjB1R3hRcU5XT21FUHpGXzVGMkp6TjBVZkZJM1dkX2Zxa0E0UWtrZUU3R1dZR29OdXBhNERfX1lJTTJLbU5zQkUzaDJpVnNtaDNEN3VuVXVDSllxanUwRnc?oc=5"
    },
    {
-    "title": "젠슨 황 복귀에 코스피 6.32% 급등… 양 시장 매수 사이드카",
-    "src": "www.theconnectmoney.com",
-    "ts": "2026-11-24 16:40",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBsUUpPTzNfV01hRTFBU1dJYmZERzg0RC1QSkVBNFlqaXc0V3gtYi1FOGpxTGx2WjFsTDQzNDFCb3dZNkMtN3lrbHlDM0lEUGlSWVVNbFRyUXpYelJ3UGZndw?oc=5"
-   },
-   {
-    "title": "'젠슨 황 어게인' 코스피, 6% 급등하며 5000선 탈환 [뉴시스Pic]",
-    "src": "뉴시스",
-    "ts": "2026-11-24 16:39",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Zajdna3RPejZraGl1dkI4TnhqQ0ppVElVZ0d1Z3dqNEkzaEI0ZXRONDNUcXVXM1NrLUZxOUZBczhVU041YmRSZF93a1VRQXlqYWJhclhHYkt3SWZLTGFOS9IBeEFVX3lxTFBGbGs1YUtqOTU3U3pHM0J5OFB1UzlNVlNQWFQwa2tfRGhMRkt4SHN0MV9Tc3B6R2xJdDFPMnZ6UXNOcS1sSW9HbHdtdWVSalk5S1NkczJ4QmZESVlaZDk5THpiUFotYXN2MUVqZGZFU0NyeDFhTnBWQw?oc=5"
-   },
-   {
-    "title": "돌아온 '젠슨 황', 돌아온 '5000선'... 코스피 6.32% 급등",
-    "src": "OhmyNews",
-    "ts": "2026-11-24 16:32",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE00YTFrbVd0a05yWGdIX3RqOHEyUVBqRU9feHQwQzhTNmhBRFlKNDZWbVFQN21yY25JQlpaV0tmcmltSUNhMmtrcndmZVJISmR4aldmSXJzWFJodlhqbFNLNHBkVWtnc3dfWDJ2dXJ2QmZaMXlKUjVZ?oc=5"
-   },
-   {
-    "title": "코스피, 젠슨 황 복귀에 6%대 급등 마감···3거래일 만에 5000선 회복",
-    "src": "서울파이낸스",
-    "ts": "2026-11-24 16:31",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBPN3hXMnpYdC1QNkxjQXYxemdjOFhPMzBFTTg2RGRUSDkwOVhaZDRYWWRqNE1qN2tzS0h0Ulp0V2g2TWVENmpZYWt6TnYweGxjWmpLeVJ3YjhsWE5hbzR0T1RrZS1lZFI3RXc?oc=5"
-   },
-   {
-    "title": "코스피, 젠슨 황 복귀에 6.32% 급등…3거래일 만에 ‘5천피’ 탈환",
-    "src": "산경투데이",
-    "ts": "2026-11-24 16:30",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04bEZXMnFWdWZGQjNPak0xNDhPMlNrelZUOGM4S3Z6a1lRcUZxX29vNXBiRXI1SDlwNGRrZXZ6NUd4QWM4RHh0Y0otemFra0VtSUs4d3U5R3FWWXdrTlVjdWhwT2xvM1pqZm95U2N4NmrSAXRBVV95cUxQVTVtUlpzN0JTRm1mWnBET0p2aEZWZlBMZWZFYWJOemhqRU1ycG9xQy04V1NVWElfTTlMS3AxdFo1cG96bjE0WGxFY2MwdmswNkM1NWY0dERBQWRoY2hManc0Sm9DRUVXOV9TaGw4TXhXeVFPbQ?oc=5"
-   },
-   {
-    "title": "젠슨 황 복귀에 코스피도 5000선 회복…6.32% 급등",
-    "src": "시사저널",
-    "ts": "2026-11-24 16:30",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5LTGVNUE5WTmdVNzN3MDI5dXlJWjZFbHVhRU5ReWhJTmRxcXUxOFo3SUZyd01va05MemFrdlU0dDgwSUhkQ2diWFpJT0lNZk1pRndvM0JaLUVYUVF0dGt6NEJ5c0dkN0xBaWJ4TzBRa9IBc0FVX3lxTE9nNWlIeWxmYWFSQlN5NHE4NEpDYS1ocy1RWS1XRWd6OU00djNCQ29sWlhCMDVNRFVzMEhjOUQ1dFlWcWZRdnJlTk9iNkdBVmp0VTkxOUpLZ290WGkxRVh0Ry1ISjRvcEdKbl9PcDZ3TV9ZOVk?oc=5"
+    "title": "\"주식앱 지웠다\" 손 놓은 개미, 손 쓰는 정부…10조 증안펀드 통할까 - 머니투데이",
+    "src": "머니투데이",
+    "ts": "2026-11-25 01:16",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9fZVdvRHotdUh6OW5aM1pOR1p5cGY3MG9ybmRpZ2hRalV3RFhueG9US3NSSXNzYW10U283UDVPb0xaUEVGTjhqbktaRkM1RkJjYUNacVhpbGl4WmtSbFBVQ1ZlMHZSUUd10gFuQVVfeXFMUFpCSWlqRW5kd0p1WHhVZDQtcERkX2pJLWh6cnZKTjdCZ1M2TTdRSC03TVpDZVgxSVdIUUNfZlRTRGdWLUVTSzdkZ2FHZ3oyMThyY1ZWSDhldkJIVDJYWTMyVzdHRHRhYU0yd2ZKb2c?oc=5"
    },
    {
     "title": "6% 급등한 코스피 5000선 턱걸이…“젠슨 황 복귀는 단기 호재”",
     "src": "한겨레",
-    "ts": "2026-11-24 16:30",
+    "ts": "2026-11-25 00:39",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zTHl0WU42UDJoSncycGg1Rm93OTdldkpHZXRIUGFHOFo5dmhhWVZHYmg3Rjd4bnltMXFJNm9JeFdjR0g4NmhfUmRVSzVGeFptVkJsX1FGSDBxM2hNcEpaWlFhQlllcGc?oc=5"
    },
    {
-    "title": "日증시, 젠슨황 복귀 소식에 급등…닛케이지수 3.9%↑(종합)",
-    "src": "연합뉴스",
-    "ts": "2026-11-24 16:23",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0wUUlnZndaSGxldk5RbTltdjZBMmNIMjlYaTFjbVVzOTh1dzY2Q0dMa1l2OFpHaV9aNDR6TkN4eldBWHB4ZlNyNm1ORXB3ZVFLX0R3d1gtSG5nMVnSAWBBVV95cUxPRWdiTkdjR1UwUjA0OXAyTlp2aGRyaE1XbFZkX2U3aXJVbkVHMzc1TFNqanl2cExhUk9FR202MV9UN1ByUXZZLTFELXMtWjZ0SEFtUlV2NXJTcmYyQzVSMmo?oc=5"
+    "title": "‘젠슨황 복귀’에 코스피 6%대 급등…‘5000피’ 탈환",
+    "src": "경상일보",
+    "ts": "2026-11-25 00:00",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsMTFZd3NoaVFWT3JQRVZobDByWjU0NW5FdXpOVG9DM2t6VFc4R2lKNnZzNFZNTkoyMU1kMThiQ2d0aC0yeUFxREg4dVZ3cldzaXJycmN5MmZlcW1GdXhDZjd0YW8yWHhNZDhMRw?oc=5"
    },
    {
-    "title": "젠슨 황 복귀에 반도체 훈풍…코스피 6% 급등, 5000선 탈환",
-    "src": "경향신문",
-    "ts": "2026-11-24 16:22",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFByandSMWZDb0NkUmhORm1JSFIxcFNZbEY4QjVMZERWTmduMC1ZbzJWeWY2SWtSbVQ4a0M0c3F1bW1mYUhYc3I4WmRmcUt6UlR1VHJIR3BxRjJfdw?oc=5"
+    "title": "젠슨 황 11일 만의 귀환…엔비디아 급등, 한국 증시에 가져온 건?｜빽투빽",
+    "src": "JTBC",
+    "ts": "2026-11-24 22:11",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE53MHJhWmE2Y1NXQ25MNEFxMEdKX1NIXzJPODZXUklWeUxoa1AwZEZmOGtfODNDaVdCWl9NSWp6TEdITnpoOE82ZUZqMFhCQWM1VlE?oc=5"
    },
    {
-    "title": "젠슨 황 복귀에 '삼전닉스' 급등…\"최악은 반영, 숙제는 그대로\"",
-    "src": "마켓인",
-    "ts": "2026-11-24 16:20",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5GazI3UjZxNEZiaDhuU3BVQkRZVU9uSUhyc0lSY2tCRW5iVklYTlVPQlB3enI5Ui1KRVUzY280ei11c0hpenJzT1JlVXo2Z1RJbldXVEZDdHdPYW5lZnpxQ3FzVkZ4dk5uSzFaSFg2WXRPaUE?oc=5"
+    "title": "‘명픽’ 이광수의 ‘코스피 5000 붕괴 눈물’...그 영상 공유한 조국",
+    "src": "경기일보",
+    "ts": "2026-11-24 22:02",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mT1YxT20zUkpCcmJobTdVSmFsc0V2QkpWS1dDRTdORVVrZG42NERNY0tFSmNvN1FkS21GZTYzNVkzRFpWM1E0RmtfWlVKanR0aXZieVdmT1VPYms?oc=5"
    },
    {
-    "title": "[일본 증시] 닛케이, 젠슨 황 복귀 소식에 4% 가까이 급등",
-    "src": "뉴스핌",
-    "ts": "2026-11-24 16:20",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5vVHZ0QzRTMktGVkRmTlNTSUVROU1JNUZlZ1o1LVZTcDBTa0JjMENJblQ0RFpuZEwyYlhLdndycG9Md3BkSW9MaGQ2dkRiRXlDc05ZUTNZTTViOVAx?oc=5"
+    "title": "젠슨 황 복귀에 코스피 급등…5천선 회복",
+    "src": "KBS 뉴스",
+    "ts": "2026-11-24 21:03",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rTTlUWXByRUhyOG0wWW1YMHZTd2VRdGw1XzhfM0g4R1RQTmV5M3k2WTItU09fWVJyUjVRdUFaQ3EyZEJBWmp6RFBHVEpOSWxuNUt3V3ZXeEZFSHRibnIzb3h3TThHQQ?oc=5"
    },
    {
-    "title": "코스피, 젠슨 황 복귀에 6% 급등…3거래일 만에 5000 회복",
-    "src": "서울경제TV",
-    "ts": "2026-11-24 16:19",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5CODM5OW5aZERneVJYVWZRb2xHNm92c2h2ZkdFOEtoUmtQQTJ4WEhMU0F4NDFmT1E1bVlXTnNEZE1Sb0E1NGp3eVVEZjdJNkdocDFOTHQzRHJNRUJJQXlPeGVDUEE?oc=5"
+    "title": "젠슨황 복귀 훈풍에 코스피 급등…5,000선 회복",
+    "src": "연합뉴스 한민족센터",
+    "ts": "2026-11-24 19:16",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kRE8tTmNmRm5fNFA3WTllUUppVEd2RHNteXctSDJCOVFqaS11R1hITjdhV194aFZqcl9YaHdzMnFYejI3UmN5TzRlS1pROXZ2TktCS0dlZDJMR2FySFNqS3YyMG5DT0NvU0l6eEx2dW1JRmZm?oc=5"
    },
    {
-    "title": "젠슨 황 복귀에 美증시 급등… 'AI 랠리 재점화'냐 '일시 반등'이냐",
-    "src": "한국일보",
-    "ts": "2026-11-24 16:18",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzUDV0REo4MkZ2d1lPZzdpZFdaSnRCZWxEN1N3ZUZqR1NBbnhsdVFQOGNTalZ0aHNDQWRvWFJoZmNfUzFrVW04cnJoSzlNakszXzVBT2pCbkdBQ3hFRVV3VlBOZUgwXzAzTW0yVW5R0gFzQVVfeXFMT0hJYkxWSVBjMksxSGpMbnVPcUFJMmFhNFVMN2llSkpQSnZGZ3FaMUFJeUNDYWNvblR6ZkJBelA5T0RvbUZsdVBJQ1Y5V2llTUF4Zlg1VW9zSnk5QWhFbzFPQ1N1cDBkNGd0SF8ybjR1VlRsaw?oc=5"
+    "title": "[亞증시-종합] 젠슨 황 복귀에 日·臺↑…中 혼조·홍콩↓",
+    "src": "연합인포맥스",
+    "ts": "2026-11-24 19:15",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE83QnJuejhCYUoxV2I0dnB5RDJkVmM2UHg0ejVqRk5WdWRjQ1ViU3ZOVzV0ZkI4RnZHVGxhUmljdWZ5SncwbGpqSGRrcERlTG5HYVdmVHQ0SEpYbElWNkhXd3dwTTh0V3J5QVhBS3BzWkI?oc=5"
+   },
+   {
+    "title": "[중국증시-마감] 젠슨 황 복귀에도 美 반도체 규제 우려에 혼조",
+    "src": "연합인포맥스",
+    "ts": "2026-11-24 18:15",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE53MkNONjA1UmJPOTIwVjVlWDR5Z2wzMWpEaTNzRFR0MzhxMkZTTUUwbkc4NGZSWlRaX2pmNzhDRkpFbmlESVBhNk55VWUzTWFuZHkyWXRydU0wcG9vdkVUODFaTUtFcTAycUY3SVpveHE?oc=5"
+   },
+   {
+    "title": "[더나은미래 경제브리핑] 젠슨황 복귀 엔비디아 31% 폭등…코스피 6%대 급등…서울 오피스텔 매매가 22개월만에 주춤…전월세는 상승 지속…‘우주 고속도로’ 넓히는 우주청",
+    "src": "더나은미래",
+    "ts": "2026-11-24 18:07",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1VV2d3LURyZnhEUmE2QXlDWEFsakNrUXRiR3FDWERrMmNZNC1JQmJmQU90MmxEVjZZdFIxM1Q1UXg0N0ttMlhieXB5NGxadHg4Unc?oc=5"
+   },
+   {
+    "title": "황 CEO 복귀에 증시 급등…연준 윌리엄스 금리 발언 주목",
+    "src": "Investing.com 한국어",
+    "ts": "2026-11-24 18:06",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5vUURmeURQbTZGeEl3X09IVU5rTXRlM1RiY1ZvaTQ2RjVnRzROLTBoSU9IdGZVNFN0b3hxVTEwTnVWSUhQMUU0ZzlXRUc0VXJMbFJNSzdSZ3V2SF9YcnAwZWZJNk1sRkctQVE?oc=5"
+   },
+   {
+    "title": "코스피 젠슨황 복귀에 6% 급등…5,000선 마감",
+    "src": "연합뉴스TV",
+    "ts": "2026-11-24 17:54",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1JT1VyYWpXdmlaWm9BRkpGS041NGpsTUplaHQtLWRDUjlzQ3VWQ1B2R2c2bnVadG5RSWZNRTRNTi1NM1YzSGVaaUZ0c2NFeVRZbUZqX0FBQlBUbDlxUkhXTnZaT1Q3S3M?oc=5"
+   },
+   {
+    "title": "[마감시황] 젠슨 황 복귀에 웃은 코스피…하루 만에 5000선 탈환",
+    "src": "한양경제",
+    "ts": "2026-11-24 17:50",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDeUhzcko0UUl5dmpVMlgyN0dOZ2ROMW5KeWtBNG5OcFBfQ2puVThYcmFiNk85a3NRM29GclZUb0U3c2VZQWpXUk11ajBqdVpqeTEzb1RYT0tubXV2bEtZanE0ZzAtdm9ZOUxzMUxkdlhEQQ?oc=5"
    }
   ],
-  "newsAsOf": "2026-11-24 17:07",
+  "newsAsOf": "2026-11-25 03:51",
   "gainers": [
    {
     "code": "129920",
