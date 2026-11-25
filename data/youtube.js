@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-25 20:12",
+ "asOf": "2026-11-26 06:37",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[11월26일 #장시작전] “급락하던 뉴욕증시 극적인 반전!” 낙폭 대부분 만회하고 앤트로픽도 반등 성공… AI 반도체 투매 진정될까?",
+     "publishedAt": "2026-11-26 06:29",
+     "url": "https://www.youtube.com/watch?v=X-G9y5hTvf8"
+    },
     {
      "title": "[#찐시황] “삼성전자 7만 원 공포에 잠 못 드는 투자자들!” 나스닥 선물 급락, 내일 증시 어떻게 대응할까?  | 이지환 대표",
      "publishedAt": "2026-11-25 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급시황] “사이드카 올해만 102번!” 비정상적인 변동성… 한국증시에 무슨 일이 벌어지고 있나? | 박근형 부장",
      "publishedAt": "2026-11-25 16:30",
      "url": "https://www.youtube.com/watch?v=xLCKUuIIvnk"
-    },
-    {
-     "title": "“삼성전자·SK하이닉스 또 주가폭락!” 주가의 발목을 잡는 진짜 원인은 ‘이것’… 해결될 때까지 현금을 지켜야 하는 이유!ㅣ이주현 대표",
-     "publishedAt": "2026-11-25 15:30",
-     "url": "https://www.youtube.com/watch?v=wIPqelOmsEA"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "AI로 종목 추천받기 전, 꼭 바꿔야 하는 설정",
+     "publishedAt": "2026-11-25 23:40",
+     "url": "https://www.youtube.com/watch?v=cFiqOYq4ltE"
+    },
+    {
+     "title": "이재용이 휴머노이드에 승부 거는 진짜 이유(+수혜주)",
+     "publishedAt": "2026-11-25 22:40",
+     "url": "https://www.youtube.com/watch?v=LTKaAXoUUUc"
+    },
+    {
+     "title": "역대 코스피 폭락장을 보면 지금 시장을 다르게 봐야 하는 이유",
+     "publishedAt": "2026-11-25 22:00",
+     "url": "https://www.youtube.com/watch?v=Md6j6vfJfIQ"
+    },
+    {
+     "title": "블랙컴뱃이 주식시장에 상장하는 진짜 이유",
+     "publishedAt": "2026-11-25 21:40",
+     "url": "https://www.youtube.com/watch?v=84Gb9pqjqzs"
+    },
+    {
      "title": "\"폭락·폭등 반복하는 지금\" 투자자가 가장 먼저 확인해야 할 3가지",
      "publishedAt": "2026-11-25 19:40",
      "url": "https://www.youtube.com/watch?v=Pys7s6zYNGs"
-    },
-    {
-     "title": "금융위기보다 빠르게 폭락한 코스피, 지금 시장을 다르게 봐야 하는 이유",
-     "publishedAt": "2026-11-25 19:30",
-     "url": "https://www.youtube.com/watch?v=WfkpXSP7l0U"
-    },
-    {
-     "title": "12월 증시가 지금과 다를 수 있다는 3가지 이유",
-     "publishedAt": "2026-11-25 17:40",
-     "url": "https://www.youtube.com/watch?v=Jo_k2AEE3p0"
-    },
-    {
-     "title": "젠슨 황이 돌아왔는데도 월가가 AI 주식을 팔아치우는 진짜 이유",
-     "publishedAt": "2026-11-25 17:30",
-     "url": "https://www.youtube.com/watch?v=jjvLEdN6op4"
-    },
-    {
-     "title": "12월 31일까지, 148만원 받을수 있는 'IRP' 계좌 정체",
-     "publishedAt": "2026-11-25 15:40",
-     "url": "https://www.youtube.com/watch?v=SfkaTmBt6uk"
     }
    ]
   },
@@ -136,6 +136,11 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
+    {
+     "title": "끝이 안보인다. 오늘 또 터진 AI 악재들.. 그리고 반전도?",
+     "publishedAt": "2026-11-26 03:24",
+     "url": "https://www.youtube.com/watch?v=LZitYYewUsM"
+    },
     {
      "title": "젠슨황 컴백에도 망한 증시? #코스피 #젠슨황 #앤트로픽",
      "publishedAt": "2026-11-25 14:49",
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "젠슨황 복귀 비하인드와 역대급 폭등해버린 나스닥 ㄷㄷㄷ",
      "publishedAt": "2026-11-24 03:09",
      "url": "https://www.youtube.com/watch?v=pWQAGKb4oVE"
-    },
-    {
-     "title": "황어게인! 젠슨황 엔비디아 CEO 복귀",
-     "publishedAt": "2026-11-23 23:35",
-     "url": "https://www.youtube.com/watch?v=xR0JaJwgSa0"
     }
    ]
   },
@@ -168,6 +168,11 @@ window.DASH.youtube = {
    "channelId": "UCC3yfxS5qC6PCwDzetUuEWg",
    "handle": "@sosumonkey",
    "videos": [
+    {
+     "title": "갑자기 생필품 패닉 바잉에 들어간 미국인들? 음모론일까 경고 신호일까",
+     "publishedAt": "2026-11-25 20:54",
+     "url": "https://www.youtube.com/watch?v=FoZGuT5uAO4"
+    },
     {
      "title": "결국 증시 바닥은 트럼프의 입에서 나온다? 트럼프 1기 평행이론 적중할까",
      "publishedAt": "2026-11-24 19:09",
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "AI 끝판왕 앤트로픽 사려고 다른 주식 매도 중? 역대 IPO 패턴 반복될까",
      "publishedAt": "2026-11-18 20:40",
      "url": "https://www.youtube.com/watch?v=Z4fzVAS4KCc"
-    },
-    {
-     "title": "중간선거 끝나자마자 태세전환하는 연준? 2018년 연말 쇼크 재현될까",
-     "publishedAt": "2026-11-17 21:08",
-     "url": "https://www.youtube.com/watch?v=MQ8gneRrYuw"
     }
    ]
   }
