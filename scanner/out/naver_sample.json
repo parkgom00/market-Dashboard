@@ -450,25 +450,5 @@
    "accumulatedTradingValueRaw": "38270000000",
    "marketValueRaw": "8839027495200"
   }
- ],
- "industryGroups": [
-  {
-   "no": 308,
-   "name": "인터넷과카탈로그소매",
-   "totalCount": 6,
-   "changeRate": "9.05",
-   "riseCount": 2,
-   "fallCount": 4,
-   "steadyCount": 0
-  },
-  {
-   "no": 287,
-   "name": "소프트웨어",
-   "totalCount": 76,
-   "changeRate": "8.95",
-   "riseCount": 31,
-   "fallCount": 37,
-   "steadyCount": 8
-  }
  ]
 }
