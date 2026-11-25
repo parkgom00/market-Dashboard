@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-25 10:55",
+ "generatedAt": "2026-11-26 01:44",
  "events": [
   {
    "date": "2026-01-01",
@@ -659,12 +659,6 @@ window.DASH.calendar = {
    "title": "삼성바이오로직스 실적 발표 (예정)"
   },
   {
-   "date": "2027-01-20",
-   "type": "earnings",
-   "market": "US",
-   "title": "넷플릭스 실적 발표 (예정)"
-  },
-  {
    "date": "2027-01-26",
    "type": "earnings",
    "market": "US",
@@ -880,6 +874,12 @@ window.DASH.calendar = {
    "type": "earnings",
    "market": "US",
    "title": "엔비디아 실적 발표 (예정)"
+  },
+  {
+   "date": "2027-02-26",
+   "type": "earnings",
+   "market": "US",
+   "title": "델 실적 발표 (예정)"
   },
   {
    "date": "2027-03-01",
@@ -2945,7 +2945,7 @@ window.DASH.calendar = {
    "market": "US",
    "title": "델 실적 발표",
    "result": [
-    "EPS 예상 $6.41"
+    "EPS 실제 $9.16 (예상 $6.55) · 서프라이즈 39.85%"
    ]
   },
   {
@@ -3232,7 +3232,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 서비스업 PMI",
    "time": "22:45",
    "result": [
-    "이전 54.7"
+    "예상 54.7 · 이전 56.1"
    ]
   },
   {
@@ -3416,7 +3416,7 @@ window.DASH.calendar = {
    "title": "미국 근원 PPI",
    "time": "21:30",
    "result": [
-    "이전 5.0%"
+    "이전 0.3%"
    ]
   },
   {
@@ -3426,6 +3426,26 @@ window.DASH.calendar = {
    "title": "마이크론 실적 발표",
    "result": [
     "EPS 예상 $37.95"
+   ]
+  },
+  {
+   "date": "2026-12-16",
+   "type": "econ",
+   "market": "KR",
+   "title": "한국 실업률",
+   "time": "07:00",
+   "result": [
+    "이전 2.5%"
+   ]
+  },
+  {
+   "date": "2026-12-16",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 소매판매",
+   "time": "21:30",
+   "result": [
+    "이전 0.5%"
    ]
   },
   {
@@ -3455,6 +3475,15 @@ window.DASH.calendar = {
    "title": "JP모건 실적 발표",
    "result": [
     "EPS 예상 $5.94"
+   ]
+  },
+  {
+   "date": "2027-01-19",
+   "type": "earnings",
+   "market": "US",
+   "title": "넷플릭스 실적 발표",
+   "result": [
+    "EPS 예상 $0.67"
    ]
   },
   {

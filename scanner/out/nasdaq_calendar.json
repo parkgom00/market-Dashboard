@@ -2244,9 +2244,9 @@
   "level": "earnings",
   "kind": "earnings",
   "note": "",
-  "epsForecast": "$6.41",
-  "eps": "",
-  "surprise": ""
+  "epsForecast": "$6.55",
+  "eps": "$9.16",
+  "surprise": "39.85"
  },
  {
   "date": "2026-11-24",
@@ -2589,9 +2589,9 @@
   "title": "S&P글로벌 서비스업 PMI",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "54.7",
   "actual": "",
-  "previous": "54.7"
+  "previous": "56.1"
  },
  {
   "date": "2026-12-03",
@@ -2868,7 +2868,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "5.0%"
+  "previous": "0.3%"
  },
  {
   "date": "2026-12-16",
@@ -2880,6 +2880,26 @@
   "epsForecast": "$37.95",
   "eps": "",
   "surprise": ""
+ },
+ {
+  "date": "2026-12-16",
+  "time": "07:00",
+  "title": "한국 실업률",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "2.5%"
+ },
+ {
+  "date": "2026-12-16",
+  "time": "21:30",
+  "title": "미국 소매판매",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "0.5%"
  },
  {
   "date": "2026-12-17",
@@ -2932,6 +2952,17 @@
   "kind": "earnings",
   "note": "",
   "epsForecast": "$5.94",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2027-01-19",
+  "time": "",
+  "title": "넷플릭스 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "",
+  "epsForecast": "$0.67",
   "eps": "",
   "surprise": ""
  },
