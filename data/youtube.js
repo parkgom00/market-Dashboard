@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-24 23:48",
+ "asOf": "2026-11-25 09:38",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[11월25일 #장시작전] “젠슨 황 복귀 효과 벌써 끝났나?” 엔비디아 6% 급락·앤트로픽 공모가 붕괴… AI 버블 우려 재점화!",
+     "publishedAt": "2026-11-25 06:30",
+     "url": "https://www.youtube.com/watch?v=6eBfMjQ1lBM"
+    },
     {
      "title": "[#찐시황]  “다섯 번이나 바닥에 속았다!” 코스피 5,000 탈환에도 불안한 개미들… 이번 반등은 정말 다를까?  (삼성전자)  박현상 이사",
      "publishedAt": "2026-11-24 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급인터뷰]  “젠슨 황 복귀에 미국 반도체주 대폭발!” SK하이닉스 ADR 20% 폭등에도 삼전·하닉이 못 오르는 진짜 이유!ㅣ최창규 이사,김상율 본부장",
      "publishedAt": "2026-11-24 16:00",
      "url": "https://www.youtube.com/watch?v=fmdJk4Xhl3Y"
-    },
-    {
-     "title": "“코스피는 이미 최악의 실적까지 반영했다!” 다음 상승 사이클을 준비하는 AI 반도체주… 미리 선점해야 할 ‘이 주식’ㅣHSL파트너스 이형수 대표",
-     "publishedAt": "2026-11-24 15:00",
-     "url": "https://www.youtube.com/watch?v=slZsjoZ98VU"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) 변동성 장세가 나타나는 이유는?",
+     "publishedAt": "2026-11-25 06:23",
+     "url": "https://www.youtube.com/watch?v=3M6IiY1b2Xc"
+    },
     {
      "title": "(반도체) 과연 지금이 바닥인가?",
      "publishedAt": "2026-11-24 15:30",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(주간시황) AI의 종말인가? 아니면 분할매수 기간인가?",
      "publishedAt": "2026-11-22 20:55",
      "url": "https://www.youtube.com/watch?v=C2L3gUBS4d0"
-    },
-    {
-     "title": "(엔비디아) 지금 담을때 vs 관망할 때?",
-     "publishedAt": "2026-11-22 10:19",
-     "url": "https://www.youtube.com/watch?v=W6YAogb0OYc"
     }
    ]
   },
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "11월 25일 오늘 코스피 어떻게 흘러갈까?",
+     "publishedAt": "2026-11-25 08:04",
+     "url": "https://www.youtube.com/watch?v=2tbcTL2U5eM"
+    },
+    {
+     "title": "11월 25일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-11-25 07:10",
+     "url": "https://www.youtube.com/watch?v=GGpEAVRIHIM"
+    },
+    {
      "title": "2027년 전망' 앞으로 주목해야 할 10가지 주요 테마",
      "publishedAt": "2026-11-24 23:30",
      "url": "https://www.youtube.com/watch?v=REkQlozo9fc"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "주식 투자자라면 꼭 설정해 둬야 할 'GPT 자동 알림 기능'",
      "publishedAt": "2026-11-24 22:10",
      "url": "https://www.youtube.com/watch?v=iLvXbnBMvlY"
-    },
-    {
-     "title": "저점 매수 기회를 놓친 투자자가 지금 가장 먼저 해야 할 일",
-     "publishedAt": "2026-11-24 22:00",
-     "url": "https://www.youtube.com/watch?v=3qCfuEK7mtE"
-    },
-    {
-     "title": "코스피 회복 1일차, 5500쯤에서 고비 올 수 있다는 이유",
-     "publishedAt": "2026-11-24 21:10",
-     "url": "https://www.youtube.com/watch?v=B6Xzl1YfuBU"
     }
    ]
   },
@@ -136,6 +136,11 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
+    {
+     "title": "나스닥 뒤흔든 트럼프 관세전쟁은 젠슨황 때문?",
+     "publishedAt": "2026-11-25 00:32",
+     "url": "https://www.youtube.com/watch?v=zl5hWbAeUBU"
+    },
     {
      "title": "젠슨황 CEO 복귀! 리스크도 있다?! #젠슨황 #엔비디아 #코스피",
      "publishedAt": "2026-11-24 14:23",
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "코스피 오후에 반등한 이유 #코스피 #젠슨황 #앤트로픽",
      "publishedAt": "2026-11-23 16:20",
      "url": "https://www.youtube.com/watch?v=ZiQFUx5YcmE"
-    },
-    {
-     "title": "AI 버블 붕괴가 금융위기로 이어진다???",
-     "publishedAt": "2026-11-22 23:47",
-     "url": "https://www.youtube.com/watch?v=ecUIGwLMhfc"
     }
    ]
   },
