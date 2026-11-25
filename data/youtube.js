@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-25 09:38",
+ "asOf": "2026-11-25 20:12",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,29 +9,29 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
-     "title": "[11월25일 #장시작전] “젠슨 황 복귀 효과 벌써 끝났나?” 엔비디아 6% 급락·앤트로픽 공모가 붕괴… AI 버블 우려 재점화!",
-     "publishedAt": "2026-11-25 06:30",
-     "url": "https://www.youtube.com/watch?v=6eBfMjQ1lBM"
+     "title": "[#찐시황] “삼성전자 7만 원 공포에 잠 못 드는 투자자들!” 나스닥 선물 급락, 내일 증시 어떻게 대응할까?  | 이지환 대표",
+     "publishedAt": "2026-11-25 20:00",
+     "url": "https://www.youtube.com/watch?v=ONjSzAO4jJw"
     },
     {
-     "title": "[#찐시황]  “다섯 번이나 바닥에 속았다!” 코스피 5,000 탈환에도 불안한 개미들… 이번 반등은 정말 다를까?  (삼성전자)  박현상 이사",
-     "publishedAt": "2026-11-24 20:00",
-     "url": "https://www.youtube.com/watch?v=YFhKPs_gm9Q"
+     "title": "[#긴급시황] “삼성전자·SK하이닉스 10% 폭락!” 과도한 공포인가, 지금이라도 탈출해야 할 신호인가? ㅣ이주연 대표",
+     "publishedAt": "2026-11-25 18:30",
+     "url": "https://www.youtube.com/watch?v=i8ZbqPhfALg"
     },
     {
-     "title": "[#긴급시황] “지금 팔지 말고 ‘여기’까지 기다려라!” 현금 확보 타이밍과 다음 상승장을 이끌 로봇주  ㅣ 김민수 대표",
-     "publishedAt": "2026-11-24 18:30",
-     "url": "https://www.youtube.com/watch?v=_as5avhckoM"
+     "title": "[#긴급인터뷰] “지금은 없어서 못 파는데 2028년엔 이익 반토막?” 삼성전자·SK하이닉스 주가 급락하는 진짜 이유! ㅣ유니스토리자산운용 김장열 센터장",
+     "publishedAt": "2026-11-25 17:30",
+     "url": "https://www.youtube.com/watch?v=7vmVkQ6U4yA"
     },
     {
-     "title": "“살아남아야 다음 상승장에서 돈 번다!” 생존을 위한 매수 전략  / 삼성전자·SK하이닉스 장기투자하면 돈 벌 수 있는 주가 | 황유현 팀장",
-     "publishedAt": "2026-11-24 17:00",
-     "url": "https://www.youtube.com/watch?v=lIqcJgyStS8"
+     "title": "[#긴급시황] “사이드카 올해만 102번!” 비정상적인 변동성… 한국증시에 무슨 일이 벌어지고 있나? | 박근형 부장",
+     "publishedAt": "2026-11-25 16:30",
+     "url": "https://www.youtube.com/watch?v=xLCKUuIIvnk"
     },
     {
-     "title": "[#긴급인터뷰]  “젠슨 황 복귀에 미국 반도체주 대폭발!” SK하이닉스 ADR 20% 폭등에도 삼전·하닉이 못 오르는 진짜 이유!ㅣ최창규 이사,김상율 본부장",
-     "publishedAt": "2026-11-24 16:00",
-     "url": "https://www.youtube.com/watch?v=fmdJk4Xhl3Y"
+     "title": "“삼성전자·SK하이닉스 또 주가폭락!” 주가의 발목을 잡는 진짜 원인은 ‘이것’… 해결될 때까지 현금을 지켜야 하는 이유!ㅣ이주현 대표",
+     "publishedAt": "2026-11-25 15:30",
+     "url": "https://www.youtube.com/watch?v=wIPqelOmsEA"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시장전망) BOA의 리포트 분석을 통해 시장의 현주소를 알아보자",
+     "publishedAt": "2026-11-25 15:42",
+     "url": "https://www.youtube.com/watch?v=ijYMQm8Yrlw"
+    },
     {
      "title": "(시황분석) 변동성 장세가 나타나는 이유는?",
      "publishedAt": "2026-11-25 06:23",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(아이온큐) 양자보안이 세상을 지배하는 이유는?",
      "publishedAt": "2026-11-23 14:38",
      "url": "https://www.youtube.com/watch?v=bXjmd8pQNrU"
-    },
-    {
-     "title": "(주간시황) AI의 종말인가? 아니면 분할매수 기간인가?",
-     "publishedAt": "2026-11-22 20:55",
-     "url": "https://www.youtube.com/watch?v=C2L3gUBS4d0"
     }
    ]
   },
@@ -72,6 +72,11 @@ window.DASH.youtube = {
    "channelId": "UCQW05vzztAlwV54WL3pjGBQ",
    "handle": "@GODofIT_official",
    "videos": [
+    {
+     "title": "[아테네] 느림보 증시 대책에 코스피 바닥 뚫고 지하로...",
+     "publishedAt": "2026-11-25 19:00",
+     "url": "https://www.youtube.com/watch?v=Si3QVJsL7EE"
+    },
     {
      "title": "복귀한 AI 황제, 향후 무섭게 오를 이 주식들!!",
      "publishedAt": "2026-11-24 19:34",
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[몰아보기] 폭락 후 반등 때 주목할 곳은 성장이 나오는 섹터!!",
      "publishedAt": "2026-11-21 14:00",
      "url": "https://www.youtube.com/watch?v=yhODNJ8DlQo"
-    },
-    {
-     "title": "구글 TPU의 진화, ASIC 진영 메모리 전략이 확 바뀐다!!",
-     "publishedAt": "2026-11-20 19:00",
-     "url": "https://www.youtube.com/watch?v=HObnPoBzkcU"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "11월 25일 오늘 코스피 어떻게 흘러갈까?",
-     "publishedAt": "2026-11-25 08:04",
-     "url": "https://www.youtube.com/watch?v=2tbcTL2U5eM"
+     "title": "\"폭락·폭등 반복하는 지금\" 투자자가 가장 먼저 확인해야 할 3가지",
+     "publishedAt": "2026-11-25 19:40",
+     "url": "https://www.youtube.com/watch?v=Pys7s6zYNGs"
     },
     {
-     "title": "11월 25일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-11-25 07:10",
-     "url": "https://www.youtube.com/watch?v=GGpEAVRIHIM"
+     "title": "금융위기보다 빠르게 폭락한 코스피, 지금 시장을 다르게 봐야 하는 이유",
+     "publishedAt": "2026-11-25 19:30",
+     "url": "https://www.youtube.com/watch?v=WfkpXSP7l0U"
     },
     {
-     "title": "2027년 전망' 앞으로 주목해야 할 10가지 주요 테마",
-     "publishedAt": "2026-11-24 23:30",
-     "url": "https://www.youtube.com/watch?v=REkQlozo9fc"
+     "title": "12월 증시가 지금과 다를 수 있다는 3가지 이유",
+     "publishedAt": "2026-11-25 17:40",
+     "url": "https://www.youtube.com/watch?v=Jo_k2AEE3p0"
     },
     {
-     "title": "11월 24일 외국인이 삼성전기를 가장 많이 매수한 이유",
-     "publishedAt": "2026-11-24 23:10",
-     "url": "https://www.youtube.com/watch?v=H6VODKxfDY8"
+     "title": "젠슨 황이 돌아왔는데도 월가가 AI 주식을 팔아치우는 진짜 이유",
+     "publishedAt": "2026-11-25 17:30",
+     "url": "https://www.youtube.com/watch?v=jjvLEdN6op4"
     },
     {
-     "title": "주식 투자자라면 꼭 설정해 둬야 할 'GPT 자동 알림 기능'",
-     "publishedAt": "2026-11-24 22:10",
-     "url": "https://www.youtube.com/watch?v=iLvXbnBMvlY"
+     "title": "12월 31일까지, 148만원 받을수 있는 'IRP' 계좌 정체",
+     "publishedAt": "2026-11-25 15:40",
+     "url": "https://www.youtube.com/watch?v=SfkaTmBt6uk"
     }
    ]
   },
@@ -136,6 +136,11 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
+    {
+     "title": "젠슨황 컴백에도 망한 증시? #코스피 #젠슨황 #앤트로픽",
+     "publishedAt": "2026-11-25 14:49",
+     "url": "https://www.youtube.com/watch?v=pXaIrJBmoR4"
+    },
     {
      "title": "나스닥 뒤흔든 트럼프 관세전쟁은 젠슨황 때문?",
      "publishedAt": "2026-11-25 00:32",
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "황어게인! 젠슨황 엔비디아 CEO 복귀",
      "publishedAt": "2026-11-23 23:35",
      "url": "https://www.youtube.com/watch?v=xR0JaJwgSa0"
-    },
-    {
-     "title": "코스피 오후에 반등한 이유 #코스피 #젠슨황 #앤트로픽",
-     "publishedAt": "2026-11-23 16:20",
-     "url": "https://www.youtube.com/watch?v=ZiQFUx5YcmE"
     }
    ]
   },
