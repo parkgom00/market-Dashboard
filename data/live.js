@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_live.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.live = {
- "asOf": "2026-11-26 02:40",
+ "asOf": "2026-11-26 02:55",
  "kr": {
   "news": [],
   "stockNews": {
@@ -382,6 +382,24 @@ window.DASH.live = {
   ],
   "market": [
    {
+    "title": "연휴 앞둔 뉴욕증시, AI 매도세 재개에 급락…엔비디아, 8%↓",
+    "src": "파이낸셜뉴스",
+    "ts": "2026-11-26 02:30",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BOFQ3Q3VILW1DNm94eVRnLVVBcXVBTGVuQWxkS1pMVUhTT1pTcV9hdFlKSkpwb3lJRWRuY0tzcEtKNEladkNHR3ppYXY5WWFNaEF5TkFxSGlhdw?oc=5"
+   },
+   {
+    "title": "[단독] 코스피 다시 급락하자…정부 '증안펀드' 확대 나섰다",
+    "src": "한국경제",
+    "ts": "2026-11-26 02:23",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mVFVOYWE4djZ3QmpVckhXNnY4d3luWTh6QXJZV042VVhLSklCcDFkNnRNSjctc3gyeTgxRi1Famd5UDh2MkRaam9uRFB5ZGhwLXNZa2wzb19LZw?oc=5"
+   },
+   {
+    "title": "메모리 전망 꺾이고 긴축 경계감까지…K-증시 긴장 - 머니투데이",
+    "src": "머니투데이",
+    "ts": "2026-11-26 01:40",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HRjRjb2hJSGJQZnplX1VJRjRsT21jMGxzWGVIV19OT2VlODdma1lmZ2hWT2pNQzFkRExCNTRNanoteXJ0RVdBRm8xZzJiUzVPMGtYN1l2QnZhYklDUU9ZdmNoNjRPMnRM0gFuQVVfeXFMTVVXM0xFYVZjNHpEcVZHMU5nek9ELWJDVmE1MVpteXBFczREN0o4ejJYdDNfTnhrU0tPSEpLUDFuWnpoTE5kTjNCMGVQUktTR0RDai1IVW50Q0E3ekFwamt5NWJZdDFYaDVRdEUwbGc?oc=5"
+   },
+   {
     "title": "하루만에 ‘말짱 황’",
     "src": "조선일보",
     "ts": "2026-11-26 00:54",
@@ -392,6 +410,12 @@ window.DASH.live = {
     "src": "KBS 뉴스",
     "ts": "2026-11-26 00:29",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE53YkNjUXNJRDV4TWhEc2xOZ0VDTUkzN0NCa2NGeGdpWkZlVE5jeVhsM2tTWkxMMXdpaFFVUEhGUHJsNERxNllYdVdGazAtbkZJTUpPd2hLcGlXUVU?oc=5"
+   },
+   {
+    "title": "올해 상승분 다 토해낸 코스피…212거래일 만에 4600대 - 머니투데이",
+    "src": "머니투데이",
+    "ts": "2026-11-26 00:17",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83cWJqMkNvQ3lNOHZqcnphSjBtX2R4bnl0VXd4OFVjT0J6UTBJbDJqTS1XZjNLOUZqbWlBV1ktNl8yT0Y2SFZucFByWGNzdlAyYVJ5UllZTW1ha3hGMlBOX21DUkZVUDZD0gFuQVVfeXFMTS1Rc0VoM1JZelBIc25VRGxfX3htNnRpdTV3RFJzV3QyRE94d0ZDbHZ3dHpOaGtHOXhCZlBQYzYycGlfRUZMUGJJXzBtNlJvcTBGNDFQeWZvOGdwRDBpNTZxVW04QTV4TWJMT0hsTmc?oc=5"
    },
    {
     "title": "[종합] 뉴욕증시 급락 출발…AI 매도·물가·관세 겹악재에 나스닥 3%대↓",
@@ -424,6 +448,12 @@ window.DASH.live = {
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1qWC0taFJCdjZZcXBieU05NHdMTzN5N2dSbkdCd1BCVXctbndzTmlCLWZZTFdpZDc3cHVnVG5ZVVpZT0Nya0NsM1VVNFRiZzZrSlE?oc=5"
    },
    {
+    "title": "\"주식앱 지웠다\" 손 놓은 개미, 손 쓰는 정부…10조 증안펀드 통할까 - 머니투데이",
+    "src": "머니투데이",
+    "ts": "2026-11-25 22:39",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9fZVdvRHotdUh6OW5aM1pOR1p5cGY3MG9ybmRpZ2hRalV3RFhueG9US3NSSXNzYW10U283UDVPb0xaUEVGTjhqbktaRkM1RkJjYUNacVhpbGl4WmtSbFBVQ1ZlMHZSUUd10gFuQVVfeXFMUFpCSWlqRW5kd0p1WHhVZDQtcERkX2pJLWh6cnZKTjdCZ1M2TTdRSC03TVpDZVgxSVdIUUNfZlRTRGdWLUVTSzdkZ2FHZ3oyMThyY1ZWSDhldkJIVDJYWTMyVzdHRHRhYU0yd2ZKb2c?oc=5"
+   },
+   {
     "title": "뉴욕증시 프리뷰, AI주 투매·추가 관세 우려에 나스닥 선물 2%대 급락…PCE 주목",
     "src": "뉴스핌",
     "ts": "2026-11-25 22:18",
@@ -440,39 +470,9 @@ window.DASH.live = {
     "src": "Chosunbiz",
     "ts": "2026-11-25 21:20",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRDJBX3VYM0pLUHFEVDJQSm9ULUJwOWo3QjM1RUpDUkFUamRqbXNOMkNIQURHbFlKdkh2b2xOUUExY1R3azdGT213UUdkWHVQWmZZMTBhTi1UbWdDV1pWT05jY2hfejhRWWdNekhjNzF0WUZub0lXbzY2clNDWmJVajliNDQ2RlFS0gGcAUFVX3lxTE5XQXNMMVVTSnh1bkx1Yzc1czgtMzc2OFlJajVVbVZldkNGZmJ4VHlJMllQV0dvWWI2M19oM1hYRGJOVTlhWFNBZGRpNUhMek5MY1RaeFF6anlmWUkzRDZaSVljeVZNczVSVTAxR1Q2YkdOTkpoTmVNVWlrQU9zbjQ2cjI2NWgxb3RpTVZGejNhYXQ2eVJlWk9xMjdjMw?oc=5"
-   },
-   {
-    "title": "코스피, 6%대 급락…젠슨황 효과 하루만에 소멸",
-    "src": "연합뉴스TV",
-    "ts": "2026-11-25 20:41",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50SHZPS2hudXQ1WDMwS3Q2LUVtX0xaM1ZTZW5YZUp0VWswLWZZVDJuYW05OUUyUld4WjhBR3dab1Y1eHNDcVcxU2NHcDZTNHNaV01RN2JzR2Y2QTJZZjBGMzh1cENEUW8?oc=5"
-   },
-   {
-    "title": "이틀에 한 번 꼴로 사이드카 울렸다…널뛰는 코스피에 개미들 ‘공황’",
-    "src": "매일경제 마켓",
-    "ts": "2026-11-25 20:09",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBkUXlmMmtCQ2hIdW1PdTk1YnhvQl9hY1VxYnMzbnZFazJpVW16Sjg4U29IVm5QbVpPVzliMjc2R0NoOWM3NXZBRUJoRE1VR3ZCWmc?oc=5"
-   },
-   {
-    "title": "코스피, 6% 폭락하며 ‘5천피’ 반납…‘젠슨 황 효과’ 하루 만에 끝나",
-    "src": "한겨레",
-    "ts": "2026-11-25 20:03",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBmczMyTWlfZFdLY3RUX204R3BZNnJUVHBTVVdWSXVmZzYtUW9kTDg5S0ZJaVE2Wmo0cHh3ZEkwMGZPWmdjaWpwY3h5M1ZtdV8xNUtoOUlST3VFQVR0UHRUWExxWE1mUTY4MUlQSnJ2emU5Zw?oc=5"
-   },
-   {
-    "title": "젠슨 황 효과는 어디로?‥하루 만에 돌변한 증시, 6% 급락",
-    "src": "MBC 뉴스",
-    "ts": "2026-11-25 19:52",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9vV1lkTVFacjRoR0QxdDMwRk1CMHh2SXVQUU40cTdyWE1HbEY5bHNWUUxiMDNPOUJkc0tITjBBQk9PbzZoR3UxbS15N3BzRjFUUkw3ZWJDYmhUam9XZUJqMHZ3Um0xUmI3SmxVcVBuT1dudzliMXNRUNIBeEFVX3lxTE5jOURpM2hwRkVBYUppQThhTWZMY3FySHNjdTE3dHFQM1NaRDh5cE9vOThWVUctVml0MVNqTVI5c3NsLWNRSFBWM0VRNm9CV3Y5N2xTSzJWTms3bU93NWNESEdEcUJMWTlvUXNiX3BGc3lnMURidmZEMg?oc=5"
-   },
-   {
-    "title": "코스피 4,700선도 깨졌다...삼전닉스 나란히 급락",
-    "src": "YTN",
-    "ts": "2026-11-25 19:50",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xbEpyNHJZcE1BSkRoMVE3bWxDSVQxa1lHek5nRkdXSnd0Y2JYd2UzdjhWc29oSzV3Sjk3aE1HNXpEQ0pWYk43c1R4OGJZeW9GSjY1RUl6YWNqSkcwcmc?oc=5"
    }
   ],
-  "newsAsOf": "2026-11-26 02:40",
+  "newsAsOf": "2026-11-26 02:55",
   "gainers": [
    {
     "code": "009140",
