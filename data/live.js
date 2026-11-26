@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_live.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.live = {
- "asOf": "2026-11-27 02:18",
+ "asOf": "2026-11-27 02:40",
  "kr": {
   "news": [],
   "stockNews": {
@@ -36,16 +36,16 @@ window.DASH.live = {
     "url": "https://n.news.naver.com/mnews/article/001/0016466140"
    },
    "000660": {
-    "title": "美 “협의 잘 안되면 한국·대만 25%, 日·EU 20%”",
-    "src": "조선일보",
-    "time": "00:51",
-    "url": "https://n.news.naver.com/mnews/article/023/0004012048"
+    "title": "공급 부족 여전한데 과잉생산?… “美 협상용 지렛대 가능성”",
+    "src": "국민일보",
+    "time": "02:29",
+    "url": "https://n.news.naver.com/mnews/article/005/0001887771"
    },
    "005930": {
-    "title": "美 “협의 잘 안되면 한국·대만 25%, 日·EU 20%”",
-    "src": "조선일보",
-    "time": "00:51",
-    "url": "https://n.news.naver.com/mnews/article/023/0004012048"
+    "title": "공급 부족 여전한데 과잉생산?… “美 협상용 지렛대 가능성”",
+    "src": "국민일보",
+    "time": "02:29",
+    "url": "https://n.news.naver.com/mnews/article/005/0001887771"
    },
    "069500": {
     "title": "'4연속 사이드카' 변동성 극에 달한 증시…다시 레버리지에 뭉칫돈",
@@ -108,6 +108,12 @@ window.DASH.live = {
     "src": "뉴스핌",
     "ts": "2026-11-26 23:39",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9YS09UMHlsTGxCWGlVdEJZSDFtdjliZDJqVVk5VWExeDJQemRZX0hUclplUlJ5eFRnVzdPOGVfZ2tKcXlhYjM5Z1M3TmlhSXI0dlJla3FoVjd6ZWIx?oc=5"
+   },
+   {
+    "title": "[오늘의 특징주] SK하이닉스·미래에셋벤처투자·SK스퀘어",
+    "src": "빅터뉴스",
+    "ts": "2026-11-26 17:28",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UclFBZk5uYUNWNnYyS0dQQk9SLVNVaWFrX3RQTFZKOGNvcElYWEVGd05qX1VNdXhwZUR4NTRmUmN0cG5ZRl9lSzZmRFFrcVhxdGZIZm9mVk9CZWZoQ3VsYzRuRlNLQkU?oc=5"
    },
    {
     "title": "[ETF 특징주] 관세 충격 재점화에 MADE·PAVE 상승 모멘텀",
@@ -200,22 +206,16 @@ window.DASH.live = {
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNempIV3FxTTFLQ3FRTm1mZ3pNdlRiZlgwcE5mTkN5UENFTGxuRVdHcWxIeTgzM29HWnhLVGdRQ2hIZEYtdXBwQ2xMdUp5TFVQQzVvWkE3UDNUTXBEME1mWE0wSFo2Si1zbUpCRE5wN1dhc3VUVjJlckNBVGttU1BMMnkydnhoMGJE?oc=5"
    },
    {
+    "title": "[특징주] 우주 데이터센터·재생에너지 확대 기대에 태양광株 '강세'",
+    "src": "뉴스핌",
+    "ts": "2026-11-26 10:14",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lRHdZeXVtaUphTk5KMW90LU5uTXhEaFN4UUJ3bzViV2xxM3VBSmNjTF9BMFlSOTYySzVOeU9TTlVSdVBfV2d2SW1TTXBDeG1sT0R2ZWRyX2NFVWxZ?oc=5"
+   },
+   {
     "title": "[특징주] 케이지에이 18%대 '급락'⋯'관리종목' 가시권",
     "src": "아이뉴스24",
     "ts": "2026-11-26 10:01",
     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1UYlRGNTRTc3JLZWhvZF9qSXVqbDNYa292b3Z3TnBOSTJLMEtHVDV4Q2d0d1lqbWZsZkhtd0RaNlJIaFlpdW0yT3FpTQ?oc=5"
-   },
-   {
-    "title": "[특징주] 국제유가 급등에 항공주 동반 약세…대한항공 6% 하락",
-    "src": "Chosunbiz",
-    "ts": "2026-11-26 09:57",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbEc0TlNJY2Vib0l1X2N1bktjTFJXamlUTTJ2bGJKQTZQYlpMS3RtOVNLYVByT0VjRW5KYWotOTJPOWxoV3RBOXlCM1JFQVFiajdyMk9ULUFJcUx2TFljVmFrZ3V5VHNkZ2ZIQUNFMU9uZmZ4SGJhVXB3VEdzbG9kb2xxaWZPUEJZ0gGcAUFVX3lxTE4xNEpJYVBUZ0dJN2hmaTlyZlZfRjFCRXVQWlNoMkZPblliQmw1ZUlYNnJqY0NCMnlyLUtWMlBIU1NtUEVyeG9sVkQ5WDZSczJfQ1JPMWM4aXFRTXV5UnNvQk4yVXhMZmNlTW9FelBZSHE2T2tDMVZ3LU16SEtSaWE4dlJpQ3dXSEV6RmZZeWNWeGlxXzRGdkpfd0JfRA?oc=5"
-   },
-   {
-    "title": "[특징주] 스페이스X, 우주 AI 데이터센터 발사 승인에…관련주 급등",
-    "src": "Chosunbiz",
-    "ts": "2026-11-26 09:56",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOekF6RFd5eHR4OXBsSWsxVkVHNEsxU3poQm5McUJ2OHVWYThtRXdCRU9mNnBjOXk0QTIzd0h6R2xVV2JzdXdkS2NqaC1sWVJXcHF0c09VeVBzYjhyMmUzVDlCY1p2TzVqWXVRaXRsRUVnMVVPUFd4TTMwQU1rTHUwZTZyZERJcEpr0gGcAUFVX3lxTFBtUVhuRDdwWndkWmRvUFBjcURSRmFBRXFDbzJIQzBiNGVrRG1vN0tNYzRtRWpBenNCNnAyY0VxRl9jUktQY0hvcEIwMy03VmFWVFBCNzNpYkRRMnBaZGJqSnFXcmMteXFRTm9wUVM5TEdXY2VrS1E4R2oxT1NMdk9rYkZwajlvS3Q2NDVSZFFfZkJRak5hbmJDdVAzcQ?oc=5"
    },
    {
     "title": "[특징주] 나무가, 50억원 규모 자사주 소각 결정에 13%↑",
@@ -302,16 +302,16 @@ window.DASH.live = {
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94dEpheVE4c1JmRzVSbVNDMnFDMGQtOURoSWdlUThjOVU3ZVZmNUZRazhvMXNUZS1qRmF3dGdWM05vU1NCZlhTVGs4UXY3LWhQN3c?oc=5"
    },
    {
+    "title": "특징주, 삼성에스디에스-IT 대표주 테마 상승세에 1.03% ↑",
+    "src": "매일경제 마켓",
+    "ts": "2026-11-26 09:40",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1JU0lpUEpYdjVzMXFldGtpbWV2ak5sSDh3V0drMFRXY19RMVRXX2hLZHV4UF91d0hKejBKMHdqbDRIMHN3WTlheV9WbmxuN3Z5RUE?oc=5"
+   },
+   {
     "title": "특징주, 대한광통신-광통신(광케이블/광섬유 등) 테마 상승세에 5.9% ↑",
     "src": "매일경제 마켓",
     "ts": "2026-11-26 09:40",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50NkZaek5oNTJ2dzZVOXJna1hzWURJZk5CQUJDbDhWR2s4OHVFenh2YUhwUml4ai1UVFp6MTRYSUJLcGxmNllCdDFkOG5paFZFY2c?oc=5"
-   },
-   {
-    "title": "[특징주] 스페이스X, 우주 데이터센터 위성 구축 승인…국내 관련주 동반 강세",
-    "src": "에너지경제신문",
-    "ts": "2026-11-26 09:39",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9tZ09wVWc0VVFybVV3ajRueHRHYnN5Y0h3eS1kUTVBWWRZOFBpNkdnaXByMEdIVFgwbW14dU9pRzBRTDRGSEZjekFJcmhTSElRc2JlX1RvVDdoM2hJSjVJTTJWVQ?oc=5"
    },
    {
     "title": "[특징주] OCI홀딩스 10% 급등⋯스페이스X '우주 데이터센터' 수혜",
@@ -332,10 +332,10 @@ window.DASH.live = {
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1uVWtYd3hlZWxJSWdzMTcteXhhZ2VSdkpld3dqbERqRDA3UjQ4aVBtNGVmejkteDVYelpsVHFqSlo4QUw0eEZObVBmdFRmUE9TWmRxQUt0TkZIQjjSAWBBVV95cUxQVnFiY0cxaEVHVERtUVMxbHYtZE1jREFXeDZ5MDZPVFVjTVhSY1pZcEh1aFNJNjNfRFVrQzI1Y2ZBSmFpTm1hSVV5aURJalVyZmF3bEZBaDBZTVNGM3JwWlo?oc=5"
    },
    {
-    "title": "[특징주] 포바이포, 종속회사 파산 신청 소식에 13% 급락",
-    "src": "Chosunbiz",
+    "title": "[특징주] 스페이스X 위성 100만기 배치 승인에 우주 관련주 급등",
+    "src": "브릿지경제",
     "ts": "2026-11-26 09:23",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSm9MMGgzS1RwSlRaX1ZvUHZ1S2hOUnVuX2xPSDNsWUxXZHJWdnJHZFFlMlRqWkxaZjFENGRkX2VENTZtWE8zUTVzcU1xS2N4Tndrb3NPSmMtUGJiMUQ4WElkazVoeENzTnhNZDZoNExScDdMeE5oQm12NENBNlZPQmt4OFV2ZlhD0gGcAUFVX3lxTE1kRW9GdlBkbm5UTC1LZ0tjR1h5WnRGT1pCOXdjWWpITGR4dHZWdWlqN3B3SkVWU3I5OXNxY2Rkc040UzJ4OGpxT09QbS10VC1PMmpqNWNjUGE1Z3BXTE1NMUlNRk4xRXYwWGF0Wl9QRkRILWsxZGVmSkNzZTVHZEtud0xQTWMzLTJleDY4VjNOeUlZX3ZBSTdYR3JxRQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00QUtJMG9zTUpscDh1NUtqbDdsN01uRkRDUHZoelFtSEdlQjJ6RzJibkRqd2x6amg0MHRwbjZLbGdrbzFhLWRTOTRRTVN3RnBkUEgzMVBTTHk5UQ?oc=5"
    },
    {
     "title": "[특징주] 스페이스X 100만기 위성 승인…센서뷰·스피어 등 관련주 급등",
@@ -345,6 +345,12 @@ window.DASH.live = {
    }
   ],
   "market": [
+   {
+    "title": "주식 전문가마저 생방송 중 눈물…\"힘든 시장인데 잘 이겨내셔야\"",
+    "src": "주간조선",
+    "ts": "2026-11-27 02:21",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1jbTJadUwwclVjWjlXSFV4SEZ6cUpPck41WDQ4MWMxMWJ4UVJlM19wdjg1QjI2QS1Oc0txQzY1QWI5S25ScWtuZU5wYm5ReTRVa0xZcHpCNFdQR0ZyZTVmbGk3VzEwUHh2LU9n?oc=5"
+   },
    {
     "title": "미국증시 추수감사절 휴장…블랙프라이데이 한국시간 28일 새벽 3시 마감",
     "src": "강릉뉴스",
@@ -424,19 +430,13 @@ window.DASH.live = {
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9HdHdITGNiTUpmanBGSGt1cVpOelhIRVd3c05KOEQtVWF4UDV0Si1xWkt1S1BXZDRVYTkzV09RU01aRE1URWJiNjFWLVk1YXlDNmVRWnBHU3N5N0dVRV9BUl95Q0RadFB5UGFVU0p2UWo?oc=5"
    },
    {
-    "title": "이기인 \"증시 오를 때는 정부 덕, 내릴 때는 개인 탓이냐\"",
-    "src": "한국경제",
-    "ts": "2026-11-26 18:18",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hRmlibmFfSElZUVVRWjljaFA1YU9wc29kS2RkeWkxY1AzOWplbDNUSVRlNmRKM2tpNXhzWTI4S2NzQ0wtUXVFTFRrTWNLRjBPbEF4dml5QlJhUQ?oc=5"
-   },
-   {
     "title": "[중국증시-마감] 美 추가 관세·AI 투자 우려 속 혼조",
     "src": "연합인포맥스",
     "ts": "2026-11-26 18:09",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBnZzh6MmVSVnQxUEo4OE9TX3h0U0RiOUdWcDl5bWgxeHJ2TDZidl9nR1JOM2RTR0xRTXdGdVFFNnlOS0JYc3J0TE45RTk0OGpDTkVBVjlKS2dpMEM0VlRJdUcxRVJyYnc0VjNGUTFnY24?oc=5"
    }
   ],
-  "newsAsOf": "2026-11-27 02:18",
+  "newsAsOf": "2026-11-27 02:40",
   "gainers": [
    {
     "code": "355390",
