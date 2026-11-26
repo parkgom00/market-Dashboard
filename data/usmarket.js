@@ -1,172 +1,172 @@
 // 자동 생성 파일 (scanner/collect_us.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.usmarket = {
- "asOf": "2026-11-24 (화) 미국 정규장 기준",
+ "asOf": "2026-11-25 (수) 미국 정규장 기준",
  "indices": [
   {
    "group": "주가지수",
    "name": "나스닥",
    "kind": "index",
-   "close": 23733.54,
-   "changePct": -1.48,
-   "changeText": "23,733.54 (-1.48%)"
+   "close": 23585.8,
+   "changePct": -0.62,
+   "changeText": "23,585.80 (-0.62%)"
   },
   {
    "group": "주가지수",
    "name": "S&P 500",
    "kind": "index",
-   "close": 7201.09,
-   "changePct": -0.5,
-   "changeText": "7,201.09 (-0.50%)"
+   "close": 7182.78,
+   "changePct": -0.25,
+   "changeText": "7,182.78 (-0.25%)"
   },
   {
    "group": "주가지수",
    "name": "다우",
    "kind": "index",
-   "close": 50018.7,
-   "changePct": 0.85,
-   "changeText": "50,018.70 (+0.85%)"
+   "close": 50182.9,
+   "changePct": 0.33,
+   "changeText": "50,182.90 (+0.33%)"
   },
   {
    "group": "주가지수",
    "name": "러셀 2000",
    "kind": "index",
-   "close": 2684.94,
-   "changePct": 0.57,
-   "changeText": "2,684.94 (+0.57%)"
+   "close": 2704.06,
+   "changePct": 0.71,
+   "changeText": "2,704.06 (+0.71%)"
   },
   {
    "group": "주가지수",
    "name": "필라델피아 반도체",
    "kind": "index",
-   "close": 8832.5,
-   "changePct": -7.88,
-   "changeText": "8,832.50 (-7.88%)"
+   "close": 8774.86,
+   "changePct": -0.65,
+   "changeText": "8,774.86 (-0.65%)"
   },
   {
    "group": "주가지수",
    "name": "VIX 공포지수",
    "kind": "plain",
-   "close": 26.36,
-   "changePct": -0.98,
-   "changeText": "26.36 (-0.98%)"
+   "close": 28.29,
+   "changePct": 7.32,
+   "changeText": "28.29 (+7.32%)"
   },
   {
    "group": "주가지수",
    "name": "한국 ETF (EWY)",
    "kind": "usd",
-   "close": 130.7,
-   "changePct": -3.7,
-   "changeText": "130.70 (-3.70%)"
+   "close": 129.19,
+   "changePct": -1.16,
+   "changeText": "129.19 (-1.16%)"
   },
   {
    "group": "금리·환율",
    "name": "미국 10년물 금리",
    "kind": "yield",
-   "close": 4.9,
-   "changePct": -0.28,
-   "changeText": "4.90% (-1.4bp)",
-   "changeBp": -1.4
+   "close": 4.85,
+   "changePct": -1.14,
+   "changeText": "4.85% (-5.6bp)",
+   "changeBp": -5.6
   },
   {
    "group": "금리·환율",
    "name": "미국 5년물 금리",
    "kind": "yield",
-   "close": 4.71,
-   "changePct": -0.34,
-   "changeText": "4.71% (-1.6bp)",
-   "changeBp": -1.6
+   "close": 4.66,
+   "changePct": -1.1,
+   "changeText": "4.66% (-5.2bp)",
+   "changeBp": -5.2
   },
   {
    "group": "금리·환율",
    "name": "달러 인덱스",
    "kind": "plain",
-   "close": 104.0,
-   "changePct": 0.18,
-   "changeText": "104.00 (+0.18%)"
+   "close": 103.82,
+   "changePct": 0.0,
+   "changeText": "103.82 (+0.00%)"
   },
   {
    "group": "금리·환율",
    "name": "원/달러",
    "kind": "plain",
-   "close": 1342.5,
-   "changePct": 0.11,
-   "changeText": "1,342.50 (+0.11%)"
+   "close": 1342.93,
+   "changePct": 0.02,
+   "changeText": "1,342.93 (+0.02%)"
   },
   {
    "group": "금리·환율",
    "name": "엔/달러",
    "kind": "plain",
-   "close": 159.46,
-   "changePct": 0.29,
-   "changeText": "159.46 (+0.29%)"
+   "close": 159.13,
+   "changePct": -0.08,
+   "changeText": "159.13 (-0.08%)"
   },
   {
    "group": "원자재·기타",
    "name": "WTI 유가",
    "kind": "usd",
-   "close": 80.61,
-   "changePct": -1.76,
-   "changeText": "80.61 (-1.76%)"
+   "close": 84.34,
+   "changePct": 2.79,
+   "changeText": "84.34 (+2.79%)"
   },
   {
    "group": "원자재·기타",
    "name": "브렌트유",
    "kind": "usd",
-   "close": 87.36,
-   "changePct": -4.42,
-   "changeText": "87.36 (-4.42%)"
+   "close": 91.0,
+   "changePct": -3.82,
+   "changeText": "91.00 (-3.82%)"
   },
   {
    "group": "원자재·기타",
    "name": "금",
    "kind": "usd",
-   "close": 3536.0,
-   "changePct": -0.73,
-   "changeText": "3,536.00 (-0.73%)"
+   "close": 3603.4,
+   "changePct": 1.17,
+   "changeText": "3,603.40 (+1.17%)"
   },
   {
    "group": "원자재·기타",
    "name": "구리",
    "kind": "usd",
-   "close": 5.43,
-   "changePct": 1.26,
-   "changeText": "5.43 (+1.26%)"
+   "close": 5.49,
+   "changePct": 2.4,
+   "changeText": "5.49 (+2.40%)"
   },
   {
    "group": "원자재·기타",
    "name": "비트코인",
    "kind": "usd",
-   "close": 58943.62,
-   "changePct": -3.7,
-   "changeText": "58,943.62 (-3.70%)"
+   "close": 60881.26,
+   "changePct": 1.9,
+   "changeText": "60,881.26 (+1.90%)"
   },
   {
    "group": "원자재·기타",
    "name": "D램 DDR5 16Gb",
    "kind": "usd",
-   "close": 60.833,
+   "close": 60.767,
    "changePct": 0.0,
-   "changeText": "$60.833 (+0.00%)",
-   "note": "현물 평균가 · Nov.25 2026 11:00 대만시간"
+   "changeText": "$60.767 (+0.00%)",
+   "note": "현물 평균가 · Nov.26 2026 11:00 대만시간"
   },
   {
    "group": "원자재·기타",
    "name": "D램 DDR4 16Gb",
    "kind": "usd",
-   "close": 78.125,
-   "changePct": -0.16,
-   "changeText": "$78.125 (-0.16%)",
-   "note": "현물 평균가 · Nov.25 2026 11:00 대만시간"
+   "close": 77.5,
+   "changePct": -0.32,
+   "changeText": "$77.500 (-0.32%)",
+   "note": "현물 평균가 · Nov.26 2026 11:00 대만시간"
   },
   {
    "group": "원자재·기타",
    "name": "D램 DDR4 8Gb",
    "kind": "usd",
-   "close": 43.214,
-   "changePct": -0.25,
-   "changeText": "$43.214 (-0.25%)",
-   "note": "현물 평균가 · Nov.25 2026 11:00 대만시간"
+   "close": 43.125,
+   "changePct": -0.21,
+   "changeText": "$43.125 (-0.21%)",
+   "note": "현물 평균가 · Nov.26 2026 11:00 대만시간"
   }
  ],
  "sectors": [
@@ -175,321 +175,405 @@ window.DASH.usmarket = {
    "name": "기술",
    "symbol": "XLK",
    "kr": "IT·반도체",
-   "changePct": -3.26
+   "changePct": -0.83
   },
   {
    "group": "S&P 11개 섹터",
    "name": "금융",
    "symbol": "XLF",
    "kr": "은행·증권·보험",
-   "changePct": 0.83
+   "changePct": 0.71
   },
   {
    "group": "S&P 11개 섹터",
    "name": "에너지",
    "symbol": "XLE",
    "kr": "정유·가스",
-   "changePct": 0.97
+   "changePct": 0.74
   },
   {
    "group": "S&P 11개 섹터",
    "name": "헬스케어",
    "symbol": "XLV",
    "kr": "제약·바이오",
-   "changePct": 2.95
+   "changePct": -0.56
   },
   {
    "group": "S&P 11개 섹터",
    "name": "경기소비재",
    "symbol": "XLY",
    "kr": "자동차·유통·여행",
-   "changePct": 0.68
+   "changePct": -0.2
   },
   {
    "group": "S&P 11개 섹터",
    "name": "필수소비재",
    "symbol": "XLP",
    "kr": "음식료·화장품",
-   "changePct": 1.66
+   "changePct": 0.46
   },
   {
    "group": "S&P 11개 섹터",
    "name": "산업재",
    "symbol": "XLI",
    "kr": "기계·조선·방산",
-   "changePct": -0.53
+   "changePct": 0.83
   },
   {
    "group": "S&P 11개 섹터",
    "name": "소재",
    "symbol": "XLB",
    "kr": "화학·철강",
-   "changePct": 0.54
+   "changePct": 2.07
   },
   {
    "group": "S&P 11개 섹터",
    "name": "유틸리티",
    "symbol": "XLU",
    "kr": "전력·가스",
-   "changePct": 0.18
+   "changePct": 0.48
   },
   {
    "group": "S&P 11개 섹터",
    "name": "부동산",
    "symbol": "XLRE",
    "kr": "리츠",
-   "changePct": 1.31
+   "changePct": 0.92
   },
   {
    "group": "S&P 11개 섹터",
    "name": "커뮤니케이션",
    "symbol": "XLC",
    "kr": "플랫폼·미디어·게임",
-   "changePct": 0.82
+   "changePct": 0.89
   },
   {
    "group": "반도체·IT",
    "name": "반도체",
    "symbol": "SOXX",
    "kr": "반도체 대형주·HBM",
-   "changePct": -8.27
+   "changePct": -0.5
   },
   {
    "group": "반도체·IT",
    "name": "소프트웨어",
    "symbol": "IGV",
    "kr": "소프트웨어·AI 서비스",
-   "changePct": 0.09
+   "changePct": -0.35
   },
   {
    "group": "반도체·IT",
    "name": "클라우드",
    "symbol": "SKYY",
    "kr": "클라우드·데이터센터",
-   "changePct": -1.71
+   "changePct": -0.37
   },
   {
    "group": "반도체·IT",
    "name": "사이버보안",
    "symbol": "CIBR",
    "kr": "정보보안",
-   "changePct": -0.55
+   "changePct": 0.5
   },
   {
    "group": "반도체·IT",
    "name": "AI·로봇",
    "symbol": "BOTZ",
    "kr": "로봇·AI",
-   "changePct": 0.2
+   "changePct": -0.81
   },
   {
    "group": "반도체·IT",
    "name": "통신장비",
    "symbol": "XTL",
    "kr": "광통신·통신장비",
-   "changePct": -1.8
+   "changePct": 0.33
   },
   {
    "group": "반도체·IT",
    "name": "인터넷 플랫폼",
    "symbol": "FDN",
    "kr": "플랫폼",
-   "changePct": -1.08
+   "changePct": -0.14
   },
   {
    "group": "반도체·IT",
    "name": "양자컴퓨팅",
    "symbol": "QTUM",
    "kr": "양자 테마",
-   "changePct": -4.3
+   "changePct": -0.07
   },
   {
    "group": "반도체·IT",
    "name": "게임",
    "symbol": "ESPO",
    "kr": "게임",
-   "changePct": 0.08
+   "changePct": 2.34
   },
   {
    "group": "에너지·산업",
    "name": "전력망·전력기기",
    "symbol": "GRID",
    "kr": "변압기·전선·전력 인프라",
-   "changePct": -2.05
+   "changePct": -0.76
   },
   {
    "group": "에너지·산업",
    "name": "원자력",
    "symbol": "URA",
    "kr": "원전",
-   "changePct": -2.71
+   "changePct": 0.4
   },
   {
    "group": "에너지·산업",
    "name": "태양광",
    "symbol": "TAN",
    "kr": "태양광",
-   "changePct": -2.54
+   "changePct": 1.97
   },
   {
    "group": "에너지·산업",
    "name": "클린에너지",
    "symbol": "ICLN",
    "kr": "신재생",
-   "changePct": -1.19
+   "changePct": 1.0
   },
   {
    "group": "에너지·산업",
    "name": "원유·가스 개발",
    "symbol": "XOP",
    "kr": "정유·화학",
-   "changePct": 0.6
+   "changePct": 1.0
   },
   {
    "group": "에너지·산업",
    "name": "방산·우주항공",
    "symbol": "ITA",
    "kr": "방산·우주",
-   "changePct": -0.53
+   "changePct": 0.95
   },
   {
    "group": "에너지·산업",
    "name": "운송",
    "symbol": "IYT",
    "kr": "해운·항공·물류",
-   "changePct": 0.2
+   "changePct": 1.59
   },
   {
    "group": "에너지·산업",
    "name": "항공",
    "symbol": "JETS",
    "kr": "항공·여행",
-   "changePct": -0.49
+   "changePct": -0.88
   },
   {
    "group": "에너지·산업",
    "name": "주택건설",
    "symbol": "XHB",
    "kr": "건설",
-   "changePct": 1.56
+   "changePct": 2.36
   },
   {
    "group": "자동차·배터리",
    "name": "2차전지(리튬)",
    "symbol": "LIT",
    "kr": "2차전지",
-   "changePct": -1.85
+   "changePct": -1.55
   },
   {
    "group": "자동차·배터리",
    "name": "전기차·자율주행",
    "symbol": "IDRV",
    "kr": "전기차·부품",
-   "changePct": -0.32
+   "changePct": 0.69
   },
   {
    "group": "소재",
    "name": "구리",
    "symbol": "COPX",
    "kr": "비철금속",
-   "changePct": -4.27
+   "changePct": 1.88
   },
   {
    "group": "소재",
    "name": "금광",
    "symbol": "GDX",
    "kr": "금·귀금속",
-   "changePct": -1.96
+   "changePct": 3.53
   },
   {
    "group": "소재",
    "name": "철강",
    "symbol": "SLX",
    "kr": "철강",
-   "changePct": -1.73
+   "changePct": 1.33
   },
   {
    "group": "소재",
    "name": "희토류·전략광물",
    "symbol": "REMX",
    "kr": "희토류·소재",
-   "changePct": -2.76
+   "changePct": 0.16
   },
   {
    "group": "헬스케어",
    "name": "바이오",
    "symbol": "XBI",
    "kr": "바이오",
-   "changePct": 6.56
+   "changePct": -0.14
   },
   {
    "group": "헬스케어",
    "name": "제약",
    "symbol": "XPH",
    "kr": "제약",
-   "changePct": 4.37
+   "changePct": -0.33
   },
   {
    "group": "헬스케어",
    "name": "의료기기",
    "symbol": "IHI",
    "kr": "의료기기",
-   "changePct": 1.72
+   "changePct": 0.59
   },
   {
    "group": "금융·소비",
    "name": "지역은행",
    "symbol": "KRE",
    "kr": "은행",
-   "changePct": 0.32
+   "changePct": 0.1
   },
   {
    "group": "금융·소비",
    "name": "증권·자산운용",
    "symbol": "IAI",
    "kr": "증권",
-   "changePct": -0.35
+   "changePct": -0.06
   },
   {
    "group": "금융·소비",
    "name": "핀테크",
    "symbol": "FINX",
    "kr": "핀테크·결제",
-   "changePct": 0.0
+   "changePct": 1.41
   },
   {
    "group": "금융·소비",
    "name": "소매",
    "symbol": "XRT",
    "kr": "유통",
-   "changePct": 2.33
+   "changePct": -0.04
   },
   {
    "group": "금융·소비",
    "name": "중국 인터넷",
    "symbol": "KWEB",
    "kr": "중국 관련주",
-   "changePct": -1.21
+   "changePct": 0.09
   }
  ],
  "summary": [],
  "brief": null,
  "themes": [
   {
+   "name": "양자컴퓨터",
+   "changePct": 4.35,
+   "why": "",
+   "logic": "미국 양자컴퓨터 종목은 기술 발표와 정부 지원 뉴스에 크게 움직입니다. 국내에는 직접 거래 관계가 있는 회사가 드물고, 양자암호·보안 사업을 하는 종목이 테마로 함께 움직입니다.",
+   "usStocks": [
+    {
+     "ticker": "IONQ",
+     "name": "아이온큐",
+     "changePct": 5.09
+    },
+    {
+     "ticker": "QUBT",
+     "name": "퀀텀컴퓨팅",
+     "changePct": 5.03
+    },
+    {
+     "ticker": "QBTS",
+     "name": "디웨이브퀀텀",
+     "changePct": 3.86
+    },
+    {
+     "ticker": "RGTI",
+     "name": "리게티컴퓨팅",
+     "changePct": 3.43
+    }
+   ],
+   "krStocks": [
+    {
+     "code": "046970",
+     "name": "우리로",
+     "link": "양자암호통신용 광 검출 소자 개발, 양자 테마로 함께 움직임",
+     "strength": 1
+    },
+    {
+     "code": "456010",
+     "name": "아이씨티케이",
+     "link": "양자내성암호 보안칩 사업, 양자 테마로 함께 움직임",
+     "strength": 1
+    }
+   ]
+  },
+  {
+   "name": "우주",
+   "changePct": 3.65,
+   "why": "",
+   "logic": "미국 민간 우주 기업 강세는 위성·발사체 투자 심리를 끌어올립니다. 위성 본체와 안테나를 만드는 국내 업체가 같은 테마로 움직입니다.",
+   "usStocks": [
+    {
+     "ticker": "ASTS",
+     "name": "AST스페이스모바일",
+     "changePct": 10.25
+    },
+    {
+     "ticker": "LUNR",
+     "name": "인튜이티브머신스",
+     "changePct": 2.35
+    },
+    {
+     "ticker": "RKLB",
+     "name": "로켓랩",
+     "changePct": 2.26
+    },
+    {
+     "ticker": "PL",
+     "name": "플래닛랩스",
+     "changePct": -0.28
+    }
+   ],
+   "krStocks": [
+    {
+     "code": "099320",
+     "name": "쎄트렉아이",
+     "link": "지구관측 위성 본체·탑재체 제작",
+     "strength": 2
+    },
+    {
+     "code": "189300",
+     "name": "인텔리안테크",
+     "link": "저궤도 위성통신용 안테나 공급",
+     "strength": 2
+    }
+   ]
+  },
+  {
    "name": "게임",
-   "changePct": 4.42,
+   "changePct": 3.57,
    "why": "",
    "logic": "미국 게임주 강세는 게임 업종 투자 심리를 끌어올립니다. 글로벌 매출 비중이 큰 국내 게임사에 간접적으로 연결됩니다.",
    "usStocks": [
     {
-     "ticker": "TTWO",
-     "name": "테이크투",
-     "changePct": 5.28
-    },
-    {
      "ticker": "RBLX",
      "name": "로블록스",
-     "changePct": 3.56
+     "changePct": 4.0
+    },
+    {
+     "ticker": "TTWO",
+     "name": "테이크투",
+     "changePct": 3.14
     }
    ],
    "krStocks": [
@@ -508,279 +592,227 @@ window.DASH.usmarket = {
    ]
   },
   {
-   "name": "바이오",
-   "changePct": 4.1,
+   "name": "자동차",
+   "changePct": 3.26,
    "why": "",
-   "logic": "미국 대형 제약·바이오 강세는 업종 투자 심리와 위탁생산·기술이전 수요로 이어집니다. 국내 위탁생산(CDMO)과 플랫폼 기술 업체가 함께 주목받습니다.",
+   "logic": "미국 자동차 판매와 관세 뉴스는 완성차 업종 전체에 영향을 줍니다. 미국 판매 비중이 큰 현대차·기아가 같은 재료에 반응합니다.",
    "usStocks": [
     {
-     "ticker": "AMGN",
-     "name": "암젠",
-     "changePct": 5.55
+     "ticker": "STLA",
+     "name": "스텔란티스",
+     "changePct": 6.4
     },
     {
-     "ticker": "VRTX",
-     "name": "버텍스",
-     "changePct": 4.71
+     "ticker": "TM",
+     "name": "도요타",
+     "changePct": 2.77
     },
     {
-     "ticker": "LLY",
-     "name": "일라이릴리",
-     "changePct": 3.15
+     "ticker": "GM",
+     "name": "GM",
+     "changePct": 2.03
     },
     {
-     "ticker": "NVO",
-     "name": "노보노디스크",
-     "changePct": 2.99
+     "ticker": "F",
+     "name": "포드",
+     "changePct": 1.84
     }
    ],
    "krStocks": [
     {
-     "code": "207940",
-     "name": "삼성바이오로직스",
-     "link": "글로벌 제약사 의약품을 위탁생산(CDMO)",
+     "code": "005380",
+     "name": "현대차",
+     "link": "미국 판매 비중이 커 미국 수요·관세에 직접 영향",
      "strength": 2
     },
     {
-     "code": "196170",
-     "name": "알테오젠",
-     "link": "글로벌 제약사에 피하주사 전환 기술을 이전",
+     "code": "000270",
+     "name": "기아",
+     "link": "미국 판매 비중이 커 미국 수요·관세에 직접 영향",
      "strength": 2
     }
    ]
   },
   {
-   "name": "화장품",
-   "changePct": 2.9,
+   "name": "구리·전선",
+   "changePct": 2.37,
    "why": "",
-   "logic": "미국 화장품 소비·유통(울타, 엘프) 실적은 미국 내 화장품 판매 흐름을 보여줍니다. 미국 수출 비중이 커진 국내 브랜드·ODM 업체가 영향을 받습니다.",
+   "logic": "구리 가격과 미국 구리 광산주가 오르면 전선 판가와 재고 가치가 올라 국내 전선·비철 업체 실적 기대가 커집니다.",
    "usStocks": [
     {
-     "ticker": "COTY",
-     "name": "코티",
-     "changePct": 4.49
+     "ticker": "SCCO",
+     "name": "서던코퍼",
+     "changePct": 3.03
     },
     {
-     "ticker": "EL",
-     "name": "에스티로더",
-     "changePct": 4.22
-    },
-    {
-     "ticker": "ULTA",
-     "name": "울타뷰티",
-     "changePct": 2.56
-    },
-    {
-     "ticker": "ELF",
-     "name": "엘프뷰티",
-     "changePct": 0.34
+     "ticker": "FCX",
+     "name": "프리포트맥모란",
+     "changePct": 1.72
     }
    ],
    "krStocks": [
     {
-     "code": "278470",
-     "name": "에이피알",
-     "link": "미국 매출 비중이 큰 화장품·미용기기 브랜드",
+     "code": "006260",
+     "name": "LS",
+     "link": "LS전선·LS MnM(구리 제련) 지주사",
      "strength": 2
     },
     {
-     "code": "192820",
-     "name": "코스맥스",
-     "link": "글로벌 브랜드에 화장품을 만들어 주는 ODM",
+     "code": "103140",
+     "name": "풍산",
+     "link": "구리 가공 제품, 구리 가격에 연동",
      "strength": 2
     }
    ]
   },
   {
-   "name": "방산·우주항공",
-   "changePct": 1.39,
+   "name": "가상자산",
+   "changePct": 1.63,
    "why": "",
-   "logic": "글로벌 국방비 증액 흐름은 미국 방산주에 먼저 반영됩니다. 같은 수요로 수출을 늘리고 있는 국내 방산 업체 주가와 방향이 비슷합니다.",
+   "logic": "비트코인 가격과 미국 가상자산 관련주가 오르면 거래소 실적 기대가 커집니다. 국내에서는 거래소(두나무) 지분을 가진 회사가 같은 방향으로 움직입니다.",
    "usStocks": [
     {
-     "ticker": "LMT",
-     "name": "록히드마틴",
-     "changePct": 2.62
+     "ticker": "MSTR",
+     "name": "스트래티지",
+     "changePct": 3.11
     },
     {
-     "ticker": "NOC",
-     "name": "노스롭그루먼",
-     "changePct": 1.6
+     "ticker": "RIOT",
+     "name": "라이엇플랫폼스",
+     "changePct": 1.9
     },
     {
-     "ticker": "GD",
-     "name": "제너럴다이내믹스",
-     "changePct": 1.07
+     "ticker": "COIN",
+     "name": "코인베이스",
+     "changePct": 1.34
     },
     {
-     "ticker": "RTX",
-     "name": "RTX",
-     "changePct": 0.29
+     "ticker": "MARA",
+     "name": "마라홀딩스",
+     "changePct": 0.18
     }
    ],
    "krStocks": [
     {
-     "code": "012450",
-     "name": "한화에어로스페이스",
-     "link": "자주포·엔진 수출, 글로벌 국방비 증가의 수혜",
+     "code": "041190",
+     "name": "우리기술투자",
+     "link": "업비트 운영사 두나무 지분 보유",
      "strength": 2
     },
     {
-     "code": "079550",
-     "name": "LIG디펜스앤에어로스페이스",
-     "link": "유도무기 수출, 글로벌 국방비 증가의 수혜",
+     "code": "003530",
+     "name": "한화투자증권",
+     "link": "업비트 운영사 두나무 지분 보유",
      "strength": 2
-    }
-   ]
-  },
-  {
-   "name": "정유·에너지",
-   "changePct": 1.31,
-   "why": "",
-   "logic": "유가와 미국 에너지 대형주가 오르면 정제마진·재고평가 이익 기대가 커져 국내 정유주도 같은 방향으로 움직입니다.",
-   "usStocks": [
-    {
-     "ticker": "COP",
-     "name": "코노코필립스",
-     "changePct": 1.85
-    },
-    {
-     "ticker": "OXY",
-     "name": "옥시덴탈",
-     "changePct": 1.29
-    },
-    {
-     "ticker": "CVX",
-     "name": "셰브론",
-     "changePct": 1.24
-    },
-    {
-     "ticker": "XOM",
-     "name": "엑슨모빌",
-     "changePct": 0.85
-    }
-   ],
-   "krStocks": [
-    {
-     "code": "010950",
-     "name": "S-Oil",
-     "link": "정유 전업, 유가·정제마진에 실적 연동",
-     "strength": 2
-    },
-    {
-     "code": "096770",
-     "name": "SK이노베이션",
-     "link": "정유·석유개발 사업, 유가에 연동",
-     "strength": 2
-    }
-   ]
-  },
-  {
-   "name": "엔터",
-   "changePct": 1.12,
-   "why": "",
-   "logic": "글로벌 스트리밍·음악 플랫폼 실적은 콘텐츠 소비 흐름을 보여줍니다. 해외 음원·공연 매출이 큰 국내 엔터사에 간접적으로 연결됩니다.",
-   "usStocks": [
-    {
-     "ticker": "SPOT",
-     "name": "스포티파이",
-     "changePct": 2.39
-    },
-    {
-     "ticker": "DIS",
-     "name": "디즈니",
-     "changePct": 1.86
-    },
-    {
-     "ticker": "NFLX",
-     "name": "넷플릭스",
-     "changePct": 1.33
-    },
-    {
-     "ticker": "WMG",
-     "name": "워너뮤직",
-     "changePct": -1.1
-    }
-   ],
-   "krStocks": [
-    {
-     "code": "352820",
-     "name": "하이브",
-     "link": "글로벌 음원·공연 매출 비중이 큼",
-     "strength": 1
-    },
-    {
-     "code": "041510",
-     "name": "에스엠",
-     "link": "글로벌 음원·공연 매출",
-     "strength": 1
     }
    ]
   }
  ],
  "weakThemes": [
   {
-   "name": "네오클라우드",
-   "changePct": -11.42,
+   "name": "반도체 장비",
+   "changePct": -2.91,
    "why": "",
-   "logic": "코어위브·네비우스·아이렌은 엔비디아 GPU를 대량으로 사서 AI 연산을 빌려주는 데이터센터 업체입니다. 이들의 증설은 GPU에 들어가는 HBM과 데이터센터 전력기기 수요로 이어집니다.",
+   "logic": "글로벌 장비사 주가는 반도체 설비투자 전망을 반영합니다. 투자가 늘면 국내 전공정·검사 장비사의 수주도 같은 방향으로 움직입니다.",
    "usStocks": [
     {
-     "ticker": "CRWV",
-     "name": "코어위브",
-     "changePct": -11.85
+     "ticker": "LRCX",
+     "name": "램리서치",
+     "changePct": -5.68
     },
     {
-     "ticker": "APLD",
-     "name": "어플라이드디지털",
-     "changePct": -11.58
+     "ticker": "AMAT",
+     "name": "어플라이드머티리얼즈",
+     "changePct": -3.89
     },
     {
-     "ticker": "IREN",
-     "name": "아이렌",
-     "changePct": -11.54
+     "ticker": "ASML",
+     "name": "ASML",
+     "changePct": -2.47
     },
     {
-     "ticker": "NBIS",
-     "name": "네비우스",
-     "changePct": -10.73
+     "ticker": "KLAC",
+     "name": "KLA",
+     "changePct": 0.41
+    }
+   ],
+   "krStocks": [
+    {
+     "code": "240810",
+     "name": "원익IPS",
+     "link": "반도체 증착 장비, 글로벌 장비주와 같은 투자 사이클",
+     "strength": 2
+    },
+    {
+     "code": "036930",
+     "name": "주성엔지니어링",
+     "link": "반도체 증착 장비, 글로벌 장비주와 같은 투자 사이클",
+     "strength": 2
+    }
+   ]
+  },
+  {
+   "name": "반도체·AI 인프라",
+   "changePct": -2.45,
+   "why": "",
+   "logic": "엔비디아·브로드컴의 AI 가속기 수요가 늘면 거기에 들어가는 HBM 메모리와 후공정 장비 주문이 함께 늘어납니다.",
+   "usStocks": [
+    {
+     "ticker": "MU",
+     "name": "마이크론",
+     "changePct": -4.53
+    },
+    {
+     "ticker": "NVDA",
+     "name": "엔비디아",
+     "changePct": -3.91
+    },
+    {
+     "ticker": "TSM",
+     "name": "TSMC",
+     "changePct": -1.96
+    },
+    {
+     "ticker": "AMD",
+     "name": "AMD",
+     "changePct": -1.75
     }
    ],
    "krStocks": [
     {
      "code": "000660",
      "name": "SK하이닉스",
-     "link": "네오클라우드가 사들이는 엔비디아 GPU에 HBM을 공급",
-     "strength": 2
+     "link": "엔비디아 AI 가속기에 들어가는 HBM 메모리를 공급",
+     "strength": 3
     },
     {
-     "code": "010120",
-     "name": "LS ELECTRIC",
-     "link": "데이터센터용 배전·전력기기 공급",
-     "strength": 2
+     "code": "042700",
+     "name": "한미반도체",
+     "link": "HBM 제조 공정에 쓰는 TC본더 장비를 공급",
+     "strength": 3
     }
    ]
   },
   {
    "name": "메모리·스토리지",
-   "changePct": -8.69,
+   "changePct": -2.39,
    "why": "",
    "logic": "마이크론·샌디스크 주가는 D램·낸드 가격과 수요 전망을 가장 먼저 반영합니다. 같은 제품을 파는 국내 메모리 업체의 실적 기대가 같은 방향으로 움직입니다.",
    "usStocks": [
     {
      "ticker": "MU",
      "name": "마이크론",
-     "changePct": -11.01
-    },
-    {
-     "ticker": "WDC",
-     "name": "웨스턴디지털",
-     "changePct": -7.84
+     "changePct": -4.53
     },
     {
      "ticker": "STX",
      "name": "씨게이트",
-     "changePct": -7.23
+     "changePct": -2.1
+    },
+    {
+     "ticker": "WDC",
+     "name": "웨스턴디지털",
+     "changePct": -0.55
     }
    ],
    "krStocks": [
@@ -797,453 +829,411 @@ window.DASH.usmarket = {
      "strength": 3
     }
    ]
-  },
-  {
-   "name": "AI 서버·네트워크",
-   "changePct": -8.54,
-   "why": "",
-   "logic": "AI 서버와 데이터센터 네트워크 장비 주문이 늘면 그 안에 들어가는 고다층 기판·MLCC 수요가 따라 늘어납니다.",
-   "usStocks": [
-    {
-     "ticker": "DELL",
-     "name": "델",
-     "changePct": -11.83
-    },
-    {
-     "ticker": "COHR",
-     "name": "코히런트",
-     "changePct": -9.07
-    },
-    {
-     "ticker": "SMCI",
-     "name": "슈퍼마이크로",
-     "changePct": -7.79
-    },
-    {
-     "ticker": "ANET",
-     "name": "아리스타네트웍스",
-     "changePct": -5.47
-    }
-   ],
-   "krStocks": [
-    {
-     "code": "007660",
-     "name": "이수페타시스",
-     "link": "AI 서버·네트워크 장비용 고다층 기판(MLB)을 북미 고객에 공급",
-     "strength": 3
-    },
-    {
-     "code": "009150",
-     "name": "삼성전기",
-     "link": "AI 서버용 MLCC와 FC-BGA 기판 공급",
-     "strength": 2
-    }
-   ]
   }
  ],
  "seohak": {
-  "holdAsOf": "2026-11-23",
-  "netPeriod": "2026-11-18~2026-11-24",
+  "holdAsOf": "2026-11-24",
+  "netPeriod": "2026-11-19~2026-11-25",
   "hold": [
    {
     "rank": 1,
     "ticker": "TSLA",
     "name": "테슬라",
-    "usd": 21884439740,
+    "usd": 21833904327,
     "etf": false,
-    "changePct": -0.2
+    "changePct": -1.18
    },
    {
     "rank": 2,
     "ticker": "NVDA",
     "name": "엔비디아",
-    "usd": 14012594041,
+    "usd": 13231640169,
     "etf": false,
-    "changePct": -5.86
+    "changePct": -3.91
    },
    {
     "rank": 3,
     "ticker": "GOOGL",
     "name": "알파벳 A",
-    "usd": 7993145509,
+    "usd": 7876219854,
     "etf": false,
-    "changePct": -1.08
+    "changePct": -2.13
    },
    {
     "rank": 4,
     "ticker": "VOO",
     "name": "S&P500 (VOO)",
-    "usd": 5309425450,
+    "usd": 5286434910,
     "etf": true,
-    "changePct": -0.48
+    "changePct": -0.28
    },
    {
     "rank": 5,
-    "ticker": "QQQ",
-    "name": "나스닥100 (QQQ)",
-    "usd": 5190855218,
-    "etf": true,
-    "changePct": -1.99
+    "ticker": "AAPL",
+    "name": "애플",
+    "usd": 5239698960,
+    "etf": false,
+    "changePct": 0.43
    },
    {
     "rank": 6,
-    "ticker": "AAPL",
-    "name": "애플",
-    "usd": 5165485407,
-    "etf": false,
-    "changePct": 1.43
+    "ticker": "QQQ",
+    "name": "나스닥100 (QQQ)",
+    "usd": 5095861138,
+    "etf": true,
+    "changePct": -0.65
    },
    {
     "rank": 7,
-    "ticker": "SOXL",
-    "name": "반도체 3배 (SOXL)",
-    "usd": 4336312455,
+    "ticker": "SCHD",
+    "name": "미국배당 (SCHD)",
+    "usd": 4021253024,
     "etf": true,
-    "changePct": -24.55
+    "changePct": 1.15
    },
    {
     "rank": 8,
-    "ticker": "SCHD",
-    "name": "미국배당 (SCHD)",
-    "usd": 3981187827,
-    "etf": true,
-    "changePct": 1.45
+    "ticker": "PLTR",
+    "name": "팔란티어",
+    "usd": 3789272322,
+    "etf": false,
+    "changePct": 1.5
    },
    {
     "rank": 9,
-    "ticker": "PLTR",
-    "name": "팔란티어",
-    "usd": 3766965226,
-    "etf": false,
-    "changePct": 1.14
+    "ticker": "SOXL",
+    "name": "반도체 3배 (SOXL)",
+    "usd": 3700329929,
+    "etf": true,
+    "changePct": -1.78
    },
    {
     "rank": 10,
-    "ticker": "TQQQ",
-    "name": "나스닥100 3배 (TQQQ)",
-    "usd": 3675552253,
+    "ticker": "QQQM",
+    "name": "나스닥100 (QQQM)",
+    "usd": 3579245969,
     "etf": true,
-    "changePct": -5.93
+    "changePct": -0.66
    },
    {
     "rank": 11,
-    "ticker": "QQQM",
-    "name": "나스닥100 (QQQM)",
-    "usd": 3631947473,
+    "ticker": "TQQQ",
+    "name": "나스닥100 3배 (TQQQ)",
+    "usd": 3549794160,
     "etf": true,
-    "changePct": -1.94
+    "changePct": -1.97
    },
    {
     "rank": 12,
     "ticker": "MSFT",
     "name": "마이크로소프트",
-    "usd": 3467498003,
+    "usd": 3476434268,
     "etf": false,
-    "changePct": 0.74
+    "changePct": -1.25
    },
    {
     "rank": 13,
     "ticker": "SPCX",
     "name": "스페이스X",
-    "usd": 3434919300,
+    "usd": 3240994285,
     "etf": false,
-    "changePct": -5.65
+    "changePct": 1.3
    },
    {
     "rank": 14,
-    "ticker": "MU",
-    "name": "마이크론",
-    "usd": 3058204558,
-    "etf": false,
-    "changePct": -11.01
+    "ticker": "SPY",
+    "name": "S&P500 (SPY)",
+    "usd": 2990320523,
+    "etf": true,
+    "changePct": -0.29
    },
    {
     "rank": 15,
-    "ticker": "SPY",
-    "name": "S&P500 (SPY)",
-    "usd": 3004052090,
+    "ticker": "QLD",
+    "name": "나스닥100 2배 (QLD)",
+    "usd": 2937258419,
     "etf": true,
-    "changePct": -0.49
+    "changePct": -1.33
    },
    {
     "rank": 16,
-    "ticker": "QLD",
-    "name": "나스닥100 2배 (QLD)",
-    "usd": 2995231141,
-    "etf": true,
-    "changePct": -3.95
+    "ticker": "MU",
+    "name": "마이크론",
+    "usd": 2707119560,
+    "etf": false,
+    "changePct": -4.53
    },
    {
     "rank": 17,
-    "ticker": "AVGO",
-    "name": "브로드컴",
-    "usd": 2475827127,
+    "ticker": "AMZN",
+    "name": "아마존",
+    "usd": 2383186013,
     "etf": false,
-    "changePct": -3.98
+    "changePct": -3.12
    },
    {
     "rank": 18,
-    "ticker": "AMZN",
-    "name": "아마존",
-    "usd": 2417280031,
+    "ticker": "AVGO",
+    "name": "브로드컴",
+    "usd": 2371856102,
     "etf": false,
-    "changePct": -1.21
+    "changePct": -0.07
    },
    {
     "rank": 19,
-    "ticker": "IONQ",
-    "name": "아이온큐",
-    "usd": 2297120933,
-    "etf": false,
-    "changePct": -4.03
+    "ticker": "SGOV",
+    "name": "초단기국채 (SGOV)",
+    "usd": 2212639369,
+    "etf": true,
+    "changePct": 0.02
    },
    {
     "rank": 20,
-    "ticker": "SGOV",
-    "name": "초단기국채 (SGOV)",
-    "usd": 2229636126,
-    "etf": true,
-    "changePct": 0.02
+    "ticker": "IONQ",
+    "name": "아이온큐",
+    "usd": 2210118848,
+    "etf": false,
+    "changePct": 5.09
    },
    {
     "rank": 21,
     "ticker": "JEPQ",
     "name": "나스닥 커버드콜 (JEPQ)",
-    "usd": 1766660837,
+    "usd": 1740673838,
     "etf": true,
-    "changePct": -1.8
+    "changePct": -0.64
    },
    {
     "rank": 22,
     "ticker": "SPYM",
     "name": "S&P500 (SPYM)",
-    "usd": 1582876733,
+    "usd": 1578066779,
     "etf": true,
-    "changePct": -0.51
+    "changePct": -0.28
    },
    {
     "rank": 23,
-    "ticker": "AMD",
-    "name": "AMD",
-    "usd": 1527898581,
+    "ticker": "TSM",
+    "name": "TSMC",
+    "usd": 1424727968,
     "etf": false,
-    "changePct": -8.86
+    "changePct": -1.96
    },
    {
     "rank": 24,
-    "ticker": "TSM",
-    "name": "TSMC",
-    "usd": 1496575418,
+    "ticker": "AMD",
+    "name": "AMD",
+    "usd": 1370292108,
     "etf": false,
-    "changePct": -3.96
+    "changePct": -1.75
    },
    {
     "rank": 25,
     "ticker": "GOOG",
     "name": "알파벳 C",
-    "usd": 1375205698,
+    "usd": 1355912949,
     "etf": false,
-    "changePct": -1.06
+    "changePct": -2.02
    },
    {
     "rank": 26,
     "ticker": "META",
     "name": "메타",
-    "usd": 1334146525,
+    "usd": 1306962383,
     "etf": false,
-    "changePct": -1.3
+    "changePct": 3.4
    },
    {
     "rank": 27,
     "ticker": "TSLL",
     "name": "테슬라 2배 (TSLL)",
-    "usd": 1274463371,
+    "usd": 1268505192,
     "etf": true,
-    "changePct": -0.4
+    "changePct": -2.53
    },
    {
     "rank": 28,
     "ticker": "SOXX",
     "name": "반도체 (SOXX)",
-    "usd": 1216991277,
+    "usd": 1127925332,
     "etf": true,
-    "changePct": -8.27
+    "changePct": -0.5
    },
    {
     "rank": 29,
-    "ticker": "INTC",
-    "name": "인텔",
-    "usd": 906230687,
+    "ticker": "SNDK",
+    "name": "샌디스크",
+    "usd": 929582678,
     "etf": false,
-    "changePct": -8.15
+    "changePct": null
    },
    {
     "rank": 30,
-    "ticker": "QQQI",
-    "name": "나스닥 고배당 (QQQI)",
-    "usd": 791855681,
-    "etf": true,
-    "changePct": -1.89
+    "ticker": "INTC",
+    "name": "인텔",
+    "usd": 824749371,
+    "etf": false,
+    "changePct": -0.6
    },
    {
     "rank": 31,
-    "ticker": "BRK-B",
-    "name": "버크셔해서웨이 B",
-    "usd": 740267530,
-    "etf": false,
-    "changePct": 0.85
+    "ticker": "QQQI",
+    "name": "나스닥 고배당 (QQQI)",
+    "usd": 779405596,
+    "etf": true,
+    "changePct": -0.65
    },
    {
     "rank": 32,
-    "ticker": "SMH",
-    "name": "반도체 (SMH)",
-    "usd": 722223697,
-    "etf": true,
-    "changePct": -7.26
+    "ticker": "BRK-B",
+    "name": "버크셔해서웨이 B",
+    "usd": 745319526,
+    "etf": false,
+    "changePct": 0.37
    },
    {
     "rank": 33,
     "ticker": "JEPI",
     "name": "S&P 커버드콜 (JEPI)",
-    "usd": 707546329,
+    "usd": 707958821,
     "etf": true,
-    "changePct": 0.23
+    "changePct": 0.07
    },
    {
     "rank": 34,
-    "ticker": "MRVL",
-    "name": "마벨",
-    "usd": 646249333,
-    "etf": false,
-    "changePct": -9.1
+    "ticker": "SMH",
+    "name": "반도체 (SMH)",
+    "usd": 668552787,
+    "etf": true,
+    "changePct": -1.01
    },
    {
     "rank": 35,
-    "ticker": "IVV",
-    "name": "S&P500 (IVV)",
-    "usd": 641935899,
-    "etf": true,
-    "changePct": -0.48
+    "ticker": "O",
+    "name": "리얼티인컴",
+    "usd": 643878956,
+    "etf": false,
+    "changePct": 1.18
    },
    {
     "rank": 36,
-    "ticker": "O",
-    "name": "리얼티인컴",
-    "usd": 636633081,
-    "etf": false,
-    "changePct": 1.64
+    "ticker": "IVV",
+    "name": "S&P500 (IVV)",
+    "usd": 639271033,
+    "etf": true,
+    "changePct": -0.27
    },
    {
     "rank": 37,
-    "ticker": "RKLB",
-    "name": "로켓랩",
-    "usd": 613428613,
+    "ticker": "KO",
+    "name": "코카콜라",
+    "usd": 605115825,
     "etf": false,
-    "changePct": -7.35
+    "changePct": -0.03
    },
    {
     "rank": 38,
-    "ticker": "KO",
-    "name": "코카콜라",
-    "usd": 591916522,
+    "ticker": "MRVL",
+    "name": "마벨",
+    "usd": 579440627,
     "etf": false,
-    "changePct": 1.81
+    "changePct": -0.49
    },
    {
     "rank": 39,
     "ticker": "ASML",
     "name": "ASML",
-    "usd": 590096376,
+    "usd": 568158179,
     "etf": false,
-    "changePct": -3.45
+    "changePct": -2.47
    },
    {
     "rank": 40,
-    "ticker": "BMNR",
-    "name": "비트마인",
-    "usd": 568403753,
+    "ticker": "RKLB",
+    "name": "로켓랩",
+    "usd": 564754601,
     "etf": false,
-    "changePct": -8.6
+    "changePct": 2.26
    },
    {
     "rank": 41,
-    "ticker": "DRAM",
-    "name": "메모리 (DRAM)",
-    "usd": 536067832,
-    "etf": true,
-    "changePct": -9.22
+    "ticker": "BMNR",
+    "name": "비트마인",
+    "usd": 520280777,
+    "etf": false,
+    "changePct": 1.97
    },
    {
     "rank": 42,
-    "ticker": "MSTR",
-    "name": "스트래티지",
-    "usd": 535870708,
-    "etf": false,
-    "changePct": -8.12
+    "ticker": "TLT",
+    "name": "미국 장기국채 (TLT)",
+    "usd": 518443862,
+    "etf": true,
+    "changePct": 0.92
    },
    {
     "rank": 43,
-    "ticker": "IREN",
-    "name": "아이렌",
-    "usd": 535578104,
+    "ticker": "MSTR",
+    "name": "스트래티지",
+    "usd": 495008397,
     "etf": false,
-    "changePct": -11.54
+    "changePct": 3.11
    },
    {
     "rank": 44,
-    "ticker": "TLT",
-    "name": "미국 장기국채 (TLT)",
-    "usd": 523184667,
+    "ticker": "DRAM",
+    "name": "메모리 (DRAM)",
+    "usd": 482260074,
     "etf": true,
-    "changePct": -0.24
+    "changePct": -3.03
    },
    {
     "rank": 45,
-    "ticker": "BE",
-    "name": "블룸에너지",
-    "usd": 506543468,
+    "ticker": "IREN",
+    "name": "아이렌",
+    "usd": 479389972,
     "etf": false,
-    "changePct": -6.98
+    "changePct": -0.77
    },
    {
     "rank": 46,
-    "ticker": "CRCL",
-    "name": "서클",
-    "usd": 493095543,
+    "ticker": "BRK-A",
+    "name": "Berkshire Hathaway Inc Cl A",
+    "usd": 472557540,
     "etf": false,
-    "changePct": -7.05
+    "changePct": 0.54
    },
    {
     "rank": 47,
-    "ticker": "BRK-A",
-    "name": "Berkshire Hathaway Inc Cl A",
-    "usd": 470836668,
+    "ticker": "LLY",
+    "name": "일라이릴리",
+    "usd": 459545760,
     "etf": false,
-    "changePct": 0.73
+    "changePct": -1.09
    },
    {
     "rank": 48,
-    "ticker": "LLY",
-    "name": "일라이릴리",
-    "usd": 447318609,
+    "ticker": "CRCL",
+    "name": "서클",
+    "usd": 459453934,
     "etf": false,
-    "changePct": 3.15
+    "changePct": 1.15
    },
    {
     "rank": 49,
-    "ticker": "AMAT",
-    "name": "어플라이드머티리얼즈",
-    "usd": 430318250,
+    "ticker": "BE",
+    "name": "블룸에너지",
+    "usd": 419283908,
     "etf": false,
-    "changePct": -6.66
+    "changePct": -2.25
    },
    {
     "rank": 50,
-    "ticker": "SKHY",
-    "name": "SK하이닉스 ADR",
-    "usd": 427432600,
-    "etf": false,
-    "changePct": -9.9
+    "ticker": "GLD",
+    "name": "Spdr Gold Shares Etf",
+    "usd": 405890826,
+    "etf": true,
+    "changePct": 0.61
    }
   ],
   "netbuy": [
@@ -1251,401 +1241,401 @@ window.DASH.usmarket = {
     "rank": 1,
     "ticker": "SOXL",
     "name": "반도체 3배 (SOXL)",
-    "usd": 1273117872,
+    "usd": 634765675,
     "etf": true,
-    "changePct": -24.55
+    "changePct": -1.78
    },
    {
     "rank": 2,
     "ticker": "ANT",
     "name": "Anthropic Pbc-Cl A",
-    "usd": 247234845,
+    "usd": 251682561,
     "etf": false,
-    "changePct": -6.54
+    "changePct": 1.07
    },
    {
     "rank": 3,
     "ticker": "NVDA",
     "name": "엔비디아",
-    "usd": 233690180,
+    "usd": 231251862,
     "etf": false,
-    "changePct": -5.86
+    "changePct": -3.91
    },
    {
     "rank": 4,
     "ticker": "TQQQ",
     "name": "나스닥100 3배 (TQQQ)",
-    "usd": 186464423,
+    "usd": 183563185,
     "etf": true,
-    "changePct": -5.93
+    "changePct": -1.97
    },
    {
     "rank": 5,
     "ticker": "QLD",
     "name": "나스닥100 2배 (QLD)",
-    "usd": 118905637,
+    "usd": 127308559,
     "etf": true,
-    "changePct": -3.95
+    "changePct": -1.33
    },
    {
     "rank": 6,
-    "ticker": "SPCX",
-    "name": "스페이스X",
-    "usd": 83299076,
-    "etf": false,
-    "changePct": -5.65
+    "ticker": "IVV",
+    "name": "S&P500 (IVV)",
+    "usd": 80022349,
+    "etf": true,
+    "changePct": -0.27
    },
    {
     "rank": 7,
-    "ticker": "IONQ",
-    "name": "아이온큐",
-    "usd": 66178866,
+    "ticker": "SPCX",
+    "name": "스페이스X",
+    "usd": 77230534,
     "etf": false,
-    "changePct": -4.03
+    "changePct": 1.3
    },
    {
     "rank": 8,
     "ticker": "QQQM",
     "name": "나스닥100 (QQQM)",
-    "usd": 48722192,
+    "usd": 62905763,
     "etf": true,
-    "changePct": -1.94
+    "changePct": -0.66
    },
    {
     "rank": 9,
-    "ticker": "QQQI",
-    "name": "나스닥 고배당 (QQQI)",
-    "usd": 33118736,
-    "etf": true,
-    "changePct": -1.89
+    "ticker": "IONQ",
+    "name": "아이온큐",
+    "usd": 55687815,
+    "etf": false,
+    "changePct": 5.09
    },
    {
     "rank": 10,
-    "ticker": "APP",
-    "name": "앱러빈",
-    "usd": 31117824,
-    "etf": false,
-    "changePct": 1.92
+    "ticker": "SOXX",
+    "name": "반도체 (SOXX)",
+    "usd": 54826510,
+    "etf": true,
+    "changePct": -0.5
    },
    {
     "rank": 11,
-    "ticker": "CRWD",
-    "name": "크라우드스트라이크",
-    "usd": 31051994,
-    "etf": false,
-    "changePct": 0.9
+    "ticker": "QQQ",
+    "name": "나스닥100 (QQQ)",
+    "usd": 50368457,
+    "etf": true,
+    "changePct": -0.65
    },
    {
     "rank": 12,
-    "ticker": "QQQ",
-    "name": "나스닥100 (QQQ)",
-    "usd": 30762439,
-    "etf": true,
-    "changePct": -1.99
+    "ticker": "IREN",
+    "name": "아이렌",
+    "usd": 39016563,
+    "etf": false,
+    "changePct": -0.77
    },
    {
     "rank": 13,
-    "ticker": "IREN",
-    "name": "아이렌",
-    "usd": 30486161,
+    "ticker": "MU",
+    "name": "마이크론",
+    "usd": 35483526,
     "etf": false,
-    "changePct": -11.54
+    "changePct": -4.53
    },
    {
     "rank": 14,
-    "ticker": "JEPQ",
-    "name": "나스닥 커버드콜 (JEPQ)",
-    "usd": 23000394,
-    "etf": true,
-    "changePct": -1.8
+    "ticker": "CRWD",
+    "name": "크라우드스트라이크",
+    "usd": 32255704,
+    "etf": false,
+    "changePct": -0.74
    },
    {
     "rank": 15,
-    "ticker": "PANW",
-    "name": "팔로알토네트웍스",
-    "usd": 20297506,
-    "etf": false,
-    "changePct": -0.12
+    "ticker": "QQQI",
+    "name": "나스닥 고배당 (QQQI)",
+    "usd": 30225680,
+    "etf": true,
+    "changePct": -0.65
    },
    {
     "rank": 16,
-    "ticker": "SPYM",
-    "name": "S&P500 (SPYM)",
-    "usd": 17494982,
-    "etf": true,
-    "changePct": -0.51
+    "ticker": "APP",
+    "name": "앱러빈",
+    "usd": 27230326,
+    "etf": false,
+    "changePct": -0.57
    },
    {
     "rank": 17,
-    "ticker": "GDXU",
-    "name": "금광 3배 (GDXU)",
-    "usd": 15395523,
-    "etf": true,
-    "changePct": -6.23
+    "ticker": "PANW",
+    "name": "팔로알토네트웍스",
+    "usd": 23650701,
+    "etf": false,
+    "changePct": 0.89
    },
    {
     "rank": 18,
     "ticker": "KORU",
     "name": "한국 3배 (KORU)",
-    "usd": 12871058,
+    "usd": 18658381,
     "etf": true,
-    "changePct": -10.77
+    "changePct": -3.66
    },
    {
     "rank": 19,
-    "ticker": "SNOW",
-    "name": "Snowflake Inc",
-    "usd": 12852897,
-    "etf": false,
-    "changePct": -0.07
+    "ticker": "SPYM",
+    "name": "S&P500 (SPYM)",
+    "usd": 18554297,
+    "etf": true,
+    "changePct": -0.28
    },
    {
     "rank": 20,
-    "ticker": "NVDL",
-    "name": "엔비디아 2배 (NVDL)",
-    "usd": 11704980,
-    "etf": true,
-    "changePct": -11.8
+    "ticker": "AMD",
+    "name": "AMD",
+    "usd": 17200220,
+    "etf": false,
+    "changePct": -1.75
    },
    {
     "rank": 21,
-    "ticker": "CRCL",
-    "name": "서클",
-    "usd": 10869616,
-    "etf": false,
-    "changePct": -7.05
+    "ticker": "JEPQ",
+    "name": "나스닥 커버드콜 (JEPQ)",
+    "usd": 16393760,
+    "etf": true,
+    "changePct": -0.64
    },
    {
     "rank": 22,
-    "ticker": "BOXX",
-    "name": "초단기 (BOXX)",
-    "usd": 10810763,
+    "ticker": "GDXU",
+    "name": "금광 3배 (GDXU)",
+    "usd": 15635626,
     "etf": true,
-    "changePct": 0.04
+    "changePct": 10.78
    },
    {
     "rank": 23,
-    "ticker": "SNXX",
-    "name": "Tradr 2X Long Sndk Daily Etf",
-    "usd": 10588535,
-    "etf": true,
-    "changePct": -21.05
+    "ticker": "NBIS",
+    "name": "네비우스",
+    "usd": 14037782,
+    "etf": false,
+    "changePct": -2.66
    },
    {
     "rank": 24,
-    "ticker": "MSTR",
-    "name": "스트래티지",
-    "usd": 10287417,
+    "ticker": "SNOW",
+    "name": "Snowflake Inc",
+    "usd": 12763285,
     "etf": false,
-    "changePct": -8.12
+    "changePct": -1.24
    },
    {
     "rank": 25,
-    "ticker": "CAT",
-    "name": "Caterpillar Inc",
-    "usd": 10092899,
-    "etf": false,
-    "changePct": -1.17
+    "ticker": "USD",
+    "name": "Proshares Ultra Semiconductors Etf",
+    "usd": 11918933,
+    "etf": true,
+    "changePct": -4.33
    },
    {
     "rank": 26,
-    "ticker": "ETHU",
-    "name": "Volatility Shares Trust 2X Ether Etf New",
-    "usd": 10016783,
-    "etf": true,
-    "changePct": -5.61
+    "ticker": "MSTR",
+    "name": "스트래티지",
+    "usd": 11293877,
+    "etf": false,
+    "changePct": 3.11
    },
    {
     "rank": 27,
-    "ticker": "USD",
-    "name": "Proshares Ultra Semiconductors Etf",
-    "usd": 8527548,
+    "ticker": "SNXX",
+    "name": "Tradr 2X Long Sndk Daily Etf",
+    "usd": 9376450,
     "etf": true,
-    "changePct": -13.86
+    "changePct": -11.52
    },
    {
     "rank": 28,
-    "ticker": "ACWI",
-    "name": "Ishares Msci Acwi Etf",
-    "usd": 8385342,
-    "etf": true,
-    "changePct": -0.54
+    "ticker": "CRCL",
+    "name": "서클",
+    "usd": 9199160,
+    "etf": false,
+    "changePct": 1.15
    },
    {
     "rank": 29,
     "ticker": "ZETA",
     "name": "Zeta Global Holdings Corp Cl A",
-    "usd": 7752114,
+    "usd": 8528661,
     "etf": false,
-    "changePct": -1.91
+    "changePct": 0.5
    },
    {
     "rank": 30,
-    "ticker": "SVIX",
-    "name": "-1X Short Vix Futures Etf",
-    "usd": 7584359,
-    "etf": true,
-    "changePct": 0.53
+    "ticker": "CAT",
+    "name": "Caterpillar Inc",
+    "usd": 6988693,
+    "etf": false,
+    "changePct": 0.57
    },
    {
     "rank": 31,
-    "ticker": "CB",
-    "name": "Chubb Ltd Megr",
-    "usd": 7135035,
-    "etf": false,
-    "changePct": 1.82
+    "ticker": "SVIX",
+    "name": "-1X Short Vix Futures Etf",
+    "usd": 6587282,
+    "etf": true,
+    "changePct": -3.89
    },
    {
     "rank": 32,
-    "ticker": "SOXX",
-    "name": "반도체 (SOXX)",
-    "usd": 6942058,
-    "etf": true,
-    "changePct": -8.27
+    "ticker": "COHR",
+    "name": "코히런트",
+    "usd": 5913316,
+    "etf": false,
+    "changePct": -0.03
    },
    {
     "rank": 33,
-    "ticker": "CSCO",
-    "name": "Cisco Systems Inc",
-    "usd": 6842008,
+    "ticker": "JOBY",
+    "name": "조비에비에이션",
+    "usd": 5808216,
     "etf": false,
-    "changePct": -2.9
+    "changePct": 11.11
    },
    {
     "rank": 34,
-    "ticker": "MA",
-    "name": "Mastercard Inc Cl A",
-    "usd": 6333482,
-    "etf": false,
-    "changePct": 1.88
+    "ticker": "IQQ",
+    "name": "Ishares Nasdaq 100 Etf",
+    "usd": 5070984,
+    "etf": true,
+    "changePct": -0.65
    },
    {
     "rank": 35,
-    "ticker": "JPM",
-    "name": "JP모건",
-    "usd": 5755315,
+    "ticker": "CB",
+    "name": "Chubb Ltd Megr",
+    "usd": 5023666,
     "etf": false,
-    "changePct": 0.14
+    "changePct": 1.37
    },
    {
     "rank": 36,
-    "ticker": "GDHG",
-    "name": "Golden Heaven Group Holding New Cl A Ord Shs Us 0.125",
-    "usd": 5750698,
+    "ticker": "OKTA",
+    "name": "Okta Inc",
+    "usd": 4827699,
     "etf": false,
-    "changePct": -7.32
+    "changePct": 1.84
    },
    {
     "rank": 37,
-    "ticker": "BITU",
-    "name": "Proshares Ultra Bitcoin Etf",
-    "usd": 5481811,
+    "ticker": "GPIQ",
+    "name": "나스닥 커버드콜 (GPIQ)",
+    "usd": 4707100,
     "etf": true,
-    "changePct": -4.77
+    "changePct": -0.52
    },
    {
     "rank": 38,
-    "ticker": "JOBY",
-    "name": "조비에비에이션",
-    "usd": 5420583,
+    "ticker": "GDHG",
+    "name": "Golden Heaven Group Holding New Cl A Ord Shs Us 0.125",
+    "usd": 4452977,
     "etf": false,
-    "changePct": -8.83
+    "changePct": -46.49
    },
    {
     "rank": 39,
-    "ticker": "KO",
-    "name": "코카콜라",
-    "usd": 4931262,
-    "etf": false,
-    "changePct": 1.81
+    "ticker": "UPRO",
+    "name": "Proshares Ultrapro Sp 500 Etf",
+    "usd": 4386166,
+    "etf": true,
+    "changePct": -0.95
    },
    {
     "rank": 40,
-    "ticker": "IQQ",
-    "name": "Ishares Nasdaq 100 Etf",
-    "usd": 4867052,
-    "etf": true,
-    "changePct": -1.95
+    "ticker": "CHSN",
+    "name": "Chanson International Holding",
+    "usd": 4369798,
+    "etf": false,
+    "changePct": 10.34
    },
    {
     "rank": 41,
-    "ticker": "CHSN",
-    "name": "Chanson International Holding",
-    "usd": 4253598,
-    "etf": false,
-    "changePct": -9.38
+    "ticker": "BITU",
+    "name": "Proshares Ultra Bitcoin Etf",
+    "usd": 4348910,
+    "etf": true,
+    "changePct": 1.76
    },
    {
     "rank": 42,
-    "ticker": "UVV",
-    "name": "Universal Corp",
-    "usd": 4223277,
+    "ticker": "AMZN",
+    "name": "아마존",
+    "usd": 4293401,
     "etf": false,
-    "changePct": 0.4
+    "changePct": -3.12
    },
    {
     "rank": 43,
-    "ticker": "GPIQ",
-    "name": "나스닥 커버드콜 (GPIQ)",
-    "usd": 4074201,
-    "etf": true,
-    "changePct": -1.89
+    "ticker": "JPM",
+    "name": "JP모건",
+    "usd": 4277010,
+    "etf": false,
+    "changePct": -0.11
    },
    {
     "rank": 44,
-    "ticker": "SMH",
-    "name": "반도체 (SMH)",
-    "usd": 3904062,
-    "etf": true,
-    "changePct": -7.26
+    "ticker": "UVV",
+    "name": "Universal Corp",
+    "usd": 4232130,
+    "etf": false,
+    "changePct": 0.93
    },
    {
     "rank": 45,
-    "ticker": "QNDX",
-    "name": "State Street Spdr Portfolio Nasdaq 100 Etf",
-    "usd": 3748938,
+    "ticker": "ETHU",
+    "name": "Volatility Shares Trust 2X Ether Etf New",
+    "usd": 3887605,
     "etf": true,
-    "changePct": -1.95
+    "changePct": 1.74
    },
    {
     "rank": 46,
-    "ticker": "OKTA",
-    "name": "Okta Inc",
-    "usd": 3574352,
-    "etf": false,
-    "changePct": -3.96
+    "ticker": "QNDX",
+    "name": "State Street Spdr Portfolio Nasdaq 100 Etf",
+    "usd": 3611604,
+    "etf": true,
+    "changePct": -0.74
    },
    {
     "rank": 47,
-    "ticker": "BITX",
-    "name": "2X Bitcoin Strategy Etf",
-    "usd": 3534397,
-    "etf": true,
-    "changePct": -4.7
+    "ticker": "MA",
+    "name": "Mastercard Inc Cl A",
+    "usd": 3549126,
+    "etf": false,
+    "changePct": 1.94
    },
    {
     "rank": 48,
-    "ticker": "WMT",
-    "name": "Walmart Inc",
-    "usd": 3298066,
+    "ticker": "ORCL",
+    "name": "오라클",
+    "usd": 3382889,
     "etf": false,
-    "changePct": 2.11
+    "changePct": -5.13
    },
    {
     "rank": 49,
-    "ticker": "CLIP",
-    "name": "Global X Fds Global X 1-3 Month T-Bill",
-    "usd": 3243365,
-    "etf": true,
-    "changePct": 0.02
+    "ticker": "ASX",
+    "name": "Ase Technology Holding Co Ltd Adr",
+    "usd": 3351127,
+    "etf": false,
+    "changePct": 0.55
    },
    {
     "rank": 50,
-    "ticker": "ASX",
-    "name": "Ase Technology Holding Co Ltd Adr",
-    "usd": 3047839,
+    "ticker": "XOM",
+    "name": "엑슨모빌",
+    "usd": 3344347,
     "etf": false,
-    "changePct": -8.0
+    "changePct": -0.09
    }
   ]
  },
@@ -1656,701 +1646,701 @@ window.DASH.usmarket = {
     "t": "AAPL",
     "n": "Apple Inc.",
     "s": "기술",
-    "c": 5072.9,
-    "p": 1.43
-   },
-   {
-    "t": "NVDA",
-    "n": "NVIDIA Corporation",
-    "s": "기술",
-    "c": 3977.7,
-    "p": -5.86
+    "c": 5142.6,
+    "p": 0.43
    },
    {
     "t": "MSFT",
     "n": "Microsoft Corporation",
     "s": "기술",
-    "c": 3657.4,
-    "p": 0.74
+    "c": 3678.2,
+    "p": -1.25
+   },
+   {
+    "t": "NVDA",
+    "n": "NVIDIA Corporation",
+    "s": "기술",
+    "c": 3662.1,
+    "p": -3.91
    },
    {
     "t": "GOOGL",
     "n": "Alphabet Inc.",
     "s": "커뮤니케이션",
-    "c": 3468.1,
-    "p": -1.08
+    "c": 3428.7,
+    "p": -2.13
    },
    {
     "t": "AMZN",
     "n": "Amazon.com Inc.",
     "s": "경기소비재",
-    "c": 2761.6,
-    "p": -1.21
-   },
-   {
-    "t": "META",
-    "n": "Meta Platforms Inc.",
-    "s": "커뮤니케이션",
-    "c": 1527.6,
-    "p": -1.3
+    "c": 2719.5,
+    "p": -3.12
    },
    {
     "t": "TSLA",
     "n": "Tesla Inc.",
     "s": "경기소비재",
-    "c": 1523.6,
-    "p": -0.2
+    "c": 1515.9,
+    "p": -1.18
+   },
+   {
+    "t": "META",
+    "n": "Meta Platforms Inc.",
+    "s": "커뮤니케이션",
+    "c": 1500.5,
+    "p": 3.4
    },
    {
     "t": "AVGO",
     "n": "Broadcom Inc.",
     "s": "기술",
-    "c": 1496.8,
-    "p": -3.98
+    "c": 1446.4,
+    "p": -0.07
    },
    {
     "t": "LLY",
     "n": "Eli Lilly and Company",
     "s": "헬스케어",
-    "c": 1286.6,
-    "p": 3.15
+    "c": 1329.2,
+    "p": -1.09
    },
    {
     "t": "BRK.B",
     "n": "Berkshire Hathaway Inc.",
     "s": "금융",
-    "c": 1264.1,
-    "p": 0.85
+    "c": 1274.2,
+    "p": 0.37
    },
    {
     "t": "WMT",
     "n": "Walmart Inc.",
     "s": "필수소비재",
-    "c": 1028.1,
-    "p": 2.11
+    "c": 1050.4,
+    "p": -0.28
    },
    {
     "t": "JPM",
     "n": "JP Morgan Chase & Co.",
     "s": "금융",
-    "c": 841.3,
-    "p": 0.14
-   },
-   {
-    "t": "MU",
-    "n": "Micron Technology Inc.",
-    "s": "기술",
-    "c": 800.7,
-    "p": -11.01
-   },
-   {
-    "t": "AMD",
-    "n": "Advanced Micro Devices Inc.",
-    "s": "기술",
-    "c": 750.5,
-    "p": -8.86
+    "c": 841.8,
+    "p": -0.11
    },
    {
     "t": "V",
     "n": "Visa Inc.",
     "s": "금융",
-    "c": 739.1,
-    "p": 1.8
+    "c": 749.6,
+    "p": 1.83
+   },
+   {
+    "t": "MU",
+    "n": "Micron Technology Inc.",
+    "s": "기술",
+    "c": 702.3,
+    "p": -4.53
+   },
+   {
+    "t": "AMD",
+    "n": "Advanced Micro Devices Inc.",
+    "s": "기술",
+    "c": 676.4,
+    "p": -1.75
    },
    {
     "t": "JNJ",
     "n": "Johnson & Johnson",
     "s": "헬스케어",
-    "c": 651.2,
-    "p": 2.88
+    "c": 666.3,
+    "p": -0.91
    },
    {
     "t": "XOM",
     "n": "ExxonMobil Holdings Corporation",
     "s": "에너지",
-    "c": 640.3,
-    "p": 0.85
+    "c": 647.3,
+    "p": -0.09
    },
    {
     "t": "MA",
     "n": "Mastercard Incorporated",
     "s": "금융",
-    "c": 553.7,
-    "p": 1.88
+    "c": 564.9,
+    "p": 1.94
    },
    {
     "t": "ABBV",
     "n": "AbbVie Inc.",
     "s": "헬스케어",
-    "c": 510.1,
-    "p": 4.1
+    "c": 530.1,
+    "p": -1.93
    },
    {
     "t": "COST",
     "n": "Costco Wholesale Corporation",
     "s": "필수소비재",
-    "c": 486.5,
-    "p": 2.23
+    "c": 483.0,
+    "p": -0.45
    },
    {
     "t": "KO",
     "n": "Coca-Cola Company",
     "s": "필수소비재",
-    "c": 413.0,
-    "p": 1.81
+    "c": 420.4,
+    "p": -0.03
    },
    {
     "t": "CVX",
     "n": "Chevron Corporation",
     "s": "에너지",
-    "c": 405.3,
-    "p": 1.24
+    "c": 411.3,
+    "p": 1.06
    },
    {
     "t": "PG",
     "n": "Procter & Gamble Company",
     "s": "필수소비재",
-    "c": 393.8,
-    "p": 1.69
+    "c": 398.9,
+    "p": 0.44
    },
    {
     "t": "PLTR",
     "n": "Palantir Technologies Inc.",
     "s": "기술",
-    "c": 384.0,
-    "p": 1.14
+    "c": 385.6,
+    "p": 1.5
    },
    {
     "t": "CSCO",
     "n": "Cisco Systems Inc.",
     "s": "기술",
-    "c": 381.6,
-    "p": -2.9
+    "c": 368.8,
+    "p": 0.22
    },
    {
     "t": "HD",
     "n": "Home Depot Inc.",
     "s": "경기소비재",
-    "c": 345.6,
-    "p": 2.2
-   },
-   {
-    "t": "ORCL",
-    "n": "Oracle Corporation",
-    "s": "기술",
-    "c": 344.0,
-    "p": -3.68
+    "c": 352.2,
+    "p": 2.14
    },
    {
     "t": "MRK",
     "n": "Merck & Company Inc.",
     "s": "헬스케어",
-    "c": 333.9,
-    "p": 4.5
+    "c": 349.6,
+    "p": -0.9
    },
    {
     "t": "BAC",
     "n": "Bank of America Corporation",
     "s": "금융",
-    "c": 332.5,
-    "p": 0.87
+    "c": 334.9,
+    "p": -0.04
+   },
+   {
+    "t": "ORCL",
+    "n": "Oracle Corporation",
+    "s": "기술",
+    "c": 329.0,
+    "p": -5.13
    },
    {
     "t": "GE",
     "n": "GE Aerospace",
     "s": "산업재",
-    "c": 332.0,
-    "p": -1.01
-   },
-   {
-    "t": "INTC",
-    "n": "Intel Corporation",
-    "s": "기술",
-    "c": 317.1,
-    "p": -8.15
+    "c": 327.2,
+    "p": -0.33
    },
    {
     "t": "UNH",
     "n": "UnitedHealth Group Incorporated",
     "s": "헬스케어",
-    "c": 300.9,
-    "p": 1.73
+    "c": 307.1,
+    "p": 1.26
    },
    {
-    "t": "PANW",
-    "n": "Palo Alto Networks Inc.",
+    "t": "INTC",
+    "n": "Intel Corporation",
     "s": "기술",
-    "c": 290.2,
-    "p": -0.12
+    "c": 289.1,
+    "p": -0.6
    },
    {
     "t": "PM",
     "n": "Philip Morris International Inc",
     "s": "필수소비재",
-    "c": 284.5,
-    "p": 0.79
+    "c": 288.3,
+    "p": 0.2
    },
    {
-    "t": "AMAT",
-    "n": "Applied Materials Inc.",
+    "t": "PANW",
+    "n": "Palo Alto Networks Inc.",
     "s": "기술",
-    "c": 275.3,
-    "p": -6.66
+    "c": 288.2,
+    "p": 0.89
    },
    {
     "t": "MS",
     "n": "Morgan Stanley",
     "s": "금융",
-    "c": 270.2,
-    "p": -2.21
-   },
-   {
-    "t": "TXN",
-    "n": "Texas Instruments Incorporated",
-    "s": "기술",
-    "c": 266.1,
-    "p": -11.25
+    "c": 263.1,
+    "p": -0.73
    },
    {
     "t": "RTX",
     "n": "RTX Corporation",
     "s": "산업재",
-    "c": 262.9,
-    "p": 0.29
-   },
-   {
-    "t": "LRCX",
-    "n": "Lam Research Corporation",
-    "s": "기술",
-    "c": 262.0,
-    "p": -6.48
-   },
-   {
-    "t": "TMO",
-    "n": "Thermo Fisher Scientific Inc",
-    "s": "헬스케어",
-    "c": 254.9,
-    "p": 1.1
-   },
-   {
-    "t": "CAT",
-    "n": "Caterpillar Inc.",
-    "s": "산업재",
-    "c": 250.4,
-    "p": -1.17
+    "c": 263.1,
+    "p": 0.44
    },
    {
     "t": "AMGN",
     "n": "Amgen Inc.",
     "s": "헬스케어",
-    "c": 242.9,
-    "p": 5.55
+    "c": 258.0,
+    "p": -0.99
+   },
+   {
+    "t": "TMO",
+    "n": "Thermo Fisher Scientific Inc",
+    "s": "헬스케어",
+    "c": 257.7,
+    "p": -1.45
+   },
+   {
+    "t": "AMAT",
+    "n": "Applied Materials Inc.",
+    "s": "기술",
+    "c": 255.4,
+    "p": -3.89
+   },
+   {
+    "t": "CAT",
+    "n": "Caterpillar Inc.",
+    "s": "산업재",
+    "c": 246.5,
+    "p": 0.57
    },
    {
     "t": "WFC",
     "n": "Wells Fargo & Company",
     "s": "금융",
-    "c": 240.3,
-    "p": 1.49
+    "c": 243.9,
+    "p": -0.31
+   },
+   {
+    "t": "LRCX",
+    "n": "Lam Research Corporation",
+    "s": "기술",
+    "c": 242.9,
+    "p": -5.68
    },
    {
     "t": "NFLX",
     "n": "Netflix Inc.",
     "s": "커뮤니케이션",
-    "c": 238.6,
-    "p": 1.33
-   },
-   {
-    "t": "GS",
-    "n": "Goldman Sachs Group Inc.",
-    "s": "금융",
-    "c": 237.6,
-    "p": -2.14
+    "c": 241.0,
+    "p": 0.92
    },
    {
     "t": "LIN",
     "n": "Linde plc",
     "s": "소재",
-    "c": 237.3,
-    "p": -0.03
+    "c": 238.8,
+    "p": 1.51
    },
    {
-    "t": "ANET",
-    "n": "Arista Networks Inc.",
+    "t": "TXN",
+    "n": "Texas Instruments Incorporated",
     "s": "기술",
-    "c": 225.1,
-    "p": -5.47
+    "c": 235.6,
+    "p": 4.55
    },
    {
-    "t": "IBM",
-    "n": "International Business Machines Corporation",
-    "s": "기술",
-    "c": 220.2,
-    "p": 1.12
-   },
-   {
-    "t": "CRWD",
-    "n": "CrowdStrike Holdings Inc.",
-    "s": "기술",
-    "c": 214.0,
-    "p": 0.9
-   },
-   {
-    "t": "DELL",
-    "n": "Dell Technologies Inc.",
-    "s": "기술",
-    "c": 213.6,
-    "p": -11.83
+    "t": "GS",
+    "n": "Goldman Sachs Group Inc.",
+    "s": "금융",
+    "c": 231.3,
+    "p": -0.62
    },
    {
     "t": "GILD",
     "n": "Gilead Sciences Inc.",
     "s": "헬스케어",
-    "c": 211.6,
-    "p": 4.51
+    "c": 221.6,
+    "p": -0.87
    },
    {
-    "t": "AXP",
-    "n": "American Express Company",
-    "s": "금융",
-    "c": 205.8,
-    "p": 0.56
+    "t": "IBM",
+    "n": "International Business Machines Corporation",
+    "s": "기술",
+    "c": 221.2,
+    "p": 3.33
+   },
+   {
+    "t": "CRWD",
+    "n": "CrowdStrike Holdings Inc.",
+    "s": "기술",
+    "c": 215.9,
+    "p": -0.74
+   },
+   {
+    "t": "ANET",
+    "n": "Arista Networks Inc.",
+    "s": "기술",
+    "c": 212.3,
+    "p": -2.71
    },
    {
     "t": "DIS",
     "n": "Walt Disney Company",
     "s": "커뮤니케이션",
-    "c": 205.5,
-    "p": 1.86
+    "c": 209.2,
+    "p": 2.52
    },
    {
-    "t": "GEV",
-    "n": "GE Vernova Inc.",
-    "s": "산업재",
-    "c": 200.4,
-    "p": -4.77
+    "t": "AXP",
+    "n": "American Express Company",
+    "s": "금융",
+    "c": 206.5,
+    "p": 1.22
    },
    {
     "t": "MCD",
     "n": "McDonald's Corporation",
     "s": "경기소비재",
-    "c": 195.2,
-    "p": 1.56
+    "c": 198.0,
+    "p": 1.0
    },
    {
     "t": "PEP",
     "n": "PepsiCo Inc.",
     "s": "필수소비재",
-    "c": 193.3,
-    "p": 1.76
+    "c": 197.1,
+    "p": 0.88
    },
    {
     "t": "VZ",
     "n": "Verizon Communications Inc.",
     "s": "커뮤니케이션",
-    "c": 192.6,
-    "p": 1.53
+    "c": 195.3,
+    "p": 0.25
    },
    {
-    "t": "APH",
-    "n": "Amphenol Corporation",
+    "t": "DELL",
+    "n": "Dell Technologies Inc.",
     "s": "기술",
-    "c": 191.3,
-    "p": -5.09
+    "c": 189.4,
+    "p": 0.6
    },
    {
-    "t": "KLAC",
-    "n": "KLA Corporation",
-    "s": "기술",
-    "c": 190.0,
-    "p": -8.36
+    "t": "GEV",
+    "n": "GE Vernova Inc.",
+    "s": "산업재",
+    "c": 189.4,
+    "p": -0.78
    },
    {
     "t": "C",
     "n": "Citigroup Inc.",
     "s": "금융",
-    "c": 189.4,
-    "p": -0.44
-   },
-   {
-    "t": "ADI",
-    "n": "Analog Devices Inc.",
-    "s": "기술",
-    "c": 183.5,
-    "p": -17.37
+    "c": 187.4,
+    "p": -0.46
    },
    {
     "t": "ABT",
     "n": "Abbott Laboratories",
     "s": "헬스케어",
-    "c": 179.0,
-    "p": 2.0
+    "c": 181.9,
+    "p": 2.48
    },
    {
-    "t": "QCOM",
-    "n": "QUALCOMM Incorporated",
+    "t": "APH",
+    "n": "Amphenol Corporation",
     "s": "기술",
-    "c": 177.0,
-    "p": -0.25
+    "c": 181.4,
+    "p": -0.53
    },
    {
     "t": "WELL",
     "n": "Welltower Inc.",
     "s": "부동산",
-    "c": 176.8,
-    "p": 1.75
-   },
-   {
-    "t": "BLK",
-    "n": "BlackRock Inc.",
-    "s": "금융",
-    "c": 176.7,
-    "p": 0.13
-   },
-   {
-    "t": "NEE",
-    "n": "NextEra Energy Inc.",
-    "s": "유틸리티",
-    "c": 176.2,
-    "p": 0.73
+    "c": 179.3,
+    "p": 0.42
    },
    {
     "t": "TMUS",
     "n": "T-Mobile US Inc.",
     "s": "커뮤니케이션",
-    "c": 176.2,
-    "p": 0.57
+    "c": 178.3,
+    "p": 0.07
+   },
+   {
+    "t": "NEE",
+    "n": "NextEra Energy Inc.",
+    "s": "유틸리티",
+    "c": 177.2,
+    "p": 0.98
+   },
+   {
+    "t": "BLK",
+    "n": "BlackRock Inc.",
+    "s": "금융",
+    "c": 177.0,
+    "p": -0.36
+   },
+   {
+    "t": "QCOM",
+    "n": "QUALCOMM Incorporated",
+    "s": "기술",
+    "c": 175.2,
+    "p": 2.24
    },
    {
     "t": "UNP",
     "n": "Union Pacific Corporation",
     "s": "산업재",
-    "c": 171.7,
-    "p": 0.67
+    "c": 172.5,
+    "p": 2.6
    },
    {
-    "t": "DE",
-    "n": "Deere & Company",
-    "s": "산업재",
-    "c": 170.7,
-    "p": -3.04
+    "t": "KLAC",
+    "n": "KLA Corporation",
+    "s": "기술",
+    "c": 172.0,
+    "p": 0.41
    },
    {
     "t": "WMB",
     "n": "Williams Companies Inc.",
     "s": "에너지",
-    "c": 166.3,
-    "p": 0.87
+    "c": 167.7,
+    "p": 0.68
    },
    {
-    "t": "SCHW",
-    "n": "Charles Schwab Corporation",
-    "s": "금융",
-    "c": 159.4,
-    "p": 1.67
-   },
-   {
-    "t": "DHR",
-    "n": "Danaher Corporation",
-    "s": "헬스케어",
-    "c": 158.8,
-    "p": 1.52
-   },
-   {
-    "t": "COP",
-    "n": "ConocoPhillips",
-    "s": "에너지",
-    "c": 156.4,
-    "p": 1.85
+    "t": "DE",
+    "n": "Deere & Company",
+    "s": "산업재",
+    "c": 164.6,
+    "p": 4.44
    },
    {
     "t": "PFE",
     "n": "Pfizer Inc.",
     "s": "헬스케어",
-    "c": 156.3,
-    "p": 3.87
+    "c": 162.3,
+    "p": 0.0
+   },
+   {
+    "t": "SCHW",
+    "n": "Charles Schwab Corporation",
+    "s": "금융",
+    "c": 161.7,
+    "p": -0.49
+   },
+   {
+    "t": "DHR",
+    "n": "Danaher Corporation",
+    "s": "헬스케어",
+    "c": 161.4,
+    "p": -0.76
+   },
+   {
+    "t": "COP",
+    "n": "ConocoPhillips",
+    "s": "에너지",
+    "c": 159.4,
+    "p": 0.28
    },
    {
     "t": "TJX",
     "n": "TJX Companies Inc.",
     "s": "경기소비재",
-    "c": 153.2,
-    "p": 3.31
+    "c": 158.2,
+    "p": 1.55
    },
    {
     "t": "CRM",
     "n": "Salesforce Inc.",
     "s": "기술",
-    "c": 152.7,
-    "p": 4.21
-   },
-   {
-    "t": "T",
-    "n": "AT&T Inc.",
-    "s": "커뮤니케이션",
-    "c": 150.4,
-    "p": 2.6
+    "c": 157.2,
+    "p": 2.04
    },
    {
     "t": "ACN",
     "n": "Accenture plc",
     "s": "기술",
-    "c": 148.7,
-    "p": 4.51
+    "c": 154.2,
+    "p": 3.52
+   },
+   {
+    "t": "T",
+    "n": "AT&T Inc.",
+    "s": "커뮤니케이션",
+    "c": 153.9,
+    "p": 0.39
+   },
+   {
+    "t": "ADI",
+    "n": "Analog Devices Inc.",
+    "s": "기술",
+    "c": 151.6,
+    "p": 6.44
    },
    {
     "t": "ISRG",
     "n": "Intuitive Surgical Inc.",
     "s": "헬스케어",
-    "c": 144.3,
-    "p": 4.38
+    "c": 150.6,
+    "p": -1.68
    },
    {
     "t": "CB",
     "n": "Chubb Limited",
     "s": "금융",
-    "c": 140.9,
-    "p": 1.82
+    "c": 143.4,
+    "p": 1.37
    },
    {
     "t": "VRTX",
     "n": "Vertex Pharmaceuticals Incorporated",
     "s": "헬스케어",
-    "c": 136.5,
-    "p": 4.71
+    "c": 142.0,
+    "p": 0.04
    },
    {
     "t": "PGR",
     "n": "Progressive Corporation",
     "s": "금융",
-    "c": 133.5,
-    "p": 2.31
+    "c": 136.5,
+    "p": 1.28
    },
    {
     "t": "LMT",
     "n": "Lockheed Martin Corporation",
     "s": "산업재",
-    "c": 132.1,
-    "p": 2.62
+    "c": 136.1,
+    "p": 2.15
    },
    {
     "t": "SPGI",
     "n": "S&P Global Inc.",
     "s": "금융",
-    "c": 131.0,
-    "p": 0.71
+    "c": 133.6,
+    "p": 1.44
    },
    {
     "t": "UBER",
     "n": "Uber Technologies Inc.",
     "s": "산업재",
-    "c": 130.9,
-    "p": 0.98
-   },
-   {
-    "t": "ETN",
-    "n": "Eaton Corporation PLC",
-    "s": "산업재",
-    "c": 130.7,
-    "p": -5.08
-   },
-   {
-    "t": "MDT",
-    "n": "Medtronic plc.",
-    "s": "헬스케어",
-    "c": 129.0,
-    "p": -4.56
+    "c": 132.2,
+    "p": 2.55
    },
    {
     "t": "BA",
     "n": "Boeing Company",
     "s": "산업재",
-    "c": 128.7,
-    "p": 0.74
+    "c": 129.4,
+    "p": 0.57
    },
    {
     "t": "LOW",
     "n": "Lowe's Companies Inc.",
     "s": "경기소비재",
-    "c": 126.9,
-    "p": 2.17
-   },
-   {
-    "t": "MRVL",
-    "n": "Marvell Technology Inc.",
-    "s": "기술",
-    "c": 126.9,
-    "p": -9.1
-   },
-   {
-    "t": "APP",
-    "n": "Applovin Corporation",
-    "s": "커뮤니케이션",
-    "c": 123.9,
-    "p": 1.92
-   },
-   {
-    "t": "MO",
-    "n": "Altria Group Inc.",
-    "s": "필수소비재",
-    "c": 122.8,
-    "p": 1.38
+    "c": 128.8,
+    "p": 2.0
    },
    {
     "t": "BMY",
     "n": "Bristol-Myers Squibb Company",
     "s": "헬스케어",
-    "c": 122.4,
-    "p": 3.64
-   },
-   {
-    "t": "SBUX",
-    "n": "Starbucks Corporation",
-    "s": "경기소비재",
-    "c": 121.3,
-    "p": 0.02
+    "c": 127.0,
+    "p": -0.74
    },
    {
     "t": "MCK",
     "n": "McKesson Corporation",
     "s": "헬스케어",
-    "c": 121.1,
-    "p": 2.83
+    "c": 126.3,
+    "p": -0.07
    },
    {
-    "t": "SYK",
-    "n": "Stryker Corporation",
+    "t": "APP",
+    "n": "Applovin Corporation",
+    "s": "커뮤니케이션",
+    "c": 125.8,
+    "p": -0.57
+   },
+   {
+    "t": "MO",
+    "n": "Altria Group Inc.",
+    "s": "필수소비재",
+    "c": 124.6,
+    "p": 1.95
+   },
+   {
+    "t": "MDT",
+    "n": "Medtronic plc.",
     "s": "헬스케어",
-    "c": 120.3,
-    "p": 2.51
+    "c": 123.6,
+    "p": -0.07
    },
    {
-    "t": "STX",
-    "n": "Seagate Technology Holdings PLC",
-    "s": "기술",
-    "c": 119.4,
-    "p": -7.23
+    "t": "ETN",
+    "n": "Eaton Corporation PLC",
+    "s": "산업재",
+    "c": 123.4,
+    "p": -0.46
    },
    {
     "t": "ADP",
     "n": "Automatic Data Processing Inc.",
     "s": "산업재",
-    "c": 119.3,
-    "p": 2.87
+    "c": 122.6,
+    "p": 1.91
    },
    {
     "t": "PLD",
     "n": "Prologis Inc.",
     "s": "부동산",
-    "c": 119.0,
-    "p": 1.74
+    "c": 121.0,
+    "p": -0.23
+   },
+   {
+    "t": "SBUX",
+    "n": "Starbucks Corporation",
+    "s": "경기소비재",
+    "c": 120.7,
+    "p": 1.28
+   },
+   {
+    "t": "SYK",
+    "n": "Stryker Corporation",
+    "s": "헬스케어",
+    "c": 120.6,
+    "p": 2.72
+   },
+   {
+    "t": "MRVL",
+    "n": "Marvell Technology Inc.",
+    "s": "기술",
+    "c": 114.2,
+    "p": -0.49
    },
    {
     "t": "PH",
     "n": "Parker-Hannifin Corporation",
     "s": "산업재",
-    "c": 115.8,
-    "p": -1.3
+    "c": 114.1,
+    "p": -0.92
+   },
+   {
+    "t": "CME",
+    "n": "CME Group Inc.",
+    "s": "금융",
+    "c": 111.5,
+    "p": 0.81
    }
   ]
  },
