@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-26 13:07",
+ "asOf": "2026-11-26 22:53",
  "channels": [
   {
    "name": "815머니톡",
@@ -9,29 +9,29 @@ window.DASH.youtube = {
    "handle": "@815moneytalk",
    "videos": [
     {
-     "title": "[11월26일 #장시작전] “급락하던 뉴욕증시 극적인 반전!” 낙폭 대부분 만회하고 앤트로픽도 반등 성공… AI 반도체 투매 진정될까?",
-     "publishedAt": "2026-11-26 12:16",
-     "url": "https://www.youtube.com/watch?v=X-G9y5hTvf8"
+     "title": "[#찐시황] “외국인 선물 포지션 8조 돌파!” 남은 10거래일에 증시 운명이 달렸다… 외국인의 진짜 의도는 무엇인가? (코스피) 황유현 팀장",
+     "publishedAt": "2026-11-26 20:00",
+     "url": "https://www.youtube.com/watch?v=-0SRNa1-YmA"
     },
     {
-     "title": "“화장품·바이오 숏커버링 시작, 삼성전자·SK하이닉스는 왜 아직인가?” / 2차전지·태양광·통신부품이 다음 주도주 될까?ㅣ김태성 본부장",
-     "publishedAt": "2026-11-26 11:03",
-     "url": "https://www.youtube.com/watch?v=6eJY6NckxXo"
+     "title": "[#긴급시황] 삼성전자·SK하이닉스 폭락시킨 LTA 파기설, 사실 아니었다. 반도체 진짜 대반전 시작될까?ㅣ이주연 대표",
+     "publishedAt": "2026-11-26 18:30",
+     "url": "https://www.youtube.com/watch?v=MoV5BIAHwMw"
     },
     {
-     "title": "[#찐시황] “삼성전자 7만 원 공포에 잠 못 드는 투자자들!” 나스닥 선물 급락, 내일 증시 어떻게 대응할까?  | 이지환 대표",
-     "publishedAt": "2026-11-25 20:00",
-     "url": "https://www.youtube.com/watch?v=ONjSzAO4jJw"
+     "title": "[#긴급인터뷰]  “삼성전자·SK하이닉스 50% 넘게 폭락!” 서울 아파트 전체 가치보다 큰 3,900조 시총 증발… 무너진 투자심리, 되살릴 방법은 없을까? | 유창희 대표",
+     "publishedAt": "2026-11-26 17:00",
+     "url": "https://www.youtube.com/watch?v=Wz8_pZ8lpWg"
     },
     {
-     "title": "[#긴급시황] “삼성전자·SK하이닉스 10% 폭락!” 과도한 공포인가, 지금이라도 탈출해야 할 신호인가? ㅣ이주연 대표",
-     "publishedAt": "2026-11-25 18:30",
-     "url": "https://www.youtube.com/watch?v=i8ZbqPhfALg"
+     "title": "[#긴급인터뷰]  삼성전자·SK하이닉스, 더 이상의 폭락은 과도하다. 증안펀드 등장하면 바닥찍었던 증시, 이번에도 대반전의 시작일까?ㅣNH투자증권 자산관리컨설팅부 소진웅 과장",
+     "publishedAt": "2026-11-26 16:00",
+     "url": "https://www.youtube.com/watch?v=aWJEl-v-C6E"
     },
     {
-     "title": "[#긴급인터뷰] “지금은 없어서 못 파는데 2028년엔 이익 반토막?” 삼성전자·SK하이닉스 주가 급락하는 진짜 이유! ㅣ유니스토리자산운용 김장열 센터장",
-     "publishedAt": "2026-11-25 17:30",
-     "url": "https://www.youtube.com/watch?v=7vmVkQ6U4yA"
+     "title": "[#긴급시황] “하락장을 외치던 그들이 반등을 말하기 시작했다!” 월가의 숏커버링, 진짜 바닥 신호인가? | 박근형 부장",
+     "publishedAt": "2026-11-26 14:30",
+     "url": "https://www.youtube.com/watch?v=3sqFJKGfVx4"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "( 아이온큐) 지금이 매수적기인가?",
+     "publishedAt": "2026-11-26 20:49",
+     "url": "https://www.youtube.com/watch?v=l1uRysAlTQE"
+    },
     {
      "title": "(시황분석) 와튼교수 제레미 시갈은 \"바닥확인\" 했다고 말한다!!!",
      "publishedAt": "2026-11-26 11:07",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(반도체) 과연 지금이 바닥인가?",
      "publishedAt": "2026-11-24 15:30",
      "url": "https://www.youtube.com/watch?v=MtZX17auDTU"
-    },
-    {
-     "title": "(시황분석) 젠슨황 다음 이야기는?",
-     "publishedAt": "2026-11-24 06:23",
-     "url": "https://www.youtube.com/watch?v=na2CpJrTanU"
     }
    ]
   },
@@ -72,6 +72,11 @@ window.DASH.youtube = {
    "channelId": "UCQW05vzztAlwV54WL3pjGBQ",
    "handle": "@GODofIT_official",
    "videos": [
+    {
+     "title": "[특집] 이제 AI로 수익내는 종목에 집중해야…종목 한 방에 정리!!",
+     "publishedAt": "2026-11-26 19:00",
+     "url": "https://www.youtube.com/watch?v=9BoJxL0siS4"
+    },
     {
      "title": "[아테네] 느림보 증시 대책에 코스피 바닥 뚫고 지하로...",
      "publishedAt": "2026-11-25 19:00",
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "[아테네] 다들 착각하고 있어요!! 젠슨 황 이후 AI 흐름은?",
      "publishedAt": "2026-11-23 19:00",
      "url": "https://www.youtube.com/watch?v=BNeaCdkp4yA"
-    },
-    {
-     "title": "[몰아보기] 폭락 후 반등 때 주목할 곳은 성장이 나오는 섹터!!",
-     "publishedAt": "2026-11-21 14:00",
-     "url": "https://www.youtube.com/watch?v=yhODNJ8DlQo"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "\"3개월 매출만 144조\" SK 최태원이 발표한 SK 신사업 정체",
-     "publishedAt": "2026-11-26 12:30",
-     "url": "https://www.youtube.com/watch?v=PaMs3Q3fV5s"
+     "title": "한국 정부가, '코스피 살리기' 또 뒤로 미룬 진짜 이유(+증안펀드)",
+     "publishedAt": "2026-11-26 22:00",
+     "url": "https://www.youtube.com/watch?v=Hc20Dwu7cN4"
     },
     {
-     "title": "AI 폭락에 베팅했던 '마이클 버리'가 갑자기 '롱'(상승)으로 돌아선 진짜 이유",
-     "publishedAt": "2026-11-26 11:40",
-     "url": "https://www.youtube.com/watch?v=RZeLm_9cmXw"
+     "title": "월가 투자 거장들 모두, 지금이 '매수 기회'라는 진짜 이유",
+     "publishedAt": "2026-11-26 21:00",
+     "url": "https://www.youtube.com/watch?v=MOVz3AAgeLU"
     },
     {
-     "title": "\"삼성전기 1.7조 자사주 소각\" 다음은 '삼전'인 진짜 이유",
-     "publishedAt": "2026-11-26 10:28",
-     "url": "https://www.youtube.com/watch?v=7AiLwg1ePzE"
+     "title": "외국인이 코스피에서 완전 떠나면 벌어지는 일",
+     "publishedAt": "2026-11-26 20:00",
+     "url": "https://www.youtube.com/watch?v=0Zd894zh140"
     },
     {
-     "title": "11월 26일 오늘 코스피 오를 수 있을까?",
-     "publishedAt": "2026-11-26 08:13",
-     "url": "https://www.youtube.com/watch?v=BqrGPlfKO1g"
+     "title": "\"이재명이 SK하이닉스를 압박한다\" 미국 정부 보고서에 등장한 충격 내용",
+     "publishedAt": "2026-11-26 19:00",
+     "url": "https://www.youtube.com/watch?v=AI0GK1fhEk4"
     },
     {
-     "title": "11월 26일 투자자들이 꼭 알아야 하는 투자 포인트",
-     "publishedAt": "2026-11-26 07:17",
-     "url": "https://www.youtube.com/watch?v=2H-tgirNF4k"
+     "title": "트럼프가 한국에 다시 최대 25% 관세를 협박한 진짜 이유(+삼전닉스)",
+     "publishedAt": "2026-11-26 18:00",
+     "url": "https://www.youtube.com/watch?v=2aMKF0GPGS8"
     }
    ]
   },
@@ -169,6 +169,11 @@ window.DASH.youtube = {
    "handle": "@sosumonkey",
    "videos": [
     {
+     "title": "이번 하락장 이후 올라갈 주식은 정해졌다? 기회가 될 주식들의 특징",
+     "publishedAt": "2026-11-26 17:06",
+     "url": "https://www.youtube.com/watch?v=HqQsZiSJFI8"
+    },
+    {
      "title": "갑자기 생필품 패닉 바잉에 들어간 미국인들? 음모론일까 경고 신호일까",
      "publishedAt": "2026-11-25 20:54",
      "url": "https://www.youtube.com/watch?v=FoZGuT5uAO4"
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "앤트로픽 상장 후 투자법 달라져야 한다? AI 다음 사이클의 승자들 잡는 법",
      "publishedAt": "2026-11-19 18:23",
      "url": "https://www.youtube.com/watch?v=_HKbEOD-fd8"
-    },
-    {
-     "title": "AI 끝판왕 앤트로픽 사려고 다른 주식 매도 중? 역대 IPO 패턴 반복될까",
-     "publishedAt": "2026-11-18 20:40",
-     "url": "https://www.youtube.com/watch?v=Z4fzVAS4KCc"
     }
    ]
   }
