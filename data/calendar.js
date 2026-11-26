@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-26 10:32",
+ "generatedAt": "2026-11-27 01:18",
  "events": [
   {
    "date": "2026-01-01",
@@ -3026,7 +3026,7 @@ window.DASH.calendar = {
    "time": "09:00",
    "major": true,
    "result": [
-    "예상 3.25% · 이전 3.00%"
+    "실제 3.25% · 예상 3.25% · 이전 3.00%"
    ]
   },
   {
@@ -3036,7 +3036,7 @@ window.DASH.calendar = {
    "title": "미국 무역수지",
    "time": "21:30",
    "result": [
-    "예상 -134.40B · 이전 -135.08B"
+    "예상 -135.90B · 이전 -135.08B"
    ]
   },
   {
@@ -3223,7 +3223,10 @@ window.DASH.calendar = {
    "type": "econ",
    "market": "US",
    "title": "미국 신규 실업수당 청구",
-   "time": "21:30"
+   "time": "21:30",
+   "result": [
+    "이전 189K"
+   ]
   },
   {
    "date": "2026-12-03",
@@ -3485,6 +3488,46 @@ window.DASH.calendar = {
    "title": "나이키 실적 발표",
    "result": [
     "EPS 예상 $0.34"
+   ]
+  },
+  {
+   "date": "2026-12-17",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 건축허가",
+   "time": "21:30",
+   "result": [
+    "이전 -7.2%"
+   ]
+  },
+  {
+   "date": "2026-12-17",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 수입물가",
+   "time": "21:30",
+   "result": [
+    "이전 1.1%"
+   ]
+  },
+  {
+   "date": "2026-12-17",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 주택착공",
+   "time": "21:30",
+   "result": [
+    "이전 9.9%"
+   ]
+  },
+  {
+   "date": "2026-12-17",
+   "type": "econ",
+   "market": "US",
+   "title": "필라델피아 연은지수",
+   "time": "21:30",
+   "result": [
+    "이전 6.3"
    ]
   },
   {

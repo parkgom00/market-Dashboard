@@ -2356,7 +2356,7 @@
   "level": "major",
   "kind": "econ",
   "consensus": "3.25%",
-  "actual": "",
+  "actual": "3.25%",
   "previous": "3.00%"
  },
  {
@@ -2365,7 +2365,7 @@
   "title": "미국 무역수지",
   "level": "macro",
   "kind": "econ",
-  "consensus": "-134.40B",
+  "consensus": "-135.90B",
   "actual": "",
   "previous": "-135.08B"
  },
@@ -2581,7 +2581,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": ""
+  "previous": "189K"
  },
  {
   "date": "2026-12-03",
@@ -2941,6 +2941,46 @@
   "epsForecast": "$0.34",
   "eps": "",
   "surprise": ""
+ },
+ {
+  "date": "2026-12-17",
+  "time": "21:30",
+  "title": "미국 건축허가",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "-7.2%"
+ },
+ {
+  "date": "2026-12-17",
+  "time": "21:30",
+  "title": "미국 수입물가",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "1.1%"
+ },
+ {
+  "date": "2026-12-17",
+  "time": "21:30",
+  "title": "미국 주택착공",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "9.9%"
+ },
+ {
+  "date": "2026-12-17",
+  "time": "21:30",
+  "title": "필라델피아 연은지수",
+  "level": "macro",
+  "kind": "econ",
+  "consensus": "",
+  "actual": "",
+  "previous": "6.3"
  },
  {
   "date": "2026-12-18",
