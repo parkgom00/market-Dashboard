@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_live.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.live = {
- "asOf": "2026-11-27 02:40",
+ "asOf": "2026-11-27 03:05",
  "kr": {
   "news": [],
   "stockNews": {
@@ -439,6 +439,12 @@ window.DASH.live = {
   "newsAsOf": "2026-11-27 02:40",
   "gainers": [
    {
+    "code": "271160",
+    "name": "하나에어로",
+    "price": 5200,
+    "changePct": 30.0
+   },
+   {
     "code": "355390",
     "name": "크라우드웍스",
     "price": 585,
@@ -451,21 +457,15 @@ window.DASH.live = {
     "changePct": 30.0
    },
    {
-    "code": "271160",
-    "name": "하나에어로",
-    "price": 5200,
-    "changePct": 30.0
+    "code": "000650",
+    "name": "천일고속",
+    "price": 197800,
+    "changePct": 29.96
    },
    {
     "code": "084670",
     "name": "동양고속",
     "price": 33400,
-    "changePct": 29.96
-   },
-   {
-    "code": "000650",
-    "name": "천일고속",
-    "price": 197800,
     "changePct": 29.96
    },
    {
@@ -481,15 +481,15 @@ window.DASH.live = {
     "changePct": 29.9
    },
    {
-    "code": "261780",
-    "name": "아리바이오랩",
-    "price": 4585,
-    "changePct": 29.89
-   },
-   {
     "code": "481070",
     "name": "에이유브랜즈",
     "price": 10950,
+    "changePct": 29.89
+   },
+   {
+    "code": "261780",
+    "name": "아리바이오랩",
+    "price": 4585,
     "changePct": 29.89
    },
    {
