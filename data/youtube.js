@@ -1,13 +1,18 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-26 22:53",
+ "asOf": "2026-11-27 07:57",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[11월27일 #장시작전] “미국증시 휴장 속 유럽증시 상승!” 금융위, 자본시장 개혁기구 추진… 무너진 한국증시 투자심리 되살릴 수 있을까?",
+     "publishedAt": "2026-11-27 06:14",
+     "url": "https://www.youtube.com/watch?v=SNI0kyCiHhc"
+    },
     {
      "title": "[#찐시황] “외국인 선물 포지션 8조 돌파!” 남은 10거래일에 증시 운명이 달렸다… 외국인의 진짜 의도는 무엇인가? (코스피) 황유현 팀장",
      "publishedAt": "2026-11-26 20:00",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급인터뷰]  삼성전자·SK하이닉스, 더 이상의 폭락은 과도하다. 증안펀드 등장하면 바닥찍었던 증시, 이번에도 대반전의 시작일까?ㅣNH투자증권 자산관리컨설팅부 소진웅 과장",
      "publishedAt": "2026-11-26 16:00",
      "url": "https://www.youtube.com/watch?v=aWJEl-v-C6E"
-    },
-    {
-     "title": "[#긴급시황] “하락장을 외치던 그들이 반등을 말하기 시작했다!” 월가의 숏커버링, 진짜 바닥 신호인가? | 박근형 부장",
-     "publishedAt": "2026-11-26 14:30",
-     "url": "https://www.youtube.com/watch?v=3sqFJKGfVx4"
     }
    ]
   },
@@ -105,6 +105,16 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "11월 27일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-11-27 06:57",
+     "url": "https://www.youtube.com/watch?v=64BdZ0ATn0g"
+    },
+    {
+     "title": "\"200빌렸는데 이자 연 80,000%\" 요즘 한국에서 벌어지는 최악의 사채 수법",
+     "publishedAt": "2026-11-26 23:00",
+     "url": "https://www.youtube.com/watch?v=U8DGcOB8ETo"
+    },
+    {
      "title": "한국 정부가, '코스피 살리기' 또 뒤로 미룬 진짜 이유(+증안펀드)",
      "publishedAt": "2026-11-26 22:00",
      "url": "https://www.youtube.com/watch?v=Hc20Dwu7cN4"
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "외국인이 코스피에서 완전 떠나면 벌어지는 일",
      "publishedAt": "2026-11-26 20:00",
      "url": "https://www.youtube.com/watch?v=0Zd894zh140"
-    },
-    {
-     "title": "\"이재명이 SK하이닉스를 압박한다\" 미국 정부 보고서에 등장한 충격 내용",
-     "publishedAt": "2026-11-26 19:00",
-     "url": "https://www.youtube.com/watch?v=AI0GK1fhEk4"
-    },
-    {
-     "title": "트럼프가 한국에 다시 최대 25% 관세를 협박한 진짜 이유(+삼전닉스)",
-     "publishedAt": "2026-11-26 18:00",
-     "url": "https://www.youtube.com/watch?v=2aMKF0GPGS8"
     }
    ]
   },
