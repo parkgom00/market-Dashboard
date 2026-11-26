@@ -45,6 +45,14 @@ window.DASH.usmarket = {
   },
   {
    "group": "주가지수",
+   "name": "VIX 공포지수",
+   "kind": "plain",
+   "close": 28.29,
+   "changePct": 7.32,
+   "changeText": "28.29 (+7.32%)"
+  },
+  {
+   "group": "주가지수",
    "name": "한국 ETF (EWY)",
    "kind": "usd",
    "close": 129.19,
@@ -73,65 +81,65 @@ window.DASH.usmarket = {
    "group": "금리·환율",
    "name": "달러 인덱스",
    "kind": "plain",
-   "close": 103.82,
-   "changePct": 0.14,
-   "changeText": "103.82 (+0.14%)"
+   "close": 103.8,
+   "changePct": 0.13,
+   "changeText": "103.80 (+0.13%)"
   },
   {
    "group": "금리·환율",
    "name": "원/달러",
    "kind": "plain",
-   "close": 1342.35,
-   "changePct": -0.02,
-   "changeText": "1,342.35 (-0.02%)"
+   "close": 1342.76,
+   "changePct": 0.01,
+   "changeText": "1,342.76 (+0.01%)"
   },
   {
    "group": "금리·환율",
    "name": "엔/달러",
    "kind": "plain",
-   "close": 159.16,
-   "changePct": -0.06,
-   "changeText": "159.16 (-0.06%)"
+   "close": 159.18,
+   "changePct": -0.05,
+   "changeText": "159.18 (-0.05%)"
   },
   {
    "group": "원자재·기타",
    "name": "WTI 유가",
    "kind": "usd",
-   "close": 84.39,
-   "changePct": 0.85,
-   "changeText": "84.39 (+0.85%)"
+   "close": 84.4,
+   "changePct": 0.86,
+   "changeText": "84.40 (+0.86%)"
   },
   {
    "group": "원자재·기타",
    "name": "브렌트유",
    "kind": "usd",
-   "close": 91.12,
-   "changePct": -0.31,
-   "changeText": "91.12 (-0.31%)"
+   "close": 91.11,
+   "changePct": -3.7,
+   "changeText": "91.11 (-3.70%)"
   },
   {
    "group": "원자재·기타",
    "name": "금",
    "kind": "usd",
-   "close": 3622.1,
-   "changePct": 2.44,
-   "changeText": "3,622.10 (+2.44%)"
+   "close": 3622.7,
+   "changePct": 2.46,
+   "changeText": "3,622.70 (+2.46%)"
   },
   {
    "group": "원자재·기타",
    "name": "구리",
    "kind": "usd",
    "close": 5.5,
-   "changePct": 3.11,
-   "changeText": "5.50 (+3.11%)"
+   "changePct": 3.19,
+   "changeText": "5.50 (+3.19%)"
   },
   {
    "group": "원자재·기타",
    "name": "비트코인",
    "kind": "usd",
-   "close": 60863.53,
-   "changePct": 1.87,
-   "changeText": "60,863.53 (+1.87%)"
+   "close": 60940.13,
+   "changePct": 2.0,
+   "changeText": "60,940.13 (+2.00%)"
   },
   {
    "group": "원자재·기타",
