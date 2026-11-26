@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-26 06:37",
+ "asOf": "2026-11-26 13:07",
  "channels": [
   {
    "name": "815머니톡",
@@ -10,8 +10,13 @@ window.DASH.youtube = {
    "videos": [
     {
      "title": "[11월26일 #장시작전] “급락하던 뉴욕증시 극적인 반전!” 낙폭 대부분 만회하고 앤트로픽도 반등 성공… AI 반도체 투매 진정될까?",
-     "publishedAt": "2026-11-26 06:29",
+     "publishedAt": "2026-11-26 12:16",
      "url": "https://www.youtube.com/watch?v=X-G9y5hTvf8"
+    },
+    {
+     "title": "“화장품·바이오 숏커버링 시작, 삼성전자·SK하이닉스는 왜 아직인가?” / 2차전지·태양광·통신부품이 다음 주도주 될까?ㅣ김태성 본부장",
+     "publishedAt": "2026-11-26 11:03",
+     "url": "https://www.youtube.com/watch?v=6eJY6NckxXo"
     },
     {
      "title": "[#찐시황] “삼성전자 7만 원 공포에 잠 못 드는 투자자들!” 나스닥 선물 급락, 내일 증시 어떻게 대응할까?  | 이지환 대표",
@@ -27,11 +32,6 @@ window.DASH.youtube = {
      "title": "[#긴급인터뷰] “지금은 없어서 못 파는데 2028년엔 이익 반토막?” 삼성전자·SK하이닉스 주가 급락하는 진짜 이유! ㅣ유니스토리자산운용 김장열 센터장",
      "publishedAt": "2026-11-25 17:30",
      "url": "https://www.youtube.com/watch?v=7vmVkQ6U4yA"
-    },
-    {
-     "title": "[#긴급시황] “사이드카 올해만 102번!” 비정상적인 변동성… 한국증시에 무슨 일이 벌어지고 있나? | 박근형 부장",
-     "publishedAt": "2026-11-25 16:30",
-     "url": "https://www.youtube.com/watch?v=xLCKUuIIvnk"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) 와튼교수 제레미 시갈은 \"바닥확인\" 했다고 말한다!!!",
+     "publishedAt": "2026-11-26 11:07",
+     "url": "https://www.youtube.com/watch?v=ENDKIPsHWsI"
+    },
     {
      "title": "(시장전망) BOA의 리포트 분석을 통해 시장의 현주소를 알아보자",
      "publishedAt": "2026-11-25 15:42",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시황분석) 젠슨황 다음 이야기는?",
      "publishedAt": "2026-11-24 06:23",
      "url": "https://www.youtube.com/watch?v=na2CpJrTanU"
-    },
-    {
-     "title": "(아이온큐) 양자보안이 세상을 지배하는 이유는?",
-     "publishedAt": "2026-11-23 14:38",
-     "url": "https://www.youtube.com/watch?v=bXjmd8pQNrU"
     }
    ]
   },
@@ -105,29 +105,29 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
-     "title": "AI로 종목 추천받기 전, 꼭 바꿔야 하는 설정",
-     "publishedAt": "2026-11-25 23:40",
-     "url": "https://www.youtube.com/watch?v=cFiqOYq4ltE"
+     "title": "\"3개월 매출만 144조\" SK 최태원이 발표한 SK 신사업 정체",
+     "publishedAt": "2026-11-26 12:30",
+     "url": "https://www.youtube.com/watch?v=PaMs3Q3fV5s"
     },
     {
-     "title": "이재용이 휴머노이드에 승부 거는 진짜 이유(+수혜주)",
-     "publishedAt": "2026-11-25 22:40",
-     "url": "https://www.youtube.com/watch?v=LTKaAXoUUUc"
+     "title": "AI 폭락에 베팅했던 '마이클 버리'가 갑자기 '롱'(상승)으로 돌아선 진짜 이유",
+     "publishedAt": "2026-11-26 11:40",
+     "url": "https://www.youtube.com/watch?v=RZeLm_9cmXw"
     },
     {
-     "title": "역대 코스피 폭락장을 보면 지금 시장을 다르게 봐야 하는 이유",
-     "publishedAt": "2026-11-25 22:00",
-     "url": "https://www.youtube.com/watch?v=Md6j6vfJfIQ"
+     "title": "\"삼성전기 1.7조 자사주 소각\" 다음은 '삼전'인 진짜 이유",
+     "publishedAt": "2026-11-26 10:28",
+     "url": "https://www.youtube.com/watch?v=7AiLwg1ePzE"
     },
     {
-     "title": "블랙컴뱃이 주식시장에 상장하는 진짜 이유",
-     "publishedAt": "2026-11-25 21:40",
-     "url": "https://www.youtube.com/watch?v=84Gb9pqjqzs"
+     "title": "11월 26일 오늘 코스피 오를 수 있을까?",
+     "publishedAt": "2026-11-26 08:13",
+     "url": "https://www.youtube.com/watch?v=BqrGPlfKO1g"
     },
     {
-     "title": "\"폭락·폭등 반복하는 지금\" 투자자가 가장 먼저 확인해야 할 3가지",
-     "publishedAt": "2026-11-25 19:40",
-     "url": "https://www.youtube.com/watch?v=Pys7s6zYNGs"
+     "title": "11월 26일 투자자들이 꼭 알아야 하는 투자 포인트",
+     "publishedAt": "2026-11-26 07:17",
+     "url": "https://www.youtube.com/watch?v=2H-tgirNF4k"
     }
    ]
   },
