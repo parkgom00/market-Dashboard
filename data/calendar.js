@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-26 01:44",
+ "generatedAt": "2026-11-26 10:32",
  "events": [
   {
    "date": "2026-01-01",
@@ -538,8 +538,8 @@ window.DASH.calendar = {
    "title": "미국 PCE 물가지수 발표 · 10월분 (한국시간 저녁)",
    "time": "21:30",
    "result": [
-    "미국 PCE: 예상 0.3% · 이전 0.5%",
-    "미국 근원 PCE: 예상 0.3% · 이전 0.3%"
+    "미국 PCE: 실제 3.8% · 예상 3.8% · 이전 3.7%",
+    "미국 근원 PCE: 실제 3.3% · 예상 3.2% · 이전 3.1%"
    ]
   },
   {
@@ -2985,7 +2985,7 @@ window.DASH.calendar = {
    "title": "미국 건축허가",
    "time": "21:30",
    "result": [
-    "예상 -7.4% · 이전 -0.4%"
+    "실제 -7.2% · 예상 -7.4% · 이전 -0.4%"
    ]
   },
   {
@@ -2995,7 +2995,7 @@ window.DASH.calendar = {
    "title": "미국 내구재 주문",
    "time": "21:30",
    "result": [
-    "예상 0.7% · 이전 1.8%"
+    "실제 0.2% · 예상 0.7% · 이전 2.0%"
    ]
   },
   {
@@ -3005,7 +3005,7 @@ window.DASH.calendar = {
    "title": "미국 신규 실업수당 청구",
    "time": "21:30",
    "result": [
-    "예상 201K · 이전 203K"
+    "실제 189K · 예상 201K · 이전 202K"
    ]
   },
   {
@@ -3015,7 +3015,7 @@ window.DASH.calendar = {
    "title": "미국 신규주택판매",
    "time": "23:00",
    "result": [
-    "예상 650K · 이전 -0.6%"
+    "실제 14.2% · 예상 -3.8% · 이전 -9.7%"
    ]
   },
   {
@@ -3166,7 +3166,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 제조업 PMI",
    "time": "22:45",
    "result": [
-    "이전 54.5"
+    "예상 54.5 · 이전 54.5"
    ]
   },
   {
@@ -3232,7 +3232,7 @@ window.DASH.calendar = {
    "title": "S&P글로벌 서비스업 PMI",
    "time": "22:45",
    "result": [
-    "예상 54.7 · 이전 56.1"
+    "예상 54.7 · 이전 54.7"
    ]
   },
   {
@@ -3446,6 +3446,36 @@ window.DASH.calendar = {
    "time": "21:30",
    "result": [
     "이전 0.5%"
+   ]
+  },
+  {
+   "date": "2026-12-16",
+   "type": "econ",
+   "market": "US",
+   "title": "미국 산업생산",
+   "time": "22:15",
+   "result": [
+    "이전 1.70%"
+   ]
+  },
+  {
+   "date": "2026-12-16",
+   "type": "econ",
+   "market": "US",
+   "title": "S&P글로벌 서비스업 PMI",
+   "time": "22:45",
+   "result": [
+    "이전 56.1"
+   ]
+  },
+  {
+   "date": "2026-12-16",
+   "type": "econ",
+   "market": "US",
+   "title": "S&P글로벌 제조업 PMI",
+   "time": "22:45",
+   "result": [
+    "이전 54.9"
    ]
   },
   {
