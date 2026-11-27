@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-27 17:18",
+ "asOf": "2026-11-28 04:26",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "[#찐시황] 꼬리 아홉 달린 여우 같은 외국인... 현물 1.9조 매수·선물 1.1조 매도, 도대체 무슨 속셈인가? 다음 주 상승장 믿어도 될까? (낙폭과대주) 김동엽 대표",
+     "publishedAt": "2026-11-27 20:00",
+     "url": "https://www.youtube.com/watch?v=gbV6JrXviQ4"
+    },
+    {
+     "title": "[#긴급인터뷰] 12월 증시 대반전의 두 가지 열쇠! FOMC가 AI 반도체를 살리고, 증시안정펀드가 코스닥 상승장을 이끌까?ㅣ기업공시연구소 변영인 대표",
+     "publishedAt": "2026-11-27 18:00",
+     "url": "https://www.youtube.com/watch?v=SJpL7ljeLoo"
+    },
     {
      "title": "폭락했던 코스피, '이것'만 해결되어도 반전 시작된다. 연말·연초 돈이 몰릴 주식 '2가지' (폭락장) NH투자증권 소진웅 과장",
      "publishedAt": "2026-11-27 16:30",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "코스닥 장중 6% 폭등장, 이번엔 진짜 상승인가? 외국인, 기관 동반 수천억 매수! 숏커버링 아닌 진짜 상승 시작?ㅣ김태성 본부장",
      "publishedAt": "2026-11-27 14:30",
      "url": "https://www.youtube.com/watch?v=1MPrVFxgHyA"
-    },
-    {
-     "title": "소프트뱅크 폭락 차트와 판박이인 삼성전자! 진짜 반등은 언제 시작될까? 아직 관망해야 하는 이유ㅣ위즈웨이브 이권희 대표",
-     "publishedAt": "2026-11-27 13:00",
-     "url": "https://www.youtube.com/watch?v=ryULRFhf2Cw"
-    },
-    {
-     "title": "[11월27일 #장시작전] “미국증시 휴장 속 유럽증시 상승!” 금융위, 자본시장 개혁기구 추진… 무너진 한국증시 투자심리 되살릴 수 있을까?",
-     "publishedAt": "2026-11-27 12:15",
-     "url": "https://www.youtube.com/watch?v=SNI0kyCiHhc"
     }
    ]
   },
@@ -73,6 +73,11 @@ window.DASH.youtube = {
    "handle": "@GODofIT_official",
    "videos": [
     {
+     "title": "오더컷, LTA 취소 노이즈… 정작 시장은 27년 수요를 과소평가하고 있어요!!",
+     "publishedAt": "2026-11-27 19:00",
+     "url": "https://www.youtube.com/watch?v=-QVV-0838Vk"
+    },
+    {
      "title": "[실전 투자 스터디] 엔비디아 주춤 27년 HBM의 미래는?",
      "publishedAt": "2026-11-27 16:00",
      "url": "https://www.youtube.com/watch?v=DsKI6LdVnOg"
@@ -91,11 +96,6 @@ window.DASH.youtube = {
      "title": "복귀한 AI 황제, 향후 무섭게 오를 이 주식들!!",
      "publishedAt": "2026-11-24 19:34",
      "url": "https://www.youtube.com/watch?v=YbdyC1hvjpw"
-    },
-    {
-     "title": "[실전 투자 스터디] 반도체 뷰 바꾸겠습니다",
-     "publishedAt": "2026-11-24 18:00",
-     "url": "https://www.youtube.com/watch?v=TTJuOLIhACc"
     }
    ]
   },
@@ -104,6 +104,16 @@ window.DASH.youtube = {
    "channelId": "UC7usMJDHmtbs_oegmzQKKMA",
    "handle": "@경제사냥꾼",
    "videos": [
+    {
+     "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트 (11.30~12.04)",
+     "publishedAt": "2026-11-27 20:00",
+     "url": "https://www.youtube.com/watch?v=K6T7JRN3o58"
+    },
+    {
+     "title": "오늘 코스피보다 '코스닥'이 더 많이 올랐던 진짜 이유",
+     "publishedAt": "2026-11-27 19:40",
+     "url": "https://www.youtube.com/watch?v=JAgzr_2cfcs"
+    },
     {
      "title": "일론 머스크가 \"주가 100만배 상승\" 콕찝은 역대급 저평가 기업",
      "publishedAt": "2026-11-27 17:00",
@@ -118,16 +128,6 @@ window.DASH.youtube = {
      "title": "삼성전자 배당금이 겨우 '4,600원'밖에 안되는 진짜 이유",
      "publishedAt": "2026-11-27 15:01",
      "url": "https://www.youtube.com/watch?v=HIZgOf2COoU"
-    },
-    {
-     "title": "일론 머스크도 삼성전자 이재용, 앞에서 '을'이 된 진짜 이유",
-     "publishedAt": "2026-11-27 14:03",
-     "url": "https://www.youtube.com/watch?v=mjzD2AxLJao"
-    },
-    {
-     "title": "한국 정부가 '공매도'를 끝까지 봐주는 진짜 이유",
-     "publishedAt": "2026-11-27 12:59",
-     "url": "https://www.youtube.com/watch?v=7ELX12WqlE0"
     }
    ]
   },
@@ -136,6 +136,11 @@ window.DASH.youtube = {
    "channelId": "UCKTMvIu9a4VGSrpWy-8bUrQ",
    "handle": "@김단테",
    "videos": [
+    {
+     "title": "트렌드포스 \"메모리 슈퍼사이클 끝\"",
+     "publishedAt": "2026-11-28 03:24",
+     "url": "https://www.youtube.com/watch?v=NEz--_o9HWs"
+    },
     {
      "title": "자본시장의 대전환 시작된다? #코스피 #코스닥 #김용범",
      "publishedAt": "2026-11-27 16:37",
@@ -155,11 +160,6 @@ window.DASH.youtube = {
      "title": "나스닥 뒤흔든 트럼프 관세전쟁은 젠슨황 때문?",
      "publishedAt": "2026-11-25 00:32",
      "url": "https://www.youtube.com/watch?v=zl5hWbAeUBU"
-    },
-    {
-     "title": "젠슨황 CEO 복귀! 리스크도 있다?! #젠슨황 #엔비디아 #코스피",
-     "publishedAt": "2026-11-24 14:23",
-     "url": "https://www.youtube.com/watch?v=r175r4VC7CU"
     }
    ]
   },
@@ -168,6 +168,11 @@ window.DASH.youtube = {
    "channelId": "UCC3yfxS5qC6PCwDzetUuEWg",
    "handle": "@sosumonkey",
    "videos": [
+    {
+     "title": "미국주식 적립식 투자 이걸로 고민 끝? 미국 주요 지수 한번에 투자하는 법",
+     "publishedAt": "2026-11-27 19:06",
+     "url": "https://www.youtube.com/watch?v=8WXUg04sqKg"
+    },
     {
      "title": "이번 하락장 이후 올라갈 주식은 정해졌다? 기회가 될 주식들의 특징",
      "publishedAt": "2026-11-26 17:06",
@@ -187,11 +192,6 @@ window.DASH.youtube = {
      "title": "나스닥-20%, 엔비디아 -48% 극단적 공포 구간에 진입한 증시, 기회일까",
      "publishedAt": "2026-11-23 22:02",
      "url": "https://www.youtube.com/watch?v=6amgLtc9IgU"
-    },
-    {
-     "title": "앤트로픽 상장 후 투자법 달라져야 한다? AI 다음 사이클의 승자들 잡는 법",
-     "publishedAt": "2026-11-19 18:23",
-     "url": "https://www.youtube.com/watch?v=_HKbEOD-fd8"
     }
    ]
   }
