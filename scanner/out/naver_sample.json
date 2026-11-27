@@ -450,25 +450,5 @@
    "accumulatedTradingValueRaw": "87156000000",
    "marketValueRaw": "9965969556800"
   }
- ],
- "industryGroups": [
-  {
-   "no": 262,
-   "name": "생명과학도구및서비스",
-   "totalCount": 42,
-   "changeRate": "12.15",
-   "riseCount": 31,
-   "fallCount": 4,
-   "steadyCount": 7
-  },
-  {
-   "no": 286,
-   "name": "생물공학",
-   "totalCount": 60,
-   "changeRate": "11.69",
-   "riseCount": 51,
-   "fallCount": 5,
-   "steadyCount": 4
-  }
  ]
 }
