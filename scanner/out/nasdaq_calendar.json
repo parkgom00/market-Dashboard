@@ -2366,7 +2366,7 @@
   "level": "macro",
   "kind": "econ",
   "consensus": "-135.90B",
-  "actual": "",
+  "actual": "-149.50B",
   "previous": "-135.08B"
  },
  {
@@ -2425,7 +2425,7 @@
   "title": "중국 제조업 PMI",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "49.5",
   "actual": "",
   "previous": "49.7"
  },
@@ -2599,7 +2599,7 @@
   "title": "ISM 서비스업",
   "level": "macro",
   "kind": "econ",
-  "consensus": "",
+  "consensus": "54.5",
   "actual": "",
   "previous": "54.5"
  },
@@ -2970,7 +2970,7 @@
   "kind": "econ",
   "consensus": "",
   "actual": "",
-  "previous": "9.9%"
+  "previous": "1.309M"
  },
  {
   "date": "2026-12-17",
@@ -3033,6 +3033,28 @@
   "kind": "earnings",
   "note": "",
   "epsForecast": "$0.67",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2027-01-21",
+  "time": "",
+  "title": "TSMC 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "",
+  "epsForecast": "$5.17",
+  "eps": "",
+  "surprise": ""
+ },
+ {
+  "date": "2027-01-21",
+  "time": "",
+  "title": "골드만삭스 실적 발표",
+  "level": "earnings",
+  "kind": "earnings",
+  "note": "",
+  "epsForecast": "$15.55",
   "eps": "",
   "surprise": ""
  },

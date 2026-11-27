@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_calendar.py). 직접 고치지 마세요. 일정을 더하려면 scanner/calendar_manual.json 을 수정하세요.
 window.DASH = window.DASH || {};
 window.DASH.calendar = {
- "generatedAt": "2026-11-27 10:29",
+ "generatedAt": "2026-11-28 01:03",
  "events": [
   {
    "date": "2026-01-01",
@@ -635,22 +635,10 @@ window.DASH.calendar = {
    "title": "유나이티드헬스 실적 발표 (예정)"
   },
   {
-   "date": "2027-01-14",
-   "type": "earnings",
-   "market": "US",
-   "title": "TSMC 실적 발표 (예정)"
-  },
-  {
    "date": "2027-01-18",
    "type": "holiday",
    "market": "US",
    "title": "미국 증시 휴장 · 마틴 루서 킹 데이"
-  },
-  {
-   "date": "2027-01-19",
-   "type": "earnings",
-   "market": "US",
-   "title": "골드만삭스 실적 발표 (예정)"
   },
   {
    "date": "2027-01-20",
@@ -3036,7 +3024,7 @@ window.DASH.calendar = {
    "title": "미국 무역수지",
    "time": "21:30",
    "result": [
-    "예상 -135.90B · 이전 -135.08B"
+    "실제 -149.50B · 예상 -135.90B · 이전 -135.08B"
    ]
   },
   {
@@ -3096,7 +3084,7 @@ window.DASH.calendar = {
    "title": "중국 제조업 PMI",
    "time": "09:30",
    "result": [
-    "이전 49.7"
+    "예상 49.5 · 이전 49.7"
    ]
   },
   {
@@ -3245,7 +3233,7 @@ window.DASH.calendar = {
    "title": "ISM 서비스업",
    "time": "23:00",
    "result": [
-    "이전 54.5"
+    "예상 54.5 · 이전 54.5"
    ]
   },
   {
@@ -3517,7 +3505,7 @@ window.DASH.calendar = {
    "title": "미국 주택착공",
    "time": "21:30",
    "result": [
-    "이전 9.9%"
+    "이전 1.309M"
    ]
   },
   {
@@ -3557,6 +3545,24 @@ window.DASH.calendar = {
    "title": "넷플릭스 실적 발표",
    "result": [
     "EPS 예상 $0.67"
+   ]
+  },
+  {
+   "date": "2027-01-21",
+   "type": "earnings",
+   "market": "US",
+   "title": "TSMC 실적 발표",
+   "result": [
+    "EPS 예상 $5.17"
+   ]
+  },
+  {
+   "date": "2027-01-21",
+   "type": "earnings",
+   "market": "US",
+   "title": "골드만삭스 실적 발표",
+   "result": [
+    "EPS 예상 $15.55"
    ]
   },
   {
