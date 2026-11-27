@@ -1,21 +1,45 @@
 // 자동 생성 파일 (scanner/build_live.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.live = {
- "asOf": "2026-11-27 13:27",
+ "asOf": "2026-11-27 13:31",
  "kr": {
   "news": [],
   "stockNews": {
-   "084670": {
-    "title": "[마감시황]코스피, 하루 만에 반등했지만 상승폭 반납…4711.21 마감",
+   "355390": {
+    "title": "[서울데이터랩] 코스닥 674.75로 급등 출발…외국인·기관 동반 매수에...",
     "src": "서울신문",
-    "time": "16:30",
-    "url": "https://n.news.naver.com/mnews/article/081/0003703551"
+    "time": "09:29",
+    "url": "https://n.news.naver.com/mnews/article/081/0003703778"
    },
    "000650": {
-    "title": "[마감시황]코스피, 하루 만에 반등했지만 상승폭 반납…4711.21 마감",
-    "src": "서울신문",
-    "time": "16:30",
-    "url": "https://n.news.naver.com/mnews/article/081/0003703551"
+    "title": "동양고속·천일고속, ‘고터 재개발’ 기대감 다시 꿈틀하나 [코주부...",
+    "src": "서울경제",
+    "time": "06:02",
+    "url": "https://n.news.naver.com/mnews/article/011/0004686722"
+   },
+   "084670": {
+    "title": "동양고속·천일고속, ‘고터 재개발’ 기대감 다시 꿈틀하나 [코주부...",
+    "src": "서울경제",
+    "time": "06:02",
+    "url": "https://n.news.naver.com/mnews/article/011/0004686722"
+   },
+   "225190": {
+    "title": "머스크 '100만' 외치자 주가 들썩…한국 개미들 난리 난 이유 [종목+]",
+    "src": "한국경제",
+    "time": "06:31",
+    "url": "https://n.news.naver.com/mnews/article/015/0005358867"
+   },
+   "417010": {
+    "title": "머스크 '100만' 외치자 주가 들썩…한국 개미들 난리 난 이유 [종목+]",
+    "src": "한국경제",
+    "time": "06:31",
+    "url": "https://n.news.naver.com/mnews/article/015/0005358867"
+   },
+   "261780": {
+    "title": "[특징주] 아리바이오 직상장 소식에…아리바이오홀딩스 6% 급락",
+    "src": "조선비즈",
+    "time": "09:47",
+    "url": "https://n.news.naver.com/mnews/article/366/0001207709"
    },
    "100790": {
     "title": "[특징주] 스페이스X '우주 데이터센터' 위성 승인…관련주 급등(종합...",
@@ -29,29 +53,47 @@ window.DASH.live = {
     "time": "16:31",
     "url": "https://n.news.naver.com/mnews/article/081/0003703552"
    },
+   "290690": {
+    "title": "[특징주] 아리바이오 직상장 소식에…아리바이오홀딩스 6% 급락",
+    "src": "조선비즈",
+    "time": "09:47",
+    "url": "https://n.news.naver.com/mnews/article/366/0001207709"
+   },
+   "310210": {
+    "title": "\"코스닥 3% 뛰는데, 코스피는?\" 오르락내리락...개미는 \"일단 팔자\"",
+    "src": "머니투데이",
+    "time": "09:36",
+    "url": "https://n.news.naver.com/mnews/article/008/0005447271"
+   },
    "295310": {
-    "title": "[특징주] 스페이스X '우주 데이터센터' 위성 승인…관련주 급등(종합...",
-    "src": "연합뉴스",
-    "time": "15:45",
-    "url": "https://n.news.naver.com/mnews/article/001/0016466140"
+    "title": "[애프터마켓 리뷰] '우주 데이터센터' 스페이스X 100만 위성 승인",
+    "src": "SBS Biz",
+    "time": "07:51",
+    "url": "https://n.news.naver.com/mnews/article/374/0000546219"
+   },
+   "073490": {
+    "title": "로데슈바르즈코리아-LIG 아큐버, 5G 고속 이동환경 시험·검증 시뮬레...",
+    "src": "전자신문",
+    "time": "09:15",
+    "url": "https://n.news.naver.com/mnews/article/030/0003490570"
    },
    "000660": {
-    "title": "공급 부족 여전한데 과잉생산?… “美 협상용 지렛대 가능성”",
-    "src": "국민일보",
-    "time": "02:29",
-    "url": "https://n.news.naver.com/mnews/article/005/0001887771"
+    "title": "[직설] 변동성 커진 증시…증안펀드 구원투수 될까",
+    "src": "SBS Biz",
+    "time": "13:25",
+    "url": "https://n.news.naver.com/mnews/article/374/0000546302"
    },
    "005930": {
-    "title": "공급 부족 여전한데 과잉생산?… “美 협상용 지렛대 가능성”",
-    "src": "국민일보",
-    "time": "02:29",
-    "url": "https://n.news.naver.com/mnews/article/005/0001887771"
+    "title": "[직설] 변동성 커진 증시…증안펀드 구원투수 될까",
+    "src": "SBS Biz",
+    "time": "13:25",
+    "url": "https://n.news.naver.com/mnews/article/374/0000546302"
    },
    "069500": {
-    "title": "'4연속 사이드카' 변동성 극에 달한 증시…다시 레버리지에 뭉칫돈",
-    "src": "뉴스1",
-    "time": "16:37",
-    "url": "https://n.news.naver.com/mnews/article/421/0009312851"
+    "title": "증안펀드의 4배 ‘반도체 배당금’…증시 수급개선 온기 퍼질까",
+    "src": "헤럴드경제",
+    "time": "11:33",
+    "url": "https://n.news.naver.com/mnews/article/016/0002729492"
    },
    "252670": {
     "title": "개인 순매수 10개 종목 ‘와르르’…기관은 인버스로 벌었다",
@@ -66,10 +108,10 @@ window.DASH.live = {
     "url": "https://n.news.naver.com/mnews/article/024/0000109910"
    },
    "009150": {
-    "title": "[아파트 미리보기]로봇배송-스마트주차… 세종에 첨단 주거단지",
-    "src": "동아일보",
-    "time": "00:32",
-    "url": "https://n.news.naver.com/mnews/article/020/0003765565"
+    "title": "로봇 순찰·스마트팜 품은 첫 미래형 단지… 세종 5-1생활권 ‘엘 수자...",
+    "src": "파이낸셜뉴스",
+    "time": "11:34",
+    "url": "https://n.news.naver.com/mnews/article/014/0005610770"
    },
    "229200": {
     "title": "'4연속 사이드카' 변동성 극에 달한 증시…다시 레버리지에 뭉칫돈",
@@ -84,359 +126,359 @@ window.DASH.live = {
     "url": "https://n.news.naver.com/mnews/article/024/0000109910"
    },
    "402340": {
-    "title": "SK하이닉스 호황에 웃는다…\"아직 저평가\"라는 종목 [주식R]",
-    "src": "한국경제TV",
-    "time": "23:38",
-    "url": "https://n.news.naver.com/mnews/article/215/0001274134"
+    "title": "코스닥 장중 5% '불기둥'에 매수사이드카…로봇·방산주 강세",
+    "src": "SBS Biz",
+    "time": "11:38",
+    "url": "https://n.news.naver.com/mnews/article/374/0000546279"
    },
    "053800": {
-    "title": "저점에서 41억 풀매수 안철수…안랩 사상최고가",
-    "src": "문화일보",
-    "time": "22:44",
-    "url": "https://n.news.naver.com/mnews/article/021/0002835859"
+    "title": "코스닥 장중 5% '불기둥'에 매수사이드카…로봇·방산주 강세",
+    "src": "SBS Biz",
+    "time": "11:38",
+    "url": "https://n.news.naver.com/mnews/article/374/0000546279"
    },
    "036930": {
-    "title": "금리 올렸는데 은행주 왜 파래요…한발 먼저 가는 주식 ‘선반영’ 해...",
-    "src": "매일경제",
-    "time": "22:07",
-    "url": "https://n.news.naver.com/mnews/article/009/0005769751"
+    "title": "증안펀드 기대에 코스닥 5%대 급등…코스피 4800선 회복",
+    "src": "이데일리",
+    "time": "11:28",
+    "url": "https://n.news.naver.com/mnews/article/018/0006416524"
    }
   },
   "feature": [
    {
-    "title": "[글로벌 특징주] 항공유 급등에 관세까지…美 항공사들, 엠브라에르 관세에 이중고",
-    "src": "뉴스핌",
-    "ts": "2026-11-26 23:39",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9YS09UMHlsTGxCWGlVdEJZSDFtdjliZDJqVVk5VWExeDJQemRZX0hUclplUlJ5eFRnVzdPOGVfZ2tKcXlhYjM5Z1M3TmlhSXI0dlJla3FoVjd6ZWIx?oc=5"
-   },
-   {
-    "title": "[오늘의 특징주] SK하이닉스·미래에셋벤처투자·SK스퀘어",
-    "src": "빅터뉴스",
-    "ts": "2026-11-26 17:28",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UclFBZk5uYUNWNnYyS0dQQk9SLVNVaWFrX3RQTFZKOGNvcElYWEVGd05qX1VNdXhwZUR4NTRmUmN0cG5ZRl9lSzZmRFFrcVhxdGZIZm9mVk9CZWZoQ3VsYzRuRlNLQkU?oc=5"
-   },
-   {
-    "title": "[ETF 특징주] 관세 충격 재점화에 MADE·PAVE 상승 모멘텀",
-    "src": "뉴스핌",
-    "ts": "2026-11-26 16:33",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pSXZIX1VsWXdYQW9BdThGZVdfdHpPMDJXc3lGY2cxME1vVjhEek9CNXNwaW5qQVlsMGtlQ3Z0UnFVZTlwMzZGdzE0Vnp5YzRTejZCZ1ktdWlFZS05?oc=5"
-   },
-   {
-    "title": "11월 26일 특징테마 특징주 및 신고가",
-    "src": "네이버 프리미엄콘텐츠",
-    "ts": "2026-11-26 16:06",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTFVRby1ERFdjV3FNdUp3UVJ4WkFoTTMxalpNZ05GRGNJN1AzRmxneWlVRVp4RWluenZpTmV4N1J4M2dZSWlzZ2RJTzRlNnJHLWpTb1ZCbVdrYkFpNVVqb3RTS1dCZlE4UW9wVEZXU0ZJRjVrelhjazhqRVVlY01xMEhSRG1mQVJNNHpj?oc=5"
-   },
-   {
-    "title": "[ETF 특징주] '엔비디아 없이 시장 이겼다' SCHD·SPYD 약진 비결",
-    "src": "뉴스핌",
-    "ts": "2026-11-26 16:03",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5DVHpnUng2dVFJcGdHS3lmYVRjc1hVdUZkM3RiWVZiV0VmREVRODc3MlpmYnN1blhNX0xHRC1heC1JT212Uk5WYnlhZ1AtcWhEYjRtTnZ5N3lEeV84?oc=5"
-   },
-   {
-    "title": "[특징주] 태양광주, 유가급등·우주 AIDC 기대감 등에 일부 상승(종합)",
-    "src": "매일경제 마켓",
-    "ts": "2026-11-26 15:51",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9vNVNLUzRTb2hQbjN5VjdCeHFpeGFyQXh4NVQyMmI5VjcxbDRXdDk0SUNnZUtXQTdyck9ad3lQc0g5UXFZR21CcDVSbVR6TFVEOEE?oc=5"
-   },
-   {
-    "title": "[11.26] 증시 마감시황 및 오늘의 특징주",
-    "src": "네이버 프리미엄콘텐츠",
-    "ts": "2026-11-26 15:47",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOG9mU3NRdHEwbzBiRjJ4QUxQS21odVRJZ1ZRdEN5ZGxSVmtmemN2MzFDX3lpOTM0MzVVU1V1VHFFWVpuVURLYWFfaHJwQlZmTHM2dlo0ZjRwQmlpSnBNWEJFend5Y3NFNTVwNVFob3M3ZTI0emNCbFBQcjFVOTEtaA?oc=5"
-   },
-   {
-    "title": "[특징주] 스페이스X '우주 데이터센터' 위성 승인…관련주 급등(종합)",
-    "src": "연합뉴스",
-    "ts": "2026-11-26 15:45",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IaE1ueDFMbjJneDg2V2syMWN2Wllrc3BEcENwZnN3NWVuWEFJTDFRdUpTTmIzcDVMM2NXQTJVRFo5MGpuM1BFY2xXeGQ2c2d4S0EtOFBQTEJTRUnSAWBBVV95cUxNdkczbklPVWFocmttd2RxU0dGVENzQkg1akEtNVBYN1ZjYmpoNHdXMGRzWUY3VmNlUTZuWmNjVUdhWFVrS1ozTUNpZktzVURwQmxORjFhMHAyWmFvR295ajY?oc=5"
-   },
-   {
-    "title": "[특징주] 스페이스X ‘우주 데이터센터’ 승인… 미래에셋벤처투자·스피어 등 급등",
+    "title": "[특징주] 프로티나, 유럽 제약사와 11억원 규모 계약… 주가 강세",
     "src": "비즈트리뷴",
-    "ts": "2026-11-26 15:18",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5aVFduSWo1MFAzeXduOGtwZWxyOUdjNVBGeklHdG1BUTFHRHBnN1ZJOWNId3VCNkRuM09WbGl1YXVQb2tjOFZWLUxxa0hGb1VyODZoZFpjd09iWGQxMy12dVY3RXl0aXQ4aExrZENYSXQ?oc=5"
+    "ts": "2026-11-27 11:46",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE83bWU4ZmNVTUhHZU45c3JUbTRJcFZiYXA2VVhvNC1KLVB5bE90ZHFJeW1WRE1ydW5nLVJaaTNhdkZSbWpVbkhTRVZxdHZYQkRYanI2Tk1RWmNHQWJFVjJhRURvNGVwVGJvN2VUaTR5aXg?oc=5"
    },
    {
-    "title": "[ET특징주] 스페이스X '우주 데이터센터' 위성 배치 승인… 국내 관련주 강세",
+    "title": "11월 27일 오전장 특징테마/특징주",
+    "src": "네이버 프리미엄콘텐츠",
+    "ts": "2026-11-27 11:37",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZEd5dFFqTVYxRmFpX19uZ2ZwMlIzMmhQcUNtQUtaekxnQXdramJiWlQzWkhNemNKV0VPUkZPSnljQmEzcFBiR0pmc2ZMWHVpZWRfYVN2bWFudkgxX01HWV9HbFhSTHg0T0V6TlVNM0k0a2RBTzdnZFZlMTlNNTBLSWs2eVIxSVdFdVo0?oc=5"
+   },
+   {
+    "title": "[특징주] 한국항공우주, 사우디 정유시설 공격 소식 '상승'",
+    "src": "전국매일신문",
+    "ts": "2026-11-27 11:21",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBoQXgtcXFtYy1pYURsUWFjcTZCUDFXdDlGWFBJRmRTRWh3dE1IZEhDaXJiSHcwVF9obDhzVDI0Slg1amFHUmgyalBRUkZtbjNnLVlSbUloZ0VZX2M0cGxMSHRkc29rWEk3TUJpenB3?oc=5"
+   },
+   {
+    "title": "[특징주] 제이에스링크, 유전자 치료제·분석 테마 강세에 10%대 상승",
+    "src": "와이드경제",
+    "ts": "2026-11-27 11:20",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBuUFpiSS1ERUVGSDFtV2xQRTRjSjI1cHVuRzM3aUd2bHl6dE0tZHdSSEZsQXZRMVQtdmVVVTJwZEx0VGgxSDNtd1djaFByODR1Nm1WT29yWTFRTVRFVF9PWUFzRnR4Zk9meExUQw?oc=5"
+   },
+   {
+    "title": "[특징주] 자람테크놀로지, 광통신 테마 매수세 유입에 장중 9,880원 기록",
+    "src": "와이드경제",
+    "ts": "2026-11-27 11:19",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9WMnRzMFgtM2p0aDdicjNWUWh1N214Z1BRQ05ja25CTGo3bHR1bEN3MUxnck9uZi0yQ204LVpHSDlQdGp0dEFNSTNJSTdwUHdGMUV6SzM2VWNFRDR3UXdIMDhCMHExVXVLLVB0bQ?oc=5"
+   },
+   {
+    "title": "[특징주] 현대오토에버, 향후 휴머노이드 수요 확대 기대감 '상승'",
+    "src": "전국매일신문",
+    "ts": "2026-11-27 11:14",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9mblRrWGs0NmtyV250eGg5VzMwYXU3Tmxfc1Zsa2lBWHR0VWpndWpudmx3N256TW16U2M1bjNQa2FZLVUyZ1g2M01YZ2pUR2xLVVlDTnhNMFVuczl4NWV3VEFvOGxNemFsR3dFSHJ3?oc=5"
+   },
+   {
+    "title": "[특징주] 와이바이오로직스, 차세대 항암 기술 관심 집중에 8,630원 돌파",
+    "src": "와이드경제",
+    "ts": "2026-11-27 11:14",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5UQjdvMk1vVWVOWnlUVlIwMjI4ZnpqdTJOMlphb2RZc1dHaHVPaFQtb29JNWRIeF9uY1BIaW5XWExXbk8yT3dyTk1vUTVoWEM1cGk4OTlZWndDUzlqWTBpT1VsUHdYWGxBUWxmbg?oc=5"
+   },
+   {
+    "title": "[특징주] 큐라클, 면역항암제 관련주 매수세 집중에 15.20% 강세",
+    "src": "와이드경제",
+    "ts": "2026-11-27 11:06",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Tamo0TEtOVnhqWXRWZWF6TDBobHo4NTNheEZidGExUllNb1Y5Rk91Wm40Tjdtd0hGNlJVX2Y4SkxJa0drekhaLUoweU1PMi11QTNwdHNfOFM4MkdZRVFmSjNpc1NjQVFjUUx4TQ?oc=5"
+   },
+   {
+    "title": "[특징주] 지씨지놈, 유전자 치료제·분석 테마 강세에 27%대 급등",
+    "src": "와이드경제",
+    "ts": "2026-11-27 11:05",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kUHNoZjZqeUt2RnRydWJjTkRSVGx4NWhLN1prQl8tNEpwS1AzekwzcHhTTGFmTXktUEhVRk9vYkxNTnhma1dhZmxjMG1FUGctOWp3OEVWbnctRTRPUTJrLTJXeXJBMnFfU2Z0dw?oc=5"
+   },
+   {
+    "title": "[ET특징주] 사우디 정유시설 공습… 중동 긴장감에 방산株 강세",
     "src": "전자신문",
-    "ts": "2026-11-26 11:28",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ha0RjVlZkY1ZzaWVYRTFNcXN3dTJkSU5nVHExb3lYRXpVaUYyc1BJMWJKTUdfWk1jMzdWMS1RajdBakFEM3FJTmNGbXpjdw?oc=5"
+    "ts": "2026-11-27 11:01",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE10Q3dRSnU2U3J1RzRld0JUbDNTdVNTaldCZGZxQjM0cVdtMVBNTG8yalRmd3JFWHBsTXY5R0FCZ3ZLNGZ5Z0R6UEVORDZZUQ?oc=5"
    },
    {
-    "title": "[ET특징주] 나라스페이스테크놀로지, 수자원공사와 101억 규모 공급 계약…주가 14%↑",
+    "title": "[특징주] 로봇주 강세…휴머노이드 수요 확대 예상",
+    "src": "한스경제",
+    "ts": "2026-11-27 11:00",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1HVU9ZRnk5bkZpY21TNDJPV2NITzhFdWtCb1A4czVkMXhLU3FfUUpkYnNmX2pWcENLSFVpeTFBbmtUOTB4MS1CZER4anFXOUxjWG1OMTNmLUlNbVV1NmZnYjNQSVlqSndZdHM2SNIBb0FVX3lxTE9lbFFVUlR6XzY1MkVrRkY0MU1wbW9sN1kyakJXb1BiaW5xOVNFV0ZEa29LUzJSS2h0QjZNY3NwMzV3N3NTQmJEVDVrLWkwbHhzQXltdE9oV1N6WWRWR1hKWXYwMGJOalVaLVJRYnI0QQ?oc=5"
+   },
+   {
+    "title": "[ET특징주] 706억 유증 청약 흥행·파이프라인 수익화 기대… 큐리언트, 주가 28%↑",
     "src": "전자신문",
-    "ts": "2026-11-26 11:22",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1KMU5HNGlIN25EMFpwU0w2U251Mk9FbEUxckltbkF5S2FaMlhtd2pDUnhJLTdCNkRCRUdFS2VocHd3VGd4QjM5VldRN3NDUQ?oc=5"
+    "ts": "2026-11-27 10:51",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBVTnZHZ2JfUWFmZ3VjdkU2dTJVQmFxQnlidi1TeTdBeXVNNV9uN0NjMkt6SXhkM1dQRHhUQmJNeVczbzVEYnRpQ2RfZjFrQQ?oc=5"
    },
    {
-    "title": "[특징주] 나무가, 50억원 자사주 매입 및 전량 소각.. '급등'",
-    "src": "글로벌이코노믹",
-    "ts": "2026-11-26 11:02",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR2swak5wcy1qeGExY2lLX0kteEdaQ2FpYkh4VWtjel9SR0VCNnBBTFNTMlAtdjVWRWMwS2FNZjBwX1ZpMkVzY0xiWGhoT0h1RjFKdW91YnZPTVdEX1VmOGdvN3JCU1h5cll5RDN4OGdZcXhRY0txVDdOVUJ5TXlzSnZTc0l0SEx5?oc=5"
-   },
-   {
-    "title": "[ET특징주]삼성SDI, 코스피 반등에 상승세",
-    "src": "전자신문",
-    "ts": "2026-11-26 10:58",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9FNUZDN21rR1c4RnYtWm5PeHYwbW4wc3Z0VDY0d0xaVEdFcUFRQnJsMXE0UGFkVllFZUpnZGtMdzZnUVBVLXRPdVRzWnY1UQ?oc=5"
-   },
-   {
-    "title": "[ET특징주]나무가, 북미 휴머노이드 공급망 진입에 상승세",
-    "src": "전자신문",
-    "ts": "2026-11-26 10:58",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5DUS1jdHVFc1V5NXU3TmlpMnlaVW9zZXlGa3NzdVZ3TzgzOVI3U19wTFYybEZZSVJSalByUE1tbG9TN0YzRkJ3ZDlDaWZFQQ?oc=5"
-   },
-   {
-    "title": "[특징주] 대한항공, 중동 긴장에 국제유가 급등.. 7%대 '급락'",
-    "src": "글로벌이코노믹",
-    "ts": "2026-11-26 10:54",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZ1BjaFVjMUphUmxlcGxRaE5rM1I0T0lCelo0c281MXFFeThWeG9CUmxhMzQwcWJ6b1ladUdWbmxDbGFqc0xMZFBuWVZLVXplLTExaUItSFRzSC1mbVRDNmdubkhpMjR4UXpFbzBaRjF6OUg3T2JkanA0aTdwZzZWS1lSZG1CTEhN?oc=5"
-   },
-   {
-    "title": "[특징주] 삼성전자·SK하이닉스, 美 기술주 낙폭 축소.. '강세'",
-    "src": "글로벌이코노믹",
-    "ts": "2026-11-26 10:35",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUXpjOUxXMVlMYlViQVhmZWVWSV9ZMG4tQS1PUF9aTjVSVDZZLUZRRElCbVduVjFmLXNBTXNadDZXQVlZY2swcGoxdXNZa2VIaWdjUVlwY1NCeVJyWXoxT2NmQVVnUFJSM3VDMEQtRzUxSlBLS2dESUFLaS0zMS11MGd2dDZTaFBt?oc=5"
-   },
-   {
-    "title": "[특징주] 스피어, 스페이스X 우주 데이터센터 기대감.. '불기둥'",
-    "src": "글로벌이코노믹",
-    "ts": "2026-11-26 10:26",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNempIV3FxTTFLQ3FRTm1mZ3pNdlRiZlgwcE5mTkN5UENFTGxuRVdHcWxIeTgzM29HWnhLVGdRQ2hIZEYtdXBwQ2xMdUp5TFVQQzVvWkE3UDNUTXBEME1mWE0wSFo2Si1zbUpCRE5wN1dhc3VUVjJlckNBVGttU1BMMnkydnhoMGJE?oc=5"
-   },
-   {
-    "title": "[특징주] 우주 데이터센터·재생에너지 확대 기대에 태양광株 '강세'",
+    "title": "[특징주] 사우디 정유시설 피격에 방산·에너지株 '강세'",
     "src": "뉴스핌",
-    "ts": "2026-11-26 10:14",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lRHdZeXVtaUphTk5KMW90LU5uTXhEaFN4UUJ3bzViV2xxM3VBSmNjTF9BMFlSOTYySzVOeU9TTlVSdVBfV2d2SW1TTXBDeG1sT0R2ZWRyX2NFVWxZ?oc=5"
+    "ts": "2026-11-27 10:40",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE96aU5ZN3R5MGZET2RPbFcxQXJCakkzZVJEenBlaHRMYkdCbjNNV3FxOC1zY3hoS0poOFRTaEpsbTcyNTZlRkxIR19NcjE0S2lxYVRDZ1RBLVdPRFFG?oc=5"
    },
    {
-    "title": "[특징주] 케이지에이 18%대 '급락'⋯'관리종목' 가시권",
-    "src": "아이뉴스24",
-    "ts": "2026-11-26 10:01",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1UYlRGNTRTc3JLZWhvZF9qSXVqbDNYa292b3Z3TnBOSTJLMEtHVDV4Q2d0d1lqbWZsZkhtd0RaNlJIaFlpdW0yT3FpTQ?oc=5"
+    "title": "[특징주] 뉴로메카, 대기업 로봇 역량 강화 소식에 장중 1만 6,590원 기록",
+    "src": "와이드경제",
+    "ts": "2026-11-27 10:37",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE54MVRydWFnMGYzR1FzUHNFWGNJaEZfbUNhTUs0YnRsUmNweGRwdFl4Ynp6cmU0emlvbF96MUYtajhjVnJfVkRHX2d0VDhVZ1NzN2dybWtZaG1UNFdVdUs2ekRIS3dOUXBfdjB5TQ?oc=5"
    },
    {
-    "title": "[특징주] 나무가, 50억원 규모 자사주 소각 결정에 13%↑",
+    "title": "[특징주] 아진엑스텍, 삼성전자 로봇 역량 강화 소식에 테마 급등…11%대 강세",
+    "src": "와이드경제",
+    "ts": "2026-11-27 10:35",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9id242NE9SQmJxSlI1bTY2emsxQ1B0WTBRVy1qU2JldmR0WnctclFnZnk4V1pjRW1qSFkyQmdwY2lTR0FWR0wySlBtVmxuNW50ZEozMjYtUkJVUWtLYjhOdTFiN2hMdkV3ZldEcQ?oc=5"
+   },
+   {
+    "title": "[특징주] 마키나락스, 로봇·AI 관련주 매수세 확산에 11.69%↑",
+    "src": "와이드경제",
+    "ts": "2026-11-27 10:34",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1rUHliMEMtNjJHOEZZWlFVUnNnOXVPaWREd1h1X0pFWnhpMG16TWZYZ09adUFtaW93ZFVTckZiRjVFYmtrdXBBZTdoYnVfbjBydnJjczdsTGNXN1pZNE9PVlVPak1EdVRDcVpGZA?oc=5"
+   },
+   {
+    "title": "[특징주] 사우디 정유 시설 피격…한화시스템 14% 급등",
+    "src": "한스경제",
+    "ts": "2026-11-27 10:28",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFByZF9VQkxqWUpIZnNDR0NzNHhsQkpVRzAzWmdWd0pCa203SDhiLThsLWlBM01LYk9QdDU3S0Y0VnlLanVReHlJbTY2V21odUV0UENYSnRlRHJfcmxrUURoZzRuZWUzRWlqY1Nz0gFvQVVfeXFMTmctXzhVa3NoeTM2aGdRYVNncmVyT04xVS0tMHFUVVNZSVZWNXVnRkc4ZWJCdzdRUGp1QVBCY0J3M1FSNkhOT0t0dzh4TXJoNkE3RHZmcVh1VGhqdTI5UVlBMjRoVS1QOW5FSFhpYnI4?oc=5"
+   },
+   {
+    "title": "[특징주] 삼성전자·SK하이닉스, AI 불확실성.. 반등 '주춤'",
+    "src": "글로벌이코노믹",
+    "ts": "2026-11-27 10:21",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcTFDeGxxUEpKNlN3aFU0LUU2NldwQktHQ1RWM1dvV1ZNNlJ2d0doZS04a2dWdmdwaWxjcUFLR2pHdGtaS1BRc3Q2ckxwV1lJWVBLT0Y4VmZIMnM0X3hUVGhuOXFJV2dJc3d4OGV4QV90RVNCX0VrZ19KM01Ud1daZHgwUjVMTFZm?oc=5"
+   },
+   {
+    "title": "[특징주] 한국피아이엠, 로봇 부품 공급망 확대 기대감.. 11% '급등'",
+    "src": "글로벌이코노믹",
+    "ts": "2026-11-27 10:21",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZzhEWXZLLUJIOHhDTDR0MUJqRGl4NWFLcEZSakxVZ1RhVVBxaEZNdlpTU0dNWEFKNmVZMFRMNTQ0a3pKVWNFUW1oZkQ5Y3JPOG1MTmk1UmVyYlEtMGtVWFBhVEJjLUtTUkVZeGEtdzVVdElfaDd5bkZKamZOTktoMWdGMkJuUTRM?oc=5"
+   },
+   {
+    "title": "[특징주] 방산주, 사우디 정유시설 피격.. 동반 '강세'",
+    "src": "글로벌이코노믹",
+    "ts": "2026-11-27 10:14",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOWRKNjdWYVRUSXg2R0tsbHcwV2tJckVRaGpPVndMdG9NS1l1VS12UkxDak9yN2xoNWtSUXBmSlQ4QVlua2E3ZV8zcEFwRXd0RXBXMXVCSE93LTlDLW1td0xqelJFUHhBaldLNG5wLXBabUwwUUhUNGc5MlU5S0JwUFBvMkZjSU0?oc=5"
+   },
+   {
+    "title": "[특징주] '환급 가능성' 소식에 DB손보 4%↓…현대해상·메리츠금융도 약세",
+    "src": "뉴스웍스",
+    "ts": "2026-11-27 10:07",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0xZzkzQlZWdWlSNGZZVUh6NEVzTl85YnZzZXlPaVRPZlNjX1hoa0stX0Jad1BpQ21laXdRbkVZelZkbFN6MHVhRV9SbXNfeERqbnVqSkQybmhmV3ZfWUxYQnF5aEdTX1k5MmpqaUtZVdIBc0FVX3lxTE9tM184SHRUcUtqMVhLOVUxLTJMNlF0V3Nrd1dSTFdXelVYMGtHRkNlNVlkTEhQVG50Nm85OEtObmp1R1hEWkFCNTZMWXBqcnh4V05PRHM1bkp3NGJEWFRJdlNDdXNuQWpjUm5Pa25MQlVGV00?oc=5"
+   },
+   {
+    "title": "[특징주] 라온로보틱스, 삼성 반도체 공장 로봇이 대체한다…국내 유일 웨이퍼 진공로봇 고객사 부각",
+    "src": "프라임경제",
+    "ts": "2026-11-27 10:05",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9lOER3UVZTUEZnM2VWSGRuRThuN1lQWDRhenBFZlo4emZBQmtBRUNRVGRFeEJUbnBuck9IWWNRQlRVOGpiTjhEUTNORjNfV0kzb19sZkt6QWdUN2RGNzdob3JyLVJqNzI1UWR0RllhTGIxZw?oc=5"
+   },
+   {
+    "title": "[특징주] 항암 신약 개발 기대감 속 면역항암제株 동반 급등",
     "src": "뉴스핌",
-    "ts": "2026-11-26 09:55",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5yeGwzS2xGTlFDc0NoYThrdS10NjZwdklWQkNzT25yRW5fTXpDV1NTdnVncjAxSnpuUjFnVzhUdTVkLVJQSVRoQVhycWs4YzYtMjY1dEIwMER0MEIt?oc=5"
+    "ts": "2026-11-27 10:04",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE05TlgyeHdZRFUtRXF5cFVOTjlKYmkzdXlIMEN3X0NhbUxEa0lHSm81QWtJLXNLV19TREg1dklrR3lRX3BLMWRmR0NnZFlWRmJ6aVpEYXd3bFZtRmZ0?oc=5"
    },
    {
-    "title": "[특징주] 스페이스X 위성 100만기 발사 승인에 우주항공株 '급등'",
-    "src": "뉴스핌",
-    "ts": "2026-11-26 09:50",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1hM3pVSTNvYm1zZHdiVUZZbGNHeWE1a3d2T3dzN2hyM0JoaC1xY2NPUnpOM0h3Vk8yeGZCVWxhS1F4dHBwNU1oSXRELWRMeE1OVGZwRkc1OGtJWURK?oc=5"
+    "title": "[특징주] 한화에어로스페이스, 방산 수요 기대에 7%대 강세…SK하이닉스는 반도체 경계감에 약세",
+    "src": "센머니",
+    "ts": "2026-11-27 10:02",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpME1aSUJ3Yk4wNUNMTFVmVzBzNmxHUWZDdlI1aVQ1QVFuTHJMUHRPV2oyM05RcXlxZGRFMGNEVlMtWjRlakJMeWlRSV9COGVQWTdXX1BvdjF6ME1ab2FJbmZJbDhyVEI5WXZQTQ?oc=5"
    },
    {
-    "title": "[특징주] 美, 한국 관세 15% 유지 전망에…이차전지주 동반 강세",
-    "src": "Chosunbiz",
-    "ts": "2026-11-26 09:48",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOHl2M2MyZDlvZk45dTJJX25nbFJralExSTdzdTUydUplMHd0UHNERUFwVWhyWnlRejdlYlVTcnBEQzhuRDY2dDRSeWtxdDJ1RU1iWFVyS3UwaC1laG43ekw1a0FiZWpCc291Z0FOa3EwUGFrUmF0N2VwQWVPUHR0aHl0emdEU1Na0gGcAUFVX3lxTFBsbFdxQ0hOTWRqYTQ0X0pzWUFSNnI0REtTVHNQUEhBTGg5cUNoc091X0ZyODJ5ZTNuSEhPRU54clBlNGJZT1JpZ2hPY1ZzOGw4RnVVUjJ6QWNrRXZuQ3llcDRabmtVUklUXzgwejBtdWZuRnZMTjVxalpDWUdXZ0lPX0RHdFZkekRDUjNZeXVET2VmOERzcW5jNl9wSw?oc=5"
+    "title": "[특징주] 큐리언트, 706억원 유상증자 흥행.. 23%대 '급등'",
+    "src": "글로벌이코노믹",
+    "ts": "2026-11-27 10:01",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTmJUUlhwUWZZOUdyejZuTUdtVEhxWEJzZmZzMXIwelJnNngyS0NBR2tFRU1rRHF1MVd3Y3ZZaXJxNTF2akt0OGZLTkdUZmhuUUw4N2oxX3JDNmYta2hhX2pfNC1FRjJvOXRpVjZpc2h0N0oxUTVzbzdobWViZUJnTHoxU04xSlBE?oc=5"
    },
    {
-    "title": "특징주, KX하이텍-반도체 재료/부품 테마 상승세에 7.29% ↑",
-    "src": "매일경제 마켓",
-    "ts": "2026-11-26 09:41",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9yS3pPUEtRYXh3YU5XdWE4VV9jSEZhSWhlODN1V3FZcThzRXYtVjh0QkhfaW1nUHpkX2RYZ3hTeXExN3hRMkk2cU1OVVFieFJwVlE?oc=5"
+    "title": "[특징주] 삼전·닉스, 장 초반 동반 약세…AI 불확실성 여전",
+    "src": "아주경제",
+    "ts": "2026-11-27 09:59",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ENXVrcnZNWUgyaVNpMmwwZi1qRzZNN2lyT0syZUktRm5kWGwyMXc1Y2xIRHNCV3FvMDZhcmtTd29IY1U0R0lRU192dFREbHo3YURsbzVrRnBWd9IBWEFVX3lxTE9vYjlTUjRsUHNXSWM4dFN1cEEzWXV3Y2h3OU5uUjlZQnljelNNNl9ZYnNmZHgxVzZjdDNrelJ5TGo4dHc0T1gxXzBGaFM0eDZNZHplSEk4cUw?oc=5"
    },
    {
-    "title": "특징주, 원익홀딩스-반도체 장비 테마 상승세에 5.39% ↑",
-    "src": "매일경제 마켓",
-    "ts": "2026-11-26 09:41",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9rTEI0U3drNUpLdm9FQTJ6cHFURC1PM3pvdld3YWM4MkItZVVxN1VUblVlZjFIdzFmMGRWLWRLU20wQmZPdlZBUEQ4SENzT1ZxcWc?oc=5"
+    "title": "[특징주]로봇주, 휴머노이드 시장 확대 전망에 급등",
+    "src": "현대경제신문",
+    "ts": "2026-11-27 09:59",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zZGVTb1dXN3ZCQ0FtQ3FZN0cyQVRPOVZrczlWS1JsOUNMeVBEYXRlTHEtRzFJUXQ1UEJVazFmZ2QwVUl4SlpESG5FcFBVSTJab3BOeU5lWmhzT1QwQ3VWb3FsRm51bmhf0gFrQVVfeXFMTkMtbk5UckZDNy1UTE5kWHhkTV8tUW5QQ05WdU1oeEZKWE5WVllKQmZsazFhTmpaNnpDTU5BdmRqNDFIVWRRY0FPcXY2UTZoWjVBd1FaaEgzRGlnZU5NNXVvRVJlVXRtX1N3aVU?oc=5"
    },
    {
-    "title": "특징주, 한미반도체-HBM(고대역폭메모리) 테마 상승세에 5.57% ↑",
-    "src": "매일경제 마켓",
-    "ts": "2026-11-26 09:41",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5aa3ZfZmpXb3JWX0d6bm8tS3lZb2tfVUN1WlFyTDFSYXRjNXVwSnMtYktZbW9ScFNMS0N4S1hTbnVmSFM2ZmY5bjZTdXBtbjM1WVE?oc=5"
+    "title": "[ET특징주]펩트론, 스위스 제약사 '페링'과 공동연구 소식에 상승세",
+    "src": "전자신문",
+    "ts": "2026-11-27 09:58",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBaZE9uWjYyakVlOEhHSUZmZnBtcGVtYkg1SXUtd196em9jbnNDZGdhLXM3cnZTZXNPS1U0cTVZRUwtNUpvWU1HN3g1VEc5QQ?oc=5"
    },
    {
-    "title": "특징주, 성호전자-광통신(광케이블/광섬유 등) 테마 상승세에 6.45% ↑",
-    "src": "매일경제 마켓",
-    "ts": "2026-11-26 09:41",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1PYjZmYzhPeVNHYUZQb2syZlBPQnZBUEg3WXdmdS1ZUHlwWVJYaFNLYzVITmN1TkxxMVhDblZHYlY5ZG45YlZBejNRLXNEM2FJWWc?oc=5"
+    "title": "[ET특징주]현대오토에버, 현대차그룹 미래사업 투자 수혜 전망에 상승세",
+    "src": "전자신문",
+    "ts": "2026-11-27 09:57",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5JeDhZek4wcVRjeWdDVUtCTVIwUHo4Yy1OcTZSVHhLRl83MElEX25WYVFjUW9TdGxfSjB6VzFPdy1XOG9FQlU1NzBSN3h4dw?oc=5"
    },
    {
-    "title": "특징주, 이오테크닉스-HBM(고대역폭메모리) 테마 상승세에 6.91% ↑",
-    "src": "매일경제 마켓",
-    "ts": "2026-11-26 09:41",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9TS3hEaTZHbnNLeXlTbkNTSG9mSEc5REZGNDNmQ3ZsOWNYUVVpbjduZ2lEMWZOOTNuMW9PM2NxMktDakNYVUNOUkl1UldBNFVpc3c?oc=5"
-   },
-   {
-    "title": "특징주, 주성엔지니어링-태양광에너지 테마 상승세에 12.66% ↑",
-    "src": "매일경제 마켓",
-    "ts": "2026-11-26 09:41",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1JLTRJQmpHelFpMUdEelZQbFNkNndxbm5sZGRnZFlfdUY0UzFZaG9VdmF5VGtmbk8yV0NTNEdwVC1GOTVHYUVUZi1PSnV4TFRxSHc?oc=5"
-   },
-   {
-    "title": "특징주, 동진쎄미켐-반도체 재료/부품 테마 상승세에 5.05% ↑",
-    "src": "매일경제 마켓",
-    "ts": "2026-11-26 09:40",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBKbGRSNF8wX0VyTGNfUG5qdHlVUlA5Zk5ueUo5MEg1ZDRQbWdaUXZpbUM1dUp6VFhqRE94eHBTbFpDWk9WVTE2QWVRT25qLV9FSWc?oc=5"
-   },
-   {
-    "title": "특징주, OCI홀딩스-태양광에너지 테마 상승세에 6.06% ↑",
-    "src": "매일경제 마켓",
-    "ts": "2026-11-26 09:40",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE00RF82blpJZFlWdzJjQl9EUnRDN0NfWUwwZ09mRDYzbWV0OWhBMnpITUo3bnVSX3d3aktHODBaOEE5bHJ0Zk9GODRTTURLZndfdWc?oc=5"
-   },
-   {
-    "title": "특징주, 삼성전기-온디바이스 AI 테마 상승세에 5.96% ↑",
-    "src": "매일경제 마켓",
-    "ts": "2026-11-26 09:40",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XUC1SX0lIb3hhZ0FkVGZRdFFZOXVIUjI4QmpwZjc1RmM4OWRrRmtyS1VZYzhQb0F1RWtoT3hXcUowdF9vLTllakV4ejhkcWlIQUE?oc=5"
-   },
-   {
-    "title": "특징주, 삼화콘덴서-MLCC 테마 상승세에 5.54% ↑",
-    "src": "매일경제 마켓",
-    "ts": "2026-11-26 09:40",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5OeXBiQUZjR1FhRkdYSm9HS0t4WnA5aC1xQWxIeW5za3dQNEFrbGs3UjlGVFM1SXd6QlZ4VHJONlRsVUJWSHdQVUctb244LUljT1E?oc=5"
-   },
-   {
-    "title": "특징주, 포스코퓨처엠-리튬 테마 상승세에 5.01% ↑",
-    "src": "매일경제 마켓",
-    "ts": "2026-11-26 09:40",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94dEpheVE4c1JmRzVSbVNDMnFDMGQtOURoSWdlUThjOVU3ZVZmNUZRazhvMXNUZS1qRmF3dGdWM05vU1NCZlhTVGs4UXY3LWhQN3c?oc=5"
-   },
-   {
-    "title": "특징주, 삼성에스디에스-IT 대표주 테마 상승세에 1.03% ↑",
-    "src": "매일경제 마켓",
-    "ts": "2026-11-26 09:40",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1JU0lpUEpYdjVzMXFldGtpbWV2ak5sSDh3V0drMFRXY19RMVRXX2hLZHV4UF91d0hKejBKMHdqbDRIMHN3WTlheV9WbmxuN3Z5RUE?oc=5"
-   },
-   {
-    "title": "특징주, 대한광통신-광통신(광케이블/광섬유 등) 테마 상승세에 5.9% ↑",
-    "src": "매일경제 마켓",
-    "ts": "2026-11-26 09:40",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50NkZaek5oNTJ2dzZVOXJna1hzWURJZk5CQUJDbDhWR2s4OHVFenh2YUhwUml4ai1UVFp6MTRYSUJLcGxmNllCdDFkOG5paFZFY2c?oc=5"
-   },
-   {
-    "title": "[특징주] OCI홀딩스 10% 급등⋯스페이스X '우주 데이터센터' 수혜",
-    "src": "아이뉴스24",
-    "ts": "2026-11-26 09:38",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE40VnExRlR5ZURua29ETElXU2lxX2huejIxOXFZNWlFTXp6NFpxcnp0UWREX3A2NnQ5cnl5eHdBOG1qUGhaZE5ldDZlMA?oc=5"
-   },
-   {
-    "title": "[특징주] 태양광주, 유가급등·스페이스X 우주 AIDC 기대감에 강세",
-    "src": "연합뉴스",
-    "ts": "2026-11-26 09:36",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oUkRYXzk2WVA4RTEzN3J5R1J6Y2hXWXlKRGN0RVk2NEh5MjRpbzhCSkF5UEtXMjR1S0ZYYWNfQV9qa000RmI1UW1YMzJZRjlKOERERHlRQ052U2_SAWBBVV95cUxPT0loblB4N1NSb2t6c0dBemxJal9ncjEzcWNWQXdESmwwVTNxRjMxbnFiZEV3SDF5cDVDQkhfZU5YYV9TNFdZbWhtdU12dTZwU0poankxVG00T0ZxaU9CMWI?oc=5"
-   },
-   {
-    "title": "[특징주] 삼성전자, 장 초반 1.6% 상승…SK하이닉스는 3.9%↑",
-    "src": "연합뉴스",
-    "ts": "2026-11-26 09:23",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1uVWtYd3hlZWxJSWdzMTcteXhhZ2VSdkpld3dqbERqRDA3UjQ4aVBtNGVmejkteDVYelpsVHFqSlo4QUw0eEZObVBmdFRmUE9TWmRxQUt0TkZIQjjSAWBBVV95cUxQVnFiY0cxaEVHVERtUVMxbHYtZE1jREFXeDZ5MDZPVFVjTVhSY1pZcEh1aFNJNjNfRFVrQzI1Y2ZBSmFpTm1hSVV5aURJalVyZmF3bEZBaDBZTVNGM3JwWlo?oc=5"
-   },
-   {
-    "title": "[특징주] 스페이스X 위성 100만기 배치 승인에 우주 관련주 급등",
+    "title": "[특징주] 리가켐바이오, 면역항암제 관련주 강세 속 17%대 급등",
     "src": "브릿지경제",
-    "ts": "2026-11-26 09:23",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00QUtJMG9zTUpscDh1NUtqbDdsN01uRkRDUHZoelFtSEdlQjJ6RzJibkRqd2x6amg0MHRwbjZLbGdrbzFhLWRTOTRRTVN3RnBkUEgzMVBTTHk5UQ?oc=5"
+    "ts": "2026-11-27 09:56",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9TQXl2bHBESkFEcC1ieDNCaERNbkZsZXN2cHJyMmM4UHhhN2xiZ3EwSHBRYU9HMG5kU01LVGpaVDdaakRvemhOcVhVV3FsYlhBVU10SFZ2cGw0QQ?oc=5"
    },
    {
-    "title": "[특징주] 스페이스X 100만기 위성 승인…센서뷰·스피어 등 관련주 급등",
-    "src": "이투데이",
-    "ts": "2026-11-26 09:23",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE82am82RTNvVW5KRGN2R0x6QmI4LWhuanFFRjJsMkEwYV9RTkU0eHI4d2p6NE92dVpXR2xMV2ZQM2ppS2g1WnBtaHpRT1dKZFNQcG9uMQ?oc=5"
+    "title": "[특징주] 로봇주, 삼성전자 'CES' 휴머노이드 공개 기대.. '급등'",
+    "src": "글로벌이코노믹",
+    "ts": "2026-11-27 09:53",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSUd3TEZnZzRUX0xyN1Fic243NTZSendycE1nRjA5TkVtYnVyandhaDdhUTBWT2lKd1IxUDBuMlVZd0stQjE2R3c3NTUxeS1IbDdJTWVBTHNRLUd1S2FOT3EtSWZFdUlDU1ZJUGtWZFc1b2NLQk1JOVNXM2N2Mnh4N1VsMDJBQW1O?oc=5"
+   },
+   {
+    "title": "[특징주] 큐리언트, 706억원 규모 유상증자 초과 청약에…24% 급등",
+    "src": "Chosunbiz",
+    "ts": "2026-11-27 09:51",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMTE2MWtPS1VrMUd3SmFFVG1GQmh6VHRiejh5NXltakVMekN4N3dCUWVCSTdjbzNXc2c0M2t4cVI2RUhwemJEOWY0dzRpdl9IdUJKQnRVZVI4NGU1T0oxYy1GVEpfa21ocEhZZ2pkaGdMLXZIb0lMSzZyek9ITGkyVkV0R0xPclZV0gGcAUFVX3lxTE03RUZWSS1XV0w0OW5uOFZybHFOOWRpcTk4Rm5JbnFBUHBzdDc5c0JpclRjLUFXc05LbWRKdmpsdWR3UlkxZGZjNUlRY29aWWpqbUxrM0o5LUlnYUtiaC1rSjgtU1kzRE14bEo3a09lQ2d0YVR6eDNrSjQ0bU5IQ2JmWWtwMlRIbUwwMEVaUExhLUdmR0lyb0JlNW5yMg?oc=5"
+   },
+   {
+    "title": "[특징주] 코스모로보틱스, 휴머노이드 시장 성장 기대에 29%대 급등",
+    "src": "브릿지경제",
+    "ts": "2026-11-27 09:50",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95eG1wMlItME9wTmI3eWZZaW1OQThvaGhhc0ZnSUwwYUM1V1o3Q1J4eG82VUh0SU93c3R2S2NLNDRVZl9tbG9wOVF6ZnRxanNKTlFWdDJTZXc5QQ?oc=5"
+   },
+   {
+    "title": "[특징주] AI 로봇 학습데이터 국가표준 추진에 로봇株 '강세'",
+    "src": "뉴스핌",
+    "ts": "2026-11-27 09:49",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51b2x2bTZnVzhfRmRMNVdmUEZnVC1EX2tIT2paOEx4QkVUNS1nc21kUUtYT1Y4a2dQbVNGUEFmUXJQRmVRQ0EzaTJwbUw3SGFkUVVvaFlzMXN3ZFZ5?oc=5"
+   },
+   {
+    "title": "[특징주] 안랩, 보안규제 강화 기대감에 장 초반 9%대 급등",
+    "src": "Chosunbiz",
+    "ts": "2026-11-27 09:49",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQWJ3blppMDgxM1ZGMTNIeU5SdllzUGFpbzNHRW5zZUJSUkRKZHZiZGQwX0lnbUJKTXd3MFpBUHlQWmJoWVNfSVRkYU1Mbng3Qk43M05JMjJOdTF1Z0N3bE1LV3JoNUJ5QWh4V3pqVlpUYldzM2lYY3VXTkNXM0hfRFpnNk5UaEJmYkdCTDlqN1BWeTcyMW1LRlluR0nSAZwBQVVfeXFMT0Fid25aaTA4MTNWRjEzSHlOUnZZc1BhaW8zR0Vuc2VCUlJESmR2YmRkMF9JZ21CSk13dzBaQVB5UFpiaFlTX0lUZGFNTG54N0JONzNOSTIyTnUxdWdDd2xNS1dyaDVCeUFoeFd6alZaVGJXczNpWGN1V05DVzNIX0RaZzZOVGhCZmJHQkw5ajdQVnk3MjFtS0ZZbkdJ?oc=5"
+   },
+   {
+    "title": "[특징주] 사우디 정유 시설 공격에 방산株 급등⋯LIG디펜스 10%↑",
+    "src": "아이뉴스24",
+    "ts": "2026-11-27 09:48",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5USTVrT2diYklydi1McUV4T0QtUVhacVBCeEZVUjV4Z1JITlJsT01QTTFhd2JKTzhkeGRCWlUyYXZIRDBPU1l2WTJuSQ?oc=5"
+   },
+   {
+    "title": "[특징주] 아리바이오 직상장 소식에…아리바이오홀딩스 6% 급락",
+    "src": "Chosunbiz",
+    "ts": "2026-11-27 09:46",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQjFKVGNGTjA3WjNDYV9IQVhuanpZTnF0LURIV1RTV3piQkZCNWVsQjJ1TFluOWxLTlNPb1Z4dWpiSkFwYVZfSlliUGxiV0tUYXpWdDY3dVNlRFdMQnVCRVJrQVpuMFAzZ0hvSC1HWTFBOUJYbXpWa3RFSzFaMUJWWmR2WEFIb2ZP0gGcAUFVX3lxTE8wa0otWHFZTXlQUnR4aUFCQlRma2pDZUdwWDFCN3BfdTdQVXRoUHRyQnBYY2FodkMyZ2tubFU5QXVaLTRJNlNhWFdIVXhwVXoyWDlLMjlCTXJHaDU2bk9JNkwtQk5QdXdMU0V0NmdwUnYzajhXblpENmJkTGhSazc2UUk1VkkzNWhrSVgwaHZaNmM3akxSVWZkajNkVg?oc=5"
+   },
+   {
+    "title": "[특징주] 현대오토에버, AI·로봇 신사업 성장 기대감에 7%대 급등",
+    "src": "Chosunbiz",
+    "ts": "2026-11-27 09:44",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOY09MeUUtRGE3dlBYdkRIaWNyd05CZEhqSTRVMXJPOWpITHk2SnI5NHJjWXAxZ1VvYVN1TllsczczakRvcm5ING5Fak1NQWUxdGJHSWY5NUZuRHZNcExoX2d5RnB2cnpMcFNqbXJ4Z0VlbG54ZkMzTDRmUXY1c0RfeWtWYzMxV1NvZkFvYy0wLThOVzRfaUo2OHM1QnLSAZwBQVVfeXFMTmNPTHlFLURhN3ZQWHZESGljcndOQmRIakk0VTFyTzlqSEx5NkpyOTRyY1lwMWdVb2FTdU5ZbHM3M2pEb3JuSDRuRWpNTUFlMXRiR0lmOTVGbkR2TXBMaF9neUZwdnJ6THBTam1yeGdFZWxueGZDM0w0ZlF2NXNEX3lrVmMzMVdTb2ZBb2MtMC04Tlc0X2lKNjhzNUJy?oc=5"
+   },
+   {
+    "title": "[특징주] 이스트소프트, AI·보안 테마 매수세 유입에 급등...알약·에이전틱 AI 부각",
+    "src": "와이드경제",
+    "ts": "2026-11-27 09:43",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tYWl3LWtuTWYySk56TTMxdlR2R1dnM1BfZW1uOW41N1hJeU4xcDQxTTZJdnlhcjlfbnBmaU5PTVpHbzRvTTNycEJEUXJlTlNic2ZVenQ5ZXZoYjBTWUVSSjdpS29XdVB6dVc3eQ?oc=5"
+   },
+   {
+    "title": "[특징주] 삼성전자 휴머노이드 공개 기대감에…로봇주 上",
+    "src": "Chosunbiz",
+    "ts": "2026-11-27 09:42",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUklyMEQ3WUthYW9ZaHg1eWkwLVpVU2ljT3QxRXNOVE8xdVRlRkROM25say1xMFJzQU5TWnFLNVB0TnBLd29CSHFjdmZLZzFWSGhveThKTXpWZGc1cWt0aHZqT01wZVBmUXhnbmpVaVJSWnJ6eTVvVEZvNlQyMHhWWDY1S3BqV2010gGcAUFVX3lxTE03WkIyMzJDdDRrWTNiTGtGSVFqVEhpRjh1a3M1YXI0RlpWQnE3dFZjdFA5TGM3UVJ5YXkyVXl5bGlZR0U4YmN3MUthcjhyZ1FMNXRTZ0FRZHlmTGx6UGl1ZHdCOWNqbTdOOTVnLXVDQTljU0puaFlSQ0E4MjlRXzZLSUwwQ0dHV0k5TzFzd3JvbWl3Y19qSlAzNWU5RQ?oc=5"
    }
   ],
   "market": [
    {
-    "title": "주식 전문가마저 생방송 중 눈물…\"힘든 시장인데 잘 이겨내셔야\"",
-    "src": "주간조선",
-    "ts": "2026-11-27 02:21",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1jbTJadUwwclVjWjlXSFV4SEZ6cUpPck41WDQ4MWMxMWJ4UVJlM19wdjg1QjI2QS1Oc0txQzY1QWI5S25ScWtuZU5wYm5ReTRVa0xZcHpCNFdQR0ZyZTVmbGk3VzEwUHh2LU9n?oc=5"
+    "title": "코스피, 3% 이상 상승세…코스닥은 6% 급등에 '매수 사이드카'",
+    "src": "글로벌이코노믹",
+    "ts": "2026-11-27 13:02",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOekhCdHB4ZjA3bnpGMThYT3F5bnVYMHNwSEhvSnVsS3h4S2ZxckRWV2pPWTB4alE1andHMmtlcmxjOVhrYi1HaUZQSzhsWC12SEFvX0JHdUhaNWwtQ3A2dHhDSWozVWY1Tm15YXF4YnhJN1ZNYWFkN2ZkZ1hWdnhzaEpOWVBvQm9y?oc=5"
    },
    {
-    "title": "미국증시 추수감사절 휴장…블랙프라이데이 한국시간 28일 새벽 3시 마감",
-    "src": "강릉뉴스",
-    "ts": "2026-11-27 01:45",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAwMUJDRkpGVUUzYUhINWh1eHFsR3JmVWs0S1owTDFRanlUYVh2amdYVEtzSUlwekp4NXJ2UDZkME15ZnJld2lIeTg1bWtsS0hiVVVJQUZ1X0hjM0RVelVpVkFjME10dzhNZVVwMFROQQ?oc=5"
-   },
-   {
-    "title": "\"외국인 투기 세력 겁먹게 해야\"…증시 급락에 전문가의 조언",
-    "src": "뉴시스",
-    "ts": "2026-11-27 00:00",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JbE1ETDF0VjlEM00tVVhGcGJSemRrOXNDM080R1RJQThNNkgyemJMZF9IM1lNelUyOWdCOWkzTDJJWE9JUjcxU3JLZGptcWl3ZFVYZDUyWHVla1hXOVZ6ZdIBeEFVX3lxTE9vcC15Tlg1RmRIbXJmQVY5SHN4NVY2NzZuWlJkMERCYXNneUs1ZDJTa0o1WndPeUZYSkh5dE5MTEd0NzFrZVZ0Ml9oY25KSEV0YkRaVHFHLU52empzVVg0b3drcVZMR2d2UTNya1N0TUFpUHRRY0lFZA?oc=5"
-   },
-   {
-    "title": "코스피 주저앉았는데 환율은 잠잠…금융위기 때와 다른 이유",
-    "src": "뉴시스",
-    "ts": "2026-11-27 00:00",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA0T3ZOY0lCUjRSVnhvVGVQRFZocDlQQTNOaDN5d1Y0V0NhS0dhT0JOeVBESzNSeWYwSFJnNEcwNDA3V2FNSW5Na0lqU0RkM3hlRUYtNFBpNFVsV1VwMXIyMNIBeEFVX3lxTE5VTk55OWEtTjdzTXdZUlJ4WmRMTFV0ZzlRb0JRX0JmdU9fM3ZJd2RUcjRmcW1mcGZ2QU5yNHAxa3VFc3phUXYzZGRoZVBLclZRMDRNQ2NQbkFEeW1ZYXR3YWlDSkpBaUdoSXdHMThTdnhnc2VwcUpoLQ?oc=5"
-   },
-   {
-    "title": "[마감시황] 기관 7508억 순매수에 코스피 강보합…항공주 급락",
-    "src": "자본시장뉴스",
-    "ts": "2026-11-26 21:43",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tZGZieDByeFlHeGlPYTh5LTg1ckQyOVhXS0toQVNKR0tENGpwWXNqVHJwZkNqeXppRHR3M1VqUXd4QjN1WjNpSTZCZ2tSOGszMm1NaXJ0THVhUzh6WjYzaG9vTE9udE0?oc=5"
-   },
-   {
-    "title": "코스피, 기관 순매수세에 강보합 마감",
-    "src": "베타뉴스",
-    "ts": "2026-11-26 21:40",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PMjRpVmZodGQ1UGgyQkM2dnFiUGhLZ1dFb1B6SmMwZzJVQ0pESXo2LTBMVGFlSXBZY3dDMDVvQnNaTEttOERsNkZzT3REZ1NUWGlVZzhhalA1QXpaQkJkSS11R3A?oc=5"
-   },
-   {
-    "title": "코스피, 금리인상에 뒷심 부족…4,700선은 회복",
+    "title": "코스피 4,800선 회복…코스닥 6% 급등",
     "src": "연합뉴스TV",
-    "ts": "2026-11-26 20:44",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yOGpCQ1ZTSDVBNEQ3RzZZNkRFVi1veHE2UWQ5Um4yLVhfVEx3MHdoaGlrY01waHhoNnRVYzAzNEEtTk9QYUV6MHFTZnJPZkw3VWdGLTlOMjRiQnhTZ202emhkNUtvNjg?oc=5"
+    "ts": "2026-11-27 12:56",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NOHJOTk5nSFY0b3I1S3BZMWxQdHdWNE44ZTFFbVFUb1RTRTZWZFdJTmxwS3F6dDhyY1ItRHFOZzNNN2ZncHZZNFlLQlBDQ1BtX040Rm1VU2Fxdms0cFNSRFBNM2FaZzA?oc=5"
    },
    {
-    "title": "[亞증시-종합] 기술주 반등 속 日·臺·홍콩↑…중국 혼조 |",
-    "src": "연합인포맥스",
-    "ts": "2026-11-26 20:34",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9xam1sTE1kVngtY3I4aXNEaUFPRE8yRmYyLXdiTWVvZ2EzNnRUSW9WQ3NkWWpfWEpfS2wtY3VBNFdJYjVPN2ZTZkhXNmpHOEJKT3J0VDdTNk1VMkxUR01mVGthTTZNZmVoS0ZSaGljamNVMk5Z?oc=5"
+    "title": "코스피 2%대·코스닥 5%대 급등…외국인 매수세에 증시 반등",
+    "src": "산경투데이",
+    "ts": "2026-11-27 12:50",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9DSzhlSjNmd3ZVUlJsanZRUlZrOHhBb1pNeDVaNWgzNUtLdWtNYThIdXdscmRJT2pTVWgyVEFvTlVFTWJ1bmVyS1JEQnQzSDdicU5WUXpTcGcxakFkdkhjMmtIcUpESWdYMV9NWmYyY1XSAXRBVV95cUxQcFFaS0FVZ0Z3cUdCSVoyemlHZDVlRURnSkpvd3hlbnlXcTl0dTMzRXZPTER0SGttUldNMkxKZG1jZjBtQkNUNGRfNXhmM1pCS2NncWtRcUNCUllfUHU1YTJtR3NXclFwVG1JV1ZCclkxVGFVRA?oc=5"
    },
    {
-    "title": "유승민, 증시 급락에 李 정부 비판…“주가를 정치적 목표로 삼으면 안 돼”",
-    "src": "세계일보",
-    "ts": "2026-11-26 19:08",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAxd2ZmMHlXRmZPNzlsWUtFS2p3RlpOQUhwdlJ0MnNHbkZKY0s5Q29lanZTNlF4Zmg5ZWlDdWJqWXB3Q1RmamdPTDh0NVQ3Zm9H0gFUQVVfeXFMT3lWZXZrZDB4WlFhcTB1Yzc3STY1VllrbDdCTkF6cmFudEx0OWd4ZGgyeVg0ZDdMR2wxMFdnanBvZmtJa0lzdXRmcUU1WjNaYnFpbVhT?oc=5"
+    "title": "외국인 돌아오고 로봇주 뛰고…얼어붙은 투자심리 살아나나",
+    "src": "진일보 | 전남일보",
+    "ts": "2026-11-27 12:46",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9oUHNJM3A0M2xWWFNQQ213U2kwZHRNSTRYSVN1WmNsOGxELXlQTlQ3Ti1VQ3YwYTc5bXVFc21Lb0F5S2hMOVE1dVVaVnM1QjZUUGxqNUU4TWZnM21lemhOczVqZ0ZJMDBaWk5IdkRmNA?oc=5"
    },
    {
-    "title": "[올댓차이나] 홍콩 증시, 저가 매수로 8거래일 만에 반등 마감… H주 1.47%↑",
-    "src": "뉴시스",
-    "ts": "2026-11-26 18:53",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04RUszdFF4MWpZUkNUOEJKQzYzUVl5TXQ3VjVQRXlqSjE5Q0lrTTVnOEp3N1hObmIzYTdTM1VOdERLQnY3eG1oSjQ1ei15VlZvTC1YN2doVG1aSzF1RURCcdIBeEFVX3lxTE5pdkxCd2ZXQl91LXl3MUdJQ3dHdmxQLXJQRDJaYWNKbXM1NlVYM3lzRlY2SldaUjJORU0wTmdsM0FPbVVCa3F0RVhSU0JyNHREbk1wNm5JMm1odnpuU25jdERxQlRLOGQyNVpJV1JCV01WWHhlYTRtYw?oc=5"
+    "title": "엔비디아발 'AI 조정' 잦아드나…코스피·코스닥 일제히 급등",
+    "src": "연합뉴스",
+    "ts": "2026-11-27 12:39",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FOURBeTdIcXRjQ0x4UzFZRzI2ZlN1RFNxZFNWYlM4dzM3dG52eVl3aTRfd3FZcWp2VjVsSnFVUmtkbElFZktWRldHMXdWYUJ6ZHZLRWZtNWNBNUHSAWBBVV95cUxOVllvUkZVcm5FZjFWSDFnd3BkNldrcnNXc1dna2ktUkZiVjBDNDZhLVVZY052elBfbUMyMXNLWG9EeDJ3SHplVE5FN2lGVTNtVWJQY3h1MVhudC14aWtxbUI?oc=5"
    },
    {
-    "title": "[베트남 증시] 美 '최고 35% 관세' 직격탄에 3.4% 급락…VN지수 1,630선 붕괴",
-    "src": "뉴스핌",
-    "ts": "2026-11-26 18:48",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9oUG1WWWxUMFNzWGpBbzQyNHZhbEI1T1ZVSW41NE91U1BxVVRhMFVhU1ZVdVdsUUdZSF93ZXQ1SlppR0RfRzhZMG5hLTZncFFfc3lIbFRhdkR0Rkpz?oc=5"
+    "title": "코스피 장중 4800선 회복… 코스닥 6%대 급등",
+    "src": "경북신문",
+    "ts": "2026-11-27 12:22",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9QNFJ6LVdIQXdySEtfOUdOb1NySTZObWt6a2ZMUFlzQ3czd2taZTBfb2lwMkpmOWRIX0FFaTBUWVE4dXRoV1FyaFRVTktwckFtM3N2MEVRMlQ?oc=5"
    },
    {
-    "title": "코스피, 기관 매수세에 4710선 상승 마감...미래에셋벤처투자 ‘급등’도",
-    "src": "한국증권신문",
-    "ts": "2026-11-26 18:45",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Hdmt6ZnM0RnNWZHdRQ0pvcnJ4MG9PTWpVMnhzSmhmSUZuMUdDQ2JIZW5CSDBqODdfajdzcm5CWF96b2VwLXZKUDJuSkU1S0JTS0tELXl3VHJMM18yeUJfWTVpOFM5WUxEQmN3?oc=5"
+    "title": "닷컴버블보다 큰 충격?…경제지표로 본 AI발 증시 급락",
+    "src": "딜사이트",
+    "ts": "2026-11-27 12:14",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9yM1QwZ1NRbWM4cFZoR013MGo0ZE1NeU1TcWZyN3I5eVhPa2FaTEZUYkpKdWZpWG1RRG5fWWNsT1dKY1ZVakVCMXdIRW1PU1E?oc=5"
    },
    {
-    "title": "일상이 된 사이드카…롤러코스터 증시 언제까지",
-    "src": "서울경제TV",
-    "ts": "2026-11-26 18:38",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE55d25CVEh1MFFoaDR0MEExVE12b1JXRi0yX2pOSEo0STVhTzRtZXA3NVVZVTdxTTNibEdRbXlCNnNEQmt4V3N2MDN0aEFfeWN0UXFhNnk1Rnh6ZHhaMGMwd2pzUFI?oc=5"
+    "title": "[종합] 코스닥 5%대 급등…증안펀드 기대에 3거래일 만에 매수 사이드카",
+    "src": "뉴스웍스",
+    "ts": "2026-11-27 11:55",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8xVlhkTC1jNXc5SE9Vc3lLYXVWN3Nqd2JWTy1RLWFZTGhUazhBTW95enJEYUl5TXZjYXZjSzh6SHRXVWJXMmFKOE9ZUlpLSVhwWncwWUU5S3dwbGhVSWhObkkzOVhKY3UxQ0ZIRjFfZ9IBc0FVX3lxTE9YYlEzTUlpTWgyQ1JoWEZtSDFTd1ZMUDZELUt5Yl9tT1Q2dm8zN3FaNVZqWEJxbnBhekt6ZzRkM3pBbkhxYmU3cmNGY1ByMVRRcjlNVGpTcVZTT0xxU3ZUV2oteXk3ODFaZkFLV2l5UVhNdm8?oc=5"
    },
    {
-    "title": "[마감] 코스피, 외국인 매도 전환에 0.29% 상승 그쳐…장중 4800선 찍고 반납 By 알파경제 alphabiz",
-    "src": "Investing.com 한국어",
-    "ts": "2026-11-26 18:34",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9HdHdITGNiTUpmanBGSGt1cVpOelhIRVd3c05KOEQtVWF4UDV0Si1xWkt1S1BXZDRVYTkzV09RU01aRE1URWJiNjFWLVk1YXlDNmVRWnBHU3N5N0dVRV9BUl95Q0RadFB5UGFVU0p2UWo?oc=5"
+    "title": "증안펀드 기대에 코스닥 사이드카 발동 … 5%대 급등 690선 '점프'",
+    "src": "뉴데일리 경제",
+    "ts": "2026-11-27 11:53",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5SOXZ5bjRGRDdmeE1Mc0M1ZEg0ZXFwdDFLdkR5LWdPcHpFVFFvZXVUUEQ4eUZkNVJpZ28zdVB6SjRzV0Rvdmc0aklCcGdzek1ySENuMmgxV19VNkJtcWM4NmVuZlA1dThURW4yNmhqalJxTm5ZOEdoNGgwTdIBgAFBVV95cUxOQzBGMkhhbFhRMm5wRGRHX0MtUWlhQWlkMXdnbWFsRm1ubzRDNDhYUzVoZ0lXLTFtcDl6MkRRb3NYeURQQ3hXQlVpSGtVbFA4VjgwZ2IyTlYtazQwTnQySUxGb2Z2SWtRTjN4TUV2Q3N0VXFrRnI2RHYyVTItQmZ0aA?oc=5"
    },
    {
-    "title": "[중국증시-마감] 美 추가 관세·AI 투자 우려 속 혼조",
-    "src": "연합인포맥스",
-    "ts": "2026-11-26 18:09",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBnZzh6MmVSVnQxUEo4OE9TX3h0U0RiOUdWcDl5bWgxeHJ2TDZidl9nR1JOM2RTR0xRTXdGdVFFNnlOS0JYc3J0TE45RTk0OGpDTkVBVjlKS2dpMEM0VlRJdUcxRVJyYnc0VjNGUTFnY24?oc=5"
+    "title": "세계 증시의 충격, 대통령 책임론만으로 설명할 수 있는가?",
+    "src": "OhmyNews",
+    "ts": "2026-11-27 11:51",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBFM3Y0Um9FNmlIYWE5SHVRYjQ5SWdYemRjbTJiOXdVRnY3SnFKM1NTaTl0eXY2aXF2Q2NSQTZFWTdJWEdkNjJBb1JNVXZYT1RQLXVKbVU3cGRoaEFGTWZnV0JPMnNTVXViUGNJQmJLQnJNTVUybFF3?oc=5"
+   },
+   {
+    "title": "증안펀드 가동 기대에 코스닥 장중 6% 급등",
+    "src": "블루밍비트",
+    "ts": "2026-11-27 11:49",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5iRm5yTkRTdFVWWlF6M1I4UXJRSFJMTC1xV3QxeGtNZnN5NVFKWTd4WlYyVC1hVWc3QVp5dE1UT3pkblRMQmgtSkJ3Yy12X1JB?oc=5"
+   },
+   {
+    "title": "코스닥 장중 5% 급등‥'매수 사이드카' 발동",
+    "src": "MBC 뉴스",
+    "ts": "2026-11-27 11:33",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05VlE3MzJxZ0JTdUUtbW5ITXFzdERHc3NkQy1DR0pQSENGUGhGNU80cXlrSWZaVm5MZzdiaVk0Rk9tZ3V3bzZNMXk3dVlmZ2MxUFJzUU5ZVGQ2Tmp5MVRZZmU0RHVqdHRsNmpsclpSdTk4ajVQ0gF0QVVfeXFMUFh2bk13Q0FDU3FRdndkY2wxS2xaamZtanBzWF91alA4QWxybmV5cUEzSlQ0RkZ1aGRqWmg2UzBSSTJRQzdZb2ZLSl92cVIwTUhtWDF1WGRUNmlNeHlBTmtJaUpsVThPY0ZCS3ExczJ5MDNPZ1c?oc=5"
+   },
+   {
+    "title": "[오전시황] 증안펀드 기대에 코스닥 5%대 급등...코스피도 4800선 회복",
+    "src": "한국경제",
+    "ts": "2026-11-27 11:28",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBtLTBFcGJZQjFwRTZDTnNnQjNENkZwMUc5ZzhRWEplWURMclpsemR2NG9IQUowek5BRmstazhBYXg5WUtQeTlmdnJiVFlhY3k2VFQzdGdlZ25oUQ?oc=5"
+   },
+   {
+    "title": "코스닥 급등해 매수 사이드카...코스피는 4800선 회복",
+    "src": "BBS불교방송",
+    "ts": "2026-11-27 11:26",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1xQlVPQ1Bkb1Z0OU5WSTFvdTk3dHVmX1V2eXVXOUpUMHNtUjE2bjFPeHJBYk5JYnVVekVDMnhIMEN3ancySlk1eWJQUTJiVHlzQjFsYTZWaTNHMklyZFI2NV9iSklmNnRWamhj?oc=5"
+   },
+   {
+    "title": "증안펀드 기대에 코스닥 5%대 급등…코스피 4800선 회복",
+    "src": "이데일리",
+    "ts": "2026-11-27 11:26",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNT3BVcmhPazJtM3k0VDRlbkVEV29EYnJNb2hRWGk1VC1HOVJXT2liQlo1VkdiMDJzRWdkSnJ4c2RQY2RUTGFnYkRPMEdpV25HWVo1bm5TaVpkUFcteWstVnBuNk1jNFRBQmVrLUVCTWtFQ0ZiMXJMb2xQNEd4WjIxaQ?oc=5"
    }
   ],
-  "newsAsOf": "2026-11-27 02:40",
+  "newsAsOf": "2026-11-27 13:31",
   "gainers": [
    {
     "code": "271160",
