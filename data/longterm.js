@@ -1230,7 +1230,7 @@ window.DASH.longterm = {
   },
   "us": {
    "asOf": "2026-11-25",
-   "scanned": 558
+   "scanned": 557
   }
  },
  "kr": [
@@ -2766,7 +2766,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
-   "krRank": "서학개미 순매수 36위",
+   "krRank": "서학개미 순매수 35위",
    "prevClose": 198.12,
    "changePct": 1.84,
    "value": null,
@@ -2927,7 +2927,7 @@ window.DASH.longterm = {
    "sector": "",
    "marcap": 0,
    "themes": [],
-   "krRank": "서학개미 순매수 29위",
+   "krRank": "서학개미 순매수 27위",
    "prevClose": 31.81,
    "changePct": 0.5,
    "value": null,
