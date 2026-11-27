@@ -1,7 +1,7 @@
 // 자동 생성 파일 (scanner/build_live.py). 직접 고치지 마세요.
 window.DASH = window.DASH || {};
 window.DASH.live = {
- "asOf": "2026-11-28 01:55",
+ "asOf": "2026-11-28 02:25",
  "kr": {
   "news": [],
   "stockNews": {
@@ -36,16 +36,16 @@ window.DASH.live = {
     "url": "https://n.news.naver.com/mnews/article/008/0005447496"
    },
    "000660": {
-    "title": "화웨이 “美제재 덕에 기술 자립”… 中 ‘AI 반도체 3종 세트’ 가속...",
-    "src": "조선일보",
-    "time": "00:38",
-    "url": "https://n.news.naver.com/mnews/article/023/0004012233"
+    "title": "\"뭘 더 해줄 수 있나\" 한마디에‥머스크도 진땀",
+    "src": "MBC",
+    "time": "01:13",
+    "url": "https://n.news.naver.com/mnews/article/214/0001538606"
    },
    "005930": {
-    "title": "화웨이 “美제재 덕에 기술 자립”… 中 ‘AI 반도체 3종 세트’ 가속...",
-    "src": "조선일보",
-    "time": "00:38",
-    "url": "https://n.news.naver.com/mnews/article/023/0004012233"
+    "title": "\"뭘 더 해줄 수 있나\" 한마디에‥머스크도 진땀",
+    "src": "MBC",
+    "time": "01:13",
+    "url": "https://n.news.naver.com/mnews/article/214/0001538606"
    },
    "233740": {
     "title": "긴 악몽 끝나나…코스피 4.3% ·코스닥 8%대 폭등",
@@ -176,12 +176,6 @@ window.DASH.live = {
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ZbVRUR1BLRk40OW91LW1kaDNDVFNBNW5abEFzVVVJM1pZdVpLdkE4LTQzeGJtTkxBZEVQNTMxTk1UcmFIN3FMYWpjNFlSVkRGck1LVjdDTkFtc1hT?oc=5"
    },
    {
-    "title": "[특징주] 한국항공우주, 사우디 정유시설 공격 소식 '상승'",
-    "src": "전국매일신문",
-    "ts": "2026-11-27 11:21",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBoQXgtcXFtYy1pYURsUWFjcTZCUDFXdDlGWFBJRmRTRWh3dE1IZEhDaXJiSHcwVF9obDhzVDI0Slg1amFHUmgyalBRUkZtbjNnLVlSbUloZ0VZX2M0cGxMSHRkc29rWEk3TUJpenB3?oc=5"
-   },
-   {
     "title": "[특징주] 현대오토에버, 향후 휴머노이드 수요 확대 기대감 '상승'",
     "src": "전국매일신문",
     "ts": "2026-11-27 11:14",
@@ -192,12 +186,6 @@ window.DASH.live = {
     "src": "전자신문",
     "ts": "2026-11-27 11:01",
     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE10Q3dRSnU2U3J1RzRld0JUbDNTdVNTaldCZGZxQjM0cVdtMVBNTG8yalRmd3JFWHBsTXY5R0FCZ3ZLNGZ5Z0R6UEVORDZZUQ?oc=5"
-   },
-   {
-    "title": "[특징주] 로봇주 강세…휴머노이드 수요 확대 예상",
-    "src": "한스경제",
-    "ts": "2026-11-27 11:00",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1HVU9ZRnk5bkZpY21TNDJPV2NITzhFdWtCb1A4czVkMXhLU3FfUUpkYnNmX2pWcENLSFVpeTFBbmtUOTB4MS1CZER4anFXOUxjWG1OMTNmLUlNbVV1NmZnYjNQSVlqSndZdHM2SNIBb0FVX3lxTE9lbFFVUlR6XzY1MkVrRkY0MU1wbW9sN1kyakJXb1BiaW5xOVNFV0ZEa29LUzJSS2h0QjZNY3NwMzV3N3NTQmJEVDVrLWkwbHhzQXltdE9oV1N6WWRWR1hKWXYwMGJOalVaLVJRYnI0QQ?oc=5"
    },
    {
     "title": "[ET특징주] 706억 유증 청약 흥행·파이프라인 수익화 기대… 큐리언트, 주가 28%↑",
@@ -234,12 +222,6 @@ window.DASH.live = {
     "src": "뉴스웍스",
     "ts": "2026-11-27 10:07",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0xZzkzQlZWdWlSNGZZVUh6NEVzTl85YnZzZXlPaVRPZlNjX1hoa0stX0Jad1BpQ21laXdRbkVZelZkbFN6MHVhRV9SbXNfeERqbnVqSkQybmhmV3ZfWUxYQnF5aEdTX1k5MmpqaUtZVdIBc0FVX3lxTE9tM184SHRUcUtqMVhLOVUxLTJMNlF0V3Nrd1dSTFdXelVYMGtHRkNlNVlkTEhQVG50Nm85OEtObmp1R1hEWkFCNTZMWXBqcnh4V05PRHM1bkp3NGJEWFRJdlNDdXNuQWpjUm5Pa25MQlVGV00?oc=5"
-   },
-   {
-    "title": "[특징주] 라온로보틱스, 삼성 반도체 공장 로봇이 대체한다…국내 유일 웨이퍼 진공로봇 고객사 부각",
-    "src": "프라임경제",
-    "ts": "2026-11-27 10:05",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE14bzB0SS1BMlpRV2RkVU5wRzkzMDNKR0ZuSkFncU1CQVpKb0pZUDA3UDJFclY3TWZaR19QRlQtdDg5c09tYU5XYVFqSjV1ZWNlR0Ewd0t3MnZoSzRMaVFxN1B5Yw?oc=5"
    },
    {
     "title": "[특징주] 항암 신약 개발 기대감 속 면역항암제株 동반 급등",
@@ -284,12 +266,6 @@ window.DASH.live = {
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMTE2MWtPS1VrMUd3SmFFVG1GQmh6VHRiejh5NXltakVMekN4N3dCUWVCSTdjbzNXc2c0M2t4cVI2RUhwemJEOWY0dzRpdl9IdUJKQnRVZVI4NGU1T0oxYy1GVEpfa21ocEhZZ2pkaGdMLXZIb0lMSzZyek9ITGkyVkV0R0xPclZV0gGcAUFVX3lxTE03RUZWSS1XV0w0OW5uOFZybHFOOWRpcTk4Rm5JbnFBUHBzdDc5c0JpclRjLUFXc05LbWRKdmpsdWR3UlkxZGZjNUlRY29aWWpqbUxrM0o5LUlnYUtiaC1rSjgtU1kzRE14bEo3a09lQ2d0YVR6eDNrSjQ0bU5IQ2JmWWtwMlRIbUwwMEVaUExhLUdmR0lyb0JlNW5yMg?oc=5"
    },
    {
-    "title": "[특징주] 코스모로보틱스, 휴머노이드 시장 성장 기대에 29%대 급등",
-    "src": "브릿지경제",
-    "ts": "2026-11-27 09:50",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95eG1wMlItME9wTmI3eWZZaW1OQThvaGhhc0ZnSUwwYUM1V1o3Q1J4eG82VUh0SU93c3R2S2NLNDRVZl9tbG9wOVF6ZnRxanNKTlFWdDJTZXc5QQ?oc=5"
-   },
-   {
     "title": "[특징주] 안랩, 보안규제 강화 기대감에 장 초반 9%대 급등",
     "src": "Chosunbiz",
     "ts": "2026-11-27 09:49",
@@ -317,15 +293,51 @@ window.DASH.live = {
     "title": "[특징주] 로봇주, \"2040년 수요 800만대\" 전망에 장 초반 강세",
     "src": "연합뉴스",
     "ts": "2026-11-27 09:40",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xMG05WU1TMVdqRVczNE1DZVFpb1YxWnczZGkwMFBUQWZ2N2NFUHVoay1CYnFaOUZ1a2QyMVpSYV80WFJwQXBVOGhQY2xTWlVLV0dWYmxCYXlPemfSAWBBVV95cUxOSnBLWkpuM2JXU3lxaUJnamRTZE1kR0dWZnpCeTVQeExvV2M4d0t1UVpPdjVFSmZucWN5SUVyeFZoX2NwSk96SURXcU9tLThyQkhYTVVvelBQT3pQdHEzOWk?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KcEtaSm4zYldTeXFpQmdqZFNkTWRHR1ZmekJ5NVB4TG9XYzh3S3VRWk92NUVKZm5xY3lJRXJ4VmhfY3BKT3pJRFdxT20tOHJCSFhNVW96UFBPelB0cTM5adIBYEFVX3lxTE5KcEtaSm4zYldTeXFpQmdqZFNkTWRHR1ZmekJ5NVB4TG9XYzh3S3VRWk92NUVKZm5xY3lJRXJ4VmhfY3BKT3pJRFdxT20tOHJCSFhNVW96UFBPelB0cTM5aQ?oc=5"
+   },
+   {
+    "title": "[특징주] 대주주 LG 주식 담보 보도에…깨끗한나라 8%↑",
+    "src": "뉴스웍스",
+    "ts": "2026-11-27 09:40",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9KNnJVLVE4Q2o0bmRuTUppejVmeHRVaENZUzU0dEhGNUQtcDZyeHFFVEszc1paOUh6TVl1bmVlNHpPQ1BuN2M3ako2Y3N5NDFWLUs0RW52dHJQUUQtemRmSUlCdkc3RXJfbV9EOWNDRdIBc0FVX3lxTE9MSTRIa0phT2xEQTJCZzZzYzJvekR3QjFTdW5GbGVvNWN5V3hOOGpnQlRIMFJ0VTZRclhlYWdUT0h0dnhOa2s1c3hCa3BaQzZHcFpzdDNnR3M0d01obkhuSE0wYUlqUndEdnFUdDJuV0ZyOVU?oc=5"
+   },
+   {
+    "title": "[특징주] 유럽 랠리·외인 '사자'에도…삼성전자 약보합·SK하이닉스 1%대↓",
+    "src": "이투데이",
+    "ts": "2026-11-27 09:38",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mQVNUVnNkblZKRi0zblh3NDBIYzk4QzdmU2xJbzNHdThBNjRJelE4Z2JfX2J0Z05QNmNYendwTVRLYUh5UEFySlBFdXhOQTBiblMxRQ?oc=5"
+   },
+   {
+    "title": "[특징주] 제닉스로보틱스, 삼성전자·SK하이닉스 신규 팹 AMR 도입 확대 추진 소식에 상승세",
+    "src": "이투데이",
+    "ts": "2026-11-27 09:32",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBfUVNvbVJqdmVHdFR6T0xzcW5aNXVVbUR5Rzl3T2wxT0lCdEFLTnl0SWlVNFYzcTBqaTcwOUJPc3pkeThwTlNxQXVoUnF6aWd3Wl92aQ?oc=5"
+   },
+   {
+    "title": "[특징주] 방산주, 사우디 정유시설 공격 소식에 장 초반 강세",
+    "src": "매일경제 마켓",
+    "ts": "2026-11-27 09:26",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9SLURxSVNDSGROaU5acmFfSFFnSFBwZ0FQRDVvM1NSUTVfUmcxTC1FSnRWb3diWk5pVzJBaVpVRnJ2TWlnTVBvU1p5WDdDVk1tRGc?oc=5"
    }
   ],
   "market": [
+   {
+    "title": "\"코스닥 8%, 코스피 4% 쭉쭉\" 증안펀드 기대, 외인도 올라탔다 - 머니투데이",
+    "src": "머니투데이",
+    "ts": "2026-11-28 02:06",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5KYTEtcXBBUGpXdWVvVllISHQ3cmsxN3drdVZGbVNYNEpWVWdIckF5ZURCMUNFcEwwVGRLMjlQUHYtQkFiMDJUTFlxZE04ODF4S0NxSlFHU1h0c1VhN25mdHlfbUtTZmJJ0gFuQVVfeXFMT3pqTVZvX2FCMFIyUUpzbDBZdzJydGJaTDZ6QWg1RmhKcTNZbU12bV9VVHB0bWNkc1IxVDdMekRYaDYxck5Ua29GUThoR2MwY1ZNb3NoTXdJMzI3NXhleHVyZXVONnIyZW9idFZOWUE?oc=5"
+   },
    {
     "title": "[주간증시분석] 코스닥 주간 9.81% 상승…700선 반등 이어갈까",
     "src": "강릉뉴스",
     "ts": "2026-11-28 01:25",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5sdS0xd05kMWZaTkFRTE1IajR6TVM3dEtVZENsUXVuT0Z1YkJ1RGp6YXJYcTc0bU1BUFlsbVRmRk1ETURRVGNwd2c3aTVBOEYtcXlYQUIyLTlWWi1rOTFUSlJRUGZEQ29IbGpDS2ZvWQ?oc=5"
+   },
+   {
+    "title": "두산에너빌리티 주가 8%대 상승 마감…코스피 급등에 원전주 동반 강세",
+    "src": "CBC뉴스",
+    "ts": "2026-11-28 00:09",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54aEZHbUF6bTFuMS1TNy1XOTJMclNjWWpsRFBlWnRrWEZJSmptVDlfdWVwWlhQWEE5Q3QyUThTLThaS1hITEswa05YbUlZaUFvcHc1c0ZRNk5kVVR0OVJzODUtSkRSU28w?oc=5"
    },
    {
     "title": "[속보]뉴욕증시, 기술주 상승세 확산에 상승 출발…나스닥 1.5%↑",
@@ -398,21 +410,9 @@ window.DASH.live = {
     "src": "연합인포맥스",
     "ts": "2026-11-27 17:47",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBsTHdmS0ZnMTRUSFhES0ZIZzBNa21GdzBycF9qckl2M2Q5eDFmWExkaFk5NUk1ODgxUUlSMHVTZHR3NnNIanp1aVljc1g2angzenZWWlE2eWU4bGRmYkFhMTNwSFYwLUprbEVnUFdaaEc?oc=5"
-   },
-   {
-    "title": "바이오·로봇·배터리 급등…코스닥 간만에 웃었다",
-    "src": "한국경제",
-    "ts": "2026-11-27 17:45",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xczRlbDdLNUxScXltUmtpUWpFMVBLUEM3dHZidDlnN3QwUXZReXA5NU1ucjVxM0YwRFFEZTBVUG1KVVZrTk1ubXpnWmR4eXh0NWE5VmRlSWljZw?oc=5"
-   },
-   {
-    "title": "[1127마감체크] 코스피, 외인·기관 쌍끌이 매수에 4900선 회복... 코스닥 8% 상승",
-    "src": "인포스탁데일리",
-    "ts": "2026-11-27 17:20",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9LdllPbEUtN1NpXzE4ZkFwZ1RKT1pwcjkxU0Yxb2ozTW1jbGpNclowMnlManBJQW80TzZRVEMtTVFlUmpPcGdYOVNCd1hzU0FkTW0wOFk0WGNCbnpsRkx1NnlUT2pvTEtDY2txUjVGeUl2TzExeHc?oc=5"
    }
   ],
-  "newsAsOf": "2026-11-28 01:55",
+  "newsAsOf": "2026-11-28 02:25",
   "gainers": [
    {
     "code": "439960",
