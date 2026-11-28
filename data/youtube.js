@@ -1,13 +1,23 @@
 // 자동 생성 파일 (scanner/collect_youtube.py). 직접 고치지 마세요. 채널은 scanner/youtube_channels.json 에서 바꿉니다.
 window.DASH = window.DASH || {};
 window.DASH.youtube = {
- "asOf": "2026-11-28 04:26",
+ "asOf": "2026-11-28 11:39",
  "channels": [
   {
    "name": "815머니톡",
    "channelId": "UCCG6BEYjfQMGzypJw2EJCDQ",
    "handle": "@815moneytalk",
    "videos": [
+    {
+     "title": "주문해도 1년 기다린다! AI 반도체 공급망 최대 병목은 '이것'? / 5만전자 때와 너무 닮았다! 삼성전자·SK하이닉스, 폭락이 과도한 이유 | 이주연 대표",
+     "publishedAt": "2026-11-28 10:15",
+     "url": "https://www.youtube.com/watch?v=1k_FAaTxSTg"
+    },
+    {
+     "title": "외국인 1.5조 매수에 급등한 증시! 그런데 거래량이 아쉽다… 공매도 환매일 수도! 아직 안심할 때 아니다다 | 오로라투자자문 이지환 대표",
+     "publishedAt": "2026-11-28 08:30",
+     "url": "https://www.youtube.com/watch?v=7EknSm4X1tE"
+    },
     {
      "title": "[#찐시황] 꼬리 아홉 달린 여우 같은 외국인... 현물 1.9조 매수·선물 1.1조 매도, 도대체 무슨 속셈인가? 다음 주 상승장 믿어도 될까? (낙폭과대주) 김동엽 대표",
      "publishedAt": "2026-11-27 20:00",
@@ -22,16 +32,6 @@ window.DASH.youtube = {
      "title": "폭락했던 코스피, '이것'만 해결되어도 반전 시작된다. 연말·연초 돈이 몰릴 주식 '2가지' (폭락장) NH투자증권 소진웅 과장",
      "publishedAt": "2026-11-27 16:30",
      "url": "https://www.youtube.com/watch?v=SUGWGoo0Adk"
-    },
-    {
-     "title": "[#긴급시황] 일론 머스크도 삼성전자에 메모리 공급을 부탁했다? 삼성전자·SK하이닉스 장기계약 경쟁! AI 반도체 품귀 언제까지? | 박근형 부장",
-     "publishedAt": "2026-11-27 15:30",
-     "url": "https://www.youtube.com/watch?v=zg_iJPyzooE"
-    },
-    {
-     "title": "코스닥 장중 6% 폭등장, 이번엔 진짜 상승인가? 외국인, 기관 동반 수천억 매수! 숏커버링 아닌 진짜 상승 시작?ㅣ김태성 본부장",
-     "publishedAt": "2026-11-27 14:30",
-     "url": "https://www.youtube.com/watch?v=1MPrVFxgHyA"
     }
    ]
   },
@@ -40,6 +40,11 @@ window.DASH.youtube = {
    "channelId": "UCwSSqi-s0wcH6pJbH3YPZqQ",
    "handle": "@orlandocampus",
    "videos": [
+    {
+     "title": "(시황분석) 단기기술적 반등일수 있지만 반도체 멀티플이 너무 저렴하다!!!",
+     "publishedAt": "2026-11-28 09:15",
+     "url": "https://www.youtube.com/watch?v=oHBz_E3GvR4"
+    },
     {
      "title": "(시장전망) 지금의 하락세는 기관들의 수익력 보존을 위한 매도세이지 ai신뢰성이 무너져서 매도하는 것이 아니다!!!",
      "publishedAt": "2026-11-27 14:03",
@@ -59,11 +64,6 @@ window.DASH.youtube = {
      "title": "(시장전망) BOA의 리포트 분석을 통해 시장의 현주소를 알아보자",
      "publishedAt": "2026-11-25 15:42",
      "url": "https://www.youtube.com/watch?v=ijYMQm8Yrlw"
-    },
-    {
-     "title": "(시황분석) 변동성 장세가 나타나는 이유는?",
-     "publishedAt": "2026-11-25 06:23",
-     "url": "https://www.youtube.com/watch?v=3M6IiY1b2Xc"
     }
    ]
   },
@@ -105,6 +105,11 @@ window.DASH.youtube = {
    "handle": "@경제사냥꾼",
    "videos": [
     {
+     "title": "한국 투자자들이 꼭 알아야 하는 다음주 '한국 투자 포인트' (11.30~12.04)",
+     "publishedAt": "2026-11-28 10:00",
+     "url": "https://www.youtube.com/watch?v=LmBMTMJFXQ4"
+    },
+    {
      "title": "투자자들이 꼭 알아야 하는 다음 주 투자 포인트 (11.30~12.04)",
      "publishedAt": "2026-11-27 20:00",
      "url": "https://www.youtube.com/watch?v=K6T7JRN3o58"
@@ -123,11 +128,6 @@ window.DASH.youtube = {
      "title": "현시점 '최악' 수준으로 올랐다는 '역대급 세금 폭탄'(+종부세·건보료)",
      "publishedAt": "2026-11-27 16:27",
      "url": "https://www.youtube.com/watch?v=zJihoa3CZcA"
-    },
-    {
-     "title": "삼성전자 배당금이 겨우 '4,600원'밖에 안되는 진짜 이유",
-     "publishedAt": "2026-11-27 15:01",
-     "url": "https://www.youtube.com/watch?v=HIZgOf2COoU"
     }
    ]
   },
