@@ -23,9 +23,9 @@ window.DASH.usmarket = {
    "group": "주가지수",
    "name": "다우",
    "kind": "index",
-   "close": 50774.94,
+   "close": 50774.9,
    "changePct": 1.18,
-   "changeText": "50,774.94 (+1.18%)"
+   "changeText": "50,774.90 (+1.18%)"
   },
   {
    "group": "주가지수",
@@ -137,9 +137,9 @@ window.DASH.usmarket = {
    "group": "원자재·기타",
    "name": "비트코인",
    "kind": "usd",
-   "close": 60004.56,
+   "close": 60003.26,
    "changePct": -0.81,
-   "changeText": "60,004.56 (-0.81%)"
+   "changeText": "60,003.26 (-0.81%)"
   },
   {
    "group": "원자재·기타",
